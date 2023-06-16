@@ -105,6 +105,7 @@
 				"name": "Spyglass",
 				"row": 2,
 				"prerequisites": ["Waterskin"],
+                                "uniques": ["Enables embarkation for land units"],
 				"quote": "Over there and over the hills!"
 			},
 			{
