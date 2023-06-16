@@ -6,9 +6,8 @@
 //		"innerColor": [255,255,255]
 	},
         {
-		//nations
 		"name": "Carnage Empire",
-		"leaderName": "Çarlz Albert",
+		"leaderName": "Carlz Albert",
 		"adjective": ["Carnage"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
@@ -25,7 +24,7 @@
 		"hateHello": "What do YOU want?!",
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Corruption of the Arks",
+                "uniqueName": "The Butcher",
                 "uniques": ["[+2 Food] from every [Luxury resource]", "[+1 Food] [in all cities]", "[-5 Happiness] from every [Ark Monument]"],
 
 		"outerColor": [193, 0, 74],
@@ -67,6 +66,98 @@
 			"Generations","Dogmatic"],
         "spyNames": ["Sir Charles"]
 	},
+	{
+		"name": "New Sumeria",
+		"leaderName": "Gilgamesh II",
+		"adjective": ["Sumerians"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Caddle of Civilizations",
+                "uniques": ["[+2 Science] [in capital]", "[+1 Food] [in all cities]", "[+1 Science] per [2] social policies adopted"],
+
+		"outerColor": [236, 108, 43],
+		"innerColor": [255, 255, 255],
+		"cities": ["New Uruk","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "New Legion",
+		"leaderName": "Gaius Marcellus Nerva",
+		"adjective": ["Romanians"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [226, 166, 64],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Indisciplinato formatione",
+		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital", "[-20]% Gold cost of acquiring tiles [in all cities]"],
+		"cities": ["Rome","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Leander"]
+        },
+        {
+		"name": "New Incan Empire",
+		"leaderName": "Spipaku Mama",
+		"adjective": ["Incas"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [236, 214, 43],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Andine Culture",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
+			"[-50]% maintenance on road & railroads",
+			"No Maintenance costs for improvements in [Hill] tiles"],
+		"cities": ["Cuzco","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Tupac"]
+        },
         {
 		//nations
 		"name": "The Prism",
@@ -160,36 +251,6 @@
         "spyNames": ["Kassandra"]
     },
     {
-		"name": "New Legion",
-		"leaderName": "Gaius Marcellus Nerva",
-		"adjective": ["Romanians"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [226, 166, 64],
-		"innerColor": [255, 255, 255],
-		"uniqueName": "Indisciplinato formatione",
-		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital", "[-20]% Gold cost of acquiring tiles [in all cities]"],
-		"cities": ["Rome","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rossevelt"]
-    },
-    {
 		"name": "Mercenaries",
 		"leaderName": "Mei Yin",
 		"adjective": ["Mercenaries"],
@@ -244,6 +305,36 @@
 		"uniqueName": "The pawn sacrifices itself to defend the king",
 		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+1 Culture] [in all cities]"],
 		"cities": ["Terminal","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Rossevelt"]
+    },
+     {
+		"name": "Reapers",
+		"leaderName": "Smith",
+		"adjective": ["Reapers"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [132, 129, 186],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Studies for the Dark Lord",
+		"uniques": ["[+1 Science] from each Trade Route", "[+2 Science] from every [Camp]"],
+		"cities": ["Cancer","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
