@@ -335,7 +335,18 @@
 		"cost": 290,
                 "requiredResource": "Oil",
 		"requiredTech": "Flamethrower",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"uniques": ["[+190]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+        {
+		"name": "City Destroyer",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 50,
+		"cost": 300,
+		"requiredTech": "Flamethrower",
+		"uniques": ["[+190]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
         {
@@ -348,6 +359,17 @@
                 "requiredResource": "Metal",
 		"requiredTech": "Assault Riffle",
 		"uniques": ["[+33]% Strength <vs [Siege] units>"],
+		"attackSound": "throw"
+	},
+        {
+		"name": "Shotgun Survivor",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 60,
+		"cost": 290,
+		"requiredTech": "Assault Riffle",
+		"uniques": ["[+31]% Strength <vs [Siege] units>"],
 		"attackSound": "throw"
 	},
         {
