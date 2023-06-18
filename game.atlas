@@ -147,13 +147,6 @@ BuildingIcons/Cement Works
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Chainsaw Works
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
 NationIcons/Carnage Empire
   rotate: false
   xy: 4, 764
@@ -168,20 +161,27 @@ UnitIcons/Carno Rider
   orig: 752, 752
   offset: 0, 0
   index: -1
+UnitIcons/Cerato Rider
+  rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
 
 game6.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Coelacanth Fishing
+BuildingIcons/Chainsaw Works
   rotate: false
-  xy: 4, 4
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-ReligionIcons/Confused Arkhism
+BuildingIcons/Coelacanth Fishing
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -190,14 +190,14 @@ ReligionIcons/Confused Arkhism
   index: -1
 ResourceIcons/Coelacanth
   rotate: false
-  xy: 4, 764
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Concavenator Rider
+UnitIcons/City Destroyer
   rotate: false
-  xy: 764, 764
+  xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -210,26 +210,26 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Crossbow Armory
   rotate: false
-  xy: 4, 764
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Crossbow Survivor
+ReligionIcons/Confused Arkhism
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Daeodon Rider
+UnitIcons/Concavenator Rider
   rotate: false
-  xy: 764, 764
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Deinosuchus Rider
+UnitIcons/Crossbow Survivor
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -242,30 +242,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Disaster
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Desert Survivor
+UnitIcons/Daeodon Rider
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Desmodus
+UnitIcons/Deinosuchus Rider
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Dinopithecus
+UnitIcons/Desert Survivor
   rotate: false
   xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Desmodus
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -276,30 +276,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Dossiers Collection
+BuildingIcons/Disaster
   rotate: false
-  xy: 4, 4
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-NationIcons/Edmundium Empire
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Doedicurus Rider
+UnitIcons/Dinopithecus
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Dunkleosteous Rider
+UnitIcons/DireWolf Rider
   rotate: false
-  xy: 764, 764
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Doedicurus Rider
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -310,30 +310,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Electric Circuits
+BuildingIcons/Dossiers Collection
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Fabricators
+BuildingIcons/Electric Circuits
   rotate: false
-  xy: 4, 4
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/First Armory
+NationIcons/Edmundium Empire
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/First Base
+UnitIcons/Dunkleosteous Rider
   rotate: false
-  xy: 764, 4
+  xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -344,28 +344,28 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Fishing Place
+BuildingIcons/Fabricators
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Fjordhawk
+BuildingIcons/First Armory
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Flak Survivor
+BuildingIcons/First Base
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Flamethrower Survivor
+BuildingIcons/Fishing Place
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -380,28 +380,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Flint Recolection
   rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Fjordhawk
+  rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-NationIcons/Genesis
+UnitIcons/Flak Survivor
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Giga Rider
+UnitIcons/Flamethrower Survivor
   rotate: false
   xy: 764, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Griffin
-  rotate: false
-  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -414,26 +414,26 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Grill
   rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+NationIcons/Genesis
+  rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Heavy Stone Working
+UnitIcons/Giga Rider
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Hunt Place
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Herrera Rider
+UnitIcons/Griffin
   rotate: false
   xy: 764, 764
   size: 752, 752
@@ -446,30 +446,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Kibble Works
-  rotate: false
-  xy: 764, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Location
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Kapro Rider
+BuildingIcons/Heavy Stone Working
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Karkinos
+BuildingIcons/Hunt Place
+  rotate: false
+  xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Herrera Rider
   rotate: false
   xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Kapro Rider
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -480,30 +480,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Lost Islands
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Lyviatan Rider
+BuildingIcons/Kibble Works
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Maewing
+BuildingIcons/Location
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Mantis
+NationIcons/Lost Islands
   rotate: false
   xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Karkinos
+  rotate: false
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -514,14 +514,21 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Metal Fort
+UnitIcons/Lyviatan Rider
   rotate: false
-  xy: 764, 4
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-NationIcons/Mercenaries
+UnitIcons/Maewing
+  rotate: false
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Mantis
   rotate: false
   xy: 764, 764
   size: 752, 752
@@ -530,14 +537,7 @@ NationIcons/Mercenaries
   index: -1
 UnitIcons/Megalodon Rider
   rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Megalosaurus
-  rotate: false
-  xy: 4, 4
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -548,30 +548,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Metal Hatchets
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Metal Picks
-  rotate: false
-  xy: 4, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Metallic Mansion
+BuildingIcons/Metal Fort
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/MiniCannon
+BuildingIcons/Metal Hatchets
   rotate: false
   xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+NationIcons/Mercenaries
+  rotate: false
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Megalosaurus
+  rotate: false
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -582,30 +582,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/New Incan Empire
-  rotate: false
-  xy: 764, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/New Legion
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Mosa Rider
+BuildingIcons/Metal Picks
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Nameless
+BuildingIcons/Metallic Mansion
   rotate: false
   xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/MiniCannon
+  rotate: false
+  xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Mosa Rider
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -616,30 +616,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/New Sumeria
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/Nosti Utopia
+NationIcons/New Incan Empire
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Paracer Rider
+NationIcons/New Legion
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Parasaur Rider
+NationIcons/New Sumeria
   rotate: false
   xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Nameless
+  rotate: false
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -652,28 +652,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Picking Up Berries
   rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+NationIcons/Nosti Utopia
+  rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Picking Up Stones
+UnitIcons/Paracer Rider
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Pikemen Armory
+UnitIcons/Parasaur Rider
   rotate: false
   xy: 764, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Place Mark
-  rotate: false
-  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -684,14 +684,21 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Preserving House
+BuildingIcons/Picking Up Stones
+  rotate: false
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pikemen Armory
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-ReligionIcons/Protestant Arkhism
+BuildingIcons/Place Mark
   rotate: false
   xy: 764, 764
   size: 752, 752
@@ -699,13 +706,6 @@ ReligionIcons/Protestant Arkhism
   offset: 0, 0
   index: -1
 UnitIcons/Plesio Rider
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Ptera Rider
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -718,30 +718,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Radio Connection
+BuildingIcons/Preserving House
   rotate: false
-  xy: 764, 764
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Raft Dock
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/Qamar Empire
+ReligionIcons/Protestant Arkhism
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
+UnitIcons/Ptera Rider
+  rotate: false
+  xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
 UnitIcons/Purlovia Rider
   rotate: false
-  xy: 4, 764
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -752,30 +752,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Refining Forges
+BuildingIcons/Radio Connection
   rotate: false
-  xy: 764, 4
+  xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-NationIcons/Ragnarok Empire
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/Reapers
+BuildingIcons/Raft Dock
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Raptor Rider
+NationIcons/Qamar Empire
   rotate: false
-  xy: 4, 4
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+NationIcons/Ragnarok Empire
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -786,30 +786,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Regular Lands
+BuildingIcons/Refining Forges
   rotate: false
-  xy: 4, 764
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Riffle Factory
+BuildingIcons/Regular Lands
   rotate: false
   xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Rex Rider
+NationIcons/Reapers
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Rhino Rider
+UnitIcons/Raptor Rider
   rotate: false
-  xy: 764, 764
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -820,36 +820,70 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Rockwell House
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Rockwell Stories
-  rotate: false
-  xy: 4, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Second Armory
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Sarco Rider
+BuildingIcons/Riffle Factory
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
+BuildingIcons/Rockwell House
+  rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Rex Rider
+  rotate: false
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Rhino Rider
+  rotate: false
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
 
 game26.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Rockwell Stories
+  rotate: false
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+BuildingIcons/Second Armory
+  rotate: false
+  xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarco Rider
+  rotate: false
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Shadowmane
+  rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+
+game27.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -861,14 +895,7 @@ BuildingIcons/Smithies
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Soups Works
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Shadowmane
+UnitIcons/Shotgun Survivor
   rotate: false
   xy: 4, 764
   size: 752, 752
@@ -882,34 +909,7 @@ UnitIcons/Sniper
   orig: 752, 752
   offset: 0, 0
   index: -1
-
-game27.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/Sparkpowder Works
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Spike Walls
-  rotate: false
-  xy: 4, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Spino Rider
-  rotate: false
-  xy: 764, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Stego Rider
+UnitIcons/Snow Owl
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -922,30 +922,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Stone Fort
+BuildingIcons/Soups Works
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Stone Irrigation Sistem
+BuildingIcons/Sparkpowder Works
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-ReligionIcons/Swamp Arkhism
+BuildingIcons/Spike Walls
   rotate: false
-  xy: 764, 4
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Survivor
+UnitIcons/Spino Rider
   rotate: false
-  xy: 764, 764
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -956,28 +956,28 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Sword Armory
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taming Den
+BuildingIcons/Stone Fort
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Taming Scout
+BuildingIcons/Stone Irrigation Sistem
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-NationIcons/The Fjords
+UnitIcons/Stego Rider
+  rotate: false
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Survivor
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -990,30 +990,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Third Armory
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/The Prism
-  rotate: false
-  xy: 4, 764
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-NationIcons/The Resistance
+BuildingIcons/Sword Armory
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Theri Rider
+BuildingIcons/Taming Den
   rotate: false
   xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+BuildingIcons/Taming Scout
+  rotate: false
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+ReligionIcons/Swamp Arkhism
+  rotate: false
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -1024,30 +1024,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Tribal Mark
+NationIcons/The Fjords
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Water Conservation
-  rotate: false
-  xy: 764, 4
-  size: 752, 752
-  orig: 752, 752
-  offset: 0, 0
-  index: -1
-UnitIcons/Trike Rider
+NationIcons/The Prism
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Tropeo Rider
+NationIcons/The Resistance
   rotate: false
   xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Theri Rider
+  rotate: false
+  xy: 764, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -1058,28 +1058,28 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Water Recolection
+BuildingIcons/Third Armory
   rotate: false
   xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Water Tower
+BuildingIcons/Tribal Mark
   rotate: false
   xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-ReligionIcons/Weird Arkhism
+UnitIcons/Trike Rider
   rotate: false
   xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-ReligionIcons/West Arkhism
+UnitIcons/Tropeo Rider
   rotate: false
   xy: 764, 4
   size: 752, 752
@@ -1092,205 +1092,30 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Wood Works
+BuildingIcons/Water Conservation
   rotate: false
-  xy: 4, 1292
+  xy: 4, 4
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-BuildingIcons/Wooden Fort
+BuildingIcons/Water Recolection
   rotate: false
-  xy: 4, 532
+  xy: 764, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
-LeaderIcons/Aleksander
+BuildingIcons/Water Tower
   rotate: false
-  xy: 1524, 1788
-  size: 256, 256
-  orig: 256, 256
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
   offset: 0, 0
   index: -1
-LeaderIcons/Amanda
+UnitIcons/Velonasaur
   rotate: false
-  xy: 390, 268
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Boris
-  rotate: false
-  xy: 764, 730
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Carlz Albert
-  rotate: false
-  xy: 1062, 1028
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Emilia
-  rotate: false
-  xy: 1524, 1524
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Erika
-  rotate: false
-  xy: 1788, 1524
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Gaius Marcellus Nerva
-  rotate: false
-  xy: 1524, 1260
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Gilgamesh II
-  rotate: false
-  xy: 1788, 1260
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Helena Walker
-  rotate: false
-  xy: 654, 202
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Ingalo Enkulu
-  rotate: false
-  xy: 918, 202
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-LeaderIcons/Mei Yin
-  rotate: false
-  xy: 1590, 732
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Allosaurus
-  rotate: false
-  xy: 1788, 1788
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Basilosaurus
-  rotate: false
-  xy: 4, 146
-  size: 378, 378
-  orig: 378, 378
-  offset: 0, 0
-  index: -1
-ResourceIcons/Blue Gem
-  rotate: false
-  xy: 390, 4
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Green Gem
-  rotate: false
-  xy: 764, 466
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Lystrosaurus
-  rotate: false
-  xy: 1326, 996
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Megalania
-  rotate: false
-  xy: 1590, 996
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Megaloceros
-  rotate: false
-  xy: 1062, 764
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Megalodon
-  rotate: false
-  xy: 1326, 732
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Moschops
-  rotate: false
-  xy: 1028, 500
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Obsidian
-  rotate: false
-  xy: 1292, 468
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Oil
-  rotate: false
-  xy: 764, 994
-  size: 290, 290
-  orig: 290, 290
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ovis
-  rotate: false
-  xy: 1556, 468
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Paraceratherium
-  rotate: false
-  xy: 1182, 204
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Phiomia
-  rotate: false
-  xy: 1446, 204
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Purlovia
-  rotate: false
-  xy: 1710, 204
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Wyvern
-  rotate: false
-  xy: 764, 1292
+  xy: 4, 764
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
@@ -1301,681 +1126,910 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-EmojiIcons/Culture
+BuildingIcons/Wood Works
   rotate: false
-  xy: 1945, 1761
-  size: 50, 50
-  orig: 50, 50
+  xy: 764, 764
+  size: 752, 752
+  orig: 752, 752
   offset: 0, 0
   index: -1
-EmojiIcons/Faith
+BuildingIcons/Wooden Fort
   rotate: false
-  xy: 1945, 1703
-  size: 50, 50
-  orig: 50, 50
+  xy: 764, 4
+  size: 752, 752
+  orig: 752, 752
   offset: 0, 0
   index: -1
-EmojiIcons/Food
+ReligionIcons/Weird Arkhism
   rotate: false
-  xy: 1945, 1645
-  size: 50, 50
-  orig: 50, 50
+  xy: 4, 764
+  size: 752, 752
+  orig: 752, 752
   offset: 0, 0
   index: -1
-EmojiIcons/Gold
+ReligionIcons/West Arkhism
   rotate: false
-  xy: 1945, 1587
-  size: 50, 50
-  orig: 50, 50
+  xy: 4, 4
+  size: 752, 752
+  orig: 752, 752
   offset: 0, 0
   index: -1
-EmojiIcons/Happiness
+
+game35.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Aleksander
   rotate: false
-  xy: 1945, 1529
-  size: 50, 50
-  orig: 50, 50
+  xy: 4, 622
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-EmojiIcons/Production
+LeaderIcons/Amanda
   rotate: false
-  xy: 1393, 1478
-  size: 50, 50
-  orig: 50, 50
+  xy: 764, 1470
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-EmojiIcons/Science
+LeaderIcons/Boris
   rotate: false
-  xy: 1025, 676
-  size: 50, 50
-  orig: 50, 50
+  xy: 4, 358
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Carlz Albert
+  rotate: false
+  xy: 1326, 1768
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Emilia
+  rotate: false
+  xy: 4, 94
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Erika
+  rotate: false
+  xy: 1590, 1768
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Gaius Marcellus Nerva
+  rotate: false
+  xy: 764, 1206
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Gilgamesh II
+  rotate: false
+  xy: 268, 622
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Helena Walker
+  rotate: false
+  xy: 268, 94
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ingalo Enkulu
+  rotate: false
+  xy: 654, 942
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Mei Yin
+  rotate: false
+  xy: 532, 150
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Raia
   rotate: false
-  xy: 4, 1788
+  xy: 1028, 1206
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Sir Edmund Rockwell
   rotate: false
-  xy: 4, 1260
+  xy: 1556, 1504
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Smith
   rotate: false
-  xy: 268, 1524
+  xy: 1292, 1240
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Spipaku Mama
   rotate: false
-  xy: 532, 1788
+  xy: 1556, 1240
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/The Player
   rotate: false
-  xy: 268, 1260
+  xy: 1324, 678
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Tifl Alqamar
   rotate: false
-  xy: 532, 1524
+  xy: 1324, 414
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-ReligionIcons/Arkhism
+ResourceIcons/Allosaurus
   rotate: false
-  xy: 1729, 1600
-  size: 100, 100
-  orig: 100, 100
+  xy: 390, 1008
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Amarberry
   rotate: false
-  xy: 532, 1288
+  xy: 1588, 476
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
-ResourceIcons/Azulberry
+ResourceIcons/Basilosaurus
   rotate: false
-  xy: 4, 27
-  size: 225, 225
-  orig: 225, 225
+  xy: 4, 886
+  size: 378, 378
+  orig: 378, 378
   offset: 0, 0
   index: -1
-ResourceIcons/Black Pearl
+ResourceIcons/Blue Gem
   rotate: false
-  xy: 1473, 1688
-  size: 120, 120
-  orig: 120, 120
+  xy: 1062, 1768
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Chitin
+ResourceIcons/Green Gem
   rotate: false
-  xy: 1768, 1819
-  size: 225, 225
-  orig: 225, 225
+  xy: 268, 358
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Cristal
+ResourceIcons/Lystrosaurus
   rotate: false
-  xy: 532, 819
-  size: 225, 225
-  orig: 225, 225
+  xy: 918, 942
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Fiber
+ResourceIcons/Megalania
   rotate: false
-  xy: 504, 586
-  size: 225, 225
-  orig: 225, 225
+  xy: 532, 678
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Keratin
+ResourceIcons/Megaloceros
   rotate: false
-  xy: 1601, 1688
-  size: 120, 120
-  orig: 120, 120
+  xy: 532, 414
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Lemon
+ResourceIcons/Megalodon
   rotate: false
-  xy: 1265, 1608
-  size: 200, 200
-  orig: 200, 200
+  xy: 796, 678
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Mejoberry
+ResourceIcons/Moschops
   rotate: false
-  xy: 1296, 1816
-  size: 228, 228
-  orig: 228, 228
+  xy: 796, 414
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Metal
+ResourceIcons/Obsidian
   rotate: false
-  xy: 768, 1291
-  size: 225, 225
-  orig: 225, 225
+  xy: 796, 150
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourceIcons/Oil
+  rotate: false
+  xy: 764, 1734
+  size: 290, 290
+  orig: 290, 290
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ovis
+  rotate: false
+  xy: 1060, 678
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourceIcons/Paraceratherium
+  rotate: false
+  xy: 1060, 414
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourceIcons/Phiomia
+  rotate: false
+  xy: 1060, 150
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourceIcons/Purlovia
+  rotate: false
+  xy: 1028, 1470
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Red Gem
   rotate: false
-  xy: 4, 1524
+  xy: 1182, 942
   size: 256, 256
   orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sand
-  rotate: false
-  xy: 1473, 1560
-  size: 120, 120
-  orig: 120, 120
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sap
-  rotate: false
-  xy: 1601, 1560
-  size: 120, 120
-  orig: 120, 120
   offset: 0, 0
   index: -1
 ResourceIcons/Sarcosuchus
   rotate: false
-  xy: 268, 1788
+  xy: 1292, 1504
   size: 256, 256
   orig: 256, 256
-  offset: 0, 0
-  index: -1
-ResourceIcons/Stone
-  rotate: false
-  xy: 1265, 1480
-  size: 120, 120
-  orig: 120, 120
   offset: 0, 0
   index: -1
 ResourceIcons/Sulphur
   rotate: false
-  xy: 4, 996
+  xy: 1446, 976
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Thatch
-  rotate: false
-  xy: 768, 1058
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
 ResourceIcons/Tintoberry
   rotate: false
-  xy: 796, 1788
+  xy: 1324, 150
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Tyrannosaurus
   rotate: false
-  xy: 4, 732
+  xy: 1710, 976
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-ResourceIcons/Wood
-  rotate: false
-  xy: 1032, 1555
-  size: 225, 225
-  orig: 225, 225
-  offset: 0, 0
-  index: -1
 ResourceIcons/Woolly Rhino
   rotate: false
-  xy: 268, 996
+  xy: 1588, 712
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 796, 1552
+  xy: 1588, 240
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 StatIcons/Faith
   rotate: false
-  xy: 1060, 1816
+  xy: 1588, 4
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
+UnitIcons/Wyvern
+  rotate: false
+  xy: 4, 1272
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+
+game36.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+EmojiIcons/Culture
+  rotate: false
+  xy: 4, 17
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Faith
+  rotate: false
+  xy: 1573, 725
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Food
+  rotate: false
+  xy: 1772, 750
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 1013, 185
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Happiness
+  rotate: false
+  xy: 1121, 293
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Production
+  rotate: false
+  xy: 1229, 401
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Science
+  rotate: false
+  xy: 1337, 509
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ReligionIcons/Arkhism
+  rotate: false
+  xy: 365, 95
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Azulberry
+  rotate: false
+  xy: 4, 75
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Black Pearl
+  rotate: false
+  xy: 1852, 888
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Chitin
+  rotate: false
+  xy: 240, 311
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cristal
+  rotate: false
+  xy: 476, 547
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fiber
+  rotate: false
+  xy: 712, 783
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Keratin
+  rotate: false
+  xy: 1852, 760
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Lemon
+  rotate: false
+  xy: 1644, 808
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mejoberry
+  rotate: false
+  xy: 4, 308
+  size: 228, 228
+  orig: 228, 228
+  offset: 0, 0
+  index: -1
+ResourceIcons/Metal
+  rotate: false
+  xy: 945, 783
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sand
+  rotate: false
+  xy: 1644, 680
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sap
+  rotate: false
+  xy: 237, 180
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Stone
+  rotate: false
+  xy: 237, 52
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Thatch
+  rotate: false
+  xy: 1178, 783
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wood
+  rotate: false
+  xy: 1411, 783
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
 StatIcons/Food
   rotate: false
-  xy: 4, 496
+  xy: 4, 780
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 268, 760
+  xy: 4, 544
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 532, 1052
+  xy: 240, 780
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 StatIcons/Production
   rotate: false
-  xy: 4, 260
+  xy: 240, 544
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 1532, 1816
+  xy: 476, 780
   size: 228, 228
   orig: 228, 228
   offset: 0, 0
   index: -1
 TechIcons/Agriculture
   rotate: false
-  xy: 1729, 1708
+  xy: 365, 203
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Assault Riffle
   rotate: false
-  xy: 1837, 1711
+  xy: 473, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Auto Torret
   rotate: false
-  xy: 1837, 1603
+  xy: 473, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Balista
   rotate: false
-  xy: 1729, 1492
+  xy: 473, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bookshelf
   rotate: false
-  xy: 1837, 1495
+  xy: 473, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bow and Arrow
   rotate: false
-  xy: 240, 624
+  xy: 581, 439
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Campfire
   rotate: false
-  xy: 240, 516
+  xy: 581, 331
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Canteen
   rotate: false
-  xy: 240, 408
+  xy: 581, 223
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cementing Paste
   rotate: false
-  xy: 240, 300
+  xy: 581, 115
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Chain Bola
   rotate: false
-  xy: 348, 652
+  xy: 689, 439
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Chainsaw
   rotate: false
-  xy: 348, 544
+  xy: 689, 331
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Crossbow
   rotate: false
-  xy: 348, 436
+  xy: 689, 223
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cryopod
   rotate: false
-  xy: 348, 328
+  xy: 689, 115
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Dock
   rotate: false
-  xy: 456, 478
+  xy: 473, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Electronics
   rotate: false
-  xy: 456, 370
+  xy: 581, 7
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fabricator
   rotate: false
-  xy: 564, 478
+  xy: 689, 7
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fish Basquet
   rotate: false
-  xy: 564, 370
+  xy: 709, 672
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fishing Rod
   rotate: false
-  xy: 672, 478
+  xy: 709, 564
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Flak Armor
   rotate: false
-  xy: 672, 370
+  xy: 817, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Flamethrower
   rotate: false
-  xy: 456, 262
+  xy: 817, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/GPS
   rotate: false
-  xy: 564, 262
+  xy: 925, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Greenhouse
   rotate: false
-  xy: 672, 262
+  xy: 925, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Gunpowder
   rotate: false
-  xy: 348, 220
+  xy: 1033, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Industrial Grill
   rotate: false
-  xy: 240, 192
+  xy: 1033, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal Hatchet
   rotate: false
-  xy: 237, 84
+  xy: 1141, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal House
   rotate: false
-  xy: 456, 154
+  xy: 1141, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal Pick
   rotate: false
-  xy: 564, 154
+  xy: 1249, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mortar
   rotate: false
-  xy: 672, 154
+  xy: 1249, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Narcotics
   rotate: false
-  xy: 348, 112
+  xy: 1357, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Pike
   rotate: false
-  xy: 345, 4
+  xy: 1357, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Polymer
   rotate: false
-  xy: 453, 4
+  xy: 1465, 675
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Preserving Bin
   rotate: false
-  xy: 561, 46
+  xy: 1465, 567
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Professional Domestication
   rotate: false
-  xy: 669, 46
+  xy: 1573, 572
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Radio
   rotate: false
-  xy: 737, 711
+  xy: 1681, 572
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Raft
   rotate: false
-  xy: 737, 603
+  xy: 1573, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Refining Forge
   rotate: false
-  xy: 780, 495
+  xy: 1681, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sleeping Bag
   rotate: false
-  xy: 780, 387
+  xy: 797, 456
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Slingshot
   rotate: false
-  xy: 780, 279
+  xy: 797, 348
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Smithy
   rotate: false
-  xy: 780, 171
+  xy: 797, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Spear
   rotate: false
-  xy: 780, 63
+  xy: 797, 132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Spike Wall
   rotate: false
-  xy: 768, 950
+  xy: 797, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Spyglass
   rotate: false
-  xy: 876, 950
+  xy: 905, 459
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stone Hatchet
   rotate: false
-  xy: 765, 842
+  xy: 905, 351
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stone Houses
   rotate: false
-  xy: 873, 842
+  xy: 1013, 459
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stone Irrigation Pipe
   rotate: false
-  xy: 845, 734
+  xy: 905, 243
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stone Pick
   rotate: false
-  xy: 845, 626
+  xy: 1013, 351
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sword
   rotate: false
-  xy: 888, 518
+  xy: 1121, 459
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Thatch Houses
   rotate: false
-  xy: 888, 410
+  xy: 905, 135
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Torch
   rotate: false
-  xy: 888, 302
+  xy: 1013, 243
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Tranq Arrow
   rotate: false
-  xy: 888, 194
+  xy: 1121, 351
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Waterskin
   rotate: false
-  xy: 888, 86
+  xy: 1229, 459
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Wooden Houses
   rotate: false
-  xy: 953, 734
+  xy: 905, 27
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/Civ6/Tiles/Blue Obelisk
   rotate: false
-  xy: 1393, 1536
+  xy: 1980, 944
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Civ6/Tiles/Green Obelisk
   rotate: false
-  xy: 953, 662
+  xy: 1980, 872
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Civ6/Tiles/Red Obelisk
   rotate: false
-  xy: 237, 12
+  xy: 1980, 800
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
