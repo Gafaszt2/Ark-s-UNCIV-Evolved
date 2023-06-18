@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Rockwell Sons",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Ark Monument]"]
+    },
+    {
+        "name": "Woolly",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+    },
+    {
+        "name": "Kapro Den",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Chitin Works",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+        // This should be worded better
+    },
+    {
+        "name": "Social Comunication",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]"]
+        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+    },
+    {
+        "name": "Titanoboas Collection",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
+    },
+    {
+        "name": "Carcharodontosaurus Belief",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "Mosa Mosa",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "Ark the Series",
+        "type": "Pantheon",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Troodontid Mistery",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Lystrosaurus]", "[+1 Culture, +1 Faith] from every [Azulberry]"]
+    },
+    {
+        "name": "Mapusaurus Ghost",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
+    },
+    {
+        "name": "Herrerasaurus Scary Story",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>"]
+    },
+    {
+        "name": "Goddess of the Arks",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Camp]"]
+    },
+    {
+        "name": "Messenger of the Obelisks",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from each Trade Route"]
+    },
+    {
+        "name": "One with Nerva",
+        "type": "Pantheon",
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Helena Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Rockwell Idols",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Sulphur]"]
+    },
+    {
+        "name": "Humanity",
+        "type": "Pantheon",
+        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+    },
+    {
+        "name": "Sacred Jungle",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Jungle]"]
+    },
+    {
+        "name": "Dangerous Waters",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+    },
+    {
+        "name": "Stone Ammo",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    }
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Wonder]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+1 Production] from every [Wonder]", "[+1 Science] from every [Wonder]"]
+    },
+    {
+        "name": "Guruship",
+        "type": "Follower",
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+    },
+    {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Electric era]>"]
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+    },
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    }
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] for each global city following this religion"]
+    },
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] for each global city following this religion"]
+    },
+    {
+        "name": "Initiation Rites",
+        "type": "Founder",
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+    },
+    {
+        "name": "Interfaith Dialogue",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+    },
+    {
+        "name": "Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+15]"]
+    },
+    {
+        "name": "Peace Loving",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
+    },
+    {
+        "name": "Free Thinking",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    {
+        "name": "Learning",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [4] global followers [in all cities]"]
+    },
+    {
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
+    }
+]
