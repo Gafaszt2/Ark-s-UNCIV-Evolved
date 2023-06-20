@@ -34,7 +34,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Survivor",
@@ -74,7 +74,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Ptera Rider",
@@ -88,7 +88,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Carno Rider",
@@ -102,7 +102,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Sarco Rider",
@@ -116,7 +116,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Stego Rider",
@@ -129,7 +129,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Theri Rider",
@@ -140,7 +140,7 @@
 		"requiredTech": "Metal Hatchet",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Camuflage Survivor",
@@ -176,7 +176,7 @@
                 "requiredResource": "Metal",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Purlovia Rider",
@@ -188,7 +188,7 @@
                 "requiredResource": "Purlovia",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Megalodon Rider",
@@ -198,7 +198,7 @@
 		"cost": 65,
 		"requiredTech": "Raft",
                 "requiredResource": "Megalodon",
-		"attackSound": "nonmetalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Basilo Rider",
@@ -208,7 +208,7 @@
 		"cost": 85,
 		"requiredTech": "Raft",
                 "requiredResource": "Basilosaurus",
-		"attackSound": "nonmetalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Plesio Rider",
@@ -217,7 +217,7 @@
 		"strength": 44,
 		"cost": 140,
 		"requiredTech": "Dock",
-		"attackSound": "nonmetalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Dunkleosteous Rider",
@@ -226,7 +226,7 @@
 		"strength": 69,
 		"cost": 210,
 		"requiredTech": "GPS",
-		"attackSound": "nonmetalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Mosa Rider",
@@ -235,7 +235,7 @@
 		"strength": 80,
 		"cost": 300,
 		"requiredTech": "Radio",
-		"attackSound": "nonmetalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "MiniCannon",
@@ -247,7 +247,7 @@
 		"requiredTech": "Metal House",
                 "requiredResource": "Chitin",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
-		"attackSound": "throw"
+		"attackSound": "cannon"
 	},
         {
 		"name": "Rhino Rider",
@@ -260,7 +260,7 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Charge"],
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Daeodon Rider",
@@ -273,7 +273,7 @@
                 "requiredResource": "Metal",
 		"hurryCostModifier": 20,
                 "promotions": ["Medic"],
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Rex Rider",
@@ -286,7 +286,7 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Shock II"],
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Spino Rider",
@@ -299,7 +299,7 @@
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
                 "promotions": ["Amphibious"],
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Giga Rider",
@@ -312,7 +312,7 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Drill III"],
-		"attackSound": "metalhit"
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Tropeo Rider",
@@ -324,7 +324,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "missile"
 	},
         {
 		"name": "Flamethrower Survivor",
@@ -336,7 +336,7 @@
                 "requiredResource": "Oil",
 		"requiredTech": "Flamethrower",
 		"uniques": ["[+190]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "throw"
+		"attackSound": "fire"
 	},
         {
 		"name": "City Destroyer",
@@ -347,7 +347,7 @@
 		"cost": 300,
 		"requiredTech": "Flamethrower",
 		"uniques": ["[+190]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "throw"
+		"attackSound": "machinegun"
 	},
         {
 		"name": "Sniper",
@@ -359,7 +359,7 @@
                 "requiredResource": "Metal",
 		"requiredTech": "Assault Riffle",
 		"uniques": ["[+33]% Strength <vs [Siege] units>"],
-		"attackSound": "throw"
+		"attackSound": "shot"
 	},
         {
 		"name": "Shotgun Survivor",
@@ -370,7 +370,7 @@
 		"cost": 290,
 		"requiredTech": "Assault Riffle",
 		"uniques": ["[+31]% Strength <vs [Siege] units>"],
-		"attackSound": "throw"
+		"attackSound": "shot"
 	},
         {
 		"name": "Great Prophet",
