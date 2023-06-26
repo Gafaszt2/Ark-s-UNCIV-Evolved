@@ -484,7 +484,7 @@
 		"outerColor": [132, 48, 181],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Studies for the Dark Lord",
-		"uniques": ["[+1 Science] from each Trade Route", "[+2 Science] from every [Camp]"],
+		"uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Mountain]", "[+2 Culture] from every [Camp]"],
 		"cities": ["Cancer","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -516,6 +516,66 @@
 		"uniqueName": "Genesis Simulation",
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["Simulation","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Rossevelt"]
+    },
+    {
+		"name": "Vooruit",
+		"leaderName": "Kracht Hart",
+		"adjective": ["Dutch"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [229, 70, 137],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Vordwaats",
+		"uniques": ["[+1 Science] from every [Picking Up Berries]", "[-1 Food] from every [Coast]"],
+		"cities": ["New Amsterdam","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Rossevelt"]
+    },
+    {
+		"name": "Uralkodik",
+		"leaderName": "Oroszlansziv",
+		"adjective": ["Magyars"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [225, 65, 73],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Magyars Legacy",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "[+1 Food] from every [Hill]", "[-1 Food] from every [Coast]"],
+		"cities": ["New Vienna","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],

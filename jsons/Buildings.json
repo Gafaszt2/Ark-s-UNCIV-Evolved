@@ -38,6 +38,18 @@
 		"requiredTech": "Spear"
 	},
         {
+		"name": "Queens Hunting Place",
+                "replaces": "Hunt Place",
+		"uniqueTo": "Vooruit",
+		"culture": 1,
+		"hurryCostModifier": 20,
+                "requiredNearbyImprovedResources": ["Megaloceros", "Phiomia", "Ovis"],
+		"uniques": ["[+1 Gold] from [Megaloceros] tiles [in this city]",
+			"[+1 Gold] from [Phiomia] tiles [in this city]",
+			"[+1 Gold] from [Ovis] tiles [in this city]"],
+		"requiredTech": "Spear"
+	},
+        {
 		"name": "Picking Up Stones",
 		"production": 1,
 		"hurryCostModifier": 20,
@@ -138,6 +150,18 @@
                 "requiredNearbyImprovedResources": ["Metal","Chitin"],
 		"hurryCostModifier": 50,
 		"uniques": ["[+1 Production] from [Chitin] tiles [in this city]", "[+1 Production] from [Metal] tiles [in this city]"],
+		"requiredBuilding": "Heavy Stone Working",
+                "requiredTech": "Smithy"
+	},
+        {
+		"name": "Blacksmith",
+                "replaces": "Smithies",
+		"uniqueTo": "Uralkodik",
+                "maintenance": 1,
+		"production": 1,
+                "requiredNearbyImprovedResources": ["Metal","Chitin"],
+		"hurryCostModifier": 50,
+		"uniques": ["[+2 Production] from [Chitin] tiles [in this city]", "[+2 Production] from [Metal] tiles [in this city]"],
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Smithy"
 	},
