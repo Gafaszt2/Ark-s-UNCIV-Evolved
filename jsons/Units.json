@@ -17,7 +17,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+		"uniques": ["May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 	{
