@@ -71,6 +71,55 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
+        {
+		"name": "Aberrant Green Zone",
+		"type": "Land",
+		"food": 3,
+		"movementCost": 1,
+		"RGB": [72, 113, 59],
+		"civilopediaText": [
+			{
+				"text": "Fertile Chamber."
+			}
+		]
+	},
+        {
+		"name": "Aberrant Blue Zone",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [33, 124, 154],
+		"civilopediaText": [
+			{
+				"text": "Dangerous Land."
+			}
+		]
+	},
+        {
+		"name": "Aberrant Pink Zone",
+		"type": "Land",
+		"food": 2,
+		"production": 2,
+		"movementCost": 1,
+		"RGB": [212, 139, 203],
+                "uniques": ["Units ending their turn on this terrain take [5] damage"]
+		"civilopediaText": [
+			{
+				"text": "Really Dangerous Place."
+			}
+		]
+	},
+        {
+		"name": "Cliff",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [35, 25, 34],
+		"uniques": ["Rough terrain",
+            "Units ending their turn on this terrain take [50] damage",
+            "Considered [Undesirable] when determining start locations"]
+	},
 	{
 		"name": "Tundra",
 		"type": "Land",
@@ -155,7 +204,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -177,7 +226,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"occursOn": ["Tundra","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -221,7 +270,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Grassland","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
@@ -235,7 +284,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"]
 		"defenceBonus": -0.15
 	},
 	{
@@ -259,7 +308,7 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
+		"occursOn": ["Desert","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]

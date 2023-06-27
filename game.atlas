@@ -2137,37 +2137,72 @@ TileSets/Civ6/Tiles/Red Obelisk
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Allosaurus
+TileSets/FantasyHex/Tiles/Aberrant Blue Zone
+  rotate: false
+  xy: 720, 724
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Aberrant Blue Zone+Forest
   rotate: false
   xy: 712, 118
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Amarberry
+TileSets/FantasyHex/Tiles/Aberrant Green Zone
   rotate: false
   xy: 800, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Azulberry
+TileSets/FantasyHex/Tiles/Aberrant Pink Zone
   rotate: false
   xy: 506, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Aberrant Pink Zone+Forest
+  rotate: false
+  xy: 720, 688
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Allosaurus
+  rotate: false
+  xy: 840, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Amarberry
+  rotate: false
+  xy: 720, 652
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Azulberry
+  rotate: false
+  xy: 880, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Basilosaurus
   rotate: false
-  xy: 752, 118
+  xy: 920, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Black Pearl
   rotate: false
-  xy: 840, 10
+  xy: 960, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2181,7 +2216,7 @@ TileSets/FantasyHex/Tiles/Blue Obelisk
   index: -1
 TileSets/FantasyHex/Tiles/Chitin
   rotate: false
-  xy: 920, 10
+  xy: 1120, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2214,415 +2249,422 @@ TileSets/FantasyHex/Tiles/City ruins
   orig: 32, 40
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Coelacanth
-  rotate: false
-  xy: 1000, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Cristal
+TileSets/FantasyHex/Tiles/Cliff
   rotate: false
   xy: 1995, 1600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Fiber
-  rotate: false
-  xy: 1160, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Green Obelisk
-  rotate: false
-  xy: 1144, 222
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Keratin
-  rotate: false
-  xy: 1184, 230
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Lemon
-  rotate: false
-  xy: 1184, 194
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Lystrosaurus
-  rotate: false
-  xy: 1248, 1022
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Megalania
-  rotate: false
-  xy: 1248, 986
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Megaloceros
-  rotate: false
-  xy: 1248, 950
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Megalodon
-  rotate: false
-  xy: 1245, 914
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Mejoberry
-  rotate: false
-  xy: 1245, 842
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Metal
-  rotate: false
-  xy: 1318, 374
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Obsidian
-  rotate: false
-  xy: 1184, 158
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Ovis
-  rotate: false
-  xy: 1318, 266
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Paraceratherium
-  rotate: false
-  xy: 1224, 230
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Phiomia
-  rotate: false
-  xy: 1224, 194
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Purlovia
-  rotate: false
-  xy: 1232, 86
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Red Obelisk
-  rotate: false
-  xy: 1264, 250
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Sand
-  rotate: false
-  xy: 1304, 230
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Sap
-  rotate: false
-  xy: 1304, 194
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Sarcosuchus
-  rotate: false
-  xy: 1344, 230
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Sulphur
-  rotate: false
-  xy: 1312, 122
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Thatch
-  rotate: false
-  xy: 1312, 50
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tintoberry
-  rotate: false
-  xy: 1352, 122
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tyrannosaurus
-  rotate: false
-  xy: 1352, 50
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Wood
-  rotate: false
-  xy: 1320, 14
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Woolly Rhino
-  rotate: false
-  xy: 1360, 14
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Allo Rider
-  rotate: false
-  xy: 720, 724
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Basilo Rider
-  rotate: false
-  xy: 720, 688
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Bob
-  rotate: false
-  xy: 720, 652
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Camuflage Survivor
-  rotate: false
-  xy: 880, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Camuflage Survivor - copia
-  rotate: false
-  xy: 880, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Carno Rider
-  rotate: false
-  xy: 720, 616
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/City Destroyer
-  rotate: false
-  xy: 960, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Crossbow Survivor
-  rotate: false
-  xy: 1040, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Daeodon Rider
-  rotate: false
-  xy: 1080, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Dunkleosteous Rider
-  rotate: false
-  xy: 1120, 10
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Flak Survivor
+TileSets/FantasyHex/Tiles/Coelacanth
   rotate: false
   xy: 1200, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Flamethrower Survivor
+TileSets/FantasyHex/Tiles/Cristal
   rotate: false
   xy: 1152, 266
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giga Rider
+TileSets/FantasyHex/Tiles/Fiber
   rotate: false
-  xy: 1192, 266
+  xy: 1184, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Kapro Rider
+TileSets/FantasyHex/Tiles/Green Obelisk
   rotate: false
-  xy: 1144, 186
+  xy: 1248, 1014
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Keratin
+  rotate: false
+  xy: 1248, 942
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Megalodon Rider
+TileSets/FantasyHex/Tiles/Lemon
   rotate: false
-  xy: 1245, 878
+  xy: 1245, 906
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/MiniCannon
+TileSets/FantasyHex/Tiles/Lystrosaurus
+  rotate: false
+  xy: 1245, 870
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Megalania
+  rotate: false
+  xy: 1318, 374
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Megaloceros
   rotate: false
   xy: 1318, 338
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mosa Rider
+TileSets/FantasyHex/Tiles/Megalodon
   rotate: false
   xy: 1318, 302
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Plesio Rider
+TileSets/FantasyHex/Tiles/Mejoberry
   rotate: false
-  xy: 1224, 158
+  xy: 1224, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ptera Rider
+TileSets/FantasyHex/Tiles/Metal
   rotate: false
-  xy: 1232, 122
+  xy: 1224, 194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Purlovia Rider
+TileSets/FantasyHex/Tiles/Obsidian
+  rotate: false
+  xy: 1232, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ovis
   rotate: false
   xy: 1232, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Raptor Rider
+TileSets/FantasyHex/Tiles/Paraceratherium
   rotate: false
   xy: 1240, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rex Rider
+TileSets/FantasyHex/Tiles/Phiomia
   rotate: false
-  xy: 1264, 214
+  xy: 1264, 258
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rhino Rider
+TileSets/FantasyHex/Tiles/Purlovia
   rotate: false
-  xy: 1264, 178
+  xy: 1304, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sarco Rider
+TileSets/FantasyHex/Tiles/Red Obelisk
   rotate: false
-  xy: 1304, 158
-  size: 32, 28
-  orig: 32, 28
+  xy: 1344, 186
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler
-  rotate: false
-  xy: 1344, 194
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Shotgun Survivor
-  rotate: false
-  xy: 1344, 158
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Sniper
+TileSets/FantasyHex/Tiles/Sand
   rotate: false
   xy: 1272, 122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spino Rider
+TileSets/FantasyHex/Tiles/Sap
   rotate: false
   xy: 1272, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Stego Rider
-  rotate: false
-  xy: 1272, 50
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Survivor
-  rotate: false
-  xy: 1312, 86
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Theri Rider
+TileSets/FantasyHex/Tiles/Sarcosuchus
   rotate: false
   xy: 1280, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Sulphur
+  rotate: false
+  xy: 1320, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Thatch
+  rotate: false
+  xy: 1360, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tintoberry
+  rotate: false
+  xy: 1336, 1519
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tyrannosaurus
+  rotate: false
+  xy: 1416, 1519
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wood
+  rotate: false
+  xy: 1456, 1519
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Woolly Rhino
+  rotate: false
+  xy: 1265, 1483
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Allo Rider
+  rotate: false
+  xy: 752, 118
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Basilo Rider
+  rotate: false
+  xy: 720, 616
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bob
+  rotate: false
+  xy: 1000, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Camuflage Survivor
+  rotate: false
+  xy: 1040, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Camuflage Survivor - copia
+  rotate: false
+  xy: 1040, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Carno Rider
+  rotate: false
+  xy: 1080, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/City Destroyer
+  rotate: false
+  xy: 1160, 10
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbow Survivor
+  rotate: false
+  xy: 1192, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Daeodon Rider
+  rotate: false
+  xy: 1144, 230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dunkleosteous Rider
+  rotate: false
+  xy: 1144, 194
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Flak Survivor
+  rotate: false
+  xy: 1144, 158
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Flamethrower Survivor
+  rotate: false
+  xy: 1184, 194
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Giga Rider
+  rotate: false
+  xy: 1184, 158
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kapro Rider
+  rotate: false
+  xy: 1248, 978
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Megalodon Rider
+  rotate: false
+  xy: 1318, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/MiniCannon
+  rotate: false
+  xy: 1224, 158
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mosa Rider
+  rotate: false
+  xy: 1232, 122
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Plesio Rider
+  rotate: false
+  xy: 1264, 222
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ptera Rider
+  rotate: false
+  xy: 1264, 186
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Purlovia Rider
+  rotate: false
+  xy: 1304, 194
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Raptor Rider
+  rotate: false
+  xy: 1344, 230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rex Rider
+  rotate: false
+  xy: 1304, 158
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rhino Rider
+  rotate: false
+  xy: 1344, 150
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarco Rider
+  rotate: false
+  xy: 1272, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler
+  rotate: false
+  xy: 1312, 114
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Shotgun Survivor
+  rotate: false
+  xy: 1312, 78
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sniper
+  rotate: false
+  xy: 1352, 114
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spino Rider
+  rotate: false
+  xy: 1352, 78
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Stego Rider
+  rotate: false
+  xy: 1320, 42
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Survivor
+  rotate: false
+  xy: 1360, 42
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Theri Rider
+  rotate: false
+  xy: 1296, 1519
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Tropeo Rider
   rotate: false
-  xy: 1352, 86
+  xy: 1376, 1519
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
