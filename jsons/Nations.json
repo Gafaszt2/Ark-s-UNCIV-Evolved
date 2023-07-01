@@ -25,7 +25,7 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
                 "uniqueName": "The Butcher",
-                "uniques": ["[+2 Food] from every [Luxury resource]", "[+1 Food] [in all cities]", "[-5 Happiness] from every [Ark Monument]"],
+                "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] [in all cities]", "[+1 Food] from every [Ark Monument]"],
 
 		"outerColor": [193, 0, 74],
 		"innerColor": [255, 255, 255],
@@ -394,7 +394,7 @@
 		"outerColor": [51, 38, 150],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "The pawn sacrifices itself to defend the king",
-		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+10]% Production when constructing [Mounted] units [in all cities]", "[+10]% Culture [in all cities]"],
+		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+5]% Culture [in all cities]"],
 		"cities": ["Terminal","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
