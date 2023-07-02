@@ -5,36 +5,6 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-        {
-		"name": "Carnage Empire",
-		"leaderName": "Carlz Albert",
-		"adjective": ["Carnage"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "The Butcher",
-                "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] [in all cities]", "[+1 Food] from every [Ark Monument]"],
-
-		"outerColor": [193, 0, 74],
-		"innerColor": [255, 255, 255],
-		"cities": ["Canavar","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
 	{
 		//nations
 		"name": "Edmundium Empire",
@@ -58,9 +28,69 @@
                 "uniqueName": "Corruption of the Arks",
                 "uniques": ["[+2 Faith] from every [Metal]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
 
-		"outerColor": [182, 47, 47],
+		"outerColor": [231, 39, 39],
 		"innerColor": [255, 255, 255],
 		"cities": ["Edmundism","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Carnage Empire",
+		"leaderName": "Carlz Albert",
+		"adjective": ["Carnage"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "The Butcher",
+                "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] [in all cities]", "[+1 Food] from every [Ark Monument]"],
+
+		"outerColor": [255, 50, 50],
+		"innerColor": [255, 255, 255],
+		"cities": ["Canavar","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+         {
+		"name": "Renjuta Malta",
+		"leaderName": "Claire Engerer",
+		"adjective": ["Maltese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Tradizzjoni Navali",
+                "uniques": ["[+20]% XP gained from combat", "[+5]% Strength for cities", "[+20]% Spread Religion Strength", "[+1 Production] from every [Coast]", "[+1 Production] from every [Ocean]"],
+
+		"outerColor": [248, 77, 47],
+		"innerColor": [255, 255, 255],
+		"cities": ["La Valeta","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
@@ -121,6 +151,36 @@
 		"uniqueName": "Indisciplinato formatione",
 		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital", "[-20]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Rome","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Leander"]
+        },
+        {
+		"name": "Shang Tianguo",
+		"leaderName": "Lian huanghou",
+		"adjective": ["Chinese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [211, 188, 89],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Feathered Tyrant",
+		"uniques": ["[+1 Culture] from every [Ark Monument]"],
+		"cities": ["Qianzhou","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
@@ -188,6 +248,36 @@
 			"Generations","Dogmatic"],
         "spyNames": ["Tupac"]
         },
+        {
+		"name": "Nuovo regno d Italia",
+		"leaderName": "Leonardo Medici",
+		"adjective": ["Italian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Morte per Patria",
+                "uniques": ["Starts with [Dossier Studies] adopted", "[-10]% tile improvement construction time", "[+30]% Golden Age length", "[+3]% Strength <in [Friendly Land] tiles>"],
+
+		"outerColor": [135, 203, 87],
+		"innerColor": [255, 255, 255],
+		"cities": ["Roma","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
         {
 		//nations
 		"name": "The Prism",
@@ -275,6 +365,37 @@
                 "uniqueName": "Alhilal Alkhasib",
 		"uniques": ["[+1 Culture] from every [Bonus resource]", "Double quantity of [Oil] produced", "[+1 Gold] from every [Farm]"],
 		"cities": ["Sala","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+         {
+		//nations
+		"name": "Hiji zuru Teikoku",
+		"leaderName": "Haruka",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27, 237, 150],
+		"innerColor": [255, 255, 255],
+                "uniqueName": "Nikkan no joo",
+		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["New Tokyo","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],

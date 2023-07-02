@@ -574,4 +574,105 @@
 		"requiredTech": "Canteen",
 		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
+        {
+		"name": "Shrine",
+                "uniqueTo": "Edmundium Empire",
+		"maintenance": 3,
+		"faith": 1,
+		"science": 1,
+                "culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Waterskin"
+	},
+        {
+		"name": "Aqueduct",
+                "uniqueTo": "New Legion",
+		"hurryCostModifier": 0,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Stone Houses"
+	},
+        {
+		"name": "Barracks",
+                "uniqueTo": "New Incan Empire",
+		"production": 1,
+                "culture": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Bookshelf"
+	},
+        {
+		"name": "Garden",
+                "uniqueTo": "The Prism",
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Smithy"
+	},
+        {
+		"name": "University",
+                "uniqueTo": "The Prism",
+                "maintenance": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal House"
+	},
+        {
+		"name": "Bazaar",
+		"uniqueTo": "Qamar Empire",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Dock"
+	},
+        {
+		"name": "Mint",
+                "uniqueTo": "The Resistance",
+		"requiredNearbyImprovedResources": ["Metal", "Chitin"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Metal] tiles [in this city]", "[+2 Gold] from [Chitin] tiles [in this city]"],
+		"requiredTech": "Metal House"
+	},
+        {
+		"name": "Bank",
+                "uniqueTo": "The Resistance",
+		"gold": 3,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Mint",
+		"requiredTech": "Fabricator"
+	},
+        {
+		"name": "Museum",
+                "uniqueTo": "Ragnarok Empire",
+		"culture": 5,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Fabricator",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Factory",
+                "uniqueTo": "Mercenaries",
+		"cost": 360,
+		"production": 4,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Oil",
+		"requiredTech": "Fabricator"
+	},
+        {
+		"name": "Hospital",
+                "uniqueTo": "Vooruit",
+		"food": 5,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Polymer"
+	},
+        {
+		"name": "Coffee House",
+		"uniqueTo": "Uralkodik",
+		"production": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "Canteen"
+	},
 ]
