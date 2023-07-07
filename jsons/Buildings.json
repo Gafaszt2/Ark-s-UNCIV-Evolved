@@ -306,7 +306,6 @@
                 "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
-		"requiredBuilding": "Tribal Mark",
                 "requiredTech": "Narcotics"
 	},
         {
