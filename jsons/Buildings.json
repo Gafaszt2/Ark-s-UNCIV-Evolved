@@ -69,6 +69,7 @@
 	},
         {
 		"name": "Water Recolection",
+                "greatPersonPoints": {"Great Prophet": 3},
 		"food": 1,
 		"hurryCostModifier": 20,
 		"uniques": ["[+1 Food] from [Coast] tiles [in this city]", "[5]% Food is carried over after population increases [in this city]"],
@@ -94,6 +95,7 @@
 	},
         {
 		"name": "Rockwell Stories",
+                "greatPersonPoints": {"Great Prophet": 1},
 		"faith": 1,
 		"hurryCostModifier": 20,
 		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]"],
@@ -108,6 +110,7 @@
 	},
         {
 		"name": "Sparkpowder Works",
+                "greatPersonPoints": {"Great Prophet": 1},
                 "maintenance": 1,
 		"science": 1,
                 "requiredNearbyImprovedResources": ["Stone"],
@@ -118,6 +121,7 @@
 	},
         {
 		"name": "Bookshelf",
+                "greatPersonPoints": {"Great Scientist": 3},
                 "maintenance": 1,
 		"science": 2,
 		"hurryCostModifier": 50,
@@ -126,6 +130,7 @@
 	},
         {
 		"name": "Regular Lands",
+                "greatPersonPoints": {"Great Scientist": 3},
                 "maintenance": 1,
                 "requiredNearbyImprovedResources": ["Strategic resource"],
 		"hurryCostModifier": 50,
@@ -135,6 +140,7 @@
 	},
         {
 		"name": "Heavy Stone Working",
+                "greatPersonPoints": {"Great Merchant": 3},
                 "maintenance": 1,
 		"production": 1,
                 "requiredNearbyImprovedResources": ["Stone"],
@@ -167,6 +173,7 @@
 	},
         {
 		"name": "Refining Forges",
+                "greatPersonPoints": {"Great Scientist": 3},
                 "maintenance": 2,
                 "production": 1,
                 "requiredNearbyImprovedResources": ["Stone"],
@@ -176,6 +183,7 @@
 	},
         {
 		"name": "Metal Hatchets",
+                "greatPersonPoints": {"Great Prophet": 3},
                 "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal", "Wood"],
@@ -185,6 +193,7 @@
 	},
         {
 		"name": "Metal Picks",
+                "greatPersonPoints": {"Great Prophet": 3},
                 "maintenance": 2,
                 "requiredNearbyImprovedResources": ["Metal", "Wood"],
 		"hurryCostModifier": 50,
@@ -194,6 +203,7 @@
 	},
         {
 		"name": "Fabricators",
+                "greatPersonPoints": {"Great Scientist": 3},
                 "maintenance": 2,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Oil"],
@@ -203,6 +213,7 @@
 	},
         {
 		"name": "Rockwell House",
+                "greatPersonPoints": {"Great Scientist": 3},
                 "maintenance": 1,
 		"faith": 2,
 		"hurryCostModifier": 50,
@@ -211,6 +222,7 @@
 	},
         {
 		"name": "Fishing Place",
+                "greatPersonPoints": {"Great Merchant": 3},
                 "maintenance": 1,
 		"culture": 1,
 		"hurryCostModifier": 50,
@@ -220,6 +232,7 @@
 	},
         {
 		"name": "Raft Dock",
+                "greatPersonPoints": {"Great Merchant": 4},
                 "maintenance": 1,
                 "food": 1,
 		"faith": 1,
@@ -256,6 +269,7 @@
 	},
         {
 		"name": "Preserving House",
+                "greatPersonPoints": {"Great Merchant": 3},
 		"food": 2,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
@@ -280,6 +294,7 @@
 	},
         {
 		"name": "Spike Walls",
+                "greatPersonPoints": {"Great General": 3},
 		"production": 1,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
@@ -296,6 +311,7 @@
 	},
         {
 		"name": "First Armory",
+                "greatPersonPoints": {"Great General": 3},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Land] units [in this city]"],
@@ -303,6 +319,7 @@
 	},
         {
 		"name": "Taming Den",
+                "greatPersonPoints": {"Great General": 4},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
@@ -310,6 +327,7 @@
 	},
         {
 		"name": "Balista Trap",
+                "greatPersonPoints": {"Great General": 3},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
@@ -318,6 +336,7 @@
 	},
         {
 		"name": "Taming Scout",
+                "greatPersonPoints": {"Great General": 3},
                 "maintenance": 11,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
@@ -326,6 +345,7 @@
 	},
         {
 		"name": "Second Armory",
+                "greatPersonPoints": {"Great General": 3},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Land] units [in this city]"],
@@ -334,6 +354,7 @@
 	},
         {
 		"name": "Third Armory",
+                "greatPersonPoints": {"Great General": 4},
                 "maintenance": 1,
 		"faith": 1,
                 "science": 1,
@@ -377,6 +398,7 @@
 	},
         {
 		"name": "Electric Circuits",
+                "greatPersonPoints": {"Great Scientist": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal"],
@@ -386,6 +408,7 @@
 	},
         {
 		"name": "Location",
+                "greatPersonPoints": {"Great Artist": 3},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Oil"],
@@ -395,6 +418,7 @@
 	},
         {
 		"name": "Radio Connection",
+                "greatPersonPoints": {"Great Artist": 10},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal"],
@@ -404,6 +428,7 @@
 	},
         {
 		"name": "Disaster",
+                "greatPersonPoints": {"Great Scientist": 5},
                 "maintenance": 1,
                 "production": 1
                 "science": 1
@@ -490,6 +515,7 @@
 	},
         {
 		"name": "Hippodrome",
+                "greatPersonPoints": {"Great Artist": 5},
                 "happiness": 2
                 "culture": 1
 		"hurryCostModifier": 70,
@@ -528,6 +554,7 @@
 	},
         {
 		"name": "Dossiers Collection",
+                "greatPersonPoints": {"Great Scientist": 3},
 		"food": 5,
 		"isWonder": true,
 		"uniques": ["Free [Great Prophet] appears", "[+1 Culture] from every [Strategic resource]"],
