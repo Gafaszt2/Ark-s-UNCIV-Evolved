@@ -1,0 +1,75 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Bob",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+        "uniques": ["May not generate great prophet equivalents naturally"
+       ]
+    },
+    {
+        "name": "Leather era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Survivor",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [233, 31, 99]
+        "uniques": ["May not generate great prophet equivalents naturally"
+        ]
+      },
+      {
+        "name": "Smithy era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 4,
+        "startingMilitaryUnit": "Survivor",
+        "startingGold": 25,
+        "startingCulture": 200,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 25,
+        "citySound": "cityMedieval",
+        "iconRGB": [157, 39, 176]
+        "uniques": ["May not generate great prophet equivalents naturally"
+     ]
+    },  
+    {
+        "name": "Electric era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 6,
+        "startingMilitaryUnit": "Survivor",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 8,
+        "startPercent": 37,
+        "citySound": "cityRenaissance",
+        "iconRGB": [104, 58, 183]
+        "uniques": ["May not generate great prophet equivalents naturally"
+        ]
+    }
+]
