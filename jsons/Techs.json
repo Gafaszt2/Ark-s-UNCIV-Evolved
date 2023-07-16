@@ -17,7 +17,7 @@
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 60,
+		"techCost": 50,
 		"buildingCost": 90,
 		"wonderCost": 185,
 		"techs": [
@@ -38,7 +38,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 100,
+		"techCost": 60,
 		"buildingCost": 120,
 		"wonderCost": 185,
 		"techs": [
@@ -132,7 +132,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Leather era",
-		"techCost": 400,
+		"techCost": 300,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -159,7 +159,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Leather era",
-		"techCost": 500,
+		"techCost": 400,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -186,7 +186,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Leather era",
-		"techCost": 520,
+		"techCost": 420,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -225,7 +225,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Smithy era",
-		"techCost": 700,
+		"techCost": 400,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -253,7 +253,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Smithy era",
-		"techCost": 710,
+		"techCost": 440,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -287,7 +287,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Smithy era",
-		"techCost": 720,
+		"techCost": 550,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -314,7 +314,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Smithy era",
-		"techCost": 720,
+		"techCost": 500,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -352,7 +352,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Electric era",
-		"techCost": 980,
+		"techCost": 600,
 		"buildingCost": 850,
 		"wonderCost": 185,
 		"techs": [
@@ -367,7 +367,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Electric era",
-		"techCost": 990,
+		"techCost": 600,
 		"buildingCost": 750,
 		"wonderCost": 750,
 		"techs": [
@@ -394,7 +394,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Electric era",
-		"techCost": 1100,
+		"techCost": 500,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -427,7 +427,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Electric era",
-		"techCost": 730,
+		"techCost": 500,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -454,7 +454,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Electric era",
-		"techCost": 830,
+		"techCost": 500,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -480,15 +480,119 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "Electric era",
-		"techCost": 990,
+		"era": "Tek era",
+		"techCost": 600,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Future Tech",
-				"row": 1,
+				"name": "Defeat Broodmother",
+				"row": 2,
 				"prerequisites": ["Assault Riffle", "Flamethrower", "Auto Torret"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Defeat the Dragon",
+				"row": 4,
+				"prerequisites": ["Assault Riffle", "Flamethrower", "Auto Torret"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Defeat Megapithecus",
+				"row": 6,
+				"prerequisites": ["Assault Riffle", "Flamethrower", "Auto Torret"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Tek era",
+		"techCost": 600,
+		"buildingCost": 510,
+		"wonderCost": 185,
+		"techs": [
+                         {
+				"name": "Element Dust",
+				"row": 1,
+				"prerequisites": ["Defeat Broodmother"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Resource Attractor",
+				"row": 2,
+				"prerequisites": ["Defeat Broodmother"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Sword",
+				"row": 4,
+				"prerequisites": ["Defeat the Dragon"],
+                                "uniques": ["[+2 Science] [in all cities]"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Shield",
+				"row": 5,
+				"prerequisites": ["Defeat the Dragon"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Turret",
+				"row": 8,
+				"prerequisites": ["Defeat Megapithecus"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Shield Generator",
+				"row": 9,
+				"prerequisites": ["Defeat Megapithecus"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			}
+		]
+	},
+    {
+		"columnNumber": 19,
+		"era": "Tek era",
+		"techCost": 500,
+		"buildingCost": 510,
+		"wonderCost": 185,
+		"techs": [
+                         {
+				"name": "Tek Armor",
+				"row": 1,
+				"prerequisites": ["Element Dust"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Forcefield",
+				"row": 2,
+				"prerequisites": ["Resource Attractor"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Pistols",
+				"row": 4,
+				"prerequisites": ["Tek Sword", "Resource Attractor"],
+                                "uniques": ["[+2 Science] [in all cities]", "[+2 Production] [in all cities]"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Tek Riffle",
+				"row": 5,
+				"prerequisites": ["Tek Shield", "Tek Turret"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Pulse Cannon",
+				"row": 8,
+				"prerequisites": ["Tek Turret"],
+				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+			},
+                        {
+				"name": "Shield Protector",
+				"row": 9,
+				"prerequisites": ["Shield Generator"],
 				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
 			}
 		]

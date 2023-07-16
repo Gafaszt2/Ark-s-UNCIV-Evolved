@@ -71,5 +71,23 @@
         "iconRGB": [104, 58, 183]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
+    },  
+    {
+        "name": "Tek era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 6,
+        "startingMilitaryUnit": "Survivor",
+        "startingGold": 350,
+        "startingCulture": 490,
+        "settlerPopulation": 2,
+        "baseUnitBuyCost": 320,
+        "embarkDefense": 8,
+        "startPercent": 37,
+        "citySound": "cityAtomic",
+        "iconRGB": [138, 251, 255]
+        "uniques": ["May not generate great prophet equivalents naturally"
+        ]
     }
 ]

@@ -15,7 +15,7 @@
 		"movementCost": 2,
 		"defenceBonus": 0.1,
                 "RGB": [107, 63, 59],
-		"occursOn": ["Grassland","Plains","Tundra","Snow","Desert", "Hill"],
+		"occursOn": ["Grassland","Plains","Tundra","Snow","Desert", "Hill","Dead Land","Fallout Land"],
 		"uniques": ["Doesn't generate naturally"]
 	},
 	{
@@ -37,7 +37,7 @@
 		"movementCost": 1,
 		"overrideStats": true,
 		"turnsInto": "Marsh", 
-		"occursOn": ["Plains", "Grassland"],
+		"occursOn": ["Plains", "Grassland","Dead Land","Fallout Land"],
 		"uniques": ["Rare feature"]
 	},
 	{
@@ -48,6 +48,7 @@
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
+            "Becomes [Fallout Land] when adjacent to [Santiago Grave]",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -74,6 +75,7 @@
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
+            "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -103,6 +105,7 @@
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
+            "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
         {
@@ -111,6 +114,7 @@
 		"food": 3,
 		"movementCost": 1,
 		"RGB": [72, 113, 59],
+                 "uniques": ["Neighboring tiles will convert to [Coast]"],
 		"civilopediaText": [
 			{
 				"text": "Fertile Chamber."
@@ -133,8 +137,8 @@
         {
 		"name": "Aberrant Pink Zone",
 		"type": "Land",
-		"food": 2,
-		"production": 2,
+		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [212, 139, 203],
                 "uniques": ["Units ending their turn on this terrain take [5] damage"]
@@ -144,8 +148,42 @@
 			}
 		]
 	},
+         {
+		"name": "Dead Land",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+                "uniques": ["Doesn't generate naturally"]
+		"RGB": [107, 97, 70],
+	},
+         {
+		"name": "Fallout Land",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+                "uniques": ["Doesn't generate naturally"]
+		"RGB": [214, 196, 146],
+	},
+        {
+		"name": "Contaminated Lake",
+		"type": "Water",
+		"science": 2,
+		"movementCost": 1,
+                "uniques": ["Units ending their turn on this terrain take [15] damage"]
+		"RGB": [57, 230, 89],
+	},
         {
 		"name": "Cliff",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [35, 25, 34],
+		"uniques": ["Rough terrain",
+            "Units ending their turn on this terrain take [50] damage",
+            "Considered [Undesirable] when determining start locations"]
+	},
+        {
+		"name": "Extinction Ruins",
 		"type": "Land",
 		"impassable": true,
 		"defenceBonus": 0.25,
@@ -188,6 +226,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
+            "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -198,6 +237,7 @@
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
+                                        "Becomes [Dead Land] when adjacent to [Santiago Grave]",
 					"Considered [Desirable] when determining start locations"]
 	},
 	{
@@ -211,6 +251,7 @@
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
+            "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Considered [Undesirable] when determining start locations"]
 	},
 	{
@@ -241,7 +282,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -252,6 +293,9 @@
 					"Starts in regions of this type receive an extra [Ovis]",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
+                                        "Becomes [Dead Land] when adjacent to [Santiago Grave]",
+                                        "Generated on every [4] tiles <in [Aberrant Green Zone] tiles>"
+                                        "Generated on every [4] tiles <in [Volcanic Soil Zone] tiles>"
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -263,7 +307,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"occursOn": ["Tundra","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -272,9 +316,11 @@
 					"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
 					"A Region can not contain more [Jungle] tiles than [Forest] tiles",
 					"Considered [Desirable] when determining start locations",
+                                        "Generated on every [1] tiles <in [Aberrant Green Zone] tiles>"
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
+                                        "Becomes [Dead Land] when adjacent to [Santiago Grave]",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
@@ -286,7 +332,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland"],
+		"occursOn": ["Plains","Grassland","Dead Land","Fallout Land"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -307,7 +353,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"occursOn": ["Grassland","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
@@ -345,7 +391,7 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"occursOn": ["Desert","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
@@ -412,6 +458,35 @@
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [0] to [2] [Hill] tiles",
 			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Santiago Grave",
+		"type": "NaturalWonder",
+		"science": 3,
+		"culture": 4,
+		"faith": 1,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+                        "Neighboring tiles will convert to [Dead Land]",
+			"Must be adjacent to [0] to [2] [Mountain] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Aberrant Invasion",
+		"type": "NaturalWonder",
+		"science": 1,
+		"culture": 2,
+		"faith": 1,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [2] to [6] [Ocean] tiles", "Neighboring tiles will convert to [Aberrant Green Zone]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,

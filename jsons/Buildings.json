@@ -10,7 +10,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city", "Provides [2] [Fiber]"]
 	},
 	{
 		"name": "Ark Monument",
@@ -100,6 +100,35 @@
 		"requiredTech": "Torch"
 	},
         {
+		"name": "Extinction DLC",
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Gasbags", "Defense Unit", "Velona", "Managarmr"],
+		"uniques": ["[+1 Food] from [Gasbags] tiles [in this city]",
+			"[+1 Food] from [Defense Unit] tiles [in this city]",
+                        "[+1 Food] from [Velona] tiles [in this city]",
+			"[+1 Food] from [Managarmr] tiles [in this city]"],
+		"requiredTech": "Torch"
+	},
+        {
+		"name": "Genesis DLC",
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Charcoal", "Amargasaur", "Magmasaur"],
+		"uniques": ["[+1 Food] from [Amargasaur] tiles [in this city]",
+			"[+1 Food] from [Magmasaur] tiles [in this city]",
+                        "[+1 Culture] from [Magmasaur] tiles [in this city]",
+			"[+1 Production] from [Charcoal] tiles [in this city]"],
+		"requiredTech": "Torch"
+	},
+        {
+		"name": "Aberration DLC",
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Roll Rat", "Fungic Wood", "Basilisk"],
+		"uniques": ["[+2 Production] from [Roll Rat] tiles [in this city]",
+			"[+2 Production] from [Fungic Wood] tiles [in this city]",
+			"[+2 Production] from [Basilisk] tiles [in this city]"],
+		"requiredTech": "Torch"
+	},
+        {
 		"name": "Wood Works",
                 "maintenance": 2,
 		"hurryCostModifier": 20,
@@ -139,7 +168,6 @@
                 "maintenance": 1,
 		"science": 2,
 		"hurryCostModifier": 50,
-                "requiredBuilding": "Sparkpowder Works"
 		"requiredTech": "Bookshelf"
 	},
         {
@@ -285,7 +313,7 @@
 	},
         {
 		"name": "Cement Works",
-                "cityStrength": 4,
+                "cityStrength": 3,
 		"cityHealth": 25,
 		"gold": 2,
 		"hurryCostModifier": 50,
@@ -385,7 +413,7 @@
                 "science": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Land] units [in this city]", "[+1 Food] from [Farm] tiles [in this city]"],
-		"requiredBuilding": "First Armory",
+		"requiredBuilding": "Second Armory",
                 "requiredTech": "Professional Domestication"
 	},
         {
@@ -731,7 +759,6 @@
 	},
         {
 		"name": "Artifact of the Brute",
-		"cost": 125,
 		"gold": 5,
 		"culture": 5,
 		"isNationalWonder": true,
@@ -740,14 +767,12 @@
 	},
         {
 		"name": "Artifact of Chaos",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["New [Military] units start with [20] Experience [in this city]"],
 		"requiredTech": "Gunpowder"
 	},
         {
 		"name": "Artifact of the Clever",
-		"cost": 125,
 		"science": 5,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Refining Forges] in all cities"],
@@ -755,7 +780,6 @@
 	},
         {
 		"name": "Artifact of the Crag",
-		"cost": 125,
 		"food": 2,
 		"isNationalWonder": true,
 		"uniques": ["[+5 Production] from [Volcano] tiles [in this city]", "Must be on [Volcano]"],
@@ -763,7 +787,6 @@
 	},
         {
 		"name": "Artifact of the Cunning",
-		"cost": 125,
 		"faith": 3,
 		"food": 3,
 		"isNationalWonder": true,
@@ -772,7 +795,6 @@
 	},
         {
 		"name": "Artifact of the Depths",
-		"cost": 125,
 		"science": 1,
 		"isNationalWonder": true,
 		"uniques": ["[+1 Food] from [Ocean] tiles [in this city]", "Must be on [Ocean]"],
@@ -780,14 +802,12 @@
 	},
         {
 		"name": "Artifact of the Destroyer",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["New [Military] units start with [20] Experience [in this city]"],
 		"requiredTech": "Refining Forge"
 	},
         {
 		"name": "Artifact of the Devious",
-		"cost": 125,
 		"gold": 2,
 		"faith": 5,
 		"isNationalWonder": true,
@@ -795,7 +815,6 @@
 	},
         {
 		"name": "Artifact of the Devourer",
-		"cost": 125,
 		"science": 2,
 		"food": 3,
 		"isNationalWonder": true,
@@ -803,35 +822,30 @@
 	},
         {
 		"name": "Artifact of the Gatekeeper",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+1 Production] from [Mine] tiles [in this city]"],
 		"requiredTech": "Crossbow"
 	},
         {
 		"name": "Artifact of the Growth",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+3 Production] from [Bonus resource] tiles [in this city]"],
 		"requiredTech": "Chainsaw"
 	},
         {
 		"name": "Artifact of the Hunter",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+2 Food] from [Bonus resource] tiles [in this city]"],
 		"requiredTech": "Pike"
 	},
         {
 		"name": "Artifact of the Immune",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+5]% Strength for cities"],
 		"requiredTech": "Balista"
 	},
         {
 		"name": "Artifact of the Lost",
-		"cost": 125,
 		"culture": 2,
 		"isNationalWonder": true,
 		"uniques": ["[+3] Sight"],
@@ -839,21 +853,18 @@
 	},
         {
 		"name": "Artifact of the Massive",
-		"cost": 125,
 		"food": 10,
 		"isNationalWonder": true,
 		"requiredTech": "Sword"
 	},
         {
 		"name": "Artifact of the Pack",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
 		"requiredTech": "Metal House"
 	},
         {
 		"name": "Artifact of the Shadows",
-		"cost": 125,
 		"faith": 10,
 		"isNationalWonder": true,
 		"uniques": ["Must not be on [Coast]"],
@@ -861,14 +872,12 @@
 	},
         {
 		"name": "Artifact of the Skylord",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+3 Gold] from [Strategic resource] tiles [in this city]", "[+3 Food] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Fabricator"
 	},
         {
 		"name": "Artifact of the Stalker",
-		"cost": 125,
 		"faith": 5,
 		"isNationalWonder": true,
 		"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]"],
@@ -877,14 +886,12 @@
 	},
         {
 		"name": "Artifact of the Strong",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+3 Production, +3 Science] from every [Citadel]"],
 		"requiredTech": "Electronics"
 	},
         {
 		"name": "Artifact of the Void",
-		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["[+6 Production, +6 Science] from every [Academy]"],
 		"requiredTech": "Industrial Grill"
@@ -901,7 +908,7 @@
 		"name": "Extraordinary Kibble",
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Rex]","Provides [1] [Wooly Rhino]"],
+		"uniques": ["Provides [1] [Tyrannosaurus]","Provides [1] [Woolly Rhino]"],
 		"requiredResource": "Metal",
 		"requiredTech": "Cryopod"
 	}
@@ -945,6 +952,14 @@
 		"requiredTech": "Smithy"
 	},
         {
+		"name": "Corrupted Nodule Conversor",
+                "requiredNearbyImprovedResources": ["Corrupted Nodule"],
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Oil]", "Provides [1] [Organic Polymer]"],
+                "requiredResource": "Corrupted Nodule"
+		"requiredTech": "Fabricator"
+	},
+        {
 		"name": "Mining Beach Stones",
                 "production": 1,
 		"maintenance": 1,
@@ -959,5 +974,129 @@
 		"hurryCostModifier": 25,
 		"requiredResource": "Fiber"
 		"requiredTech": "Torch"
+	},
+        {
+		"name": "Dragon Fight",
+                "isNationalWonder": true,
+                "uniques": ["Provides [4] [Tek]", "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Defeat the Dragon"
+	},
+        {
+		"name": "Broodmother Fight",
+                "isNationalWonder": true,
+		"uniques": ["Provides [4] [Tek]", "[+2 Science] from every [Strategic resource]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Defeat Broodmother"
+	},
+        {
+		"name": "Megapithecus Fight",
+                "isNationalWonder": true,
+                "uniques": ["Provides [4] [Tek]", "[+3 Culture] from every [Strategic resource]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Defeat Megapithecus"
+	},
+        {
+		"name": "Tek Resource Organization",
+                "production": 3,
+                "uniques": ["[+3 Culture] [in all cities]", "[+2 Food] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Resource Attractor"
+	},
+        {
+		"name": "Tek Forcefields",
+                "cityHealth": 20,
+                "uniques": ["[+3 Culture] [in all cities]", "[+2 Food] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+                "requiredBuilding": "Tek Resource Organization",
+		"requiredTech": "Tek Forcefield"
+	},
+        {
+		"name": "Tek Defense Generator",
+                "culture": 3,
+                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Shield Generator"
+	},
+        {
+		"name": "Tek Protector",
+                "cityHealth": 20,
+                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+                "requiredBuilding": "Tek Resource Organization",
+		"requiredTech": "Shield Protector"
+	},
+        {
+		"name": "Element Works",
+                "science": 2,
+                "uniques": ["[+3 Production] [in all cities]", "[+1 Faith] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Element Dust"
+	},
+        {
+		"name": "Tek Armor Fabricator",
+                "cityHealth": 5,
+                "uniques": ["[+3 Production] [in all cities]", "[+1 Food] [in all cities]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+                "requiredBuilding": "Element Works",
+		"requiredTech": "Tek Armor"
+	},
+        {
+		"name": "Tek Turrets",
+                "happiness": 2,
+                "faith": 1,
+                "food": 2,
+                "uniques": ["[+2 Production] [in all cities]", "Provides [2] [Tek Turret Resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Tek Turret"
+	},
+        {
+		"name": "Tek Turret Colocation",
+            "requiredResource": "Tek Turret Resource",
+		"requiredTech": "Tek Turret"
+		"uniques": [
+"Creates a [Turret] improvement on a specific tile",
+"Unsellable",
+"Cannot be purchased",
+"Never destroyed when city is captured",
+                ]
+	},
+        {
+		"name": "Pulse Cannons",
+                "uniques": ["Provides [5] [Pulse Cannon Resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+                "requiredBuilding": "Tek Turrets",
+		"requiredTech": "Pulse Cannon"
+	},
+        {
+		"name": "Sword Fighting University",
+                "science": 1,
+                "uniques": ["[+1 Culture] [in all cities]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Tek Sword"
+	},
+        {
+		"name": "Defending Honor Studies",
+                "uniques": ["[+1 Science] [in all cities]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+		"requiredTech": "Tek Shield"
+	},
+        {
+		"name": "Assault Teaching",
+                "uniques": ["[+2 Science] [in all cities]", "[+10]% Strength <when fighting in [Foreign Land] tiles>"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Tek"
+                "requiredBuilding": "Defending Honor Studies",
+		"requiredTech": "Tek Riffle"
 	},
 ]

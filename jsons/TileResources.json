@@ -58,7 +58,7 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -114,7 +114,7 @@
          {
 		"name": "Rare Mushroom",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone"],
+		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
 		"culture": 1,
                 "food": 1,
 		"improvement": "Farm",
@@ -124,7 +124,7 @@
          {
 		"name": "Rare Flower",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone"],
+		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
 		"science": 1,
                 "food": 1,
 		"improvement": "Farm",
@@ -134,7 +134,7 @@
         {
 		"name": "Beelzebufo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone"],
+		"terrainsCanBeFoundOn": ["Swamp Zone", "Dead Land","Fallout Land"],
 		"production": 1,
                 "food": 1,
 		"improvement": "Camp",
@@ -143,7 +143,7 @@
         {
 		"name": "Meganeura",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone"],
+		"terrainsCanBeFoundOn": ["Swamp Zone", "Dead Land","Fallout Land"],
                 "food": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [10] tiles <in [Swamp Zone] tiles>"]
@@ -175,17 +175,92 @@
 		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
 					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
 	},
+        {
+		"name": "Amargasaur",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
+					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
+	},
+        {
+		"name": "Magmasaur",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
+					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
+	},
+        {
+		"name": "Defense Unit",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"production": 1,
+                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Gasbags",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"food": 1,
+                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"food": 2},
+	},
+        {
+		"name": "Corrupted Nodule",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"production": 1,
+                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Roll Rat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+		"food": 1,
+                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Fungic Wood",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+		"production": 1,
+                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+		"improvement": "Mine",
+		"improvementStats": {"science": 1},
+	},
+        {
+		"name": "Basilisk",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+		"food": 1,
+                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+	},
 	// Strategic resources
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
 					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
+                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
 					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
@@ -197,7 +272,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -205,6 +280,7 @@
 					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
 					"Generated with weight [26] <in [Hill] tiles>",
+                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
@@ -220,7 +296,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -229,6 +305,7 @@
 					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
@@ -242,7 +319,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
@@ -265,13 +342,14 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
 					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
+                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
@@ -280,7 +358,6 @@
         {
 		"name": "Oily Rock",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"production": 1,
 		"improvement": "Mine",
 	},
@@ -288,7 +365,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -322,6 +399,28 @@
             "uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"
                          "Generated on every [550] tiles <in [Coast] tiles>"]
 	},
+        {
+		"name": "Tek",
+		"resourceType": "Strategic",
+		"production": 1,
+		"improvement": "Mine",
+	},
+        {
+		"name": "Tek Turret Resource",
+                "revealedBy": "Tek Turret",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"production": 1,
+		"improvement": "Mine",
+	},
+        {
+		"name": "Pulse Cannon Resource",
+                "revealedBy": "Pulse Cannon",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"production": 1,
+		"improvement": "Mine",
+	},
 	// Luxury resources
 	{
 		"name": "Purlovia",
@@ -347,16 +446,17 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Volcanic Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [30] tiles <in [Jungle] tiles>",
-                           "Generated on every [30] tiles <in [Forest] tiles>"]
+                           "Generated on every [30] tiles <in [Forest] tiles>"
+                           "Generated on every [40] tiles <in [Volcanic Soil] tiles>"]
 	},
 	{
 		"name": "Cristal",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill","Volcanic Soil"],
 		"gold": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
@@ -364,6 +464,7 @@
 					"Generated with weight [15] <in [Hill] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
+                                        "Generated on every [40] tiles <in [Volcanic Soil] tiles>"
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
@@ -408,6 +509,24 @@
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>"]
+	},
+        {
+		"name": "Velona",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"food": 2,
+                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Managarmr",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"food": 2,
+                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
 	},
 	{
 		"name": "Tintoberry",

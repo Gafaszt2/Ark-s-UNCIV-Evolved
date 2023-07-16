@@ -16,9 +16,8 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-                "strength": 10,
 		"cost": 45,
-		"uniques": ["Can build [Water] improvements on tiles",
+		"uniques": ["May create improvements on water resources",
             "Automation is a primary action"]
 	},
 	{
@@ -144,7 +143,6 @@
                 "requiredTech": "Crossbow",
                 "upgradesTo": "Flak Survivor",
                 "obsoleteTech": "Flak Armor",
-                "requiredResource": "Metal",
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
         },
         {
@@ -246,7 +244,6 @@
 		"cost": 88,
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Flak Armor",
-                "requiredResource": "Metal",
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
         },
         {
@@ -276,6 +273,7 @@
 	},
         {
 		"name": "Megalodon Rider",
+                "upgradesTo": "Plesio Rider",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 26,
@@ -286,6 +284,7 @@
 	},
         {
 		"name": "Basilo Rider",
+                "upgradesTo": "Plesio Rider",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 31,
@@ -296,6 +295,7 @@
 	},
         {
 		"name": "Plesio Rider",
+                "upgradesTo": "Dunkleosteous Rider",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 44,
@@ -305,6 +305,7 @@
 	},
         {
 		"name": "Dunkleosteous Rider",
+                "upgradesTo": "Mosa Rider",
 		"unitType": "Melee Water",
 		"movement": 2,
 		"strength": 69,
@@ -325,8 +326,8 @@
 		"name": "MiniCannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 12,
-		"rangedStrength": 14,
+		"strength": 39,
+		"rangedStrength": 30,
 		"cost": 199,
 		"requiredTech": "Metal House",
                 "requiredResource": "Chitin",
@@ -335,6 +336,7 @@
 	},
         {
 		"name": "Rhino Rider",
+                "upgradesTo": "Giga Rider",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 60,
@@ -348,6 +350,7 @@
 	},
         {
 		"name": "Daeodon Rider",
+                "upgradesTo": "Giga Rider",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 50,
@@ -361,6 +364,7 @@
 	},
         {
 		"name": "Rex Rider",
+                "upgradesTo": "Giga Rider",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 70,
@@ -373,7 +377,22 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Velonasaur Rider",
+                "upgradesTo": "Giga Rider",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 80,
+		"cost": 190,
+		"requiredTech": "Chain Bola",
+                "requiredResource": "Velona",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Shock II"],
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Spino Rider",
+                "upgradesTo": "Giga Rider",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 65,
@@ -387,6 +406,7 @@
 	},
         {
 		"name": "Giga Rider",
+                "upgradesTo": "Tek Rex Rider",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 170,
@@ -399,7 +419,22 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Managarmr Rider",
+                "upgradesTo": "Tek Rex Rider",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 170,
+		"cost": 310,
+		"requiredTech": "Auto Torret",
+                "requiredResource": "Managarmr",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Drill III"],
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Tropeo Rider",
+                "upgradesTo": "Tek Rex Rider",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 70,
@@ -412,6 +447,7 @@
 	},
         {
 		"name": "Flamethrower Survivor",
+                "upgradesTo": "New Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 50,
@@ -424,6 +460,7 @@
 	},
         {
 		"name": "City Destroyer",
+                "upgradesTo": "New Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 30,
@@ -435,6 +472,7 @@
 	},
         {
 		"name": "Sniper",
+                "upgradesTo": "Bazooka",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
@@ -447,6 +485,7 @@
 	},
         {
 		"name": "Shotgun Survivor",
+                "upgradesTo": "Bazooka",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 40,
@@ -1202,4 +1241,94 @@
                 "obsoleteTech": "Crossbow",
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
         },
+        {
+		"name": "Tek Rex Rider",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 270,
+		"cost": 310,
+		"requiredTech": "Tek Shield",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Drill III"],
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Reaper",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 210,
+		"cost": 390,
+		"requiredTech": "Tek Riffle",
+		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <vs [Siege] units>", "Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "New Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 130,
+		"rangedStrength": 155,
+		"cost": 290,
+		"requiredTech": "Shield Generator",
+		"uniques": ["[+170]% Strength <vs cities> <when attacking>", "[+30]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "fire"
+	},
+        {
+		"name": "Ultimate Destructor",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 110,
+		"rangedStrength": 180,
+		"cost": 300,
+		"requiredTech": "Shield Protector",
+		"uniques": ["[+220]% Strength <vs cities> <when attacking>", "[+33]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+        {
+		"name": "Bazooka",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 188,
+		"cost": 290,
+		"requiredTech": "Element Dust",
+		"uniques": ["[+40]% Strength <vs [Siege] units>"],
+		"attackSound": "missile"
+	},
+        {
+		"name": "Tek HomoDeus",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 150,
+		"rangedStrength": 195,
+		"cost": 290,
+		"requiredTech": "Tek Armor",
+		"uniques": ["[+50]% Strength <vs [Siege] units>"],
+		"attackSound": "nonmetalhit"
+	},
+        {
+		"name": "Ascended HomoDeus",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 300,
+		"rangedStrength": 210,
+		"cost": 290,
+		"requiredTech": "Tek Pistols",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>", "[+10]% Strength <vs [Siege] units>"],
+		"attackSound": "nonmetalhit"
+	},
+        {
+		"name": "Ascended Gunner",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 340,
+		"rangedStrength": 208,
+		"cost": 290,
+		"requiredTech": "Pulse Cannon",
+                "requiredResource": "Pulse Cannon Resource",
+		"uniques": ["[+5]% Strength <vs [Mounted] units>", "[+5]% Strength <vs [Siege] units>"],
+		"attackSound": "nonmetalhit"
+	},
 ]
