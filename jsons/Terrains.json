@@ -295,7 +295,7 @@
 					"Considered [Production] when determining start locations",
                                         "Becomes [Dead Land] when adjacent to [Santiago Grave]",
                                         "Generated on every [4] tiles <in [Aberrant Green Zone] tiles>"
-                                        "Generated on every [4] tiles <in [Volcanic Soil Zone] tiles>"
+                                        "Generated on every [4] tiles <in [Volcanic Soil] tiles>"
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
