@@ -120,6 +120,16 @@
 		"requiredTech": "Torch"
 	},
         {
+		"name": "Genesis Two DLC",
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Stryder", "Astrodelphis", "Carniflora", "Carcharodontosaurus"],
+		"uniques": ["[+1 Gold] from [Stryder] tiles [in this city]",
+			"[+1 Food] from [Astrodelphis] tiles [in this city]",
+                        "[+1 Gold] from [Carniflora] tiles [in this city]",
+			"[+1 Food] from [Carcharodontosaurus] tiles [in this city]"],
+		"requiredTech": "Torch"
+	},
+        {
 		"name": "Aberration DLC",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Roll Rat", "Fungic Wood", "Basilisk"],

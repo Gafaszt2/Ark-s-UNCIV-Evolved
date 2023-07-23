@@ -249,11 +249,44 @@
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 	},
+        {
+		"name": "Astrodelphis",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"science": 1},
+	},
+        {
+		"name": "Stryder",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+		"science": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Carniflora",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+		"culture": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Carcharodontosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+		"science": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+	},
+        
 	// Strategic resources
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -272,7 +305,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -296,7 +329,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -319,7 +352,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
@@ -342,7 +375,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -365,7 +398,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -382,7 +415,7 @@
 		"name": "Organic Polymer",
                 "revealedBy": "Polymer",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Snow","Tundra"],
+		"terrainsCanBeFoundOn": ["Snow","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -393,7 +426,7 @@
 		"name": "Biotoxin",
                 "revealedBy": "Cryopod",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"terrainsCanBeFoundOn": ["Ocean","Coast","Genesis Lake"],
 		"science": 2,
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"
@@ -401,6 +434,7 @@
 	},
         {
 		"name": "Tek",
+                "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"resourceType": "Strategic",
 		"production": 1,
 		"improvement": "Mine",
@@ -446,7 +480,7 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Volcanic Soil"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [30] tiles <in [Jungle] tiles>",
@@ -456,7 +490,7 @@
 	{
 		"name": "Cristal",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill","Volcanic Soil"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
@@ -485,7 +519,7 @@
 	{
 		"name": "Tyrannosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Hill","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [30] tiles <in [Hill] tiles>"]
@@ -504,7 +538,7 @@
 	{
 		"name": "Woolly Rhino",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -513,7 +547,7 @@
         {
 		"name": "Velona",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"food": 2,
                 "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
@@ -531,7 +565,7 @@
 	{
 		"name": "Tintoberry",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Genesis Soil","Tek Soil"],
 		"food": 1,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
