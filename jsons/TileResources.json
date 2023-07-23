@@ -254,6 +254,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"food": 1,
+                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"science": 1},
 	},
@@ -262,6 +263,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"science": 1,
+                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -270,12 +272,14 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"culture": 1,
+                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
         {
 		"name": "Carcharodontosaurus",
 		"resourceType": "Bonus",
+                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
@@ -386,6 +390,7 @@
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
         {
