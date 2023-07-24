@@ -147,6 +147,15 @@
 		"requiredTech": "Stone Hatchet"
 	},
         {
+		"name": "U Bein Bridge",
+                "uniqueTo": "Kerajaan Burma",
+                "maintenance": 2,
+		"hurryCostModifier": 20,
+                "requiredNearbyImprovedResources": ["Coelacanth"],
+		"uniques": ["[+2 Production] from [Coelacanth] tiles [in this city]"],
+		"requiredTech": "Stone Hatchet"
+	},
+        {
 		"name": "Rockwell Stories",
                 "greatPersonPoints": {"Great Prophet": 1},
 		"faith": 1,
@@ -177,6 +186,17 @@
                 "greatPersonPoints": {"Great Scientist": 1},
                 "maintenance": 1,
 		"science": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Bookshelf"
+	},
+        {
+		"name": "Corrobore Grounds",
+                "replaces": "Bookshelf",
+		"uniqueTo": "Gondwana",
+                "greatPersonPoints": {"Great Scientist": 1},
+                "maintenance": 1,
+		"science": 1,
+                "culture": 2,
 		"hurryCostModifier": 50,
 		"requiredTech": "Bookshelf"
 	},
@@ -297,8 +317,7 @@
 		"name": "Coelacanth Fishing",
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		
-
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Coelacanth] tiles [in this city]"],
 		"requiredTech": "Fishing Rod"
                 "requiredBuilding": "Raft Dock"
 	},

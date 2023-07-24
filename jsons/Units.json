@@ -59,6 +59,21 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Megaloceros Rider",
+		"unitType": "Mounted",
+                "replaces": "Raptor Rider",
+		"uniqueTo": "Kansallisvaltio",
+		"movement": 3,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Slingshot",
+                "upgradesTo": "Kapro Rider",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking", "[+16]% Strength <vs [Wounded] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Raptor",
                 "replaces": "Raptor Rider",
 		"uniqueTo": "Barbarians",
@@ -159,6 +174,21 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Inostrancevia Rider",
+                "replaces": "Kapro Rider",
+		"uniqueTo": "Kansallisvaltio",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 20,
+		"cost": 79,
+		"requiredTech": "Professional Domestication",
+                "upgradesTo": "Stego Rider",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Land] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Ptera Rider",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -221,6 +251,19 @@
 		"cost": 90,
 		"requiredTech": "Metal Hatchet",
 		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Muttaburrasaurus",
+                "replaces": "Theri Rider",
+		"uniqueTo": "Gondwana",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 39,
+		"cost": 119,
+		"requiredTech": "Metal Hatchet",
+		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Mounted] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
@@ -369,6 +412,22 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 190,
+		"requiredTech": "Chain Bola",
+                "requiredResource": "Tyrannosaurus",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Shock II"],
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Shanshanosaurus",
+                "replaces": "Rex Rider",
+		"uniqueTo": "Kerajaan Burma",
+                "upgradesTo": "Giga Rider",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 75,
+		"cost": 270,
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Tyrannosaurus",
 		"uniques": ["Can move after attacking"],

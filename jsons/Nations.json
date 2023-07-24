@@ -98,6 +98,66 @@
         "spyNames": ["Sir Charles"]
 	},
          {
+		"name": "Kerajaan Burma",
+		"leaderName": "Seorang Pendosa",
+		"adjective": ["Burmese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Kuasa Sungai",
+                "uniques": ["[+2 Culture] from every [River]", "[+2 Faith] from every [River]", "[-1 Production] from every [Hill]"],
+
+		"outerColor": [186, 92, 30],
+		"innerColor": [255, 255, 255],
+		"cities": ["Burma","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+         {
+		"name": "Gondwana",
+		"leaderName": "Koori Elder",
+		"adjective": ["Australian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Dreamtime Connection",
+                "uniques": ["[+2 Food] from every [Natural Wonder]", "[+2 Faith] from every [Natural Wonder]", "[+2 Science] from every [Natural Wonder]"],
+
+		"outerColor": [128, 91, 75],
+		"innerColor": [255, 255, 255],
+		"cities": ["Queensland","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+         {
 		"name": "Renjuta Malta",
 		"leaderName": "Claire Engerer",
 		"adjective": ["Maltese"],
@@ -639,6 +699,37 @@
 		"uniqueName": "New Siberia",
 		"uniques": ["[+2 Production] from every [Snow]", "[+1 Production] from every [Strategic resource]", "[+5]% Strength <when fighting in [Snow] tiles>"],
 		"cities": ["Moscow","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Kassandra"]
+    },
+    {
+		"name": "Kansallisvaltio",
+		"leaderName": "Elianna",
+		"adjective": ["Finnish"],
+		"startBias": ["Lakes"],
+		"preferredVictoryType":"Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [140, 162, 250],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Jokikulttuuria",
+		"uniques": ["[+1 Production] from every [Tek]", "[+2 Food] from every [Lakes]", "[+1 Culture] from every [Lakes]",
+                             "[+1 Food] from every [Genesis Lake]"],
+		"cities": ["Polkka","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
