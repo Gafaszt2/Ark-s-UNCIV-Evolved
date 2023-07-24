@@ -31,7 +31,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
-        "citySound": "cityClassical",
+        "citySound": "cityLeather",
         "iconRGB": [233, 31, 99]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
@@ -49,7 +49,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
-        "citySound": "cityMedieval",
+        "citySound": "citySmithy",
         "iconRGB": [157, 39, 176]
         "uniques": ["May not generate great prophet equivalents naturally"
      ]
@@ -67,7 +67,7 @@
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
-        "citySound": "cityRenaissance",
+        "citySound": "cityElectric",
         "iconRGB": [104, 58, 183]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
@@ -85,7 +85,7 @@
         "baseUnitBuyCost": 320,
         "embarkDefense": 8,
         "startPercent": 37,
-        "citySound": "cityAtomic",
+        "citySound": "cityTek",
         "iconRGB": [138, 251, 255]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
