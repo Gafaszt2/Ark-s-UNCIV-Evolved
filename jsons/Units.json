@@ -59,6 +59,20 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Ravager Rider",
+                "requiredResource": "Ravager",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Slingshot",
+                "upgradesTo": "Kapro Rider",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Megaloceros Rider",
 		"unitType": "Mounted",
                 "replaces": "Raptor Rider",
@@ -444,6 +458,20 @@
 		"cost": 190,
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Velona",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Shock II"],
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Yuty Rider",
+                "upgradesTo": "Giga Rider",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 80,
+		"cost": 210,
+		"requiredTech": "Chain Bola",
+                "requiredResource": "Yutyrannus",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Shock II"],

@@ -111,6 +111,15 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Grassland] tiles>"]
 	},
+        {
+		"name": "Ichtyornis",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Swamp Zone"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [20] tiles <in [Swamp Zone] tiles>"]
+	},
          {
 		"name": "Rare Mushroom",
 		"resourceType": "Bonus",
@@ -161,9 +170,41 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"food": 2,
+                "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>",
                          "Generated on every [30] tiles <in [Coast] tiles>"]
+	},
+        {
+		"name": "Liopleurodon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"culture": 1,
+                "science": 1,
+                "improvementStats": {"food": 1},
+		"improvement": "Fishing Boats",
+            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
+	},
+        {
+		"name": "Manta",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"culture": 1,
+                "production": 1,
+                "improvementStats": {"food": 1},
+		"improvement": "Fishing Boats",
+            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>",
+                         "Generated on every [400] tiles <in [Coast] tiles>"]
+	},
+        {
+		"name": "Plesiosaur",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"food": 1,
+                "production": 1,
+                "improvementStats": {"food": 1},
+		"improvement": "Fishing Boats",
+            "uniques": ["Generated on every [300] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Charcoal",
@@ -250,6 +291,44 @@
 		"improvementStats": {"culture": 1},
 	},
         {
+		"name": "Chupacabra",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aberrant Blue Zone"],
+		"science": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1},
+	},
+        {
+		"name": "Seeker",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aberrant Pink Zone"],
+		"faith": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+	},
+        {
+		"name": "Stego",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+                "uniques": ["Generated on every [370] tiles <in [Plains] tiles>",
+                            "Generated on every [370] tiles <in [Grassland] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Dimorphodon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
+		"food": 1,
+                "uniques": ["Generated on every [500] tiles <in [Plains] tiles>",
+                            "Generated on every [500] tiles <in [Desert] tiles>",
+                            "Generated on every [500] tiles <in [Hill] tiles>"
+                            ]
+		"improvement": "Camp",
+		"improvementStats": {"food": 1},
+	},
+        {
 		"name": "Astrodelphis",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
@@ -284,6 +363,24 @@
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
+	},
+        {
+		"name": "Sauropod Vertebra",
+		"resourceType": "Luxury",
+                "uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+	},
+        {
+		"name": "Argentavis Talon",
+		"resourceType": "Luxury",
+                "uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
+		"terrainsCanBeFoundOn": ["Hill"],
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
 	},
         
 	// Strategic resources
@@ -462,15 +559,6 @@
 	},
 	// Luxury resources
 	{
-		"name": "Purlovia",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
-		"culture": 1,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>"]
-	},
-	{
 		"name": "Cotton",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
@@ -491,6 +579,34 @@
 		"uniques": ["Generated on every [30] tiles <in [Jungle] tiles>",
                            "Generated on every [30] tiles <in [Forest] tiles>"
                            "Generated on every [40] tiles <in [Volcanic Soil] tiles>"]
+	},
+                {
+		"name": "Ravager",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
+		"food": 1,
+                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+                {
+		"name": "Yutyrannus",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Snow","Tundra"],
+		"food": 1,
+                "uniques": ["Generated on every [90] tiles <in [Snow] tiles>",
+                            "Generated on every [180] tiles <in [Tundra] tiles>"]
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+	},
+        {
+		"name": "Purlovia",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"culture": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Cristal",
