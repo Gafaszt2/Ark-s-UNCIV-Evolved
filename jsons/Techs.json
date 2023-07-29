@@ -178,6 +178,7 @@
                         {
 				"name": "Raft",
 				"row": 2,
+                                "uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Fish Basquet"],
                         "quote": "Wilson..."
 			}

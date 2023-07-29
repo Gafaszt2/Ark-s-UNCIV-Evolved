@@ -12,7 +12,7 @@
 			"Requires at least [3] population"],
 		"hurryCostModifier": 20
 	},
-        {
+                {
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
