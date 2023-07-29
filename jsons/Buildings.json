@@ -560,7 +560,6 @@
         {
 		"name": "Market",
                 "gold": 3
-                "uniques": ["[+1 Production] from [Luxury resource] tiles [in this city]"],
                 "happiness": 1
 		"hurryCostModifier": 70,
                 "requiredTech": "Preserving Bin"
@@ -658,7 +657,7 @@
 		"name": "Kibble Works",
 		"culture": 3,
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+1 Food] from every [Bonus resource]"],
+		"uniques": ["Free [Great Prophet] appears"],
 		"requiredTech": "Greenhouse",
 		"quote": "'I have asked these questions many times since I awoke on this foreign shore, but I must stop. They do not matter.' - Mei Yin"
 	},
