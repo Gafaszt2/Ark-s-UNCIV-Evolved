@@ -419,7 +419,7 @@
         {
 		"name": "Taming Scout",
                 "greatPersonPoints": {"Great General": 1},
-                "maintenance": 11,
+                "maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
 		"requiredBuilding": "Taming Den",
