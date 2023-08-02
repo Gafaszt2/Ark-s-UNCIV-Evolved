@@ -27,6 +27,13 @@
 		"shortcutKey": "M"
                 "techRequired": "Stone Pick",
 	},
+        {
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 5,
+                "techRequired": "Professional Domestication",
+	},
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
