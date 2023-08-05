@@ -269,7 +269,7 @@
 				"row": 1,
 				"prerequisites": ["Fishing Rod", "Gunpowder"],
 				"quote": "Sea of Thieves"
-                                "uniques": ["[+2 Food] [in all cities]"],
+                                "uniques": ["[+1 Food] [in all cities]"],
 			},
                         {
 				"name": "Metal Pick",
@@ -324,7 +324,7 @@
 				"row": 1,
 				"prerequisites": ["Dock", "Balista"],
 				"quote": "They cultivate vegetables here."
-                                "uniques": ["[+4 Food] [in all cities]"],
+                                "uniques": ["[+2 Food] [in all cities]"],
 			},
                         {
 				"name": "Sword",

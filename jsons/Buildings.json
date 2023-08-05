@@ -40,13 +40,15 @@
 		"name": "Hunt Place",
 		"food": 1,
 		"hurryCostModifier": 20,
-                "requiredNearbyImprovedResources": ["Megaloceros", "Phiomia", "Ovis"],
+                "requiredNearbyImprovedResources": ["Megaloceros", "Phiomia", "Ovis", "Paraceratherium", "Morellatops", "Dodo", "Stego", "Dimorphodon"],
 		"uniques": ["[+1 Food] from [Megaloceros] tiles [in this city]",
 			"[+1 Food] from [Phiomia] tiles [in this city]",
 			"[+1 Food] from [Ovis] tiles [in this city]",
-                        "[+1 Food] from [Paraceratherium] tiles [in this city]"
-                        "[+1 Food] from [Morellatops] tiles [in this city]"
-                        "[+1 Food] from [Dodo] tiles [in this city]"],
+                        "[+1 Culture] from [Paraceratherium] tiles [in this city]"
+                        "[+1 Culture] from [Morellatops] tiles [in this city]"
+                        "[+1 Science] from [Dodo] tiles [in this city]",
+                        "[+1 Faith] from [Stego] tiles [in this city]"
+                        "[+1 Production] from [Dimorphodon] tiles [in this city]"],
 		"requiredTech": "Spear"
 	},
         {

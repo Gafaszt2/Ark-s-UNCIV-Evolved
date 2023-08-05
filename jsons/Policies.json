@@ -97,7 +97,7 @@
             {
                 "name": "Recipes",
                 "uniques": [
-                    "[+1 Science] from every [Mountain]",
+                    "[+1 Science] from every [Ark Monument]",
                 ],
                 "row": 1,
                 "column": 4
@@ -114,7 +114,7 @@
             {
                 "name": "Tek Learning",
                 "uniques": [
-                    "[+1 Science] from every [Mine]",
+                    "[+2 Culture] from every [Ark Monument]",
                 ],
                 "requires": ["Recipes"],
                 "row": 2,
@@ -217,7 +217,7 @@
             {
                 "name": "Social Idea",
                 "uniques": [
-                    "[+1 Happiness] from every [Mine]",
+                    "[+1 Happiness] from every [Ark Monument]",
                 ],
                 "row": 1,
                 "column": 2
@@ -225,7 +225,7 @@
             {
                 "name": "Cultural Idea",
                 "uniques": [
-                    "[+1 Happiness] from every [Farm]",
+                    "[+1 Culture] from every [Stone Fort]",
                 ],
                 "row": 1,
                 "column": 4
@@ -345,7 +345,7 @@
             {
                 "name": "Tek Cave",
                 "uniques": [
-                    "[+2 Gold] from every [Mine]",
+                    "[+1 Gold] from every [Mine]",
                 ],
                 "row": 1,
                 "column": 2
@@ -353,7 +353,7 @@
             {
                 "name": "Giga Fight",
                 "uniques": [
-                    "[+2 Culture] from every [Mine]",
+                    "[+1 Culture] from every [Mine]",
                 ],
                 "requires": ["Tek Cave"],
                 "row": 2,
@@ -362,7 +362,7 @@
             {
                 "name": "Overseer",
                 "uniques": [
-                     "[+3 Science] from every [Mine]",
+                     "[+1 Science] from every [Ark Monument]",
                 ],
                 "requires": ["Giga Fight"],
                 "row": 3,
