@@ -28,6 +28,13 @@
                 "techRequired": "Stone Pick",
 	},
         {
+		"name": "Marble Statue",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"culture": 1,
+		"turnsToBuild": 3,
+                "techRequired": "Stone Houses",
+	},
+        {
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
