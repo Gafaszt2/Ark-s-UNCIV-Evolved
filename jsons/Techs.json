@@ -332,9 +332,7 @@
 				"prerequisites": ["Balista","Crossbow", "Pike"],
 				"quote": "The sharpest blade."
                                 "uniques": [
-			"[+1 Culture] from [Hill] tiles [in this city]",
-			"[+1 Science] from [Mountain] tiles [in this city]",
-			"[+1 Gold] from [Mine] tiles [in this city]"
+			"[+1 Food] from [Hill] tiles [in this city]",
 		],
 			},
 			{
@@ -344,8 +342,7 @@
                         "quote": "The safest home."
                         "uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]"
+			"[+1 Production] from [Mountain] tiles [in this city]"
 		],
 			}
 		]

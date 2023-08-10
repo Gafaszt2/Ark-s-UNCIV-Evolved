@@ -631,59 +631,147 @@
 /////// wonders ////
 
         {
-		"name": "Arkadia",
-		"faith": 3,
+		"name": "Temple of Artemis",
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "Hidden when religion is disabled"],
-		"requiredTech": "Spyglass",
+		"uniques": ["[+15]% [Food] [in all cities]"],
+		"requiredTech": "Slingshot",
 		"quote": "'im not a god. I am more than that. Infinitely more. I am everything' - Rockwell"
 	},
         {
-		"name": "Dossiers Collection",
+		"name": "Stonehenge",
+                "faith": 5,
                 "greatPersonPoints": {"Great Scientist": 1},
-		"food": 5,
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+1 Culture] from every [Strategic resource]"],
-		"requiredTech": "Professional Domestication",
+		"requiredTech": "Waterskin",
 		"quote": "'It is the chaos of this land that is truly disturbing to me' - Nerva"
 	},
         {
-		"name": "First Base",
-		"production": 2,
+		"name": "The Great Library",
+		"science": 1,
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+1 Production] from every [Wood]"],
-		"requiredTech": "Gunpowder",
+		"uniques": ["Free Technology"],
+		"requiredTech": "Stone Houses",
 		"quote": "'I am reminded of my first command in Dacia. Many men questioned my rank, wondering why they had to follow a Centurion so young.' - Nerva"
 	},
         {
-		"name": "Kibble Works",
-		"culture": 3,
+		"name": "Mausoleum of Halicarnassus",
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears"],
-		"requiredTech": "Greenhouse",
+		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Bow and Arrow",
 		"quote": "'I have asked these questions many times since I awoke on this foreign shore, but I must stop. They do not matter.' - Mei Yin"
 	},
         {
-		"name": "Soups Works",
-		"food": 3,
+		"name": "Statue of Zeus",
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+1 Food] from every [Marsh]"],
-		"requiredTech": "Greenhouse",
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Mortar",
 		"quote": "'As the sun set, I happened upon a small village on a bluff. Unfortunately, it was besieged by a man who rode a lizard like a horse and wielded a stick that spat fire.' - Mei Yin"
 	},
         {
-		"name": "Water Conservation",
-		"gold": 2,
+		"name": "The Pyramids",
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+25]% [Gold] from Trade Routes", "Must have an owned [Coast] within [2] tiles"],
-		"requiredTech": "Canteen",
+		"uniques": ["[-30]% tile improvement construction time", "[2] free [Mounted] units appear"],
+		"requiredTech": "Wooden Houses",
 		"quote": "'Can’t say I’m happy about it. The cold and I are not the best of mates, I can tell you that, but I’ll just have to suck it up.' - Helena Walker"
 	},
         {
-		"name": "Metallic Mansion",
+		"name": "The Great Lighthouse",
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears", "[+10]% [Production] [in all cities]", "Must have an owned [Mountain] within [2] tiles"],
-		"requiredTech": "Canteen",
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>"],
+		"requiredTech": "Spyglass",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Colosseum",
+		"isWonder": true,
+                "happiness": 5,
+		"culture": 1,
+		"requiredTech": "Stone Houses",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Pisa Tower",
+		"isWonder": true,
+                "culture": 2,
+		"uniques": ["Must have an owned [Hill] within [2] tiles", "[+15]% [Gold] [in all cities]"],
+		"requiredTech": "Balista",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Puente de la Mujer",
+		"isWonder": true,
+                "culture": 2,
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+15]% [Happiness] [in all cities]"],
+		"requiredTech": "Flak Armor",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Statue of Liberty",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Coast] within [3] tiles", "[+10]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Flak Armor",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Sidney Opera House",
+		"isWonder": true,
+                "culture": 2,
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+15]% [Culture] [in all cities]"],
+		"requiredTech": "Flak Armor",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Big Ben",
+		"isWonder": true,
+                "production": 2,
+		"uniques": ["Must have an owned [Tundra] within [2] tiles", "[+5]% [Science] [in all cities]"],
+		"requiredTech": "Balista",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Petronas Tower",
+		"isWonder": true,
+                "production": 2,
+		"uniques": ["Must have an owned [Forest] within [2] tiles", "[+5]% [Production] [in all cities]"],
+		"requiredTech": "Crossbow",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Taj Mahal",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Plains] within [2] tiles", "[+25]% [Faith] [in all cities]"],
+		"requiredTech": "Crossbow",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Eiffel Tower",
+		"isWonder": true,
+                "gold": 2,
+		"uniques": ["Must have an owned [Grassland] within [2] tiles", "[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Flak Armor",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Christ the Redeemer",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Jungle] within [2] tiles", "[+15]% [Faith] [in all cities]"],
+		"requiredTech": "Assault Riffle",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Moai Statue",
+		"isWonder": true,
+                "gold": 2,
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+10]% [Food] [in all cities]", "[+10]% [Culture] [in all cities]"],
+		"requiredTech": "Fish Basquet",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "The Oracle",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+5]% [Production] [in all cities]"],
+		"requiredTech": "Mortar",
 		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
