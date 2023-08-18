@@ -12,7 +12,7 @@
 		"name": "Tek Soil",
 		"type": "Land",
 		"production": 1,
-		"movementCost": 0.5,
+		"movementCost": 1,
 		"RGB": [189, 214, 255]
 	},
         {
@@ -34,7 +34,7 @@
 		"name": "Genesis Tall",
 		"type": "TerrainFeature",
 		"science": 1,
-		"movementCost": 1,
+		"movementCost": 2,
                 "occursOn": ["Grassland","Genesis Soil","Tundra","Snow","Desert", "Tek Soil"],
 		"RGB": [43, 87, 151]
 	},
@@ -42,7 +42,7 @@
 		"name": "Genesis Tower",
 		"type": "TerrainFeature",
                 "production": 1,
-		"movementCost": 1,
+		"movementCost": 2,
                 "occursOn": ["Grassland","Genesis Soil","Tundra","Snow","Desert", "Tek Soil"],
 	},
         {

@@ -4,9 +4,15 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"uniques": ["Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
+	},
+        {
+		"name": "Igloo",
+		"terrainsCanBeBuiltOn": ["Snow"],
+		"food": 2,
+		"turnsToBuild": 4,
 	},
         {
 		"name": "Pastizal",
@@ -15,7 +21,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 2,
                 "culture": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"uniques": ["Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
 	},
@@ -23,7 +29,7 @@
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"shortcutKey": "M"
                 "techRequired": "Stone Pick",
 	},
@@ -38,14 +44,14 @@
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 4,
                 "techRequired": "Professional Domestication",
 	},
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"gold": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"shortcutKey": "T"
                 "techRequired": "Raft",
 	},
@@ -53,14 +59,14 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]", "Can only be built to improve a resource"],
 		"shortcutKey": "C"
                 "techRequired": "Spear",
 	},
 	{
 		"name": "Oil well",
-		"turnsToBuild": 9,
+		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles"],
 		"shortcutKey": "W"
 	},
@@ -71,14 +77,14 @@
 	},
 	{
 		"name": "Pasture",
-		"turnsToBuild": 8,
+		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "P"
                 "techRequired": "Torch",
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
+		"turnsToBuild": 4,
 		"gold": 1,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "P"
@@ -86,7 +92,7 @@
 	},
 	{
 		"name": "Quarry",
-		"turnsToBuild": 8,
+		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "Q"
                 "techRequired": "Stone Houses",
