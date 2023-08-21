@@ -13,8 +13,8 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Amalia, young queen of the new Hispanic kingdom, during dark times, you have maintained an optimistic vision, we managed to defeat our enemies with our royal vote Conquistadors, we have glorified our coasts, and we saw beyond our humble empire, we will win again, long life To the queen",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -44,8 +44,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "If there is someone who has come far, it is you, magnificent Rockwell, you brought faith to this primitive world, and no matter how much they hate your ideals, they all carry a little of you, in the depths of their hearts, it is time to take over this world, Helena won't win this time",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -74,8 +74,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Carlz, born in the Czech lands, saw how corruption raised monster dinosaurs that peeled off the flesh and bones of the inhabitants, seeing this atrocity, he set out to exterminate the dinosaurs, but for his bad luck, he needed them, to win his victory",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -104,8 +104,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Seorang, Queen of Burma, you led your people to independence and democracy. As the leader of Burma, you will be able to use the resources of your land to create a prosperous and peaceful civilization. Your special ability will give you more diplomatic influence and loyalty. Your unique unit will be a formidable force on the battlefield. and Your unique building will be a symbol of your faith and your splendor.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -134,8 +134,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Koori, son of the Wurundjeri tribe, your destiny is to be a warrior and a hunter. Since you were little, you have learned to survive in a hostile world, where dinosaurs are a constant threat. With your spear, boomerang, and courage, you've faced many ferocious creatures, from the speedy Velociraptor to the gigantic Australotitan. Your special ability allows you to communicate with your ancestors and with the spirits of nature, who guide and protect you.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -164,8 +164,13 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Claire is the queen of Malta, an island in the sea Where dinosaurs reign with might and terror She is brave and cunning, she knows how to fight With her sword and shield, she defends her honor
+
+She lives in a castle, surrounded by walls Where she keeps her treasures, her books and her jewels She loves culture, science and art And dreams of exploring the world beyond her
+
+But all is not peace, in his dream kingdom There are enemies lurking, with evil and ugly plans Some want to invade, his land and his people Others want to capture, the giant dinosaurs
+",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -194,8 +199,15 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Gilgamesh the second, the king of Uruk Who found the secret of life in a spaceship He traveled through time and space, seeking adventure And faced many dangers with courage and cunning
+
+One day he came to a strange world, where dinosaurs reigned, gigantic reptiles that roared with fury and devoured humans. Gilgamesh was attracted by the challenge, and he wanted to dominate those beasts, and he launched into battle, with his sword and his sword. shield, ready to defeat them
+
+But he soon realized that it was not as easy as he thought The dinosaurs were stronger and faster than any creature he had ever faced And they surrounded him and attacked him, with their claws and their teeth, without mercy or compassion Gilgamesh fought bravely, but fell wounded and lost consciousness
+
+When he woke up, he found himself in a cave, where some humans had taken him. They were the survivors of an ancient civilization, who had escaped from the dinosaurs. They told him that they had built a time machine, to go back in time and prevent the dinosaurs from evolving, and change the fate of his race
+",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -224,8 +236,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Nerva woke up on an island, full of dinosaurs and other survivors, who had arrived before Nerva was not scared, but set out to conquer the island and make it his empire.
+
+Nerva founded the New Legion, with his faithful soldiers And he faced the Painted Sharks, and the Sons of the Giant He also allied himself with the scientists, who studied the obelisks And he searched for the secret of the island, and its mysteries
+
+Nerva believed himself to be an emperor, and became a tyrant He imposed his law and order, with an iron hand. He did not care about suffering, nor about the lives of others, He only cared about power, and his unbridled ambition",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -254,8 +270,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Shang Tianguo was a queen, who ruled with wisdom Her kingdom was prosperous and peaceful, and her people loved her She loved nature and animals, and had a secret garden Where she took care of some dinosaurs, which she had found in the desert
+
+They were velociraptors, who had survived the cataclysm. She saved them from some hunters, who wanted them for esotericism. She fed and trained them, and gave them names and affection. And they responded with loyalty, and protected her from all danger.
+
+One day, an enemy invaded his kingdom, with a powerful army He wanted to conquer his lands and his wealth, and subdue his people Shang Tianguo prepared for war, and he called his dinosaurs And told them it was time to fight, for his freedom and his honor",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -284,8 +304,12 @@
 		"startBias": ["Mountain"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Spipaku Mama, the Inca queen who ruled with wisdom and justice one day faced a great challenge when dinosaurs invaded her territory.
+
+They were ferocious and gigantic beasts that laid waste to everything in their path and threatened to destroy the empire that Spipaku Mama had painstakingly built.
+
+But she was not intimidated and summoned her bravest warriors to defend her land and her people with courage, honor and loyalty.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -316,8 +340,16 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Raia, the Egyptian queen who reigned with grace and magic one day discovered a great secret while exploring an ancient pyramid.
+
+In the depths of the tomb there was a hidden treasure, they were millenary dragon eggs that had survived time.
+
+Raia took the eggs to her palace and cared for them with love and patience until one day the shells hatched and four beautiful dragons were born.
+
+Raia named them after the gods Anubis, Horus, Isis and Osiris and taught them to fly and throw fire and to obey her commands and wishes.
+
+Raia and her dragons were inseparable and together they protected their kingdom from external and internal threats that wanted to take away its power and glory.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -346,8 +378,18 @@
 		"startBias": ["Hills"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Ozana II, the Romanian queen who inherited her father's throne one day learned of a great betrayal when she received an anonymous letter
+
+Ozana II was not fooled and ordered an investigation into the matter and discovered that the corrupt generals had ties to a terrorist group
+
+Ozana II led the operation disguised as a simple soldier and with his steel sword and his pistol he faced the most powerful general on the side
+
+Ozana I, the previous queen who ruled with kindness and affection, one day fell in love with a man who turned out to be an enemy spy.
+
+The man's name was Alexei and he was an undercover Russian agent who seduced Ozana I for information and then betrayed and abandoned her.
+
+Ozana I became pregnant by Alexei and gave birth to a girl, Ozana II but could not bear the pain and shame and decided to run away and hide.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -376,8 +418,14 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "They were ancient and fearsome beasts that came out of an erupting volcano and attacked cities and towns with their claws, their fangs, and their venom.
+
+Leonardo Medici was not scared and decided to modernize his army that was weak, disorganized and corrupt and could not resist the onslaught of the dinosaurs
+
+Leonardo Medici hired the best engineers and ordered them to design new weapons and vehicles that were fast, powerful and deadly and could take on the dinosaurs.
+
+Leonardo Medici also recruited the best soldiers and taught them combat tactics and strategies that were effective, bold and coordinated and could defeat the dinosaurs.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -407,8 +455,14 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "You, the reader of history who have followed the exploits of the monarchs who have fought with courage and glory against the dinosaurs that threatened their kingdoms
+
+You, the one who will embody their adventures, who have imagined their emotions and their actions, who have felt their fear, their courage and their passion when facing the beasts that challenged their reason.
+
+You, the player of the game who have created your own characters and scenarios who have chosen your own weapons and strategies to combat the dinosaurs that invaded your world
+
+You, the one who has enjoyed this challenge, who has learned from history and fantasy, who has developed your creativity and your poetry by asking me to write these verses for you.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -437,8 +491,15 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "It was a foreign and cruel empire that had invaded their land and their culture and that imposed their laws and their religion with violence, oppression and censorship.
+
+Ingalo Enkulu did not resign himself and decided to resist and fight and summoned his tribes and allies to defend his freedom and identity
+
+Ingalo Enkulu led the revolution mounted on his white lion and with his wooden spear and shield he faced the most bloodthirsty general on the side.
+
+The general fired from his cannon and launched a devastating bomb but Ingalo Enkulu dodged the attack and hurled his spear at him with force.
+and the horror ended",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -468,8 +529,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Tifl Alqamar, the sultan of the desert, who did not fear anyone or anything. He faced his enemies with audacity and courage, and with his allies he shared the loot and homage. His fame spread throughout the land.
+
+Tifl Alqamar, the sultan of the desert, who loved women and pleasure. He had a harem of beautiful ladies, and with his caresses and his words he made them sigh and go crazy.
+
+Tifl Alqamar, the sultan of the desert, who lived without regret or fear. He knew that one day his destiny would change, and that his empire would collapse. But meanwhile, he was basking in his glory and his honor.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -499,8 +564,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Haruka, the young president of Japan, who is not intimidated by terror. She organizes the defense with courage and honor, and with her intelligence and ingenuity she manages to contain the advance of the monsters.
+
+she who inspires her people with her example. It mobilizes science and technology, and with its creativity and energy it develops weapons and strategies to combat them.
+
+She is the one who manages to save her country from chaos. She successfully defeats the corrupted dinosaurs, and with her charisma and optimism restores peace and hope to her heart.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -530,8 +599,14 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Adsila, the daughter of the tribe, who with her bow and arrow defends her people and her land. Face an ancient nightmare: dinosaurs that have come back to life.
+
+the brave warrior, who does not give up or regret. He resists pain and death, and with his courage and strength he fights for survival.
+
+the lonely dreamer, who longs for a better world. He looks for a way out and a hope, and with his faith and his love he clings to his spirit.
+
+the forgotten heroine, who no one recognizes or honors. He sacrifices everything for his cause, and with his fate and his shadow he is lost in the darkness.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -560,8 +635,14 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "She, the curious explorer, who with her pen and her lens documented life and death. He found a wonderful world: Arks full of mystery and beauty.
+
+She, the loyal friend, who shared her knowledge and friendship with her smile and kindness. She met others like her: Rockwell, Mei-Yin and Santiago.
+
+She, the brave heroine, who with her mind and her will discovered the truth and reality. He faced a glorious destiny: to ascend to Homo Deus and to transcend.
+
+She, the generous savior, who with her soul and her sacrifice protected her loved ones from the precipice. He left a wonderful legacy: to free humans and be reborn.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -590,8 +671,14 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Pilamayquen is the president of a brave and strong nation that faces a great challenge when the dinosaurs come back to life.
+
+She doesn't freak out or give in to the prehistoric beasts that threaten to destroy everything she's built.
+
+With courage and determination, she leads her people in an all-out war against the monsters of the past.
+
+She uses her intelligence and cunning to devise strategies and plans that allow them to survive and defend their freedom.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -620,8 +707,16 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Aleksander is a warrior who lives in the village of Edda where the Jotul giants have caused chaos and ruin.
+
+They are responsible for climate change and pollution that have awakened the gods and have started Ragnarök.
+
+But Aleksander has a secret that no one else can know: he is the reincarnated Tyr, the god of war and law.
+
+He has the power to summon the dinosaurs of the past that obey him and help him fight against the evil Surt.
+
+With his sword and shield and his reptilian army Aleksander faces the fire that threatens to consume everything.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -651,8 +746,18 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Erika is a witch who lives in the Niflheim forest where the wolves Fenrir and Skoll have sworn their loyalty and love.
+
+She is the descendant of Loki the god of deception and betrayal who has planned the Ragnarök to take revenge on the Aesir.
+
+She has the power to control the giants of ice and fire that obey her and follow her to fight against the gods.
+
+With her magic and her cunning and her army of monsters, Erika faces Odin who leads the divine side.
+
+She believes that it is a fair battle that the gods are tyrannical and cruel that she fights for freedom and change and that Ragnarök is necessary.
+
+Erika is a villain and a rebel who inspires fear and rejection in all who know her and hate her for her destiny.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -681,8 +786,16 @@
 		"startBias": ["Snow"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Matvey XI is the king of a powerful and wealthy nation that stands aloof from the conflict between gods and giants.
+
+He doesn't believe in prophecies or Norse myths that say the world is going to end in an apocalyptic battle.
+
+He thinks it's crazy that Aleksander and Erika get involved in a war that doesn't belong to them or benefits them.
+
+He prefers to dedicate himself to governing and prospering in his kingdom, which has resources and allies to resist any siege.
+
+He is a pragmatist and a pacifist who inspires respect and confidence in all who meet him and support him in his position.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -711,8 +824,18 @@
 		"startBias": ["Lakes"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Elianna is a merchant who lives in the city of Midgard where humans are unaware of the fate that awaits them.
+
+She is the ex-wife of Matvey XI, the king who abandoned her for not giving him an heir and for not sharing his vision.
+
+She does not hold grudges or hatred but sees an opportunity to take advantage of the chaos and increase her prosperity.
+
+She has the power to negotiate with all warring sides that buy and sell weapons, resources, and merchandise from her.
+
+With her cunning and her ambition and her network of contacts, Elianna becomes the richest and most influential of all.
+
+She is an opportunist and a manipulator who inspires envy and mistrust in all who meet her and fear her for her fortune.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -742,8 +865,14 @@
 		"startBias": ["Montain"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Their beasts roared like thunder and devoured their enemies without restraint, their claws and fangs were lethal weapons and their scales and feathers were natural shields.
+
+Atilla II, the warlord did not know peace or mercy, his ambition was infinite and his cruelty and his glory were stained with blood and evil.
+
+His rivals trembled at his name and surrendered or fled without a fight his allies followed him with loyalty and faith and worshiped him as an invincible god
+
+Atilla II, the scourge of God, that's what those who suffered his oppression called him, his destiny was to dominate and destroy and his law was violence and looting",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -772,8 +901,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "The pawn sacrifices itself to defend the king. At least Emilia Müller realized that in the end. That is all that can be said for her.
+
+The others think me callous, but this is simply the way of things. Even here amongst the demons, these rules apply. For example, the largest of the pack that slew Emilia summoned and commanded its lesser brethren.
+
+However, I do not think that was a king. No, it serves something grander. I could feel its bond, the same bond that I've felt in the strange metal that inhabits these caves. It's almost like a melody of some kind, a siren song drifting up from the depths. Down there is where the true king lies, and I intend to find him.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -802,8 +935,10 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Boris is the real jerk here. Everyone else wants to look for you, but he keeps insisting that it's not worth it. How can he be so heartless? It's like he's a robot or something. He hardly even seems frightened by this place! I wish I could say this same. I feel like I'm trapped in a nightmare, and each day it gets worse.
+
+Please be out there, Rusty. We need to stick together and find a way home. God, I just want go home...",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -832,8 +967,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "I was fortunate today. The sun was rising as I finished bandaging my wounds, and had I not glanced at it, I would never have seen Nerva's body. It was three hundred paces away, right where I left it, and it was smoldering. The sunlight was burning it.
+
+I remembered a cave that I had spotted earlier, and ran for it as fast as I could. My legs ached and smoke was rising from my armor by the time I arrived, yet I was still alive.
+
+So now the sun was trying to kill me. Perhaps I was delirious, but I laughed at the notion. Monsters and armies have failed, so let the sun have its chance. I will defeat it too.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -862,8 +1001,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "I wish everyone would just shut up for five seconds. I already know this is bad, we all do. So keep your hyperventilating to yourself, all right? Jesus.
+
+When we stepped through my gateway and teleported to the surface, we thought we'd escaped the worst of it, but it turns out this planet is a burnt out, post-apocalyptic nightmare. Some people feel like we're back to square one.
+
+But objectively, we're not. We've got TEK equipment, supplies, some tamed animals and a decent number of human assets. That's plenty of tools at our disposal. All I need is for people to give me some space and let me think. This is just another code that needs cracking.",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -893,7 +1036,7 @@
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -923,7 +1066,7 @@
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -953,7 +1096,7 @@
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -983,7 +1126,7 @@
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -1013,7 +1156,7 @@
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
