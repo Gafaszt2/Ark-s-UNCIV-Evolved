@@ -29,7 +29,7 @@
     {
         "name": "Titanoboas Collection",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
+        "uniques": ["[+1 Production] from every [Jungle]"]
     },
     {
         "name": "Carcharodontosaurus Belief",
@@ -54,7 +54,7 @@
     {
         "name": "Mapusaurus Ghost",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Quarry]"]
     },
     {
         "name": "Herrerasaurus Scary Story",

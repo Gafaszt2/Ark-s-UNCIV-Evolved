@@ -670,7 +670,7 @@
         {
 		"name": "The Pyramids",
 		"isWonder": true,
-		"uniques": ["[-30]% tile improvement construction time", "[2] free [Mounted] units appear"],
+		"uniques": ["[-40]% tile improvement construction time"],
 		"requiredTech": "Wooden Houses",
 		"quote": "'Can’t say I’m happy about it. The cold and I are not the best of mates, I can tell you that, but I’ll just have to suck it up.' - Helena Walker"
 	},
