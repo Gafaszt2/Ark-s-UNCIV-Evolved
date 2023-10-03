@@ -29,7 +29,7 @@
                 "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
 
 		"outerColor": [145, 37, 37],
-		"innerColor": [255, 255, 255],
+		"innerColor": [255, 205, 66],
 		"cities": ["Madrid","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -60,7 +60,7 @@
                 "uniques": ["[+2 Faith] from every [Metal]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
 
 		"outerColor": [231, 39, 39],
-		"innerColor": [255, 255, 255],
+		"innerColor": [40, 25, 99],
 		"cities": ["Edmundism","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -90,7 +90,7 @@
                 "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] from every [Ark Monument]"],
 
 		"outerColor": [255, 50, 50],
-		"innerColor": [255, 255, 255],
+		"innerColor": [51, 97, 5],
 		"cities": ["Canavar","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -120,7 +120,7 @@
                 "uniques": ["[+2 Culture] from every [River]", "[+2 Faith] from every [River]", "[-1 Production] from every [Hill]"],
 
 		"outerColor": [186, 92, 30],
-		"innerColor": [255, 255, 255],
+		"innerColor": [81, 245, 141],
 		"cities": ["Burma","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -150,7 +150,7 @@
                 "uniques": ["[+2 Food] from every [Natural Wonder]", "[+2 Faith] from every [Natural Wonder]", "[+2 Science] from every [Natural Wonder]"],
 
 		"outerColor": [128, 91, 75],
-		"innerColor": [255, 255, 255],
+		"innerColor": [181, 137, 25],
 		"cities": ["Queensland","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -185,7 +185,7 @@ But all is not peace, in his dream kingdom There are enemies lurking, with evil 
                 "uniques": ["[+20]% XP gained from combat", "[+5]% Strength for cities", "[+20]% Spread Religion Strength", "[+1 Production] from every [Ocean]"],
 
 		"outerColor": [248, 77, 47],
-		"innerColor": [255, 255, 255],
+		"innerColor": [35, 2, 51],
 		"cities": ["La Valeta","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -222,7 +222,7 @@ When he woke up, he found himself in a cave, where some humans had taken him. Th
                 "uniques": ["[+2 Science] [in capital]", "[+2 Science] per [2] social policies adopted"],
 
 		"outerColor": [236, 108, 43],
-		"innerColor": [255, 255, 255],
+		"innerColor": [250, 218, 145],
 		"cities": ["New Uruk","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -254,7 +254,7 @@ Nerva believed himself to be an emperor, and became a tyrant He imposed his law 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [226, 166, 64],
-		"innerColor": [255, 255, 255],
+		"innerColor": [51, 97, 5],
 		"uniqueName": "Indisciplinato formatione",
 		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital", "[-20]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Rome","Arat","Prime",
@@ -288,7 +288,7 @@ One day, an enemy invaded his kingdom, with a powerful army He wanted to conquer
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [211, 188, 89],
-		"innerColor": [255, 255, 255],
+		"innerColor": [97, 27, 67],
 		"uniqueName": "Feathered Tyrant",
 		"uniques": ["[+2 Happiness] from every [Ark Monument]"],
 		"cities": ["Qianzhou","Arat","Prime",
@@ -322,7 +322,7 @@ But she was not intimidated and summoned her bravest warriors to defend her land
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [236, 214, 43],
-		"innerColor": [255, 255, 255],
+		"innerColor": [129, 156, 114],
 		"uniqueName": "Andine Culture",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
 			"[-50]% maintenance on road & railroads",
@@ -362,7 +362,7 @@ Raia and her dragons were inseparable and together they protected their kingdom 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [211, 227, 88],
-		"innerColor": [255, 255, 255],
+		"innerColor": [138, 55, 50],
 		"uniqueName": "Scorched Eath",
 		"uniques": ["[+1 Culture] from every [Desert]", "[+1 Food] from every [Fabricators]"],
 		"cities": ["Nosti","Arat","Prime",
@@ -402,7 +402,7 @@ Ozana I became pregnant by Alexei and gave birth to a girl, Ozana II but could n
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [164, 224, 0],
-		"innerColor": [255, 255, 255],
+		"innerColor": [16, 122, 37],
 		"uniqueName": "Traditional Ways",
 		"uniques": ["[-1 Production] from every [Coast]", "[+2 Food] per [2] social policies adopted", "[+1 Science] per [1] social policies adopted"],
 		"cities": ["Bucarest","Arat","Prime",
@@ -440,7 +440,7 @@ Leonardo Medici also recruited the best soldiers and taught them combat tactics 
                 "uniques": ["Starts with [Dossier Studies] adopted", "[-10]% tile improvement construction time", "[+30]% Golden Age length", "[+3]% Strength <in [Friendly Land] tiles>"],
 
 		"outerColor": [135, 203, 87],
-		"innerColor": [255, 255, 255],
+		"innerColor": [16, 122, 110],
 		"cities": ["Roma","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -475,7 +475,7 @@ You, the one who has enjoyed this challenge, who has learned from history and fa
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [50, 179, 50],
-		"innerColor": [255, 255, 255],
+		"innerColor": [122, 97, 16],
                 "uniqueName": "HLN-A",
 		"uniques": ["[+1 Science] from every [Strategic resource]", "Double quantity of [Metal] produced", "[+1 Science] from every [Fishing Boats]"],
 		"cities": ["Prism Prime","Arat","Prime",
@@ -512,7 +512,7 @@ and the horror ended",
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [47, 191, 88],
-		"innerColor": [255, 255, 255],
+		"innerColor": [156, 17, 2],
                 "uniqueName": "Great Voyage",
 		"uniques": ["[+1] Movement <for [Water] units>", "Double quantity of [Basilosaurus] produced", "Double quantity of [Megalodon] produced", "[-100]% maintenance costs <for [Water] units>", "[+10]% Strength <when fighting in [Coast] tiles>", "[+1 Food] from every [Fishing Boats]"],
 		"cities": ["King´s Palace","Arat","Prime",
@@ -547,7 +547,7 @@ Tifl Alqamar, the sultan of the desert, who lived without regret or fear. He kne
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [30, 214, 137],
-		"innerColor": [255, 255, 255],
+		"innerColor": [176, 139, 4],
                 "uniqueName": "Alhilal Alkhasib",
 		"uniques": ["[+2 Gold] from every [Luxury resource]", "Double quantity of [Oil] produced", "[+1 Gold] from every [Desert]"],
 		"cities": ["Sala","Arat","Prime",
@@ -582,7 +582,7 @@ She is the one who manages to save her country from chaos. She successfully defe
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [27, 237, 150],
-		"innerColor": [255, 255, 255],
+		"innerColor": [110, 4, 176],
                 "uniqueName": "Nikkan no joo",
 		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["New Tokyo","Arat","Prime",
@@ -619,7 +619,7 @@ the forgotten heroine, who no one recognizes or honors. He sacrifices everything
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [9, 159, 106],
-		"innerColor": [255, 255, 255],
+		"innerColor": [45, 95, 115],
                 "uniqueName": "Iroquois Legacy",
 		"uniques": ["[+2 Production] from every [Forest]", "[+2 Production] from every [Jungle]", "[+1 Food] from every [Forest]", "[+1 Food] from every [Jungle]"],
 		"cities": ["Ayasha","Arat","Prime",
@@ -655,7 +655,7 @@ She, the generous savior, who with her soul and her sacrifice protected her love
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [55, 219, 197],
-		"innerColor": [255, 255, 255],
+		"innerColor": [86, 130, 29],
 		"uniqueName": "Heroes of the Resistance",
 		"uniques": ["Heals [10] damage if it kills a unit", "[+1 Science] from every [Fabricators]"],
 		"cities": ["Resistant Federation","Arat","Prime",
@@ -690,8 +690,8 @@ She uses her intelligence and cunning to devise strategies and plans that allow 
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [69, 220, 230],
-		"innerColor": [255, 255, 255],
+		"outerColor": [19, 203, 207],
+		"innerColor": [199, 254, 255],
 		"uniqueName": "Argentinian Legacy",
 		"uniques": ["[-1 Production] from every [Hill]", "[-2 Food] from every [Farm]", "[+1 Food] from every [Pasture]", "[+1 Production] from every [Plantation]"],
 		"cities": ["Buenos Aires","Arat","Prime",
@@ -729,7 +729,7 @@ With his sword and shield and his reptilian army Aleksander faces the fire that 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [64, 153, 201],
-		"innerColor": [255, 255, 255],
+		"innerColor": [99, 36, 150],
 		"uniqueName": "Viking Legacy",
 		"uniques": ["[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
 			"No movement cost to pillage <for [Land] units>"],
@@ -770,7 +770,7 @@ Erika is a villain and a rebel who inspires fear and rejection in all who know h
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [77, 100, 213],
-		"innerColor": [255, 255, 255],
+		"innerColor": [139, 193, 199],
 		"uniqueName": "Fjordur",
 		"uniques": ["[+1 Production] from every [Tundra]", "[+5]% Strength <when fighting in [Tundra] tiles>"],
 		"cities": ["Valheim","Arat","Prime",
@@ -808,7 +808,7 @@ He is a pragmatist and a pacifist who inspires respect and confidence in all who
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [146, 169, 189],
-		"innerColor": [255, 255, 255],
+		"innerColor": [33, 65, 69],
 		"uniqueName": "New Siberia",
 		"uniques": ["[+2 Production] from every [Snow]", "[+1 Production] from every [Strategic resource]", "[+5]% Strength <when fighting in [Snow] tiles>"],
 		"cities": ["Moscow","Arat","Prime",
@@ -848,7 +848,7 @@ She is an opportunist and a manipulator who inspires envy and mistrust in all wh
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [140, 162, 250],
-		"innerColor": [255, 255, 255],
+		"innerColor": [33, 17, 133],
 		"uniqueName": "Jokikulttuuria",
 		"uniques": ["[+1 Production] from every [Tek]", "[+2 Food] from every [Lakes]", "[+1 Culture] from every [Lakes]",
                              "[+1 Food] from every [Genesis Lake]"],
@@ -885,7 +885,7 @@ Atilla II, the scourge of God, that's what those who suffered his oppression cal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [48, 91, 130],
-		"innerColor": [255, 255, 255],
+		"innerColor": [130, 14, 12],
 		"uniqueName": "Massacre",
 		"uniques": ["[+2 Production] from every [Pasture]", "May choose [1] additional belief(s) of any type when [founding] a religion"],
 		"cities": ["Atilla´s Court","Arat","Prime",
@@ -919,7 +919,7 @@ However, I do not think that was a king. No, it serves something grander. I coul
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [51, 38, 150],
-		"innerColor": [255, 255, 255],
+		"innerColor": [188, 210, 247],
 		"uniqueName": "The pawn sacrifices itself to defend the king",
 		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+5]% Culture [in all cities]"],
 		"cities": ["Terminal","Arat","Prime",
@@ -951,7 +951,7 @@ Please be out there, Rusty. We need to stick together and find a way home. God, 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [85, 59, 216],
-		"innerColor": [255, 255, 255],
+		"innerColor": [35, 2, 51],
 		"uniqueName": "Boris is the real jerk here",
 		"uniques": ["[+1 Faith] from every [Farm]", "[+1 Science] from every [Quarry]", "[+1 Science] from every [Plantation]"],
 		"cities": ["Hell","Arat","Prime",
@@ -985,7 +985,7 @@ So now the sun was trying to kill me. Perhaps I was delirious, but I laughed at 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [119, 70, 210],
-		"innerColor": [255, 255, 255],
+		"innerColor": [250, 169, 155],
 		"uniqueName": "Uprising",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+1] Movement <for [Mounted] units>"],
 		"cities": ["Beast Queen","Arat","Prime",
@@ -1019,7 +1019,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [132, 48, 181],
-		"innerColor": [255, 255, 255],
+		"innerColor": [208, 156, 247],
 		"uniqueName": "Studies for the Dark Lord",
 		"uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Mountain]", "[+2 Culture] from every [Camp]"],
 		"cities": ["Cancer","Arat","Prime",
@@ -1049,7 +1049,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [197, 67, 186],
-		"innerColor": [255, 255, 255],
+		"innerColor": [156, 5, 83],
 		"uniqueName": "Genesis Simulation",
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["Simulation","Arat","Prime",
@@ -1079,7 +1079,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [229, 70, 137],
-		"innerColor": [255, 255, 255],
+		"innerColor": [252, 187, 221],
 		"uniqueName": "Vordwaats",
 		"uniques": ["[+1 Science] from every [Picking Up Berries]", "[-1 Food] from every [Coast]"],
 		"cities": ["New Amsterdam","Arat","Prime",
@@ -1109,7 +1109,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [205, 145, 165],
-		"innerColor": [255, 255, 255],
+		"innerColor": [229, 252, 187],
 		"uniqueName": "Ikhanda",
 		"uniques": ["[+1] Production <for [Mounted] units>", "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Great Zimbabwe","Arat","Prime",
@@ -1139,7 +1139,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [225, 65, 73],
-		"innerColor": [255, 255, 255],
+		"innerColor": [106, 47, 143],
 		"uniqueName": "Magyars Legacy",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "[+1 Food] from every [Hill]", "[-1 Food] from every [Coast]"],
 		"cities": ["New Vienna","Arat","Prime",
@@ -1169,7 +1169,7 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [177, 16, 88],
-		"innerColor": [255, 255, 255],
+		"innerColor": [35, 2, 51],
 		"uniqueName": "Sea Domain",
 		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Luxury resource]", "[+1 Production] from every [Ocean]"],
 		"cities": ["London","Arat","Prime",
