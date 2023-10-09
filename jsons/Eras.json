@@ -31,6 +31,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
+        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures"],
         "citySound": "cityLeather",
         "iconRGB": [233, 31, 99]
         "uniques": ["May not generate great prophet equivalents naturally"
@@ -43,11 +44,12 @@
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 4,
         "startingMilitaryUnit": "Survivor",
-        "startingGold": 25,
+        "startingGold": 50,
         "startingCulture": 200,
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
+        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort"],
         "startPercent": 25,
         "citySound": "citySmithy",
         "iconRGB": [157, 39, 176]
@@ -68,6 +70,7 @@
         "embarkDefense": 8,
         "startPercent": 37,
         "citySound": "cityElectric",
+        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
         "iconRGB": [104, 58, 183]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
@@ -84,6 +87,7 @@
         "settlerPopulation": 2,
         "baseUnitBuyCost": 320,
         "embarkDefense": 8,
+        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
         "startPercent": 37,
         "citySound": "cityTek",
         "iconRGB": [138, 251, 255]

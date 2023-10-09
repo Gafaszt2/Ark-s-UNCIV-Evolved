@@ -59,8 +59,8 @@
                 "uniqueName": "Corruption of the Arks",
                 "uniques": ["[+2 Faith] from every [Metal]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
 
-		"outerColor": [231, 39, 39],
-		"innerColor": [40, 25, 99],
+		"outerColor": [66, 13, 29],
+		"innerColor": [132, 155, 240],
 		"cities": ["Edmundism","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -89,8 +89,8 @@
                 "uniqueName": "The Butcher",
                 "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] from every [Ark Monument]"],
 
-		"outerColor": [255, 50, 50],
-		"innerColor": [51, 97, 5],
+		"outerColor": [89, 135, 99],
+		"innerColor": [201, 250, 55],
 		"cities": ["Canavar","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -895,7 +895,7 @@ Atilla II, the scourge of God, that's what those who suffered his oppression cal
         "spyNames": ["Kassandra"]
     },
     {
-		"name": "Aberration Lords",
+		"name": "Lords",
 		"leaderName": "Boris",
 		"adjective": ["Aberrants"],
 		"startBias": ["Coast"],
@@ -929,7 +929,7 @@ However, I do not think that was a king. No, it serves something grander. I coul
         "spyNames": ["Rossevelt"]
     },
     {
-		"name": "Aberration Rebels",
+		"name": "Rebels",
 		"leaderName": "Emilia",
 		"adjective": ["Aberrant Rebels"],
 		"startBias": ["Coast"],
@@ -1048,8 +1048,8 @@ But objectively, we're not. We've got TEK equipment, supplies, some tamed animal
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [197, 67, 186],
-		"innerColor": [156, 5, 83],
+		"outerColor": [157, 86, 166],
+		"innerColor": [245, 205, 250],
 		"uniqueName": "Genesis Simulation",
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["Simulation","Arat","Prime",
