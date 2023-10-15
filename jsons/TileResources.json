@@ -207,6 +207,15 @@
             "uniques": ["Generated on every [300] tiles <in [Ocean] tiles>"]
 	},
         {
+		"name": "Leedsichtys",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"food": 3,
+                "improvementStats": {"culture": 1},
+		"improvement": "Fishing Boats",
+            "uniques": ["Generated on every [700] tiles <in [Ocean] tiles>", "Generated on every [700] tiles <in [Coast] tiles>"]
+	},
+        {
 		"name": "Charcoal",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
@@ -284,9 +293,9 @@
         {
 		"name": "Basilisk",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
 		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>","Generated on every [1000] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 	},
@@ -349,17 +358,17 @@
         {
 		"name": "Carniflora",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
 		"culture": 1,
-                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+                "uniques": ["Generated on every [899] tiles <in [Plains] tiles>", "Generated on every [7] tiles <in [Genesis Soil] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
         {
 		"name": "Carcharodontosaurus",
 		"resourceType": "Bonus",
-                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+                "uniques": ["Generated on every [999] tiles <in [Hill] tiles>", "Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill"],
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
@@ -367,7 +376,7 @@
         {
 		"name": "Sauropod Vertebra",
 		"resourceType": "Luxury",
-                "uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
+                "uniques": ["Generated on every [800] tiles <in [Grassland] tiles>"]
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvement": "Camp",
@@ -376,7 +385,7 @@
         {
 		"name": "Argentavis Talon",
 		"resourceType": "Luxury",
-                "uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
+                "uniques": ["Generated on every [800] tiles <in [Hill] tiles>"]
 		"terrainsCanBeFoundOn": ["Hill"],
 		"gold": 1,
 		"improvement": "Camp",
@@ -668,18 +677,18 @@
         {
 		"name": "Velona",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
-                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [600] tiles <in [Desert] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
         {
 		"name": "Managarmr",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
 		"food": 2,
-                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [600] tiles <in [Tundra] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -734,11 +743,11 @@
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Aberrant Blue Zone","Aberrant Green Zone"],
+		"terrainsCanBeFoundOn": ["Marsh","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [30] tiles <in [Marsh] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>", "Generated on every [30] tiles <in [Marsh] tiles>"]
 	},
 	{
 		"name": "Basilosaurus",
@@ -776,7 +785,7 @@
 		"resourceType": "Luxury",
                 "improvement": "Mine",
 		"gold": 2,
-		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Red Gem",
@@ -784,7 +793,7 @@
                 "improvement": "Mine",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Generated on every [300] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Green Gem",
@@ -793,7 +802,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Quarry",
-		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>", "Generated with weight [35] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
