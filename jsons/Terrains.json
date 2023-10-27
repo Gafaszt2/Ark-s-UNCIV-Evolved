@@ -16,6 +16,27 @@
 		"RGB": [189, 214, 255]
 	},
         {
+		"name": "Aberrant Invasion",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [189, 214, 255]
+	},
+        {
+		"name": "Santiago Grave",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [189, 214, 255]
+	},
+        {
+		"name": "Genesis Terminal",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [189, 214, 255]
+	},
+        {
 		"name": "Genesis Soil",
 		"type": "Land",
 		"food": 1,
@@ -498,43 +519,37 @@
 		"weight": 10
 	},
         {
-		"name": "Santiago Grave",
+		"name": "Waterfall",
 		"type": "NaturalWonder",
-		"science": 3,
-		"culture": 4,
-		"faith": 1,
-		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-                        "Neighboring tiles will convert to [Dead Land]",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"culture": 2,
+		"faith": 2,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [6] to [6] [Grassland] tiles"],
+		"turnsInto": "Grassland",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
         {
-		"name": "Aberrant Invasion",
+		"name": "Fertile Lake",
+		"type": "NaturalWonder",
+		"food": 3,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [6] to [6] [Desert] tiles"],
+		"turnsInto": "Grassland",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Castoroides Dam",
 		"type": "NaturalWonder",
 		"science": 1,
-		"culture": 2,
-		"faith": 1,
-		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [2] to [6] [Ocean] tiles", "Neighboring tiles will convert to [Aberrant Green Zone]"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-        {
-		"name": "Genesis Terminal",
-		"type": "NaturalWonder",
-		"science": 3,
-		"food": 1,
-		"occursOn": ["Grassland"],
-		"uniques": ["Neighboring tiles will convert to [Genesis Soil]"],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"food": 2,
+		"occursOn": ["Plains"],
+		"uniques": ["Must be adjacent to [6] to [6] [Plains] tiles"],
+		"turnsInto": "Plains",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
