@@ -171,7 +171,7 @@
 		"attackSound": "dinoroar"
 	},
         {
-		"name": "Thylacoleo",
+		"name": "Thylacoleo Rider",
                 "replaces": "Kapro Rider",
 		"uniqueTo": "Barbarians",
 		"unitType": "Mounted",

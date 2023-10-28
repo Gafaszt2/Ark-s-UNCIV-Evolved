@@ -9,6 +9,12 @@
 		"shortcutKey": "F"
 	},
         {
+		"name": "Sap Collector",
+		"terrainsCanBeBuiltOn": ["Redwoods"],
+		"food": 2,
+		"turnsToBuild": 4,
+	},
+        {
 		"name": "Igloo",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"food": 2,
@@ -27,7 +33,7 @@
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Redwoods"],
 		"production": 1,
 		"turnsToBuild": 4,
 		"shortcutKey": "M"
@@ -269,15 +275,6 @@
 		"terrainsCanBeBuiltOn": ["Lakes"],
 		"turnsToBuild": 2,
                 "techRequired": "Waterskin",
-	},
-        {
-		"name": "Industry",
-		"uniqueTo": "Hiji zuru Teikoku",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 2,
-		"turnsToBuild": 10,
-		"uniques": ["[+1 Production] for each adjacent [Industry]", "[+1 Production] <after discovering [Chainsaw]>", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"techRequired": "Fabricator",
 	},
          {
 		"name": "Dojo",
