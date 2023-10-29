@@ -15,6 +15,13 @@
 		"turnsToBuild": 4,
 	},
         {
+		"name": "Lake House",
+		"terrainsCanBeBuiltOn": ["Lakes"],
+		"production": 1,
+                "uniques": ["Can only be built to improve a resource"],
+		"turnsToBuild": 4,
+	},
+        {
 		"name": "Igloo",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"food": 2,

@@ -514,38 +514,38 @@
 				"name": "Element Dust",
 				"row": 1,
 				"prerequisites": ["Defeat Broodmother"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "It's incredible, really. They simply place an implant harvested from the animal inside an advanced structure called a Revival Platform, then add a what they call ancient amber. The result is a perfect clone of the original creature, right down to its personality. In other words, if it's been tamed then it will remain obedient, and vice versa if it was wild."
 			},
                         {
 				"name": "Resource Attractor",
 				"row": 2,
 				"prerequisites": ["Defeat Broodmother"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "I plan to follow up by studying these implants and samples of amber...and also burning these clothes. I'll never be able to get this swampy stench out of them. Ugh."
 			},
                         {
 				"name": "Tek Sword",
 				"row": 4,
 				"prerequisites": ["Defeat the Dragon"],
                                 "uniques": ["[+2 Science] [in all cities]"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "It's been a while since my last entry, hasn't it? Between all that happened with Rockwell back on the station and the shock of arriving planetside, I've been in a bit of a rut. Even cataloguing the new species I've found has done little to ease my mind."
 			},
                         {
 				"name": "Tek Shield",
 				"row": 5,
 				"prerequisites": ["Defeat the Dragon"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "Luckily, Santiago's plans have given us all something to do. I'm hardly an ace with technology, much less giant bloody robots, but after all that's happened, I owe it to these people to lend a hand in whatever way I can."
 			},
                         {
 				"name": "Tek Turret",
 				"row": 8,
 				"prerequisites": ["Defeat Megapithecus"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "It's hard to believe that this is actually Earth, but the proof Santiago provided is undeniable. The lack of night is disconcerting though, unless you really enjoy apocalyptic events. Could the Earth's rotation have slowed down, or worse, stopped entirely?."
 			},
                         {
 				"name": "Shield Generator",
 				"row": 9,
 				"prerequisites": ["Defeat Megapithecus"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "No, that's rubbish. With the atmosphere out of control, all those abandoned buildings would have been decimated by wind and those giant creatures would never survive the shifting oceans, extreme temperatures and weakened magnetic field. Yet, if all those space stations above us could somehow form a magnetic barrier and repair the atmosphere...well anything's possible at this point."
 			}
 		]
 	},
@@ -560,7 +560,7 @@
 				"name": "Tek Armor",
 				"row": 1,
 				"prerequisites": ["Element Dust"],
-				"quote": "Helena noted that she doesn't know how much time has passed ever since she has ascended. Where a typical person lives a day, her ability to see and experience entire time streams as singular moments may have allowed Helena's human mind to live millions of millennia in a single day."
+				"quote": "I had a talk with Santiago today. A real one I mean, not the sarcastic banter that's his preferred method of communication. I was pretty surprised, I didn't think that had an off switch."
 			},
                         {
 				"name": "Tek Forcefield",

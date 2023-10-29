@@ -28,6 +28,108 @@
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [3000] tiles <in [Plains] tiles>"]
 	},
+        {
+		"name": "Araneo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Marsh","Forest"],
+		"happiness": 1,
+		"improvement": "Camp",
+		"improvementStats": {"faith": 1},
+		"uniques": ["Generated on every [1000] tiles <in [Plains] tiles>"]
+	},
+        {
+		"name": "Pulminoscorpius",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [1000] tiles <in [Hill] tiles>"]
+	},
+        {
+		"name": "Sabertooth Salmon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvement": "Lake House",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [30] tiles <in [Lakes] tiles>"]
+	},
+        {
+		"name": "Giant Bee",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated on every [30] tiles <in [Featureless] [Grassland] tiles>"]
+	},
+        {
+		"name": "Thorny Dragon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated on every [30] tiles <in [Featureless] [Desert] tiles>"]
+	},
+        {
+		"name": "Carnotaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"culture": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated on every [30] tiles <in [Featureless] [Plains] tiles>"]
+	},
+        {
+		"name": "Gigantopithecus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Redwoods"],
+		"science": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [30] tiles <in [Redwoods] tiles>"]
+	},
+        {
+		"name": "Insect Swarm",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Marsh"],
+		"science": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [900] tiles <in [Featureless] [Marsh] tiles>"]
+	},
+        {
+		"name": "Direbear",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"culture": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 2},
+		"uniques": ["Generated on every [150] tiles <in [Featureless] [Tundra] tiles>",
+                             "Generated on every [250] tiles <in [Featureless] [Snow] tiles>"]
+	},
+        {
+		"name": "Sabertooth",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 2},
+		"uniques": ["Generated on every [50] tiles <in [Featureless] [Tundra] tiles>",
+                             "Generated on every [250] tiles <in [Featureless] [Snow] tiles>"]
+	},
+        {
+		"name": "Mammoth",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"science": 2},
+		"uniques": ["Generated on every [250] tiles <in [Featureless] [Tundra] tiles>",
+                             "Generated on every [50] tiles <in [Featureless] [Snow] tiles>"]
+	},
 	{
 		"name": "Ovis",
 		"resourceType": "Bonus",

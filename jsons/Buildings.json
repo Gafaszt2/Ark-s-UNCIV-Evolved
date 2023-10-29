@@ -88,7 +88,7 @@
                 "greatPersonPoints": {"Great Prophet": 1},
 		"food": 1,
 		"hurryCostModifier": 20,
-		"uniques": ["[+1 Food] from [Coast] tiles [in this city]", "[5]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Waterskin"
 	},
 	{
@@ -160,9 +160,8 @@
         {
 		"name": "Rockwell Stories",
                 "greatPersonPoints": {"Great Prophet": 1},
-		"faith": 1,
+		"faith": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]"],
 		"requiredTech": "Campfire"
 	},
         {
@@ -176,10 +175,9 @@
 		"name": "Sparkpowder Works",
                 "greatPersonPoints": {"Great Prophet": 1},
                 "maintenance": 1,
-		"science": 1,
+		"science": 2,
                 "requiredNearbyImprovedResources": ["Stone"],
 		"hurryCostModifier": 50,
-		"uniques": ["[+1 Science] from [Mine] tiles [in this city]"],
                 "requiredBuilding": "Place Mark"
 		"requiredTech": "Mortar"
 	},
@@ -261,7 +259,7 @@
                 "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal", "Wood"],
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Production] from [Jungle] tiles [in this city]", "[+2 Production] from [Chitin] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Production] from [Jungle] tiles [in this city]"],
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Metal Hatchet"
 	},
@@ -298,20 +296,19 @@
 		"name": "Fishing Place",
                 "greatPersonPoints": {"Great Merchant": 1},
                 "maintenance": 1,
-		"culture": 1,
+		"culture": 3,
 		"hurryCostModifier": 50,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]", "Free [Missionary] appears"],
+		"uniques": ["Must be next to [Coast]"],
 		"requiredTech": "Fish Basquet"
                 "requiredBuilding": "Rockwell House"
 	},
         {
 		"name": "Raft Dock",
                 "greatPersonPoints": {"Great Merchant": 1},
-                "maintenance": 1,
-                "food": 1,
-		"faith": 1,
+                "maintenance": 3,
+                "food": 2,
+		"faith": 3,
 		"hurryCostModifier": 50,
-		"uniques": ["[+1 Production] from [Coast] tiles [in this city]", "Free [Inquisitor] appears"],
 		"requiredTech": "Raft"
                 "requiredBuilding": "Fishing Place"
 	},
@@ -450,16 +447,16 @@
         {
 		"name": "Pikemen Armory",
                 "maintenance": 1,
+                "production": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["[+2 Production] from [Fiber] tiles [in this city]"],
 		"requiredBuilding": "Third Armory",
                 "requiredTech": "Pike"
 	},
         {
 		"name": "Crossbow Armory",
                 "maintenance": 1,
+                "production": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["[+2 Production] from [Wood] tiles [in this city]"],
 		"requiredBuilding": "Third Armory",
                 "requiredTech": "Crossbow"
 	},
@@ -467,7 +464,7 @@
 		"name": "Sword Armory",
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+3 Production] from [Metal] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Metal] tiles [in this city]"],
 		"requiredBuilding": "Pikemen Armory",
                 "requiredTech": "Sword"
 	},
@@ -476,7 +473,7 @@
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wood"],
-		"uniques": ["[+1 Production] from [Wood] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredBuilding": "Fabricators",
                 "requiredTech": "Chainsaw"
 	},
@@ -504,9 +501,9 @@
 		"name": "Radio Connection",
                 "greatPersonPoints": {"Great Artist": 1},
                 "maintenance": 1,
+                "culture": 4,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal"],
-		"uniques": ["[+2 Culture] from [Mine] tiles [in this city]"],
 		"requiredBuilding": "Location",
                 "requiredTech": "Radio"
 	},
@@ -579,7 +576,6 @@
 		"name": "Dino Market",
                 "gold": 6
                 "science": 1
-                "uniques": ["[+1 Gold] from [Strategic resource] tiles [in this city]"],
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Fruit Market"
                 "requiredTech": "Balista"
@@ -614,8 +610,6 @@
                 "happiness": 3
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Hippodrome"
-                "uniques": ["[+1 Science] from [Tyrannosaurus] tiles [in this city]", "[+1 Science] from [Sarcosuchus] tiles [in this city]", "[+1 Science] from [Purlovia] tiles [in this city]",
-                "[+1 Science] from [Allosaurus] tiles [in this city]", "[+1 Science] from [Woolly Rhino] tiles [in this city]", "[+1 Science] from [Basilosaurus] tiles [in this city]", "[+1 Science] from [Megalodon] tiles [in this city]"],
                 "requiredTech": "Balista"
 	},
         {
@@ -624,7 +618,6 @@
                 "gold": 2
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Zoo"
-                "uniques": ["[+1 Happiness] from [Luxury resource] tiles [in this city]"],
                 "requiredTech": "Radio"
 	},
 
@@ -829,7 +822,7 @@
                 "uniqueTo": "The Resistance",
 		"requiredNearbyImprovedResources": ["Metal", "Chitin"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Metal] tiles [in this city]", "[+2 Gold] from [Chitin] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Metal] tiles [in this city]", "[+1 Gold] from [Chitin] tiles [in this city]"],
 		"requiredTech": "Metal House"
 	},
         {
@@ -964,14 +957,14 @@
         {
 		"name": "Broodmother Fight",
                 "isNationalWonder": true,
-		"uniques": ["Provides [4] [Tek]", "[+2 Science] from every [Strategic resource]"],
+		"uniques": ["Provides [4] [Tek]", "[+2 Science] from every [Atoll]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Defeat Broodmother"
 	},
         {
 		"name": "Megapithecus Fight",
                 "isNationalWonder": true,
-                "uniques": ["Provides [4] [Tek]", "[+3 Culture] from every [Strategic resource]"],
+                "uniques": ["Provides [4] [Tek]", "[+1 Culture] from every [Snow]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Defeat Megapithecus"
 	},

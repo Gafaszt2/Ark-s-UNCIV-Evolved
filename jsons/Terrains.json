@@ -623,6 +623,40 @@
 		"weight": 10
 	},
         {
+		"name": "Mosasaurus Skeleton",
+		"type": "NaturalWonder",
+		"culture": 2,
+                "science": 1,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles"],
+		"turnsInto": "Ocean",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Tar Pit",
+		"type": "NaturalWonder",
+                "science": 3,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [2] to [4] [Volcanic Soil] tiles"],
+		"turnsInto": "Desert",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Barricate",
+		"type": "NaturalWonder",
+                "food": 3,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [2] to [4] [Grassland] tiles"],
+		"turnsInto": "Grassland",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
 		"name": "Redwoods",
 		"type": "TerrainFeature",
 		"production": 1,

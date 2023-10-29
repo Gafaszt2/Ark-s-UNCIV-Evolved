@@ -126,6 +126,17 @@
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
+{
+		"name": "Cave Tropper",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Mortar",
+                "uniques": ["Never appears as a Barbarian unit"],
+		"obsoleteTech": "Cementing Paste",
+        },
         {
 		"name": "Ravager Rider",
                 "requiredResource": "Ravager",
@@ -388,6 +399,17 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Halberd Soldier",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 40,
+		"cost": 180,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Pike",
+                "uniques": ["Never appears as a Barbarian unit"],
+                "obsoleteTech": "Flak Armor",
+        },
+        {
 		"name": "Purlovia Rider",
 		"unitType": "Mounted",
 		"movement": 2,
@@ -460,13 +482,49 @@
 		"name": "MiniCannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 39,
-		"rangedStrength": 30,
+		"strength": 40,
+		"rangedStrength": 60,
 		"cost": 199,
 		"requiredTech": "Metal House",
                 "obsoleteTech": "Fabricator",
                 "requiredResource": "Chitin",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Light Cannon",
+		"unitType": "Siege",
+		"movement": 4,
+		"strength": 80,
+		"rangedStrength": 100,
+		"cost": 200,
+		"requiredTech": "GPS",
+                "obsoleteTech": "Flamethrower",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Heavy Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 120,
+		"rangedStrength": 150,
+		"cost": 250,
+		"requiredTech": "GPS",
+                "obsoleteTech": "Flamethrower",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Final Electric Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 200,
+		"rangedStrength": 300,
+		"cost": 350,
+		"requiredTech": "Flamethrower",
+                "obsoleteTech": "Pulse Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -539,6 +597,17 @@
 		"hurryCostModifier": 20,
                 "promotions": ["Shock II"],
 		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Pistol Handler",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 75,
+		"cost": 300,
+		"requiredTech": "Chain Bola",
+                "obsoleteTech": "Tek Shield",
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
         {
 		"name": "Shanshanosaurus",
