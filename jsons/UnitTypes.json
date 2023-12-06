@@ -1,50 +1,62 @@
 [
     {
         "name": "Civilian",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Sword",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Gunpowder",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Archery",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Scout",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Mounted",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Armored",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Siege",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"
     },
     {
         "name": "Civilian Water",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Water"
     },
     {
         "name": "Melee Water",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Water"
     },
     {
         "name": "Ranged Water",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Water"
     },
     {
@@ -79,7 +91,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work

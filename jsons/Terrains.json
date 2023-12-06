@@ -470,6 +470,15 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+        {
+		"name": "Natural Lake",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+               "science": 1,
+		"occursOn": ["Grassland"],
+		"uniques": ["Rare feature"]
+	},
 	{ // This will count as "Fresh water" in civ 6
 		"name": "Red Obelisk",
 		"type": "NaturalWonder",

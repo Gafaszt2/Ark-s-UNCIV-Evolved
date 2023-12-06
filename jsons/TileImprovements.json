@@ -16,7 +16,7 @@
 	},
         {
 		"name": "Lake House",
-		"terrainsCanBeBuiltOn": ["Lakes"],
+		"terrainsCanBeBuiltOn": ["Lakes","Natural Lake"],
 		"production": 1,
                 "uniques": ["Can only be built to improve a resource"],
 		"turnsToBuild": 4,

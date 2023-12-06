@@ -5,6 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
+                "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
@@ -15,6 +16,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Redwoods"],
 		"food": 1,
+                "civilopediaText": [{"text": "Thylacoleo furtimorsus is a large, powerful marsupial that can often be found hunting around trees among the Island's redwoods. Its long claws and semi-opposable digits make it an apt climber, a quality that Thylacoleo uses to its advantage while hunting."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [3] tiles <in [Redwoods] tiles>"]
@@ -24,6 +26,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"culture": 1,
+                "civilopediaText": [{"text": "Procoptodon vivencurrus. Standing nearly three meters tall, it is among the largest jumping creatures I've heard of. It is a fairly peaceful herbivore that will immediately flee when aggressed upon."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [3000] tiles <in [Plains] tiles>"]
@@ -33,6 +36,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Marsh","Forest"],
 		"happiness": 1,
+                "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
 		"improvement": "Camp",
 		"improvementStats": {"faith": 1},
 		"uniques": ["Generated on every [1000] tiles <in [Plains] tiles>"]
@@ -42,6 +46,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"gold": 1,
+                "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [1000] tiles <in [Hill] tiles>"]
@@ -51,15 +56,47 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Lakes"],
 		"food": 1,
+                "civilopediaText": [{"text": "Oncorhynchus grexlamia is a generally passive fish. Its main form of protection is swimming in a large school. Oncorhynchus does not like conflict, and generally swims away from anything larger than itself at very high speeds. Once provoked, however, Oncorhynchus becomes quite aggressive, along with its nearby brethren. It locks onto its prey with its long saberteeth and begins draining that creature's blood."}]
 		"improvement": "Lake House",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Lakes] tiles>"]
+	},
+        {
+		"name": "Giant Piranha",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Natural Lake"],
+		"faith": 2,
+                "civilopediaText": [{"text": "Megapiranha magnadmorsus is carnivorous fish found fairly commonly in the rivers and ponds of the island. Its bite is incredibly powerful; I've even seen them break through the armored turtles of the island."}] 
+		"improvement": "Lake House",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
+	},
+        {
+		"name": "Giant Leech",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Natural Lake"],
+		"culture": 2,
+                "civilopediaText": [{"text": "Haementeria laetus, despite its rather terrible nature. The creature has practically no intelligence, and just attaches to any nearby living flesh in an attempt to drain that creature's blood. Removing Haementeria requires precision bladework, or access to an open flame. Both of these can be nearly as dangerous to the host as to the leech itself."}]
+		"improvement": "Lake House",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
+	},
+        {
+		"name": "Giant Otter",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Natural Lake"],
+		"production": 1,
+                "civilopediaText": [{"text": "Lutra Peloso have become exceptionally adept at hunting and foraging. This species of Otter has to be particularly cunning because of its diminutive size, and fierce competition for its preferred food source: fish."}]
+		"improvement": "Lake House",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [10] tiles <in [Natural Lake] tiles>"]
 	},
         {
 		"name": "Giant Bee",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
+                "civilopediaText": [{"text": "Apis Drones can be seen swarming around the nest in groups, but to get a look at the Queen Apis, one would need to crack open the nest itself. Speaking from experience, this is not a pleasant task, as the untameable Apis Drones are quite territorial."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [30] tiles <in [Featureless] [Grassland] tiles>"]
@@ -69,15 +106,27 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
+                "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [30] tiles <in [Featureless] [Desert] tiles>"]
+	},
+        {
+		"name": "Hatzegopteryx",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 1,
+                "civilopediaText": [{"text": "The true tyrannical baron of the ark's skies, Hatzegopteryx is the undisputed king of flight. A massive shadow similar to a warplane, Hatzegopteryx is capable of speed and maneuvers unlike anything else its size. It is a tyrant that hunts anything that soars."}]
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated on every [390] tiles <in [Featureless] [Desert] tiles>"]
 	},
         {
 		"name": "Carnotaurus",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"culture": 1,
+                "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [30] tiles <in [Featureless] [Plains] tiles>"]
@@ -87,6 +136,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Redwoods"],
 		"science": 1,
+                "civilopediaText": [{"text": "Gigantopithecus fibrarator is a strange creature. It is usually quite passive, but it has a very short temper when it comes to its own personal space. Once another creature gets close, this gentle giant quickly becomes a rampaging beast. Best to give them a wide berth. I have occasionally seen Gigantopithecus jumping to grab vines that it can traverse and swing on, but otherwise, it seems most happy to lay about, picking berries from plants lazily."}]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Redwoods] tiles>"]
@@ -96,6 +146,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Marsh"],
 		"science": 1,
+                "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [900] tiles <in [Featureless] [Marsh] tiles>"]
@@ -105,6 +156,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"culture": 1,
+                "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 2},
 		"uniques": ["Generated on every [150] tiles <in [Featureless] [Tundra] tiles>",
@@ -115,6 +167,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"production": 1,
+                "civilopediaText": [{"text": "Smilodon brutalis is a solitary hunter, generally found in cold, lightly wooded areas. The Island's mountains are the perfect habitat, as the mammal's fur keeps it safe from the bitter temperature. While its huge fangs are excellent for delivering deathblows, the creature's claws can be just as deadly."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 2},
 		"uniques": ["Generated on every [50] tiles <in [Featureless] [Tundra] tiles>",
@@ -125,6 +178,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"production": 1,
+                "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
 		"improvementStats": {"science": 2},
 		"uniques": ["Generated on every [250] tiles <in [Featureless] [Tundra] tiles>",
@@ -135,6 +189,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
+                "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [13] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -145,6 +200,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra"], // Tundra only if lowland
 		"food": 1,
+                "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
@@ -191,6 +247,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
+                "civilopediaText": [{"text": "Coelacanth nutritia is one of the few creatures on the Island with a relative which can be found back home. The Coelacanth thrive in the waters around the Island, as well as within rivers and lakes. Unlike most Coelacanths, Coelacanth nutritia meat contains less oil and urea. In fact, it is one of the healthier sources of meat I've yet found. Most Coelacanths are opportunistic feeders that eat anything smaller than itself, likely including baby water snakes, insect and plant life."}]
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [9] tiles <in [Featureless] [Coast] tiles>"]
 	},
@@ -199,6 +256,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
+                "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
                 "uniques": ["Generated on every [9] tiles <in [Featureless] [Desert] tiles>"]
@@ -208,6 +266,9 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert","Hill"],
 		"food": 1,
+                "civilopediaText": [{"text": "Morellatops dromedarius seems to be to a relative of both the Morelladon and Ceratops genuses, which in itself is rather strange. On top of that, it has developed to ability to store water in its humps like a camel. This makes it a critical part of the desert's food chain, as it provides predators with both food and hydration.
+
+"}]
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Desert] tiles>",
@@ -227,6 +288,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
+                "civilopediaText": [{"text": "Raphus replicare, more commonly known as the Dodo Bird, is quite possibly the dumbest creature I've ever seen in my life. It wanders around the beaches of the Island, pecking berries off bushes, and being eaten by all manner of carnivore."}]
 		"improvement": "Farm",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Grassland] tiles>"]
@@ -236,6 +298,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Swamp Zone"],
 		"food": 1,
+                "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
 		"improvement": "Farm",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [20] tiles <in [Swamp Zone] tiles>"]
@@ -267,6 +330,7 @@
 		"terrainsCanBeFoundOn": ["Swamp Zone", "Dead Land","Fallout Land"],
 		"production": 1,
                 "food": 1,
+                "civilopediaText": [{"text": "Beelzebufo palucocus is the largest frog I've ever seen. Almost impossibly large, it can actually fit a fully-grown human adult on its back, though just barely. This is a dangerous prospect, though, as secretions from Beelzebufo's skin and saliva have a narcotic effect on most creatures."}]
 		"improvement": "Camp",
 		"uniques": ["Generated on every [20] tiles <in [Swamp Zone] tiles>"]
 	},
@@ -283,6 +347,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 2,
+                "civilopediaText": [{"text": "Tusoteuthis vampyrus is a very aggressive water predator. Approximately 30 feet long, Tusoteuthis is a terror of the deep. Once it grabs its prey, it slowly crushes it into submission while using the talons on its tentacles to siphon and drink the victim's blood."}]
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>"]
 	},
@@ -302,6 +367,7 @@
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"culture": 1,
                 "science": 1,
+                "civilopediaText": [{"text": "Liopleurodon magicus is a mid-sized ocean creature, typically between 20 and 25 feet long. I've yet to directly encounter one myself, but from the tales other tribes have shared, it compares to no other on the Island. The rumors indicate that this beautiful creature has magical properties."}]
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
@@ -312,6 +378,7 @@
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"culture": 1,
                 "production": 1,
+                "civilopediaText": [{"text": "Here is another example of a creature that seems to have evolved beyond its historical traits. Everything points to this being a saltwater ray, but Manta mobula has developed the ability to swim into the island's rivers and shallows, as well as through the open ocean. Perhaps there were originally two types of ray on the island before, but years of interbreeding combined their lineage. Normally docile, Manta mobula is a carnivore only in that it naturally consumes plankton."}]
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>",
@@ -323,6 +390,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 1,
                 "production": 1,
+                "civilopediaText": [{"text": "Elasmosaurus remuspissa is typically found in the deep oceans, and has a strange role in the oceanic food chain. It almost exclusively hunts the smaller creatures in the waters, leaving most even moderately large creatures alone. The sheer size of the Elasmosaurus means that the quantity of food it must eat to sustain itself is nothing short of enormous. Elasmosaurus is a formidable fighter."}]
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [300] tiles <in [Ocean] tiles>"]
@@ -332,6 +400,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"food": 3,
+                "civilopediaText": [{"text": "Leedsichthys conviviumbrosia is probably the largest fish in the waters around the island. Its meat is also extremely succulent, a surprise given its size."}]
                 "improvementStats": {"culture": 1},
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [700] tiles <in [Ocean] tiles>", "Generated on every [700] tiles <in [Coast] tiles>"]
@@ -351,6 +420,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
 		"food": 1,
+                "civilopediaText": [{"text": "Of all the creatures in the sauropod family, Amargasaurus titanicus is likely the most unique in appearance. It sports two parallel rows of dorsal spines down the length of its neck, back, and tail--though the neck spines are significantly longer than the back or tail spines. These spines are a remarkable adaptation, giving Amargasaurus unmatched control of its body temperature. Made even more marvelous by their time on this ARK, their spines store both extreme heat AND extreme cold, effectively allowing Amargasaurus to live comfortably in any environment."}]
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
@@ -361,6 +431,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
 		"science": 1,
+                "civilopediaText": [{"text": "The Magmasaur is a fire-based Creature that gains strength and charges up attacks through heat. It has an affinity for lava to the point of even swimming in it, and dislikes water."}]
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
