@@ -251,6 +251,38 @@
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [9] tiles <in [Featureless] [Coast] tiles>"]
 	},
+        {
+		"name": "Ichtyosaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coral Zone"],
+		"culture": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>","Generated on every [9] tiles <in [Featureless] [Coral Zone] tiles>"]
+	},
+        {
+		"name": "Hesperornis",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coral Zone"],
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [20] tiles <in [Coral Zone] tiles>","Generated on every [11] tiles <in [Featureless] [Coral Zone] tiles>"]
+	},
+        {
+		"name": "Sauropterygia",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coral Zone"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [30] tiles <in [Coral Zone] tiles>","Generated on every [22] tiles <in [Featureless] [Coral Zone] tiles>"]
+	},
+        {
+		"name": "Volcanic Edestus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Volcanic Zone"],
+		"gold": 3,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>","Generated on every [10] tiles <in [Featureless] [Volcanic Zone] tiles>"]
+	},
 	{
 		"name": "Paraceratherium",
 		"resourceType": "Bonus",

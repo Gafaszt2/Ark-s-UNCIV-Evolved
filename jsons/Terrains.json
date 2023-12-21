@@ -471,6 +471,22 @@
 		"uniques": ["Rare feature"]
 	},
         {
+		"name": "Coral Zone",
+                "food": 1,
+		"type": "TerrainFeature",
+		"defenceBonus": 0.10,
+                "occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
+	},
+        {
+		"name": "Volcanic Zone",
+                "production": 3,
+		"type": "TerrainFeature",
+		"defenceBonus": 0.10,
+                "occursOn": ["Ocean"],
+		"uniques": ["Rare feature"]
+	},
+        {
 		"name": "Natural Lake",
 		"type": "TerrainFeature",
 		"movementCost": 1,

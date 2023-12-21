@@ -750,5 +750,157 @@
     {
         "name": "[Chu-Ko-Nu] ability",
         "uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+    },
+    {
+		"name": "Tyrant I",
+		"uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>"],
+		"unitTypes": ["Theropoda","Fantasy"],
+        "column": 36,
+        "row": 19
+    },
+	{
+		"name": "Tyrant II",
+		"prerequisites": ["Tyrant I"],
+		"uniques": ["[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"],
+		"unitTypes": ["Theropoda"],
+        "column": 37,
+        "row": 20
+    },
+    {
+		"name": "Carnivore I",
+		"uniques": ["Heals [5] damage if it kills a unit"],
+		"unitTypes": ["Theropoda","Flying","Fantasy"],
+        "column": 38,
+        "row": 21
+    },
+	{
+		"name": "Carnivore II",
+		"prerequisites": ["Carnivore I"],
+		"uniques": ["[+3] HP when healing"],
+		"unitTypes": ["Theropoda","Flying"],
+        "column": 39,
+        "row": 22
+    },
+    {
+		"name": "Carnivore III",
+		"prerequisites": ["Carnivore II"],
+		"uniques": ["[+2] HP when healing"],
+		"unitTypes": ["Theropoda","Flying"],
+        "column": 40,
+        "row": 23
+    },
+{
+		"name": "Eyes by the side I",
+		"uniques": ["[+1] Movement <in [Hill] tiles>"],
+		"unitTypes": ["Prey","Flying"],
+        "column": 41,
+        "row": 24
+    },
+{
+		"name": "Eyes by the side II",
+		"prerequisites": ["Eyes by the side I"],
+		"uniques": ["[+1] Movement <in [Grassland] tiles>"],
+		"unitTypes": ["Prey","Flying"],
+        "column": 42,
+        "row": 25
+    },
+    {
+		"name": "Prey I",
+		"uniques": ["[+5]% to Flank Attack bonuses"],
+		"unitTypes": ["Prey"],
+        "column": 43,
+        "row": 26
+    },
+	{
+		"name": "Prey II",
+		"prerequisites": ["Prey I"],
+		"uniques": ["[+15]% to Flank Attack bonuses"],
+		"unitTypes": ["Prey"],
+        "column": 44,
+        "row": 27
+    },
+    {
+		"name": "Prey III",
+		"prerequisites": ["Prey II"],
+		"uniques": ["[+10]% to Flank Attack bonuses"],
+		"unitTypes": ["Prey"],
+        "column": 45,
+        "row": 28
+    },
+    {
+		"name": "Warm Blood I",
+		"uniques": ["[+1] Movement <in [Tundra] tiles>"],
+		"unitTypes": ["Mammal","Fantasy"],
+        "column": 46,
+        "row": 29
+    },
+{
+		"name": "Warm Blood II",
+		"prerequisites": ["Warm Blood I"],
+		"uniques": ["[+1] Movement <in [Snow] tiles>"],
+		"unitTypes": ["Mammal"],
+        "column": 47,
+        "row": 30
+    },
+    {
+		"name": "Fur I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Mammal"],
+        "column": 48,
+        "row": 31
+    },
+	{
+		"name": "Fur II",
+		"prerequisites": ["Fur I"],
+		"uniques": ["[+15]% Strength <for [Wounded] units>"],
+		"unitTypes": ["Mammal"],
+        "column": 49,
+        "row": 32
+    },
+    {
+		"name": "Womb",
+		"prerequisites": ["Warm Blood I","Fur I"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Mammal","Fantasy"],
+        "column": 50,
+        "row": 33
+    },
+    {
+		"name": "Amniote I",
+		"uniques": ["[+1] Movement <in [Water] tiles>","[+1] Movement <in [Lakes] tiles>","[+1] Movement <in [Flood plains] tiles>"],
+		"unitTypes": ["Amphibious"],
+        "column": 51,
+        "row": 34
+    },
+{
+		"name": "Amniote II",
+		"prerequisites": ["Amniote I"],
+		"uniques": ["[+1] Movement <in [Swamp Zone] tiles>","[+1] Movement <in [Marsh] tiles>","[+1] Movement <in [Natural Lake] tiles>","[+1] Movement <in [Oasis] tiles>"],
+		"unitTypes": ["Amphibious"],
+        "column": 52,
+        "row": 35
+    },
+    {
+		"name": "Scales I",
+		"uniques": ["[+15]% Strength <when fighting in [Water] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
+		"unitTypes": ["Amphibious"],
+        "column": 53,
+        "row": 36
+    },
+	{
+		"name": "Scales II",
+		"prerequisites": ["Scales I"],
+		"uniques": ["[+15]% Strength <when fighting in [Water] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
+		"unitTypes": ["Amphibious"],
+        "column": 54,
+        "row": 37
+    },
+    {
+		"name": "Swamp Creature",
+		"prerequisites": ["Scales I","Amniote I"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Amphibious","Fantasy"],
+        "column": 55,
+        "row": 38
     }
 ]

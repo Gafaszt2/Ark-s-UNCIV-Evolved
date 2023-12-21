@@ -306,7 +306,6 @@
 		"name": "Raft Dock",
                 "greatPersonPoints": {"Great Merchant": 1},
                 "maintenance": 3,
-                "food": 2,
 		"faith": 3,
 		"hurryCostModifier": 50,
 		"requiredTech": "Raft"
@@ -334,7 +333,6 @@
 		"uniqueTo": "New Rus",
                 "cityStrength": 5,
 		"cityHealth": 90,
-		"food": 2,
                 "culture": 2,
 		"hurryCostModifier": 50,
 		"requiredTech": "Wooden Houses"
@@ -351,14 +349,14 @@
         {
 		"name": "Preserving House",
                 "greatPersonPoints": {"Great Merchant": 1},
-		"food": 2,
+		"food": 1,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
 		"requiredTech": "Preserving Bin"
 	},
         {
 		"name": "Stone Irrigation Sistem",
-		"food": 2,
+		"food": 1,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Stone Fort"
 		"requiredTech": "Stone Irrigation Pipe"
@@ -437,10 +435,8 @@
 		"name": "Third Armory",
                 "greatPersonPoints": {"Great General": 1},
                 "maintenance": 1,
-		"faith": 1,
-                "science": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Land] units [in this city]", "[+1 Food] from [Farm] tiles [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]"],
 		"requiredBuilding": "Second Armory",
                 "requiredTech": "Professional Domestication"
 	},
@@ -626,7 +622,7 @@
         {
 		"name": "Temple of Artemis",
 		"isWonder": true,
-		"uniques": ["[+15]% [Food] [in all cities]"],
+		"uniques": ["[+15]% [Food] [in capital]"],
 		"requiredTech": "Slingshot",
 		"quote": "'im not a god. I am more than that. Infinitely more. I am everything' - Rockwell"
 	},
@@ -756,7 +752,7 @@
 		"name": "Moai Statue",
 		"isWonder": true,
                 "gold": 2,
-		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+10]% [Food] [in all cities]", "[+10]% [Culture] [in all cities]"],
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+10]% [Food] [in capital]", "[+10]% [Culture] [in capital]"],
 		"requiredTech": "Fish Basquet",
 		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
@@ -855,7 +851,7 @@
         {
 		"name": "Hospital",
                 "uniqueTo": "Vooruit",
-		"food": 5,
+		"food": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Polymer"
@@ -971,7 +967,7 @@
         {
 		"name": "Tek Resource Organization",
                 "production": 3,
-                "uniques": ["[+3 Culture] [in all cities]", "[+2 Food] [in all cities]"],
+                "uniques": ["[+1 Culture] [in capital]", "[+1 Food] [in capital]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
 		"requiredTech": "Resource Attractor"
@@ -979,7 +975,7 @@
         {
 		"name": "Tek Forcefields",
                 "cityHealth": 20,
-                "uniques": ["[+3 Culture] [in all cities]", "[+2 Food] [in all cities]"],
+                "uniques": ["[+1 Culture] [in all cities]", "[+1 Food] [in capital]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
                 "requiredBuilding": "Tek Resource Organization",
@@ -988,7 +984,7 @@
         {
 		"name": "Tek Defense Generator",
                 "culture": 3,
-                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in all cities]"],
+                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in capital]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
 		"requiredTech": "Shield Generator"
@@ -996,7 +992,7 @@
         {
 		"name": "Tek Protector",
                 "cityHealth": 20,
-                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in all cities]"],
+                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in capital]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
                 "requiredBuilding": "Tek Resource Organization",
@@ -1005,7 +1001,7 @@
         {
 		"name": "Element Works",
                 "science": 2,
-                "uniques": ["[+3 Production] [in all cities]", "[+1 Faith] [in all cities]"],
+                "uniques": ["[+3 Production] [in capital]", "[+1 Faith] [in all cities]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
 		"requiredTech": "Element Dust"
@@ -1013,7 +1009,7 @@
         {
 		"name": "Tek Armor Fabricator",
                 "cityHealth": 5,
-                "uniques": ["[+3 Production] [in all cities]", "[+1 Food] [in all cities]"],
+                "uniques": ["[+3 Production] [in capital]", "[+1 Food] [in capital]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
                 "requiredBuilding": "Element Works",
@@ -1023,8 +1019,7 @@
 		"name": "Tek Turrets",
                 "happiness": 2,
                 "faith": 1,
-                "food": 2,
-                "uniques": ["[+2 Production] [in all cities]", "Provides [2] [Tek Turret Resource]"],
+                "uniques": ["[+2 Production] [in this city]", "Provides [2] [Tek Turret Resource]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Tek"
 		"requiredTech": "Tek Turret"
