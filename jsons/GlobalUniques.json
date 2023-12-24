@@ -1,6 +1,12 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([100])",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -16,10 +22,9 @@
         // "[+10]% growth [in all cities] <during We Love The King Day>",
 
         // "Nullifies All Yield <while is in resistance>",
-
+           
         // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
         // "[-25]% [Culture] [in pupetted cities]"
-
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
     ]

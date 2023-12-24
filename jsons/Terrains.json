@@ -671,6 +671,28 @@
 		"weight": 10
 	},
         {
+		"name": "Desert Mountain",
+		"type": "NaturalWonder",
+                "faith": 3,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [6] to [6] [Desert] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Tundra Mountain",
+		"type": "NaturalWonder",
+                "faith": 3,
+		"occursOn": ["Tundra"],
+		"uniques": ["Must be adjacent to [6] to [6] [Tundra] tiles"],
+		"turnsInto": "Tundra",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
 		"name": "Barricate",
 		"type": "NaturalWonder",
                 "food": 3,

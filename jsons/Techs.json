@@ -56,7 +56,7 @@
 			},
                         {
 				"name": "Stone Hatchet",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Stone Pick"],
                         "quote": "Chop chop."
 			}
@@ -71,13 +71,13 @@
 		"techs": [
 			{
 				"name": "Waterskin",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Campfire"],
 				"quote": "Also it works as a filter."
 			},
 			{
 				"name": "Thatch Houses",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Stone Hatchet"],
                         "quote": "My first house!"
 			},
@@ -98,32 +98,32 @@
 		"techs": [
 			{
 				"name": "Slingshot",
-				"row": 3,
+				"row": 9,
 				"prerequisites": ["Thatch Houses"],
 				"quote": "Point and Bayou!"
 			},
                         {
 				"name": "Spyglass",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Waterskin"],
                                 "uniques": ["Enables embarkation for land units"],
 				"quote": "Over there and over the hills!"
 			},
 			{
 				"name": "Mortar",
-				"row": 5,
+				"row": 3,
 				"prerequisites": ["Waterskin"],
                         "quote": "Crush and Crush."
 			},
                         {
 				"name": "Narcotics",
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Thatch Houses"],
                         "quote": "Sleepy."
 			},
                         {
 				"name": "Wooden Houses",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Thatch Houses", "Sleeping Bag"],
                         "quote": "Dont worry."
 			}
@@ -138,19 +138,19 @@
 		"techs": [
 			{
 				"name": "Cementing Paste",
-				"row": 7,
+				"row": 3,
 				"prerequisites": ["Mortar", "Wooden Houses"],
 				"quote": "Stick Together!"
 			},
 			{
 				"name": "Bow and Arrow",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Slingshot", "Narcotics"],
                         "quote": "Poison Arrows?"
 			},
                         {
 				"name": "Fish Basquet",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Spyglass"],
                         "quote": "Bass?"
 			}
@@ -165,19 +165,19 @@
 		"techs": [
 			{
 				"name": "Stone Houses",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Cementing Paste"],
 				"quote": "Stonehenge!"
 			},
 			{
 				"name": "Professional Domestication",
-				"row": 5,
+				"row": 8,
 				"prerequisites": ["Bow and Arrow"],
                         "quote": "Gotcha!"
 			},
                         {
 				"name": "Raft",
-				"row": 2,
+				"row": 1,
                                 "uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Fish Basquet"],
                         "quote": "Wilson..."
@@ -193,26 +193,21 @@
 		"techs": [
 			{
 				"name": "Bookshelf",
-				"row": 8,
-				"prerequisites": ["Stone Houses"],
+				"row": 7,
+				"prerequisites": ["Stone Houses","Professional Domestication"],
 				"quote": "A place of study."
 			},
-                        {
-				"name": "Stone Irrigation Pipe",
-				"row": 6,
-				"prerequisites": ["Stone Houses"],
-				"quote": "My first plant."
-			},
+     
 			{
 				"name": "Preserving Bin",
-				"row": 5,
-				"prerequisites": ["Professional Domestication"],
+				"row": 4,
+				"prerequisites": ["Stone Houses"],
                         "quote": "Meat with salt, try out."
 			},
                         {
 				"name": "Spike Wall",
-				"row": 2,
-				"prerequisites": ["Professional Domestication", "Raft"],
+				"row": 9,
+				"prerequisites": ["Professional Domestication"],
                         "quote": "There is a zombie on my lawn."
 			},
                         {
@@ -232,21 +227,27 @@
 		"techs": [
 			{
 				"name": "Gunpowder",
-				"row": 8,
-				"prerequisites": ["Bookshelf", "Preserving Bin"],
+				"row": 4,
+				"prerequisites": ["Preserving Bin"],
 				"quote": "No shoot yet!"
                                 "uniques": ["[+1 Science] [in all cities]"],
 			},
                         {
+				"name": "Stone Irrigation Pipe",
+				"row": 1,
+				"prerequisites": ["Fishing Rod"],
+				"quote": "My first plant."
+			},
+                        {
 				"name": "Smithy",
-				"row": 6,
-				"prerequisites": ["Stone Irrigation Pipe", "Spike Wall"],
+				"row": 7,
+				"prerequisites": ["Bookshelf"],
 				"quote": "Workplace full of anvils and hammers."
 			},
 			{
 				"name": "Refining Forge",
-				"row": 5,
-				"prerequisites": ["Bookshelf", "Spike Wall"],
+				"row": 9,
+				"prerequisites": ["Spike Wall"],
                         "quote": "Things getting warm."
 			}
 		]
@@ -260,26 +261,26 @@
 		"techs": [
 			{
 				"name": "Metal Hatchet",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Refining Forge"],
 				"quote": "Im not afraid."
 			},
                         {
 				"name": "Dock",
-				"row": 1,
-				"prerequisites": ["Fishing Rod", "Gunpowder"],
+				"row": 2,
+				"prerequisites": ["Stone Irrigation Pipe", "Gunpowder"],
 				"quote": "Sea of Thieves"
                                 "uniques": ["[+1 Food] [in all cities]"],
 			},
                         {
 				"name": "Metal Pick",
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Refining Forge"],
 				"quote": "Mine and Craft"
 			},
 			{
 				"name": "Tranq Arrow",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Smithy"],
                         "quote": "This will make that beast asleep!"
 			}
@@ -294,20 +295,20 @@
 		"techs": [
 			{
 				"name": "Crossbow",
-				"row": 8,
+				"row": 4,
 				"prerequisites": ["Dock"],
 				"quote": "Chu ko nu?"
 			},
                         {
 				"name": "Pike",
-				"row": 6,
-				"prerequisites": ["Metal Pick"],
+				"row": 7,
+				"prerequisites": ["Metal Pick","Tranq Arrow"],
 				"quote": "Age of Empires"
 			},
 			{
 				"name": "Balista",
-				"row": 5,
-				"prerequisites": ["Metal Hatchet", "Tranq Arrow"],
+				"row": 9,
+				"prerequisites": ["Metal Hatchet"],
                         "quote": "Shiny Balista!"
 			}
 		]
@@ -322,14 +323,14 @@
 			{
 				"name": "Greenhouse",
 				"row": 1,
-				"prerequisites": ["Dock", "Balista"],
+				"prerequisites": ["Crossbow"],
 				"quote": "They cultivate vegetables here."
                                 "uniques": ["[+2 Food] [in all cities]"],
 			},
                         {
 				"name": "Sword",
 				"row": 6,
-				"prerequisites": ["Balista","Crossbow", "Pike"],
+				"prerequisites": ["Pike","Crossbow"],
 				"quote": "The sharpest blade."
                                 "uniques": [
 			"[+1 Food] from [Hill] tiles [in this city]",
@@ -338,7 +339,7 @@
 			{
 				"name": "Metal House",
 				"row": 9,
-				"prerequisites": ["Crossbow"],
+				"prerequisites": ["Balista","Pike"],
                         "quote": "The safest home."
                         "uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
@@ -371,15 +372,27 @@
 		"techs": [
 			{
 				"name": "Polymer",
-				"row": 1,
+				"row": 3,
 				"prerequisites": ["Fabricator"],
 				"quote": "Normally found on baby penguins, but this time is going to be artificial."
+			},
+                        {
+				"name": "Grenade",
+				"row": 1,
+				"prerequisites": ["Fabricator"],
+				"quote": "Pulling the pin starts a 5 second timer to an explosion. Make sure you've thrown it by then."
 			},
                         {
 				"name": "Electronics",
 				"row": 6,
 				"prerequisites": ["Fabricator"],
 				"quote": "Watch out!"
+			},
+                        {
+				"name": "Pliers",
+				"row": 8,
+				"prerequisites": ["Fabricator"],
+				"quote": "Use on a Smithy-crafted item in need of repairing and you can repair it on the go within any inventory, at a higher cost of resources."
 			},
 			{
 				"name": "Industrial Grill",
@@ -398,26 +411,26 @@
 		"techs": [
 			{
 				"name": "Chainsaw",
-				"row": 1,
-				"prerequisites": ["Industrial Grill", "Polymer"],
+				"row": 7,
+				"prerequisites": ["Electronics", "Pliers"],
 				"quote": "The best recolector."
 			},
                         {
 				"name": "GPS",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Electronics"],
 				"quote": "Location device used by the survivors."
 			},
                         {
 				"name": "Cryopod",
-				"row": 6,
-				"prerequisites": ["Electronics", "Polymer"],
+				"row": 4,
+				"prerequisites": ["Polymer", "Electronics"],
 				"quote": "Used as a pokeball for big dinosaurs."
 			},
 			{
 				"name": "Canteen",
 				"row": 9,
-				"prerequisites": ["Polymer"],
+				"prerequisites": ["Industrial Grill"],
                         "quote": "Used to save water on dry places."
 			}
 		]
@@ -432,19 +445,19 @@
 			{
 				"name": "Flak Armor",
 				"row": 1,
-				"prerequisites": ["Chainsaw", "Cryopod"],
+				"prerequisites": ["Grenade", "Cryopod"],
 				"quote": "The highest tier armor."
 			},
                         {
 				"name": "Radio",
 				"row": 5,
-				"prerequisites": ["GPS", "Canteen"],
+				"prerequisites": ["GPS", "Cryopod"],
 				"quote": "A tech used to mantain comunications."
 			},
                         {
 				"name": "Chain Bola",
-				"row": 6,
-				"prerequisites": ["GPS"],
+				"row": 8,
+				"prerequisites": ["Canteen","Chainsaw"],
 				"quote": "A weapon used to immobilize big creatures."
 			}
 		]
@@ -464,13 +477,13 @@
 			},
                         {
 				"name": "Flamethrower",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Chain Bola"],
 				"quote": "A story about an underground explorer finding a culture of creatures called the Vril-Ya that has a society that runs on Vril, an alI-permeating fluid that the Vril-Ya can control with their minds. - Edward Bulwer-Lytton"
 			},
                         {
 				"name": "Auto Torret",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Radio"],
 				"quote": "Depicts a now prevalent observation that machines are taking over more and more of man's roles in society and man becoming slaves to those machines."
 			}

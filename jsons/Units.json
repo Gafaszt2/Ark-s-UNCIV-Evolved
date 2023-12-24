@@ -6,7 +6,7 @@
         	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
@@ -15,7 +15,7 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can hurry technology research",
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
@@ -24,7 +24,7 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -32,7 +32,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -40,7 +40,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -55,7 +55,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -364,13 +364,35 @@
 		"name": "Camuflage Survivor",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 29,
-                "rangedStrength": 22,
-		"cost": 80,
+		"strength": 30,
+                "rangedStrength": 25,
+		"cost": 150,
 		"attackSound": "nonmetalhit"
                 "obsoleteTech": "Flak Armor",
                 "requiredTech": "Polymer",
-                "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+                "uniques": ["[+20]% Strength <vs [Mounted] units>"],
+        },
+        {
+		"name": "Grenadier Survivor",
+		"unitType": "Gunpowder",
+		"movement": 1.5,
+		"strength": 20,
+                "rangedStrength": 35,
+		"cost": 150,
+		"attackSound": "nonmetalhit"
+                "obsoleteTech": "Flak Armor",
+                "requiredTech": "Grenade",
+                "uniques": ["[+20]% Strength <vs [Mounted] units>"],
+        },
+        {
+		"name": "Engineer",
+		"unitType": "Sword",
+		"movement": 2.5,
+		"strength": 25,
+		"cost": 110,
+		"attackSound": "metalhit"
+                "requiredTech": "Pliers",
+                "uniques": ["Can build [Land] improvements on tiles"],
         },
         {
 		"name": "Flak Survivor",

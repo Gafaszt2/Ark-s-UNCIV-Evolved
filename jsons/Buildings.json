@@ -544,6 +544,29 @@
                 "requiredTech": "Canteen"
 	},
         {
+		"name": "Plaza",
+                "maintenance": 3,
+                "faith": 3
+                "culture": 4
+		"hurryCostModifier": 10,
+                "requiredTech": "Industrial Grill"
+	},
+        {
+		"name": "Polymer Studies",
+                "maintenance": 2,
+                "science": 2
+                "culture": 3
+		"hurryCostModifier": 10,
+                "requiredTech": "Polymer"
+	},
+        {
+		"name": "God Awakes Monument",
+                "maintenance": 3,
+                "faith": 5
+		"hurryCostModifier": 10,
+                "requiredTech": "Electronics"
+	},
+        {
 		"name": "Metal Fort",
                 "cityStrength": 5,
 		"cityHealth": 31,
@@ -553,15 +576,53 @@
 		"requiredTech": "Metal House"
 	},
         {
+		"name": "Construction Labor",
+                "maintenance": 1,
+                "production": 1
+		"hurryCostModifier": 10,
+                "requiredTech": "Chainsaw"
+	},
+        {
+		"name": "Fresh Water Industry",
+                "gold": 1,
+                "science": 1
+		"hurryCostModifier": 10,
+                "requiredTech": "Canteen"
+	},
+        {
+		"name": "Scrap Metal Works",
+                "production": 1
+		"hurryCostModifier": 20,
+                "uniques": ["Free [Engineer] appears"],
+                "requiredResource": "Metal"
+                "requiredTech": "Pliers"
+	},
+        {
+		"name": "Cristalized Works",
+                "production": 1
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Scrap Metal Works"
+                "uniques": ["Free [Engineer] appears"],
+                "requiredResource": "Oil"
+                "requiredTech": "Pliers"
+	},
+        {
+		"name": "Tyrant Go Down",
+		"hurryCostModifier": 20,
+                "uniques": ["Provides [1] [Tyrannosaurus]"],
+                "requiredResource": "Oil"
+                "requiredTech": "Grenade"
+	},
+        {
 		"name": "Market",
-                "gold": 3
+                "gold": 2
                 "happiness": 1
 		"hurryCostModifier": 70,
                 "requiredTech": "Preserving Bin"
 	},
         {
 		"name": "Fruit Market",
-                "gold": 4
+                "gold": 2
                 "food": 1
                 "uniques": ["[+1 Food] from [Lemon] tiles [in this city]", "[+1 Food] from [Amarberry] tiles [in this city]"],
 		"hurryCostModifier": 70,
@@ -570,7 +631,7 @@
 	},
         {
 		"name": "Dino Market",
-                "gold": 6
+                "gold": 3
                 "science": 1
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Fruit Market"

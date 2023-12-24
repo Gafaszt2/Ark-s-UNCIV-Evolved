@@ -14,7 +14,7 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [150, 93, 45]
         "uniques": ["May not generate great prophet equivalents naturally"
        ]
     },
@@ -33,7 +33,7 @@
         "startPercent": 10,
         "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures"],
         "citySound": "cityLeather",
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [227, 127, 43]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
       },
@@ -52,7 +52,7 @@
         "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort"],
         "startPercent": 25,
         "citySound": "citySmithy",
-        "iconRGB": [157, 39, 176]
+        "iconRGB": [247, 250, 195]
         "uniques": ["May not generate great prophet equivalents naturally"
      ]
     },  
@@ -71,7 +71,7 @@
         "startPercent": 37,
         "citySound": "cityElectric",
         "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
-        "iconRGB": [104, 58, 183]
+        "iconRGB": [254, 255, 235]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
     },  
