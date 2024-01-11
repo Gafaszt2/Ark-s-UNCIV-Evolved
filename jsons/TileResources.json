@@ -234,13 +234,13 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra","Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Featureless] [Beach] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Generated on every [60] tiles <in [Featureless] [Tundra] tiles>",
+					"Generated on every [60] tiles <in [Featureless] [Desert] tiles>"]
 	},
 	{
 		"name": "Coelacanth",
@@ -318,22 +318,22 @@
         {
 		"name": "Dodo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Grassland","Beach"],
 		"food": 1,
                 "civilopediaText": [{"text": "Raphus replicare, more commonly known as the Dodo Bird, is quite possibly the dumbest creature I've ever seen in my life. It wanders around the beaches of the Island, pecking berries off bushes, and being eaten by all manner of carnivore."}]
 		"improvement": "Farm",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [20] tiles <in [Grassland] tiles>"]
+		"uniques": ["Generated on every [40] tiles <in [Featureless] [Beach] tiles>","Generated on every [50] tiles <in [Grassland] tiles>"]
 	},
         {
 		"name": "Ichtyornis",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone"],
+		"terrainsCanBeFoundOn": ["Swamp Zone","Beach"],
 		"food": 1,
                 "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
 		"improvement": "Farm",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Featureless] [Beach] tiles>","Generated on every [20] tiles <in [Swamp Zone] tiles>"]
 	},
          {
 		"name": "Rare Mushroom",
@@ -640,10 +640,10 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","Beach", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
-		"uniques": ["Guaranteed with Strategic Balance resource option",
+		"uniques": ["Guaranteed with Strategic Balance resource option","Generated on every [30] tiles <in [Featureless] [Beach] tiles>",
                                         "Generated on every [30] tiles <in [Redwoods] tiles>",
 					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
 					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
@@ -689,11 +689,11 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Beach","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+		"uniques": ["Generated on every [40] tiles <in [Featureless] [Beach] tiles>","Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
@@ -924,10 +924,10 @@
 	{
 		"name": "Tintoberry",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Forest","Beach","Jungle","Genesis Soil","Tek Soil"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+		"uniques": ["Generated on every [300] tiles <in [Featureless] [Beach] tiles>","Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
@@ -936,10 +936,10 @@
 	{
 		"name": "Mejoberry",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh","Beach"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
+		"uniques": ["Generated with weight [30] <in [Jungle] Regions>","Generated on every [300] tiles <in [Featureless] [Beach] tiles>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",
@@ -963,11 +963,11 @@
 	{
 		"name": "Sand",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Desert","Beach"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"prdocution": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
+		"uniques": ["Generated on every [100] tiles <in [Featureless] [Beach] tiles>","Generated on every [20] tiles <in [Desert] tiles>"]
 	},
 	{
 		"name": "Sarcosuchus",
@@ -1041,10 +1041,11 @@
 	{
 		"name": "Keratin",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
+		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra","Beach"],
 		"gold": 2,
 		"improvement": "Camp",
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+                                        "Generated on every [500] tiles <in [Featureless] [Beach] tiles>"
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
 					"Generated with weight [10] <in [Desert] Regions>",
@@ -1102,11 +1103,11 @@
 	{
 		"name": "Lystrosaurus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle","Beach"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>", "Generated on every [900] tiles <in [Featureless] [Beach] tiles>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",

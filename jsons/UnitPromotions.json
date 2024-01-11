@@ -1,7 +1,7 @@
 [
         {
                 "name": "Swamp Fever",
-                "uniques": ["Heal this unit by [-5] HP <upon ending a turn in a [All] tile>"],
+                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },
 	{
 		"name": "Heal Instantly",

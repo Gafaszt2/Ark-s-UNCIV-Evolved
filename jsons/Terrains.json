@@ -1,5 +1,12 @@
 [
 	// Base terrains
+        {
+                "name": "Beach",
+                "type": "Land",
+		"food": 1,
+		"movementCost": 1,
+                "RGB": [255, 245, 189],
+        },
 	{
 		"name": "Ocean",
 		"type": "Water",
@@ -133,6 +140,7 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
+            "Becomes [Beach] when adjacent to [Coast]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -162,7 +170,7 @@
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
-            "Becomes [Swamp Zone] when adjacent to [Coast]",
+            "Becomes [Beach] when adjacent to [Coast]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -266,6 +274,7 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
+            "Becomes [Beach] when adjacent to [Coast]",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -284,6 +293,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
+            "Becomes [Beach] when adjacent to [Coast]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -699,6 +709,16 @@
 		"occursOn": ["Grassland"],
 		"uniques": ["Must be adjacent to [2] to [4] [Grassland] tiles"],
 		"turnsInto": "Grassland",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
+		"name": "Abandoned Ship",
+		"type": "NaturalWonder",
+                "gold": 4,
+		"occursOn": ["Beach"],
+		"turnsInto": "Beach",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10

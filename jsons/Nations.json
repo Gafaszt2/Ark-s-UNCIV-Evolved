@@ -388,7 +388,7 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
                 "uniqueName": "Morte per Patria",
-                "uniques": ["Starts with [Dossier Studies] adopted", "[-10]% tile improvement construction time", "[+30]% Golden Age length", "[+3]% Strength <in [Friendly Land] tiles>"],
+                "uniques": ["Starts with [Dossier Studies] adopted", "[-10]% construction time for [All] improvements", "[+30]% Golden Age length", "[+3]% Strength <in [Friendly Land] tiles>"],
 
 		"outerColor": [135, 203, 87],
 		"innerColor": [16, 122, 110],

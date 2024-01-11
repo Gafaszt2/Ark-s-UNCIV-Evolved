@@ -414,7 +414,6 @@
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
                 "requiredResource": "Allosaurus",
-                "requiredResource": "Metal",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
@@ -560,6 +559,30 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Charge"],
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Diprotodon",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 40,
+		"cost": 125,
+		"requiredTech": "Chainsaw",
+                "obsoleteTech": "Chain Bola",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Prolibytherium",
+		"unitType": "Mammal",
+		"movement": 3.5,
+		"strength": 35,
+		"cost": 115,
+		"requiredTech": "Grenade",
+                "obsoleteTech": "Flak Armor",
+		"uniques": ["[+20]% Strength <vs [Civilian] units>","[+35]% Strength <vs [Siege] units>","Can move after attacking"],
+		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
         {
@@ -735,6 +758,32 @@
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
+	},
+        {
+		"name": "Megatherium",
+		"unitType": "Mammal",
+		"movement": 3.5,
+		"strength": 85,
+		"cost": 250,
+		"requiredTech": "Auto Torret",
+                "obsoleteTech": "Tek Shield",
+                "requiredResource": "Oil",
+		"uniques": ["[+33]% Strength <vs [Theropod] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Cave Lion",
+		"unitType": "Mammal",
+		"movement": 3.5,
+		"strength": 50,
+		"cost": 180,
+		"requiredTech": "Auto Torret",
+                "obsoleteTech": "Tek Shield",
+                "requiredResource": "Oil",
+		"uniques": ["[+50]% Strength <vs [Civilian] units>","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
 	},
         {
 		"name": "Flamethrower Survivor",
