@@ -29,6 +29,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Monument",
+                "replaces": "Rockwell Stories",
+		"uniqueTo": "Saint Domain",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"faith": 2,
+                "culture": 2,
+		"hurryCostModifier": 20,
+		"requiredTech": "Campfire"
+	},
+        {
 		"name": "Courthouse",
 		"maintenance": 8,
 		"hurryCostModifier": 50,
@@ -228,6 +238,16 @@
                 "requiredNearbyImprovedResources": ["Metal","Chitin"],
 		"hurryCostModifier": 50,
 		"uniques": ["[+1 Production] from [Chitin] tiles [in this city]", "[+1 Production] from [Metal] tiles [in this city]"],
+		"requiredBuilding": "Heavy Stone Working",
+                "requiredTech": "Smithy"
+	},
+        {
+		"name": "Human Skin Remover",
+                "replaces": "Smithies",
+		"uniqueTo": "Furtaker Empire",
+                "maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city]"],
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Smithy"
 	},

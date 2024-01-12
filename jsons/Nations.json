@@ -7,6 +7,130 @@
 	},
         {
 		//nations
+		"name": "Space Pirates",
+		"leaderName": "Alessandra",
+		"adjective": ["Pirates"],
+		"startBias": ["Beach"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Air Royal Bastards",
+                "uniques": ["[+45]% Production when constructing [Gold] buildings [in all cities]", "[+35]% Production when constructing [Flying] units [in all cities]"],
+
+		"outerColor": [1, 105, 51],
+		"innerColor": [52, 204, 235],
+		"cities": ["Pint Bar","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		//nations
+		"name": "New Aztec Empire",
+		"leaderName": "Quetzal",
+		"adjective": ["Aztecs"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Air Royal Bastards",
+                "uniques": ["[+1 Culture] per [2] social policies adopted","[+1 Science] per [4] social policies adopted", "[+35]% Production when constructing [Amphibious] units [in all cities]"],
+
+		"outerColor": [115, 250, 227],
+		"innerColor": [55, 64, 62],
+		"cities": ["Brightness","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		//nations
+		"name": "Cave Civilization",
+		"leaderName": "Andres",
+		"adjective": ["Caves"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Return to Dragon era",
+                "uniques": ["Allied City-States provide [Science] equal to [+100]% of what they produce for themselves"],
+
+		"outerColor": [109, 112, 111],
+		"innerColor": [245, 207, 132],
+		"cities": ["Himaly","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		//nations
+		"name": "Saint Domain",
+		"leaderName": "Bridjet",
+		"adjective": ["Saints"],
+		"startBias": ["Natural Lake"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Faith Godness",
+                "uniques": ["[+35]% Production when constructing [Faith] buildings [in all cities]", "[Gold] cost of purchasing [Faith] buildings [-30]%"],
+
+		"outerColor": [252, 252, 252],
+		"innerColor": [163, 115, 2],
+		"cities": ["Ireland","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		//nations
 		"name": "Nueva Hispania",
 		"leaderName": "Amalia",
 		"adjective": ["Spanish"],
