@@ -74,6 +74,17 @@
 		"requiredTech": "Spear"
 	},
         {
+		"name": "Dino Nest",
+                "replaces": "Taming Scout",
+		"uniqueTo": "Valguero",
+                "greatPersonPoints": {"Great General": 1},
+                "happiness": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]"],
+		"requiredBuilding": "Taming Den",
+                "requiredTech": "Tranq Arrow"
+	},
+        {
 		"name": "Picking Up Stones",
                 "uniques": ["Provides [1] [Fiber]"],
 		"production": 1,
@@ -846,7 +857,7 @@
 	},
         {
 		"name": "Shrine",
-                "uniqueTo": "Edmundium Empire",
+                "uniqueTo": "Rebels",
 		"maintenance": 3,
 		"faith": 1,
 		"science": 1,
@@ -871,14 +882,14 @@
 	},
         {
 		"name": "Garden",
-                "uniqueTo": "The Prism",
+                "uniqueTo": "The Center",
 		"science": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Smithy"
 	},
         {
 		"name": "University",
-                "uniqueTo": "The Prism",
+                "uniqueTo": "The Center",
                 "maintenance": 3,
 		"science": 3,
 		"hurryCostModifier": 25,
@@ -896,7 +907,7 @@
 	},
         {
 		"name": "Mint",
-                "uniqueTo": "The Resistance",
+                "maintenance": 2,
 		"requiredNearbyImprovedResources": ["Metal", "Chitin"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from [Metal] tiles [in this city]", "[+1 Gold] from [Chitin] tiles [in this city]"],
@@ -904,15 +915,14 @@
 	},
         {
 		"name": "Bank",
-                "uniqueTo": "The Resistance",
-		"gold": 3,
+		"gold": 1,
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Mint",
 		"requiredTech": "Fabricator"
 	},
         {
 		"name": "Museum",
-                "uniqueTo": "Ragnarok Empire",
+                "uniqueTo": "Ragnarok",
 		"culture": 5,
 		"maintenance": 3,
 		"hurryCostModifier": 0,

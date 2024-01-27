@@ -317,6 +317,20 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Baryonix Rider",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 22,
+		"cost": 60,
+		"requiredTech": "Smithy",
+                "requiredResource": "Metal",
+		"uniques": ["[+80]% Strength <when fighting in [Beach] tiles>","[+20]% Strength <when fighting in [Swamp Zone] tiles>","[+20]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "upgradesTo": "Stego Rider",
+                "obsoleteTech": "Tranq Arrow",
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Sarco Rider",
 		"unitType": "Amphibious",
 		"movement": 3,
@@ -338,6 +352,19 @@
 		"cost": 80,
 		"requiredTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "upgradesTo": "Theri Rider",
+                "obsoleteTech": "Metal Hatchet",
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Bronto Rider",
+		"unitType": "Prey",
+		"movement": 1.5,
+		"strength": 35,
+		"cost": 110,
+		"requiredTech": "Tranq Arrow",
+		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Civilian] units>","[+50]% Strength <vs [Fantasy] units>","[-50]% Strength <vs [Prey] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
@@ -392,7 +419,7 @@
 		"cost": 300,
 		"requiredTech": "Grenade",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+30]% Strength <vs [Theropod] units>","Can move after attacking"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
@@ -422,7 +449,7 @@
 		"attackSound": "dinoroar"
                 "obsoleteTech": "Flak Armor",
                 "requiredTech": "Polymer",
-                "uniques": ["[+20]% Strength <vs [Theropod] units>", "Can move after attacking"],
+                "uniques": ["[+20]% Strength <vs [Theropoda] units>", "Can move after attacking"],
         },
         {
 		"name": "Muttaburrasaurus",
@@ -433,7 +460,7 @@
 		"strength": 39,
 		"cost": 119,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Theropod] units>"],
+		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Theropoda] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
@@ -447,7 +474,7 @@
 		"attackSound": "nonmetalhit"
                 "obsoleteTech": "Flak Armor",
                 "requiredTech": "Polymer",
-                "uniques": ["[+20]% Strength <vs [Mounted] units>"],
+                "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
         },
         {
 		"name": "Grenadier Survivor",
@@ -459,7 +486,7 @@
 		"attackSound": "nonmetalhit"
                 "obsoleteTech": "Flak Armor",
                 "requiredTech": "Grenade",
-                "uniques": ["[+20]% Strength <vs [Mounted] units>"],
+                "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
         },
         {
 		"name": "Engineer",
@@ -748,6 +775,20 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Deinonychus",
+                "replaces": "Allo Rider",
+		"uniqueTo": "Valguero",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 45,
+		"cost": 140,
+		"requiredTech": "Sword",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Deinotherium",
                 "replaces": "Rex Rider",
 		"uniqueTo": "Furtaker Empire",
@@ -759,6 +800,37 @@
 		"requiredTech": "Chain Bola",
                 "obsoleteTech": "Tek Shield",
 		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Tropical Wyvern",
+                "replaces": "Tropeo Rider",
+		"uniqueTo": "Crystal Isles",
+                "upgradesTo": "Tek Rex Rider",
+		"unitType": "Fantasy",
+		"movement": 4,
+		"strength": 85,
+		"cost": 290,
+		"requiredTech": "Auto Torret",
+                "obsoleteTech": "Tek Shield",
+                "requiredResource": "Oil",
+		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "missile"
+	},
+        {
+		"name": "Blood Wyvern",
+                "replaces": "Giga Rider",
+		"uniqueTo": "Crystal Isles",
+                "upgradesTo": "Tek Rex Rider",
+		"unitType": "Fantasy",
+		"movement": 4,
+		"strength": 390,
+		"cost": 400,
+		"requiredTech": "Auto Torret",
+                "obsoleteTech": "Tek Shield",
+                "requiredResource": "Biotoxin",
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
@@ -812,7 +884,7 @@
                 "upgradesTo": "Tek Rex Rider",
 		"unitType": "Theropoda",
 		"movement": 2,
-		"strength": 170,
+		"strength": 180,
 		"cost": 310,
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Shield",
@@ -860,7 +932,7 @@
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Shield",
                 "requiredResource": "Oil",
-		"uniques": ["[+33]% Strength <vs [Theropod] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
+		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
@@ -984,24 +1056,21 @@
 	},
         {
 		"name": "Argentavis Rider",
-                "replaces": "Ptera Rider",
-		"uniqueTo": "Edmundium Empire",
 		"unitType": "Flying",
 		"movement": 3,
-		"strength": 28,
-		"cost": 84,
-		"requiredTech": "Spike Wall",
-                "requiredResource": "Chitin",
+		"strength": 32,
+		"cost": 200,
+		"requiredTech": "Smithy",
+                "requiredResource": "Metal",
 		"uniques": ["Can move after attacking", "[+1] Sight"],
 		"hurryCostModifier": 20,
-                "upgradesTo": "Carno Rider",
-                "obsoleteTech": "Smithy",
+                "obsoleteTech": "Tranq Arrow",
 		"attackSound": "metalhit"
 	},
         {
           	"name": "Deinosuchus Rider",
                 "replaces": "Sarco Rider",
-		"uniqueTo": "The Prism",
+		"uniqueTo": "The Island",
 		"unitType": "Amphibious",
 		"movement": 4,
 		"strength": 31,
@@ -1031,7 +1100,7 @@
         {
 		"name": "Parasaur Rider",
                 "replaces": "Raptor Rider",
-		"uniqueTo": "The Resistance",
+		"uniqueTo": "The Island",
 		"unitType": "Prey",
 		"movement": 2,
 		"strength": 19,
@@ -1074,7 +1143,7 @@
         {
 		"name": "Megalosaurus",
                 "replaces": "Rex Rider", 
-		"uniqueTo": "Lords",
+		"uniqueTo": "Rockwell Gardens",
 		"unitType": "Theropoda",
 		"movement": 2,
 		"strength": 75,
@@ -1087,7 +1156,7 @@
         {
 		"name": "Aberrant Spino",
                 "replaces": "Spino Rider",
-		"uniqueTo": "Lords",
+		"uniqueTo": "Rockwell Gardens",
 		"unitType": "Theropoda",
 		"movement": 2,
 		"strength": 71,
@@ -1125,24 +1194,9 @@
 		"attackSound": "nonmetalhit"
 	},
         {
-		"name": "Desert Survivor",
-                "replaces": "Survivor",
-		"uniqueTo": "Nosti Utopia",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 59,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Bow and Arrow",
-                "upgradesTo": "Crossbow Survivor",
-                "obsoleteTech": "Crossbow",
-                "requiredResource": "Wood",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population", "[+10]% Strength <vs [Mounted] units>"],
-        },
-        {
 		"name": "Wyvern",
                 "replaces": "Tropeo Rider",
-		"uniqueTo": "Nosti Utopia",
+		"uniqueTo": "Scorched Earth",
 		"unitType": "Fantasy",
 		"movement": 4,
 		"strength": 70,
@@ -1156,7 +1210,7 @@
         {
 		"name": "Mantis",
                 "replaces": "Carno Rider",
-		"uniqueTo": "Nosti Utopia",
+		"uniqueTo": "Scorched Earth",
 		"unitType": "Fantasy",
 		"movement": 2,
 		"strength": 29,
@@ -1172,7 +1226,7 @@
         {
 		"name": "Griffin",
                 "replaces": "Ptera Rider",
-		"uniqueTo": "Ragnarok Empire",
+		"uniqueTo": "Ragnarok",
 		"unitType": "Fantasy",
 		"movement": 3,
 		"strength": 29,
@@ -1188,7 +1242,7 @@
         {
 		"name": "Fjordhawk",
                 "replaces": "Ptera Rider",
-		"uniqueTo": "The Fjords",
+		"uniqueTo": "Fjordur",
 		"unitType": "Flying",
 		"movement": 3,
 		"strength": 31,
@@ -1204,7 +1258,7 @@
         {
 		"name": "Desmodus",
                 "replaces": "Tropeo Rider",
-		"uniqueTo": "The Fjords",
+		"uniqueTo": "Fjordur",
 		"unitType": "Mammal",
 		"movement": 3,
 		"strength": 74,
@@ -1218,7 +1272,7 @@
         {
 		"name": "Amargasaurus",
                 "replaces": "Rex Rider",
-		"uniqueTo": "Lost Islands",
+		"uniqueTo": "Lost Island",
 		"unitType": "Prey",
 		"movement": 2,
 		"strength": 70,
@@ -1231,7 +1285,7 @@
          {
 		"name": "Dinopithecus",
                 "replaces": "Theri Rider",
-		"uniqueTo": "Lost Islands",
+		"uniqueTo": "Lost Island",
 		"unitType": "Mammal",
 		"movement": 3,
 		"strength": 41,
@@ -1244,7 +1298,7 @@
         {
 		"name": "Shadowmane",
                  "replaces": "Kapro Rider",
-		"uniqueTo": "Genesis",
+		"uniqueTo": "Pure Genesis",
 		"unitType": "Mammal",
 		"movement": 2,
 		"strength": 22,
@@ -1274,7 +1328,7 @@
         {
 		"name": "Maewing",
                 "replaces": "Ptera Rider",
-		"uniqueTo": "Genesis",
+		"uniqueTo": "Pure Genesis",
 		"unitType": "Fantasy",
 		"movement": 4,
 		"strength": 28,
@@ -1290,7 +1344,7 @@
         {
 		"name": "Nameless",
                 "replaces": "Bob",
-		"uniqueTo": "Rebels",
+		"uniqueTo": "Aberration",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
@@ -1315,9 +1369,24 @@
 		"attackSound": "metalhit"
 	},
         {
+		"name": "Rollrat",
+                "replaces": "Stego Rider",
+		"uniqueTo": "Aberration",
+		"unitType": "Fantasy",
+		"movement": 4,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "upgradesTo": "Theri Rider",
+                "obsoleteTech": "Metal Hatchet",
+		"attackSound": "dinoroar"
+	},
+        {
 		"name": "Velonasaur",
                 "replaces": "Shotgun Survivor",
-		"uniqueTo": "Reapers",
+		"uniqueTo": "Extinction",
 		"unitType": "Theropoda",
 		"movement": 2,
 		"strength": 40,
@@ -1330,7 +1399,7 @@
         {
 		"name": "Snow Owl",
                 "replaces": "Ptera Rider",
-		"uniqueTo": "Reapers",
+		"uniqueTo": "Extinction",
 		"unitType": "Flying",
 		"movement": 4,
 		"strength": 24,

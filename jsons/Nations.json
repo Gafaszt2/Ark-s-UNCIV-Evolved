@@ -5,73 +5,11 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-        {
+	{
 		//nations
-		"name": "Space Pirates",
-		"leaderName": "Alessandra",
-		"adjective": ["Pirates"],
-		"startBias": ["Beach"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Air Royal Bastards",
-                "uniques": ["[+45]% Production when constructing [Gold] buildings [in all cities]", "[+35]% Production when constructing [Flying] units [in all cities]"],
-
-		"outerColor": [1, 105, 51],
-		"innerColor": [52, 204, 235],
-		"cities": ["Pint Bar","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
-		//nations
-		"name": "New Aztec Empire",
-		"leaderName": "Quetzal",
-		"adjective": ["Aztecs"],
-		"startBias": ["Jungle"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Air Royal Bastards",
-                "uniques": ["[+1 Culture] per [2] social policies adopted","[+1 Science] per [4] social policies adopted", "[+35]% Production when constructing [Amphibious] units [in all cities]"],
-
-		"outerColor": [115, 250, 227],
-		"innerColor": [55, 64, 62],
-		"cities": ["Brightness","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
-		//nations
-		"name": "Cave Civilization",
-		"leaderName": "Andres",
-		"adjective": ["Caves"],
+		"name": "Aberration",
+		"leaderName": "Sir Edmund Rockwell",
+		"adjective": ["Aberrant"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Ascension",
 
@@ -87,264 +25,22 @@
 		"hateHello": "What do YOU want?!",
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Return to Dragon era",
-                "uniques": ["Allied City-States provide [Science] equal to [+100]% of what they produce for themselves"],
-
-		"outerColor": [109, 112, 111],
-		"innerColor": [245, 207, 132],
-		"cities": ["Himaly","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
-		//nations
-		"name": "Saint Domain",
-		"leaderName": "Bridjet",
-		"adjective": ["Saints"],
-		"startBias": ["Natural Lake"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Faith Godness",
-                "uniques": ["[+35]% Production when constructing [Faith] buildings [in all cities]", "[Gold] cost of purchasing [Faith] buildings [-30]%"],
-
-		"outerColor": [252, 252, 252],
-		"innerColor": [163, 115, 2],
-		"cities": ["Ireland","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
-		//nations
-		"name": "Nueva Hispania",
-		"leaderName": "Amalia",
-		"adjective": ["Spanish"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Nuevas Americas",
-                "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
-
-		"outerColor": [145, 37, 37],
-		"innerColor": [255, 205, 66],
-		"cities": ["Madrid","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-	{
-		//nations
-		"name": "Edmundium Empire",
-		"leaderName": "Sir Edmund Rockwell",
-		"adjective": ["Edmundiums"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
                 "uniqueName": "Corruption of the Arks",
-                "uniques": ["[+2 Faith] from every [Metal]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
+                "uniques": ["[+1 Food] from every [Plantation]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
 
-		"outerColor": [66, 13, 29],
-		"innerColor": [132, 155, 240],
-		"cities": ["Edmundism","Arat","Prime",
+		"outerColor": [71, 9, 6],
+		"innerColor": [212, 46, 38],
+		"cities": ["Fertile Chamber","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Sir Charles"]
 	},
         {
-		"name": "Carnage Empire",
-		"leaderName": "Carlz Albert",
-		"adjective": ["Carnage"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "The Butcher",
-                "uniques": ["[+1 Food] from every [Bonus resource]", "[+1 Food] from every [Ark Monument]"],
-
-		"outerColor": [89, 135, 99],
-		"innerColor": [201, 250, 55],
-		"cities": ["Canavar","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-         {
-		"name": "Kerajaan Burma",
-		"leaderName": "Seorang Pendosa",
-		"adjective": ["Burmese"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Kuasa Sungai",
-                "uniques": ["[+2 Culture] from every [River]", "[+2 Faith] from every [River]", "[-1 Production] from every [Hill]"],
-
-		"outerColor": [186, 92, 30],
-		"innerColor": [81, 245, 141],
-		"cities": ["Burma","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-         {
-		"name": "Gondwana",
-		"leaderName": "Koori Elder",
-		"adjective": ["Australian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Dreamtime Connection",
-                "uniques": ["[+2 Food] from every [Natural Wonder]", "[+2 Faith] from every [Natural Wonder]", "[+2 Science] from every [Natural Wonder]"],
-
-		"outerColor": [36, 49, 237],
-		"innerColor": [110, 255, 134],
-		"cities": ["Queensland","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-         {
-		"name": "Renjuta Malta",
-		"leaderName": "Claire Engerer",
-		"adjective": ["Maltese"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Tradizzjoni Navali",
-                "uniques": ["[+20]% XP gained from combat", "[+5]% Strength for cities", "[+20]% Spread Religion Strength", "[+1 Production] from every [Ocean]"],
-
-		"outerColor": [248, 77, 47],
-		"innerColor": [35, 2, 51],
-		"cities": ["La Valeta","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-	{
-		"name": "New Sumeria",
-		"leaderName": "Gilgamesh II",
-		"adjective": ["Sumerians"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Caddle of Civilizations",
-                "uniques": ["[+2 Science] [in capital]", "[+2 Science] per [2] social policies adopted"],
-
-		"outerColor": [236, 108, 43],
-		"innerColor": [250, 218, 145],
-		"cities": ["New Uruk","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
-		"name": "New Legion",
-		"leaderName": "Gaius Marcellus Nerva",
-		"adjective": ["Romanians"],
-		"startBias": ["Coast"],
+		"name": "Rockwell Gardens",
+		"leaderName": "Corrupted Abomination",
+		"adjective": ["Aberrants"],
+		"startBias": ["Forest"],
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
@@ -360,82 +56,20 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [226, 166, 64],
-		"innerColor": [69, 23, 17],
-		"uniqueName": "Indisciplinato formatione",
-		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital", "[-20]% Gold cost of acquiring tiles [in all cities]"],
-		"cities": ["Rome","Arat","Prime",
+		"outerColor": [221, 247, 198],
+		"innerColor": [48, 99, 3],
+		"uniqueName": "The pawn sacrifices itself to defend the king",
+		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+5]% Culture [in all cities]"],
+		"cities": ["Terminal","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
-        "spyNames": ["Leander"]
-        },
+        "spyNames": ["Rossevelt"]
+    },
         {
-		"name": "Shang Tianguo",
-		"leaderName": "Lian huanghou",
-		"adjective": ["Chinese"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [211, 188, 89],
-		"innerColor": [97, 27, 67],
-		"uniqueName": "Feathered Tyrant",
-		"uniques": ["[+2 Happiness] from every [Ark Monument]"],
-		"cities": ["Qianzhou","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Leander"]
-        },
-        {
-		"name": "New Incan Empire",
-		"leaderName": "Spipaku Mama",
-		"adjective": ["Incas"],
-		"startBias": ["Mountain"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [236, 214, 43],
-		"innerColor": [59, 97, 7],
-		"uniqueName": "Andine Culture",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
-			"[-50]% maintenance on road & railroads",
-			"No Maintenance costs for improvements in [Hill] tiles"],
-		"cities": ["Cuzco","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Tupac"]
-        },
-        {
-		"name": "Nosti Utopia",
+		"name": "Scorched Earth",
 		"leaderName": "Raia",
-		"adjective": ["Nostians"],
+		"adjective": ["Scorched Earth"],
 		"startBias": ["Desert"],
 		"preferredVictoryType":"Domination",
 
@@ -455,7 +89,7 @@
 		"outerColor": [211, 227, 88],
 		"innerColor": [138, 55, 50],
 		"uniqueName": "Scorched Eath",
-		"uniques": ["[+1 Culture] from every [Desert]", "[+1 Food] from every [Fabricators]"],
+		"uniques": ["[+2 Food] from every [Desert]","[+2 Gold] from every [Volcano]"],
 		"cities": ["Nosti","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -463,71 +97,11 @@
         "spyNames": ["Tupac"]
         },
         {
-		"name": "New Romania",
-		"leaderName": "Ozana II",
-		"adjective": ["Romanians"],
-		"startBias": ["Hills"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [164, 224, 0],
-		"innerColor": [16, 122, 37],
-		"uniqueName": "Traditional Ways",
-		"uniques": ["[-1 Production] from every [Coast]", "[+2 Food] per [2] social policies adopted", "[+1 Science] per [1] social policies adopted"],
-		"cities": ["Bucarest","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Tupac"]
-        },
-        {
-		"name": "Nuovo regno d Italia",
-		"leaderName": "Leonardo Medici",
-		"adjective": ["Italian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-                "uniqueName": "Morte per Patria",
-                "uniques": ["Starts with [Dossier Studies] adopted", "[-10]% construction time for [All] improvements", "[+30]% Golden Age length", "[+3]% Strength <in [Friendly Land] tiles>"],
-
-		"outerColor": [135, 203, 87],
-		"innerColor": [16, 122, 110],
-		"cities": ["Roma","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Sir Charles"]
-	},
-        {
 		//nations
-		"name": "The Prism",
-		"leaderName": "The Player",
-		"adjective": ["Prism"],
-		"startBias": ["Coast"],
+		"name": "The Center",
+		"leaderName": "Galius Nerva",
+		"adjective": ["The Center"],
+		"startBias": ["Beach"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "",
@@ -543,10 +117,10 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [50, 179, 50],
-		"innerColor": [49, 69, 32],
-                "uniqueName": "HLN-A",
-		"uniques": ["[+1 Science] from every [Strategic resource]", "Double quantity of [Metal] produced", "[+1 Science] from every [Fishing Boats]"],
+		"outerColor": [222, 129, 29],
+		"innerColor": [238, 250, 200],
+                "uniqueName": "The Center of the Isle",
+		"uniques": ["Double quantity of [Fiber] produced","Double quantity of [Wood] produced", "[+1 Culture] from every [Natural Wonder]"],
 		"cities": ["Prism Prime","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -554,7 +128,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
         {
-		"name": "Lost Islands",
+		"name": "Lost Island",
 		"leaderName": "Ingalo Enkulu",
 		"adjective": ["Lost Islanders"],
 		"startBias": ["Coast"],
@@ -573,9 +147,9 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [47, 191, 88],
-		"innerColor": [156, 17, 2],
-                "uniqueName": "Great Voyage",
+		"outerColor": [97, 128, 121],
+		"innerColor": [199, 255, 206],
+                "uniqueName": "Empire of Sea",
 		"uniques": ["[+1] Movement <for [Water] units>", "Double quantity of [Basilosaurus] produced", "Double quantity of [Megalodon] produced", "[-100]% maintenance costs <for [Water] units>", "[+10]% Strength <when fighting in [Coast] tiles>", "[+1 Food] from every [Fishing Boats]"],
 		"cities": ["King´s Palace","Arat","Prime",
 			"Federal",
@@ -583,104 +157,11 @@
 			"Generations","Dogmatic"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
-        {
-		//nations
-		"name": "Qamar Empire",
-		"leaderName": "Tifl Alqamar",
-		"adjective": ["Qamarian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [29, 2, 71],
-		"innerColor": [255, 166, 77],
-                "uniqueName": "Alhilal Alkhasib",
-		"uniques": ["[+2 Gold] from every [Luxury resource]", "Double quantity of [Oil] produced", "[+1 Gold] from every [Desert]"],
-		"cities": ["Sala","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-        {
-		//nations
-		"name": "Hiji zuru Teikoku",
-		"leaderName": "Haruka",
-		"adjective": ["Japanese"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [27, 237, 150],
-		"innerColor": [110, 4, 176],
-                "uniqueName": "Nikkan no joo",
-		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
-		"cities": ["New Tokyo","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-        {
-		//nations
-		"name": "The Great Warpath",
-		"leaderName": "Adsila",
-		"adjective": ["Iroquois"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [68, 235, 151],
-		"innerColor": [45, 95, 115],
-                "uniqueName": "Iroquois Legacy",
-		"uniques": ["[+2 Production] from every [Forest]", "[+2 Production] from every [Jungle]", "[+1 Food] from every [Forest]", "[+1 Food] from every [Jungle]"],
-		"cities": ["Ayasha","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
 	{
-		"name": "The Resistance",
+		"name": "The Island",
 		"leaderName": "Helena Walker",
-		"adjective": ["Resistants"],
-		"startBias": ["Coast"],
+		"adjective": ["The Island"],
+		"startBias": ["Beach"],
 		"preferredVictoryType":"Ascension",
 
 		"startIntroPart1": "",
@@ -698,46 +179,16 @@
 
 		"outerColor": [55, 219, 197],
 		"innerColor": [37, 42, 99],
-		"uniqueName": "Heroes of the Resistance",
-		"uniques": ["Heals [30] damage if it kills a unit", "[+2 Science] from every [Fabricators]"],
-		"cities": ["Resistant Federation","Arat","Prime",
+		"uniqueName": "The Chosen Survivor to Ascend",
+		"uniques": ["Heals [30] damage if it kills a unit", "[+1 Science] from every [Mountain]"],
+		"cities": ["South Cone","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Kassandra"]
     },
     {
-		"name": "Democracy of the South",
-		"leaderName": "Pilamayquen",
-		"adjective": ["Argentinians"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [19, 203, 207],
-		"innerColor": [199, 254, 255],
-		"uniqueName": "Argentinian Legacy",
-		"uniques": ["[-1 Production] from every [Hill]", "[-2 Food] from every [Farm]", "[+1 Food] from every [Pasture]", "[+1 Production] from every [Plantation]"],
-		"cities": ["Buenos Aires","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Kassandra"]
-    },
-    {
-		"name": "Ragnarok Empire",
+		"name": "Ragnarok",
 		"leaderName": "Aleksander",
 		"adjective": ["Ragnarok People"],
 		"startBias": ["Tundra"],
@@ -768,7 +219,7 @@
         "spyNames": ["Kassandra"]
     },
     {
-		"name": "The Fjords",
+		"name": "Fjordur",
 		"leaderName": "Erika",
 		"adjective": ["Fjords"],
 		"startBias": ["Tundra"],
@@ -787,8 +238,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [77, 100, 213],
-		"innerColor": [139, 193, 199],
+		"outerColor": [54, 54, 77],
+		"innerColor": [133, 75, 250],
 		"uniqueName": "Fjordur",
 		"uniques": ["[+1 Production] from every [Tundra]", "[+5]% Strength <when fighting in [Tundra] tiles>"],
 		"cities": ["Valheim","Arat","Prime",
@@ -797,192 +248,11 @@
 			"Generations","Dogmatic"],
         "spyNames": ["Kassandra"]
     },
-    {
-		"name": "New Rus",
-		"leaderName": "Matvey XI",
-		"adjective": ["Russians"],
-		"startBias": ["Snow"],
-		"preferredVictoryType":"Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [146, 169, 189],
-		"innerColor": [33, 65, 69],
-		"uniqueName": "New Siberia",
-		"uniques": ["[+2 Production] from every [Snow]", "[+1 Production] from every [Strategic resource]", "[+5]% Strength <when fighting in [Snow] tiles>"],
-		"cities": ["Moscow","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Kassandra"]
-    },
-    {
-		"name": "Kansallisvaltio",
-		"leaderName": "Elianna",
-		"adjective": ["Finnish"],
-		"startBias": ["Lakes"],
-		"preferredVictoryType":"Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [140, 162, 250],
-		"innerColor": [33, 17, 133],
-		"uniqueName": "Jokikulttuuria",
-		"uniques": ["[+1 Production] from every [Tek]", "[+2 Food] from every [Lakes]", "[+1 Culture] from every [Lakes]",
-                             "[+1 Food] from every [Genesis Lake]"],
-		"cities": ["Polkka","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Kassandra"]
-    },
-    {
-		"name": "New Huns",
-		"leaderName": "Atilla II",
-		"adjective": ["Huns"],
-		"startBias": ["Montain"],
-		"preferredVictoryType":"Ascension",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [48, 91, 130],
-		"innerColor": [130, 14, 12],
-		"uniqueName": "Massacre",
-		"uniques": ["[+2 Production] from every [Pasture]", "May choose [1] additional belief(s) of any type when [founding] a religion"],
-		"cities": ["Atilla´s Court","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Kassandra"]
-    },
-    {
-		"name": "Lords",
-		"leaderName": "Boris",
-		"adjective": ["Aberrants"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [51, 38, 150],
-		"innerColor": [188, 210, 247],
-		"uniqueName": "The pawn sacrifices itself to defend the king",
-		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+5]% Culture [in all cities]"],
-		"cities": ["Terminal","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rossevelt"]
-    },
-    {
-		"name": "Rebels",
-		"leaderName": "Emilia",
-		"adjective": ["Aberrant Rebels"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [85, 59, 216],
-		"innerColor": [35, 2, 51],
-		"uniqueName": "Boris is the real jerk here",
-		"uniques": ["[+1 Faith] from every [Farm]", "[+1 Science] from every [Quarry]", "[+1 Science] from every [Plantation]"],
-		"cities": ["Hell","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rossevelt"]
-    },
-    {
-		"name": "Mercenaries",
-		"leaderName": "Mei Yin",
-		"adjective": ["Mercenaries"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [119, 70, 210],
-		"innerColor": [250, 169, 155],
-		"uniqueName": "Uprising",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+1] Movement <for [Mounted] units>"],
-		"cities": ["Beast Queen","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rossevelt"]
-    },
      {
-		"name": "Reapers",
-		"leaderName": "Smith",
-		"adjective": ["Reapers"],
-		"startBias": ["Coast"],
+		"name": "Extinction",
+		"leaderName": "Santiago",
+		"adjective": ["Extinction"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
@@ -998,21 +268,21 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [132, 48, 181],
-		"innerColor": [208, 156, 247],
+		"outerColor": [166, 166, 247],
+		"innerColor": [55, 71, 97],
 		"uniqueName": "Studies for the Dark Lord",
 		"uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Mountain]", "[+2 Culture] from every [Camp]"],
-		"cities": ["Cancer","Arat","Prime",
+		"cities": ["Federation Rest","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Rossevelt"]
     },
     {
-		"name": "Genesis",
+		"name": "Valguero",
 		"leaderName": "Amanda",
-		"adjective": ["Genesians"],
-		"startBias": ["Coast"],
+		"adjective": ["Valguero"],
+		"startBias": ["Hill"],
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
@@ -1023,55 +293,55 @@
 		"defeated": "Everything turns dark...",
 		"introduction": "hello! I'm Amanda~",
 
-		"neutralHello": "Hey hun, what you need?~",
-		"hateHello": "uh... hello",
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
 
-		"tradeRequest": "Please make this request a reality, I beg you!~",
+		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [157, 86, 166],
-		"innerColor": [245, 205, 250],
-		"uniqueName": "Genesis Simulation",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]"],
-		"cities": ["Simulation","Arat","Prime",
+		"outerColor": [239, 245, 218],
+		"innerColor": [232, 61, 9],
+		"uniqueName": "Mountain Range",
+		"uniques": ["[+1 Food] from every specialist [in all cities]", "[+2 Food] from every [Redwoods]", "[+1 Gold] from every [Camp]"],
+		"cities": ["Broomland","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Rossevelt"]
     },
     {
-		"name": "Vooruit",
-		"leaderName": "Kracht Hart",
-		"adjective": ["Dutch"],
-		"startBias": ["Mountain"],
+		"name": "Crystal Isles",
+		"leaderName": "Joana",
+		"adjective": ["Crystal Isles"],
+		"startBias": ["Beach"],
 		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
 
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
+		"declaringWar": "I'm so sorry hun, I´m not perfect.",
+		"attacked": "Ouch, are you out of your mind?!",
+		"defeated": "Everything turns dark...",
+		"introduction": "hello! I'm Amanda~",
 
 		"neutralHello": "Greetings!",
 		"hateHello": "What?",
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [229, 70, 137],
-		"innerColor": [252, 187, 221],
-		"uniqueName": "Vordwaats",
-		"uniques": ["[+1 Science] from every [Picking Up Berries]", "[-1 Food] from every [Coast]"],
-		"cities": ["New Amsterdam","Arat","Prime",
+		"outerColor": [31, 33, 33],
+		"innerColor": [38, 81, 252],
+		"uniqueName": "Global Diversity",
+		"uniques": ["[+2 Science] from every [Cristal]", "[+1 Gold] from every [Coast]", "[+1 Production] from every [Cristal]"],
+		"cities": ["Eldrich","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Rossevelt"]
     },
     {
-		"name": "Matriarchy of the Great Sunlight",
-		"leaderName": "Aberash III",
-		"adjective": ["Zulu"],
+		"name": "Pure Genesis",
+		"leaderName": "HLNA",
+		"adjective": ["Genesis"],
 		"startBias": ["Plains"],
 		"preferredVictoryType":"Domination",
 
@@ -1083,81 +353,22 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"introduction": "Greetings",
 
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
+		"neutralHello": "Hey hun, what you need?~",
+		"hateHello": "uh... hello",
 
-		"tradeRequest": "My friend, does this seem reasonable to you?",
+		"tradeRequest": "Please make this request a reality, I beg you!~",
 
-		"outerColor": [205, 145, 165],
-		"innerColor": [229, 252, 187],
-		"uniqueName": "Ikhanda",
-		"uniques": ["[+1] Production <for [Mounted] units>", "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
-		"cities": ["Great Zimbabwe","Arat","Prime",
+		"outerColor": [220, 243, 247],
+		"innerColor": [164, 116, 227],
+		"uniqueName": "Genesis Simulation",
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]"],
+		"cities": ["Simulation","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
         "spyNames": ["Rossevelt"]
     },
-    {
-		"name": "Uralkodik",
-		"leaderName": "Oroszlansziv",
-		"adjective": ["Magyars"],
-		"startBias": ["Mountain"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "This is the end!",
-		"attacked": "Oh, so you are attacking us.",
-		"defeated": "You can continue your reign? im sure you won´t.",
-		"introduction": "Greetings",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [225, 65, 73],
-		"innerColor": [91, 26, 117],
-		"uniqueName": "Magyars Legacy",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "[+1 Food] from every [Hill]", "[-1 Food] from every [Coast]"],
-		"cities": ["New Vienna","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Rossevelt"]
-    },
-    {
-		"name": "New Brittania",
-		"leaderName": "Olivia IV",
-		"adjective": ["British"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
-
-		"declaringWar": "We're sorry to break the news, but Britain is about to sentence your pathetic nation to extinction, so start praying.",
-		"attacked": "you? attacking this kingdom? Don't you understand that no one defeats the British Empire?",
-		"defeated": "It can't be possible, I did everything for the Britons, this is a nightmare, I'll make sure I wake up, even if I have to shoot myself",
-		"introduction": "Best regards, I am Queen Olivia, I hope your intentions are as pure as mine",
-
-		"neutralHello": "How are the situations?",
-		"hateHello": "Ugh, I guess this time it'll be worth it.",
-
-		"tradeRequest": "This offer can improve our people, I hope you take it into account",
-
-		"outerColor": [177, 16, 88],
-		"innerColor": [35, 2, 51],
-		"uniqueName": "Sea Domain",
-		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Luxury resource]", "[+1 Production] from every [Ocean]"],
-		"cities": ["London","Arat","Prime",
-			"Federal",
-			"United","Arkistia","Obeliskia","Techtia",
-			"Generations","Dogmatic"],
-        "spyNames": ["Tupac"]
-        },
+    
 
 
 
