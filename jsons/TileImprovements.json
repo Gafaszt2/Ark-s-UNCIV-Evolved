@@ -9,6 +9,14 @@
 		"shortcutKey": "F"
 	},
         {
+		"name": "Moai",
+		"terrainsCanBeBuiltOn": ["Beach"],
+		"faith": 1,
+		"turnsToBuild": 3,
+		"uniques": ["[+1 Food] for each adjacent [Farm]","[+1 Production] for each adjacent [Mine]"],
+		"shortcutKey": "F"
+	},
+        {
 		"name": "Sap Collector",
 		"terrainsCanBeBuiltOn": ["Redwoods"],
 		"food": 2,
@@ -206,15 +214,6 @@
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 	//Civilization unique improvements
-	{
-		"name": "Moai",
-		"uniqueTo": "Polynesia",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]"],
-		"shortcutKey": "M"
-	},
 	{
 		"name": "Terrace farm",
 		"uniqueTo": "Inca",

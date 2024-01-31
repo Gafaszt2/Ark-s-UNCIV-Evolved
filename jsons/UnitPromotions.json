@@ -23,6 +23,22 @@
 		"name": "Coral Predator",
 		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles> <when attacking>"],
         },
+
+{
+                "name": "Swamp Terror",
+                "unitTypes": ["Insect"],
+                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+10]% Strength <vs [Theropoda] units>","[+10]% Strength <vs [Fantasy] units>"],
+        },
+{
+                "name": "Swarm",
+                "unitTypes": ["Insect"],
+                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+10]% Strength <vs [Prey] units>","[+10]% Strength <vs [Mammal] units>"],
+        },
+{
+                "name": "Cave Predator",
+                "unitTypes": ["Insect"],
+                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+10]% Strength <vs [Civilian] units>","[+10]% Strength <vs [Flying] units>"],
+        },
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],

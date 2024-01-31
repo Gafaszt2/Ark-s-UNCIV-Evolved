@@ -213,23 +213,43 @@
 	{
 		"name": "Amarberry",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
+		"terrainsCanBeFoundOn": ["Beach"],
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
-		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
-					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
 	},
 	{
 		"name": "Lemon",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [10] tiles <in [Grassland] [Fresh Water] tiles> <in tiles without [Hill]>",
-					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [Fresh Water] [Grassland] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+	},
+        {
+		"name": "Carrot",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+	},
+        {
+		"name": "Potato",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+	},
+        {
+		"name": "Corn",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
 	},
 	{
 		"name": "Stone",
@@ -885,14 +905,11 @@
 	},
 	{
 		"name": "Azulberry",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Beach"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
 	},
 	{
 		"name": "Woolly Rhino",
@@ -923,30 +940,19 @@
 	},
 	{
 		"name": "Tintoberry",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Beach","Jungle","Genesis Soil","Tek Soil"],
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Beach"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [300] tiles <in [Featureless] [Beach] tiles>","Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
 	},
 	{
 		"name": "Mejoberry",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh","Beach"],
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Beach"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [30] <in [Jungle] Regions>","Generated on every [300] tiles <in [Featureless] [Beach] tiles>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
 	},
 	{
 		"name": "Obsidian",

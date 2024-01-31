@@ -208,7 +208,7 @@
 	},
         {
 		"name": "Rhyniognatha",
-		"unitType": "Flying",
+		"unitType": "Insect",
 		"movement": 3.5,
 		"strength": 35,
 		"cost": 150,
@@ -274,6 +274,45 @@
 		"attackSound": "dinoroar"
 	},
         {
+		"name": "Castoroides",
+		"unitType": "Mammal",
+		"movement": 2.5,
+		"strength": 20,
+		"cost": 79,
+		"requiredTech": "Professional Domestication",
+                "upgradesTo": "Stego Rider",
+                "requiredResource": "Wood",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Diplodocus",
+		"unitType": "Prey",
+		"movement": 4,
+		"strength": 10,
+		"cost": 80,
+		"requiredTech": "Professional Domestication",
+                "upgradesTo": "Stego Rider",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["[+225]% Strength <when defending>","Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Pulminoscorpius",
+		"unitType": "Insect",
+		"movement": 3,
+		"strength": 10,
+		"cost": 68,
+		"requiredTech": "Professional Domestication",
+                "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "insec"
+	},
+        {
 		"name": "Inostrancevia Rider",
                 "replaces": "Kapro Rider",
 		"uniqueTo": "Kansallisvaltio",
@@ -299,6 +338,18 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
+                "obsoleteTech": "Smithy",
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Microraptor",
+		"unitType": "Flying",
+		"movement": 5,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Spike Wall",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
                 "obsoleteTech": "Smithy",
 		"attackSound": "dinoroar"
 	},
@@ -356,6 +407,18 @@
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
 		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Queen Bee",
+		"unitType": "Insect",
+		"movement": 1.5,
+		"strength": 25,
+		"cost": 75,
+		"requiredTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Metal Hatchet",
+		"attackSound": "insec"
 	},
         {
 		"name": "Bronto Rider",
@@ -892,6 +955,19 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "promotions": ["Drill III"],
+		"attackSound": "dinoroar"
+	},
+        {
+		"name": "Mighty Titanosaurus",
+		"unitType": "Prey",
+		"movement": 1,
+		"strength": 200,
+		"cost": 400,
+		"requiredTech": "Auto Torret",
+                "obsoleteTech": "Tek Shield",
+                "requiredResource": "Biotoxin",
+		"uniques": ["[+10]% Strength <when defending>","Can move after attacking"],
+		"hurryCostModifier": 20,
 		"attackSound": "dinoroar"
 	},
         {
