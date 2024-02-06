@@ -144,7 +144,7 @@
         {
 		"name": "Insect Swarm",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Marsh"],
+		"terrainsCanBeFoundOn": ["Bog","Marsh"],
 		"science": 1,
                 "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
@@ -379,7 +379,7 @@
         {
 		"name": "Beelzebufo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone", "Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
 		"production": 1,
                 "food": 1,
                 "civilopediaText": [{"text": "Beelzebufo palucocus is the largest frog I've ever seen. Almost impossibly large, it can actually fit a fully-grown human adult on its back, though just barely. This is a dangerous prospect, though, as secretions from Beelzebufo's skin and saliva have a narcotic effect on most creatures."}]
@@ -389,7 +389,7 @@
         {
 		"name": "Meganeura",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone", "Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
                 "food": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [10] tiles <in [Swamp Zone] tiles>"]
@@ -492,7 +492,7 @@
         {
 		"name": "Defense Unit",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","City Tile"],
 		"production": 1,
                 "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
@@ -591,6 +591,14 @@
 		"improvementStats": {"science": 1},
 	},
         {
+		"name": "Astrocetus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Asteroid"],
+		"food": 2,
+		"improvement": "Camp",
+		"improvementStats": {"science": 1},
+	},
+        {
 		"name": "Stryder",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
@@ -640,7 +648,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -660,7 +668,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","Beach", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option","Generated on every [30] tiles <in [Featureless] [Beach] tiles>",
@@ -685,7 +693,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -709,7 +717,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Beach","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Desert","City Tile","Beach","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 3},
@@ -732,7 +740,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -757,7 +765,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Coast","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -794,7 +802,7 @@
 	},
         {
 		"name": "Tek",
-                "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+                "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Surface"],
 		"resourceType": "Strategic",
 		"production": 1,
 		"improvement": "Mine",
@@ -869,7 +877,7 @@
 	{
 		"name": "Cristal",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",

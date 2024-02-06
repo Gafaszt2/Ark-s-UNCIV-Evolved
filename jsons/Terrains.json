@@ -52,11 +52,77 @@
 		"RGB": [250, 189, 255]
 	},
         {
+		"name": "Surface",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+                "uniques": ["Units ending their turn on this terrain take [40] damage"]
+		"RGB": [250, 189, 255]
+	},
+        {
+		"name": "Volcanic Rock",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains","Tundra","Snow","Beach","Desert"],
+		"RGB": [51, 52, 54]
+	},
+        {
+		"name": "Lava",
+		"type": "Water",
+		"gold": 4,
+		"movementCost": 1,
+                "uniques": ["Units ending their turn on this terrain take [90] damage"]
+		"RGB": [242, 94, 2]
+	},
+        {
+		"name": "City Tile",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [250, 189, 255]
+	},
+        {
+		"name": "Bog",
+		"type": "Land",
+		"food": 1,
+                "faith": 1,
+		"movementCost": 1,
+		"RGB": [250, 189, 255]
+	},
+        {
+		"name": "Asteroid",
+		"type": "Land",
+		"food": 1,
+                "faith": 1,
+                "culture": 1,
+		"movementCost": 1,
+		"RGB": [250, 189, 255]
+	},
+        {
 		"name": "Genesis Lake",
 		"type": "Water",
 		"food": 2,
 		"movementCost": 2,
 		"RGB": [73, 28, 77]
+	},
+        {
+		"name": "Aberrant Hill",
+		"type": "TerrainFeature",
+                "impassable": true, 
+		"unbuildable": true,
+		"food": 1,
+                "occursOn": ["Aberrant Green Zone"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Blue Aberrant Hill",
+		"type": "TerrainFeature",
+                "impassable": true, 
+		"unbuildable": true,
+		"food": 1,
+                "occursOn": ["Aberrant Blue Zone"],
+		"RGB": [43, 87, 151]
 	},
         {
 		"name": "Genesis Tall",
@@ -65,6 +131,83 @@
 		"movementCost": 2,
                 "occursOn": ["Grassland","Genesis Soil","Tundra","Snow","Desert", "Tek Soil"],
 		"RGB": [43, 87, 151]
+	}, 
+        {
+		"name": "Wall One",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Wall Two",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Wall Three",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Wall Fourth",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Wall Five",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Wall Six",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+                "occursOn": ["Dead Land","Fallout Land","Tundra","Snow","Desert", "Tek Soil"],
+		"RGB": [43, 87, 151]
+	},
+        {
+		"name": "Element Lake",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "uniques": ["Units ending their turn on this terrain take [60] damage"]
+                "occursOn": ["Aberrant Pink Zone"],
+		"RGB": [240, 7, 182]
+	},
+        {
+		"name": "Aberrant Coast",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [149, 209, 237]
+	},
+        {
+		"name": "Fertile Coast",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [66, 245, 129]
+	},
+        {
+		"name": "Bog Coast",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [66, 245, 129]
 	},
         {
 		"name": "Genesis Tower",
@@ -72,6 +215,42 @@
                 "production": 1,
 		"movementCost": 2,
                 "occursOn": ["Grassland","Genesis Soil","Tundra","Snow","Desert", "Tek Soil"],
+	},
+        {
+		"name": "Redwoods Plains",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains","Tundra","Desert"],
+	},
+        {
+		"name": "Valguero Rock",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains","Tundra","Desert"],
+	},
+        {
+		"name": "Valguero Mountain",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Mountain"],
+	},
+        {
+		"name": "Snow Mountain",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Mountain"],
+	},
+        {
+		"name": "Dead Mountain",
+		"type": "Land",
+		"impassable": true,
+		"movementCost": 1,
+	},
+        {
+		"name": "Canyon",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Mountain"],
 	},
         {
 		"name": "Volcanic Soil",
@@ -245,7 +424,27 @@
 		"defenceBonus": 0.25,
 		"RGB": [35, 25, 34],
 		"uniques": ["Rough terrain",
-            "Units ending their turn on this terrain take [50] damage",
+            "Units ending their turn on this terrain take [500] damage",
+            "Considered [Undesirable] when determining start locations"]
+	},
+        {
+		"name": "Space",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [35, 25, 34],
+		"uniques": ["Rough terrain",
+            "Units ending their turn on this terrain take [500] damage",
+            "Considered [Undesirable] when determining start locations"]
+	},
+        {
+		"name": "Planet",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [35, 25, 34],
+		"uniques": ["Rough terrain",
+            "Units ending their turn on this terrain take [500] damage",
             "Considered [Undesirable] when determining start locations"]
 	},
         {
@@ -373,7 +572,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Tundra","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -418,7 +617,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Grassland","Bog","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],

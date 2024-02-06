@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill","Redwoods"],
+		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Asteroid"],
 		"production": 1,
 		"turnsToBuild": 4,
 		"shortcutKey": "M"
