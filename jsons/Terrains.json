@@ -23,6 +23,20 @@
 		"RGB": [189, 214, 255]
 	},
         {
+		"name": "Border",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [130, 128, 140]
+	},
+        {
+		"name": "Interior Border",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [76, 74, 84]
+	},
+        {
 		"name": "Aberrant Invasion",
 		"type": "Land",
 		"production": 1,
@@ -49,7 +63,7 @@
 		"food": 1,
                 "production": 1,
 		"movementCost": 1,
-		"RGB": [250, 189, 255]
+		"RGB": [237, 215, 247]
 	},
         {
 		"name": "Surface",
@@ -57,7 +71,14 @@
 		"production": 1,
 		"movementCost": 1,
                 "uniques": ["Units ending their turn on this terrain take [40] damage"]
-		"RGB": [250, 189, 255]
+		"RGB": [63, 39, 74]
+	},
+        {
+		"name": "Eldritch",
+		"type": "Land",
+		"food": 3,
+		"movementCost": 1,
+		"RGB": [183, 114, 214]
 	},
         {
 		"name": "Volcanic Rock",
@@ -65,7 +86,73 @@
 		"production": 2,
 		"movementCost": 1,
                 "occursOn": ["Grassland","Plains","Tundra","Snow","Beach","Desert"],
-		"RGB": [51, 52, 54]
+		"RGB": [63, 61, 64]
+	},
+        {
+		"name": "White Beach",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+                "occursOn": ["Beach"],
+		"RGB": [243, 247, 240]
+	},
+        {
+		"name": "Valguero Coast",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [194, 232, 237]
+	},
+        {
+		"name": "Valguero Hill",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [138, 178, 184]
+	},
+        {
+		"name": "Val Land",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains"],
+		"RGB": [97, 171, 108]
+	},
+        {
+		"name": "Particles",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [183, 181, 235]
+	},
+        {
+		"name": "Dead Forest",
+		"type": "TerrainFeature",
+		"culture": 1,
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains","Tundra","Snow"],
+		"RGB": [62, 62, 64]
+	},
+        {
+		"name": "Floating Island",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [164, 240, 158],
+		"uniques": ["Rough terrain",
+            "Considered [Undesirable] when determining start locations"]
+	},
+        {
+		"name": "Cristal Coast",
+		"type": "Water",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [6, 122, 189],
+		"uniques": ["Rough terrain",
+            "Considered [Undesirable] when determining start locations"]
 	},
         {
 		"name": "Lava",
@@ -73,7 +160,7 @@
 		"gold": 4,
 		"movementCost": 1,
                 "uniques": ["Units ending their turn on this terrain take [90] damage"]
-		"RGB": [242, 94, 2]
+		"RGB": [252, 129, 13]
 	},
         {
 		"name": "City Tile",
@@ -88,7 +175,7 @@
 		"food": 1,
                 "faith": 1,
 		"movementCost": 1,
-		"RGB": [250, 189, 255]
+		"RGB": [126, 153, 99]
 	},
         {
 		"name": "Asteroid",
@@ -428,6 +515,14 @@
             "Considered [Undesirable] when determining start locations"]
 	},
         {
+		"name": "Void",
+		"type": "Land",
+		"RGB": [35, 25, 34],
+		"uniques": ["Rough terrain",
+            "Units ending their turn on this terrain take [5] damage",
+            "Considered [Undesirable] when determining start locations"]
+	},
+        {
 		"name": "Space",
 		"type": "Land",
 		"impassable": true,
@@ -549,7 +644,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Eldritch","Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -572,7 +667,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Tundra","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",

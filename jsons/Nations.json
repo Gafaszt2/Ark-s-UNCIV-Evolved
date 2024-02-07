@@ -59,7 +59,7 @@
 		"outerColor": [221, 247, 198],
 		"innerColor": [48, 99, 3],
 		"uniqueName": "The pawn sacrifices itself to defend the king",
-		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Science]", "[+5]% Production when constructing [Mounted] units [in all cities]", "[+5]% Culture [in all cities]"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]", "[+15]% Production when constructing [Mounted] units [in capital]", "[+15]% Gold [in capital]"],
 		"cities": ["Terminal","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -89,7 +89,7 @@
 		"outerColor": [211, 227, 88],
 		"innerColor": [138, 55, 50],
 		"uniqueName": "Scorched Eath",
-		"uniques": ["[+2 Food] from every [Desert]","[+2 Gold] from every [Volcano]"],
+		"uniques": ["[+1 Food] from every [4] [Desert]","[+1 Food] from every [4] [Sand]","[+2 Gold] from every [Volcano]"],
 		"cities": ["Nosti","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -180,7 +180,7 @@
 		"outerColor": [55, 219, 197],
 		"innerColor": [37, 42, 99],
 		"uniqueName": "The Chosen Survivor to Ascend",
-		"uniques": ["Heals [30] damage if it kills a unit", "[+1 Science] from every [Mountain]"],
+		"uniques": ["Heals [30] damage if it kills a unit", "[+1 Food] from every [4] [Beach]"],
 		"cities": ["South Cone","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -241,7 +241,7 @@
 		"outerColor": [54, 54, 77],
 		"innerColor": [133, 75, 250],
 		"uniqueName": "Fjordur",
-		"uniques": ["[+1 Production] from every [Tundra]", "[+5]% Strength <when fighting in [Tundra] tiles>"],
+		"uniques": ["[+1 Production] from every [4] [Tundra]","[+1 Food] from every [3] [Tundra]"],
 		"cities": ["Valheim","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -271,7 +271,7 @@
 		"outerColor": [166, 166, 247],
 		"innerColor": [55, 71, 97],
 		"uniqueName": "Studies for the Dark Lord",
-		"uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Mountain]", "[+2 Culture] from every [Camp]"],
+		"uniques": ["[+1 Science] from every specialist [in all cities]", "[+1 Science] from every [10] [Hill]", "[+2 Gold] from every [Strategic resource]"],
 		"cities": ["Federation Rest","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -301,7 +301,7 @@
 		"outerColor": [239, 245, 218],
 		"innerColor": [232, 61, 9],
 		"uniqueName": "Mountain Range",
-		"uniques": ["[+1 Food] from every specialist [in all cities]", "[+2 Food] from every [Redwoods]", "[+1 Gold] from every [Camp]"],
+		"uniques": ["[+1 Food] from every specialist [in all cities]", "[+1 Food] from every [Redwoods]", "[+2 Gold] from every [Camp]"],
 		"cities": ["Broomland","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -331,8 +331,8 @@
 		"outerColor": [31, 33, 33],
 		"innerColor": [38, 81, 252],
 		"uniqueName": "Global Diversity",
-		"uniques": ["[+2 Science] from every [Cristal]", "[+1 Gold] from every [Coast]", "[+1 Production] from every [Cristal]"],
-		"cities": ["Eldrich","Arat","Prime",
+		"uniques": ["[+2 Happiness] from every [4] [Coast]","[+15]% Strength <for [All] units> <during a Golden Age>", "[+15]% Production when constructing [Military] units [in all cities] <during a Golden Age>","[+50]% Golden Age length"],
+		"cities": ["Eldritch Isle","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],
@@ -375,8 +375,8 @@
 
 
     {
-		"name": "Scorched Civilization",
-		"adjective": ["Scorched"],
+		"name": "The Dead Island",
+		"adjective": ["The Dead Island"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -384,11 +384,11 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [211,180,113],
 		"innerColor": [0,0,0],
-		"cities": ["Scorched Civilization"]
+		"cities": ["The Dead Island"]
 	},
 	{
-		"name": "Aberrant Civilization",
-		"adjective": ["Aberrant"],
+		"name": "The Shores",
+		"adjective": ["The Shores"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -396,12 +396,12 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [211,180,113],
 		"innerColor": [0,0,0],
-		"cities": ["Aberrant Civilization"],
+		"cities": ["The Shores"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
 	},
 	{
-		"name": "Nosti Church",
-		"adjective": ["Nostians"],
+		"name": "Smuggler Pass",
+		"adjective": ["Smuggler Pass"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -409,12 +409,12 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [0,102,102],
 		"innerColor": [0,0,0],
-		"cities": ["Nosti Church"],
+		"cities": ["Smuggler Pass"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
 	},
 	{
-		"name": "Badlands Civilization",
-		"adjective": ["Badlanders"],
+		"name": "Frigid Plains",
+		"adjective": ["Frigid Plains"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -422,11 +422,11 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [255,128,0],
 		"innerColor": [0,0,0],
-		"cities": ["Badlands Civilization"]
+		"cities": ["Frigid Plains"]
 	},
 	{
-		"name": "Mountain Civilization",
-		"adjective": ["Mountaineers"],
+		"name": "Frozen Fang",
+		"adjective": ["Frozen Fang"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -434,11 +434,11 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [250,128,114],
 		"innerColor": [0,0,0],
-		"cities": ["Mountain Civilization"]
+		"cities": ["Frozen Fang"]
 	},
 	{
-		"name": "The Followers",
-		"adjective": ["Followers"],
+		"name": "Drayo´s Cave",
+		"adjective": ["Drayo´s Cave"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -446,12 +446,12 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [0,102,102],
 		"innerColor": [0,0,0],
-		"cities": ["The Followers"]
+		"cities": ["Drayo´s Cave"]
 	},
 
 	{
-		"name": "The Trench",
-		"adjective": ["Trenchists"],
+		"name": "South Haven",
+		"adjective": ["South Haven"],
 		"cityStateType": "Religious",
 
 		"declaringWar": "This is the end!",
@@ -459,7 +459,7 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
-		"cities": ["The Trench"]
+		"cities": ["South Haven"]
 	},
 	{
 		"name": "Memorial Plaza",
@@ -511,8 +511,8 @@
 	},
 
 	{
-		"name": "Capital City",
-		"adjective": ["Settlers"],
+		"name": "The Deep Island",
+		"adjective": ["The Deep Island"],
 		"cityStateType": "Mercantile",
 
 		"declaringWar": "This is the end!",
@@ -520,11 +520,11 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [245, 215, 93],
 		"innerColor": [0,0,0],
-		"cities": ["Capital City"]
+		"cities": ["The Deep Island"]
 	},
 	{
-		"name": "Epifestos",
-		"adjective": ["Greek"],
+		"name": "The Red Peak",
+		"adjective": ["The Red Peak"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -532,11 +532,11 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [245, 98, 93],
 		"innerColor": [0,0,0],
-		"cities": ["Torba"]
+		"cities": ["The Red Peak"]
 	},
 	{
-		"name": "Hej Duranol",
-		"adjective": ["Hungarians"],
+		"name": "Writhing Swamps",
+		"adjective": ["Writhing Swamps"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "This is the end!",
@@ -544,7 +544,71 @@
 		"defeated": "You can continue your reign? im sure you won´t.",
 		"outerColor": [170, 227, 36],
 		"innerColor": [0,0,0],
-		"cities": ["Danuve River"]
+		"cities": ["Writhing Swamps"]
+	},
+
+
+
+
+{
+		"name": "Camp Omega",
+		"adjective": ["Camp Omega"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [252, 186, 3],
+		"innerColor": [0,0,0],
+		"cities": ["Camp Omega"]
+	},
+{
+		"name": "Crystal Path",
+		"adjective": ["Crystal Path"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [151, 158, 186],
+		"innerColor": [0,0,0],
+		"cities": ["Crystal Path"]
+	},
+{
+		"name": "The Core",
+		"adjective": ["The Core"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [237, 92, 201],
+		"innerColor": [0,0,0],
+		"cities": ["The Core"]
+	},
+{
+		"name": "The Overpass",
+		"adjective": ["The Overpass"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [255, 44, 33],
+		"innerColor": [0,0,0],
+		"cities": ["The Overpass"]
+	},
+{
+		"name": "Secluded Lake",
+		"adjective": ["Secluded Lake"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [71, 252, 240],
+		"innerColor": [0,0,0],
+		"cities": ["Secluded Lake"]
 	},
 	//Barbarian
 	{

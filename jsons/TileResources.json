@@ -124,7 +124,7 @@
         {
 		"name": "Carnotaurus",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
+		"terrainsCanBeFoundOn": ["Eldritch","Plains"],
 		"culture": 1,
                 "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
 		"improvement": "Camp",
@@ -358,7 +358,7 @@
          {
 		"name": "Rare Mushroom",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Bog","Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
 		"culture": 1,
                 "food": 1,
 		"improvement": "Farm",
@@ -368,7 +368,7 @@
          {
 		"name": "Rare Flower",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods"],
+		"terrainsCanBeFoundOn": ["Eldritch","Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods"],
 		"science": 1,
                 "food": 1,
 		"improvement": "Farm",
@@ -379,7 +379,7 @@
         {
 		"name": "Beelzebufo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
+		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
 		"production": 1,
                 "food": 1,
                 "civilopediaText": [{"text": "Beelzebufo palucocus is the largest frog I've ever seen. Almost impossibly large, it can actually fit a fully-grown human adult on its back, though just barely. This is a dangerous prospect, though, as secretions from Beelzebufo's skin and saliva have a narcotic effect on most creatures."}]
@@ -389,7 +389,7 @@
         {
 		"name": "Meganeura",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
+		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
                 "food": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [10] tiles <in [Swamp Zone] tiles>"]
@@ -528,7 +528,7 @@
         {
 		"name": "Fungic Wood",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+		"terrainsCanBeFoundOn": ["Bog","Aberrant Green Zone"],
 		"production": 1,
                 "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
 		"improvement": "Mine",
@@ -554,7 +554,7 @@
         {
 		"name": "Seeker",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone"],
 		"faith": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -648,7 +648,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -693,7 +693,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -740,7 +740,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -765,7 +765,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -783,7 +783,7 @@
 		"name": "Organic Polymer",
                 "revealedBy": "Polymer",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Snow","Tundra","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Snow","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -802,7 +802,7 @@
 	},
         {
 		"name": "Tek",
-                "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Surface"],
+                "terrainsCanBeFoundOn": ["Eldritch","Genesis Soil","Tek Soil","Surface"],
 		"resourceType": "Strategic",
 		"production": 1,
 		"improvement": "Mine",
@@ -849,7 +849,7 @@
                 {
 		"name": "Ravager",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
+		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Green Zone","Aberrant Blue Zone"],
 		"food": 1,
                 "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
 		"improvement": "Camp",
