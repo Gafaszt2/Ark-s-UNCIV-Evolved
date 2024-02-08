@@ -275,6 +275,34 @@
                 "occursOn": ["Aberrant Pink Zone"],
 		"RGB": [240, 7, 182]
 	},
+         {
+		"name": "Autumn Trees",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Tundra","Snow"],
+		"RGB": [240, 7, 182]
+	},
+        {
+		"name": "Yellow Coat",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Tundra","Snow"],
+		"RGB": [240, 7, 182]
+	},
+        {
+		"name": "Pines",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Tundra","Snow"],
+		"RGB": [240, 7, 182]
+	},
+        {
+		"name": "Clear Lake",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Lakes"],
+		"RGB": [240, 7, 182]
+	},
         {
 		"name": "Aberrant Coast",
 		"type": "TerrainFeature",

@@ -9,6 +9,18 @@
 		"shortcutKey": "F"
 	},
         {
+		"name": "Ragnarok Temple",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland"],
+		"turnsToBuild": 7,
+		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","Can also be built on tiles adjacent to fresh water"],
+	},
+        {
+		"name": "Hut",
+		"terrainsCanBeBuiltOn": ["Beach"],
+		"turnsToBuild": 4,
+		"uniques": ["[+2 Culture] for each adjacent [Bonus resource]","[+1 Faith] for each adjacent [Bonus resource]","Can also be built on tiles adjacent to fresh water"],
+	},
+        {
 		"name": "Moai",
 		"terrainsCanBeBuiltOn": ["Beach"],
 		"faith": 1,
@@ -168,6 +180,20 @@
 	},
 	{
 		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+                "techRequired": "Stone Hatchet",
+	},
+        {
+		"name": "Remove Pines",
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+                "techRequired": "Stone Hatchet",
+	},
+        {
+		"name": "Remove Autumn Trees",
 		"turnsToBuild": 7,
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
