@@ -595,7 +595,7 @@
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wood"],
-		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Carpentry Area] tiles [in this city]"],
 		"requiredBuilding": "Fabricators",
                 "requiredTech": "Chainsaw"
 	},

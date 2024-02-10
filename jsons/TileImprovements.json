@@ -1,10 +1,19 @@
 [
 
 	{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"name": "Ranch",
+		"terrainsCanBeBuiltOn": ["Plains","Tundra","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 1,
 		"turnsToBuild": 4,
+		"uniques": ["Can also be built on tiles adjacent to fresh water"],
+		"shortcutKey": "F"
+	},
+        {
+		"name": "Desert Ranch",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"faith": 1,
+                "food": 1,
+		"turnsToBuild": 7,
 		"uniques": ["Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
 	},
@@ -25,7 +34,7 @@
 		"terrainsCanBeBuiltOn": ["Beach"],
 		"faith": 1,
 		"turnsToBuild": 3,
-		"uniques": ["[+1 Food] for each adjacent [Farm]","[+1 Production] for each adjacent [Mine]"],
+		"uniques": ["[+1 Food] for each adjacent [Ranch]","[+1 Production] for each adjacent [Mine]"],
 		"shortcutKey": "F"
 	},
         {
@@ -49,7 +58,7 @@
 	},
         {
 		"name": "Pastizal",
-                "replaces": "Farm",
+                "replaces": "Ranch",
 		"uniqueTo": "Democracy of the South",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 2,
@@ -74,8 +83,8 @@
                 "techRequired": "Stone Houses",
 	},
         {
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"name": "Carpentry Area",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Autumn Trees","Pines"],
 		"production": 1,
 		"turnsToBuild": 4,
                 "techRequired": "Professional Domestication",

@@ -6,7 +6,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
                 "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
-		"improvement": "Pasture",
+		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
@@ -190,7 +190,7 @@
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
                 "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
-		"improvement": "Pasture",
+		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [13] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
@@ -201,7 +201,7 @@
 		"terrainsCanBeFoundOn": ["Tundra"], // Tundra only if lowland
 		"food": 1,
                 "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
-		"improvement": "Pasture",
+		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
 					"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
@@ -321,7 +321,7 @@
                 "civilopediaText": [{"text": "Morellatops dromedarius seems to be to a relative of both the Morelladon and Ceratops genuses, which in itself is rather strange. On top of that, it has developed to ability to store water in its humps like a camel. This makes it a critical part of the desert's food chain, as it provides predators with both food and hydration.
 
 "}]
-		"improvement": "Pasture",
+		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Desert] tiles>",
                             "Generated on every [30] tiles <in [Hill] tiles>"]
@@ -331,7 +331,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
-		"improvement": "Farm",
+		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
 	},
@@ -341,7 +341,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Beach"],
 		"food": 1,
                 "civilopediaText": [{"text": "Raphus replicare, more commonly known as the Dodo Bird, is quite possibly the dumbest creature I've ever seen in my life. It wanders around the beaches of the Island, pecking berries off bushes, and being eaten by all manner of carnivore."}]
-		"improvement": "Farm",
+		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [40] tiles <in [Featureless] [Beach] tiles>","Generated on every [50] tiles <in [Grassland] tiles>"]
 	},
@@ -351,7 +351,7 @@
 		"terrainsCanBeFoundOn": ["Swamp Zone","Beach"],
 		"food": 1,
                 "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
-		"improvement": "Farm",
+		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [30] tiles <in [Featureless] [Beach] tiles>","Generated on every [20] tiles <in [Swamp Zone] tiles>"]
 	},
@@ -361,7 +361,7 @@
 		"terrainsCanBeFoundOn": ["Bog","Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
 		"culture": 1,
                 "food": 1,
-		"improvement": "Farm",
+		"improvement": "Ranch",
 		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>",
                             "Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
@@ -371,7 +371,7 @@
 		"terrainsCanBeFoundOn": ["Eldritch","Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods"],
 		"science": 1,
                 "food": 1,
-		"improvement": "Farm",
+		"improvement": "Ranch",
 		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>",
                             "Generated on every [30] tiles <in [Redwoods] tiles>",
                             "Generated on every [60] tiles <in [Swamp Zone] tiles>"]
@@ -650,7 +650,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
-		"improvement": "Pasture",
+		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
                                         "Generated on every [30] tiles <in [Redwoods] tiles>",
