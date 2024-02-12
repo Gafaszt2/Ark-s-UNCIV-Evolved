@@ -757,7 +757,7 @@
 	},
         {
 		"name": "Oily Rock",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"production": 1,
 		"improvement": "Mine",
 	},
@@ -810,7 +810,7 @@
         {
 		"name": "Tek Turret Resource",
                 "revealedBy": "Tek Turret",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"production": 1,
 		"improvement": "Mine",
@@ -818,7 +818,7 @@
         {
 		"name": "Pulse Cannon Resource",
                 "revealedBy": "Pulse Cannon",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"production": 1,
 		"improvement": "Mine",

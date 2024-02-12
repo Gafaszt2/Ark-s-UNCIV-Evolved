@@ -1218,7 +1218,6 @@
 "Creates a [Turret] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
                 ]
 	},
         {
