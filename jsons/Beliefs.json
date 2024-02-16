@@ -1,111 +1,30 @@
 [
     {
-        "name": "Rockwell Sons",
+        "name": "Monumental Traditions",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Ark Monument]"]
+        "uniques": ["[+2 Culture] from every [Ark Monument]","[+1 Faith] from every [Ark Monument]"]
     },
     {
-        "name": "Woolly",
+        "name": "Faith Overtake",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": ["[+3 Faith] [in all cities]"]
     },
     {
-        "name": "Kapro Den",
+        "name": "City of Luxury",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": ["[+3 Culture] [in capital]"]
     },
     {
-        "name": "Chitin Works",
+        "name": "Money is What we Need",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
+        "uniques": ["[+3 Gold] [in all cities]","[+1 Gold] [in capital]"]
     },
     {
-        "name": "Social Comunication",
+        "name": "Roman Style Work",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+        "uniques": ["[+10]% Production towards any buildings that already exist in the Capital"]
     },
-    {
-        "name": "Titanoboas Collection",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Jungle]"]
-    },
-    {
-        "name": "Carcharodontosaurus Belief",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
-    },
-    {
-        "name": "Mosa Mosa",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
-    },
-    {
-        "name": "Ark the Series",
-        "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
-    },
-    {
-        "name": "Troodontid Mistery",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Lystrosaurus]", "[+1 Culture, +1 Faith] from every [Azulberry]"]
-    },
-    {
-        "name": "Mapusaurus Ghost",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Quarry]"]
-    },
-    {
-        "name": "Herrerasaurus Scary Story",
-        "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>"]
-    },
-    {
-        "name": "Goddess of the Arks",
-        "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
-    },
-    {
-        "name": "Messenger of the Obelisks",
-        "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
-    },
-    {
-        "name": "One with Nerva",
-        "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
-    },
-    {
-        "name": "Helena Tradition",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
-    },
-    {
-        "name": "Rockwell Idols",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Sulphur]"]
-    },
-    {
-        "name": "Humanity",
-        "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
-    },
-    {
-        "name": "Sacred Jungle",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]"]
-    },
-    {
-        "name": "Dangerous Waters",
-        "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
-    },
-    {
-        "name": "Stone Ammo",
-        "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
-    }
+    
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Divine inspiration",

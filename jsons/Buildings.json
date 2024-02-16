@@ -177,7 +177,7 @@
         {
 		"name": "Evolution Museum",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Beelzebufo","Coelacanth","Giant Bee","Gigantopithecus","Hatztegopteryx","Meganeura"],
+                "requiredNearbyImprovedResources": ["Beelzebufo","Coelacanth","Giant Bee","Gigantopithecus","Hatzegopteryx","Meganeura"],
 		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Coelacanth] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
                             "[+1 Faith] from [Hatztegopteryx] tiles [in this city]",
 			"[+1 Culture] from [Meganeura] tiles [in this city]"],

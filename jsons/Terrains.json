@@ -121,6 +121,15 @@
 		"RGB": [97, 171, 108]
 	},
         {
+		"name": "Canyon Land",
+		"type": "TerrainFeature",
+		"culture": 1,
+                "food": -1,
+		"movementCost": 1,
+                "occursOn": ["Grassland","Plains","Desert","Beach"],
+		"RGB": [97, 171, 108]
+	},
+        {
 		"name": "Particles",
 		"type": "TerrainFeature",
 		"food": 1,

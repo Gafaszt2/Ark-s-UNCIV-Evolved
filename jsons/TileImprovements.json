@@ -14,14 +14,25 @@
 		"faith": 1,
                 "food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
 	},
         {
 		"name": "Ragnarok Temple",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland"],
 		"turnsToBuild": 7,
-		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","Can also be built on tiles adjacent to fresh water"],
+		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]"],
+	},
+        {
+		"name": "Tumash Temple",
+		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Culture] for each adjacent [Jungle]","[+1 Gold] for each adjacent [Luxury resource]"],
+	},
+        {
+		"name": "Mural",
+		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Food] for each adjacent [Tumash Temple]","[+1 Food] for each adjacent [Camp]"],
 	},
         {
 		"name": "Hut",
