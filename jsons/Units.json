@@ -108,7 +108,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 45,
-		"attackSound": "dinoroar"
+		"attackSound": "raptor"
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
         },
@@ -123,7 +123,7 @@
                 "obsoleteTech": "Professional Domestication",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "raptor"
 	},
 {
 		"name": "Cave Tropper",
@@ -148,7 +148,7 @@
                 "obsoleteTech": "Professional Domestication",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Prophet Warrior",
@@ -176,7 +176,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking", "[+16]% Strength <vs [Wounded] units>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Raptor",
@@ -191,7 +191,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "raptor"
 	},
         {
 		"name": "Thylacoleo Rider",
@@ -204,7 +204,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking","Requires at least [3] population"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Rhyniognatha",
@@ -217,7 +217,7 @@
 		"uniques": ["Can move after attacking","Requires at least [3] population"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Smithy",
-		"attackSound": "dinoroar"
+		"attackSound": "insec"
 	},
         {
 		"name": "Corrupted Survivor",
@@ -271,7 +271,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "croc"
 	},
         {
 		"name": "Castoroides",
@@ -285,7 +285,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Diplodocus",
@@ -298,7 +298,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["[+225]% Strength <when defending>","Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Pulminoscorpius",
@@ -325,7 +325,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Land] units>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Ptera Rider",
@@ -339,7 +339,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "dinoroar"
+		"attackSound": "troepo"
 	},
         {
 		"name": "Microraptor",
@@ -351,7 +351,7 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Smithy",
-		"attackSound": "dinoroar"
+		"attackSound": "raptor"
 	},
         {
 		"name": "Carno Rider",
@@ -365,7 +365,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "dinoroar"
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Baryonix Rider",
@@ -379,7 +379,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "dinoroar"
+		"attackSound": "spino"
 	},
         {
 		"name": "Sarco Rider",
@@ -393,7 +393,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "dinoroar"
+		"attackSound": "croc"
 	},
         {
 		"name": "Stego Rider",
@@ -406,7 +406,21 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "dinoroar"
+		"attackSound": "dinoherb"
+	},
+        {
+		"name": "Kentrosaurus",
+		"unitType": "Prey",
+		"movement": 3,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "upgradesTo": "Theri Rider",
+                "promotions": ["Intimidation"],
+                "obsoleteTech": "Metal Hatchet",
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Queen Bee",
@@ -431,7 +445,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "dinoroar"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Theri Rider",
@@ -443,7 +457,7 @@
                 "obsoleteTech": "Sword",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "theri"
 	},
         {
 		"name": "Mastodonsaurus",
@@ -456,7 +470,7 @@
                 "requiredResource": "Metal",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "croc"
 	},
         {
 		"name": "Koolasuchus",
@@ -470,7 +484,7 @@
                 "obsoleteTech": "Sword",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "croc"
 	},
         {
 		"name": "Purrusaurus",
@@ -484,7 +498,7 @@
                 "obsoleteTech": "Flak Armor",
 		"uniques": ["[+30]% Strength <vs [Theropoda] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "croc"
 	},
 {
 		"name": "Rock Drake",
@@ -499,7 +513,7 @@
                 "obsoleteTech": "Tek Shield",
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "dragon"
 	},
         {
 		"name": "Electric Dragon",
@@ -509,7 +523,7 @@
 		"movement": 4,
 		"strength": 75,
 		"cost": 320,
-		"attackSound": "dinoroar"
+		"attackSound": "dragon"
                 "obsoleteTech": "Flak Armor",
                 "requiredTech": "Polymer",
                 "uniques": ["[+20]% Strength <vs [Theropoda] units>", "Can move after attacking"],
@@ -525,7 +539,7 @@
 		"requiredTech": "Metal Hatchet",
 		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Theropoda] units>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Camuflage Survivor",
@@ -562,6 +576,20 @@
                 "uniques": ["Can build [Land] improvements on tiles"],
         },
         {
+		"name": "Riojavenatryx",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 200,
+		"cost": 200,
+		"requiredTech": "Pliers",
+                "obsoleteTech": "Tek Shield",
+		"uniques": ["Consumes [2] [Metal]","[+20]% Strength <vs [Civilian] units>","[-20]% Strength <vs [Mammal] units>","[+30]% Strength <vs [Siege] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "promotions": ["Critical"],
+		"attackSound": "spino"
+                "civilopediaText": [{"text": "His portrait is completed with other characteristics typical of theropods a head with a low and elongated skull, prominent jaws with sharp teeth and arms with powerful claws with three functional fingers, with which he could easily remove the heads of his prey."}]
+	},
+        {
 		"name": "Flak Survivor",
 		"unitType": "Sword",
 		"movement": 2,
@@ -583,7 +611,7 @@
                 "requiredResource": "Allosaurus",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Halberd Soldier",
@@ -607,7 +635,7 @@
                 "obsoleteTech": "Fabricator",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Megalodon Rider",
@@ -619,7 +647,7 @@
 		"cost": 65,
 		"requiredTech": "Raft",
                 "requiredResource": "Megalodon",
-		"attackSound": "dinoroar"
+		"attackSound": "marine"
 	},
         {
 		"name": "Basilo Rider",
@@ -631,7 +659,7 @@
 		"cost": 85,
 		"requiredTech": "Raft",
                 "requiredResource": "Basilosaurus",
-		"attackSound": "dinoroar"
+		"attackSound": "marine"
 	},
         {
 		"name": "Plesio Rider",
@@ -642,7 +670,7 @@
 		"strength": 44,
 		"cost": 140,
 		"requiredTech": "Dock",
-		"attackSound": "dinoroar"
+		"attackSound": "marine"
 	},
         {
 		"name": "Dunkleosteous Rider",
@@ -653,7 +681,7 @@
 		"strength": 69,
 		"cost": 210,
 		"requiredTech": "GPS",
-		"attackSound": "dinoroar"
+		"attackSound": "marine"
 	},
         {
 		"name": "Mosa Rider",
@@ -663,7 +691,7 @@
 		"strength": 80,
 		"cost": 300,
 		"requiredTech": "Radio",
-		"attackSound": "dinoroar"
+		"attackSound": "marine"
 	},
         {
 		"name": "MiniCannon",
@@ -725,8 +753,8 @@
                 "requiredResource": "Woolly Rhino",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Charge"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "chalico"
 	},
         {
 		"name": "Diprotodon",
@@ -738,7 +766,7 @@
                 "obsoleteTech": "Chain Bola",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Prolibytherium",
@@ -750,7 +778,7 @@
                 "obsoleteTech": "Flak Armor",
 		"uniques": ["[+20]% Strength <vs [Civilian] units>","[+35]% Strength <vs [Siege] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Daeodon Rider",
@@ -764,7 +792,7 @@
                 "requiredResource": "Metal",
 		"hurryCostModifier": 20,
                 "promotions": ["Medic"],
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Medic",
@@ -806,8 +834,8 @@
                 "requiredResource": "Tyrannosaurus",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Shock II"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "rex"
 	},
         {
 		"name": "Pistol Handler",
@@ -834,8 +862,8 @@
                 "requiredResource": "Tyrannosaurus",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Shock II"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "rex"
 	},
         {
 		"name": "Deinonychus",
@@ -849,7 +877,7 @@
                 "obsoleteTech": "Fabricator",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "raptor"
 	},
         {
 		"name": "Deinotherium",
@@ -864,7 +892,7 @@
                 "obsoleteTech": "Tek Shield",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Tropical Wyvern",
@@ -880,7 +908,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "missile"
+		"attackSound": "dragon"
 	},
         {
 		"name": "Blood Wyvern",
@@ -895,7 +923,7 @@
                 "obsoleteTech": "Tek Shield",
                 "requiredResource": "Biotoxin",
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "dragon"
 	},
         {
 		"name": "Velonasaur Rider",
@@ -909,8 +937,8 @@
                 "obsoleteTech": "Tek Shield",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Shock II"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "croc"
 	},
         {
 		"name": "Yuty Rider",
@@ -924,8 +952,8 @@
                 "obsoleteTech": "Tek Riffle",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Shock II"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Spino Rider",
@@ -940,22 +968,22 @@
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
                 "promotions": ["Amphibious"],
-		"attackSound": "dinoroar"
+		"attackSound": "spino"
 	},
         {
 		"name": "Giga Rider",
                 "upgradesTo": "Tek Rex Rider",
 		"unitType": "Theropoda",
-		"movement": 2,
-		"strength": 180,
-		"cost": 310,
+		"movement": 3,
+		"strength": 190,
+		"cost": 300,
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Shield",
                 "requiredResource": "Biotoxin",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Drill III"],
-		"attackSound": "dinoroar"
+                "promotions": ["Rage"],
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Mighty Titanosaurus",
@@ -966,9 +994,9 @@
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Shield",
                 "requiredResource": "Biotoxin",
-		"uniques": ["[+10]% Strength <when defending>","Can move after attacking"],
+		"uniques": ["[+10]% Strength <when defending>"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Managarmr Rider",
@@ -982,8 +1010,8 @@
                 "requiredResource": "Managarmr",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Drill III"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "dragon"
 	},
         {
 		"name": "Tropeo Rider",
@@ -997,7 +1025,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "missile"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Megatherium",
@@ -1010,7 +1038,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Cave Lion",
@@ -1023,7 +1051,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs [Civilian] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Flamethrower Survivor",
@@ -1128,7 +1156,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "metalhit"
+		"attackSound": "raptor"
 	},
         {
 		"name": "Argentavis Rider",
@@ -1141,22 +1169,22 @@
 		"uniques": ["Can move after attacking", "[+1] Sight"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "metalhit"
+		"attackSound": "tropeo"
 	},
         {
           	"name": "Deinosuchus Rider",
                 "replaces": "Sarco Rider",
 		"uniqueTo": "The Island",
 		"unitType": "Amphibious",
-		"movement": 4,
-		"strength": 31,
-		"cost": 89,
+		"movement": 3,
+		"strength": 50,
+		"cost": 160,
 		"requiredTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "metalhit"
+		"attackSound": "croc"
 	},
         {
 		"name": "Doedicurus Rider",
@@ -1171,7 +1199,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "metalhit"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Parasaur Rider",
@@ -1186,7 +1214,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Paracer Rider",
@@ -1200,8 +1228,8 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
-                "promotions": ["Shock I"],
-		"attackSound": "metalhit"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "chalico"
 	},
         {
 		"name": "Trike Rider",
@@ -1214,7 +1242,7 @@
 		"requiredTech": "Sword",
 		"uniques": ["May capture killed [Mounted] units"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoherb"
 	},
         {
 		"name": "Megalosaurus",
@@ -1227,7 +1255,7 @@
 		"requiredTech": "Chain Bola",
 		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
 		"hurryCostModifier": 20, 
-		"attackSound": "metalhit"
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Aberrant Spino",
@@ -1241,7 +1269,7 @@
 		"uniques": ["[+10]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
-		"attackSound": "metalhit"
+		"attackSound": "spino"
 	},
         {
 		"name": "Herrera Rider",
@@ -1256,7 +1284,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "raptor"
 	},
         {
 		"name": "Lyviatan Rider",
@@ -1267,7 +1295,7 @@
 		"strength": 38,
 		"cost": 85,
 		"requiredTech": "Raft",
-		"attackSound": "nonmetalhit"
+		"attackSound": "marine"
 	},
         {
 		"name": "Wyvern",
@@ -1281,7 +1309,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "[+10]% Strength <when fighting in [Desert] tiles>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dragon"
 	},
         {
 		"name": "Mantis",
@@ -1297,7 +1325,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"attackSound": "metalhit"
+		"attackSound": "insec"
 	},
         {
 		"name": "Griffin",
@@ -1313,7 +1341,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "metalhit"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Fjordhawk",
@@ -1329,7 +1357,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "metalhit"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Desmodus",
@@ -1343,7 +1371,7 @@
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "[+10]% Strength <when fighting in [Tundra] tiles>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "theri"
 	},
         {
 		"name": "Amargasaurus",
@@ -1356,7 +1384,7 @@
 		"requiredTech": "Chain Bola",
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>", "[+10]% Strength <when fighting in [Desert] tiles>"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "dinoherb"
 	},
          {
 		"name": "Dinopithecus",
@@ -1369,7 +1397,7 @@
 		"requiredTech": "Metal Hatchet",
 		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Jungle] tiles>"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Shadowmane",
@@ -1384,7 +1412,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Forest] tiles>"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "ravager"
 	},
         {
 		"name": "African Forest Elephant",
@@ -1415,7 +1443,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "metalhit"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Nameless",
@@ -1425,7 +1453,7 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 51,
-		"attackSound": "nonmetalhit"
+		"attackSound": "reaper"
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
                 "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
@@ -1441,8 +1469,8 @@
 		"requiredTech": "Cryopod",
 		"uniques": ["Can move after attacking", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"hurryCostModifier": 20,
-                "promotions": ["Charge"],
-		"attackSound": "metalhit"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Rollrat",
@@ -1457,7 +1485,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
-		"attackSound": "dinoroar"
+		"attackSound": "chalico"
 	},
         {
 		"name": "Velonasaur",
@@ -1470,7 +1498,7 @@
 		"cost": 320,
 		"requiredTech": "Assault Riffle",
 		"uniques": ["[+31]% Strength <vs [Siege] units>"],
-		"attackSound": "throw"
+		"attackSound": "theri"
 	},
         {
 		"name": "Snow Owl",
@@ -1487,7 +1515,7 @@
                 "promotions": ["Medic"],
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "metalhit"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "DireWolf Rider",
@@ -1500,7 +1528,7 @@
 		"requiredTech": "Sword",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "ravager"
 	},
         {
 		"name": "Cerato Rider",
@@ -1513,7 +1541,7 @@
 		"requiredTech": "Metal Hatchet",
 		"uniques": ["Can move after attacking", "Earn [40]% of killed [Military] unit's [Strength] as [Culture]"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "medcarno"
 	},
         {
 		"name": "Mohawk Warrior",
@@ -1750,7 +1778,7 @@
                 "obsoleteTech": "Professional Domestication",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "tropeo"
 	},
          {
 		"name": "Battering Ram",
@@ -1837,7 +1865,7 @@
                 "requiredResource": "Biotoxin",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Tek Rex Rider",
@@ -1849,8 +1877,8 @@
                 "obsoleteTech": "Tek Riffle",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Drill III"],
-		"attackSound": "dinoroar"
+                "promotions": ["Strong Genetics"],
+		"attackSound": "rex"
 	},
         {
 		"name": "Reaper",
@@ -1861,7 +1889,7 @@
 		"requiredTech": "Tek Riffle",
 		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <vs [Siege] units>", "Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "dinoroar"
+		"attackSound": "reaper"
 	},
         {
 		"name": "New Artillery",

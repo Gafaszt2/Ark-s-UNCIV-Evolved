@@ -1084,9 +1084,9 @@
 	},
         {
 		"name": "Wood Forge",
-		"maintenance": 2,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Metal]"],
+		"uniques": ["Provides [2] [Metal]"],
                 "requiredResource": "Wood"
 		"requiredTech": "Refining Forge"
 	},

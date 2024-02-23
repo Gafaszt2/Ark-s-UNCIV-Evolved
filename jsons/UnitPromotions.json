@@ -4,6 +4,23 @@
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },
         {
+		"name": "Intimidation",
+		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+        {
+		"name": "Strong Genetics",
+		"uniques": ["[+5]% Strength bonus for [Civilian] units within [2] tiles","[+5]% Strength bonus for [Prey] units within [2] tiles"],
+    },
+        {
+                "name": "Critical",
+                "uniques": ["[+50]% Strength <with [15]% chance> <when above [5] HP> <when attacking>",
+    "[+50]% Strength <with [25]% chance> <when below [5] HP> <when attacking>"],
+        },
+        {
+                "name": "Rage",
+                "uniques": ["[+150]% Strength <when below [30] HP> <when attacking>"],
+        },
+        {
                 "name": "Toxic Plant",
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },
