@@ -1,95 +1,145 @@
 [
     {
-        "name": "Land Governor",
+        "name": "Primitivism",
         "era": "Ancient era",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
+            "Neutral": 10,
+            "Cultural": 0,
             "Diplomatic": 0,
             "Domination": 0,
-            "Scientific": 10
+            "Scientific": 0
         },
         "uniques": [
-            "[+1 Culture] [in capital]",
-            "[-15]% Culture cost of natural border growth [in all cities]"
+            "[+1 Food] [in capital]",
+            "[-10]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
             {
-                "name": "Beach Exploration",
+                "name": "Natural Life",
                 "uniques": [
-                    "[+1 Gold] from every [Coast]",
+                    "[+1 Food] from every [Bonus resource]","[+1 Food] per [3] population [in capital]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Desert Exploration",
+                "name": "Coast Lovers",
                 "uniques": [
-                    "[+1 Gold] from every [Desert]",
+                    "[+1 Food] from every [Coast]","[+1 Food] from every [Genesis Lake]","[+1 Food] from every [Element Lake]",
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Jungle Exploration",
+                "name": "Exploration",
                 "uniques": [
-                    "[+1 Culture] from every [Jungle]",
+                    "[+2 Food] from every [Jungle]","[+2 Food] from every [Pines]","[+2 Food] from every [Forest]",
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Scorched Earth",
+                "name": "Monarchs of Ark",
                 "uniques": [
-                    "[+2 Food] from every [Desert]",
+                    "[+1 Food] from every [Hill]","[+1 Gold] from every [Plains]",
                 ],
-                "requires": ["Desert Exploration"],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "MonARKy",
-                "uniques": [
-                    "[+2 Food] from every [Jungle]",
-                ],
-                "requires": ["Jungle Exploration"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "Rockwell Faith",
+                "name": "Snow Inhabitants",
                 "uniques": [
-                    "[+2 Faith] from every [Ranch]",
+                    "[+2 Food] from every [Tundra]","[+2 Food] from every [Snow]",
                 ],
-                "requires": ["Beach Exploration"],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "Land Governor Complete",
+                "name": "Primitivism Complete",
                 "uniques": [
-                    "[+2 Faith] [in all cities]", ]
+                    "[+20]% Production when constructing [All] buildings [in all cities]", ]
             }
         ]
     },
     {
-        "name": "Dark Knowledge",
+        "name": "Communalism",
         "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
-            "Diplomatic": 10,
+            "Diplomatic": 0,
             "Domination": 10,
             "Scientific": 0
         },
         "uniques": [
-            "[+2 Faith] [in capital]",
+            "[+1 Production] [in capital]",
         ],
         "policies": [
             {
-                "name": "Edmundium",
+                "name": "Big Families",
                 "uniques": [
                     "[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Desert Caravans",
+                "uniques": [
+                    "[+1 Production] from every [Desert]","[+1 Food] from every [Genesis Soil]","[+1 Food] from every [Eldritch]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Exchange",
+                "uniques": [
+                    "[+2 Food] from every [Redwood]","[+1 Food] from every [Redwoods Plains]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mountain Faith",
+                "uniques": [
+                    "[+2 Culture] from every [Mountain]","[+1 Food] from every [Volcano]","[+1 Food] from every [Hill]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Tribes",
+                "uniques": [
+                    "[+1 Production] from every [Ranch]",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Communalism Complete",
+                "uniques": [
+                    "Free [Daeodon Rider] appears", ]
+            }
+        ]
+    },
+    {
+        "name": "Mysticism",
+        "era": "Leather era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+30]% Yield from every [Strategic resource]",
+        ],
+        "policies": [
+            {
+                "name": "Mythology",
+                "uniques": [
+                    "[Gold] cost of purchasing [All] buildings [-60]%",
                 ],
                 "row": 1,
                 "column": 2
@@ -97,7 +147,7 @@
             {
                 "name": "Recipes",
                 "uniques": [
-                    "[+1 Science] from every [Ark Monument]",
+                    "[+2 Faith] from every [Luxury resource]","[+1 Faith] from every [Hill]",
                 ],
                 "row": 1,
                 "column": 4
@@ -105,274 +155,151 @@
             {
                 "name": "Adoration",
                 "uniques": [
-                    "[+40]% XP gained from combat <for [Military] units>"
+                    "[Gold] cost of purchasing [All] units [-30]%"
                 ],
-                "requires": ["Edmundium"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Tek Learning",
-                "uniques": [
-                    "[+2 Culture] from every [Ark Monument]",
-                ],
-                "requires": ["Recipes"],
-                "row": 2,
-                "column": 4
-            },
-            {
-                "name": "Haughtiness",
-                "uniques": [
-                     "[+1 Faith] from every [Mountain]",
-                ],
-                "requires": ["Tek Learning"],
-                "row": 3,
-                "column": 4
-            },
-            {
-                "name": "Dark Knowledge Complete",
-                "uniques": [
-                    "Earn [60]% of killed [Military] unit's [Cost] as [Faith]" ]
-            }
-        ]
-    },
-        {
-        "name": "Dossier Studies",
-        "era": "Ancient era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 0
-        },
-        "uniques": [
-            "[+1 Science] [in capital]",
-        ],
-        "policies": [
-            {
-                "name": "Dodo Kibble",
-                "uniques": [
-                    "[+1 Food] from every [Camp]",
-                ],
-                "row": 1,
-                "column": 2
-            },
-            {
-                "name": "Raptor Kibble",
-                "uniques": [
-                    "[+1 Science] from every [Forest]",
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Therizino Kibble",
-                "uniques": [
-                    "[+1 Science] from every [Marsh]",
-                ],
-                "requires": ["Raptor Kibble", "Dodo Kibble"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Bronto Kibble",
+                "name": "Mysticism Complete",
                 "uniques": [
-                    "[+1 Production] from every [Mine]",
-                ],
-                "requires": ["Therizino Kibble"],
-                "row": 3,
-                "column": 2
-            },
-            {
-                "name": "Rex Kibble",
-                "uniques": [
-                     "[+3 Gold] from every [Camp]",
-                ],
-                "requires": ["Therizino Kibble"],
-                "row": 3,
-                "column": 4
-            },
-            {
-                "name": "Dossier Studies Complete",
-                "uniques": [
-                    "[+2 Food] [in all cities]", ]
+                    "[+1 Faith] per [3] social policies adopted" ]
             }
         ]
     },
         {
-        "name": "Social Studies",
+        "name": "Animism",
         "era": "Leather era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
             "Diplomatic": 10,
-            "Domination": 10,
+            "Domination": 0,
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Happiness] [in capital]",
+            "Free [Great Artist] appears","Free [Great Merchant] appears",
         ],
         "policies": [
             {
-                "name": "Social Idea",
+                "name": "Animal Spirits",
                 "uniques": [
-                    "[+1 Happiness] from every [Ark Monument]",
+                    "[+2 Culture] from every [Camp]",
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "Cultural Idea",
+                "name": "Spiritualism",
                 "uniques": [
-                    "[+1 Culture] from every [Stone Fort]",
+                    "[+2 Faith] from every [Ranch]",
                 ],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "Economic Investigation",
+                "name": "Ways of Spiritual Learning",
                 "uniques": [
-                    "[+1 Science] from every [Smithies]",
+                    "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>",
                 ],
-                "requires": ["Social Idea", "Cultural Idea"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Quarry Secrets",
+                "name": "Animism Complete",
                 "uniques": [
-                    "[+1 Science] from every [Metal Hatchets]",
-                ],
-                "requires": ["Economic Investigation"],
-                "row": 3,
-                "column": 2
-            },
-            {
-                "name": "Tiny Arms Policy",
-                "uniques": [
-                     "[+3 Gold] from every [Metal Hatchets]",
-                ],
-                "requires": ["Economic Investigation"],
-                "row": 3,
-                "column": 4
-            },
-            {
-                "name": "Social Studies Complete",
-                "uniques": [
-                    "[+2 Happiness] [in all cities]", ]
+                    "Free [Camuflage Survivor] appears", ]
             }
         ]
     },
         {
-        "name": "Corruption",
-        "era": "Leather era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 0
-        },
-        "uniques": [
-            "Gain a free [Ark Monument] [in all cities]",
-        ],
-        "policies": [
-            {
-                "name": "Destruction",
-                "uniques": [
-                    "[+1] Movement <for [Water] units>",
-                ],
-                "row": 1,
-                "column": 2
-            },
-            {
-                "name": "Fever",
-                "uniques": [
-                    "[+4 Food] [in all cities] <before discovering [Bookshelf]>",
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Atrocity",
-                "uniques": [
-                    "[+5]% Production towards any buildings that already exist in the Capital",
-                ],
-                "requires": ["Destruction"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Central Power",
-                "uniques": [
-                    "[+1] Sight <for [{Military} {Land}] units>",
-                ],
-                "requires": ["Fever"],
-                "row": 2,
-                "column": 4
-            },
-            {
-                "name": "Rex Roar",
-                "uniques": [
-                     "[-10]% Unhappiness from [Population] [in all cities]",
-                ],
-                "requires": ["Central Power", "Atrocity"],
-                "row": 3,
-                "column": 3
-            },
-            {
-                "name": "Corruption Complete",
-                "uniques": [
-                    "[+1] Movement <for [Mounted] units>", ]
-            }
-        ]
-    },
-        {
-        "name": "Ascension Search",
+        "name": "Colonialism",
         "era": "Electric era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
-            "Diplomatic": 10,
+            "Diplomatic": 0,
             "Domination": 10,
             "Scientific": 0
         },
         "uniques": [
-            "Cities are razed [2] times as fast",
+            "[+1 Happiness] [in capital]","[+1 Gold] [in capital]","[+1 Production] [in capital]",
         ],
         "policies": [
             {
-                "name": "Tek Cave",
+                "name": "Repression",
                 "uniques": [
-                    "[+1 Gold] from every [Mine]",
+                    "[+1 Gold] per [3] social policies adopted",
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "Giga Fight",
+                "name": "Hate",
                 "uniques": [
-                    "[+1 Culture] from every [Mine]",
+                    "[+20]% Strength <while the empire is happy>",
                 ],
-                "requires": ["Tek Cave"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "War Culture",
+                "uniques": [
+                    "[+60]% XP gained from combat",
+                ],
                 "row": 2,
-                "column": 2
+                "column": 3
             },
             {
-                "name": "Overseer",
+                "name": "Colonialism Complete",
                 "uniques": [
-                     "[+1 Science] from every [Ark Monument]",
+                    "Free [Rex Rider] appears", ]
+            }
+        ]
+    },
+        {
+        "name": "Cosmopolitanism",
+        "era": "Electric era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+1 Science] per [5] social policies adopted",
+            "[+3 Science] [in capital]","[-5 Gold] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "Future Science",
+                "uniques": [
+                    "[+1 Science] from every [Luxury resource]",
                 ],
-                "requires": ["Giga Fight"],
-                "row": 3,
+                "row": 1,
                 "column": 2
             },
             {
-                "name": "Ascension Search Complete",
+                "name": "Cultural Aceptation",
                 "uniques": [
-                    "[+1 Production] from every [Mine]", 
-                ]
+                    "[+2 Culture] from every [Camp]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Learn from Eras",
+                "uniques": [
+                    "[-50]% Gold cost of upgrading",
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Cosmopolitanism Complete",
+                "uniques": [
+                    "Free [Pistol Handler] appears", ]
             }
         ]
     }
