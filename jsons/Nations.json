@@ -329,9 +329,9 @@
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
 		"outerColor": [31, 33, 33],
-		"innerColor": [38, 81, 252],
+		"innerColor": [77, 127, 255],
 		"uniqueName": "Global Diversity",
-		"uniques": ["Double quantity of [Biotoxin] produced","[+15]% Strength <for [All] units> <during a Golden Age>", "[+15]% Production when constructing [Military] units [in all cities] <during a Golden Age>","[+50]% Golden Age length"],
+		"uniques": ["[+1 Science] from every [Luxury resource]","[+50]% Yield from every [Luxury resource]","[+50]% Golden Age length"],
 		"cities": ["Eldritch Isle","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
