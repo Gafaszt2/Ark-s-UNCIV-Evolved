@@ -192,6 +192,7 @@
 		"food": 1,
                 "faith": 1,
                 "culture": 1,
+                "gold": 2,
 		"movementCost": 1,
 		"RGB": [250, 189, 255]
 	},

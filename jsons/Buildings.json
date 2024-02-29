@@ -8,6 +8,7 @@
 		"faith": 1,
 		"science": 1,
 		"culture": 1,
+                "gold": 5,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Provides [2] [Fiber]"]
@@ -449,7 +450,7 @@
 		"name": "Wooden Fort",
                 "cityStrength": 5,
 		"cityHealth": 100,
-		"gold": 2,
+		"gold": 4,
 		"hurryCostModifier": 50,
 		"requiredTech": "Wooden Houses"
 	},
@@ -467,7 +468,7 @@
 		"name": "Cement Works",
                 "cityStrength": 3,
 		"cityHealth": 25,
-		"gold": 2,
+		"gold": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
 		"requiredTech": "Cementing Paste"
@@ -491,7 +492,7 @@
 		"name": "Stone Fort",
                 "cityStrength": 4,
 		"cityHealth": 30,
-		"gold": 1,
+		"gold": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
 		"requiredTech": "Stone Houses"
@@ -710,7 +711,7 @@
 	},
         {
 		"name": "Fresh Water Industry",
-                "gold": 1,
+                "gold": 5,
                 "science": 1
 		"hurryCostModifier": 10,
                 "requiredTech": "Canteen"
@@ -741,14 +742,14 @@
 	},
         {
 		"name": "Market",
-                "gold": 2
+                "gold": 5
                 "happiness": 1
 		"hurryCostModifier": 70,
                 "requiredTech": "Preserving Bin"
 	},
         {
 		"name": "Fruit Market",
-                "gold": 2
+                "gold": 3
                 "food": 1
                 "uniques": ["[+1 Food] from [Lemon] tiles [in this city]", "[+1 Food] from [Amarberry] tiles [in this city]"],
 		"hurryCostModifier": 70,
@@ -757,7 +758,7 @@
 	},
         {
 		"name": "Dino Market",
-                "gold": 3
+                "gold": 5
                 "science": 1
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Fruit Market"
@@ -765,7 +766,7 @@
 	},
         {
 		"name": "Definitive Market",
-                "gold": 4
+                "gold": 6
                 "culture": 1
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Dino Market"
@@ -798,7 +799,7 @@
         {
 		"name": "Gambling",
                 "happiness": 2
-                "gold": 2
+                "gold": 4
 		"hurryCostModifier": 70,
                 "requiredBuilding": "Zoo"
                 "requiredTech": "Radio"

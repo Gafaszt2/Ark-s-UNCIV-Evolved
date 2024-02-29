@@ -139,6 +139,7 @@
 			{
 				"name": "Cementing Paste",
 				"row": 3,
+                                "uniques": ["[+2 Gold] [in all cities]"],
 				"prerequisites": ["Mortar", "Wooden Houses"],
 				"quote": "Stick Together!"
 			},
@@ -213,6 +214,7 @@
                         {
 				"name": "Fishing Rod",
 				"row": 1,
+                                "uniques": ["[+2 Happiness] [in all cities]"],
 				"prerequisites": ["Raft"],
                         "quote": "Catch!"
 			}
@@ -230,7 +232,7 @@
 				"row": 4,
 				"prerequisites": ["Preserving Bin"],
 				"quote": "No shoot yet!"
-                                "uniques": ["[+1 Science] [in all cities]"],
+                                "uniques": ["[+1 Production] [in all cities]","[+1 Food] [in all cities]","[+1 Culture] [in all cities]","[+1 Gold] [in all cities]"],
 			},
                         {
 				"name": "Stone Irrigation Pipe",
@@ -325,7 +327,7 @@
 				"row": 1,
 				"prerequisites": ["Crossbow"],
 				"quote": "They cultivate vegetables here."
-                                "uniques": ["[+2 Food] [in all cities]"],
+                                "uniques": ["[+2 Food] [in all cities]","[+2 Production] [in all cities]","[+1 Gold] [in all cities]"],
 			},
                         {
 				"name": "Sword",

@@ -10,7 +10,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Food] [in capital]",
+            "[+1 Food] [in capital]","[+1 Gold] [in capital]"
             "[-10]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -41,7 +41,7 @@
             {
                 "name": "Monarchs of Ark",
                 "uniques": [
-                    "[+1 Food] from every [Hill]","[+1 Gold] from every [Plains]",
+                    "[+1 Food] from every [Hill]","[+1 Gold] from every [Luxury resource]",
                 ],
                 "row": 2,
                 "column": 5
@@ -57,7 +57,7 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+20]% Production when constructing [All] buildings [in all cities]", ]
+                    "[+2 Gold] from every [Luxury resource]","[+20]% Production when constructing [All] buildings [in all cities]", ]
             }
         ]
     },
@@ -72,7 +72,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Production] [in capital]",
+            "[+1 Production] [in capital]","[+1 Happiness] [in capital]"
         ],
         "policies": [
             {
@@ -133,7 +133,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+30]% Yield from every [Strategic resource]",
+            "[+2 Gold] from every [Mountain]","[+30]% Yield from every [Strategic resource]",
         ],
         "policies": [
             {
@@ -208,7 +208,7 @@
             {
                 "name": "Animism Complete",
                 "uniques": [
-                    "Free [Camuflage Survivor] appears", ]
+                    "[+2 Gold] from every [Camp]","Free [Camuflage Survivor] appears", ]
             }
         ]
     },
