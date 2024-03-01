@@ -180,7 +180,7 @@
 		"outerColor": [55, 219, 197],
 		"innerColor": [37, 42, 99],
 		"uniqueName": "The Chosen Survivor to Ascend",
-		"uniques": ["Heals [30] damage if it kills a unit", "[+1 Science] from every [Luxury resource]"],
+		"uniques": ["[+1 Production] from every [Ranch]", "[+2] Movement <for [Theropoda] units>"],
 		"cities": ["South Cone","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
