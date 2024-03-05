@@ -10,7 +10,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Food] [in capital]","[+1 Gold] [in capital]"
+            "[+2 Culture] [in capital]","[+1 Gold] [in capital]"
             "[-10]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -57,7 +57,7 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Luxury resource]","[+20]% Production when constructing [All] buildings [in all cities]", ]
+                    "[+1 Gold] from every [Luxury resource]","[+1 Culture] from every [Luxury resource]","[+20]% Production when constructing [All] buildings [in all cities]", ]
             }
         ]
     },
@@ -94,7 +94,7 @@
             {
                 "name": "Exchange",
                 "uniques": [
-                    "[+2 Food] from every [Redwood]","[+1 Food] from every [Redwoods Plains]",
+                    "[+2 Food] from every [Redwoods]","[+1 Food] from every [Redwoods Plains]",
                 ],
                 "row": 1,
                 "column": 5
@@ -118,7 +118,7 @@
             {
                 "name": "Communalism Complete",
                 "uniques": [
-                    "Free [Daeodon Rider] appears", ]
+                    "[+1 Gold] from every [Strategic resource]","[+1 Happiness] from every [Bonus resource]", ]
             }
         ]
     },
