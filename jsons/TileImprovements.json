@@ -2,7 +2,7 @@
 
 	{
 		"name": "Ranch",
-		"terrainsCanBeBuiltOn": ["Plains","Tundra","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 1,
 		"turnsToBuild": 4,
 		"uniques": ["Can also be built on tiles adjacent to fresh water"],
@@ -26,19 +26,13 @@
 		"name": "Tumash Temple",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Culture] for each adjacent [Jungle]","[+1 Gold] for each adjacent [Luxury resource]"],
+		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]"],
 	},
         {
 		"name": "Mural",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Food] for each adjacent [Tumash Temple]","[+1 Food] for each adjacent [Camp]"],
-	},
-        {
-		"name": "Hut",
-		"terrainsCanBeBuiltOn": ["Beach"],
-		"turnsToBuild": 4,
-		"uniques": ["[+1 Culture] for each adjacent [Bonus resource]","Can also be built on tiles adjacent to fresh water"],
+		"uniques": ["[+1 Culture] for each adjacent [Bonus resource]"],
 	},
         {
 		"name": "Moai",
@@ -59,12 +53,6 @@
 		"terrainsCanBeBuiltOn": ["Lakes","Natural Lake"],
 		"production": 1,
                 "uniques": ["Can only be built to improve a resource"],
-		"turnsToBuild": 4,
-	},
-        {
-		"name": "Igloo",
-		"terrainsCanBeBuiltOn": ["Snow"],
-		"food": 2,
 		"turnsToBuild": 4,
 	},
         {
@@ -89,8 +77,8 @@
         {
 		"name": "Marble Statue",
 		"terrainsCanBeBuiltOn": ["Desert"],
-		"culture": 1,
-		"turnsToBuild": 3,
+		"culture": 2,
+		"turnsToBuild": 10,
                 "techRequired": "Stone Houses",
 	},
         {

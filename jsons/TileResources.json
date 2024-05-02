@@ -258,18 +258,18 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [30] tiles <in [Featureless] [Beach] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Generated on every [60] tiles <in [Featureless] [Tundra] tiles>",
 					"Generated on every [60] tiles <in [Featureless] [Desert] tiles>"]
 	},
 	{
 		"name": "Coelacanth",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
 		"food": 1,
                 "civilopediaText": [{"text": "Coelacanth nutritia is one of the few creatures on the Island with a relative which can be found back home. The Coelacanth thrive in the waters around the Island, as well as within rivers and lakes. Unlike most Coelacanths, Coelacanth nutritia meat contains less oil and urea. In fact, it is one of the healthier sources of meat I've yet found. Most Coelacanths are opportunistic feeders that eat anything smaller than itself, likely including baby water snakes, insect and plant life."}]
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [9] tiles <in [Featureless] [Coast] tiles>"]
+		"improvedBy": ["Lake House", "Fishing Boats"],
+		"uniques": ["Generated on every [12] tiles <in [Coast] tiles>","Generated on every [24] tiles <in [Lakes] tiles>"]
 	},
         {
 		"name": "Ichtyosaurus",
@@ -721,7 +721,7 @@
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Generated on every [40] tiles <in [Featureless] [Beach] tiles>","Deposits in [Coast] tiles always provide [4] resources",
+		"uniques": ["Generated on every [66] tiles <in [Featureless] [Beach] tiles>","Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
@@ -922,11 +922,11 @@
 	{
 		"name": "Woolly Rhino",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Tundra","Snow","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [55] tiles <in [Snow] tiles>"]
 	},
         {
 		"name": "Velona",
@@ -986,11 +986,11 @@
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
+		"terrainsCanBeFoundOn": ["Marsh","Coast","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
 		"gold": 2,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Fishing Boats"],
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>", "Generated on every [30] tiles <in [Marsh] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [150] tiles <in [Coast] tiles>", "Generated on every [30] tiles <in [Marsh] tiles>"]
 	},
 	{
 		"name": "Basilosaurus",
