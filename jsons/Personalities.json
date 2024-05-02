@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Helena Walker",
+		"preferredVictoryType": "Ascension",
+		"culture": 5,
+		"faith": 3,
+		"food": 7,
+		"gold": 3,
+		"happiness": 5,
+		"production": 3,
+		"science": 8,
+		"military": 3,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Helena Walker, the survivor chosen to ascend."}
+		]
+	}
+]

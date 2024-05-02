@@ -399,6 +399,7 @@
 		"occursOn": ["Plains", "Desert", "Tundra"],
 		"uniques": ["Rare feature"]
 	},
+
         {
 		"name": "Swamp Zone",
 		"type": "TerrainFeature",
@@ -445,6 +446,7 @@
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Becomes [Beach] when adjacent to [Coast]",
+            "Becomes [Jungle] when adjacent to [Beach] <with [45]% chance>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
