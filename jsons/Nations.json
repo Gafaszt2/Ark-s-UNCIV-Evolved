@@ -26,7 +26,7 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
                 "uniqueName": "Corruption of the Arks",
-                "uniques": ["[+1 Food] from every [Plantation]", "[+1 Faith] [in all cities]", "[+1 Culture] from every [Luxury resource]"],
+                "uniques": ["[+2 Faith] from all [Science] buildings","[+20]% growth [in all cities] <during a Golden Age>"],
 
 		"outerColor": [71, 9, 6],
 		"innerColor": [212, 46, 38],
@@ -59,7 +59,7 @@
 		"outerColor": [221, 247, 198],
 		"innerColor": [48, 99, 3],
 		"uniqueName": "The pawn sacrifices itself to defend the king",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]", "[+15]% Production when constructing [Mounted] units [in capital]","[+5]% Production when constructing [Fantasy] units [in capital]"],
+		"uniques": ["[+1 Faith] from every [Ranch]","[+1 Food] per every [3] [Culture]","[+1 Production] per every [3] [Culture]","[+1 Science] per every [2] [Culture]","[+5]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>","Nullifies [Culture] [in all cities]"],
 		"cities": ["Terminal","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -180,7 +180,7 @@
 		"outerColor": [55, 219, 197],
 		"innerColor": [37, 42, 99],
 		"uniqueName": "The Chosen Survivor to Ascend",
-		"uniques": ["[+1 Production] from every [Ranch]", "[+2] Movement <for [Theropoda] units>"],
+		"uniques": ["[+1 Production] from every [Ranch]", "[Great Scientist] is earned [+35]% faster"],
 		"cities": ["South Cone","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -207,10 +207,10 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [64, 153, 201],
-		"innerColor": [99, 36, 150],
+		"outerColor": [49, 45, 51],
+		"innerColor": [222, 122, 113],
 		"uniqueName": "Viking Legacy",
-		"uniques": ["[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
+		"uniques": ["[+1 Faith] from every [Coast]","[+1 Culture] from every [Coast]",
 			"No movement cost to pillage <for [Land] units>"],
 		"cities": ["Muspelheim","Arat","Prime",
 			"Federal",
@@ -238,8 +238,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [54, 54, 77],
-		"innerColor": [133, 75, 250],
+		"outerColor": [153, 164, 176],
+		"innerColor": [59, 46, 33],
 		"uniqueName": "Fjordur",
 		"uniques": ["Double quantity of [Purlovia] produced","Double quantity of [Yutyrannus] produced","[+2 Food] from every [Snow]"],
 		"cities": ["Valheim","Arat","Prime",
@@ -358,10 +358,10 @@
 
 		"tradeRequest": "Please make this request a reality, I beg you!~",
 
-		"outerColor": [220, 243, 247],
-		"innerColor": [164, 116, 227],
+		"outerColor": [222, 213, 227],
+		"innerColor": [141, 50, 191],
 		"uniqueName": "Genesis Simulation",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[-25]% Culture cost of natural border growth [in all cities]","Double quantity of [Tek] produced"],
+		"uniques": ["[+25]% [Science] <while the empire is happy>","[+55]% Strength <starting from the [Tek era]>","Double quantity of [Tek] produced"],
 		"cities": ["Simulation","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",

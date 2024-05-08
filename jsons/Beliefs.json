@@ -20,9 +20,15 @@
         "uniques": ["[+3 Gold] [in all cities]","[+1 Gold] [in capital]"]
     },
     {
+        "name": "Faith Guard",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"]
+    },
+
+    {
         "name": "Roman Style Work",
         "type": "Pantheon",
-        "uniques": ["[+10]% Production towards any buildings that already exist in the Capital"]
+        "uniques": ["[+15]% Production towards any buildings that already exist in the Capital"]
     },
     
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
@@ -48,8 +54,8 @@
     },
     {
         "name": "Religious Community",
-        "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+        "type": "Follower", 
+        "uniques": ["[+20]% [Science] <while the empire is happy>"]
     },
     {
         "name": "Swords into Ploughshares",
