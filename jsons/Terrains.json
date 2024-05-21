@@ -399,6 +399,51 @@
 		"occursOn": ["Plains", "Desert", "Tundra"],
 		"uniques": ["Rare feature"]
 	},
+{
+		"name": "GrasslandMountain",
+		"type": "TerrainFeature",
+            "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+{
+		"name": "PlainsMountain",
+		"type": "TerrainFeature",
+            "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+
+{
+		"name": "DesertMountain",
+		"type": "TerrainFeature",
+            "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+{
+		"name": "TundraMountain",
+		"type": "TerrainFeature",
+            "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
 
         {
 		"name": "Swamp Zone",
@@ -645,6 +690,7 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
+                "faith": 1,
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],

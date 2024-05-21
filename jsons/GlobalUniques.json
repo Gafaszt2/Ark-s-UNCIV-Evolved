@@ -9,6 +9,8 @@
         "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([20])",
         "May buy [Inquisitor] units for [250] [Faith] [in all cities] at an increasing price ([10])",
         "May buy [Missionary] units for [150] [Faith] [in all cities] at an increasing price ([10])",
+        "[-20]% Unhappiness from [Population] [in all cities]",
+        "[-35]% Strength for cities <in cities without a [Wooden Fort]> <when attacking>",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -29,5 +31,7 @@
         // "[-25]% [Culture] [in pupetted cities]"
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
+
+"[-1 Gold] from every [River]"
     ]
 }

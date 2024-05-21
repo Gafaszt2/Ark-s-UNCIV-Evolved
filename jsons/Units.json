@@ -151,7 +151,8 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 17,
-		"cost": 75,
+		"cost": 76,
+                "requiredResource": "Thatch",
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Mortar",
                 "uniques": ["Never appears as a Barbarian unit"],
@@ -167,7 +168,7 @@
 		"requiredTech": "Slingshot",
                 "upgradesTo": "Kapro Rider",
                 "obsoleteTech": "Professional Domestication",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -649,7 +650,7 @@
 		"name": "Purlovia Rider",
 		"unitType": "Amphibious",
 		"movement": 2,
-		"strength": 60,
+		"strength": 65,
 		"cost": 80,
 		"requiredTech": "Sword",
                 "requiredResource": "Purlovia",
