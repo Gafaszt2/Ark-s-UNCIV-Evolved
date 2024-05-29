@@ -831,8 +831,8 @@
 		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [27] tiles <in [Jungle] tiles>","Generated on every [50] tiles <in [Grassland] tiles>",
-                           "Generated on every [35] tiles <in [Forest] tiles>"]
+		"uniques": ["Generated on every [70] tiles <in [Jungle] tiles>","Generated on every [70] tiles <in [Grassland] tiles>",
+                           "Generated on every [70] tiles <in [Forest] tiles>"]
 	},
                 {
 		"name": "Ravager",
@@ -921,7 +921,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
-                "uniques": ["Generated on every [600] tiles <in [Desert] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [900] tiles <in [Desert] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},

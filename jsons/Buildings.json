@@ -284,8 +284,9 @@
         {
 		"name": "Place Mark",
 		"science": 1,
+                "greatPersonPoints": {"Great Scientist": 2},
 		"hurryCostModifier": 20,
-		"uniques": ["[+1 Science] from [Mountain] tiles [in this city]"],
+		"uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [5] per owned city"],
 		"requiredTech": "Campfire"
 	},
         {
@@ -300,9 +301,10 @@
 	},
         {
 		"name": "Bookshelf",
-                "greatPersonPoints": {"Great Scientist": 1},
+                "greatPersonPoints": {"Great Scientist": 2},
                 "maintenance": 1,
 		"science": 2,
+                "uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [5] per owned city"],
 		"hurryCostModifier": 50,
 		"requiredTech": "Bookshelf"
 	},
@@ -517,18 +519,18 @@
 	},
         {
 		"name": "First Armory",
-                "greatPersonPoints": {"Great General": 1},
+                "greatPersonPoints": {"Great General": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Land] units [in this city]"],
-		"requiredTech": "Slingshot"
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Basic Training] promotion","[+15]% Production when constructing [Land] units [in this city]","Cost increases by [15] per owned city"],
+		"requiredTech": "Narcotics"
 	},
         {
 		"name": "Taming Den",
-                "greatPersonPoints": {"Great General": 1},
+                "greatPersonPoints": {"Great General": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","[+15]% Production when constructing [Land] units [in this city]"],
                 "requiredTech": "Narcotics"
 	},
         {
@@ -536,39 +538,41 @@
                 "greatPersonPoints": {"Great General": 1},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"requiredBuilding": "Taming Scout",
                 "requiredTech": "Balista"
 	},
         {
 		"name": "Taming Scout",
-                "greatPersonPoints": {"Great General": 1},
+                "greatPersonPoints": {"Great General": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Mounted] units [in this city]"],
+                "uniques": ["New [Military] units start with [15] Experience [in this city]","Cost increases by [25] per owned city"],
 		"requiredBuilding": "Taming Den",
                 "requiredTech": "Tranq Arrow"
 	},
         {
 		"name": "Second Armory",
-                "greatPersonPoints": {"Great General": 1},
-                "maintenance": 1,
+                "greatPersonPoints": {"Great General": 2},
+                "maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["[+5]% Production when constructing [Land] units [in this city]"],
+                "requiredBuilding": "First Armory"
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Advanced Training] promotion","[+10]% Production when constructing [Land] units [in this city]","Cost increases by [25] per owned city"],
 		"requiredBuilding": "First Armory",
                 "requiredTech": "Bow and Arrow"
 	},
         {
 		"name": "Third Armory",
-                "greatPersonPoints": {"Great General": 1},
-                "maintenance": 1,
+                "greatPersonPoints": {"Great General": 2},
+                "maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Elite Training] promotion","[+10]% Production when constructing [Land] units [in this city]","Cost increases by [30] per owned city"],
 		"requiredBuilding": "Second Armory",
                 "requiredTech": "Professional Domestication"
 	},
         {
 		"name": "Pikemen Armory",
+                "greatPersonPoints": {"Great General": 1},
                 "maintenance": 1,
                 "production": 2,
 		"hurryCostModifier": 50,
@@ -602,7 +606,7 @@
 	},
         {
 		"name": "Electric Circuits",
-                "greatPersonPoints": {"Great Scientist": 1},
+                "greatPersonPoints": {"Great Scientist": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal"],
@@ -612,6 +616,7 @@
 	},
         {
 		"name": "Location",
+                "greatPersonPoints": {"Great Scientist": 2},
                 "greatPersonPoints": {"Great Artist": 1},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
@@ -633,7 +638,7 @@
         {
 		"name": "Disaster",
                 "requiredResource": "Organic Polymer",
-                "greatPersonPoints": {"Great Scientist": 1},
+                "greatPersonPoints": {"Great Scientist": 2},
                 "maintenance": 1,
                 "production": 1
                 "science": 1
@@ -644,6 +649,7 @@
 	},
         {
 		"name": "Riffle Factory",
+                "greatPersonPoints": {"Great Scientist": 2},
                 "requiredResource": "Organic Polymer",
                 "maintenance": 1,
                 "production": 1
@@ -663,6 +669,7 @@
 	},
         {
 		"name": "Water Tower",
+                "greatPersonPoints": {"Great Scientist": 2},
                 "maintenance": 1,
                 "food": 1
                 "happiness": 2
@@ -672,6 +679,7 @@
 	},
         {
 		"name": "Plaza",
+                "greatPersonPoints": {"Great Scientist": 1},
                 "maintenance": 3,
                 "faith": 3
                 "culture": 4
@@ -841,7 +849,7 @@
 		"name": "Statue of Zeus",
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"requiredTech": "Mortar",
+		"requiredTech": "Cementing Paste",
 		"quote": "'As the sun set, I happened upon a small village on a bluff. Unfortunately, it was besieged by a man who rode a lizard like a horse and wielded a stick that spat fire.' - Mei Yin"
 	},
         {

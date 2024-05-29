@@ -195,6 +195,7 @@
 			{
 				"name": "Bookshelf",
 				"row": 7,
+                                "uniques": ["[+1 Culture] [in all cities]","[+1 Faith] [in all cities]"],
 				"prerequisites": ["Stone Houses","Professional Domestication"],
 				"quote": "A place of study."
 			},
@@ -214,7 +215,7 @@
                         {
 				"name": "Fishing Rod",
 				"row": 1,
-                                "uniques": ["[+2 Happiness] [in all cities]"],
+                                "uniques": ["[+2 Happiness] [in all cities]","[+1 Faith] [in all cities]","[+1 Culture] [in all cities]"],
 				"prerequisites": ["Raft"],
                         "quote": "Catch!"
 			}
@@ -232,7 +233,7 @@
 				"row": 4,
 				"prerequisites": ["Preserving Bin"],
 				"quote": "No shoot yet!"
-                                "uniques": ["[+1 Production] [in all cities]","[+1 Food] [in all cities]","[+1 Culture] [in all cities]","[+1 Gold] [in all cities]"],
+                                "uniques": ["[+3 Science] [in all cities]","[+1 Production] [in all cities]"],
 			},
                         {
 				"name": "Stone Irrigation Pipe",
@@ -244,6 +245,7 @@
 				"name": "Smithy",
 				"row": 7,
 				"prerequisites": ["Bookshelf"],
+                                "uniques": ["[+1 Science] [in all cities]"],
 				"quote": "Workplace full of anvils and hammers."
 			},
 			{
@@ -272,12 +274,13 @@
 				"row": 2,
 				"prerequisites": ["Stone Irrigation Pipe", "Gunpowder"],
 				"quote": "Sea of Thieves"
-                                "uniques": ["[+1 Food] [in all cities]"],
+                                "uniques": ["[+1 Faith] from [Coast] tiles [in all cities]","[+1 Food] from [Coast] tiles [in all cities]","[+2 Food] [in all cities]"],
 			},
                         {
 				"name": "Metal Pick",
 				"row": 8,
 				"prerequisites": ["Refining Forge"],
+                                "uniques": ["[+2 Production] [in all cities]"],
 				"quote": "Mine and Craft"
 			},
 			{
@@ -304,6 +307,7 @@
                         {
 				"name": "Pike",
 				"row": 7,
+                                "uniques": ["[+2 Culture] [in all cities]"],
 				"prerequisites": ["Metal Pick","Tranq Arrow"],
 				"quote": "Age of Empires"
 			},
@@ -327,7 +331,7 @@
 				"row": 1,
 				"prerequisites": ["Crossbow"],
 				"quote": "They cultivate vegetables here."
-                                "uniques": ["[+2 Food] [in all cities]","[+2 Production] [in all cities]","[+1 Gold] [in all cities]"],
+                                "uniques": ["[+1 Production] from [Coast] tiles [in all cities]","[+1 Production] [in all cities]","[+2 Science] [in all cities]"],
 			},
                         {
 				"name": "Sword",
@@ -344,8 +348,8 @@
 				"prerequisites": ["Balista","Pike"],
                         "quote": "The safest home."
                         "uniques": [
-			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Mountain] tiles [in this city]"
+			"[+1 Production] from [Hill] tiles [in all cities]",
+			"[+1 Production] from [Mountain] tiles [in all cities]"
 		],
 			}
 		]
