@@ -2,7 +2,7 @@
 
 	{
 		"name": "Ranch",
-		"terrainsCanBeBuiltOn": ["Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Snowy Beach","Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 1,
                 "techRequired": "Torch",
 		"turnsToBuild": 4,

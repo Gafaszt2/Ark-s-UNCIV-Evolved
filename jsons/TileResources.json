@@ -158,7 +158,7 @@
                 "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 2},
-		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
 	},
         {
 		"name": "Sabertooth",
@@ -178,7 +178,7 @@
                 "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
 		"improvementStats": {"science": 2},
-		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [38] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [50] tiles <in [Snow] tiles>"]
 	},
 	{
 		"name": "Ovis",
@@ -193,12 +193,12 @@
 	{
 		"name": "Megaloceros",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snow"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Tundra","Snow","Snowy Beach"], // Tundra only if lowland
 		"food": 1,
                 "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [25] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [25] tiles <in [Snowy Beach] tiles>","Generated on every [37] tiles <in [Snow] tiles>"]
 	},
 	{
 		"name": "Amarberry",
@@ -772,12 +772,12 @@
 		"name": "Organic Polymer",
                 "revealedBy": "Polymer",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Snow","Tundra","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [10] tiles <in [Snow] tiles>",
-					"Generated on every [10] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [40] tiles <in [Snow] tiles>",
+					"Generated on every [150] tiles <in [Tundra] tiles>"]
 	},
         {
 		"name": "Biotoxin",
@@ -828,11 +828,11 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [70] tiles <in [Jungle] tiles>","Generated on every [70] tiles <in [Grassland] tiles>",
-                           "Generated on every [70] tiles <in [Forest] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [15] tiles <in [Redwoods] tiles>",
+                           "Generated on every [60] tiles <in [Forest] tiles>"]
 	},
                 {
 		"name": "Ravager",
@@ -860,7 +860,7 @@
 		"culture": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [20] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Cristal",
@@ -897,7 +897,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [30] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [70] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Azulberry",

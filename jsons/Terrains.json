@@ -7,6 +7,15 @@
 		"movementCost": 1,
                 "RGB": [255, 245, 189],
         },
+        {
+                "name": "Snowy Beach",
+                "type": "Land",
+		"food": 1,
+                "production": 2,
+                "uniques": ["Considered [Desirable] when determining start locations"]
+		"movementCost": 2,
+                "RGB": [206, 226, 235],
+        },
 	{
 		"name": "Ocean",
 		"type": "Water",
@@ -522,6 +531,8 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Becomes [Beach] when adjacent to [Coast]",
+            "Becomes [Grassland] when adjacent to [Tundra]",
+            "Becomes [Grassland] when adjacent to [Snowy Beach]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -652,8 +663,7 @@
             "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-            "Becomes [Plains] when adjacent to [River]",
-            "Becomes [Beach] when adjacent to [Coast]",
+            "Becomes [Snowy Beach] when adjacent to [Coast]",
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
