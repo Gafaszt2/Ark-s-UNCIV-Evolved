@@ -8,6 +8,21 @@
                 "RGB": [255, 245, 189],
         },
         {
+                "name": "Mud",
+                "type": "Land",
+		"food": 2,
+		"movementCost": 2,
+                "RGB": [255, 245, 189],
+        },
+        {
+                "name": "Montano",
+                "type": "Land",
+		"food": 1,
+                "gold": 1,
+		"movementCost": 2,
+                "RGB": [255, 245, 189],
+        },
+        {
                 "name": "Snowy Beach",
                 "type": "Land",
 		"food": 1,
@@ -500,6 +515,8 @@
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Becomes [Beach] when adjacent to [Coast]",
+            "Becomes [Montano] when adjacent to [Desert] <with [45]% chance>",
+            "Becomes [Redwoods] when adjacent to [Desert] <with [45]% chance>",
             "Becomes [Jungle] when adjacent to [Beach] <with [45]% chance>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },

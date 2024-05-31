@@ -33,22 +33,22 @@
         {
 		"name": "Araneo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Marsh","Forest"],
+		"terrainsCanBeFoundOn": ["Marsh","Montano"],
 		"happiness": 1,
                 "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
 		"improvement": "Camp",
 		"improvementStats": {"faith": 1},
-		"uniques": ["Generated on every [350] tiles <in [Marsh] tiles>","Generated on every [500] tiles <in [Forest] tiles>"]
+		"uniques": ["Generated on every [350] tiles <in [Marsh] tiles>","Generated on every [40] tiles <in [Montano] tiles>"]
 	},
         {
 		"name": "Pulminoscorpius",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Montano","Hill"],
 		"gold": 1,
                 "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [1000] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [1590] tiles <in [Hill] tiles>","Generated on every [39] tiles <in [Montano] tiles>"]
 	},
         {
 		"name": "Sabertooth Salmon",
@@ -183,12 +183,12 @@
 	{
 		"name": "Ovis",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
+		"terrainsCanBeFoundOn": ["Plains","Montano"],
 		"food": 1,
                 "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [79] tiles <in [Plains] tiles>"]
+		"uniques": ["Generated on every [16] tiles <in [Montano] tiles>","Generated on every [79] tiles <in [Plains] tiles>"]
 	},
 	{
 		"name": "Megaloceros",
@@ -244,11 +244,11 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Montano","Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+		"uniques": ["Generated on every [32] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Montano] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Generated on every [60] tiles <in [Featureless] [Tundra] tiles>",
 					"Generated on every [60] tiles <in [Featureless] [Desert] tiles>"]
 	},
@@ -710,11 +710,11 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","City Tile","Beach","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Desert","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Generated on every [66] tiles <in [Featureless] [Beach] tiles>","Deposits in [Coast] tiles always provide [4] resources",
+		"uniques": ["Generated on every [60] tiles <in [Montano] tiles>","Generated on every [66] tiles <in [Featureless] [Beach] tiles>","Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
@@ -733,12 +733,13 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Montano","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [400] tiles <in [Hill] tiles>","Generated on every [800] tiles <in [Beach] tiles>","Generated with weight [15] <in [Featureless] [Tundra] tiles>",
                                         "Generated on every [30] tiles <in [Redwoods] tiles>",
+                                        "Generated on every [30] tiles <in [Montano] tiles>",
 					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
                                         "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
@@ -828,10 +829,10 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
+		"terrainsCanBeFoundOn": ["Montano","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [15] tiles <in [Redwoods] tiles>",
+		"uniques": ["Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [169] tiles <in [Montano] tiles>","Generated on every [15] tiles <in [Redwoods] tiles>",
                            "Generated on every [60] tiles <in [Forest] tiles>"]
 	},
                 {
@@ -965,11 +966,11 @@
 	{
 		"name": "Sand",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Beach"],
+		"terrainsCanBeFoundOn": ["Desert","Beach","Montano"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"prdocution": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated on every [100] tiles <in [Featureless] [Beach] tiles>","Generated on every [20] tiles <in [Desert] tiles>"]
+		"uniques": ["Generated on every [100] tiles <in [Featureless] [Beach] tiles>","Generated on every [50] tiles <in [Featureless] [Montano] tiles>","Generated on every [20] tiles <in [Desert] tiles>"]
 	},
 	{
 		"name": "Sarcosuchus",
