@@ -2,7 +2,7 @@
 
 	{
 		"name": "Ranch",
-		"terrainsCanBeBuiltOn": ["Snowy Beach","Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Montano","Snowy Beach","Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
 		"food": 1,
                 "techRequired": "Torch",
 		"turnsToBuild": 4,
@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Asteroid"],
+		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Montano","Asteroid"],
 		"production": 1,
 		"turnsToBuild": 4,
 		"shortcutKey": "M"
