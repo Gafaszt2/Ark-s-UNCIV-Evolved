@@ -89,7 +89,7 @@
 		"outerColor": [211, 227, 88],
 		"innerColor": [138, 55, 50],
 		"uniqueName": "Scorched Eath",
-		"uniques": ["[+1 Food] from every [Luxury resource]","Double quantity of [Oil] produced","[+2 Gold] from every [Volcano]"],
+		"uniques": ["[+1 Food] from every [Hill]","Double quantity of [Oil] produced","[+1 Gold] from every [Mine]"],
 		"cities": ["Nosti","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",

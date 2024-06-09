@@ -60,7 +60,6 @@
 		"terrainsCanBeBuiltOn": ["Lakes","Natural Lake"],
 		"production": 1,
                 "techRequired": "Fish Basquet",
-                "uniques": ["Can only be built to improve a resource"],
 		"turnsToBuild": 4,
 	},
         {
@@ -145,7 +144,6 @@
 		"food": 1,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "F"
-                "techRequired": "Fish Basquet",
 	},
 
 	// Military improvement
