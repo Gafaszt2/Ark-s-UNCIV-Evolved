@@ -114,9 +114,11 @@
         },
         {
 		"name": "HLNA",
+               "requiredResource": "Tek",
 		"unitType": "Scout",
-		"movement": 5,
-		"strength": 3,
+		"movement": 6,
+		"strength": 20,
+                "uniques": ["Never appears as a Barbarian unit"],
 		"cost": 50,
 		"attackSound": "nonmetalhit"
 		"obsoleteTech": "Cryopod",
@@ -1212,9 +1214,9 @@
         {
 		"name": "Argentavis Rider",
 		"unitType": "Flying",
-		"movement": 3,
-		"strength": 32,
-		"cost": 200,
+		"movement": 4,
+		"strength": 37,
+		"cost": 175,
 		"requiredTech": "Smithy",
                 "requiredResource": "Metal",
 		"uniques": ["Can move after attacking", "[+1] Sight"],
