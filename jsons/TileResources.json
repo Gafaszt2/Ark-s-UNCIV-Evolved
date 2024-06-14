@@ -8,7 +8,7 @@
                 "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [17] tiles <in [Grassland] tiles>"]
+		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
         {
 		"name": "Thylacoleo",
@@ -28,7 +28,7 @@
                 "civilopediaText": [{"text": "Procoptodon vivencurrus. Standing nearly three meters tall, it is among the largest jumping creatures I've heard of. It is a fairly peaceful herbivore that will immediately flee when aggressed upon."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
-		"uniques": ["Generated on every [350] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [300] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
         {
 		"name": "Araneo",
@@ -38,7 +38,7 @@
                 "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
 		"improvement": "Camp",
 		"improvementStats": {"faith": 1},
-		"uniques": ["Generated on every [350] tiles <in [Marsh] tiles>","Generated on every [40] tiles <in [Montano] tiles>"]
+		"uniques": ["Generated on every [40] tiles <in [Montano] tiles>"]
 	},
         {
 		"name": "Pulminoscorpius",
@@ -48,7 +48,7 @@
                 "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [1590] tiles <in [Hill] tiles>","Generated on every [39] tiles <in [Montano] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Montano] tiles>"]
 	},
         {
 		"name": "Sabertooth Salmon",
@@ -88,7 +88,7 @@
                 "civilopediaText": [{"text": "Lutra Peloso have become exceptionally adept at hunting and foraging. This species of Otter has to be particularly cunning because of its diminutive size, and fierce competition for its preferred food source: fish."}]
 		"improvement": "Lake House",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [10] tiles <in [Natural Lake] tiles>"]
+		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
 	},
         {
 		"name": "Giant Bee",
@@ -98,7 +98,7 @@
                 "civilopediaText": [{"text": "Apis Drones can be seen swarming around the nest in groups, but to get a look at the Queen Apis, one would need to crack open the nest itself. Speaking from experience, this is not a pleasant task, as the untameable Apis Drones are quite territorial."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
-		"uniques": ["Generated on every [500] tiles <in [Grassland] tiles>"]
+		"uniques": ["Generated on every [80] tiles <in [Grassland] tiles>"]
 	},
         {
 		"name": "Thorny Dragon",
@@ -118,7 +118,7 @@
                 "civilopediaText": [{"text": "The true tyrannical baron of the ark's skies, Hatzegopteryx is the undisputed king of flight. A massive shadow similar to a warplane, Hatzegopteryx is capable of speed and maneuvers unlike anything else its size. It is a tyrant that hunts anything that soars."}]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
-		"uniques": ["Generated on every [500] tiles <in [Desert] tiles>"]
+		"uniques": ["Generated on every [240] tiles <in [Desert] tiles>"]
 	},
         {
 		"name": "Carnotaurus",
@@ -138,7 +138,7 @@
                 "civilopediaText": [{"text": "Gigantopithecus fibrarator is a strange creature. It is usually quite passive, but it has a very short temper when it comes to its own personal space. Once another creature gets close, this gentle giant quickly becomes a rampaging beast. Best to give them a wide berth. I have occasionally seen Gigantopithecus jumping to grab vines that it can traverse and swing on, but otherwise, it seems most happy to lay about, picking berries from plants lazily."}]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [30] tiles <in [Redwoods] tiles>"]
+		"uniques": ["Generated on every [45] tiles <in [Redwoods] tiles>"]
 	},
         {
 		"name": "Insect Swarm",
@@ -148,7 +148,7 @@
                 "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [90] tiles <in [Marsh] tiles>"]
+		"uniques": ["Generated on every [80] tiles <in [Marsh] tiles>"]
 	},
         {
 		"name": "Direbear",
@@ -158,7 +158,7 @@
                 "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 2},
-		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [70] tiles <in [Snow] tiles>"]
 	},
         {
 		"name": "Sabertooth",
@@ -178,7 +178,7 @@
                 "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
 		"improvementStats": {"science": 2},
-		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [50] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [55] tiles <in [Snow] tiles>"]
 	},
 	{
 		"name": "Ovis",
@@ -188,7 +188,7 @@
                 "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [16] tiles <in [Montano] tiles>","Generated on every [79] tiles <in [Plains] tiles>"]
+		"uniques": ["Generated on every [25] tiles <in [Montano] tiles>","Generated on every [70] tiles <in [Plains] tiles>"]
 	},
 	{
 		"name": "Megaloceros",
@@ -198,7 +198,7 @@
                 "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [25] tiles <in [Snowy Beach] tiles>","Generated on every [37] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [66] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
 	},
 	{
 		"name": "Amarberry",
@@ -248,9 +248,7 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [32] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Montano] tiles>","Generated on every [70] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [60] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [60] tiles <in [Featureless] [Desert] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Montano] tiles>"]
 	},
 	{
 		"name": "Coelacanth",
@@ -259,7 +257,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Coelacanth nutritia is one of the few creatures on the Island with a relative which can be found back home. The Coelacanth thrive in the waters around the Island, as well as within rivers and lakes. Unlike most Coelacanths, Coelacanth nutritia meat contains less oil and urea. In fact, it is one of the healthier sources of meat I've yet found. Most Coelacanths are opportunistic feeders that eat anything smaller than itself, likely including baby water snakes, insect and plant life."}]
 		"improvedBy": ["Lake House", "Fishing Boats"],
-		"uniques": ["Generated on every [12] tiles <in [Coast] tiles>","Generated on every [24] tiles <in [Lakes] tiles>"]
+		"uniques": ["Generated on every [12] tiles <in [Coast] tiles>","Generated on every [12] tiles <in [Lakes] tiles>"]
 	},
         {
 		"name": "Ichtyosaurus",
@@ -267,7 +265,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"culture": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>","Generated on every [9] tiles <in [Featureless] [Coral Zone] tiles>"]
+		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>"]
 	},
         {
 		"name": "Hesperornis",
@@ -275,7 +273,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [20] tiles <in [Coral Zone] tiles>","Generated on every [11] tiles <in [Featureless] [Coral Zone] tiles>"]
+		"uniques": ["Generated on every [20] tiles <in [Coral Zone] tiles>"]
 	},
         {
 		"name": "Sauropterygia",
@@ -283,7 +281,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [30] tiles <in [Coral Zone] tiles>","Generated on every [22] tiles <in [Featureless] [Coral Zone] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Coral Zone] tiles>"]
 	},
         {
 		"name": "Volcanic Edestus",
@@ -291,7 +289,7 @@
 		"terrainsCanBeFoundOn": ["Volcanic Zone"],
 		"gold": 3,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [9] tiles <in [Volcanic Zone] tiles>","Generated on every [10] tiles <in [Featureless] [Volcanic Zone] tiles>"]
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
 	},
 	{
 		"name": "Paraceratherium",
@@ -301,7 +299,7 @@
                 "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
-                "uniques": ["Generated on every [50] tiles <in [Desert] tiles>"]
+                "uniques": ["Generated on every [70] tiles <in [Desert] tiles>"]
 	},
         {
 		"name": "Morellatops",
@@ -313,8 +311,7 @@
 "}]
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [30] tiles <in [Desert] tiles>",
-                            "Generated on every [30] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Hill] tiles>"]
 	},
         {
 		"name": "Cactus Sap",
@@ -323,7 +320,7 @@
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
+		"uniques": ["Generated on every [24] tiles <in [Desert] tiles>"]
 	},
         {
 		"name": "Dodo",
@@ -343,7 +340,7 @@
                 "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [44] tiles <in [Beach] tiles>"]
+		"uniques": ["Generated on every [40] tiles <in [Beach] tiles>"]
 	},
          {
 		"name": "Rare Mushroom",
@@ -352,8 +349,7 @@
 		"culture": 1,
                 "food": 1,
 		"improvement": "Ranch",
-		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>",
-                            "Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
          {
 		"name": "Rare Flower",
@@ -362,9 +358,7 @@
 		"science": 1,
                 "food": 1,
 		"improvement": "Ranch",
-		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>",
-                            "Generated on every [30] tiles <in [Redwoods] tiles>",
-                            "Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>","Generated on every [30] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
         {
 		"name": "Beelzebufo",
@@ -391,7 +385,7 @@
 		"food": 2,
                 "civilopediaText": [{"text": "Tusoteuthis vampyrus is a very aggressive water predator. Approximately 30 feet long, Tusoteuthis is a terror of the deep. Once it grabs its prey, it slowly crushes it into submission while using the talons on its tentacles to siphon and drink the victim's blood."}]
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>"]
+            "uniques": ["Generated on every [31] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Kelp",
@@ -400,8 +394,7 @@
 		"food": 2,
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>",
-                         "Generated on every [30] tiles <in [Coast] tiles>"]
+            "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Liopleurodon",
@@ -412,7 +405,7 @@
                 "civilopediaText": [{"text": "Liopleurodon magicus is a mid-sized ocean creature, typically between 20 and 25 feet long. I've yet to directly encounter one myself, but from the tales other tribes have shared, it compares to no other on the Island. The rumors indicate that this beautiful creature has magical properties."}]
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
+            "uniques": ["Generated on every [780] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Manta",
@@ -423,8 +416,7 @@
                 "civilopediaText": [{"text": "Here is another example of a creature that seems to have evolved beyond its historical traits. Everything points to this being a saltwater ray, but Manta mobula has developed the ability to swim into the island's rivers and shallows, as well as through the open ocean. Perhaps there were originally two types of ray on the island before, but years of interbreeding combined their lineage. Normally docile, Manta mobula is a carnivore only in that it naturally consumes plankton."}]
                 "improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>",
-                         "Generated on every [400] tiles <in [Coast] tiles>"]
+            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [300] tiles <in [Coast] tiles>"]
 	},
         {
 		"name": "Plesiosaur",
@@ -445,7 +437,7 @@
                 "civilopediaText": [{"text": "Leedsichthys conviviumbrosia is probably the largest fish in the waters around the island. Its meat is also extremely succulent, a surprise given its size."}]
                 "improvementStats": {"culture": 1},
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [700] tiles <in [Ocean] tiles>", "Generated on every [700] tiles <in [Coast] tiles>"]
+            "uniques": ["Generated on every [700] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Charcoal",
@@ -454,8 +446,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
-					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>"]
 	},
         {
 		"name": "Amargasaur",
@@ -465,8 +456,7 @@
                 "civilopediaText": [{"text": "Of all the creatures in the sauropod family, Amargasaurus titanicus is likely the most unique in appearance. It sports two parallel rows of dorsal spines down the length of its neck, back, and tail--though the neck spines are significantly longer than the back or tail spines. These spines are a remarkable adaptation, giving Amargasaurus unmatched control of its body temperature. Made even more marvelous by their time on this ARK, their spines store both extreme heat AND extreme cold, effectively allowing Amargasaurus to live comfortably in any environment."}]
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
-					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>","Generated on every [500] tiles <in [Hill] tiles>"]
 	},
         {
 		"name": "Magmasaur",
@@ -476,15 +466,14 @@
                 "civilopediaText": [{"text": "The Magmasaur is a fire-based Creature that gains strength and charges up attacks through heat. It has an affinity for lava to the point of even swimming in it, and dislikes water."}]
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>",
-					"Generated on every [20] tiles <in [Featureless] [Volcanic Soil] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>"]
 	},
         {
 		"name": "Defense Unit",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","City Tile"],
 		"production": 1,
-                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -493,7 +482,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
 		"food": 1,
-                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"food": 2},
 	},
@@ -502,7 +491,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
 		"production": 1,
-                "uniques": ["Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 	},
@@ -511,7 +500,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
 		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -520,7 +509,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Bog","Aberrant Green Zone"],
 		"production": 1,
-                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Mine",
 		"improvementStats": {"science": 1},
 	},
@@ -529,7 +518,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
 		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>","Generated on every [1000] tiles <in [Plains] tiles>"]
+                "uniques": ["Generated on every [1000] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 	},
@@ -546,8 +535,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone","Snow"],
 		"faith": 1,
-                "uniques": ["Generated on every [8] tiles <in [{Tundra} {Snow}] tiles>",
-					"Generated on every [12] tiles <in [{Featureless} {Snow}] tiles>"
+                "uniques": ["Generated on every [13] tiles <in [Snow] tiles>"
 					]
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -557,8 +545,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
-                "uniques": ["Generated on every [37] tiles <in [Plains] tiles>"
-                            "Generated on every [370] tiles <in [Grassland] tiles>"]
+                "uniques": ["Generated on every [40] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -567,9 +554,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
 		"food": 1,
-                "uniques": ["Generated on every [500] tiles <in [Plains] tiles>",
-                            "Generated on every [500] tiles <in [Desert] tiles>",
-                            "Generated on every [500] tiles <in [Hill] tiles>"
+                "uniques": ["Generated on every [550] tiles <in [Hill] tiles>","Generated on every [555] tiles <in [Desert] tiles>","Generated on every [555] tiles <in [Plains] tiles>"
                             ]
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
@@ -579,7 +564,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"food": 1,
-                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"science": 1},
 	},
@@ -596,7 +581,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
 		"science": 1,
-                "uniques": ["Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -605,14 +590,14 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
 		"culture": 1,
-                "uniques": ["Generated on every [899] tiles <in [Plains] tiles>", "Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+                "uniques": ["Generated on every [800] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
         {
 		"name": "Carcharodontosaurus",
 		"resourceType": "Bonus",
-                "uniques": ["Generated on every [999] tiles <in [Hill] tiles>", "Generated on every [7] tiles <in [Genesis Soil] tiles>"]
+                "uniques": ["Generated on every [999] tiles <in [Hill] tiles>"]
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill"],
 		"science": 1,
 		"improvement": "Camp",
@@ -645,16 +630,7 @@
 		"production": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [17] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Desert] tiles>","Guaranteed with Strategic Balance resource option",
-                                        "Generated on every [30] tiles <in [Redwoods] tiles>",
-					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
-					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
-                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
-					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+		"uniques": ["Generated on every [60] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -664,22 +640,7 @@
 		"terrainsCanBeFoundOn": ["Redwoods","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated on every [35] tiles <in [Plains] tiles>","Guaranteed with Strategic Balance resource option","Generated on every [30] tiles <in [Featureless] [Beach] tiles>",
-                                        "Generated on every [30] tiles <in [Redwoods] tiles>",
-					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
-                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+		"uniques": ["Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -690,19 +651,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-                                        "Generated on every [30] tiles <in [Redwoods] tiles>",
-					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
-                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
-					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
+		"uniques": ["Generated on every [60] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Montano] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
 	},
@@ -714,18 +663,7 @@
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Generated on every [60] tiles <in [Montano] tiles>","Generated on every [66] tiles <in [Featureless] [Beach] tiles>","Deposits in [Beach] tiles always provide [3] resources",
-					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [60] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
-					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
+		"uniques": ["Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -737,15 +675,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [400] tiles <in [Hill] tiles>","Generated on every [800] tiles <in [Beach] tiles>","Guaranteed with Strategic Balance resource option","Generated with weight [15] <in [Featureless] [Tundra] tiles>","Deposits in [Montano] tiles always provide [3] resources",
-                                        "Generated on every [30] tiles <in [Redwoods] tiles>",
-                                        "Generated on every [60] tiles <in [Montano] tiles>",
-                                        "Generated on every [5] tiles <in [Featureless] [Montano] tiles>",
-					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [39] <in [Hill] tiles>",
-                                        "Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"
-					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+		"uniques": ["Generated on every [90] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -763,9 +693,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Coast] tiles>",
-                                        "Generated on every [30] tiles <in [Redwoods] tiles>",
-					"Generated on every [90] tiles <in [Coast] tiles>","Generated on every [70] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>"],
+		"uniques": ["Generated on every [60] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Jungle] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -777,8 +705,7 @@
 		"science": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [40] tiles <in [Snow] tiles>",
-					"Generated on every [150] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>"]
 	},
         {
 		"name": "Biotoxin",
@@ -787,8 +714,7 @@
 		"terrainsCanBeFoundOn": ["Ocean","Coast","Genesis Lake"],
 		"science": 2,
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"
-                         "Generated on every [550] tiles <in [Coast] tiles>"]
+            "uniques": ["Generated on every [120] tiles <in [Coast] tiles>","Generated on every [150] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Tek",
@@ -820,11 +746,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Grassland] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
 	},
 	{
 		"name": "Allosaurus",
@@ -832,15 +754,14 @@
 		"terrainsCanBeFoundOn": ["Montano","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [169] tiles <in [Montano] tiles>","Generated on every [15] tiles <in [Redwoods] tiles>",
-                           "Generated on every [60] tiles <in [Forest] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Motano] tiles>"]
 	},
                 {
 		"name": "Ravager",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Green Zone","Aberrant Blue Zone"],
 		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Aberrant Green Zone] tiles>"]
+                "uniques": ["Generated on every [60000] tiles <in [Grassland] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -849,8 +770,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Snow","Tundra"],
 		"food": 1,
-                "uniques": ["Generated on every [90] tiles <in [Snow] tiles>",
-                            "Generated on every [180] tiles <in [Tundra] tiles>"]
+                "uniques": ["Generated on every [60] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -869,14 +789,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-                                        "Generated on every [40] tiles <in [Volcanic Soil] tiles>"
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Sulphur", // Not called "Gold" in order to not conflict with siege type units for translations
@@ -884,13 +797,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Tyrannosaurus",
@@ -906,7 +813,7 @@
 		"terrainsCanBeFoundOn": ["Beach"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Snowy Beach] tiles>"]
 	},
 	{
 		"name": "Woolly Rhino",
@@ -915,14 +822,14 @@
 		"gold": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [55] tiles <in [Snow] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"]
 	},
         {
 		"name": "Velona",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
-                "uniques": ["Generated on every [900] tiles <in [Desert] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [900] tiles <in [Desert] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -931,7 +838,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
 		"food": 2,
-                "uniques": ["Generated on every [600] tiles <in [Tundra] tiles>", "Generated on every [20] tiles <in [Dead Land] tiles>"]
+                "uniques": ["Generated on every [800] tiles <in [Tundra] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -957,11 +864,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"gold": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-                            "Generated with weight [35] <in [Desert] Regions>",
-                            "Generated with weight [35] <in [Tundra] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
 	},
 	{
 		"name": "Sand",
@@ -970,16 +873,16 @@
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"prdocution": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated on every [100] tiles <in [Featureless] [Beach] tiles>","Generated on every [50] tiles <in [Featureless] [Montano] tiles>","Generated on every [20] tiles <in [Desert] tiles>"]
+		"uniques": ["Generated on every [100] tiles <in [Beach] tiles>","Generated on every [100] tiles <in [Desert] tiles>"]
 	},
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Coast","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
+		"terrainsCanBeFoundOn": ["Marsh","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Coast] tiles>", "Generated on every [30] tiles <in [Marsh] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [140] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Marsh] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
 	{
 		"name": "Basilosaurus",
@@ -988,13 +891,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>", "Generated on every [35] tiles <in [Coast] tiles>"
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+		"uniques": ["Generated on every [60] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Black Pearl",
@@ -1002,14 +899,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": ["Generated on every [600] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Blue Gem",
@@ -1034,12 +924,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Quarry",
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>", "Generated with weight [35] <in [Jungle] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Keratin",
@@ -1047,18 +932,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra","Beach"],
 		"gold": 2,
 		"improvement": "Camp",
-		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
-                                        "Generated on every [500] tiles <in [Featureless] [Beach] tiles>"
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+		"uniques": ["Generated on every [400] tiles <in [Beach] tiles>"]
 	},
 	/* 
 	{
@@ -1077,14 +951,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [18] tiles <in [Coast] tiles>","Generated with weight [30] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": ["Generated on every [20] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Megalania",
@@ -1094,14 +961,7 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [25] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] [Hill] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Lystrosaurus",
@@ -1110,13 +970,6 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>", "Generated on every [800] tiles <in [Beach] tiles>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
 	}
 ]
