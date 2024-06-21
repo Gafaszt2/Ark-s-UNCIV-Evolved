@@ -813,7 +813,7 @@
         {
 		"name": "Aberrant Fort",
                 "cityStrength": 9,
-		"cityHealth": 75,
+		"cityHealth": 85,
                 "maintenance": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"
