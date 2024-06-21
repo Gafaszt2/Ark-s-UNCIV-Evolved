@@ -91,7 +91,7 @@
                 "greatPersonPoints": {"Great General": 1},
                 "happiness": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Theropoda] units [in this city]"],
 		"requiredBuilding": "Taming Den",
                 "requiredTech": "Tranq Arrow"
 	},
@@ -468,7 +468,7 @@
 	},
         {
 		"name": "Cement Works",
-                "cityStrength": 3,
+                "cityStrength": 4,
 		"cityHealth": 25,
 		"gold": 5,
 		"hurryCostModifier": 50,
@@ -492,9 +492,9 @@
 	},
         {
 		"name": "Stone Fort",
-                "cityStrength": 4,
-		"cityHealth": 30,
-		"gold": 5,
+                "cityStrength": 6,
+		"cityHealth": 35,
+		"gold": 3,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Wooden Fort"
 		"requiredTech": "Stone Houses"
@@ -508,6 +508,88 @@
                 "requiredBuilding": "Wooden Fort"
 		"requiredTech": "Spike Wall"
                 "uniques": ["[+5]% Production when constructing [Land] units [in this city]"]
+	},
+        {
+		"name": "Scorched Production Camp",
+                "hurryCostModifier": 50,
+                "maintenance": 2,
+		"uniques": ["Must be next to [Desert]","[+2 Production] from [Desert] tiles [in this city]"],
+		"requiredTech": "Oil Pump"
+	},
+        {
+		"name": "Tek Replicator",
+                "maintenance": 2,
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]"],
+		"requiredTech": "Tek Turret"
+	},
+        {
+		"name": "Scorched Market",
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Gold] from [Ranch] tiles [in this city]"],
+		"requiredTech": "Scorched Earth Boss"
+	},
+        {
+		"name": "Aberration Tools",
+                "maintenance": 4,
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Production] from [Ranch] tiles [in this city]"],
+		"requiredTech": "Hazard Suit"
+	},
+        {
+		"name": "Mainland",
+                "maintenance": 4,
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Science] from [Mine] tiles [in this city]"],
+		"requiredTech": "Hazard Suit"
+	},
+        {
+		"name": "Fountain Economy",
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Gold] from [Ranch] tiles [in this city]"],
+		"requiredTech": "Aberration Creatures"
+	},
+        {
+		"name": "Wasteland Pub",
+                "maintenance": 1,
+                "hurryCostModifier": 50,
+		"uniques": ["[+1 Happiness] from [Ranch] tiles [in this city]"],
+		"requiredTech": "Wind Turbine"
+	},
+        {
+		"name": "Taming Show",
+                "maintenance": 3,
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Culture] from [Camp] tiles [in this city]"],
+		"requiredTech": "Desert Creatures"
+	},
+        {
+		"name": "Train Station",
+                "maintenance": 3,
+                "hurryCostModifier": 50,
+		"uniques": ["[+2 Culture] from [Ranch] tiles [in this city]"],
+		"requiredTech": "Wind Turbine"
+	},
+        {
+		"name": "Tek Riffles",
+                "hurryCostModifier": 50,
+                "maintenance": 2,
+		"uniques": ["[+2 Science] from [Mine] tiles [in this city]"],
+		"requiredTech": "Tek Armor"
+	},
+        {
+		"name": "Hatchery",
+                "hurryCostModifier": 50,
+                "maintenance": 3,
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]","[+2 Production] from [Camp] tiles [in this city]","Cost increases by [30] per owned city"],
+		"requiredTech": "Tek Sword"
+	},
+        {
+		"name": "Tek Generator",
+		"hurryCostModifier": 50,
+                "maintenance": 2,
+		"uniques": ["Provides [4] [Tek]"],
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Tribal Mark",
@@ -617,13 +699,22 @@
         {
 		"name": "Location",
                 "greatPersonPoints": {"Great Scientist": 2},
-                "greatPersonPoints": {"Great Artist": 1},
+                "greatPersonPoints": {"Great Artist": 4},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Oil"],
 		"uniques": ["[+1 Science] from [Oil] tiles [in this city]"],
 		"requiredBuilding": "Electric Circuits",
                 "requiredTech": "GPS"
+	},
+        {
+		"name": "Oil Labor Village",
+                "greatPersonPoints": {"Great Engineer": 4},
+                "maintenance": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Oil"],
+		"uniques": ["[+2 Production] from [Oil] tiles [in this city]"],
+                "requiredTech": "Oil Pump"
 	},
         {
 		"name": "Radio Connection",
@@ -703,12 +794,30 @@
 	},
         {
 		"name": "Metal Fort",
-                "cityStrength": 5,
-		"cityHealth": 31,
+                "cityStrength": 7,
+		"cityHealth": 40,
                 "maintenance": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Stone Fort"
 		"requiredTech": "Metal House"
+	},
+        {
+		"name": "Tek Fort",
+                "cityStrength": 8,
+		"cityHealth": 60,
+                "maintenance": 5,
+		"hurryCostModifier": 50,
+                "requiredBuilding": "Metal Fort"
+		"requiredTech": "Tek Turret"
+	},
+        {
+		"name": "Aberrant Fort",
+                "cityStrength": 9,
+		"cityHealth": 75,
+                "maintenance": 5,
+		"hurryCostModifier": 50,
+                "requiredBuilding": "Metal Fort"
+		"requiredTech": "Aberration Boss"
 	},
         {
 		"name": "Construction Labor",
@@ -1138,126 +1247,5 @@
 		"requiredResource": "Fiber"
 		"requiredTech": "Torch"
 	},
-        {
-		"name": "Dragon Fight",
-                "isNationalWonder": true,
-                "uniques": ["Provides [4] [Tek]", "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
-		"hurryCostModifier": 25,
-		"requiredTech": "Defeat the Dragon"
-	},
-        {
-		"name": "Broodmother Fight",
-                "isNationalWonder": true,
-		"uniques": ["Provides [4] [Tek]", "[+2 Science] from every [Atoll]"],
-		"hurryCostModifier": 25,
-		"requiredTech": "Defeat Broodmother"
-	},
-        {
-		"name": "Megapithecus Fight",
-                "isNationalWonder": true,
-                "uniques": ["Provides [4] [Tek]", "[+1 Culture] from every [Snow]"],
-		"hurryCostModifier": 25,
-		"requiredTech": "Defeat Megapithecus"
-	},
-        {
-		"name": "Tek Resource Organization",
-                "production": 3,
-                "uniques": ["[+1 Culture] [in capital]", "[+1 Food] [in capital]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Resource Attractor"
-	},
-        {
-		"name": "Tek Forcefields",
-                "cityHealth": 20,
-                "uniques": ["[+1 Culture] [in all cities]", "[+1 Food] [in capital]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-                "requiredBuilding": "Tek Resource Organization",
-		"requiredTech": "Tek Forcefield"
-	},
-        {
-		"name": "Tek Defense Generator",
-                "culture": 3,
-                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in capital]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Shield Generator"
-	},
-        {
-		"name": "Tek Protector",
-                "cityHealth": 20,
-                "uniques": ["[+2 Faith] [in all cities]", "[+2 Science] [in capital]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-                "requiredBuilding": "Tek Resource Organization",
-		"requiredTech": "Shield Protector"
-	},
-        {
-		"name": "Element Works",
-                "science": 2,
-                "uniques": ["[+3 Production] [in capital]", "[+1 Faith] [in all cities]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Element Dust"
-	},
-        {
-		"name": "Tek Armor Fabricator",
-                "cityHealth": 5,
-                "uniques": ["[+3 Production] [in capital]", "[+1 Food] [in capital]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-                "requiredBuilding": "Element Works",
-		"requiredTech": "Tek Armor"
-	},
-        {
-		"name": "Tek Turrets",
-                "happiness": 2,
-                "faith": 1,
-                "uniques": ["[+2 Production] [in this city]", "Provides [2] [Tek Turret Resource]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Tek Turret"
-	},
-        {
-		"name": "Tek Turret Colocation",
-            "requiredResource": "Tek Turret Resource",
-		"requiredTech": "Tek Turret"
-		"uniques": [
-"Creates a [Turret] improvement on a specific tile",
-"Unsellable",
-"Cannot be purchased",
-                ]
-	},
-        {
-		"name": "Pulse Cannons",
-                "uniques": ["Provides [5] [Pulse Cannon Resource]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-                "requiredBuilding": "Tek Turrets",
-		"requiredTech": "Pulse Cannon"
-	},
-        {
-		"name": "Sword Fighting University",
-                "science": 1,
-                "uniques": ["[+1 Culture] [in all cities]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Tek Sword"
-	},
-        {
-		"name": "Defending Honor Studies",
-                "uniques": ["[+1 Science] [in all cities]", "[+5]% Strength <when fighting in [Foreign Land] tiles>"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-		"requiredTech": "Tek Shield"
-	},
-        {
-		"name": "Assault Teaching",
-                "uniques": ["[+2 Science] [in all cities]", "[+10]% Strength <when fighting in [Foreign Land] tiles>"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Tek"
-                "requiredBuilding": "Defending Honor Studies",
-		"requiredTech": "Tek Riffle"
-	},
+        
 ]

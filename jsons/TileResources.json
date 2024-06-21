@@ -723,22 +723,6 @@
 		"production": 1,
 		"improvement": "Mine",
 	},
-        {
-		"name": "Tek Turret Resource",
-                "revealedBy": "Tek Turret",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
-		"production": 1,
-		"improvement": "Mine",
-	},
-        {
-		"name": "Pulse Cannon Resource",
-                "revealedBy": "Pulse Cannon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
-		"production": 1,
-		"improvement": "Mine",
-	},
 	// Luxury resources
 	{
 		"name": "Cotton",
