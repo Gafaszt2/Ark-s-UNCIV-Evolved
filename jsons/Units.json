@@ -511,7 +511,7 @@
         {
 		"name": "Koolasuchus",
                 "replaces": "Theri Rider",
-		"uniqueTo": "New Aztec Empire",
+		"uniqueTo": "Tenochtitlan",
 		"unitType": "Amphibious",
 		"movement": 1.5,
 		"strength": 42,
@@ -525,7 +525,7 @@
         {
 		"name": "Purrusaurus",
                 "replaces": "Prolibytherium",
-		"uniqueTo": "New Aztec Empire",
+		"uniqueTo": "Tenochtitlan",
 		"unitType": "Amphibious",
 		"movement": 4,
 		"strength": 50,
