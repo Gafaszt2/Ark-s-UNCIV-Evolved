@@ -2,25 +2,25 @@
 
 	{
 		"name": "Ranch",
-		"terrainsCanBeBuiltOn": ["Montano","Snowy Beach","Beach","Plains","Tundra","Snow","Grassland","Bog","Aberrant Green Zone","Aberrant Blue Zone","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
                 "techRequired": "Torch",
-		"turnsToBuild": 4,
-		"uniques": ["Can also be built on tiles adjacent to fresh water"],
+		"turnsToBuild": 5,
+		"uniques": ["[-1 Food] for each adjacent [Ranch]","Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
 	},
         {
 		"name": "Desert Ranch",
 		"terrainsCanBeBuiltOn": ["Desert"],
-		"faith": 1,
+		"food": 1,
                 "techRequired": "Torch",
-                "food": 1,
+                "gold": 2,
 		"turnsToBuild": 7,
 		"shortcutKey": "F"
 	},
         {
 		"name": "Ragnarok Temple",
-		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland"],
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach"],
 		"turnsToBuild": 7,
                 "techRequired": "Campfire",
 		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]"],
@@ -28,20 +28,20 @@
         {
 		"name": "Tumash Temple",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
-		"turnsToBuild": 5,
+		"turnsToBuild": 6,
                 "techRequired": "Campfire",
 		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]"],
 	},
         {
 		"name": "Mural",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
-		"turnsToBuild": 5,
+		"turnsToBuild": 6,
                 "techRequired": "Campfire",
 		"uniques": ["[+1 Culture] for each adjacent [Bonus resource]"],
 	},
         {
 		"name": "Moai",
-		"terrainsCanBeBuiltOn": ["Beach"],
+		"terrainsCanBeBuiltOn": ["Beach","Snowy Beach"],
 		"faith": 1,
 		"turnsToBuild": 3,
                 "techRequired": "Campfire",
@@ -66,7 +66,7 @@
 		"name": "Pastizal",
                 "replaces": "Ranch",
 		"uniqueTo": "Democracy of the South",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Dead Land","Fallout Land","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 2,
                 "culture": 1,
 		"turnsToBuild": 4,
@@ -85,12 +85,12 @@
 		"name": "Marble Statue",
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"culture": 2,
-		"turnsToBuild": 10,
+		"turnsToBuild": 7,
                 "techRequired": "Stone Houses",
 	},
         {
 		"name": "Carpentry Area",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Autumn Trees","Pines"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Autumn Trees","Pines","Natural Lake","Marsh"],
 		"production": 1,
 		"turnsToBuild": 4,
                 "techRequired": "Professional Domestication",
@@ -125,14 +125,16 @@
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"gold": 1,
+                "food": 1,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "P"
                 "techRequired": "Waterskin",
 	},
 	{
 		"name": "Quarry",
+                "gold": 1,
 		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "Q"
@@ -145,14 +147,11 @@
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "F"
 	},
-
-	// Military improvement
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Genesis Soil"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
-		"shortcutKey": "O"
                 "techRequired": "Stone Houses",
 	},
 
