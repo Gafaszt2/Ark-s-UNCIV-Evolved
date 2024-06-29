@@ -13,6 +13,8 @@
         "[-35]% Strength for cities <in cities without a [Wooden Fort]> <when attacking>",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-25]% Strength <when fighting in [Desert] tiles>",
+        "[-25]% Strength <when fighting in [Snow] tiles>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
         "Cannot build [Settler] units <when below [-10] Happiness>",
