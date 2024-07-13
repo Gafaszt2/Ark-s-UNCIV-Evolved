@@ -309,7 +309,7 @@
                 "upgradesTo": "Stego Rider",
                 "requiredResource": "Wood",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["Can move after attacking","[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -322,7 +322,7 @@
 		"requiredTech": "Professional Domestication",
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["[+225]% Strength <when defending>","Can move after attacking","[+15]% Strength <vs [Civilian] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[+225]% Strength <when defending>","Can move after attacking","[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -477,7 +477,7 @@
 		"strength": 35,
 		"cost": 110,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Civilian] units>","[+50]% Strength <vs [Fantasy] units>","[-50]% Strength <vs [Prey] units>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-50]% Strength <vs [Prey] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
@@ -618,7 +618,7 @@
 		"cost": 200,
 		"requiredTech": "Pliers",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Consumes [2] [Metal]","[+20]% Strength <vs [Civilian] units>","[-20]% Strength <vs [Mammal] units>","[+10]% Strength <vs [Siege] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Metal]","[+20]% Strength <vs [Sword] units>","[-20]% Strength <vs [Mammal] units>","[+10]% Strength <vs [Siege] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Critical"],
 		"attackSound": "spino"
@@ -672,6 +672,16 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
+	},
+        {
+		"name": "Ichtyosaurus Rider",
+                "upgradesTo": "Megalodon Rider",
+		"unitType": "Marine Reptile",
+		"movement": 4,
+		"strength": 15,
+		"cost": 40,
+		"requiredTech": "Spyglass",
+		"attackSound": "marine"
 	},
         {
 		"name": "Megalodon Rider",
@@ -825,7 +835,7 @@
 		"cost": 115,
 		"requiredTech": "Grenade",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+20]% Strength <vs [Civilian] units>","[+35]% Strength <vs [Siege] units>","Can move after attacking"],
+		"uniques": ["[+20]% Strength <vs [Sword] units>","[+35]% Strength <vs [Siege] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1102,7 +1112,7 @@
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Sword",
                 "requiredResource": "Oil",
-		"uniques": ["[+50]% Strength <vs [Civilian] units>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs [Sword] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},

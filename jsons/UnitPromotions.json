@@ -20,7 +20,14 @@
 		"name": "Intimidation",
 		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
-       
+       {
+		"name": "Mountain Climber",
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [Hill] tiles","[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"]
+	},
+        {
+		"name": "Good Mother",
+		"uniques": ["[+5]% Strength bonus for [Maiasaura Rider] units within [2] tiles"]
+	},
         {
 		"name": "Strong Genetics",
 		"uniques": ["[+5]% Strength bonus for [Civilian] units within [2] tiles","[+5]% Strength bonus for [Prey] units within [2] tiles"],

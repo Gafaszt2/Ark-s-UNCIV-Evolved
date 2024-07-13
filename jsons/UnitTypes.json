@@ -100,35 +100,6 @@
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
-        "name": "Aircraft Carrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "Fighter",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
-    },
-    {
-        "name": "Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
-    },
-    {
         "name": "Marine Reptile",
         "uniques": ["[+2] Sight","This Unit gains the [Sedentary Lifestyle] promotion <upon ending a turn in a [Friendly Land] tile> <with [45]% chance>","This Unit gains the [Coral Predator] promotion <upon ending a turn in a [Coast] tile> <with [10]% chance>","This Unit gains the [Sea Predator] promotion <upon ending a turn in a [Ocean] tile> <with [10]% chance>"]
         "movementType": "Water"
