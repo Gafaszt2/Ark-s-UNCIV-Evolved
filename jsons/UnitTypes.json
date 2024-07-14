@@ -70,6 +70,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Ophidia",
+        "uniques": ["This Unit gains the [Skin Shedding] promotion <upon ending a turn in a [Desert] tile> <with [2]% chance>","This Unit gains the [Skin Shedding] promotion <upon ending a turn in a [Jungle] tile> <with [2]% chance>"]
+        "movementType": "Land"
+    },
+    {
         "name": "Armored",
         "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [6]% chance>"]
         "movementType": "Land"

@@ -4,6 +4,21 @@
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },
 {
+                "name": "Flexible Mandible",
+                "unitTypes": ["Ophidia"],
+                "uniques": ["[+30]% Strength <vs [Sword] units>","[+30]% Strength <vs [Gunpowder] units>"],
+        },
+{
+                "name": "Toxin",
+                "unitTypes": ["Ophidia"],
+                "uniques": ["[+15]% Strength <vs [Prey] units>","[+15]% Strength <vs [Theropoda] units>","[+15]% Strength <vs [Mammal] units>"],
+        },
+{
+                "name": "Skin Shedding",
+                "unitTypes": ["Ophidia"],
+                "uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","[+15]% Strength <when fighting in [Grassland] tiles> <when attacking>","[+15]% Strength <when fighting in [Desert] tiles> <when attacking>"],
+        },
+{
 		"name": "Basic Training",
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
     },
@@ -360,7 +375,7 @@
     {
 		"name": "Stamina II",
                 "prerequisites": ["Stamina I"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 62,
         "row": 45

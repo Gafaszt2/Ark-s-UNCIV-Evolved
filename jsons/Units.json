@@ -405,6 +405,18 @@
 		"attackSound": "ravager"
 	},
         {
+		"name": "Titanoboa",
+		"unitType": "Ophidia",
+		"movement": 2,
+		"strength": 20, 
+		"cost": 50,
+		"requiredTech": "Stone Irrigation Pipe",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Crossbow",
+		"attackSound": "snake"
+	},
+        {
 		"name": "Baryonix Rider",
 		"unitType": "Theropoda",
 		"movement": 2,
@@ -1148,7 +1160,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-		"rangedStrength": 70,
+		"rangedStrength": 75,
 		"cost": 290,
                 "requiredResource": "Metal",
 		"requiredTech": "Assault Riffle",
@@ -1166,7 +1178,7 @@
 		"cost": 290,
 		"requiredTech": "Assault Riffle",
                 "obsoleteTech": "Tek Armor",
-		"uniques": ["[+31]% Strength <vs [Siege] units>"],
+		"uniques": ["[+31]% Strength <vs [Siege] units>","[+15]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "shot"
 	},
         
