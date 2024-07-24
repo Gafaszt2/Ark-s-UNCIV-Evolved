@@ -55,8 +55,28 @@
         "movementType": "Land"
     },
     {
-        "name": "Prey",
-        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>","This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "name": "Ornithischia",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "movementType": "Land"
+    },
+    {
+        "name": "Sauropodomorpha",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "movementType": "Land"
+    },
+{
+        "name": "Thyreofora",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "movementType": "Land"
+    },
+{
+        "name": "Ornithopoda",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "movementType": "Land"
+    },
+{
+        "name": "Ceratopsia",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
         "movementType": "Land"
     },
     {
@@ -72,6 +92,11 @@
     {
         "name": "Ophidia",
         "uniques": ["This Unit gains the [Skin Shedding] promotion <upon ending a turn in a [Desert] tile> <with [2]% chance>","This Unit gains the [Skin Shedding] promotion <upon ending a turn in a [Jungle] tile> <with [2]% chance>"]
+        "movementType": "Land"
+    },
+    {
+        "name": "Therapsida",
+        "uniques": ["This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [1]% chance>"]
         "movementType": "Land"
     },
     {

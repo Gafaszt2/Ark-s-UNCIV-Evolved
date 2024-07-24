@@ -148,6 +148,20 @@
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
+        {
+		"name": "Moschops",
+                "requiredResource": "Thatch",
+		"unitType": "Therapsida",
+		"movement": 2,
+		"strength": 18,
+		"cost": 60,
+		"requiredTech": "Slingshot",
+                "upgradesTo": "Kapro Rider",
+                "obsoleteTech": "Professional Domestication",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
 {
 		"name": "Cave Tropper",
 		"unitType": "Sword",
@@ -315,7 +329,7 @@
 	},
         {
 		"name": "Diplodocus",
-		"unitType": "Prey",
+		"unitType": "Sauropodomorpha",
 		"movement": 4,
 		"strength": 10,
 		"cost": 80,
@@ -406,6 +420,7 @@
 	},
         {
 		"name": "Titanoboa",
+                "upgradesTo": "Portugalophis",
 		"unitType": "Ophidia",
 		"movement": 2,
 		"strength": 20, 
@@ -414,6 +429,32 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
+		"attackSound": "snake"
+	},
+        {
+		"name": "Portugalophis",
+                "upgradesTo": "Gigantophis",
+		"unitType": "Ophidia",
+		"movement": 3,
+		"strength": 26, 
+		"cost": 70,
+		"requiredTech": "Crossbow",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Greenhouse",
+		"attackSound": "snake"
+	},
+        {
+		"name": "Gigantophis",
+		"unitType": "Ophidia",
+		"movement": 2,
+		"strength": 29, 
+		"cost": 85,
+		"requiredTech": "Greenhouse",
+                "promotions": ["Strong Bite"],
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Grenade",
 		"attackSound": "snake"
 	},
         {
@@ -445,7 +486,7 @@
 	},
         {
 		"name": "Stego Rider",
-		"unitType": "Prey",
+		"unitType": "Thyreofora",
 		"movement": 2,
 		"strength": 30,
 		"cost": 75,
@@ -457,7 +498,7 @@
 	},
         {
 		"name": "Kentrosaurus",
-		"unitType": "Prey",
+		"unitType": "Thyreofora",
 		"movement": 3,
 		"strength": 10,
 		"cost": 30,
@@ -484,12 +525,12 @@
 	},
         {
 		"name": "Bronto Rider",
-		"unitType": "Prey",
+		"unitType": "Sauropodomorpha",
 		"movement": 1.5,
 		"strength": 35,
 		"cost": 110,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-50]% Strength <vs [Prey] units>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
@@ -579,7 +620,7 @@
 		"name": "Muttaburrasaurus",
                 "replaces": "Theri Rider",
 		"uniqueTo": "Gondwana",
-		"unitType": "Prey",
+		"unitType": "Ornithopoda",
 		"movement": 2,
 		"strength": 39,
 		"cost": 119,
@@ -674,7 +715,7 @@
         },
         {
 		"name": "Purlovia Rider",
-		"unitType": "Mammal",
+		"unitType": "Therapsida",
 		"movement": 2,
 		"strength": 65,
 		"cost": 80,
@@ -760,7 +801,7 @@
 		"requiredTech": "Metal House",
                 "obsoleteTech": "Fabricator",
                 "requiredResource": "Chitin",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Prey] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Ceratopsia] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -773,7 +814,7 @@
 		"requiredTech": "GPS",
                 "requiredResource": "Metal",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Prey] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Ornithopoda] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -786,12 +827,12 @@
                 "requiredResource": "Metal",
 		"requiredTech": "GPS",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Prey] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Thyreofora] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
 		"name": "Stegouros",
-		"unitType": "Prey",
+		"unitType": "Thyreofora",
 		"movement": 2,
 		"strength": 40,
 		"cost": 180,
@@ -810,7 +851,7 @@
 		"requiredTech": "Flamethrower",
                 "obsoleteTech": "Island Bosses",
                 "requiredResource": "Metal",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Prey] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Thyreofora] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1065,7 +1106,7 @@
 	},
         {
 		"name": "Mighty Titanosaurus",
-		"unitType": "Prey",
+		"unitType": "Sauropodomorpha",
 		"movement": 1,
 		"strength": 200,
 		"cost": 400,
@@ -1207,7 +1248,7 @@
 		"strength": 37,
 		"cost": 175,
 		"requiredTech": "Smithy",
-                "requiredResource": "Metal",
+                "requiredResource": "Wood",
 		"uniques": ["Can move after attacking", "[+1] Sight"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
@@ -1245,7 +1286,7 @@
 		"name": "Parasaur Rider",
                 "replaces": "Raptor Rider",
 		"uniqueTo": "The Island",
-		"unitType": "Prey",
+		"unitType": "Ornithopoda",
 		"movement": 2,
 		"strength": 19,
 		"cost": 81,
@@ -1275,7 +1316,7 @@
 		"name": "Trike Rider",
                 "replaces": "Purlovia Rider",
 		"uniqueTo": "Mercenaries",
-		"unitType": "Prey",
+		"unitType": "Ceratopsia",
 		"movement": 2,
 		"strength": 40,
 		"cost": 120,
@@ -1431,7 +1472,7 @@
 		"name": "Amargasaurus",
                 "replaces": "Rex Rider",
 		"uniqueTo": "Lost Island",
-		"unitType": "Prey",
+		"unitType": "Sauropodomorpha",
 		"movement": 2,
 		"strength": 75,
 		"cost": 190,
