@@ -65,6 +65,11 @@
         "movementType": "Land"
     },
 {
+        "name": "Pachycephalosauridae",
+        "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
+        "movementType": "Land"
+    },
+{
         "name": "Thyreofora",
         "uniques": ["This Unit gains the [Toxic Plant] promotion <upon ending a turn in a [Jungle] tile> <with [3]% chance>"]
         "movementType": "Land"

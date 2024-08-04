@@ -14,6 +14,11 @@
                 "uniques": ["[+10]% Strength","[+1] Movement"],
         },
 {
+		"name": "Strong Heads",
+                "unitTypes": ["Pachycephalosauridae"],
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+1] Movement"],
+    },
+{
                 "name": "Herds",
                 "unitTypes": ["Ornithopoda"],
                 "uniques": ["[+15]% Strength bonus for [Ornithopoda] units within [2] tiles"],
@@ -223,7 +228,7 @@
 {
 		"name": "Eyes by the side I",
 		"uniques": ["[+1] Movement <in [Hill] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Flying"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
         "column": 41,
         "row": 24
     },
@@ -231,14 +236,14 @@
 		"name": "Eyes by the side II",
 		"prerequisites": ["Eyes by the side I"],
 		"uniques": ["[+1] Movement <in [Grassland] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Flying"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
         "column": 42,
         "row": 25
     },
     {
 		"name": "Prey I",
 		"uniques": ["[+5]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 43,
         "row": 26
     },
@@ -246,7 +251,7 @@
 		"name": "Prey II",
 		"prerequisites": ["Prey I"],
 		"uniques": ["[+15]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 44,
         "row": 27
     },
@@ -254,7 +259,7 @@
 		"name": "Prey III",
 		"prerequisites": ["Prey II"],
 		"uniques": ["[+10]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 45,
         "row": 28
     },

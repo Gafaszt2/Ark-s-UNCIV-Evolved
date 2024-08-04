@@ -43,7 +43,7 @@
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
-			"Removes other religions when spreading religion",
+			"Removes other religions when spreading religion", "Limited to [2] per Civilization",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
@@ -314,6 +314,20 @@
 		"attackSound": "croc"
 	},
         {
+		"name": "Pachycephalosaurus Rider",
+		"unitType": "Pachycephalosauridae",
+		"movement": 3,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Professional Domestication",
+                "upgradesTo": "Stego Rider",
+                "obsoleteTech": "Tranq Arrow",
+                "requiredResource": "Fiber",
+		"uniques": ["Can move after attacking","[+15]% Strength <vs [Amphibious] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+        {
 		"name": "Castoroides",
 		"unitType": "Mammal",
 		"movement": 2.5,
@@ -381,6 +395,18 @@
                 "obsoleteTech": "Smithy",
 		"attackSound": "troepo"
 	},
+        {
+		"name": "Troodon",
+		"unitType": "Theropoda",
+		"movement": 5,
+		"strength": 20,
+		"cost": 85,
+		"attackSound": "nonmetalhit"
+                "obsoleteTech": "Flak Armor",
+                "requiredTech": "Polymer",
+                "attackSound": "raptor"
+                "uniques": ["[+33]% Strength <vs [Ophidia] units>","[+33]% Strength <vs [Gunpowder] units>"],
+        },
         {
 		"name": "Microraptor",
 		"unitType": "Flying",
@@ -686,7 +712,7 @@
 		"cost": 88,
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Flak Armor",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
+                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Allo Rider",
@@ -697,9 +723,21 @@
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
                 "requiredResource": "Allosaurus",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
+	},
+        {
+		"name": "Ankylosaurus Rider",
+		"unitType": "Thyreofora",
+		"movement": 3,
+		"strength": 70,
+		"cost": 80,
+		"requiredTech": "Sword",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
 	},
         {
 		"name": "Halberd Soldier",
@@ -779,6 +817,17 @@
 		"movement": 2,
 		"strength": 60,
 		"cost": 210,
+		"requiredTech": "GPS",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Helicoprion Rider",
+		"unitType": "Fish",
+		"movement": 2,
+		"strength": 60,
+                "requiredResource": "Metal",
+                "uniques": ["[+30]% Strength <vs [Plesio Rider] units>","[+30]% Strength <vs [Mosa Rider] units>","This Unit gains [30] XP <upon entering a new era>"],
+		"cost": 190,
 		"requiredTech": "GPS",
 		"attackSound": "marine"
 	},
@@ -888,7 +937,7 @@
 		"cost": 115,
 		"requiredTech": "Grenade",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+20]% Strength <vs [Sword] units>","[+35]% Strength <vs [Siege] units>","Can move after attacking"],
+		"uniques": ["[+33]% Strength <vs [Sword] units>","[+45]% Strength <vs [Siege] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -897,7 +946,7 @@
 		"unitType": "Mammal",
 		"movement": 3,
 		"strength": 55,
-		"cost": 135,
+		"cost": 115,
 		"requiredTech": "Cryopod",
                 "obsoleteTech": "Chain Bola",
 		"uniques": ["Can move after attacking"],
@@ -1245,8 +1294,8 @@
 		"name": "Argentavis Rider",
 		"unitType": "Flying",
 		"movement": 4,
-		"strength": 37,
-		"cost": 175,
+		"strength": 40,
+		"cost": 156,
 		"requiredTech": "Smithy",
                 "requiredResource": "Wood",
 		"uniques": ["Can move after attacking", "[+1] Sight"],
@@ -1723,6 +1772,17 @@
                 "requiredResource": "Tek",
                 "promotions": ["Strong Genetics"],
 		"attackSound": "rex"
+	},
+        {
+		"name": "Pinacosaurus Rider",
+		"unitType": "Thyreofora",
+		"movement": 3,
+		"strength": 320,
+		"cost": 450,
+		"requiredTech": "Tek Sword",
+		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Consumes [1] [Tek]","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
 	},
         {
 		"name": "Scorched Wyvern",
