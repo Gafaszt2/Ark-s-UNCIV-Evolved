@@ -97,6 +97,10 @@
                 "uniques": ["[+150]% Strength <when below [30] HP> <when attacking>"],
         },
         {
+                "name": "Chivalry",
+                "uniques": ["[+15]% Strength <when below [45] HP> <when attacking>"],
+        },
+        {
                 "name": "Toxic Plant",
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },

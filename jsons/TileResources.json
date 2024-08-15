@@ -669,7 +669,7 @@
 	},
 	{
 		"name": "Metal",
-                "revealedBy": "Smithy",
+                "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Montano","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
@@ -678,6 +678,11 @@
 		"uniques": ["Generated on every [90] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+        {
+		"name": "Steel",
+                "revealedBy": "Fabricator",
+		"resourceType": "Strategic",
 	},
         {
 		"name": "Oily Rock",
