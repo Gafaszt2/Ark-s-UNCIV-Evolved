@@ -77,7 +77,7 @@
     {
         "name": "Initiation Rites",
         "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Gold]"]
     },
     {
         "name": "Interfaith Dialogue",

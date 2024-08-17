@@ -46,6 +46,15 @@
                 "RGB": [255, 245, 189],
         },
         {
+                "name": "Steampunk Soil",
+                "type": "Land",
+		"food": 1,
+                "culture": 1,
+                "production": 1,
+		"movementCost": 2,
+                "RGB": [64, 53, 43],
+        },
+        {
                 "name": "Montano",
                 "type": "Land",
 		"food": 1,

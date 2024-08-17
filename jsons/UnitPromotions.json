@@ -4,6 +4,22 @@
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
         },
 {
+		"name": "Greyhound Body",
+		"uniques": ["[+1] Movement <in [Marsh] tiles>","[+1] Movement <in [Plains] tiles>","[+1] Movement <in [Aberrant Green Zone] tiles>"],
+    },
+{
+		"name": "Marine Adaptation",
+		"uniques": ["[+30]% Strength <vs [Water] units>"],
+    },
+{
+		"name": "Ambush Predator",
+		"uniques": ["[+15]% Strength <vs [Pachycephalosauridae] units>","[+15]% Strength <vs [Sauropodomorpha] units>"],
+    },
+{
+		"name": "Crocodile Appearance",
+		"uniques": ["[+30]% Strength <vs [Crocodylomorpha] units>"],
+    },
+{
                 "name": "Thagomizer",
                 "unitTypes": ["Thyreofora"],
                 "uniques": ["[+25]% Strength <when defending>","[-1] Movement"],

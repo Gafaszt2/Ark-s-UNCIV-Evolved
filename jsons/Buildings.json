@@ -949,7 +949,7 @@
         {
 		"name": "Mausoleum of Halicarnassus",
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": ["[+5]% [Gold] [in capital]", "[+2 Gold] from [Stone] tiles [in this city]","[+2 Gold] from [Oil] tiles [in this city]","[+2 Gold] from [Metal] tiles [in this city]"],
 		"requiredTech": "Bow and Arrow",
 		"quote": "'I have asked these questions many times since I awoke on this foreign shore, but I must stop. They do not matter.' - Mei Yin"
 	},
