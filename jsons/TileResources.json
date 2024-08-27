@@ -669,7 +669,7 @@
 	},
 	{
 		"name": "Metal",
-                "revealedBy": "Fabricator",
+                "revealedBy": "Smithy",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Montano","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,

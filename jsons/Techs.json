@@ -92,7 +92,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Ancient era",
-		"techCost": 140,
+		"techCost": 155,
 		"buildingCost": 120,
 		"wonderCost": 185,
 		"techs": [
@@ -132,7 +132,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Leather era",
-		"techCost": 300,
+		"techCost": 320,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -160,7 +160,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Leather era",
-		"techCost": 400,
+		"techCost": 420,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -188,7 +188,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Leather era",
-		"techCost": 420,
+		"techCost": 490,
 		"buildingCost": 450,
 		"wonderCost": 185,
 		"techs": [
@@ -224,7 +224,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Smithy era",
-		"techCost": 400,
+		"techCost": 510,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -259,7 +259,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Smithy era",
-		"techCost": 470,
+		"techCost": 590,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -294,7 +294,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Smithy era",
-		"techCost": 550,
+		"techCost": 620,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -322,7 +322,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Smithy era",
-		"techCost": 570,
+		"techCost": 700,
 		"buildingCost": 550,
 		"wonderCost": 185,
 		"techs": [
@@ -357,7 +357,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Electric era",
-		"techCost": 750,
+		"techCost": 900,
 		"buildingCost": 850,
 		"wonderCost": 185,
 		"techs": [
@@ -372,7 +372,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Electric era",
-		"techCost": 650,
+		"techCost": 800,
 		"buildingCost": 750,
 		"wonderCost": 750,
 		"techs": [
@@ -411,7 +411,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Electric era",
-		"techCost": 700,
+		"techCost": 825,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -444,7 +444,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Electric era",
-		"techCost": 700,
+		"techCost": 850,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -471,7 +471,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Electric era",
-		"techCost": 750,
+		"techCost": 890,
 		"buildingCost": 750,
 		"wonderCost": 185,
 		"techs": [
@@ -498,7 +498,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Tek era",
-		"techCost": 900,
+		"techCost": 1200,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
@@ -513,7 +513,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Tek era",
-		"techCost": 1000,
+		"techCost": 1300,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
@@ -540,7 +540,7 @@
     {
 		"columnNumber": 19,
 		"era": "Tek era",
-		"techCost": 1000,
+		"techCost": 1400,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
@@ -555,7 +555,7 @@
                   {
 		"columnNumber": 20,
 		"era": "Tek era",
-		"techCost": 1000,
+		"techCost": 1500,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
@@ -582,7 +582,7 @@
                   {
 		"columnNumber": 21,
 		"era": "Tek era",
-		"techCost": 1000,
+		"techCost": 1600,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [
@@ -597,7 +597,7 @@
                   {
 		"columnNumber": 22,
 		"era": "Tek era",
-		"techCost": 1000,
+		"techCost": 1700,
 		"buildingCost": 510,
 		"wonderCost": 185,
 		"techs": [

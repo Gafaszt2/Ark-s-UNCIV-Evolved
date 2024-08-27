@@ -536,6 +536,7 @@
                 "requiredResource": "Wood",
 		"uniques": ["[+80]% Strength <when fighting in [Beach] tiles>","[+20]% Strength <when fighting in [Swamp Zone] tiles>","[+20]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
 		"hurryCostModifier": 20,
+                "promotions": ["Swamp Creature"],
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "spino"
@@ -548,6 +549,7 @@
 		"cost": 80,
 		"requiredTech": "Tranq Arrow",
                 "requiredResource": "Sarcosuchus",
+                "promotions": ["Swamp Creature"],
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
@@ -1037,7 +1039,7 @@
                 "requiredResource": "Tyrannosaurus",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-                "promotions": ["Strong Genetics"],
+                "promotions": ["Strong Genetics","King of all Dinosaurs"],
 		"attackSound": "rex"
 	},
         {
@@ -1166,7 +1168,7 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
-                "promotions": ["Amphibious"],
+                "promotions": ["Amphibious","Swamp Creature"],
 		"attackSound": "spino"
 	},
         {
@@ -1514,12 +1516,12 @@
                 "replaces": "Ptera Rider",
 		"uniqueTo": "Ragnarok",
 		"unitType": "Fantasy",
-		"movement": 3,
-		"strength": 27,
-		"cost": 88,
+		"movement": 4,
+		"strength": 30,
+		"cost": 80,
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
-		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Hill] tiles>"],
+		"uniques": ["Can move after attacking", "[+25]% Strength <when fighting in [Hill] tiles>","[+25]% Strength <when fighting in [Volcanic Soil] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -1624,7 +1626,7 @@
 		"attackSound": "reaper"
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
-                "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
+                "uniques": ["[+25]% Strength <when fighting in [Aberrant Green Zone] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Can build [Land] improvements on tiles","Requires at least [1] population"],
         },
         {
 		"name": "Karkinos",
@@ -1649,7 +1651,7 @@
 		"strength": 45,
 		"cost": 250,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["[+25]% Strength <when fighting in [Aberrant Green Zone] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "chalico"

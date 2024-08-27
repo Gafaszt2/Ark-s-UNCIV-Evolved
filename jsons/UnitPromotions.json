@@ -1,7 +1,51 @@
 [
         {
+		"name": "King of all Dinosaurs",
+		"uniques": ["[+30]% Strength <for [Wounded] units>"],
+    },
+        {
                 "name": "Swamp Fever",
                 "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+        },
+        {
+                "name": "Common Flu",
+                "uniques": ["This Unit takes [1] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Cancer",
+                "uniques": ["This Unit takes [30] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Bone Fracture",
+                "uniques": ["This Unit takes [17] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Prion",
+                "uniques": ["This Unit takes [15] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Sedentarism",
+                "uniques": ["[-10]% Strength"],
+        },
+{
+                "name": "Pneumonia",
+                "uniques": ["This Unit takes [13] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Escherichia coli",
+                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Salmonella",
+                "uniques": ["This Unit takes [10] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Thermal Stress",
+                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+                "name": "Asthma",
+                "uniques": ["This Unit takes [1] damage <upon ending a turn in a [All] tile>"],
         },
 {
 		"name": "Greyhound Body",
@@ -248,7 +292,7 @@
 {
 		"name": "Eyes by the side I",
 		"uniques": ["[+1] Movement <in [Hill] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
         "column": 41,
         "row": 24
     },
@@ -256,14 +300,14 @@
 		"name": "Eyes by the side II",
 		"prerequisites": ["Eyes by the side I"],
 		"uniques": ["[+1] Movement <in [Grassland] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
         "column": 42,
         "row": 25
     },
     {
 		"name": "Prey I",
 		"uniques": ["[+5]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 43,
         "row": 26
     },
@@ -271,7 +315,7 @@
 		"name": "Prey II",
 		"prerequisites": ["Prey I"],
 		"uniques": ["[+15]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 44,
         "row": 27
     },
@@ -279,7 +323,7 @@
 		"name": "Prey III",
 		"prerequisites": ["Prey II"],
 		"uniques": ["[+10]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 45,
         "row": 28
     },
