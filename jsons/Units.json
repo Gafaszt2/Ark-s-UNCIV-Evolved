@@ -568,6 +568,28 @@
 		"attackSound": "dinoherb"
 	},
         {
+		"name": "Yi Ling",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 40,
+		"cost": 80,
+		"requiredTech": "Tranq Arrow",
+		"uniques": ["Can move after attacking","Consumes [1] [Aquatic Mushroom]","This Unit gains the [Damage I] promotion <with [5]% chance>","This Unit gains the [Damage II] promotion <with [5]% chance>","This Unit gains the [Health I] promotion <with [5]% chance>"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Sword",
+		"attackSound": "raptor"
+	},
+        {
+		"name": "Webshooter Survivor",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 43,
+		"cost": 88,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+                "uniques": ["May Paradrop up to [4] tiles from inside friendly territory","Can build [Land] improvements on tiles", "Consumes [1] [Aquatic Mushroom]", "Requires at least [1] population","Never appears as a Barbarian unit"],
+        },
+        {
 		"name": "Kentrosaurus",
 		"unitType": "Thyreofora",
 		"movement": 3,
@@ -1727,19 +1749,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
 	},
-         {
-		"name": "Battering Ram",
-                "replaces": "MiniCannon",
-		"uniqueTo": "New Huns",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 18,
-		"cost": 199,
-		"requiredTech": "Metal House",
-                "requiredResource": "Chitin",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
-	},
         {
 		"name": "Great Artist",
 		"unitType": "Civilian",
@@ -1814,6 +1823,39 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
 	},
+        {
+		"name": "Basil",
+                "replaces": "Flak Survivor",
+		"uniqueTo": "Hachchch Fan Group",
+		"unitType": "Sword",
+		"movement": 100000,
+		"strength": 100000,
+		"cost": 100000000000000,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+        },
+        {
+		"name": "Hachchch",
+                "replaces": "Flak Survivor",
+		"uniqueTo": "Geneciv",
+		"unitType": "Sword",
+		"movement": 100000,
+		"strength": 100000,
+		"cost": 100000000000000,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+        },
+        {
+		"name": "X2003",
+                "replaces": "Flak Survivor",
+		"uniqueTo": "Civ Sugestions Order",
+		"unitType": "Sword",
+		"movement": 100000,
+		"strength": 100000,
+		"cost": 100000000000000,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+        },
         {
 		"name": "Tek Rex Rider",
 		"unitType": "Theropoda",

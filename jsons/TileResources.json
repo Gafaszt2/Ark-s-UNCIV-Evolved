@@ -951,6 +951,14 @@
 		"improvement": "Camp",
 		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
 	},
+        {
+		"name": "Aquatic Mushroom",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
+	},
 	{
 		"name": "Megalania",
 		"resourceType": "Luxury",

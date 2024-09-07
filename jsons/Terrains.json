@@ -280,6 +280,15 @@
 		"RGB": [43, 87, 151]
 	},
         {
+		"name": "Aberrant Pink Hill",
+		"type": "TerrainFeature",
+                "impassable": true, 
+		"unbuildable": true,
+		"food": 1,
+                "occursOn": ["Aberrant Pink Zone"],
+		"RGB": [43, 87, 151]
+	},
+        {
 		"name": "Blue Aberrant Hill",
 		"type": "TerrainFeature",
                 "impassable": true, 
