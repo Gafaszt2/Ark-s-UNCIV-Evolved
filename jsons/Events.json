@@ -1,0 +1,83 @@
+[
+{
+                "name": "Prehistoric Trees",
+                "text": "Pick your unique",
+                "choices":[
+                        {
+                                "text": "Conifers",
+                                "triggeredUniques": ["[+2 Food] from [Forest] tiles [in this city] <for [100000] turns>","[+2 Food] from [Tundra] tiles [in this city] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Ginkgoes",
+                                "triggeredUniques": ["[+2 Food] from [Aberrant Green Zone] tiles [in this city] <for [100000] turns>","[+2 Food] from [Lakes] tiles [in this city] <for [100000] turns>"]
+                        },
+			{
+                                "text": "Calamites",
+                                "triggeredUniques": ["[+2 Food] from [Marsh] tiles [in this city] <for [100000] turns>","[+2 Food] from [Natural Lake] tiles [in this city] <for [100000] turns>","[+2 Food] from [Swamp Zone] tiles [in this city] <for [100000] turns>"]
+                        }
+                ]
+        },
+{
+                "name": "Prehistoric Insectivore",
+                "text": "Pick your unique",
+                "choices":[
+                        {
+                                "text": "Low's pitcher plant",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Fearsome] promotion"]
+                        },
+                        {
+                                "text": "Dionaea muscipula",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Patience] promotion"]
+                        },
+			{
+                                "text": "Roridula gorgonias",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion"]
+                        }
+                ]
+        },
+{
+                "name": "Prehistoric Flower",
+                "text": "Pick your seeds",
+                "choices":[
+                        {
+                                "text": "Aristolochia gigantea",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Immunity] promotion"]
+                        },
+                        {
+                                "text": "King protea",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion","All newly-trained [All] units [in all cities] receive the [Damage II] promotion"]
+                        },
+			{
+                                "text": "Allspice",
+                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Rage] promotion","All newly-trained [All] units [in all cities] receive the [Intimidation] promotion"]
+                        }
+                ]
+        },
+        {
+                "name": "Prehistoric Ferns",
+                "text": "Pick your seeds",
+                "choices":[
+                        {
+                                "text": "Korsaröd Fern",
+                                "triggeredUniques": ["[+2 Food] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Cinnamon Fern",
+                                "triggeredUniques": ["[+1 Culture] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Autumn Fern",
+                                "triggeredUniques": ["[+2 Happiness] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Fern Leaves",
+                                "triggeredUniques": ["[+3 Food] from [Jungle] tiles [in this city] <for [100000] turns>"]
+                        },
+			{
+                                "text": "Maidenhair ferns",
+                                "triggeredUniques": ["[+3 Food] from [Flood plains] tiles [in this city] <for [100000] turns>"]
+                      }
+                ]
+        }
+
+]

@@ -952,6 +952,22 @@
 		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
 	},
         {
+		"name": "Fertilizer",
+                "resourceType": "Strategic",
+                "revealedBy": "Metal Tap",
+                "civilopediaText": [
+			{"text": "Serves the porpouse of improving the yield from prehistoric plants."}
+		]
+	},
+        {
+		"name": "Gas",
+                "resourceType": "Strategic",
+                "revealedBy": "Electronics",
+                "civilopediaText": [
+			{"text": "Used to make danger suits and related stuff."}
+		]
+	},
+        {
 		"name": "Aquatic Mushroom",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
@@ -959,6 +975,15 @@
 		"improvement": "Plantation",
 		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
 	},
+        {
+		"name": "Gas Vein",
+		"resourceType": "Bonus",
+                "revealedBy": "Electronics",
+		"terrainsCanBeFoundOn": ["Hill"],
+                "improvement": "Gas Collector",
+		"improvementStats": {"gold": 1},
+		"gold": 1,
+	}
 	{
 		"name": "Megalania",
 		"resourceType": "Luxury",
@@ -977,5 +1002,56 @@
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
+	}
+
+
+
+        {
+		"name": "Pseudaquamorpha",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Habitable Water"],
+		"gold": 3,
+	}
+        {
+		"name": "Propatripota",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Habitable Water"],
+		"gold": 2,
+                "culture": 1,
+	}
+        {
+		"name": "Kraboida",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sunday Desert"],
+                "improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"happiness": 1,
+                "faith": 2,
+	}
+        {
+		"name": "Mastodontias",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Preevening Savannah"],
+                "improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"happiness": 1,
+                "gold": 2,
+	}
+        {
+		"name": "Sorias",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Darklight Tundra"],
+                "improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"faith": 1,
+                "culture": 2,
+	}
+        {
+		"name": "Leptocla",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Twilight Forest"],
+                "improvement": "Camp",
+		"improvementStats": {"science": 1},
+                "science": 1,
 	}
 ]

@@ -156,6 +156,13 @@
 		"uniques": ["Can only be built to improve a resource"],
 		"shortcutKey": "F"
 	},
+        {
+		"name": "Gas Collector",
+		"turnsToBuild": 7,
+                "production": 4,
+		"uniques": ["Can only be built to improve a resource","Provides [2] [Gas]"],
+                "techRequired": "Electronics",
+	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Land"],

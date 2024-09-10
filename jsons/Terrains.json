@@ -151,7 +151,6 @@
 		"type": "TerrainFeature",
 		"production": 2,
 		"movementCost": 1,
-                "uniques": ["Doesn't generate naturally"]
                 "occursOn": ["Grassland","Plains","Tundra","Snow","Beach","Desert"],
 		"RGB": [63, 61, 64]
 	},
@@ -365,11 +364,18 @@
 		"name": "Autumn Trees",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-                "occursOn": ["Grassland","Tundra","Snow"],
+                "occursOn": ["Grassland","Tundra","Snow","Fjord Land"],
 		"RGB": [240, 7, 182]
 	},
         {
 		"name": "Yellow Coat",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Grassland","Tundra","Snow","Fjord Land"],
+		"RGB": [240, 7, 182]
+	},
+        {
+		"name": "Fjord Land",
 		"type": "TerrainFeature",
 		"movementCost": 1,
                 "occursOn": ["Grassland","Tundra","Snow"],
@@ -379,7 +385,7 @@
 		"name": "Pines",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-                "occursOn": ["Grassland","Tundra","Snow"],
+                "occursOn": ["Grassland","Tundra","Snow","Fjord Land"],
 		"RGB": [240, 7, 182]
 	},
         {
@@ -608,7 +614,6 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [212, 139, 203],
-                "uniques": ["Units ending their turn on this terrain take [5] damage"]
 		"civilopediaText": [
 			{
 				"text": "Really Dangerous Place."
@@ -779,7 +784,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Eldritch","Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano"],
+		"occursOn": ["Eldritch","Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -802,7 +807,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Tundra","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -1176,4 +1181,135 @@
 					"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
+        {
+		"name": "Sunday Desert",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [247, 246, 193],
+                "uniques": [
+            "Units ending their turn on this terrain take [20] damage"]
+		"civilopediaText": [
+			{
+				"text": "Biome made by Basil."
+			}
+		]
+	},
+        {
+		"name": "White Death",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [227, 254, 255],
+                "uniques": [
+            "Units ending their turn on this terrain take [700] damage"]
+		"civilopediaText": [
+			{
+				"text": "Biome made by Basil."
+			}
+		]
+	},
+        {
+		"name": "Twilight Forest",
+		"type": "Land",
+		"food": 3,
+		"movementCost": 1,
+		"RGB": [255, 64, 54],
+		"civilopediaText": [
+			{
+				"text": "Biome made by Basil."
+			}
+		]
+	},
+        {
+		"name": "Preevening Savannah",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [250, 154, 52],
+		"civilopediaText": [
+			{
+				"text": "Biome made by Basil."
+			}
+		]
+	},
+        {
+		"name": "Darklight Tundra",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [133, 133, 133],
+		"civilopediaText": [
+			{
+				"text": "Biome made by Basil."
+			}
+		]
+	},
+        {
+		"name": "Habitable Water",
+		"type": "Water",
+		"RGB": [168, 230, 174],
+	},
+        {
+		"name": "Habitable Ocean",
+		"type": "Water",
+		"RGB": [116, 161, 120],
+	},
+        {
+		"name": "Sunday Mountain",
+		"type": "TerrainFeature",
+                "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+        {
+		"name": "White Death Mountain",
+		"type": "TerrainFeature",
+                "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+        {
+		"name": "Twilight Mountain",
+		"type": "TerrainFeature",
+                "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+        {
+		"name": "Preevening Mountain",
+		"type": "TerrainFeature",
+                "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+        {
+		"name": "Darklight Mountain",
+		"type": "TerrainFeature",
+                "impassable": true,
+		"overrideStats": false,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
+		"occursOn": ["Mountain"],
+		"uniques": ["Doesn't generate naturally"]
+	},
+
 ]

@@ -1246,5 +1246,71 @@
 		"requiredResource": "Fiber"
 		"requiredTech": "Torch"
 	},
+        {
+		"name": "Prehistoric Greenhouse",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Fertilizer]"],
+		"requiredTech": "Metal Tap"
+	},
+        {
+		"name": "Danger Suits",
+                "maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Protected] promotion"],
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Prehistoric Ferns",
+                "maintenance": 2,
+                "uniques": ["Triggers a [Prehistoric Ferns] event"],
+		"hurryCostModifier": 50,
+                "civilopediaText": [
+			{"text": "Ferns have been around for a long, long time. In fact, about 360 million years ago, during a time geologists call the late Devonian period, ferns were the dominant vascular plant on the surface of the Earth. That was the time before dinosaurs, whose fossil remains first appear in rocks about 245 to 270 million years ago. The ancient ferns were around before, and during, the age of dinosaurs."}
+		]
+		"requiredBuilding": "Stone Irrigation Sistem",
+                "requiredTech": "Metal Tap"
+	},
+        {
+		"name": "Prehistoric Flower Plants",
+                "maintenance": 3,
+                "uniques": ["Triggers a [Prehistoric Flower] event"],
+		"hurryCostModifier": 50,
+                "civilopediaText": [
+			{"text": "Flowering plants are plants that bear flowers and fruits, and form the clade Angiospermae, commonly called angiosperms. They include all forbs, grasses and grass-like plants, a vast majority of broad-leaved trees, shrubs and vines, and most aquatic plants. The seeds are enclosed within a fruit."}
+		]
+		"requiredBuilding": "Prehistoric Ferns",
+                "requiredTech": "Metal Tap"
+	},
+        {
+		"name": "Prehistoric Trees",
+                "maintenance": 1,
+                "uniques": ["Triggers a [Prehistoric Trees] event"],
+		"hurryCostModifier": 50,
+                "civilopediaText": [
+			{"text": "Prior to conifers, during the Gondwanaland super continent when all the landmass was one whole piece, there were very tall trees of ~30 meters or so. The high branches were ‘unnaturally’ horizontal.
+
+They are covered all over in what appears to be like modern Spanish moss, and the deep root system is also fibrous.
+
+This tree exists in a swamp-like environment.
+
+What is very different from today’s tree anatomy is that the center of the woody trunk/root is hollow, so it is like an empty cylinder. The xylem which is supposed to bring water up from the roots are arranged on the outer edge like a tube. The trunk also appears more segmented."}
+		]
+
+		"requiredBuilding": "Prehistoric Flower Plants",
+                "requiredTech": "Metal Tap"
+	},
+        {
+		"name": "Prehistoric Insectivore Plants",
+                "maintenance": 1,
+                "uniques": ["Triggers a [Prehistoric Insectivore] event"],
+		"hurryCostModifier": 50,
+                "civilopediaText": [
+			{"text": "The fossil evidence indicates that the genera and at least some of the subgenera of the Caryophyllales carnivores existed during the Eocene, 34 to 54 million years ago. Aldrovanda and Nepenthes were found in the northern hemisphere while Drosera was found in the southern hemisphere."}
+		]
+
+		"requiredBuilding": "Prehistoric Trees",
+                "requiredTech": "Metal Tap"
+	},
         
 ]

@@ -756,6 +756,17 @@
                 "uniques": ["Can build [Land] improvements on tiles"],
         },
         {
+		"name": "Danger Survivor",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 30,
+		"cost": 115,
+		"attackSound": "metalhit"
+                "requiredTech": "Pliers",
+                "promotions": ["Protected"],
+                "uniques": ["Consumes [1] [Gas]"],
+        },
+        {
 		"name": "Riojavenatryx",
 		"unitType": "Theropoda",
 		"movement": 3,

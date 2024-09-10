@@ -1,4 +1,25 @@
 [
+{
+		"name": "Protected",
+    },
+{
+                "name": "Radiated", 
+                "innerColor": [245, 209, 66],
+		"outerColor": [18, 17, 16],
+                "uniques": ["This Unit takes [25] damage <upon ending a turn in a [All] tile>"],
+        },
+{
+		"name": "Fearsome",
+		"uniques": ["[-25]% Strength <when defending>","[+1] Movement"],
+    },
+{
+		"name": "Patience",
+		"uniques": ["[+25]% Strength <when defending>","[-1] Movement"],
+    },
+    {
+		"name": "Immunity",
+		"uniques": ["[+15]% Strength"],
+    },
         {
 		"name": "King of all Dinosaurs",
 		"uniques": ["[+30]% Strength <for [Wounded] units>"],
@@ -246,7 +267,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3

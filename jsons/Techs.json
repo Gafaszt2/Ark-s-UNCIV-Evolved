@@ -334,6 +334,13 @@
                                 "uniques": ["[+1 Production] from [Coast] tiles [in all cities]","[+1 Production] [in all cities]","[+2 Science] [in all cities]"],
 			},
                         {
+				"name": "Metal Tap",
+				"row": 3,
+				"prerequisites": ["Crossbow"],
+				"quote": "Irrigation Upgrades."
+                                "uniques": ["[+2 Food] from [Plantation] tiles [in all cities]","[+2 Culture] from [Plantation] tiles [in all cities]"],
+			},
+                        {
 				"name": "Sword",
 				"row": 6,
 				"prerequisites": ["Pike","Crossbow"],
@@ -364,7 +371,7 @@
 			{
 				"name": "Fabricator",
 				"row": 6,
-				"prerequisites": ["Greenhouse", "Metal House", "Sword"],
+				"prerequisites": ["Greenhouse", "Metal House", "Sword", "Metal Tap"],
 				"quote": "A huge machine powered by gasoil"
 			}
 		]
