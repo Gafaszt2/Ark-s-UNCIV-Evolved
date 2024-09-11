@@ -984,6 +984,13 @@
 		"improvementStats": {"gold": 1},
 		"gold": 1,
 	}
+        {
+		"name": "Trash",
+		"resourceType": "Bonus",
+                "revealedBy": "Island Bosses",
+                "uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [30] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Grassland] tiles>","[-1 Happiness, -1 Production] [in all cities]"]
+		"terrainsCanBeFoundOn": ["Coast","Beach","Lakes","Grassland"],
+	}
 	{
 		"name": "Megalania",
 		"resourceType": "Luxury",

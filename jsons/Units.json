@@ -301,6 +301,51 @@
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
         },
         {
+		"name": "Chalicotherium Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 25,
+		"cost": 1,
+		"requiredTech": "Stone Houses",
+                "obsoleteTech": "Preserving Bin",
+		"uniques": [
+"[+15]% Strength <when fighting in [Forest] tiles>",
+"[+15]% Strength <when fighting in [Tundra] tiles>",
+"[+15]% Strength <when fighting in [Hill] tiles>",
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+        {
+		"name": "Direbear Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 30,
+		"cost": 1,
+		"requiredTech": "Preserving Bin",
+                "obsoleteTech": "Gunpowder",
+		"uniques": [
+"[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
+"[+15]% Strength <when fighting in [Tundra] tiles>",
+"[+15]% Strength <when fighting in [Snow] tiles>",
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [550] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+        {
+		"name": "Gigantopithecus Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 30,
+		"cost": 1,
+		"requiredTech": "Gunpowder",
+                "obsoleteTech": "Dock",
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [770] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+                "promotions": ["Adapted"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+        {
 		"name": "Kapro Rider",
 		"unitType": "Amphibious",
 		"movement": 2,
@@ -313,6 +358,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
+
         {
 		"name": "Pachycephalosaurus Rider",
 		"unitType": "Pachycephalosauridae",
@@ -1292,7 +1338,7 @@
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Sword",
                 "requiredResource": "Oil",
-		"uniques": ["[+50]% Strength <vs [Sword] units>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs [Sword] units>","[+70]% Strength <vs [Gunpowder] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},

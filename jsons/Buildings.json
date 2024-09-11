@@ -40,6 +40,15 @@
 		"requiredTech": "Campfire"
 	},
         {
+		"name": "House of Mercenaries",
+                "maintenance": 3,
+		"faith": 1,
+                "requiredTech": "Stone Houses"
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
 		"name": "Courthouse",
 		"maintenance": 8,
 		"hurryCostModifier": 50,

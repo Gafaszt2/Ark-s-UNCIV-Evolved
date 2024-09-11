@@ -1,11 +1,23 @@
 [
 {
+                "name": "Adapted",
+                "uniques": ["[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
+"[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles>",
+"[+15]% Strength <when fighting in [Aberrant Pink Zone] tiles>",
+"[+15]% Strength <when fighting in [Jungle] tiles>",
+"[+15]% Strength <when fighting in [Plains] tiles>",
+"[+15]% Strength <when fighting in [Genesis Soil] tiles>",
+"[+15]% Strength <when fighting in [Redwoods] tiles>",
+"[+15]% Strength <when fighting in [Redwoods Plains] tiles>",
+"[+15]% Strength <when fighting in [Dead Land] tiles>"],
+        },
+{
 		"name": "Protected",
     },
 {
                 "name": "Radiated", 
-                "innerColor": [245, 209, 66],
-		"outerColor": [18, 17, 16],
+                "innerColor": [18, 17, 16],
+		"outerColor": [245, 209, 66],
                 "uniques": ["This Unit takes [25] damage <upon ending a turn in a [All] tile>"],
         },
 {
@@ -82,7 +94,7 @@
     },
 {
 		"name": "Crocodile Appearance",
-		"uniques": ["[+30]% Strength <vs [Crocodylomorpha] units>"],
+		"uniques": ["[+25]% Strength <vs [Amphibious] units>","[+2] Movement <in [Lakes] tiles>"],
     },
 {
                 "name": "Thagomizer",
