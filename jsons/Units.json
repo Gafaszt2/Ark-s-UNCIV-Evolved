@@ -564,10 +564,10 @@
 		"unitType": "Ophidia",
 		"movement": 2,
 		"strength": 29, 
-		"cost": 85,
+		"cost": 89,
 		"requiredTech": "Greenhouse",
                 "promotions": ["Strong Bite"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["[+5]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "snake"
@@ -576,7 +576,7 @@
 		"name": "Baryonix Rider",
 		"unitType": "Theropoda",
 		"movement": 2,
-		"strength": 22,
+		"strength": 25,
 		"cost": 60,
 		"requiredTech": "Smithy",
                 "requiredResource": "Wood",
@@ -669,7 +669,7 @@
 		"strength": 35,
 		"cost": 110,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking"],
+		"uniques": ["[+20]% Strength <vs [Ophidia] units>","[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
@@ -845,10 +845,21 @@
 		"cost": 78,
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
-                "requiredResource": "Allosaurus",
 		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
+	},
+        {
+		"name": "Fasolasuchus Rider",
+		"unitType": "Amphibious",
+		"movement": 3,
+		"strength": 50,
+		"cost": 80,
+		"requiredTech": "Sword",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["[+2] Movement <in [Desert] tiles>","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "croc"
 	},
         {
 		"name": "Ankylosaurus Rider",
@@ -863,13 +874,24 @@
 		"attackSound": "chalico"
 	},
         {
+		"name": "Shield Survivor",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 90,
+		"cost": 260,
+		"attackSound": "metalhit"
+                "requiredTech": "Pike",
+                "uniques": ["Consumes [2] [Metal]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "obsoleteTech": "Flak Armor",
+        },
+        {
 		"name": "Halberd Soldier",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 43,
 		"cost": 175,
                 "requiredResource": "Metal",
-		"attackSound": "nonmetalhit"
+		"attackSound": "metalhit"
                 "requiredTech": "Pike",
                 "uniques": ["Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor",
@@ -907,6 +929,17 @@
 		"cost": 65,
 		"requiredTech": "Raft",
                 "requiredResource": "Megalodon",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Xiphactinus Rider",
+                "obsoleteTech": "Dock",
+                "upgradesTo": "Plesio Rider",
+		"unitType": "Fish",
+		"movement": 5,
+		"strength": 15,
+		"cost": 45,
+		"requiredTech": "Raft",
 		"attackSound": "marine"
 	},
         {
@@ -1324,8 +1357,7 @@
 		"cost": 250,
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Island Bosses",
-                "requiredResource": "Oil",
-		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
+		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Fantasy] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1334,10 +1366,9 @@
 		"unitType": "Mammal",
 		"movement": 3.5,
 		"strength": 50,
-		"cost": 180,
+		"cost": 150,
 		"requiredTech": "Auto Torret",
                 "obsoleteTech": "Tek Sword",
-                "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs [Sword] units>","[+70]% Strength <vs [Gunpowder] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
@@ -1361,7 +1392,7 @@
 		"strength": 400,
 		"cost": 650,
 		"requiredTech": "Assault Riffle",
-		"uniques": ["Consumes [3] [Steel]","Consumes [3] [Metal]","[+44]% Strength <vs [Engineer] units>","[+44]% Strength <vs [Theropoda] units>","[+44]% Strength <vs [Sauropodomorpha] units>","[+44]% Strength <vs [Giga Rider] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Steel]","Consumes [1] [Oil]","Consumes [2] [Metal]","[+44]% Strength <vs [Engineer] units>","[+44]% Strength <vs [Theropoda] units>","[+44]% Strength <vs [Sauropodomorpha] units>","[+44]% Strength <vs [Giga Rider] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "fire"
 	},
         {

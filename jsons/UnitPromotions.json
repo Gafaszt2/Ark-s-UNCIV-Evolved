@@ -21,6 +21,10 @@
                 "uniques": ["This Unit takes [25] damage <upon ending a turn in a [All] tile>"],
         },
 {
+		"name": "Zealot Warrior",
+		"uniques": ["[+25]% Strength <when defending>"],
+    },
+{
 		"name": "Fearsome",
 		"uniques": ["[-25]% Strength <when defending>","[+1] Movement"],
     },
@@ -139,17 +143,17 @@
 {
                 "name": "Flexible Mandible",
                 "unitTypes": ["Ophidia"],
-                "uniques": ["[+30]% Strength <vs [Sword] units>","[+30]% Strength <vs [Gunpowder] units>"],
+                "uniques": ["[+10]% Strength <vs [Sword] units>","[+30]% Strength <vs [Gunpowder] units>"],
         },
 {
                 "name": "Toxin",
                 "unitTypes": ["Ophidia"],
-                "uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Mammal] units>"],
+                "uniques": ["[+10]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Mammal] units>"],
         },
 {
                 "name": "Skin Shedding",
                 "unitTypes": ["Ophidia"],
-                "uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","[+15]% Strength <when fighting in [Grassland] tiles> <when attacking>","[+15]% Strength <when fighting in [Desert] tiles> <when attacking>"],
+                "uniques": ["[+5]% Strength <when fighting in [Jungle] tiles> <when attacking>","[+5]% Strength <when fighting in [Grassland] tiles> <when attacking>","[+5]% Strength <when fighting in [Desert] tiles> <when attacking>"],
         },
 {
 		"name": "Basic Training",
@@ -286,7 +290,7 @@
 	},
     {
 		"name": "Tyrant I",
-		"uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","[+15]% Strength <when fighting in [Aberrant Green Zone] tiles> <when attacking>"],
 		"unitTypes": ["Theropoda","Fantasy"],
         "column": 36,
         "row": 19
@@ -294,14 +298,14 @@
 	{
 		"name": "Tyrant II",
 		"prerequisites": ["Tyrant I"],
-		"uniques": ["[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Plains] tiles> <when attacking>","[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Dead Land] tiles> <when attacking>"],
 		"unitTypes": ["Theropoda"],
         "column": 37,
         "row": 20
     },
     {
 		"name": "Carnivore I",
-		"uniques": ["Heals [5] damage if it kills a unit"],
+		"uniques": ["Heals [5] damage if it kills a unit","[+1] HP when healing"],
 		"unitTypes": ["Theropoda","Flying","Fantasy"],
         "column": 38,
         "row": 21
@@ -317,7 +321,7 @@
     {
 		"name": "Carnivore III",
 		"prerequisites": ["Carnivore II"],
-		"uniques": ["[+2] HP when healing"],
+		"uniques": ["Heals [1] damage if it kills a unit","[+4] HP when healing"],
 		"unitTypes": ["Theropoda","Flying"],
         "column": 40,
         "row": 23
@@ -332,7 +336,7 @@
 {
 		"name": "Eyes by the side II",
 		"prerequisites": ["Eyes by the side I"],
-		"uniques": ["[+1] Movement <in [Grassland] tiles>"],
+		"uniques": ["[+1] Movement <in [Grassland] tiles>","[+1] Movement <in [Aberrant Green Zone] tiles>"],
 		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
         "column": 42,
         "row": 25
@@ -347,7 +351,7 @@
 	{
 		"name": "Prey II",
 		"prerequisites": ["Prey I"],
-		"uniques": ["[+15]% to Flank Attack bonuses"],
+		"uniques": ["[+5]% to Flank Attack bonuses"],
 		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 44,
         "row": 27
@@ -415,7 +419,7 @@
     },
     {
 		"name": "Scales I",
-		"uniques": ["[+15]% Strength <when fighting in [Water] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [River] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
 		"unitTypes": ["Amphibious"],
         "column": 53,
         "row": 36
@@ -423,7 +427,7 @@
 	{
 		"name": "Scales II",
 		"prerequisites": ["Scales I"],
-		"uniques": ["[+15]% Strength <when fighting in [Water] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [River] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
 		"unitTypes": ["Amphibious"],
         "column": 54,
         "row": 37

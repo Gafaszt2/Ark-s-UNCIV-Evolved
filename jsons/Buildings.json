@@ -423,11 +423,22 @@
         {
 		"name": "Rockwell House",
                 "greatPersonPoints": {"Great Scientist": 1},
-                "maintenance": 1,
 		"faith": 2,
 		"hurryCostModifier": 50,
+                "uniques": ["Must be next to [Coast]"],
 		"requiredTech": "Spyglass"
                 "requiredBuilding": "Rockwell Stories"
+	},
+        {
+		"name": "Rockwell Pantheon",
+                "greatPersonPoints": {"Great Merchant": 4},
+		"faith": 3,
+                "culture": 1,
+                "maintenance": 2,
+		"hurryCostModifier": 50,
+                "uniques": ["Must be next to [Coast]"],
+		"requiredTech": "Gunpowder"
+                "requiredBuilding": "Rockwell House"
 	},
         {
 		"name": "Fishing Place",
@@ -993,6 +1004,16 @@
 		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
+		"name": "Petra",
+                "greatPersonPoints": {"Great Engineer": 2},
+                "greatPersonPoints": {"Great Merchant": 4},
+		"isWonder": true,
+                "food": 2,
+		"gold": 2,
+		"requiredTech": "Preserving Bin",
+		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
 		"name": "Pisa Tower",
 		"isWonder": true,
                 "culture": 2,
@@ -1254,6 +1275,52 @@
 		"hurryCostModifier": 25,
 		"requiredResource": "Fiber"
 		"requiredTech": "Torch"
+	},
+        {
+		"name": "Hunter Temple",
+		"cost": 0,
+                "maintenance": 1,
+		"culture": 1,
+		"faith": 1,
+		"uniques": ["[+2 Faith] from [Camp] tiles [in this city]",
+			"[+2 Faith] from [Forest] tiles [in this city]",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+        {
+		"name": "Clever Temple",
+		"cost": 0,
+                "maintenance": 1,
+		"culture": 1,
+		"faith": 1,
+		"uniques": ["[+1 Science] from [Mountain] tiles [in this city]",
+			"[+1 Science] from [Luxury resource] tiles [in this city]",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+        {
+		"name": "Skylord Temple",
+		"cost": 0,
+                "maintenance": 1,
+		"culture": 1,
+		"uniques": ["[+3 Faith] from [Mountain] tiles [in this city]",
+			"[+2 Faith] from [Volcano] tiles [in this city]",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+        {
+		"name": "Strong Temple",
+		"cost": 0,
+                "maintenance": 2,
+		"faith": 3,
+		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+        {
+		"name": "Deep Temple",
+		"cost": 0,
+                "maintenance": 1,
+		"faith": 2,
+		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]",
+			"[+1 Faith] from [Ocean] tiles [in this city]",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Prehistoric Greenhouse",

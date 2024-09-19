@@ -1010,6 +1010,17 @@
 		"weight": 10
 	},
         {
+		"name": "Nosti Mosque",
+		"type": "NaturalWonder",
+		"faith": 4,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [6] to [6] [Desert] tiles"],
+		"turnsInto": "Grassland",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
 		"name": "Castoroides Dam",
 		"type": "NaturalWonder",
 		"science": 1,
