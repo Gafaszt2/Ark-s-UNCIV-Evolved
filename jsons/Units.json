@@ -243,7 +243,7 @@
                 "obsoleteTech": "Tranq Arrow",
 		"uniques": ["Can move after attacking","Requires at least [3] population"],
 		"hurryCostModifier": 20,
-		"attackSound": "ravager"
+		"attackSound": "feline"
 	},
         {
 		"name": "Rhyniognatha",
@@ -308,11 +308,12 @@
 		"cost": 1,
 		"requiredTech": "Stone Houses",
                 "obsoleteTech": "Preserving Bin",
+                "upgradesTo": "Direbear Rider",
 		"uniques": [
 "[+15]% Strength <when fighting in [Forest] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Hill] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [220] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -324,11 +325,12 @@
 		"cost": 1,
 		"requiredTech": "Preserving Bin",
                 "obsoleteTech": "Gunpowder",
+                "upgradesTo": "Gigantopithecus Rider",
 		"uniques": [
 "[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Snow] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [550] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [320] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -340,7 +342,7 @@
 		"cost": 1,
 		"requiredTech": "Gunpowder",
                 "obsoleteTech": "Dock",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [770] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed> <in this city>"],
                 "promotions": ["Adapted"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -528,7 +530,7 @@
 		"strength": 27,
 		"cost": 70,
 		"requiredTech": "Stone Irrigation Pipe",
-		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","Can move after attacking"],
+		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
 		"attackSound": "ravager"
@@ -843,6 +845,7 @@
 		"movement": 3,
 		"strength": 64,
 		"cost": 78,
+                "requiredResource": "Allosaurus",
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
 		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
@@ -1315,7 +1318,7 @@
 		"unitType": "Sauropodomorpha",
 		"movement": 1,
 		"strength": 200,
-		"cost": 400,
+		"cost": 380,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
 		"uniques": ["[+10]% Strength <when defending>"],
@@ -1371,7 +1374,7 @@
                 "obsoleteTech": "Tek Sword",
 		"uniques": ["[+50]% Strength <vs [Sword] units>","[+70]% Strength <vs [Gunpowder] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "ravager"
+		"attackSound": "feline"
 	},
         {
 		"name": "Flamethrower Survivor",
