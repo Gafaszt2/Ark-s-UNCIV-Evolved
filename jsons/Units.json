@@ -5,11 +5,12 @@
 	/* Ancient Era */
         	{
 		"name": "Great Artist",
+                "strength": 25,
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+            "Can instantly construct a [Great Camp] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -17,23 +18,31 @@
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can hurry technology research",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Can instantly construct a [Potion Station] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
+                "strength": 15,
+		"unitType": "Civilian",
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence"
+			"Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+        {
+		"name": "Great Naturalist",
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+            "Can instantly construct a [Great Reserve] improvement <by consuming this unit>",
+			"Great Person", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
-            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Can instantly construct a [Steampunk Station] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -41,7 +50,7 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
-            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can instantly construct a [Castle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "Limited to [2] per Civilization",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
@@ -74,13 +83,35 @@
 		"movement": 3
 	},
 	{
-		"name": "Great General",
+		"name": "High Commander",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
+                "strength": 35,
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1300] [Faith] [in all cities]",
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "[+30]% Strength bonus for [Military] units within [3] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	},
+        {
+		"name": "Senior Sergeant",
+		"unitType": "Civilian",
+                "strength": 25,
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [800] [Faith] [in all cities]",
+            "Empire enters a [4]-turn Golden Age <by consuming this unit>",
+            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	},
+        {
+		"name": "Novice Sergean",
+		"unitType": "Civilian",
+                "strength": 20,
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [500] [Faith] [in all cities]",
+            "Empire enters a [2]-turn Golden Age <by consuming this unit>",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1839,50 +1870,6 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
-	},
-        {
-		"name": "Great Artist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can hurry technology research",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
-            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
-            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-        {
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
 	},
          {
 		"name": "Gaucho",

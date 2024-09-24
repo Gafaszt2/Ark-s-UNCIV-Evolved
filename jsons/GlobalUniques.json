@@ -2,8 +2,11 @@
     "name": "Global uniques",
     "uniques": [
         "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Naturalist] units for [660] [Faith] [in all cities] at an increasing price ([400])",
         "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [High Commander] units for [1300] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Senior Sergeant] units for [800] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Novice Sergean] units for [500] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([20])",

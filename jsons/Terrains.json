@@ -382,6 +382,27 @@
 		"RGB": [240, 7, 182]
 	},
         {
+		"name": "Nordic Coast",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Coast"],
+		"RGB": [68, 90, 99]
+	},
+        {
+		"name": "Nordic Ocean",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Ocean"],
+		"RGB": [26, 35, 38]
+	},
+        {
+		"name": "Nordic Lakes",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+                "occursOn": ["Lakes"],
+		"RGB": [26, 35, 38]
+	},
+        {
 		"name": "Pines",
 		"type": "TerrainFeature",
 		"movementCost": 1,
@@ -784,7 +805,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Eldritch","Tundra","Plains","Grassland","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
+		"occursOn": ["Grassland","Eldritch","Bog","Tundra","Plains","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",

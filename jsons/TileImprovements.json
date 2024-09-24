@@ -261,26 +261,38 @@
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
-	//Civilization unique improvements
 	{
-		"name": "Terrace farm",
-		"uniqueTo": "Inca",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
+		"name": "Steampunk Station",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
-	{
-		"name": "Polder",
-		"uniqueTo": "The Netherlands",
-		"food": 3,
-		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
-		"turnsToBuild": 7,
-		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
+        {
+		"name": "Great Reserve",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 4,
+                "culture": 1,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+        {
+		"name": "Potion Station",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 4,
+                "gold": 1,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+        {
+		"name": "Great Camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+                "food": 1,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+        {
+		"name": "Castle",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 4,
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [35]%","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
 	// Unbuildable improvements
@@ -340,36 +352,6 @@
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Can be built just outside your borders"],
 		"techRequired": "Stone Houses",
-	},
-        {
-		"name": "Academy",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 4,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Customs house",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 4,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Holy site",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
         {
 		"name": "Citadel",
