@@ -5,6 +5,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Biological Weapon",
+        "movementType": "Air"
+    },
+    {
         "name": "Sword",
         "uniques": ["This Unit gains the [Radiated] promotion <upon ending a turn in a [Aberrant Pink Zone] tile> <with [100]% chance> <for units without [Protected]>","This Unit gains the [Prion] promotion <upon ending a turn in a [Ranch] tile> <with [5]% chance> <for units without [Immunity]>","This Unit gains the [Swamp Fever] promotion <upon ending a turn in a [Jungle] tile> <with [5]% chance> <for units without [Immunity]>","This Unit gains the [Common Flu] promotion <upon ending a turn in a [Forest] tile> <with [9]% chance> <for units without [Immunity]>","This Unit gains the [Cancer] promotion <with [1]% chance> <for units without [Immunity]>","This Unit gains the [Bone Fracture] promotion <upon ending a turn in a [Hill] tile> <with [3]% chance> <for units without [Immunity]>","This Unit gains the [Sedentarism] promotion <upon ending a turn in a [Friendly Land] tile> <with [9]% chance> <for units without [Immunity]>","This Unit gains the [Pneumonia] promotion <upon entering the [Electric era]> <with [9]% chance> <for units without [Immunity]>","This Unit gains the [Pneumonia] promotion <upon entering the [Electric era]> <with [9]% chance> <for units without [Immunity]>","This Unit gains the [Asthma] promotion <upon ending a turn in a [Ranch] tile> <with [3]% chance> <for units without [Immunity]>","This Unit gains the [Thermal Stress] promotion <upon ending a turn in a [Desert] tile> <with [3]% chance> <for units without [Immunity]>","This Unit gains the [Escherichia coli] promotion <upon ending a turn in a [Camp] tile> <with [3]% chance> <for units without [Immunity]>","This Unit gains the [Salmonella] promotion <upon ending a turn in a [Ranch] tile> <with [3]% chance> <for units without [Immunity]>"]
         "movementType": "Land"
