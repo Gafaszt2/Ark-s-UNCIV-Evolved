@@ -389,7 +389,7 @@
 	{
 		"name": "The Shores",
 		"adjective": ["The Shores"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Leisure",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -402,7 +402,7 @@
 	{
 		"name": "Smuggler Pass",
 		"adjective": ["Smuggler Pass"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Leisure",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -476,7 +476,7 @@
 	{
 		"name": "Sanctuary",
 		"adjective": ["Faitherns"],
-		"cityStateType": "Religious",
+		"cityStateType": "Leisure",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -537,7 +537,7 @@
 	{
 		"name": "Writhing Swamps",
 		"adjective": ["Writhing Swamps"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Strategical",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -553,7 +553,7 @@
 {
 		"name": "Camp Omega",
 		"adjective": ["Camp Omega"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Strategical",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
@@ -589,7 +589,7 @@
 {
 		"name": "The Overpass",
 		"adjective": ["The Overpass"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Strategical",
 
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",

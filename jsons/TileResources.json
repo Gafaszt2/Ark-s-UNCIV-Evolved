@@ -1010,6 +1010,109 @@
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
 	}
+        {
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"happiness": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Beer",
+		"resourceType": "Luxury",
+		"happiness": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Whisky",
+		"resourceType": "Luxury",
+		"happiness": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Vodka",
+		"resourceType": "Luxury",
+		"happiness": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Rum",
+		"resourceType": "Luxury",
+		"happiness": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Sugar Cane",
+		"resourceType": "Luxury",
+		"food": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Coconut",
+		"resourceType": "Luxury",
+		"food": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"food": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Pelt",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Wool",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Coral",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Pastries",
+		"resourceType": "Luxury",
+		"food": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Exotic Meat",
+		"resourceType": "Luxury",
+		"food": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        
 
 
 

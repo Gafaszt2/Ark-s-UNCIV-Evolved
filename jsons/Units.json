@@ -220,19 +220,6 @@
 		"attackSound": "ravager"
 	},
         {
-		"name": "Prophet Warrior",
-                "replaces": "Cave Tropper",
-		"uniqueTo": "Saint Domain",
-		"unitType": "Fantasy",
-		"movement": 3,
-		"strength": 18,
-		"cost": 120,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Mortar",
-                "uniques": ["Never appears as a Barbarian unit","[+20]% Strength <vs [Wounded] units>"],
-		"obsoleteTech": "Cementing Paste",
-        },
-        {
 		"name": "Megaloceros Rider",
 		"unitType": "Mammal",
                 "replaces": "Raptor Rider",
@@ -600,10 +587,22 @@
 		"cost": 89,
 		"requiredTech": "Greenhouse",
                 "promotions": ["Strong Bite"],
-		"uniques": ["[+5]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
+		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+5]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "snake"
+	},
+        {
+		"name": "Beelzebufo Rider",
+		"unitType": "Amphibious",
+		"movement": 3,
+		"strength": 25, 
+		"cost": 70,
+		"requiredTech": "Metal Tap",
+		"uniques": ["This Unit gains the [Immunity] promotion <with [15]% chance>","[+40]% Strength <vs [Theropoda] units>","[-10]% Strength <vs [Crossbow Survivor] units>","[-5]% Strength <vs [Ophidia] units>","[+5]% Strength <when fighting in [Marsh] tiles>","May travel on Water tiles without embarking","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Grenade",
+		"attackSound": "frog"
 	},
         {
 		"name": "Baryonix Rider",
@@ -629,7 +628,7 @@
 		"requiredTech": "Tranq Arrow",
                 "requiredResource": "Sarcosuchus",
                 "promotions": ["Swamp Creature"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "croc"
@@ -729,9 +728,9 @@
 		"requiredTech": "Metal Hatchet",
                 "obsoleteTech": "Sword",
                 "requiredResource": "Metal",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
-		"attackSound": "croc"
+		"attackSound": "frog"
 	},
         {
 		"name": "Koolasuchus",
@@ -743,7 +742,7 @@
 		"cost": 92,
 		"requiredTech": "Metal Hatchet",
                 "obsoleteTech": "Sword",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -757,7 +756,7 @@
 		"cost": 300,
 		"requiredTech": "Grenade",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","Can move after attacking"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","Can move after attacking","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -1147,6 +1146,34 @@
 		"attackSound": "ravager"
 	},
         {
+		"name": "Ichthyostega Rider",
+		"unitType": "Amphibious",
+		"movement": 1,
+		"strength": 37,
+		"cost": 85,
+		"requiredTech": "Cryopod",
+                "obsoleteTech": "Chain Bola",
+		"uniques": ["Cannot be purchased","All tiles cost 1 movement","May travel on Water tiles without embarking","[-50]% maintenance costs","Can move after attacking"],
+                "requiredResource": "Chitin",
+		"hurryCostModifier": 20,
+                "promotions": ["Immunity","Swamp Creature"],
+		"attackSound": "frog"
+	},
+        {
+		"name": "Tiktaalik",
+		"unitType": "Amphibious",
+		"movement": 1,
+		"strength": 45,
+		"cost": 135,
+		"requiredTech": "Grenade",
+                "requiredResource": "Chitin",
+                "promotions": ["Predecessor"],
+                "obsoleteTech": "Flak Armor",
+		"uniques": ["May travel on Water tiles without embarking","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "frog"
+	},
+        {
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -1188,6 +1215,20 @@
                 "promotions": ["Strong Genetics","King of all Dinosaurs"],
 		"attackSound": "rex"
 	},
+        {
+		"name": "Gryposuchus Rider",
+		"unitType": "Amphibious",
+		"movement": 3,
+		"strength": 82,
+		"cost": 150,
+		"requiredTech": "Flamethrower",
+                "requiredResource": "Steel",
+		"uniques": ["May travel on Water tiles without embarking","Ignores terrain cost","No movement cost to pillage","All adjacent units heal [+15] HP when healing","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Swamp Creature","Amphibious","Adapted"],
+		"attackSound": "croc"
+	},
+
         {
 		"name": "Pistol Handler",
 		"unitType": "Gunpowder",
@@ -1510,7 +1551,7 @@
 		"strength": 50,
 		"cost": 160,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "croc"

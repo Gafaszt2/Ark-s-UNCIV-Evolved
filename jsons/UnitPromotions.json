@@ -1,5 +1,10 @@
 [
 {
+                "name": "Predecessor",
+                "uniques": ["[+1] Movement <in [Coast] tiles>","[+1] Movement <in [Ocean] tiles>","[+2] Movement <in [Marsh] tiles>","[+1] Movement <in [Beach] tiles>","[-1] Movement <in [Plains] tiles>","[-1] Movement <in [Desert] tiles>","[-1] Movement <in [Grassland] tiles>","[-1] Movement <in [Montano] tiles>","[-1] Movement <in [Tundra] tiles>","[-1] Movement <in [Snow] tiles>",
+"[+30]% Strength <when fighting in [Beach] tiles>","[+30]% Strength <when fighting in [Marsh] tiles>","[+30]% Strength <when fighting in [Coast] tiles>","[+30]% Strength <when fighting in [Bog] tiles>","[+30]% Strength <when fighting in [Snowy Beach] tiles>"],
+        },
+{
                 "name": "Adapted",
                 "uniques": ["[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles>",
@@ -34,7 +39,10 @@
     },
     {
 		"name": "Immunity",
-		"uniques": ["[+15]% Strength"],
+ "civilopediaText": [
+			{"text": "This promotion makes the unit to not develop any disease."}
+		]
+		"uniques": ["[+5]% Strength <hidden from users>"],
     },
         {
 		"name": "King of all Dinosaurs",
