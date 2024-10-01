@@ -13,8 +13,12 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "In the late 19th century, Sir Edmund Rockwell, a brilliant chemist from London, found himself mysteriously transported to a strange and untamed island. Fascinated by the island’s unique flora and fauna, Rockwell’s curiosity led him to experiment with a mysterious substance known as Element, or Edmundium.
+
+As Rockwell delved deeper into his research, he became obsessed with the power and potential of Element. His experiments grew increasingly dangerous and unhinged, leading him to inject himself with the substance. This act of desperation triggered a horrifying transformation, warping his mind and body into a monstrous entity.
+
+Now, Rockwell reigns as a twisted overlord in the depths of the Aberration ARK, his once brilliant mind consumed by madness. His ultimate goal is to harness the full power of Element to ascend to godhood, regardless of the cost to himself or the world around him.",
+		"startIntroPart2": "",
 
 		"declaringWar": "The King would be proud!",
 		"attacked": "Nobody beats a Brit, haha.",
@@ -43,8 +47,14 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "In the depths of the Genesis Ship, Rockwell’s twisted experiments with Element have given rise to a nightmarish legion of aberrant creatures. These abominations, born from his insatiable hunger for power, are a testament to his descent into madness.
+
+These monstrous beings, with their exoskeletal armor and deadly tail spikes, are the result of Rockwell’s attempts to merge Element with the DNA of various predators. They serve as his enforcers, spreading terror across the ship.
+
+Once human, these unfortunate souls were transformed into mindless drones by Rockwell’s experiments. They lurk in the shadows, attacking any who dare venture into their territory.
+
+Enhanced with Element, these once-mighty predators now possess unparalleled strength and ferocity. Their glowing eyes and bioluminescent patterns make them a fearsome sight in the dark corridors of the ship.",
+		"startIntroPart2": "",
 
 		"declaringWar": "Gragh ugrahh!",
 		"attacked": "Ghaa?!!",
@@ -73,8 +83,14 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Raia, once an Ancient Egyptian Priestess, found herself mysteriously transported to the harsh and unforgiving Desert Ark. Struggling to comprehend her new reality, she quickly became a beacon of hope for others who were similarly displaced. Her deep faith and unwavering determination helped her gather a diverse group of followers, each seeking guidance and protection in this perilous new world.
+
+As the leader of the settlement of Nosti, Raia faced countless challenges. The desert was a land of extremes, with scorching days and freezing nights, and it was teeming with dangerous creatures. Despite these hardships, Raia’s leadership and wisdom allowed her community to thrive. She taught them to harness the land’s resources, build shelters, and defend themselves against threats.
+
+However, tragedy struck when Nosti fell to a devastating attack. The loss of her beloved settlement and many of her followers was a heavy blow. Driven by a sense of duty and a desire for justice, Raia became a vigilante, vowing to protect others from suffering the same fate. She roamed the desert, offering aid to those in need and fighting against the forces that threatened the fragile peace of the Ark.
+
+Raia’s journey is one of resilience, faith, and unwavering commitment to her people. Her story is a testament to the strength of the human spirit in the face of overwhelming odds.",
+		"startIntroPart2": "",
 
 		"declaringWar": "The Desert has never needed your oasis as much as it does now, give up, it would be better!",
 		"attacked": "Nosti knows how to defend itself, I will call my soldiers.",
@@ -104,8 +120,14 @@
 		"startBias": ["Beach"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "As a young man, Nerva joined the Roman legions, quickly proving his mettle in battle. His strategic brilliance and ruthless efficiency earned him the rank of Centurion. He played a pivotal role in the conquest of Dacia, showcasing his ability to lead and inspire his troops under the most challenging circumstances. His success on the battlefield was matched by his cunning off it, as he navigated the complex political landscape of the Roman Empire.
+
+However, Nerva’s life took an unexpected turn when he found himself on the ARK, a mysterious island filled with prehistoric creatures and advanced technology. Stranded in this strange new world, Nerva’s military training and leadership skills came to the fore. He quickly gathered a group of survivors, forming a powerful faction that sought to dominate the island.
+
+Nerva’s rule on the ARK was marked by his unyielding pursuit of power. He believed that the island was a test from the gods, a trial to prove his worthiness. Under his leadership, his faction became known for their discipline and military prowess, often clashing with other survivor groups in brutal conflicts. Nerva’s vision was clear: to conquer the ARK and establish a new Roman Empire, with himself as its emperor.
+
+Despite his harsh methods, Nerva was a complex character. He was driven by a deep sense of duty and a belief in the Roman ideals of order and civilization. His interactions with other survivors were often marked by a mix of respect and intimidation, as he sought to bend them to his will or eliminate them as threats.",
+		"startIntroPart2": "",
 
 		"declaringWar": "I'm going to cut your throat, my soldiers are ready!",
 		"attacked": "You don't know what Rome is capable of.",
@@ -134,8 +156,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Ingalo, a former sailor with a deep love for the sea, wakes up on the mysterious Lost Island, surrounded by ruins and dense jungles. The island is a place of stark contrasts, with towering mountains, lush forests, and ancient ruins hinting at a long-lost civilization. Using his knowledge of navigation and shipbuilding, Ingalo constructs a sturdy raft to explore the island’s vast waterways. Along the way, he encounters remnants of the ancient civilization, including mysterious artifacts and structures. He also tames a ferocious Sinomacrops, which becomes his loyal companion and protector. Ingalo’s story is a quest for knowledge and adventure, as he pieces together the island’s history and uncovers its hidden treasures, all while battling the island’s many dangers and forging alliances with other survivors.",
+		"startIntroPart2": "",
 
 		"declaringWar": "The prophecy has arrived, it is time for conquest, we will kill whatever you put in front of us!",
 		"attacked": "Look, the little lamb is trying to fight the jungle lion, let's have a feast guys!",
@@ -164,8 +186,14 @@
 		"startBias": ["Beach"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Helena Walker is an Australian biologist and paleontologist who finds herself mysteriously transported to the ARK, a strange and dangerous world filled with prehistoric creatures and other survivors. Initially, she is bewildered and struggles to understand her new environment. However, her scientific curiosity and determination drive her to explore and document the various creatures she encounters.
+
+Helena’s background in biology and paleontology proves invaluable as she meticulously studies the flora and fauna of the ARK. She creates detailed dossiers, which become crucial for other survivors trying to navigate and survive in this perilous world. Her observations and insights help to unravel some of the mysteries of the ARK, including the behavior and characteristics of its inhabitants.
+
+Throughout her journey, Helena faces numerous challenges, from hostile creatures to the harsh elements. Despite these obstacles, she remains resilient and resourceful, using her knowledge and ingenuity to adapt and thrive. Her journey is not just about survival but also about discovery and understanding the true nature of the ARK.
+
+Helena’s story is one of growth and transformation, as she evolves from a scientist trying to make sense of her surroundings to a key figure in the ongoing struggle for survival and knowledge within the ARK.",
+		"startIntroPart2": "",
 
 		"declaringWar": "You have forced me to make this decision, goodbye.",
 		"attacked": "You must be joking right?",
@@ -194,8 +222,8 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Aleksander, a cunning strategist with a talent for leadership, finds himself on the sprawling map of Ragnarok. The land is vast and filled with dangers, from the fiery depths of the Wyvern Trench to the icy reaches of the Ice Dungeon. Aleksander quickly establishes a stronghold and forms alliances with other survivors, using his strategic mind to plan expeditions and defenses. With his tamed Giganotosaurus, Aleksander leads daring raids into enemy territory, battling powerful creatures and uncovering valuable resources. His story is one of leadership and conquest, as he strives to dominate the land and uncover the secrets of Ragnarok. Along the way, Aleksander faces numerous challenges, from rival tribes to the harsh environment, but his determination and cunning help him overcome them all. He dreams of building a new civilization on Ragnarok, one that can withstand any threat and thrive in this dangerous world.",
+		"startIntroPart2": "",
 
 		"declaringWar": "Do you hear the sound? The Tide, The Horde, is traveling on a longship towards your domain!",
 		"attacked": "HA HA HA I'm going to devour the flesh of your soldiers, bring them, I'm hungry!",
@@ -225,8 +253,8 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Ascension",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Erika, a fierce warrior with a strong sense of honor, awakens in the Norse-inspired realm of Fjordur. The land is filled with mythical creatures and ancient ruins, and Erika quickly proves her mettle by taming a majestic Griffin, which she names Storm. With Storm by her side, Erika explores the mystical realms of Asgard and Jotunheim, battling mythical creatures and defending her newfound home from invaders. Erika’s story is one of bravery and honor, as she seeks to unite the tribes of Fjordur against a common enemy. She discovers ancient relics and powerful artifacts that help her in her quest, and she forms alliances with other warriors who share her vision of a united Fjordur. Together, they face formidable foes and uncover the secrets of the land, all while striving to protect their home and their people.",
+		"startIntroPart2": "",
 
 		"declaringWar": "My people gather torches, we are going to burn your town! get ready!",
 		"attacked": "How dare you? Pathetic creature!",
@@ -255,8 +283,12 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Santiago Camacho, also known as Santiago da Costa, is a brilliant hacker and engineer from the Terran Federation. His story begins on the Aberrant ARK, a mysterious and dangerous environment filled with mutated creatures and corrupted landscapes. Santiago wakes up with no memory of how he got there, but he quickly realizes that the world he once knew is gone, devastated by the rampant spread of Element, a powerful and corruptive substance.
+
+Driven by a fierce determination to understand and combat the effects of Element, Santiago becomes a key figure in the fight for survival. His expertise in technology and engineering allows him to create advanced Tek gear and weapons, which are crucial for defending against the threats posed by the corrupted creatures and hostile survivors. Santiago’s knowledge of Element and its properties makes him invaluable to his tribe, as they struggle to reclaim their world from the chaos and destruction caused by this mysterious substance.
+
+Throughout his journey, Santiago faces numerous challenges and battles, both against the environment and other survivors who have been driven mad by the influence of Element. Despite the odds, he remains steadfast in his mission to find a way to stop the spread of Element and restore balance to the world. His story is one of resilience, ingenuity, and the relentless pursuit of knowledge in the face of overwhelming adversity.",
+		"startIntroPart2": "",
 
 		"declaringWar": "The federation was preparing during these years while you were domesticating phiomias, prepare to die!",
 		"attacked": "Oh boy, I warned you.",
@@ -285,8 +317,8 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Amanda, a resourceful general with a knack for invention, finds herself in the diverse and dangerous landscapes of Valguero. The environment is harsh and unforgiving, with predators lurking around every corner. Amanda quickly adapts, using her engineering skills to build intricate traps and defenses to protect herself. She befriends a pack of Deinonychus, who become her loyal companions and help her navigate the treacherous terrain. Amanda’s journey is one of ingenuity and survival, as she explores Valguero’s tundras, jungles, and underground caverns. She discovers hidden caves filled with valuable resources and ancient artifacts, which she uses to improve her defenses and create new inventions. Along the way, Amanda encounters other survivors and forms alliances, working together to overcome the many challenges of Valguero.",
+		"startIntroPart2": "",
 
 		"declaringWar": "My empire needs your lands, right now, if you surrender i´ll give you 250 Gold to spare expenses.",
 		"attacked": "HAHAHA, you are funny, weak and pathetic",
@@ -315,8 +347,8 @@
 		"startBias": ["Beach"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "Joana, a former graduated woman, finds herself mysteriously transported to the vibrant and treacherous Crystal Isles. The landscape is unlike anything she has ever seen, with floating islands, bioluminescent caves, and crystalline structures that shimmer in the sunlight. Joana quickly realizes that survival here will require all her wits and skills. She forms a bond with a Tropeognathus, after saving it from a flock of aggressive Wyverns. Together, they explore the floating islands, uncovering ancient secrets and battling hostile tribes that seek to control the island’s unique resources. Joana’s journey is one of discovery and resilience, as she learns to harness the power of the crystals and the unique flora and fauna of the Crystal Isles to survive and thrive.",
+		"startIntroPart2": "",
 
 		"declaringWar": "I'm so sorry hun, I´m not perfect.",
 		"attacked": "Ouch, are you out of your mind?!",
@@ -345,8 +377,14 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+		"startIntroPart1": "HLN-A, or Helena, is an artificial intelligence entity created by Dr. Helena Walker, one of the original survivors in the ARK universe. Helena Walker was a brilliant biologist who, after surviving the trials of the ARKs, ascended to a higher plane of existence. In her new form, she created HLN-A to assist other survivors.
+
+HLN-A is designed to be a guide and companion for players, providing them with crucial information, mission briefings, and support throughout their journey in the Genesis Simulation. She embodies Helena’s personality, including her curiosity, intelligence, and compassion, making her more than just a robotic assistant. HLN-A’s primary role is to help players understand and navigate the complex environments and challenges they face, from hostile creatures to intricate puzzles.
+
+Throughout the game, HLN-A offers insights into the lore of the ARK universe, revealing bits of Helena’s own story and the broader narrative of the ARKs. She also helps players by marking mission objectives, offering tips, and even providing some comic relief with her witty remarks.
+
+HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her efforts to ensure the survival and success of future generations of survivors. Her guidance is invaluable as players strive to uncover the mysteries of the Genesis Simulation and ultimately, the true purpose of the ARKs.",
+		"startIntroPart2": "",
 
 		"declaringWar": "I'm so sorry survivor, I have to eliminate you.",
 		"attacked": "It looks like this is a database interference!.",

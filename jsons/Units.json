@@ -593,6 +593,66 @@
 		"attackSound": "snake"
 	},
         {
+		"name": "Lepidoptera",
+		"unitType": "Insect",
+		"movement": 4,
+		"strength": 10, 
+		"cost": 40,
+		"requiredTech": "Greenhouse",
+		"uniques": ["[+50]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Flood plains] tiles>","[+33]% Strength <when fighting in [Grassland] tiles>","[+33]% Strength <when fighting in [Montano] tiles>","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Grenade",
+		"attackSound": "insec"
+	},
+        {
+		"name": "Permarachne Queen",
+		"unitType": "Insect",
+		"movement": 3,
+		"strength": 20,
+		"cost": 230,
+		"requiredTech": "Fabricator",
+		"uniques": ["Free [Permarachne] appears <upon defeating a [Wounded] unit> <with [40]% chance>","Can move after attacking","[+20]% Strength bonus for [Permarachne] units within [2] tiles","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Flamethrower",
+		"attackSound": "insec"
+	},
+        {
+		"name": "Permarachne",
+		"unitType": "Insect",
+		"movement": 3,
+		"strength": 50,
+		"cost": 130,
+		"requiredTech": "Fabricator",
+		"uniques": ["Free [Permarachne Egg] appears <upon defeating a [Wounded] unit> <with [40]% chance>","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Flamethrower",
+		"attackSound": "insec"
+	},
+        {
+		"name": "Permarachne Spiderlings",
+		"unitType": "Insect",
+		"movement": 0,
+		"strength": 5,
+		"cost": 0,
+		"requiredTech": "Fabricator",
+		"uniques": ["Can transform to [Permarachne]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Flamethrower",
+		"attackSound": "insec"
+	},
+        {
+		"name": "Permarachne Egg",
+		"unitType": "Insect",
+		"movement": 0,
+		"strength": 5,
+		"cost": 0,
+		"requiredTech": "Fabricator",
+		"uniques": ["Can transform to [Permarachne Spiderlings]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Flamethrower",
+		"attackSound": "insec"
+	},
+        {
 		"name": "Beelzebufo Rider",
 		"unitType": "Amphibious",
 		"movement": 3,
