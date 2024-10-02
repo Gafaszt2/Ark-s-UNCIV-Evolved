@@ -861,6 +861,69 @@
                 "requiredTech": "Pliers"
 	},
         {
+		"name": "Situations Vacant",
+		"hurryCostModifier": 50,
+                "maintenance": 4,
+		"uniques": ["Provides [2] [Worker]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Medicine Hut",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "food": 2,
+                "faith": 1,
+                "requiredResource": "Worker"
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Immunity] promotion <with [15]% chance>"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Market",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "gold": 2,
+                "happiness": 1,
+                "requiredResource": "Worker"
+		"uniques": ["Free [Great Merchant] appears","[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Amphitheater",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "culture": 2,
+                "requiredResource": "Worker"
+		"uniques": ["[+2 Culture] from [Lakes] tiles [in this city]","[+2 Culture] from [Marsh] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Station",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "science": 2,
+                "requiredResource": "Worker"
+		"uniques": ["[+1 Science] from [Mountain] tiles [in this city]","[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Wood] tiles [in this city]","[+1 Science] from [Chitin] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Igloo",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "food": 3,
+                "requiredResource": "Worker"
+		"uniques": ["Must not be on [Desert]","Must be next to [Snow]","[+2 Production] from [Yutyrannus] tiles [in this city]","[+2 Production] from [Woolly Rhino] tiles [in this city]","[+2 Production] from [Purlovia] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Great Burial Tomb",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "faith": 3,
+                "requiredResource": "Worker"
+		"uniques": ["Must not be on [Tundra]","Must not be on [Snow]","Must be next to [Desert]","[+1 Faith] from [Desert] tiles [in this city]","[+1 Faith] from [Cactus Sap] tiles [in this city]","[+1 Faith] from [Velona] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
 		"name": "Cristalized Works",
                 "production": 1
 		"hurryCostModifier": 20,
@@ -1138,22 +1201,26 @@
 		"requiredTech": "Metal House"
 	},
         {
-		"name": "Bazaar",
-		"uniqueTo": "Qamar Empire",
-		"gold": 2,
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
-		"requiredTech": "Dock"
-	},
-        {
 		"name": "Mint",
                 "maintenance": 2,
 		"requiredNearbyImprovedResources": ["Metal", "Chitin"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from [Metal] tiles [in this city]", "[+1 Gold] from [Chitin] tiles [in this city]"],
 		"requiredTech": "Metal House"
+	},
+        {
+		"name": "Copper Mine",
+                "maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["[-20]% Culture cost of natural border growth [in this city]", "[+1 Gold] from [Mine] tiles [in this city]"],
+		"requiredTech": "Metal Pick"
+	},
+        {
+		"name": "Distillery",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% [Happiness] [in this city]","[+2 Faith] from [Plantation] tiles [in this city]"],
+		"requiredTech": "Metal Pick"
 	},
         {
 		"name": "Bank",
@@ -1171,49 +1238,7 @@
 		"requiredTech": "Fabricator",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-        {
-		"name": "Factory",
-                "uniqueTo": "Mercenaries",
-		"cost": 360,
-		"production": 4,
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredResource": "Oil",
-		"requiredTech": "Fabricator"
-	},
-        {
-		"name": "Hospital",
-                "uniqueTo": "Vooruit",
-		"food": 1,
-		"maintenance": 2,
-		"hurryCostModifier": 0,
-		"requiredTech": "Polymer"
-	},
-        {
-		"name": "Coffee House",
-		"uniqueTo": "Uralkodik",
-		"production": 2,
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"requiredTech": "Canteen"
-	},
-        {
-		"name": "Simple Kibble",
-		"maintenance": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Allosaurus]","Provides [1] [Sarcosuchus]"],
-		"requiredResource": "Chitin",
-		"requiredTech": "Tranq Arrow"
-	},
-	{
-		"name": "Extraordinary Kibble",
-		"maintenance": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Tyrannosaurus]","Provides [1] [Woolly Rhino]"],
-		"requiredResource": "Metal",
-		"requiredTech": "Cryopod"
-	}
-        {
+                {
 		"name": "Thatch Forge",
 		"maintenance": 2,
 		"hurryCostModifier": 25,

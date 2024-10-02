@@ -300,9 +300,15 @@
 		"techs": [
 			{
 				"name": "Crossbow",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Dock"],
 				"quote": "Chu ko nu?"
+			},
+                        {
+				"name": "Reservoir",
+				"row": 5,
+				"prerequisites": ["Tranq Arrow"],
+				"quote": "Ark Civilizations did develop Reservoirs to maintain their resources on average conditions."
 			},
                         {
 				"name": "Pike",
@@ -336,7 +342,7 @@
                         {
 				"name": "Metal Tap",
 				"row": 3,
-				"prerequisites": ["Crossbow"],
+				"prerequisites": ["Crossbow","Reservoir"],
 				"quote": "Irrigation Upgrades."
                                 "uniques": ["[+2 Food] from [Plantation] tiles [in all cities]","[+2 Culture] from [Plantation] tiles [in all cities]"],
 			},

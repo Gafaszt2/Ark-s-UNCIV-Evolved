@@ -1048,6 +1048,18 @@
 		"attackSound": "marine"
 	},
         {
+		"name": "Dorudon Rider",
+                "obsoleteTech": "Dock",
+                "upgradesTo": "Plesio Rider",
+		"unitType": "Cetaceous",
+		"movement": 2,
+		"strength": 30,
+		"cost": 95,
+                "uniques": ["[-40]% production cost <for [City-States]>"],
+		"requiredTech": "Fishing Rod",
+		"attackSound": "marine"
+	},
+        {
 		"name": "Plesio Rider",
                 "obsoleteTech": "GPS",
                 "upgradesTo": "Dunkleosteous Rider",
@@ -1056,6 +1068,31 @@
 		"strength": 45,
 		"cost": 140,
 		"requiredTech": "Dock",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Hyneria Rider",
+                "obsoleteTech": "GPS",
+                "upgradesTo": "Dunkleosteous Rider",
+		"unitType": "Fish",
+		"movement": 4,
+		"strength": 55,
+		"cost": 170,
+                "promotions": ["River Monster"],
+                "uniques": ["[-30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Amphibious] units>"],
+		"requiredTech": "Dock",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Zygophyseter Rider",
+                "obsoleteTech": "GPS",
+                "upgradesTo": "Dunkleosteous Rider",
+		"unitType": "Cetaceous",
+		"movement": 3,
+		"strength": 50,
+		"cost": 195,
+                "uniques": ["[+30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Fish] units>","[1] additional attacks per turn","[15] HP when healing","Heals [15] damage if it kills a unit"],
+		"requiredTech": "Crossbow",
 		"attackSound": "marine"
 	},
         {
@@ -1075,7 +1112,7 @@
 		"movement": 2,
 		"strength": 60,
                 "requiredResource": "Metal",
-                "uniques": ["[+30]% Strength <vs [Plesio Rider] units>","[+30]% Strength <vs [Mosa Rider] units>","This Unit gains [30] XP <upon entering a new era>"],
+                "uniques": ["[+30]% Strength <vs [Plesio Rider] units>","[+35]% Strength <vs [Mosa Rider] units>","This Unit gains [30] XP <upon entering a new era>"],
 		"cost": 190,
 		"requiredTech": "GPS",
 		"attackSound": "marine"
@@ -1087,6 +1124,37 @@
 		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Radio",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Basiloceras Rider",
+		"unitType": "Fish",
+		"movement": 1,
+		"strength": 145,
+                "uniques": ["[+20]% Strength decreasing with distance from the capital"],
+		"cost": 650,
+		"requiredTech": "Radio",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Cladoselache",
+		"unitType": "Fish",
+		"movement": 5,
+		"strength": 50,
+                "uniques": ["This Unit gains [15] XP <upon damaging a [Wounded] unit>"],
+		"cost": 350,
+                "promotions": ["Hidden"],
+		"requiredTech": "Island Bosses",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Anomalocaris Rider",
+		"unitType": "Fish",
+		"movement": 3,
+		"strength": 220,
+                "uniques": ["Earn [100]% of killed [Wounded] unit's [Cost] as [Culture]","May capture killed [Wounded] units","[+55]% XP gained from combat"],
+		"cost": 670,
+		"requiredTech": "Island Bosses",
 		"attackSound": "marine"
 	},
         {

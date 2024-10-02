@@ -960,6 +960,14 @@
 		]
 	},
         {
+		"name": "Worker",
+                "resourceType": "Strategic",
+                "revealedBy": "Reservoir",
+                "civilopediaText": [
+			{"text": "Hard Working Civilian."}
+		]
+	},
+        {
 		"name": "Gas",
                 "resourceType": "Strategic",
                 "revealedBy": "Electronics",

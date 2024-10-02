@@ -1,5 +1,14 @@
 [
 {
+                "name": "Hidden",
+                "uniques": ["Invisible to others","Can see invisible [Cladoselache] units"],
+        },
+{
+                "name": "River Monster",
+                "uniques": ["[2] additional attacks per turn"],
+        },
+
+{
                 "name": "Predecessor",
                 "uniques": ["[+1] Movement <in [Coast] tiles>","[+1] Movement <in [Ocean] tiles>","[+2] Movement <in [Marsh] tiles>","[+1] Movement <in [Beach] tiles>","[-1] Movement <in [Plains] tiles>","[-1] Movement <in [Desert] tiles>","[-1] Movement <in [Grassland] tiles>","[-1] Movement <in [Montano] tiles>","[-1] Movement <in [Tundra] tiles>","[-1] Movement <in [Snow] tiles>",
 "[+30]% Strength <when fighting in [Beach] tiles>","[+30]% Strength <when fighting in [Marsh] tiles>","[+30]% Strength <when fighting in [Coast] tiles>","[+30]% Strength <when fighting in [Bog] tiles>","[+30]% Strength <when fighting in [Snowy Beach] tiles>"],
