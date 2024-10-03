@@ -275,15 +275,6 @@
 		"requiredTech": "Stone Hatchet"
 	},
         {
-		"name": "U Bein Bridge",
-                "uniqueTo": "Kerajaan Burma",
-                "maintenance": 2,
-		"hurryCostModifier": 20,
-                "requiredNearbyImprovedResources": ["Coelacanth"],
-		"uniques": ["[+2 Production] from [Coelacanth] tiles [in this city]"],
-		"requiredTech": "Stone Hatchet"
-	},
-        {
 		"name": "Rockwell Stories",
                 "greatPersonPoints": {"Great Prophet": 1},
 		"faith": 2,
@@ -318,17 +309,6 @@
 		"requiredTech": "Bookshelf"
 	},
         {
-		"name": "Corrobore Grounds",
-                "replaces": "Bookshelf",
-		"uniqueTo": "Gondwana",
-                "greatPersonPoints": {"Great Scientist": 1},
-                "maintenance": 1,
-		"science": 1,
-                "culture": 2,
-		"hurryCostModifier": 50,
-		"requiredTech": "Bookshelf"
-	},
-        {
 		"name": "Regular Lands",
                 "greatPersonPoints": {"Great Scientist": 1},
                 "maintenance": 1,
@@ -356,28 +336,6 @@
                 "requiredNearbyImprovedResources": ["Metal","Chitin"],
 		"hurryCostModifier": 50,
 		"uniques": ["[+1 Production] from [Chitin] tiles [in this city]", "[+1 Production] from [Metal] tiles [in this city]"],
-		"requiredBuilding": "Heavy Stone Working",
-                "requiredTech": "Smithy"
-	},
-        {
-		"name": "Human Skin Remover",
-                "replaces": "Smithies",
-		"uniqueTo": "Furtaker Empire",
-                "maintenance": 4,
-		"hurryCostModifier": 50,
-		"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city]"],
-		"requiredBuilding": "Heavy Stone Working",
-                "requiredTech": "Smithy"
-	},
-        {
-		"name": "Blacksmith",
-                "replaces": "Smithies",
-		"uniqueTo": "Uralkodik",
-                "maintenance": 1,
-		"production": 1,
-                "requiredNearbyImprovedResources": ["Metal","Chitin"],
-		"hurryCostModifier": 50,
-		"uniques": ["[+2 Production] from [Chitin] tiles [in this city]", "[+2 Production] from [Metal] tiles [in this city]"],
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Smithy"
 	},
@@ -472,6 +430,17 @@
                 "cityStrength": 5,
 		"cityHealth": 100,
 		"gold": 4,
+		"hurryCostModifier": 50,
+		"requiredTech": "Wooden Houses"
+	}, 
+        {
+		"name": "Crystal Cave",
+                "replaces": "Wooden Fort",
+		"uniqueTo": "Crystal Isles",
+                "cityStrength": 5,
+		"cityHealth": 110,
+		"gold": 2,
+                "science": 2,
 		"hurryCostModifier": 50,
 		"requiredTech": "Wooden Houses"
 	},
@@ -1412,6 +1381,18 @@ What is very different from today’s tree anatomy is that the center of the woo
 
 		"requiredBuilding": "Prehistoric Trees",
                 "requiredTech": "Metal Tap"
+	},
+        {
+		"name": "Slavery",
+                "uniques": ["Triggers a [Slavery] event <hidden from users>","Unbuildable <hidden from users>","Cannot be purchased <hidden from users>"],
+		"hurryCostModifier": 50,
+                "requiredTech": "Agriculture"
+	},
+        {
+		"name": "Trash event",
+                "uniques": ["Triggers a [Trash] event <hidden from users>","Unbuildable <hidden from users>","Cannot be purchased <hidden from users>"],
+		"hurryCostModifier": 50,
+                "requiredTech": "Island Bosses"
 	},
         
 ]

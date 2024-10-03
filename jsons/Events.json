@@ -1,5 +1,47 @@
 [
 {
+                "name": "Trash",
+                "text": "We have encountered trash on multiple places, due to our expansion and industrialization and also contamination",
+                "choices":[
+                        {
+                                "text": "We will burn the trash
+
+Why not?",
+                                "triggeredUniques": ["[-3 Happiness] from [Trash] tiles [in all cities] <for [100000] turns>","[+2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "We will make recycling centers
+
+It´s our responsability to take care of the Ark we live on",
+                                "triggeredUniques": ["[+2 Gold] from [Trash] tiles [in all cities] <for [100000] turns>","[-2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Not our Problem
+
+Let´s go the other way",
+                                "triggeredUniques": ["[-1 Happiness] from [Ranch] tiles [in all cities] <for [100000] turns>"]
+                        }
+                ]
+        },
+{
+                "name": "Slavery",
+                "text": "As our civilization must grow, we considered slavery, but we should?",
+                "choices":[
+                        {
+                                "text": "Our Nation Will Adopt Slavery
+
+Our Enemies must become our Slaves",
+                                "triggeredUniques": ["Free [Slave] appears <upon defeating a [Gunpowder] unit> <with [40]% chance> <for [100000] turns>","Free [Slave] appears <upon defeating a [Sword] unit> <with [40]% chance> <for [100000] turns>"]
+                        },
+                        {
+                                "text": "Our Nation Won´t Adopt Slavery
+
+Our own people need to work harder",
+                                "triggeredUniques": ["[+1 Production] [in all cities] <for [100000] turns>","[+2 Production] [in all cities] <when not at war> <for [100000] turns>"]
+                        }
+                ]
+        },
+{
                 "name": "Prehistoric Trees",
                 "text": "Pick your unique",
                 "choices":[

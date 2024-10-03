@@ -144,6 +144,15 @@
                 "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
         },
         {
+		"name": "Dodo",
+		"unitType": "Land Avian",
+		"movement": 1,
+		"strength": 4,
+		"cost": 19,
+		"attackSound": "dodo"
+                "uniques": ["Never appears as a Barbarian unit"],
+        },
+        {
 		"name": "HLNA",
                "requiredResource": "Tek",
 		"unitType": "Scout",
@@ -653,6 +662,15 @@
 		"attackSound": "insec"
 	},
         {
+		"name": "Slave",
+		"unitType": "Civilian",
+		"movement": 1,
+		"strength": 5,
+		"cost": 0,
+		"attackSound": "nonmetalhit"
+                "uniques": ["Can build [Land] improvements on tiles","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
+        },
+        {
 		"name": "Beelzebufo Rider",
 		"unitType": "Amphibious",
 		"movement": 3,
@@ -912,7 +930,7 @@
 		"cost": 150,
 		"requiredTech": "Pliers",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Consumes [1] [Steel]","[+20]% Strength <vs [Sword] units>","[-20]% Strength <vs [Mammal] units>","[+10]% Strength <vs [Siege] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Steel]","[+20]% Strength <vs [Sword] units>","[-20]% Strength <vs [Mammal] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Critical"],
 		"attackSound": "spino"
@@ -1157,46 +1175,7 @@
 		"requiredTech": "Island Bosses",
 		"attackSound": "marine"
 	},
-        {
-		"name": "MiniCannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 39,
-		"rangedStrength": 58,
-		"cost": 170,
-		"requiredTech": "Metal House",
-                "obsoleteTech": "Fabricator",
-                "requiredResource": "Steel",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Ceratopsia] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-        {
-		"name": "Light Cannon",
-		"unitType": "Siege",
-		"movement": 4,
-		"strength": 50,
-		"rangedStrength": 80,
-		"cost": 180,
-		"requiredTech": "GPS",
-                "requiredResource": "Steel",
-                "obsoleteTech": "Flamethrower",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Ornithopoda] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-        {
-		"name": "Heavy Cannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 80,
-		"cost": 200,
-                "requiredResource": "Steel",
-		"requiredTech": "GPS",
-                "obsoleteTech": "Flamethrower",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Thyreofora] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-        {
+                {
 		"name": "Stegouros",
 		"unitType": "Thyreofora",
 		"movement": 2,
@@ -1204,23 +1183,10 @@
 		"cost": 180,
 		"requiredTech": "GPS",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+200]% Strength <vs [Siege] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+70]% Strength <vs [Sword] units>","Never appears as a Barbarian unit"],
 		"attackSound": "dinoherb"
 	},
-        {
-		"name": "Final Electric Cannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 140,
-		"rangedStrength": 170,
-		"cost": 390,
-		"requiredTech": "Flamethrower",
-                "obsoleteTech": "Island Bosses",
-                "requiredResource": "Steel",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","[+30]% Strength <vs [Thyreofora] units>","[+10]% Strength <vs [Mammal] units>","[-20]% Strength <vs [Fantasy] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-        {
+                {
 		"name": "Rhino Rider",
 		"unitType": "Mammal",
 		"movement": 3,
@@ -1247,6 +1213,19 @@
 		"attackSound": "chalico"
 	},
         {
+		"name": "Gallimimus Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 25,
+		"cost": 90,
+		"requiredTech": "Chainsaw",
+                "obsoleteTech": "Chain Bola",
+		"uniques": ["All healing effects doubled","Earn [50]% of the damage done to [City] units as [Gold]","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+
+        {
 		"name": "Prolibytherium",
 		"unitType": "Mammal",
 		"movement": 3.5,
@@ -1255,7 +1234,7 @@
 		"requiredTech": "Grenade",
                 "requiredResource": "Steel",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+44]% Strength <vs [Sword] units>","[+55]% Strength <vs [Siege] units>","Can move after attacking"],
+		"uniques": ["[+44]% Strength <vs [Sword] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1414,35 +1393,6 @@
 		"attackSound": "chalico"
 	},
         {
-		"name": "Tropical Wyvern",
-                "replaces": "Tropeo Rider",
-		"uniqueTo": "Crystal Isles",
-                "upgradesTo": "Tek Rex Rider",
-		"unitType": "Fantasy",
-		"movement": 4,
-		"strength": 85,
-		"cost": 290,
-		"requiredTech": "Auto Torret",
-                "requiredResource": "Oil",
-		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
-		"hurryCostModifier": 20,
-		"attackSound": "dragon"
-	},
-        {
-		"name": "Blood Wyvern",
-                "replaces": "Giga Rider",
-		"uniqueTo": "Crystal Isles",
-                "upgradesTo": "Tek Rex Rider",
-		"unitType": "Fantasy",
-		"movement": 4,
-		"strength": 190,
-		"cost": 215,
-		"requiredTech": "Auto Torret",
-                "requiredResource": "Biotoxin",
-		"hurryCostModifier": 20,
-		"attackSound": "dragon"
-	},
-        {
 		"name": "Velonasaur Rider",
                 "upgradesTo": "Giga Rider",
 		"unitType": "Theropoda",
@@ -1540,7 +1490,7 @@
 		"attackSound": "dragon"
 	},
         {
-		"name": "Tropeo Rider",
+		"name": "Dsungaripterus Rider",
                 "upgradesTo": "Tek Rex Rider",
 		"unitType": "Flying",
 		"movement": 4,
@@ -1549,6 +1499,21 @@
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Oil",
 		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "tropeo"
+	},
+        {
+		"name": "Tropeognathus Rider",
+                "uniqueTo": "Crystal Isles",
+                "replaces": "Dsungaripterus Rider",
+                "upgradesTo": "Tek Rex Rider",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 80,
+		"cost": 225,
+		"requiredTech": "Auto Torret",
+                "requiredResource": "Oil",
+		"uniques": ["[+75]% Strength <vs cities>","[+33]% Strength <vs [Theropoda] units>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
 	},
@@ -1578,7 +1543,6 @@
 	},
         {
 		"name": "Flamethrower Survivor",
-                "upgradesTo": "New Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 100,
@@ -1597,19 +1561,6 @@
 		"requiredTech": "Assault Riffle",
 		"uniques": ["Consumes [2] [Steel]","Consumes [1] [Oil]","Consumes [2] [Metal]","[+44]% Strength <vs [Engineer] units>","[+44]% Strength <vs [Theropoda] units>","[+44]% Strength <vs [Sauropodomorpha] units>","[+44]% Strength <vs [Giga Rider] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "fire"
-	},
-        {
-		"name": "City Destroyer",
-                "upgradesTo": "New Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 50,
-		"cost": 300,
-		"requiredTech": "Flamethrower",
-                "obsoleteTech": "Tek Sword",
-		"uniques": ["[+190]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
 	},
         {
 		"name": "Sniper",
@@ -1796,7 +1747,7 @@
 	},
         {
 		"name": "Wyvern",
-                "replaces": "Tropeo Rider",
+                "replaces": "Dsungaripterus Rider",
 		"uniqueTo": "Scorched Earth",
 		"unitType": "Fantasy",
 		"movement": 4,
@@ -1858,7 +1809,7 @@
 	},
         {
 		"name": "Desmodus",
-                "replaces": "Tropeo Rider",
+                "replaces": "Dsungaripterus Rider",
 		"uniqueTo": "Fjordur",
 		"unitType": "Mammal",
 		"movement": 3,
@@ -2147,9 +2098,20 @@
 		"cost": 700,
                 "requiredResource": "Tek",
 		"requiredTech": "Aberration Creatures",
-		"uniques": ["[+35]% Strength <vs [Siege] units>", "Can move after attacking"],
+		"uniques": ["Free [Impregnated Survivor] appears <upon defeating a [Gunpowder] unit> <with [80]% chance>","Free [Impregnated Survivor] appears <upon defeating a [Sword] unit> <with [80]% chance>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "reaper"
+	},
+        {
+		"name": "Impregnated Survivor",
+		"unitType": "Sword",
+		"movement": 0,
+		"strength": 5,
+		"cost": 0,
+		"requiredTech": "Aberration Creatures",
+		"uniques": ["Can transform to [Reaper]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "insec"
 	},
         {
 		"name": "Glider Survivor",
@@ -2159,7 +2121,6 @@
 		"cost": 550,
                 "requiredResource": "Tek",
 		"requiredTech": "Glider Suit",
-		"uniques": ["[+70]% Strength <vs [Siege] units>"],
 		"attackSound": "nonmetalhit"
 	},
         {
@@ -2173,19 +2134,7 @@
 		"uniques": ["[+120]% Strength <vs [Fantasy] units>"],
 		"attackSound": "nonmetalhit"
 	},
-        {
-		"name": "New Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 145,
-		"rangedStrength": 145,
-		"cost": 355,
-                "requiredResource": "Tek",
-		"requiredTech": "Tek Sword",
-		"uniques": ["[+30]% Strength <vs cities> <when attacking>", "[+15]% Strength <vs [Theropoda] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "fire"
-	},
-        {
+                {
 		"name": "Tek HomoDeus",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -2193,7 +2142,6 @@
                 "requiredResource": "Tek",
 		"cost": 300,
 		"requiredTech": "Tek Armor",
-		"uniques": ["[+70]% Strength <vs [Siege] units>"],
 		"attackSound": "nonmetalhit"
 	},
         ]
