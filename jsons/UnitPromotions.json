@@ -1,5 +1,34 @@
 [
 {
+                "name": "Longevity",
+                "innerColor": [23, 10, 31],
+		"outerColor": [177, 125, 209],
+                "unitTypes": ["Testudines"],
+                "uniques": ["All healing effects doubled"],
+        },
+{
+                "name": "Shells",
+                "innerColor": [23, 10, 31],
+		"outerColor": [177, 125, 209],
+                "unitTypes": ["Testudines"],
+                "uniques": ["[+25]% Strength <when defending>"],
+        },
+{
+                "name": "Digging Skill",
+                "innerColor": [23, 10, 31],
+		"outerColor": [177, 125, 209],
+                "unitTypes": ["Testudines"],
+                "uniques": ["Double movement in [Beach]"],
+        },
+
+
+
+
+
+
+
+
+{
                 "name": "Hidden",
                 "uniques": ["Invisible to others","Can see invisible [Cladoselache] units"],
         },
@@ -238,17 +267,17 @@
 {
                 "name": "Swamp Terror",
                 "unitTypes": ["Insect"],
-                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+10]% Strength <vs [Theropoda] units>","[+10]% Strength <vs [Fantasy] units>"],
+                "uniques": ["[+10]% Strength <vs [Theropoda] units>","[+10]% Strength <vs [Fantasy] units>"],
         },
 {
                 "name": "Swarm",
                 "unitTypes": ["Insect"],
-                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+25]% Strength <vs [Mammal] units>"],
+                "uniques": ["[+25]% Strength <vs [Mammal] units>"],
         },
 {
                 "name": "Cave Predator",
                 "unitTypes": ["Insect"],
-                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [Friendly Land] tile>","[+10]% Strength <vs [Civilian] units>","[+10]% Strength <vs [Flying] units>"],
+                "uniques": ["[+10]% Strength <vs [Gunpowder] units>","[+10]% Strength <vs [Flying] units>"],
         },
 	{
 		"name": "Amphibious",

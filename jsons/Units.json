@@ -144,6 +144,18 @@
                 "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
         },
         {
+		"name": "Cub Survivor",
+                "requiredResource": "Fiber",
+		"unitType": "Sword",
+		"movement": 1,
+		"strength": 20,
+		"cost": 65,
+		"attackSound": "nonmetalhit"
+                "upgradesTo": "Survivor",
+		"obsoleteTech": "Bow and Arrow",
+                "uniques": ["Requires at least [1] population","Never appears as a Barbarian unit"],
+        },
+        {
 		"name": "Dodo",
 		"unitType": "Land Avian",
 		"movement": 1,
@@ -302,7 +314,7 @@
         },
         {
 		"name": "Survivor",
-		"unitType": "Sword",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 16,
 		"cost": 50,
@@ -312,6 +324,19 @@
                 "obsoleteTech": "Crossbow",
                 "requiredResource": "Thatch",
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
+        },
+        {
+		"name": "Spear Survivor",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 25,
+		"cost": 95,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Bow and Arrow",
+                "upgradesTo": "Crossbow Survivor",
+                "obsoleteTech": "Crossbow",
+                "requiredResource": "Thatch",
+                "uniques": ["Requires at least [1] population"],
         },
         {
 		"name": "Crossbow Survivor",
@@ -1077,6 +1102,66 @@
 		"requiredTech": "Fishing Rod",
 		"attackSound": "marine"
 	},
+{
+		"name": "Hydromedusa",
+                "obsoleteTech": "GPS",
+		"unitType": "Testudines",
+		"movement": 2,
+		"strength": 15,
+		"cost": 90,
+                "uniques": ["May travel on Water tiles without embarking","Can move after attacking",
+"[-1] Movement <in [Hill] tiles> <hidden from users>",
+"[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
+"[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
+"[+44]% Strength <when fighting in [Lakes] tiles> <when attacking>"
+],
+		"requiredTech": "Spyglass",
+		"attackSound": "dinoherb"
+	},
+        {
+		"name": "Archelon Rider",
+                "obsoleteTech": "Dock",
+		"unitType": "Testudines",
+		"movement": 1,
+		"strength": 30,
+		"cost": 95,
+                "uniques": ["May travel on Water tiles without embarking","Can move after attacking",
+"[-1] Movement <in [Hill] tiles> <hidden from users>",
+"[+3] Movement <in [Ocean] tiles> <hidden from users>",
+"[+3] Movement <in [Coast] tiles> <hidden from users>",
+"[+1] Movement <in [Beach] tiles> <hidden from users>",
+],
+		"requiredTech": "Fishing Rod",
+		"attackSound": "dinoherb"
+	},
+        {
+		"name": "Protostega Rider",
+                "obsoleteTech": "GPS",
+		"unitType": "Testudines",
+		"movement": 1,
+		"strength": 35,
+		"cost": 110,
+                "uniques": ["May travel on Water tiles without embarking","Can move after attacking",
+"[-1] Movement <in [Hill] tiles> <hidden from users>",
+"[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
+"[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
+"[+44]% Strength <when fighting in [Lakes] tiles> <when attacking>",
+"This Unit takes [5] damage <upon ending a turn in a [Hill] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Grassland] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Beach] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Plains] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Tundra] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Montano] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
+"This Unit takes [5] damage <upon ending a turn in a [Snow] tile> <hidden from users>",
+"[+3] Movement <in [Ocean] tiles> <hidden from users>",
+"[+3] Movement <in [Lakes] tiles> <hidden from users>",
+"[+3] Movement <in [Coast] tiles> <hidden from users>"
+],
+		"requiredTech": "Electronics",
+		"attackSound": "dinoherb"
+	},
+
         {
 		"name": "Plesio Rider",
                 "obsoleteTech": "GPS",
@@ -1334,6 +1419,18 @@
 		"hurryCostModifier": 20,
                 "promotions": ["Swamp Creature","Amphibious","Adapted"],
 		"attackSound": "croc"
+	},
+        {
+		"name": "Quagga Rider",
+		"unitType": "Mammal",
+		"movement": 5,
+		"strength": 40,
+		"cost": 55,
+		"requiredTech": "Flamethrower",
+		"uniques": ["[+35]% Strength <when defending>","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Swamp Creature","Amphibious","Adapted"],
+		"attackSound": "horse"
 	},
 
         {
