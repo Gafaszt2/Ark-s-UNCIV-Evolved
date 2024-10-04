@@ -1,10 +1,121 @@
 [
 {
-                "name": "Quaternary",
+                "name": "Diving and Swimming",
+                "innerColor": [204, 216, 255],
+		"outerColor": [64, 73, 102],
+                "unitTypes": ["Pinnipeds"],
+                "uniques": ["[+20]% Strength <vs [Land] units>","[+44]% Strength <vs [Fish] units>"],
+        },
+{
+                "name": "Thermoregulation",
+                "innerColor": [204, 216, 255],
+		"outerColor": [64, 73, 102],
+                "unitTypes": ["Pinnipeds"],
+                "uniques": ["[+20]% XP gained from combat <in [Coast] tiles>","[+20]% XP gained from combat <in [Beach] tiles>"],
+        },
+{
+                "name": "Social Behavior",
+                "innerColor": [204, 216, 255],
+		"outerColor": [64, 73, 102],
+                "unitTypes": ["Pinnipeds"],
+                "uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"],
+        },
+
+
+
+
+
+
+{
+                "name": "Cambrian",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+20]% XP gained from combat"],
+        },
+{
+                "name": "Ordovician Silurian",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["Earn [3]% of killed [Wounded] unit's [Cost] as [Science]"],
+        },
+{
+                "name": "Devonian",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+15]% Strength <in [Natural Lake] tiles>","[+15]% Strength <in [Marsh] tiles>","[+15]% Strength <in [Swamp Zone] tiles>","[+10]% Strength <in [Lakes] tiles>","[+5]% Strength <in [Coast] tiles>"],
+        },
+{
+                "name": "Permian",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+15]% Strength <in [Oasis] tiles>","[+5]% Strength <in [Beach] tiles>","[+10]% Strength <in [Desert] tiles>"],
+        },
+{
+                "name": "Carboniferous",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+15]% Strength <in [Jungle] tiles>","[+5]% Strength <in [Coast] tiles>","[+10]% Strength <in [Beach] tiles>"],
+        },
+{
+                "name": "Triassic",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+5]% Strength <in [Natural Lake] tiles>","[+5]% Strength <in [Lakes] tiles>","[+5]% Strength bonus for [Amphibious] units within [3] tiles"],
+        },
+{
+                "name": "Jurassic",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+15]% Strength <in [Jungle] tiles>","[+15]% Strength bonus for [Theropoda] units within [3] tiles","[+15]% Strength bonus for [Thyreofora] units within [3] tiles"],
+        },
+{
+                "name": "Cretaceous",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+5]% Strength <in [Forest] tiles>","[+20]% Strength bonus for [Theropoda] units within [3] tiles","[+20]% Strength bonus for [Sauropodomorpha] units within [3] tiles"],
+        },
+
+
+{
+                "name": "Pliocene",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+5]% to Flank Attack bonuses"],
+        },
+{
+                "name": "Miocene",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+15]% Strength <in [Coast] tiles>","[+20]% Strength bonus for [Cetaceous] units within [3] tiles"],
+        },
+{
+                "name": "Oligocene",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+5]% Strength <in [Plains] tiles>","[+5]% Strength <in [Forest] tiles>"],
+        },
+{
+                "name": "Eocene",
                 "innerColor": [28, 36, 21],
 		"outerColor": [185, 224, 148],
                 "uniques": ["[-5]% Strength <in [Foreign Land] tiles>","[+15]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
         },
+{
+                "name": "Paleocene",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[+10]% Strength bonus for [Amphibious] units within [3] tiles","[+15]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
+        },
+{
+                "name": "Holocene",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[-5]% Strength <in [Foreign Land] tiles>","[+20]% Strength bonus for [Mammal] units within [3] tiles"],
+        },
+
+
+
+
 {
                 "name": "Longevity",
                 "innerColor": [23, 10, 31],
