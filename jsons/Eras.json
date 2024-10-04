@@ -31,7 +31,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
-        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures"],
+        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp"],
         "citySound": "cityLeather",
         "iconRGB": [227, 127, 43]
         "uniques": ["May not generate great prophet equivalents naturally"
@@ -49,7 +49,7 @@
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
-        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort"],
+        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort"],
         "startPercent": 25,
         "citySound": "citySmithy",
         "iconRGB": [247, 250, 195]
@@ -70,7 +70,7 @@
         "embarkDefense": 8,
         "startPercent": 37,
         "citySound": "cityElectric",
-        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
+        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
         "iconRGB": [254, 255, 235]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
@@ -87,7 +87,7 @@
         "settlerPopulation": 2,
         "baseUnitBuyCost": 320,
         "embarkDefense": 8,
-        "settlerBuildings": ["Ark Monument","Picking Up Stones","Picking Up Berries","Flint Recolection","Mining Beach Stones","Hunting Beach Creatures","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
+        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
         "startPercent": 37,
         "citySound": "cityTek",
         "iconRGB": [138, 251, 255]

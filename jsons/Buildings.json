@@ -15,29 +15,10 @@
 	},
 	{
 		"name": "Ark Monument",
-		"faith": 1,
-		"cost": 20,
+		"culture": 2,
+		"cost": 40,
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
-	},
-        {
-		"name": "Longhouse",
-                "replaces": "Ark Monument",
-		"uniqueTo": "The Great Warpath",
-		"food": 1,
-		"cost": 17,
-		"hurryCostModifier": 20,
-		"uniques": ["Destroyed when the city is captured"]
-	},
-        {
-		"name": "Monument",
-                "replaces": "Rockwell Stories",
-		"uniqueTo": "Saint Domain",
-                "greatPersonPoints": {"Great Prophet": 1},
-		"faith": 2,
-                "culture": 2,
-		"hurryCostModifier": 20,
-		"requiredTech": "Campfire"
 	},
         {
 		"name": "House of Mercenaries",
@@ -69,7 +50,7 @@
                         "[+1 Science] from [Dodo] tiles [in this city]",
                         "[+1 Faith] from [Stego] tiles [in this city]"
                         "[+1 Production] from [Dimorphodon] tiles [in this city]"],
-		"requiredTech": "Spear"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Crop Plantation",
@@ -80,18 +61,6 @@
 			"[+1 Food] from [Lemon] tiles [in this city]",
                         "[+1 Culture] from [Corn] tiles [in this city]"],
 		"requiredTech": "Waterskin"
-	},
-        {
-		"name": "Queens Hunting Place",
-                "replaces": "Hunt Place",
-		"uniqueTo": "Vooruit",
-		"culture": 1,
-		"hurryCostModifier": 20,
-                "requiredNearbyImprovedResources": ["Megaloceros", "Phiomia", "Ovis"],
-		"uniques": ["[+1 Gold] from [Megaloceros] tiles [in this city]",
-			"[+1 Gold] from [Phiomia] tiles [in this city]",
-			"[+1 Gold] from [Ovis] tiles [in this city]"],
-		"requiredTech": "Spear"
 	},
         {
 		"name": "Dino Nest",
@@ -105,24 +74,66 @@
                 "requiredTech": "Tranq Arrow"
 	},
         {
-		"name": "Picking Up Stones",
-                "uniques": ["Provides [1] [Fiber]"],
+		"name": "Temple",
+		"faith": 2,
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Flint Mine",
 		"production": 1,
 		"hurryCostModifier": 20,
 		"requiredTech": "Agriculture"
 	},
         {
-		"name": "Picking Up Berries",
-                "uniques": ["Provides [1] [Fiber]"],
+		"name": "Flint Tools",
+		"production": 1,
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Flint Mine",
+		"requiredTech": "Agriculture"
+	},
+        {
+		"name": "Flint Spears",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+                "uniques": ["[+1 Gold] from every specialist [in this city]"],
+                "requiredBuilding": "Flint Tools",
+		"requiredTech": "Spear"
+	},
+        {
+		"name": "Leader Statue",
+		"gold": 1,
+		"hurryCostModifier": 20,
+		"requiredTech": "Spear"
+	},
+        {
+		"name": "Local Government",
+                "uniques": ["[+1 Gold] from every specialist [in this city] <during We Love The King Day>","[+1 Food] from every specialist [in this city] <during We Love The King Day>"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Narcotics"
+	},
+        {
+		"name": "Farm",
 		"food": 1,
 		"hurryCostModifier": 20,
 		"requiredTech": "Agriculture"
 	},
         {
-		"name": "Flint Recolection",
-		"production": 1,
+		"name": "Water Channels",
+		"food": 1,
 		"hurryCostModifier": 20,
-		"requiredTech": "Stone Pick"
+                "requiredBuilding": "Farm",
+		"requiredTech": "Agriculture"
+	},
+        
+        {
+		"name": "Terraces",
+		"maintenance": 2,
+		"hurryCostModifier": 20,
+                "uniques": ["[+1 Food] from [Plantation] tiles [in this city]"],
+                "requiredBuilding": "Water Channels",
+		"requiredTech": "Waterskin"
 	},
         {
 		"name": "Water Recolection",
@@ -140,7 +151,7 @@
 			"[+1 Food] from [Azulberry] tiles [in this city]",
                         "[+1 Food] from [Mejoberry] tiles [in this city]",
 			"[+1 Food] from [Tintoberry] tiles [in this city]"],
-		"requiredTech": "Torch"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Deadly Lands",
@@ -149,7 +160,7 @@
 		"uniques": ["[+1 Food] from [Carnotaurus] tiles [in this city]",
 			"[+1 Food] from [Cactus Sap] tiles [in this city]",
                         "[+1 Food] from [Chupacabra] tiles [in this city]"],
-		"requiredTech": "Stone Pick"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Rare Studies",
@@ -157,7 +168,7 @@
                 "requiredNearbyImprovedResources": ["Rare Mushroom", "Rare Flower"],
 		"uniques": ["[+1 Production] from [Rare Mushroom] tiles [in this city]",
 			"[+1 Production] from [Rare Flower] tiles [in this city]"],
-		"requiredTech": "Stone Pick"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Redwood Predator",
@@ -165,7 +176,7 @@
                 "requiredNearbyImprovedResources": ["Thylacoleo"],
 		"uniques": ["[-1 Food] from [Thylacoleo] tiles [in this city]",
 			"[+2 Production] from [Thylacoleo] tiles [in this city]"],
-		"requiredTech": "Thatch Houses"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Desert Landmark",
@@ -173,7 +184,7 @@
                 "requiredNearbyImprovedResources": ["Sand","Thorny Dragon"],
 		"uniques": ["[+1 Production] from [Sand] tiles [in this city]",
 			"[+2 Faith] from [Thorny Dragon] tiles [in this city]"],
-		"requiredTech": "Thatch Houses"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Ice Age",
@@ -182,7 +193,7 @@
 		"uniques": ["[+1 Food] from [Mammoth] tiles [in this city]",
                             "[+1 Faith] from [Direbear] tiles [in this city]",
 			"[+1 Culture] from [Sabertooth] tiles [in this city]"],
-		"requiredTech": "Sleeping Bag"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Evolution Museum",
@@ -191,7 +202,7 @@
 		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Coelacanth] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
                             "[+1 Faith] from [Hatztegopteryx] tiles [in this city]",
 			"[+1 Culture] from [Meganeura] tiles [in this city]"],
-		"requiredTech": "Sleeping Bag"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Marine Mania",
@@ -200,7 +211,7 @@
 		"uniques": ["[+1 Food] from [Ichtyosaurus] tiles [in this city]",
                             "[+1 Faith] from [Ichtyornis] tiles [in this city]","[+1 Food] from [Kelp] tiles [in this city]",
 			"[+1 Culture] from [Hesperornis] tiles [in this city]"],
-		"requiredTech": "Sleeping Bag"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Insect House",
@@ -208,7 +219,7 @@
                 "requiredNearbyImprovedResources": ["Araneo", "Pulminoscorpius"],
 		"uniques": ["[+1 Culture] from [Araneo] tiles [in this city]",
 			"[+1 Culture] from [Pulminoscorpius] tiles [in this city]"],
-		"requiredTech": "Thatch Houses"
+		"requiredTech": "Bolas"
 	},
         {
 		"name": "Outback Desert",
@@ -216,7 +227,7 @@
                 "requiredNearbyImprovedResources": ["Procoptodon"],
 		"uniques": ["[+1 Faith] from [Procoptodon] tiles [in this city]",
 			"[+1 Food] from [Procoptodon] tiles [in this city]"],
-		"requiredTech": "Stone Pick"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Fishing Parade",
@@ -225,7 +236,7 @@
 		"uniques": ["[+1 Food] from [Giant Leech] tiles [in this city]",
 			"[+1 Food] from [Giant Otther] tiles [in this city]",
                         "[+1 Food] from [Giant Piranha] tiles [in this city]"],
-		"requiredTech": "Stone Pick"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Extinction DLC",
@@ -235,7 +246,7 @@
 			"[+1 Food] from [Defense Unit] tiles [in this city]",
                         "[+1 Food] from [Velona] tiles [in this city]",
 			"[+1 Food] from [Managarmr] tiles [in this city]"],
-		"requiredTech": "Torch"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Genesis DLC",
@@ -245,7 +256,7 @@
 			"[+1 Food] from [Magmasaur] tiles [in this city]",
                         "[+1 Culture] from [Magmasaur] tiles [in this city]",
 			"[+1 Production] from [Charcoal] tiles [in this city]"],
-		"requiredTech": "Torch"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Genesis Two DLC",
@@ -255,7 +266,7 @@
 			"[+1 Food] from [Astrodelphis] tiles [in this city]",
                         "[+1 Gold] from [Carniflora] tiles [in this city]",
 			"[+1 Food] from [Carcharodontosaurus] tiles [in this city]"],
-		"requiredTech": "Torch"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Aberration DLC",
@@ -264,7 +275,7 @@
 		"uniques": ["[+2 Production] from [Roll Rat] tiles [in this city]",
 			"[+2 Production] from [Fungic Wood] tiles [in this city]",
 			"[+2 Production] from [Basilisk] tiles [in this city]"],
-		"requiredTech": "Torch"
+		"requiredTech": "Notes"
 	},
         {
 		"name": "Wood Works",
@@ -1207,30 +1218,6 @@
 		"requiredTech": "Fabricator",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-                {
-		"name": "Thatch Forge",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Metal]"],
-                "requiredResource": "Thatch"
-		"requiredTech": "Refining Forge"
-	},
-        {
-		"name": "Hunting Carbonemys",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Chitin]"],
-                "requiredResource": "Thatch"
-		"requiredTech": "Refining Forge"
-	},
-        {
-		"name": "Wood Forge",
-		"maintenance": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [2] [Metal]"],
-                "requiredResource": "Wood"
-		"requiredTech": "Refining Forge"
-	},
         {
 		"name": "Stone Conversor",
 		"hurryCostModifier": 25,
@@ -1255,19 +1242,19 @@
 		"requiredTech": "Fabricator"
 	},
         {
-		"name": "Mining Beach Stones",
-                "production": 1,
+		"name": "Mining Camp",
+                "production": 2,
+                "uniques": ["Cost increases by [5] when built"]
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredResource": "Fiber"
 		"requiredTech": "Stone Pick"
 	},
         {
-		"name": "Hunting Beach Creatures",
-                "food": 1,
+		"name": "Hunter Camp",
+                "food": 2,
+                "uniques": ["Cost increases by [5] when built"]
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredResource": "Fiber"
 		"requiredTech": "Torch"
 	},
         {
@@ -1393,6 +1380,35 @@ What is very different from today’s tree anatomy is that the center of the woo
                 "uniques": ["Triggers a [Trash] event <hidden from users>","Unbuildable <hidden from users>","Cannot be purchased <hidden from users>"],
 		"hurryCostModifier": 50,
                 "requiredTech": "Island Bosses"
+	},
+        {
+		"name": "Aqueduct",
+		"food": 2,
+                "maintenance": 2,
+		"hurryCostModifier": 20,
+		"requiredTech": "Sleeping Bag"
+	},
+        {
+		"name": "Garden",
+		"culture": 2,
+                "maintenance": 2,
+		"hurryCostModifier": 20,
+		"requiredTech": "Sleeping Bag"
+	},
+
+
+        {
+		"name": "Bazaar",
+		"gold": 2,
+		"hurryCostModifier": 20,
+		"requiredTech": "Thatch Houses"
+	},
+        {
+		"name": "Workshop",
+		"production": 2,
+                "maintenance": 2,
+		"hurryCostModifier": 20,
+		"requiredTech": "Thatch Houses"
 	},
         
 ]

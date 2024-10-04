@@ -1,5 +1,11 @@
 [
 {
+                "name": "Quaternary",
+                "innerColor": [28, 36, 21],
+		"outerColor": [185, 224, 148],
+                "uniques": ["[-5]% Strength <in [Foreign Land] tiles>","[+15]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
+        },
+{
                 "name": "Longevity",
                 "innerColor": [23, 10, 31],
 		"outerColor": [177, 125, 209],

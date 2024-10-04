@@ -32,6 +32,12 @@
 				"row": 6,
 				"prerequisites": ["Agriculture"],
 				"quote": "Mining and mining."             
+			},
+                        {
+				"name": "Notes",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"quote": "Usefull for Understanding Ark´s Creatures."             
 			}
 		]
 	},
@@ -44,7 +50,7 @@
 		"techs": [
 			{
 				"name": "Campfire",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Torch"],
 				"quote": "Warm place to live."
 			},
@@ -86,6 +92,12 @@
 				"row": 6,
 				"prerequisites": ["Spear"],
                         "quote": "Good Night."
+			},
+                        {
+				"name": "Bolas",
+				"row": 9,
+				"prerequisites": ["Notes"],
+                        "quote": "You can use Bolas to catch prehistoric creatures, and study them more."
 			}
 		]
 	},
@@ -99,7 +111,7 @@
 			{
 				"name": "Slingshot",
 				"row": 9,
-				"prerequisites": ["Thatch Houses"],
+				"prerequisites": ["Thatch Houses","Bolas"],
 				"quote": "Point and Bayou!"
 			},
                         {
@@ -112,7 +124,7 @@
 			{
 				"name": "Mortar",
 				"row": 3,
-				"prerequisites": ["Waterskin"],
+				"prerequisites": ["Waterskin","Spear"],
                         "quote": "Crush and Crush."
 			},
                         {

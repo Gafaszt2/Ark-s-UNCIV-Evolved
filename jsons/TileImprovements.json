@@ -71,17 +71,6 @@
                 "techRequired": "Fish Basquet",
 		"turnsToBuild": 4,
 	},
-        {
-		"name": "Pastizal",
-                "replaces": "Ranch",
-		"uniqueTo": "Democracy of the South",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 2,
-                "culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["Can also be built on tiles adjacent to fresh water"],
-		"shortcutKey": "F"
-	},
 	{
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Montano","Asteroid"],
@@ -102,7 +91,7 @@
 		"terrainsCanBeBuiltOn": ["Forest","Jungle","Autumn Trees","Pines","Natural Lake","Marsh"],
 		"production": 1,
 		"turnsToBuild": 4,
-                "techRequired": "Professional Domestication",
+                "techRequired": "Stone Hatchet",
 	},
 	{
 		"name": "Trading post",
