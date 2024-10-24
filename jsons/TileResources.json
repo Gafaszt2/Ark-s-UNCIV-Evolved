@@ -743,14 +743,14 @@
 		"terrainsCanBeFoundOn": ["Montano","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Not shown on world screen","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Motano] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Motano] tiles>"]
 	},
                 {
 		"name": "Ravager",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Green Zone","Aberrant Blue Zone"],
 		"food": 1,
-                "uniques": ["Not shown on world screen","Generated on every [60000] tiles <in [Grassland] tiles>"]
+                "uniques": ["Generated on every [60000] tiles <in [Grassland] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -759,7 +759,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Snow","Tundra"],
 		"food": 1,
-                "uniques": ["Not shown on world screen","Generated on every [60] tiles <in [Snow] tiles>"]
+                "uniques": ["Generated on every [60] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -770,7 +770,7 @@
 		"culture": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Not shown on world screen","Generated on every [35] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [35] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Cristal",
@@ -794,7 +794,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Not shown on world screen","Generated on every [70] tiles <in [Hill] tiles>"]
+		"uniques": ["Generated on every [70] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Azulberry",
@@ -811,14 +811,14 @@
 		"gold": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Not shown on world screen","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"]
 	},
         {
 		"name": "Velona",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
-                "uniques": ["Not shown on world screen","Generated on every [900] tiles <in [Desert] tiles>"]
+                "uniques": ["Generated on every [900] tiles <in [Desert] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -827,7 +827,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
 		"food": 2,
-                "uniques": ["Not shown on world screen","Generated on every [800] tiles <in [Tundra] tiles>"]
+                "uniques": ["Generated on every [800] tiles <in [Tundra] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -871,7 +871,16 @@
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
 		"improvementStats": {"production": 1},
-		"uniques": ["Not shown on world screen","Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [140] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Marsh] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [140] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Marsh] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+	},
+        {
+		"name": "Fruit",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"culture": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated on every [60] tiles <in [Jungle] tiles>"]
 	},
 	{
 		"name": "Basilosaurus",
@@ -880,7 +889,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen","Generated on every [60] tiles <in [Coast] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Black Pearl",
@@ -940,7 +949,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen","Generated on every [20] tiles <in [Coast] tiles>"]
+		"uniques": ["Generated on every [20] tiles <in [Coast] tiles>"]
 	},
         {
 		"name": "Rock Drake Egg",
@@ -949,7 +958,7 @@
 		"culture": 1,
 		"faith": 1,
 		"improvement": "Camp",
-		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
+		"uniques": ["Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
 	},
         {
 		"name": "Fertilizer",
@@ -981,7 +990,7 @@
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
 		"culture": 2,
 		"improvement": "Plantation",
-		"uniques": ["Not shown on world screen","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
+		"uniques": ["Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
 	},
         {
 		"name": "Gas Vein",

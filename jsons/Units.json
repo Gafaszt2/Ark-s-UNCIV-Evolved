@@ -855,6 +855,20 @@
 		"attackSound": "theri"
 	},
         {
+		"name": "Archaeoindris",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 41,
+		"cost": 94,
+		"requiredTech": "Metal Hatchet",
+                "obsoleteTech": "Sword",
+                "requiredResource": "Fruit",
+                "promotions": ["Holocene"],
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+        {
 		"name": "Mastodonsaurus",
 		"unitType": "Amphibious",
 		"movement": 1.5,
@@ -972,6 +986,7 @@
                 "requiredTech": "Pliers",
                 "uniques": ["Can build [Land] improvements on tiles"],
         },
+        
         {
 		"name": "Danger Survivor",
 		"unitType": "Gunpowder",
@@ -1035,6 +1050,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
+        
         {
 		"name": "Ankylosaurus Rider",
 		"unitType": "Thyreofora",
@@ -1057,6 +1073,18 @@
 		"attackSound": "metalhit"
                 "requiredTech": "Pike",
                 "uniques": ["Consumes [2] [Metal]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "obsoleteTech": "Flak Armor",
+        },
+        {
+		"name": "Australopithecus",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 95,
+		"cost": 260,
+		"attackSound": "ravager"
+                "promotions": ["Pliocene","Strong Genetics"],
+                "requiredTech": "Pike",
+                "uniques": ["Consumes [1] [Fruit]","Limited to [6] per Civilization","Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor",
         },
         {

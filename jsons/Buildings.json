@@ -1141,31 +1141,6 @@
 		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
-		"name": "Shrine",
-                "uniqueTo": "Rebels",
-		"maintenance": 3,
-		"faith": 1,
-		"science": 1,
-                "culture": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Waterskin"
-	},
-        {
-		"name": "Aqueduct",
-                "uniqueTo": "New Legion",
-		"hurryCostModifier": 0,
-		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Stone Houses"
-	},
-        {
-		"name": "Barracks",
-                "uniqueTo": "New Incan Empire",
-		"production": 1,
-                "culture": 3,
-		"hurryCostModifier": 25,
-		"requiredTech": "Bookshelf"
-	},
-        {
 		"name": "Garden",
                 "uniqueTo": "The Center",
 		"science": 2,

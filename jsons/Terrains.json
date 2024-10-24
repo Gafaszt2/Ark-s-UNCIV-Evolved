@@ -1189,6 +1189,30 @@
 		"weight": 10
 	},
         {
+		"name": "Hanging Gardens",
+		"type": "NaturalWonder",
+                "food": 1,
+                "gold": 1,
+		"occursOn": ["Grassland"],
+		"uniques": ["Tile provides yield without assigned population","Must be adjacent to [1] to [2] [Grassland] tiles"],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+ {
+		"name": "Egyptian Pyramids",
+		"type": "NaturalWonder",
+                "faith": 3,
+                "gold": 2,
+		"occursOn": ["Desert"],
+		"uniques": ["Tile provides yield without assigned population","Must be adjacent to [1] to [2] [Desert] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
 		"name": "Redwoods",
 		"type": "TerrainFeature",
 		"production": 1,
