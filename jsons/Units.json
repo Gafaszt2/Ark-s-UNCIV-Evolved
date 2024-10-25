@@ -178,7 +178,7 @@
         },
         {
 		"name": "Dilophosaurus",
-                "replaces": "Bob",
+                "replaces": "Dodo",
 		"uniqueTo": "Barbarians",
 		"unitType": "Theropoda",
 		"movement": 2,
@@ -189,6 +189,61 @@
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
         },
+       {
+		"name": "Barbarian",
+                "replaces": "Bob",
+		"uniqueTo": "Barbarians",
+                "requiredResource": "Fiber",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 45,
+		"attackSound": "nonmetalhit"
+                "upgradesTo": "Survivor",
+		"obsoleteTech": "Bow and Arrow",
+                "uniques": ["Heals [5] damage if it kills a unit"],
+        },
+        {
+		"name": "Impaler",
+                "replaces": "Spear Survivor",
+		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 30,
+		"cost": 95,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Bow and Arrow",
+                "upgradesTo": "Crossbow Survivor",
+                "obsoleteTech": "Crossbow",
+                "requiredResource": "Thatch",
+                "uniques": ["Heals [15] damage if it kills a unit"],
+        },
+        {
+		"name": "Blood Mistress",
+                "replaces": "Engineer",
+		"uniqueTo": "Barbarians",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 30,
+		"cost": 115,
+		"attackSound": "metalhit"
+                "requiredTech": "Pliers",
+                "uniques": ["Heals [25] damage if it kills a unit"],
+        },
+         {
+		"name": "Legatus",
+                "replaces": "Flak Survivor",
+		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 66,
+                "requiredResource": "Metal",
+		"cost": 88,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+                "uniques": ["Heals [35] damage if it kills a unit"],
+        },
+       
         {
 		"name": "Raptor Rider",
 		"unitType": "Theropoda",
@@ -261,22 +316,6 @@
 		"attackSound": "chalico"
 	},
         {
-		"name": "Raptor",
-                "replaces": "Raptor Rider",
-		"uniqueTo": "Barbarians",
-		"unitType": "Theropoda",
-		"movement": 3,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Slingshot",
-                "upgradesTo": "Kapro Rider",
-                "promotions": ["Cretaceous"],
-                "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
-		"hurryCostModifier": 20,
-		"attackSound": "raptor"
-	},
-        {
 		"name": "Thylacoleo Rider",
 		"unitType": "Mammal",
                 "requiredResource": "Thatch",
@@ -305,21 +344,6 @@
                 "obsoleteTech": "Smithy",
 		"attackSound": "insec"
 	},
-        {
-		"name": "Corrupted Survivor",
-                "replaces": "Survivor",
-		"uniqueTo": "Barbarians",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 50,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Bow and Arrow",
-                "upgradesTo": "Crossbow Survivor",
-                "obsoleteTech": "Crossbow",
-                "requiredResource": "Wood",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
-        },
         {
 		"name": "Survivor",
 		"unitType": "Archery",
@@ -423,7 +447,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
-
         {
 		"name": "Pachycephalosaurus Rider",
 		"unitType": "Pachycephalosauridae",
@@ -1016,7 +1039,7 @@
 		"name": "Flak Survivor",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 43,
+		"strength": 45,
                 "requiredResource": "Metal",
 		"cost": 88,
 		"attackSound": "nonmetalhit"
@@ -1180,7 +1203,7 @@
                 "obsoleteTech": "GPS",
 		"unitType": "Testudines",
 		"movement": 2,
-		"strength": 15,
+		"strength": 13,
 		"cost": 90,
                 "promotions": ["Paleocene"],
                 "uniques": ["May travel on Water tiles without embarking","Can move after attacking",

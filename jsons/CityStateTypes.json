@@ -6,6 +6,12 @@
         "color": [139, 96, 255]
     },
     {
+        "name": "Diplomatic",
+        "friendBonusUniques": ["[-35]% City-State Influence degradation"],
+        "allyBonusUniques": ["[-40]% City-State Influence degradation"],
+        "color": [52, 235, 158]
+    },
+    {
         "name": "Maritime",
         "friendBonusUniques": ["[+3 Food] [in capital]"],
         "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],

@@ -653,7 +653,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"name": "Barbarians",
 		"outerColor": [202, 164, 113],
         "innerColor": [0,0,0],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging","No defensive terrain penalty","No damage penalty for wounded units","[+5]% to Flank Attack bonuses"]
 	}
 
 ]

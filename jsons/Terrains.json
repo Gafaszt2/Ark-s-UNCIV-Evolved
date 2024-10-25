@@ -151,6 +151,7 @@
 		"type": "TerrainFeature",
 		"production": 2,
 		"movementCost": 1,
+                "uniques": ["Doesn't generate naturally"]
                 "occursOn": ["Grassland","Plains","Tundra","Snow","Beach","Desert"],
 		"RGB": [63, 61, 64]
 	},
