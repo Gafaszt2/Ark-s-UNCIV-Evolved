@@ -1132,6 +1132,18 @@
         
 
 
+{
+		"name": "Leather",
+		"resourceType": "Strategic",
+	},
+{
+		"name": "Reeds",
+		"resourceType": "Strategic",
+	},
+{
+		"name": "Scales",
+		"resourceType": "Strategic",
+	},
 
         {
 		"name": "Pseudaquamorpha",

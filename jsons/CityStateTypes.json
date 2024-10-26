@@ -36,6 +36,12 @@
         "color": [94, 58, 42]
     },
     {
+        "name": "Secret Society",
+        "friendBonusUniques": ["Provides [3] [Scales]","Provides [3] [Reeds]","Provides [3] [Leather]"],
+        "allyBonusUniques": ["Provides [6] [Scales]","Provides [6] [Reeds]","Provides [6] [Leather]"],
+        "color": [180, 255, 130]
+    },
+    {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns"],

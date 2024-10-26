@@ -648,6 +648,268 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"innerColor": [0,0,0],
 		"cities": ["Secluded Lake"]
 	},
+
+
+
+
+
+
+
+{
+		"name": "Beaver Lake",
+		"adjective": ["Beaver Lake"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [251, 255, 199],
+		"innerColor": [0,0,0],
+		"cities": ["Beaver Lake"]
+	},
+{
+		"name": "Boreal Forest",
+		"adjective": ["Boreal Forest"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [50, 196, 33],
+		"innerColor": [0,0,0],
+		"cities": ["Boreal Forest"]
+	},
+{
+		"name": "The Dam",
+		"adjective": ["The Dam"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [247, 132, 37],
+		"innerColor": [0,0,0],
+		"cities": ["The Dam"]
+	},
+{
+		"name": "The Farm",
+		"adjective": ["The Farm"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [153, 240, 172],
+		"innerColor": [0,0,0],
+		"cities": ["The Farm"]
+	},
+{
+		"name": "The Valley",
+		"adjective": ["The Valley"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [40, 181, 71],
+		"innerColor": [0,0,0],
+		"cities": ["The Valley"]
+	},
+{
+		"name": "Weather Top",
+		"adjective": ["Weather Top"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [125, 255, 238],
+		"innerColor": [0,0,0],
+		"cities": ["Weather Top"]
+	},
+{
+		"name": "Skeleton Gorge",
+		"adjective": ["Skeleton Gorge"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [70, 69, 135],
+		"innerColor": [0,0,0],
+		"cities": ["Skeleton Gorge"]
+	},
+{
+		"name": "The Outpost",
+		"adjective": ["The Outpost"],
+		"cityStateType": "Diplomatic",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [13, 11, 125],
+		"innerColor": [0,0,0],
+		"cities": ["The Outpost"]
+	},
+
+
+
+
+
+
+
+{
+		"name": "Green Canyon",
+		"adjective": ["Green Canyon"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [193, 219, 180],
+		"innerColor": [0,0,0],
+		"cities": ["Green Canyon"]
+	},
+{
+		"name": "Jungle Cliff Ridge",
+		"adjective": ["Jungle Cliff Ridge"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [68, 148, 28],
+		"innerColor": [0,0,0],
+		"cities": ["Jungle Cliff Ridge"]
+	},
+{
+		"name": "Hidden Lake",
+		"adjective": ["Hidden Lake"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [61, 255, 184],
+		"innerColor": [0,0,0],
+		"cities": ["Hidden Lake"]
+	},
+
+
+
+
+
+{
+		"name": "Order of the Phoenix",
+		"adjective": ["Order of the Phoenix"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [255, 193, 77],
+		"innerColor": [0,0,0],
+		"cities": ["Phoenix Temple"]
+	},
+{
+		"name": "Order of the Kraken",
+		"adjective": ["Order of the Kraken"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [0, 139, 199],
+		"innerColor": [0,0,0],
+		"cities": ["Kraken Temple"]
+	},
+{
+		"name": "Order of the Dragon",
+		"adjective": ["Order of the Dragon"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [252, 59, 45],
+		"innerColor": [0,0,0],
+		"cities": ["Dragon Temple"]
+	},
+{
+		"name": "Order of the Tyrant King",
+		"adjective": ["Order of the Tyrant King"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [110, 7, 0],
+		"innerColor": [0,0,0],
+		"cities": ["Tyrant Temple"]
+	},
+{
+		"name": "Order of the Manticore",
+		"adjective": ["Order of the Manticore"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [80, 140, 63],
+		"innerColor": [0,0,0],
+		"cities": ["Manticore Temple"]
+	},
+{
+		"name": "Order of the Rats",
+		"adjective": ["Order of the Rats"],
+		"cityStateType": "Secret Society",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [204, 212, 91],
+		"innerColor": [0,0,0],
+		"cities": ["Rats Temple"]
+	},
+
+
+
+{
+		"name": "The Jungle",
+		"adjective": ["The Jungle"],
+		"cityStateType": "Strategical",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [71, 252, 240],
+		"innerColor": [0,0,0],
+		"cities": ["The Jungle"]
+	},
+{
+		"name": "Urwald Swamp",
+		"adjective": ["Urwald Swamp"],
+		"cityStateType": "Leisure",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [71, 252, 240],
+		"innerColor": [0,0,0],
+		"cities": ["Urwald Swamp"]
+	},
+{
+		"name": "Felsblock Pass",
+		"adjective": ["Felsblock Pass"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [71, 252, 240],
+		"innerColor": [0,0,0],
+		"cities": ["Felsblock Pass"]
+	},
 	//Barbarian
 	{
 		"name": "Barbarians",
