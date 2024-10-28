@@ -952,7 +952,7 @@
 		"cost": 75,
 		"requiredTech": "Tranq Arrow",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Metal Hatchet",
 		"attackSound": "insec"
@@ -965,7 +965,7 @@
 		"cost": 110,
 		"requiredTech": "Tranq Arrow",
                 "promotions": ["Jurassic"],
-		"uniques": ["[+20]% Strength <vs [Ophidia] units>","[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking"],
+		"uniques": ["[+20]% Strength <vs [Ophidia] units>","[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
@@ -983,6 +983,33 @@
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "theri"
+	},
+        {
+		"name": "Fenrir Rider",
+		"unitType": "Fantasy",
+		"movement": 3,
+		"strength": 45,
+		"cost": 70,
+		"requiredTech": "Metal Hatchet",
+                "obsoleteTech": "Sword",
+                "requiredResource": "Fenrir",
+		"uniques": ["Earn [70]% of killed [Wounded] unit's [Cost] as [Faith]","May capture killed [Wounded] units","[+30]% XP gained from combat","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+        {
+		"name": "Titanotylopus Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 43,
+		"cost": 110,
+		"requiredTech": "Metal Hatchet",
+                "promotions": ["Miocene"],
+                "obsoleteTech": "Sword",
+                "requiredResource": "Silk",
+		"uniques": ["Earn [90]% of killed [Wounded] unit's [Cost] as [Gold]","[+25]% XP gained from combat","Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "camel"
 	},
         {
 		"name": "Archaeoindris",
@@ -1152,6 +1179,16 @@
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Flak Armor",
                 "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
+        },
+        {
+		"name": "Shotel Survivor",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 55,
+		"cost": 100,
+		"attackSound": "nonmetalhit"
+                "requiredTech": "Flak Armor",
+                "uniques": ["Consumes [1] [Steel]","Consumes [1] [Silk]","Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Allo Rider",

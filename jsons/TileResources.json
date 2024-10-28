@@ -867,7 +867,7 @@
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland"],
+		"terrainsCanBeFoundOn": ["Marsh","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
 		"improvementStats": {"production": 1},
@@ -876,7 +876,7 @@
         {
 		"name": "Fruit",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle"],
+		"terrainsCanBeFoundOn": ["Jungle","Bog"],
 		"food": 1,
 		"culture": 1,
 		"improvement": "Plantation",
@@ -1143,6 +1143,21 @@
 {
 		"name": "Scales",
 		"resourceType": "Strategic",
+	},
+{
+		"name": "Fenrir",
+                "terrainsCanBeFoundOn": ["Fjord Land","Fjordlush"],
+		"faith": 2,
+		"improvement": "Camp",
+		"resourceType": "Strategic",
+	},
+{
+		"name": "Silk",
+                "terrainsCanBeFoundOn": ["Desert","Plains","Tundra"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"resourceType": "Strategic",
+                "uniques": ["Generated on every [250] tiles <in [Desert] tiles>","Generated on every [350] tiles <in [Plains] tiles>","Generated on every [450] tiles <in [Tundra] tiles>"]
 	},
 
         {

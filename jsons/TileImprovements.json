@@ -63,9 +63,9 @@
 		"name": "Foundry",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 1,
-		"turnsToBuild": 6,
+		"turnsToBuild": 11,
                 "techRequired": "Fabricator",
-		"uniques": ["Provides [1] [Steel]", "[+1 Culture] <after discovering [Cryopod]>", "[+1 Production] <after discovering [Island Bosses]>", "[-1 Production] for each adjacent [Foundry] <after discovering [Island Bosses]>"],
+		"uniques": ["Provides [1] [Steel]","[-1 Gold] for each adjacent [Foundry]"],
 		"shortcutKey": "J"
 	},
         {
