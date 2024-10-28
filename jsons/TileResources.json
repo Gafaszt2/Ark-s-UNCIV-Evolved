@@ -1160,6 +1160,28 @@
                 "uniques": ["Generated on every [250] tiles <in [Desert] tiles>","Generated on every [350] tiles <in [Plains] tiles>","Generated on every [450] tiles <in [Tundra] tiles>"]
 	},
 
+
+{
+		"name": "Electronics",
+                "terrainsCanBeFoundOn": ["Montano","Dead Land"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"resourceType": "Strategic",
+                "uniques": ["Generated on every [250] tiles <in [Montano] tiles>","Generated on every [350] tiles <in [Plains] tiles>"]
+	},
+{
+		"name": "Bones",
+                "terrainsCanBeFoundOn": ["Desert","Montano","Dead Land"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"resourceType": "Strategic",
+                "uniques": ["Generated on every [250] tiles <in [Montano] tiles>","Generated on every [700] tiles <in [Desert] tiles>"]
+	},
+
+
+
+
+
         {
 		"name": "Pseudaquamorpha",
 		"resourceType": "Bonus",

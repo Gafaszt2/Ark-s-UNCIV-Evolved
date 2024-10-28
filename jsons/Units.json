@@ -907,6 +907,19 @@
 		"attackSound": "dinoherb"
 	},
         {
+		"name": "Arizonasaurus",
+		"unitType": "Amphibious",
+		"movement": 2,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Tranq Arrow",
+                "promotions": ["Triassic"],
+		"uniques": ["[+1] Movement <in [Hill] tiles>","[+3] Movement <in [Desert] tiles>","[+1] Movement <in [Dead Land] tiles>","Consumes [1] [Bones]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "obsoleteTech": "Sword",
+		"attackSound": "croc"
+	},
+        {
 		"name": "Yi Ling",
 		"unitType": "Theropoda",
 		"movement": 4,
@@ -1170,6 +1183,19 @@
                 "civilopediaText": [{"text": "His portrait is completed with other characteristics typical of theropods a head with a low and elongated skull, prominent jaws with sharp teeth and arms with powerful claws with three functional fingers, with which he could easily remove the heads of his prey."}]
 	},
         {
+		"name": "Segnosaurus Rider",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 100,
+		"cost": 130,
+		"requiredTech": "Pliers",
+                "obsoleteTech": "Island Bosses",
+		"uniques": ["Consumes [1] [Bones]","[+70]% Strength <vs [Theropoda] units>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+                "promotions": ["Cretaceous"],
+		"attackSound": "dinoherb"
+	},
+        {
 		"name": "Flak Survivor",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1276,9 +1302,23 @@
                 "promotions": ["Permian"],
                 "requiredResource": "Purlovia",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
+	},
+        {
+		"name": "Miracinonyx Rider",
+		"unitType": "Mammal",
+		"movement": 8,
+		"strength": 60,
+		"cost": 90,
+		"requiredTech": "Sword",
+                "promotions": ["Holocene"],
+                "requiredResource": "Bones",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "feline"
 	},
         {
 		"name": "Ichtyosaurus Rider",
@@ -1846,16 +1886,29 @@
 		"attackSound": "medcarno"
 	},
         {
+		"name": "Titanoceratops",
+		"unitType": "Ceratopsia",
+		"movement": 2,
+		"strength": 200,
+		"cost": 350,
+		"requiredTech": "Auto Torret",
+                "requiredResource": "Bones",
+		"uniques": ["[+70]% Strength <vs [Giga Rider] units>","[5] additional attacks per turn","[+50]% Strength <when attacking>","[-220]% Strength <vs cities>","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Cretaceous"],
+		"attackSound": "dinoherb"
+	},
+        {
 		"name": "Carcharodontosaurus Rider",
                 "upgradesTo": "Tek Rex Rider",
 		"unitType": "Theropoda",
 		"movement": 4,
-		"strength": 150,
-		"cost": 260,
+		"strength": 155,
+		"cost": 250,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
                 "promotions": ["Strong Genetics","Cretaceous"],
-		"uniques": ["All adjacent units heal [+10] HP when healing","Can move after attacking"],
+		"uniques": ["All adjacent units heal [+15] HP when healing","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
@@ -2401,6 +2454,29 @@
 		"uniques": ["Free [Impregnated Survivor] appears <upon defeating a [Gunpowder] unit> <with [80]% chance>","Free [Impregnated Survivor] appears <upon defeating a [Sword] unit> <with [80]% chance>","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "reaper"
+	},
+        {
+		"name": "Bone Car",
+		"unitType": "Siege",
+		"movement": 6,
+		"strength": 600,
+		"cost": 800,
+		"requiredTech": "Aberration Creatures",
+		"uniques": ["Consumes [2] [Bones]","Consumes [1] [Electronics]","[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "jetgun"
+	},
+        {
+		"name": "MEK",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 700,
+		"cost": 800,
+		"requiredTech": "Aberration Creatures",
+		"uniques": ["Consumes [2] [Electronics]","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "gdrAttack"
 	},
         {
 		"name": "Impregnated Survivor",
