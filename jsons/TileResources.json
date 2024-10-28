@@ -1165,7 +1165,7 @@
 		"name": "Electronics",
                 "terrainsCanBeFoundOn": ["Montano","Dead Land"],
 		"culture": 2,
-		"improvement": "Plantation",
+		"improvement": "Ranch",
 		"resourceType": "Strategic",
                 "uniques": ["Generated on every [250] tiles <in [Montano] tiles>","Generated on every [350] tiles <in [Plains] tiles>"]
 	},
@@ -1173,7 +1173,7 @@
 		"name": "Bones",
                 "terrainsCanBeFoundOn": ["Desert","Montano","Dead Land"],
 		"culture": 2,
-		"improvement": "Plantation",
+		"improvement": "Ranch",
 		"resourceType": "Strategic",
                 "uniques": ["Generated on every [250] tiles <in [Montano] tiles>","Generated on every [700] tiles <in [Desert] tiles>"]
 	},
