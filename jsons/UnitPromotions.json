@@ -1,5 +1,34 @@
 [
 {
+                "name": "Musth",
+                "uniques": ["[-30]% Strength for enemy [Military] units in adjacent [All] tiles"],
+        },
+{
+                "name": "Intelligence",
+                "innerColor": [81, 117, 60],
+		"outerColor": [255, 220, 150],
+                "unitTypes": ["Proboscidea"],
+                "uniques": ["[+15]% XP gained from combat","[+15]% Strength bonus for [Proboscidea] units within [2] tiles","[+15]% to Flank Attack bonuses <in [All] tiles>"],
+        },
+{
+                "name": "Trunks",
+                "innerColor": [81, 117, 60],
+		"outerColor": [255, 220, 150],
+                "unitTypes": ["Proboscidea"],
+                "uniques": ["[+50]% Strength <in [Forest] tiles>","[+50]% Strength <in [Jungle] tiles>","[+50]% Strength <in [Montano] tiles>","[+22]% Strength <in [Plains] tiles>","[+50]% Strength <in [Lakes] tiles>"],
+        },
+{
+                "name": "Tusks",
+                "innerColor": [81, 117, 60],
+		"outerColor": [255, 220, 150],
+                "unitTypes": ["Proboscidea"],
+                "uniques": ["[+30]% Strength <vs [Land] units>"],
+        },
+
+
+
+
+{
                 "name": "Diving and Swimming",
                 "innerColor": [204, 216, 255],
 		"outerColor": [64, 73, 102],
