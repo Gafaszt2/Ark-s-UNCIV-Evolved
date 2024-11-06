@@ -1,5 +1,9 @@
 [
 {
+                "name": "Loyal Companion",
+                "uniques": ["[+5]% Strength bonus for [Sword] units within [2] tiles","[+5]% Strength bonus for [Gunpowder] units within [2] tiles"],
+        },
+{
                 "name": "Musth",
                 "uniques": ["[-30]% Strength for enemy [Military] units in adjacent [All] tiles"],
         },
