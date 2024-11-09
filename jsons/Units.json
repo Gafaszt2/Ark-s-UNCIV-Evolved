@@ -22,6 +22,14 @@
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+        {
+		"name": "Great Scholar",
+		"unitType": "Civilian",
+		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
+            "Can instantly construct a [Mountain Temple] improvement <by consuming this unit>",
+            "Great Person - [Faith]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	{
 		"name": "Great Merchant",
                 "strength": 15,
@@ -84,6 +92,7 @@
 	},
 	{
 		"name": "High Commander",
+                "cost": 70,
 		"unitType": "Civilian",
                 "strength": 35,
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1300] [Faith] [in all cities]",
@@ -95,6 +104,7 @@
 	},
         {
 		"name": "Senior Sergeant",
+                "cost": 50,
 		"unitType": "Civilian",
                 "strength": 25,
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [800] [Faith] [in all cities]",
@@ -106,6 +116,7 @@
 	},
         {
 		"name": "Novice Sergean",
+                "cost": 40,
 		"unitType": "Civilian",
                 "strength": 20,
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [500] [Faith] [in all cities]",
@@ -432,6 +443,32 @@
                 "promotions": ["Adapted","Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
+	},
+        {
+		"name": "Isisaurus",
+		"unitType": "Sauropodomorpha",
+		"movement": 3,
+		"strength": 36,
+		"cost": 1,
+		"requiredTech": "Industrial Grill",
+                "obsoleteTech": "Chain Bola",
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+                "promotions": ["Cretaceous"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+        {
+		"name": "Ostafrikasaurus",
+		"unitType": "Spinosauridae",
+		"movement": 3,
+		"strength": 57,
+		"cost": 1,
+		"requiredTech": "Canteen",
+                "obsoleteTech": "Flamethrower",
+		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+                "promotions": ["Jurassic"],
+		"hurryCostModifier": 20,
+		"attackSound": "spino"
 	},
         {
 		"name": "Kapro Rider",
@@ -864,7 +901,7 @@
 	},
         {
 		"name": "Baryonix Rider",
-		"unitType": "Theropoda",
+		"unitType": "Spinosauridae",
 		"movement": 2,
 		"strength": 25,
 		"cost": 60,
@@ -1169,7 +1206,7 @@
         },
         {
 		"name": "Riojavenatryx",
-		"unitType": "Theropoda",
+		"unitType": "Spinosauridae",
 		"movement": 3,
 		"strength": 150,
 		"cost": 150,
@@ -1311,12 +1348,38 @@
 		"movement": 2,
 		"strength": 95,
 		"cost": 260,
-		"attackSound": "ravager"
+		"attackSound": "chalico"
                 "promotions": ["Pliocene","Strong Genetics"],
                 "requiredTech": "Pike",
                 "uniques": ["Consumes [1] [Fruit]","Limited to [6] per Civilization","Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor",
         },
+        {
+		"name": "Bison Latifrons",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 95,
+		"cost": 1,
+		"requiredTech": "Pike",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+                "promotions": ["Holocene"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+        {
+		"name": "Glyptodon",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 60,
+		"cost": 1,
+		"requiredTech": "Pike",
+                "obsoleteTech": "Fabricator",
+		"uniques": ["Consumes [3] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+                "promotions": ["Holocene"],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
         {
 		"name": "Halberd Soldier",
 		"unitType": "Sword",
@@ -1554,6 +1617,7 @@
 		"requiredTech": "Radio",
 		"attackSound": "marine"
 	},
+        
         {
 		"name": "Basiloceras Rider",
 		"unitType": "Fish",
@@ -1869,7 +1933,7 @@
         {
 		"name": "Spino Rider",
                 "upgradesTo": "Giga Rider",
-		"unitType": "Theropoda",
+		"unitType": "Spinosauridae",
 		"movement": 2,
 		"strength": 65,
 		"cost": 200,
@@ -2200,7 +2264,7 @@
 		"name": "Aberrant Spino",
                 "replaces": "Spino Rider",
 		"uniqueTo": "Rockwell Gardens",
-		"unitType": "Theropoda",
+		"unitType": "Fantasy",
 		"movement": 2,
 		"strength": 71,
 		"cost": 290,
@@ -2509,7 +2573,7 @@
 		"name": "Reaper",
 		"unitType": "Fantasy",
 		"movement": 4,
-		"strength": 500,
+		"strength": 570,
 		"cost": 700,
                 "requiredResource": "Tek",
 		"requiredTech": "Aberration Creatures",
@@ -2581,5 +2645,202 @@
 		"cost": 300,
 		"requiredTech": "Tek Armor",
 		"attackSound": "nonmetalhit"
+	},
+
+/// Tek Species
+
+{
+		"name": "Thalassotitan",
+		"unitType": "Marine Reptile",
+		"movement": 2,
+		"strength": 250,
+		"cost": 300,
+                "promotions": ["Cretaceous"], 
+                "uniques": ["Consumes [2] [Absorbent Substrate]","Consumes [1] [Biotoxin]","Never appears as a Barbarian unit"],
+		"requiredTech": "Scorched Earth Boss",
+		"attackSound": "marine"
+	},
+{
+		"name": "Geosaurus",
+		"unitType": "Marine Reptile",
+		"movement": 2,
+		"strength": 200,
+		"cost": 400,
+                "promotions": ["Jurassic","Cretaceous"], 
+                "uniques": ["Consumes [1] [Mutagel]","Consumes [1] [Biotoxin]","Never appears as a Barbarian unit"],
+		"requiredTech": "Scorched Earth Boss",
+		"attackSound": "marine"
+	},
+        {
+		"name": "Ceratosuchops",
+		"unitType": "Spinosauridae",
+		"movement": 3,
+		"strength": 325,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [1] [Biotoxin]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Cretaceous"],
+		"attackSound": "spino"
+	},
+{
+		"name": "Arsinoitherium",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 350,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [1] [Biotoxin]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Eocene","Oligocene"],
+		"attackSound": "chalico"
+	},
+
+{
+		"name": "Tek Allosaurus",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 450,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [1] [Allosaurus]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Jurassic"],
+		"attackSound": "medcarno"
+	},
+{
+		"name": "Tek Rhino",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 500,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [1] [Woolly Rhino]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Holocene"],
+		"attackSound": "chalico"
+	},
+{
+		"name": "Tek Purlovia",
+		"unitType": "Amphibious",
+		"movement": 4,
+		"strength": 500,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [1] [Purlovia]","Can move after attacking"],
+		"hurryCostModifier": 20,
+                "promotions": ["Permian"],
+		"attackSound": "chalico"
+	},
+{
+		"name": "Lacus Rex",
+		"unitType": "Land Hybrid",
+		"movement": 3,
+		"strength": 650,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [5] [Biotoxin]","Consumes [5] [Oil]","Consumes [5] [Organic Polymer]","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+{
+		"name": "Alloraptor",
+		"unitType": "Land Hybrid",
+		"movement": 4,
+		"strength": 450,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [3] [Biotoxin]","Consumes [3] [Oil]","Consumes [3] [Organic Polymer]","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+{
+		"name": "Dodoraptor",
+		"unitType": "Land Hybrid",
+		"movement": 3,
+		"strength": 250,
+		"cost": 300,
+		"requiredTech": "Scorched Earth Boss",
+		"uniques": ["Consumes [2] [Biotoxin]","Consumes [2] [Oil]","Consumes [2] [Organic Polymer]","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+{
+		"name": "4RK MHJ",
+		"unitType": "Armored Vehicle",
+		"movement": 5,
+		"strength": 550,
+		"cost": 425,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["Consumes [3] [Element Ore]","Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+{
+		"name": "TEK 4RK MHJ",
+		"unitType": "Armored Vehicle",
+		"movement": 6,
+		"strength": 1750,
+		"cost": 1500,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["[-99]% Strength <vs cities> <when attacking>","[+500]% maintenance costs","Consumes [3] [Element Ore]","Consumes [3] [Lithium]","Consumes [5] [Metal]","Consumes [5] [Steel]","Consumes [4] [Oil]","Consumes [3] [Mutagel]","Consumes [3] [Absorbent Substrate]","Consumes [8] [Tek]","Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+{
+		"name": "Tek Anti Tank",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 200,
+		"cost": 200,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["[+220]% Strength <vs [Armored Vehicle] units>","Consumes [4] [Tek]","Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["Consumes [1] [Lithium]","Consumes [3] [Oil]","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Aberration Boss",
+                "uniques": ["Consumes [1] [Lithium]","Consumes [3] [Oil]"],
+		"attackSound": "bombing"
+	},
+{
+		"name": "Tyrant",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 450,
+		"cost": 360,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["[-80]% Strength <vs [Tek Anti Tank] units>","Consumes [3] [Lithium]","Can move after attacking", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 50000,
+		"rangedStrength": 50000,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["[+500]% maintenance costs","Cost increases by [2000] when built","Nuclear weapon of Strength [2]",
+			"Blast radius [5]", "Consumes [1] [Uranium]"],
+		"attackSound": "nuke"
 	},
         ]

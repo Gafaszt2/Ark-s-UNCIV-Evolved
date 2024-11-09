@@ -264,34 +264,43 @@
 	{
 		"name": "Steampunk Station",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"production": 5,
+		"uniques": ["[+1 Production] for each adjacent [Mine]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
         {
 		"name": "Great Reserve",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 4,
+		"food": 5,
                 "culture": 1,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Culture] for each adjacent [Forest]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
         {
 		"name": "Potion Station",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 4,
+		"science": 5,
                 "gold": 1,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Science] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
         {
 		"name": "Great Camp",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 4,
+		"culture": 5,
                 "food": 1,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Food] for each adjacent [Coast]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+        {
+		"name": "Mountain Temple",
+		"terrainsCanBeBuiltOn": ["Montano","Desert"],
+		"faith": 3,
+                "food": 1,
+                "production": 1,
+                "science": 2,
+		"uniques": ["[+1 Faith] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
         {
 		"name": "Castle",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 4,
+		"faith": 3,
 		"uniques": ["Great Improvement", "Gives a defensive bonus of [35]%","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 

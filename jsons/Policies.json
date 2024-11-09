@@ -41,7 +41,7 @@
             {
                 "name": "Monarchs of Ark",
                 "uniques": [
-                    "[+1 Food] from every [Hill]","[+1 Gold] from every [Luxury resource]",
+                    "[+2 Food] from every [Ovis]","[+2 Gold] from every [Obsidian]",
                 ],
                 "row": 2,
                 "column": 5
@@ -57,7 +57,7 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Luxury resource]","[+1 Culture] from every [Luxury resource]","[+20]% Production when constructing [All] buildings [in all cities]", ]
+                    "[+2 Gold] from every [Phiomia]","[+2 Culture] from every [Phiomia]","[+2 Culture] from every [Dodo]","[+20]% Production when constructing [All] buildings [in all cities]", ]
             }
         ]
     },
@@ -86,7 +86,9 @@
             {
                 "name": "Desert Caravans",
                 "uniques": [
-                    "[+1 Production] from every [Desert]","[+1 Food] from every [Genesis Soil]","[+1 Food] from every [Eldritch]",
+                    "[+1 Production] from every [Desert]","[+1 Food] from every [Genesis Soil]","[+1 Food] from every [Eldritch]","[+1 Food] from every [Dead Land]",
+"[+1 Food] from every [Montano]",
+
                 ],
                 "row": 1,
                 "column": 3
@@ -102,7 +104,7 @@
             {
                 "name": "Mountain Faith",
                 "uniques": [
-                    "[+2 Culture] from every [Mountain]","[+1 Food] from every [Volcano]","[+1 Food] from every [Hill]"
+                    "[+1 Production] from every [Mountain]","[+2 Food] from every [Volcano]","[+1 Food] from every [Phiomia]","[+1 Food] from every [Dodo]","[+1 Food] from every [Megaloceros]"
                 ],
                 "row": 2,
                 "column": 5
@@ -110,7 +112,7 @@
             {
                 "name": "Tribes",
                 "uniques": [
-                    "[+1 Production] from every [Ranch]",
+                    "[+2 Culture] from every [Tumash Temple]",
                 ],
                 "row": 2,
                 "column": 1
@@ -118,7 +120,7 @@
             {
                 "name": "Communalism Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Strategic resource]"]
+                    "[+3 Production] from every [Sulphur]","[+1 Production] from every [Coelacanth]","[+2 Production] from every [Oil]","[+1 Production] from every [Fiber]","[+1 Production] from every [Thatch]"]
             }
         ]
     },
@@ -133,7 +135,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+2 Gold] from every [Mountain]","[+30]% Yield from every [Strategic resource]",
+            "[+1 Food] from every [Mountain]","[+30]% Yield from every [Strategic resource]",
         ],
         "policies": [
             {
@@ -147,7 +149,7 @@
             {
                 "name": "Recipes",
                 "uniques": [
-                    "[+2 Faith] from every [Luxury resource]","[+1 Faith] from every [Hill]",
+                    "[+2 Faith] from every [Ragnarok Temple]","[+3 Faith] from every [Paraceratherium]","[+3 Faith] from every [Cactus Sap]",
                 ],
                 "row": 1,
                 "column": 4
@@ -155,7 +157,7 @@
             {
                 "name": "Adoration",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] units [-30]%"
+                    "[Gold] cost of purchasing [All] units [-40]%"
                 ],
                 "row": 2,
                 "column": 3
@@ -184,7 +186,7 @@
             {
                 "name": "Animal Spirits",
                 "uniques": [
-                    "[+2 Culture] from every [Camp]",
+                    "[+1 Culture] from every [Camp]",
                 ],
                 "row": 1,
                 "column": 2
@@ -192,7 +194,7 @@
             {
                 "name": "Spiritualism",
                 "uniques": [
-                    "[+2 Faith] from every [Ranch]",
+                    "[+1 Faith] from every [Camp]",
                 ],
                 "row": 1,
                 "column": 4
@@ -253,7 +255,7 @@
             {
                 "name": "Colonialism Complete",
                 "uniques": [
-                    "Free [Rex Rider] appears", ]
+                    "[+250]% Golden Age length","Provides [3] [Metal]","Provides [3] [Biotoxin]","Provides [3] [Oil]" ]
             }
         ]
     },
@@ -275,7 +277,7 @@
             {
                 "name": "Future Science",
                 "uniques": [
-                    "[+1 Science] from every [Luxury resource]",
+                    "[+1 Science] from every [Mine]",
                 ],
                 "row": 1,
                 "column": 2
@@ -291,7 +293,7 @@
             {
                 "name": "Learn from Eras",
                 "uniques": [
-                    "[-50]% Gold cost of upgrading",
+                    "[-60]% Gold cost of upgrading",
                 ],
                 "row": 2,
                 "column": 3
@@ -299,7 +301,7 @@
             {
                 "name": "Cosmopolitanism Complete",
                 "uniques": [
-                    "Free [Pistol Handler] appears", ]
+                    "Provides [1] [Uranium]","Enables Open Borders agreements","Enables Research agreements","Science gained from research agreements [+40]%","Enables Defensive Pacts","[+50]% Golden Age length" ]
             }
         ]
     }

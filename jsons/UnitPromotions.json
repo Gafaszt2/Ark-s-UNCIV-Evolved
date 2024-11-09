@@ -1,4 +1,73 @@
 [
+
+{
+                "name": "Desirable Looks",
+                "innerColor": [255, 3, 205],
+		"outerColor": [255, 255, 255],
+                "unitTypes": ["Land Hybrid"],
+                "uniques": ["[+24]% XP gained from combat"],
+        },
+{
+                "name": "Hibrid Adaptability",
+                "innerColor": [255, 3, 205],
+		"outerColor": [255, 255, 255],
+                "unitTypes": ["Land Hybrid"],
+                "uniques": ["[+45] HP when healing <in [All] tiles>"],
+        },
+{
+                "name": "Desirable Strenght",
+                "innerColor": [255, 3, 205],
+		"outerColor": [255, 255, 255],
+                "unitTypes": ["Land Hybrid"],
+                "uniques": ["[+50]% Strength"],
+        },
+
+
+
+{
+                "name": "Small Wings",
+                "innerColor": [235, 64, 52],
+		"outerColor": [69, 28, 25],
+                "unitTypes": ["Land Avian"],
+                "uniques": ["[+50]% Strength <in [Swamp] tiles>","[+30]% Strength <in [Marsh] tiles>","[+10]% Strength <vs [Amphibious] units>"],
+        },
+{
+                "name": "Cursorial Traits",
+                "innerColor": [235, 64, 52],
+		"outerColor": [69, 28, 25],
+                "unitTypes": ["Land Avian"],
+                "uniques": ["[+50]% Strength <in [Grassland] tiles>","[+50]% Strength <in [Plains] tiles>"],
+        },
+{
+                "name": "Velocity",
+                "innerColor": [235, 64, 52],
+		"outerColor": [69, 28, 25],
+                "unitTypes": ["Land Avian"],
+                "uniques": ["[+1] Movement"],
+        },
+
+
+{
+                "name": "Sails",
+                "innerColor": [252, 186, 3],
+		"outerColor": [50, 94, 0],
+                "unitTypes": ["Spinosauridae"],
+                "uniques": ["[+25]% to Flank Attack bonuses <in [All] tiles>"],
+        },
+{
+                "name": "Fishing",
+                "innerColor": [252, 186, 3],
+		"outerColor": [50, 94, 0],
+                "unitTypes": ["Spinosauridae"],
+                "uniques": ["[+50]% Strength <in [Swamp] tiles>","[+50]% Strength <in [Marsh] tiles>","[+50]% Strength <in [Lakes] tiles>","[+22]% Strength <in [Jungle] tiles>"],
+        },
+{
+                "name": "Crocodile Face",
+                "innerColor": [252, 186, 3],
+		"outerColor": [50, 94, 0],
+                "unitTypes": ["Spinosauridae"],
+                "uniques": ["[+22]% Strength <vs [Amphibious] units>"],
+        },
 {
                 "name": "Loyal Companion",
                 "uniques": ["[+5]% Strength bonus for [Sword] units within [2] tiles","[+5]% Strength bonus for [Gunpowder] units within [2] tiles"],
