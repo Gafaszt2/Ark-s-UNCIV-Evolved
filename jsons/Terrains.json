@@ -55,6 +55,14 @@
                 "RGB": [64, 53, 43],
         },
         {
+                "name": "Sandstone",
+                "type": "Land",
+		"food": 1,
+                "faith": 1,
+		"movementCost": 1,
+                "RGB": [168, 90, 50],
+        },
+        {
                 "name": "Montano",
                 "type": "Land",
 		"food": 1,
@@ -204,6 +212,13 @@
 		"movementCost": 1,
                 "occursOn": ["Grassland","Plains","Desert","Beach"],
 		"RGB": [97, 171, 108]
+	},
+        {
+		"name": "Ruins",
+		"type": "TerrainFeature",
+		"culture": 2,
+		"movementCost": 1,
+                "occursOn": ["Desert","Sandstone"],
 	},
         {
 		"name": "Particles",
@@ -816,7 +831,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Grassland","Eldritch","Bog","Tundra","Plains","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fjordlush"],
+		"occursOn": ["Grassland","Sandstone","Eldritch","Bog","Tundra","Plains","Desert","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fjordlush"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -830,6 +845,7 @@
                                         "Becomes [Dead Land] when adjacent to [Santiago Grave]",
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
+      
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
@@ -839,7 +855,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
+		"occursOn": ["Tundra","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",

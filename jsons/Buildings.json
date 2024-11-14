@@ -803,7 +803,7 @@
         {
 		"name": "Tek Fort",
                 "cityStrength": 8,
-		"cityHealth": 60,
+		"cityHealth": 110,
                 "maintenance": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"
@@ -811,8 +811,8 @@
 	},
         {
 		"name": "Aberrant Fort",
-                "cityStrength": 9,
-		"cityHealth": 85,
+                "cityStrength": 12,
+		"cityHealth": 250,
                 "maintenance": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"

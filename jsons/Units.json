@@ -25,7 +25,7 @@
         {
 		"name": "Great Scholar",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
             "Can instantly construct a [Mountain Temple] improvement <by consuming this unit>",
             "Great Person - [Faith]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -2649,6 +2649,16 @@
 
 /// Tek Species
 
+{
+		"name": "Ranger",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 150,
+		"cost": 150,
+                "uniques": ["[+30]% Strength <vs [Land] units>","[-30]% Strength <vs [Gunpowder] units>","Consumes [2] [Organic Polymer]","Consumes [1] [Metal]"],
+		"requiredTech": "Scorched Earth Boss",
+		"attackSound": "shot"
+	},
 {
 		"name": "Thalassotitan",
 		"unitType": "Marine Reptile",

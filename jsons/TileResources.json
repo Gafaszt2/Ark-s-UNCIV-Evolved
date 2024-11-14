@@ -103,7 +103,7 @@
         {
 		"name": "Thorny Dragon",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
 		"food": 1,
                 "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
 		"improvement": "Camp",
@@ -123,7 +123,7 @@
         {
 		"name": "Carnotaurus",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Plains","Grassland","Jungle"],
+		"terrainsCanBeFoundOn": ["Eldritch","Plains","Grassland","Jungle","Sandstone"],
 		"culture": 1,
                 "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
 		"improvement": "Camp",
@@ -294,7 +294,7 @@
 	{
 		"name": "Paraceratherium",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
 		"food": 1,
                 "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
 		"improvement": "Camp",
@@ -304,7 +304,7 @@
         {
 		"name": "Morellatops",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Hill"],
+		"terrainsCanBeFoundOn": ["Desert","Hill","Sandstone"],
 		"food": 1,
                 "civilopediaText": [{"text": "Morellatops dromedarius seems to be to a relative of both the Morelladon and Ceratops genuses, which in itself is rather strange. On top of that, it has developed to ability to store water in its humps like a camel. This makes it a critical part of the desert's food chain, as it provides predators with both food and hydration.
 
@@ -316,7 +316,7 @@
         {
 		"name": "Cactus Sap",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
 		"food": 1,
 		"improvedBy": ["Ranch", "Teepee"],
 		"improvementStats": {"food": 1},
@@ -354,7 +354,7 @@
          {
 		"name": "Rare Flower",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods"],
+		"terrainsCanBeFoundOn": ["Eldritch","Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods","Sandstone"],
 		"science": 1,
                 "food": 1,
 		"improvedBy": ["Ranch", "Teepee"],
@@ -611,6 +611,14 @@
 		"production": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
+	},
+        {
+		"name": "Desert Slaves",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
+		"gold": 3,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 3},
 	},
         {
 		"name": "Argentavis Talon",
@@ -990,7 +998,7 @@
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
 		"culture": 2,
 		"improvement": "Plantation",
-		"uniques": ["Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
+		"uniques": ["Generated on every [300] tiles <in [Grassland] tiles>","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
 	},
         {
 		"name": "Gas Vein",
