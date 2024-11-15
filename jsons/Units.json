@@ -2443,17 +2443,15 @@
         },
         {
 		"name": "Karkinos",
-                "replaces": "Rhino Rider",
-		"uniqueTo": "Rebels",
 		"unitType": "Fantasy",
-		"movement": 2,
-		"strength": 67,
-		"cost": 150,
+		"movement": 3,
+		"strength": 78,
+		"cost": 120,
 		"requiredTech": "Cryopod",
-		"uniques": ["Can move after attacking", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["[+44]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Consumes [3] [Chitin]","Can move after attacking", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics"],
-		"attackSound": "tropeo"
+		"attackSound": "reaper"
 	},
         {
 		"name": "Rollrat",
@@ -2499,39 +2497,6 @@
                 "obsoleteTech": "Smithy",
 		"attackSound": "tropeo"
 	},
-        {
-		"name": "Basil",
-                "replaces": "Flak Survivor",
-		"uniqueTo": "Hachchch Fan Group",
-		"unitType": "Sword",
-		"movement": 100000,
-		"strength": 100000,
-		"cost": 100000000000000,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Flak Armor",
-        },
-        {
-		"name": "Hachchch",
-                "replaces": "Flak Survivor",
-		"uniqueTo": "Geneciv",
-		"unitType": "Sword",
-		"movement": 100000,
-		"strength": 100000,
-		"cost": 100000000000000,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Flak Armor",
-        },
-        {
-		"name": "X2003",
-                "replaces": "Flak Survivor",
-		"uniqueTo": "Civ Sugestions Order",
-		"unitType": "Sword",
-		"movement": 100000,
-		"strength": 100000,
-		"cost": 100000000000000,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Flak Armor",
-        },
         {
 		"name": "Tek Rex Rider",
 		"unitType": "Theropoda",

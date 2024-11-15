@@ -466,7 +466,6 @@
                 "civilopediaText": [{"text": "The Magmasaur is a fire-based Creature that gains strength and charges up attacks through heat. It has an affinity for lava to the point of even swimming in it, and dislikes water."}]
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>"]
 	},
         {
 		"name": "Defense Unit",
@@ -518,7 +517,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
 		"food": 1,
-                "uniques": ["Generated on every [1000] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1},
 	},
@@ -535,8 +533,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone","Snow"],
 		"faith": 1,
-                "uniques": ["Generated on every [13] tiles <in [Snow] tiles>"
-					]
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 	},
@@ -590,7 +586,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
 		"culture": 1,
-                "uniques": ["Generated on every [800] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -826,7 +821,6 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
-                "uniques": ["Generated on every [900] tiles <in [Desert] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -835,7 +829,6 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
 		"food": 2,
-                "uniques": ["Generated on every [800] tiles <in [Tundra] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},

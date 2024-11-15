@@ -30,6 +30,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Salt Mine",
+		"gold": 2,
+                "culture": 1,
+                "production": 1,
+                "requiredNearbyImprovedResources": ["Desert Slaves"],
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
 		"name": "Courthouse",
 		"maintenance": 8,
 		"hurryCostModifier": 50,
