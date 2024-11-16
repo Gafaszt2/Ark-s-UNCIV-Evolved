@@ -612,6 +612,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
 		"gold": 3,
+                "uniques": ["Doesn't generate naturally"]
+
 		"improvement": "Camp",
 		"improvementStats": {"gold": 3},
 	},

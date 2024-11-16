@@ -17,7 +17,7 @@
             {
                 "name": "Natural Life",
                 "uniques": [
-                    "[+1 Food] from every [Bonus resource]","[+1 Food] per [3] population [in capital]",
+                    "[+1 Food] per [7] population [in capital]","[+1 Food] per [3] population [in capital]",
                 ],
                 "row": 1,
                 "column": 1
@@ -57,7 +57,7 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Phiomia]","[+2 Culture] from every [Phiomia]","[+2 Culture] from every [Dodo]","[+20]% Production when constructing [All] buildings [in all cities]", ]
+                    "[+1 Gold] from every [Camp]","[+1 Culture] from every [Camp]","[+15]% Production when constructing [All] buildings [in all cities]", ]
             }
         ]
     },
@@ -104,7 +104,7 @@
             {
                 "name": "Mountain Faith",
                 "uniques": [
-                    "[+1 Production] from every [Mountain]","[+2 Food] from every [Volcano]","[+1 Food] from every [Phiomia]","[+1 Food] from every [Dodo]","[+1 Food] from every [Megaloceros]"
+                    "[+1 Production] from every [Mountain]","[+2 Food] from every [Volcano]"
                 ],
                 "row": 2,
                 "column": 5
@@ -120,7 +120,7 @@
             {
                 "name": "Communalism Complete",
                 "uniques": [
-                    "[+3 Production] from every [Sulphur]","[+1 Production] from every [Coelacanth]","[+2 Production] from every [Oil]","[+1 Production] from every [Fiber]","[+1 Production] from every [Thatch]"]
+                    "[+1 Production] from every [Camp]","[+1 Production] from every [Moai]","[+1 Production] from every [Carpentry Area]"]
             }
         ]
     },
@@ -135,7 +135,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Food] from every [Mountain]","[+30]% Yield from every [Strategic resource]",
+            "[+1 Food] from every [Mountain]","[+1 Faith] from every [Mountain]",
         ],
         "policies": [
             {
@@ -149,7 +149,7 @@
             {
                 "name": "Recipes",
                 "uniques": [
-                    "[+2 Faith] from every [Ragnarok Temple]","[+3 Faith] from every [Paraceratherium]","[+3 Faith] from every [Cactus Sap]",
+                    "[+2 Faith] from every [Ragnarok Temple]","[+1 Science] from every [Ragnarok Temple]",
                 ],
                 "row": 1,
                 "column": 4
@@ -180,7 +180,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "Free [Great Artist] appears","Free [Great Merchant] appears",
+            "[+1 Faith] per [4] social policies adopted",
         ],
         "policies": [
             {
@@ -210,7 +210,7 @@
             {
                 "name": "Animism Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Camp]","Free [Camuflage Survivor] appears", ]
+                    "[+1 Gold] from every [Camp]","[+1 Gold] from every [Forest]","[+1 Culture] from every [Forest]" ]
             }
         ]
     },
@@ -271,13 +271,13 @@
         },
         "uniques": [
             "[+1 Science] per [5] social policies adopted",
-            "[+3 Science] [in capital]","[-5 Gold] [in capital]",
+            "[+3 Science] [in capital]",
         ],
         "policies": [
             {
                 "name": "Future Science",
                 "uniques": [
-                    "[+1 Science] from every [Mine]",
+                    "[+1 Gold] from every [Mine]",
                 ],
                 "row": 1,
                 "column": 2
@@ -285,7 +285,7 @@
             {
                 "name": "Cultural Aceptation",
                 "uniques": [
-                    "[+2 Culture] from every [Camp]",
+                    "[+2 Gold] from every [Camp]",
                 ],
                 "row": 1,
                 "column": 4

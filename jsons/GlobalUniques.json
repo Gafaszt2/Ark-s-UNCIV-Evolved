@@ -1,6 +1,6 @@
 {
     "name": "Global uniques",
-    "uniques": [
+    "uniques": ["Allow City States to spawn with additional units","Can trade civilization introductions for [30] Gold",
 "Gain a free [Slavery] [in capital] <starting from the [Smithy era]>",
                 "Gain a free [Trash event] [in capital] <starting from the [Tek era]>",
         "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
