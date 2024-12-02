@@ -63,16 +63,6 @@
 		"requiredTech": "Notes"
 	},
         {
-		"name": "Crop Plantation",
-		"hurryCostModifier": 20,
-                "requiredNearbyImprovedResources": ["Carrot", "Potato", "Lemon", "Corn"],
-		"uniques": ["[+1 Food] from [Carrot] tiles [in this city]",
-			"[+1 Food] from [Potato] tiles [in this city]",
-			"[+1 Food] from [Lemon] tiles [in this city]",
-                        "[+1 Culture] from [Corn] tiles [in this city]"],
-		"requiredTech": "Waterskin"
-	},
-        {
 		"name": "Dino Nest",
                 "replaces": "Taming Scout",
 		"uniqueTo": "Valguero",
@@ -145,6 +135,232 @@
                 "requiredBuilding": "Water Channels",
 		"requiredTech": "Waterskin"
 	},
+
+
+
+
+{
+		"name": "Cattle Corral",
+		"maintenance": 1,
+                "requiredNearbyImprovedResources": ["Phiomia", "Ovis"],
+                "uniques": ["[+1 Food] from [Phiomia] tiles [in this city]","[+1 Food] from [Ovis] tiles [in this city]"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Farm",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Phiomia Meat",
+		"maintenance": 5,
+                "requiredNearbyImprovedResources": ["Phiomia"],
+                "uniques": ["[+4 Food] from [Phiomia] tiles [in this city]"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Cattle Corral",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Ovis Milk",
+		"maintenance": 5,
+                "requiredNearbyImprovedResources": ["Ovis"],
+                "uniques": ["[+4 Food] from [Ovis] tiles [in this city]"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Cattle Corral",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Meat Monopoly",
+		"maintenance": 4,
+                "requiredNearbyImprovedResources": ["Phiomia"],
+                "uniques": ["Provides [3] [Phiomia Meat]","[-10]% City-State Influence degradation"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Phiomia Meat",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Milk Monopoly",
+		"maintenance": 4,
+                "requiredNearbyImprovedResources": ["Ovis"],
+                "uniques": ["Provides [3] [Ovis Milk]","[-10]% City-State Influence degradation"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Ovis Milk",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Eggs Corral",
+		"maintenance": 1,
+                "requiredNearbyImprovedResources": ["Dodo", "Itchyornis"],
+                "uniques": ["[+1 Food] from [Dodo] tiles [in this city]","[+1 Food] from [Itchyornis] tiles [in this city]"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Farm",
+		"requiredTech": "Cementing Paste"
+	},
+{
+		"name": "Coastal Village",
+		"maintenance": 1,
+                "requiredNearbyImprovedResources": ["Coelacanth", "Sabertooth Salmon"],
+                "uniques": ["[+2 Food] from [Coelacanth] tiles [in this city]","[+2 Food] from [Sabertooth Salmon] tiles [in this city]"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Fish Basquet"
+	},
+{
+		"name": "Sushi Monopoly",
+		"maintenance": 3,
+                "uniques": ["Provides [3] [Sushi]","[-10]% City-State Influence degradation"],
+		"hurryCostModifier": 20,
+                "requiredBuilding": "Coastal Village",
+		"requiredTech": "Fish Basquet"
+	},
+
+{
+		"name": "Crops Domestication",
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["[+1 Food] from [Wild Crops] tiles [in this city]",
+			"[+1 Production] from [Wild Crops] tiles [in this city]"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Narcoberries",
+                "maintenance": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Berries"],
+		"uniques": ["[+20]% Production when constructing [Theropoda] units [in this city]"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Berry Stew",
+                "maintenance": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Berries"],
+                "requiredBuilding": "Narcoberries",
+		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Nourished] promotion","All newly-trained [Gunpowder] units [in this city] receive the [Nourished] promotion"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Salads",
+                "maintenance": 3,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["[+2 Food] from [Wild Crops] tiles [in this city]"],
+                "requiredBuilding": "Crops Domestication",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Roasted Vegetables",
+                "maintenance": 3,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["[+30]% Production when constructing [Sword] units [in this city]","[+10]% Production when constructing [Civilian] units [in this city]"],
+                "requiredBuilding": "Salads",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Flour",
+                "maintenance": 2,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["[+20]% [Happiness] [in this city]"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Tomato Domestication",
+                "maintenance": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["Provides [1] [Tomato]","[+20]% [Food] [in this city]"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Dough",
+                "maintenance": 3,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["Provides [1] [Dough]","[+30]% [Food] [in this city]"],
+                "requiredBuilding": "Flour",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Pizza Production",
+                "maintenance": 8,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+		"uniques": ["Consumes [1] [Dough]","Consumes [1] [Tomato]","[+30]% [Food] [in this city]","[+30]% [Gold] [in this city]","[+20]% [Culture] [in this city]"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Sunflower Oil",
+                "maintenance": 3,
+                "food": 2,
+		"hurryCostModifier": 50,
+                "uniques": ["Provides [1] [Vegetal Oil]"],
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Olive Oil",
+                "maintenance": 3,
+                "food": 2,
+		"hurryCostModifier": 50,
+                "uniques": ["Provides [1] [Vegetal Oil]"],
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Fried Dodo Production",
+                "gold": 6,
+		"hurryCostModifier": 50,
+                "uniques": ["Consumes [1] [Dodo]","Consumes [1] [Vegetal Oil]"],
+                "requiredNearbyImprovedResources": ["Dodo"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Tribal Stones",
+                "faith": 4,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Herbs"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Celtic Language",
+                "faith": 2,
+                "culture": 2,
+		"hurryCostModifier": 50,
+                "requiredBuilding": "Tribal Stones",
+                "requiredNearbyImprovedResources": ["Wild Herbs"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Spiritual Travel",
+                "faith": 1,
+                "culture": 1,
+		"hurryCostModifier": 50,
+                "uniques": ["All newly-trained [Sword] units [in this city] receive the [Berserk] promotion","All newly-trained [Gunpowder] units [in this city] receive the [Berserk] promotion"],
+                "requiredNearbyImprovedResources": ["Rare Mushroom"],
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Rice Domestication",
+                "maintenance": 1,
+                "culture": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+{
+		"name": "Corn Domestication",
+                "maintenance": 1,
+                "culture": 1,
+		"hurryCostModifier": 50,
+                "requiredNearbyImprovedResources": ["Wild Crops"],
+                "requiredBuilding": "Roasted Vegetables",
+		"requiredTech": "Recipes"
+	},
+
+
         {
 		"name": "Water Recolection",
                 "greatPersonPoints": {"Great Engineer": 1},
@@ -152,16 +368,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Waterskin"
-	},
-	{
-		"name": "Berry Orchid",
-		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Amarberry", "Azulberry", "Mejoberry", "Tintoberry"],
-		"uniques": ["[+1 Food] from [Amarberry] tiles [in this city]",
-			"[+1 Food] from [Azulberry] tiles [in this city]",
-                        "[+1 Food] from [Mejoberry] tiles [in this city]",
-			"[+1 Food] from [Tintoberry] tiles [in this city]"],
-		"requiredTech": "Notes"
 	},
         {
 		"name": "Deadly Lands",
@@ -332,10 +538,10 @@
         {
 		"name": "Regular Lands",
                 "greatPersonPoints": {"Great Scientist": 1},
-                "maintenance": 1,
+                "production": 1,
+                "food": 1,
                 "requiredNearbyImprovedResources": ["Strategic resource"],
 		"hurryCostModifier": 50,
-		"uniques": ["[+1 Food] [in all cities]"],
                 "requiredBuilding": "Hunt Place"
 		"requiredTech": "Sleeping Bag"
 	},
@@ -812,8 +1018,8 @@
 	},
         {
 		"name": "Tek Fort",
-                "cityStrength": 8,
-		"cityHealth": 110,
+                "cityStrength": 9,
+		"cityHealth": 150,
                 "maintenance": 5,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"
@@ -1250,7 +1456,7 @@
 		"faith": 1,
 		"uniques": ["[+2 Faith] from [Camp] tiles [in this city]",
 			"[+2 Faith] from [Forest] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Clever Temple",
@@ -1260,7 +1466,7 @@
 		"faith": 1,
 		"uniques": ["[+1 Science] from [Mountain] tiles [in this city]",
 			"[+1 Science] from [Luxury resource] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Skylord Temple",
@@ -1269,7 +1475,7 @@
 		"culture": 1,
 		"uniques": ["[+3 Faith] from [Mountain] tiles [in this city]",
 			"[+2 Faith] from [Volcano] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Strong Temple",
@@ -1277,7 +1483,7 @@
                 "maintenance": 2,
 		"faith": 3,
 		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Deep Temple",
@@ -1286,7 +1492,7 @@
 		"faith": 2,
 		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]",
 			"[+1 Faith] from [Ocean] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Prehistoric Greenhouse",

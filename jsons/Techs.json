@@ -166,6 +166,12 @@
 				"row": 1,
 				"prerequisites": ["Spyglass"],
                         "quote": "Bass?"
+			},
+                        {
+				"name": "Recipes",
+				"row": 9,
+				"prerequisites": ["Spyglass"],
+                        "quote": "From Nature's Bounty to Nutritional Brilliance"
 			}
 		]
 	},
@@ -221,7 +227,7 @@
                         {
 				"name": "Spike Wall",
 				"row": 9,
-				"prerequisites": ["Professional Domestication"],
+				"prerequisites": ["Professional Domestication","Recipes"],
                         "quote": "There is a zombie on my lawn."
 			},
                         {

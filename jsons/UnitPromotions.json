@@ -1,5 +1,12 @@
 [
-
+{
+                "name": "Nourished",
+                "uniques": ["[+10] HP when healing <in [All] tiles>"],
+        },
+{
+                "name": "Berserk",
+                "uniques": ["[+20]% Strength","[+1] Movement"],
+        },
 {
                 "name": "Desirable Looks",
                 "innerColor": [255, 3, 205],
@@ -280,7 +287,7 @@
                 "name": "Radiated", 
                 "innerColor": [18, 17, 16],
 		"outerColor": [245, 209, 66],
-                "uniques": ["This Unit takes [25] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [25] damage <upon ending a turn in a [All] tile>"],
         },
 {
 		"name": "Zealot Warrior",
@@ -307,23 +314,23 @@
     },
         {
                 "name": "Swamp Fever",
-                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
         },
         {
                 "name": "Common Flu",
-                "uniques": ["This Unit takes [1] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [1] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Cancer",
-                "uniques": ["This Unit takes [30] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [30] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Bone Fracture",
-                "uniques": ["This Unit takes [17] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [17] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Prion",
-                "uniques": ["This Unit takes [15] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [15] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Sedentarism",
@@ -331,23 +338,23 @@
         },
 {
                 "name": "Pneumonia",
-                "uniques": ["This Unit takes [13] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [13] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Escherichia coli",
-                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Salmonella",
-                "uniques": ["This Unit takes [10] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [10] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Thermal Stress",
-                "uniques": ["This Unit takes [5] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [5] damage <upon ending a turn in a [All] tile>"],
         },
 {
                 "name": "Asthma",
-                "uniques": ["This Unit takes [1] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [1] damage <upon ending a turn in a [All] tile>"],
         },
 {
 		"name": "Greyhound Body",
@@ -464,15 +471,15 @@
         },
         {
                 "name": "Toxic Plant",
-                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
         },
         {
                 "name": "Rabies",
-                "uniques": ["This Unit takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
         },
         {
                 "name": "Sedentary Lifestyle",
-                "uniques": ["This Unit takes [20] damage <upon ending a turn in a [Friendly Land] tile>"],
+                "uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Friendly Land] tile>"],
         },
         {
 		"name": "Sea Predator",

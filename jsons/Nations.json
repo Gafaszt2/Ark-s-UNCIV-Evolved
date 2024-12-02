@@ -102,8 +102,8 @@ Raia’s journey is one of resilience, faith, and unwavering commitment to her p
 
 		"tradeRequest": "My people need this.",
 
-		"outerColor": [255, 241, 214],
-		"innerColor": [207, 137, 0],
+		"outerColor": [255, 242, 218],
+		"innerColor": [186, 123, 0],
 		"uniqueName": "Scorched Earth",
 		"uniques": ["[+1 Food] from every [Desert]","Double quantity of [Oil] produced","[+1 Gold] from every [Mine]","[+2 Gold] from every [Oil]"],
 		"cities": ["Nosti","Arat","Prime",
@@ -139,8 +139,8 @@ Despite his harsh methods, Nerva was a complex character. He was driven by a dee
 
 		"tradeRequest": "I remember when i had mercenaries to make deals for me, now i gotta make them myself.",
 
-		"outerColor": [222, 129, 29],
-		"innerColor": [238, 250, 200],
+		"outerColor": [199, 116, 26],
+		"innerColor": [239, 250, 205],
                 "uniqueName": "The Center of the Isle",
 		"uniques": ["Double quantity of [Fiber] produced","Double quantity of [Wood] produced", "[+1 Culture] from every [Natural Wonder]"],
 		"cities": ["Prism Prime","Arat","Prime",
@@ -169,8 +169,8 @@ Despite his harsh methods, Nerva was a complex character. He was driven by a dee
 
 		"tradeRequest": "My daughter said this deal is fair, if you refuse it, your skull will be my new decoration.",
 
-		"outerColor": [217, 191, 167],
-		"innerColor": [230, 61, 0],
+		"outerColor": [220, 197, 175],
+		"innerColor": [207, 54, 0],
                 "uniqueName": "Empire of Sea",
 		"uniques": ["[+2 Production] from every [Fishing Boats]","[+1 Food] from every [Fishing Boats]","[+1 Production] from every [Fishing Boats] <starting from the [Electric era]>"],
 		"cities": ["King´s Palace","Arat","Prime",
@@ -735,7 +735,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
 		"defeated": "You can continue your reign? im sure you won´t.",
-		"outerColor": [70, 69, 135],
+		"outerColor": [88, 87, 147],
 		"innerColor": [0,0,0],
 		"cities": ["Skeleton Gorge"]
 	},
@@ -747,7 +747,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
 		"defeated": "You can continue your reign? im sure you won´t.",
-		"outerColor": [13, 11, 125],
+		"outerColor": [85, 84, 163],
 		"innerColor": [0,0,0],
 		"cities": ["The Outpost"]
 	},
@@ -843,7 +843,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"declaringWar": "This is the end!",
 		"attacked": "Oh, so you are attacking us.",
 		"defeated": "You can continue your reign? im sure you won´t.",
-		"outerColor": [110, 7, 0],
+		"outerColor": [146, 69, 63],
 		"innerColor": [0,0,0],
 		"cities": ["Tyrant Temple"]
 	},

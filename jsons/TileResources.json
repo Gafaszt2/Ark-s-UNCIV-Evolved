@@ -200,46 +200,30 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [66] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
 	},
-	{
-		"name": "Amarberry",
+	        {
+		"name": "Wild Crops",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"production": -1,"gold": -1},
-		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
-	},
-	{
-		"name": "Lemon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+		"uniques": ["Generated on every [110] tiles <in [Grassland] tiles>","Generated on every [110] tiles <in [Plains] tiles>"]
 	},
         {
-		"name": "Carrot",
+		"name": "Wild Herbs",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Tundra","Snowy Beach"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [40] tiles <in [Snowy Beach] tiles>"]
 	},
+        
         {
-		"name": "Potato",
+		"name": "Wild Berries",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Beach","Snowy Beach"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
-	},
-        {
-		"name": "Corn",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [110] tiles <in [Forest] tiles>","Generated on every [110] tiles <in [Jungle] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [50] tiles <in [Snowy Beach] tiles>"]
 	},
 	{
 		"name": "Stone",
@@ -345,11 +329,11 @@
          {
 		"name": "Rare Mushroom",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Flood plains", "Swamp Zone", "Dead Land","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Bog","Flood plains", "Swamp Zone", "Tundra","Dead Land","Fallout Land"],
 		"culture": 1,
                 "food": 1,
 		"improvedBy": ["Ranch", "Teepee"],
-		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
          {
 		"name": "Rare Flower",
@@ -802,14 +786,6 @@
 		"uniques": ["Generated on every [70] tiles <in [Hill] tiles>"]
 	},
 	{
-		"name": "Azulberry",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach"],
-		"gold": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [35] tiles <in [Snowy Beach] tiles>"]
-	},
-	{
 		"name": "Woolly Rhino",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Tundra","Snow","Genesis Soil","Tek Soil"],
@@ -834,22 +810,7 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
-	{
-		"name": "Tintoberry",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
-	},
-	{
-		"name": "Mejoberry",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach"],
-		"gold": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [35] tiles <in [Beach] tiles>"]
-	},
+
 	{
 		"name": "Obsidian",
 		"resourceType": "Luxury",
@@ -1030,6 +991,30 @@
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
 	}
+        {
+		"name": "Phiomia Meat",
+		"resourceType": "Luxury",
+	},
+        {
+		"name": "Ovis Milk",
+		"resourceType": "Luxury",
+	},
+        {
+		"name": "Sushi",
+		"resourceType": "Luxury",
+	},
+        {
+		"name": "Dough",
+		"resourceType": "Luxury",
+	},
+        {
+		"name": "Tomato",
+		"resourceType": "Luxury",
+	},
+        {
+		"name": "Vegetal Oil",
+		"resourceType": "Luxury",
+	},
         {
 		"name": "Jewelry",
 		"resourceType": "Luxury",

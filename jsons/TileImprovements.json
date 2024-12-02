@@ -313,7 +313,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+		"uniques": ["Unpillagable", "Unbuildable", "Ensures a minimum tile yield of [+4 Culture]"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{

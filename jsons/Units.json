@@ -43,7 +43,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Great Reserve] improvement <by consuming this unit>",
-			"Great Person", "Unbuildable", "Uncapturable"],
+			"Great Person - [Naturalist]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -64,7 +64,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -76,7 +76,7 @@
             "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -86,7 +86,7 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
 	},
@@ -894,7 +894,7 @@
 		"cost": 70,
 		"requiredTech": "Metal Tap",
                 "promotions": ["Cretaceous"],
-		"uniques": ["This Unit gains the [Immunity] promotion <with [15]% chance>","[+40]% Strength <vs [Theropoda] units>","[-10]% Strength <vs [Crossbow Survivor] units>","[-5]% Strength <vs [Ophidia] units>","[+5]% Strength <when fighting in [Marsh] tiles>","May travel on Water tiles without embarking","Can move after attacking"],
+		"uniques": ["[This Unit] gains the [Immunity] promotion <with [15]% chance>","[+40]% Strength <vs [Theropoda] units>","[-10]% Strength <vs [Crossbow Survivor] units>","[-5]% Strength <vs [Ophidia] units>","[+5]% Strength <when fighting in [Marsh] tiles>","May travel on Water tiles without embarking","Can move after attacking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "frog"
@@ -962,7 +962,7 @@
 		"cost": 80,
                 "promotions": ["Jurassic"],
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking","Consumes [1] [Aquatic Mushroom]","This Unit gains the [Damage I] promotion <with [5]% chance>","This Unit gains the [Damage II] promotion <with [5]% chance>","This Unit gains the [Health I] promotion <with [5]% chance>"],
+		"uniques": ["Can move after attacking","Consumes [1] [Aquatic Mushroom]","[This Unit] gains the [Damage I] promotion <with [5]% chance>","[This Unit] gains the [Damage II] promotion <with [5]% chance>","[This Unit] gains the [Health I] promotion <with [5]% chance>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "raptor"
@@ -1478,7 +1478,7 @@
 		"strength": 30,
                 "promotions": ["Eocene"],
 		"cost": 95,
-                "uniques": ["[-40]% production cost <for [City-States]>"],
+                "uniques": ["[-60]% production cost <for [City-States] Civilizations>"],
 		"requiredTech": "Fishing Rod",
 		"attackSound": "marine"
 	},
@@ -1529,14 +1529,14 @@
 "[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
 "[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
 "[+44]% Strength <when fighting in [Lakes] tiles> <when attacking>",
-"This Unit takes [5] damage <upon ending a turn in a [Hill] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Grassland] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Beach] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Plains] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Tundra] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Montano] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
-"This Unit takes [5] damage <upon ending a turn in a [Snow] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Hill] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Grassland] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Beach] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Plains] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Tundra] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Montano] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Snow] tile> <hidden from users>",
 "[+3] Movement <in [Ocean] tiles> <hidden from users>",
 "[+3] Movement <in [Lakes] tiles> <hidden from users>",
 "[+3] Movement <in [Coast] tiles> <hidden from users>"
@@ -1602,7 +1602,7 @@
 		"strength": 60,
                 "promotions": ["Permian"],
                 "requiredResource": "Metal",
-                "uniques": ["[+30]% Strength <vs [Plesio Rider] units>","[+35]% Strength <vs [Mosa Rider] units>","This Unit gains [30] XP <upon entering a new era>"],
+                "uniques": ["[+30]% Strength <vs [Plesio Rider] units>","[+35]% Strength <vs [Mosa Rider] units>","[This Unit] gains [30] XP <upon entering a new era>"],
 		"cost": 190,
 		"requiredTech": "GPS",
 		"attackSound": "marine"
@@ -1634,7 +1634,7 @@
 		"unitType": "Fish",
 		"movement": 5,
 		"strength": 50,
-                "uniques": ["This Unit gains [15] XP <upon damaging a [Wounded] unit>"],
+                "uniques": ["[This Unit] gains [15] XP <upon damaging a [Wounded] unit>"],
 		"cost": 350,
                 "promotions": ["Hidden","Devonian"],
 		"requiredTech": "Island Bosses",
@@ -1959,7 +1959,7 @@
 "[+44]% Strength <when fighting in [Snow] tiles>",
 "[+22]% Strength <when fighting in [Tundra] tiles>",
 "[+22]% Strength <when fighting in [Snowy Beach] tiles>",
-"This Unit takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
 "[+3] Movement <in [Ocean] tiles> <hidden from users>",
 "[+3] Movement <in [Lakes] tiles> <hidden from users>",
 "[+3] Movement <in [Coast] tiles> <hidden from users>","Can move after attacking"],
@@ -1979,7 +1979,7 @@
 "[+44]% Strength <when fighting in [Snow] tiles> <when attacking>",
 "[+22]% Strength <when fighting in [Tundra] tiles> <when attacking>",
 "[+22]% Strength <when fighting in [Snowy Beach] tiles> <when attacking>",
-"This Unit takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
+"[This Unit] takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
 "[+33]% Strength <vs [Pinnipeds] units>"],
 		"hurryCostModifier": 20,
                 "requiredResource": "Steel",
@@ -1999,6 +1999,17 @@
 		"hurryCostModifier": 20,
                 "promotions": ["Rage","Cretaceous"],
 		"attackSound": "medcarno"
+	},
+        {
+		"name": "Dreadmare",
+		"unitType": "Fantasy",
+		"movement": 3,
+		"strength": 150,
+		"cost": 200,
+		"requiredTech": "Auto Torret",
+		"uniques": ["Consumes [3] [Metal]","Consumes [3] [Thatch]","Consumes [1] [Wood]","Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	},
         {
 		"name": "Stegotetrabelodon Rider",
@@ -2802,8 +2813,20 @@
 		"strength": 450,
 		"cost": 360,
 		"requiredTech": "Aberration Boss",
-		"uniques": ["[-80]% Strength <vs [Tek Anti Tank] units>","Consumes [3] [Lithium]","Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["May travel on Water tiles without embarking","[-80]% Strength <vs [Tek Anti Tank] units>","Consumes [3] [Lithium]","Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+	},
+{
+		"name": "Orcinus",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 500,
+		"range": 3,
+		"rangedStrength": 450,
+		"cost": 425,
+		"requiredTech": "Aberration Boss",
+		"uniques": ["Consumes [2] [Tek]","Consumes [3] [Metal]","[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
 	},
 {
 		"name": "Nuclear Missile",

@@ -1,8 +1,8 @@
 [
     {
         "name": "Cultured",
-        "friendBonusUniques": ["[+1 Culture] [in capital]"],
-        "allyBonusUniques": ["[+1 Culture] [in capital]", "[+1 Culture] [in all cities]"],
+        "friendBonusUniques": ["[+1 Culture] [in capital] <during the [Ancient era]>","[+2 Culture] [in capital] <during the [Leather era]>","[+3 Culture] [in capital] <during the [Smithy era]>","[+4 Culture] [in capital] <during the [Electric era]>","[+5 Culture] [in capital] <during the [Tek era]>"],
+        "allyBonusUniques": ["[+1 Culture] [in all cities] <during the [Ancient era]>","[+2 Culture] [in all cities] <during the [Leather era]>","[+3 Culture] [in all cities] <during the [Smithy era]>","[+4 Culture] [in all cities] <during the [Electric era]>","[+5 Culture] [in all cities] <during the [Tek era]>"],
         "color": [139, 96, 255]
     },
     {
@@ -13,44 +13,44 @@
     },
     {
         "name": "Maritime",
-        "friendBonusUniques": ["[+3 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "friendBonusUniques": ["[+3 Food] [in capital] <during the [Ancient era]>","[+4 Food] [in capital] <during the [Leather era]>","[+4 Food] [in capital] <during the [Smithy era]>","[+5 Food] [in capital] <during the [Electric era]>","[+6 Food] [in capital] <during the [Tek era]>"],
+        "allyBonusUniques": ["[+3 Food] [in all cities] <during the [Ancient era]>","[+4 Food] [in all cities] <during the [Leather era]>","[+4 Food] [in all cities] <during the [Smithy era]>","[+5 Food] [in all cities] <during the [Electric era]>","[+6 Food] [in all cities] <during the [Tek era]>"],
         "color": [56, 255, 112]
     },
     {
         "name": "Mercantile",
-        "friendBonusUniques": ["[+3 Gold] [in capital]"],
-        "allyBonusUniques": ["[+2 Gold] [in capital]", "[+1 Gold] [in all cities]"],
+        "friendBonusUniques": ["[+3 Gold] [in capital] <during the [Ancient era]>","[+4 Gold] [in capital] <during the [Leather era]>","[+5 Gold] [in capital] <during the [Smithy era]>","[+6 Gold] [in capital] <during the [Electric era]>","[+7 Gold] [in capital] <during the [Tek era]>"],
+        "allyBonusUniques": ["[+3 Gold] [in all cities] <during the [Ancient era]>","[+4 Gold] [in all cities] <during the [Leather era]>","[+5 Gold] [in all cities] <during the [Smithy era]>","[+6 Gold] [in all cities] <during the [Electric era]>","[+7 Gold] [in all cities] <during the [Tek era]>"],
         "color": [255, 216, 0]
     },
     {
         "name": "Leisure",
-        "friendBonusUniques": ["[+1 Happiness] [in capital]","[+1 Happiness] [in all cities]"],
-        "allyBonusUniques": ["[+1 Happiness] [in all cities]","[+1 Gold] [in all cities]","Provides a unique luxury"],
+        "friendBonusUniques": ["[+3 Happiness] [in capital] <during the [Ancient era]>","[+4 Happiness] [in capital] <during the [Leather era]>","[+5 Happiness] [in capital] <during the [Smithy era]>","[+6 Happiness] [in capital] <during the [Electric era]>","[+7 Happiness] [in capital] <during the [Tek era]>"],
+        "allyBonusUniques": ["[+3 Happiness] [in all cities] <during the [Ancient era]>","[+4 Happiness] [in all cities] <during the [Leather era]>","[+5 Happiness] [in all cities] <during the [Smithy era]>","[+6 Happiness] [in all cities] <during the [Electric era]>","[+7 Happiness] [in all cities] <during the [Tek era]>"],
         "color": [255, 248, 148]
     },
     {
         "name": "Strategical",
-        "friendBonusUniques": ["[+1 Production] [in capital]","Provides [1] [Fiber]","Provides [1] [Wood]"],
-        "allyBonusUniques": ["Provides [2] [Metal]","Provides [2] [Oil]","[+1 Production]"],
+        "friendBonusUniques": ["Provides [3] [Fiber]","Provides [3] [Wood]"],
+        "allyBonusUniques": ["Provides [3] [Metal]","Provides [3] [Oil]","Provides [3] [Steel]","Provides [3] [Fruit]"],
         "color": [94, 58, 42]
     },
     {
         "name": "Secret Society",
-        "friendBonusUniques": ["Provides [3] [Scales]","Provides [3] [Reeds]","Provides [3] [Leather]"],
-        "allyBonusUniques": ["Provides [6] [Scales]","Provides [6] [Reeds]","Provides [6] [Leather]"],
+        "friendBonusUniques": ["Provides [4] [Scales]","Provides [4] [Reeds]","Provides [4] [Leather]"],
+        "allyBonusUniques": ["Provides [7] [Scales]","Provides [7] [Reeds]","Provides [7] [Leather]"],
         "color": [180, 255, 130]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "friendBonusUniques": ["Provides military units every ≈[30] turns <during the [Ancient era]>"],
+        "allyBonusUniques": ["Provides military units every ≈[20] turns <during the [Ancient era]>","Provides military units every ≈[15] turns <during the [Leather era]>","Provides military units every ≈[10] turns <during the [Smithy era]>","Provides military units every ≈[10] turns <during the [Electric era]>","Provides military units every ≈[5] turns <during the [Tek era]>"],
         "color": [255, 0, 0]
     },
     {
         "name": "Religious",
-        "friendBonusUniques": ["[+3 Faith] [in capital]"],
-        "allyBonusUniques": ["[+2 Faith] [in capital]", "[+1 Faith] [in all cities]"],
+        "friendBonusUniques": ["[+3 Faith] [in capital] <during the [Ancient era]>","[+4 Faith] [in capital] <during the [Leather era]>","[+5 Faith] [in capital] <during the [Smithy era]>","[+6 Faith] [in capital] <during the [Electric era]>","[+7 Faith] [in capital] <during the [Tek era]>"],
+        "allyBonusUniques": ["[+3 Faith] [in all cities] <during the [Ancient era]>","[+4 Faith] [in all cities] <during the [Leather era]>","[+5 Faith] [in all cities] <during the [Smithy era]>","[+6 Faith] [in all cities] <during the [Electric era]>","[+7 Faith] [in all cities] <during the [Tek era]>"],
         "color": [255, 255, 255]
     }
 ]
