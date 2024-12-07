@@ -166,7 +166,6 @@
         {
 		"name": "Volcanic Rock",
 		"type": "TerrainFeature",
-		"production": 2,
 		"movementCost": 1,
                 "uniques": ["Doesn't generate naturally"]
                 "occursOn": ["Grassland","Plains","Tundra","Beach"],
@@ -855,7 +854,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Snow","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
+		"occursOn": ["Tundra","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -1235,6 +1234,30 @@
 		"occursOn": ["Desert"],
 		"uniques": ["Tile provides yield without assigned population","Must be adjacent to [1] to [2] [Desert] tiles"],
 		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+{
+		"name": "Himeji Castle",
+		"type": "NaturalWonder",
+                "faith": 3,
+                "gold": 2,
+		"occursOn": ["Tundra"],
+		"uniques": ["Must be adjacent to [1] to [2] [Tundra] tiles"],
+		"turnsInto": "Tundra",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+{
+		"name": "Monk Mounds",
+		"type": "NaturalWonder",
+                "faith": 3,
+                "gold": 2,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [1] to [2] [Hill] tiles","Must be adjacent to [1] to [2] [Grassland] tiles"],
+		"turnsInto": "Grassland",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10

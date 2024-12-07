@@ -764,6 +764,8 @@
 
 {
 		"name": "Health I",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
 		"uniques": ["[+5] HP when healing <in [All] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 59,
@@ -771,6 +773,8 @@
     },
     {
 		"name": "Health II",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
                 "prerequisites": ["Health I"],
 		"uniques": ["[+5] HP when healing <in [All] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
@@ -780,6 +784,8 @@
 
 {
 		"name": "Stamina I",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 61,
@@ -787,6 +793,8 @@
     },
     {
 		"name": "Stamina II",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
                 "prerequisites": ["Stamina I"],
 		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
@@ -796,6 +804,8 @@
 
 {
 		"name": "Fortitude I",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
 		"uniques": ["[+35]% Strength <when fighting in [Snow] tiles>","[+35]% Strength <when fighting in [Desert] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 63,
@@ -803,6 +813,8 @@
     },
     {
 		"name": "Fortitude II",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
                 "prerequisites": ["Fortitude I"],
 		"uniques": ["[+15]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Desert] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
@@ -811,15 +823,19 @@
     },
 
 {
-		"name": "Oxigen I",
+		"name": "Oxygen I",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
 		"uniques": ["[+10]% Strength <when fighting in [Coast] tiles>","[+10]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 65,
         "row": 48
     },
     {
-		"name": "Oxigen II",
-                "prerequisites": ["Oxigen I"],
+		"name": "Oxygen II",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "prerequisites": ["Oxygen I"],
 		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 66,
@@ -828,6 +844,8 @@
 
 {
 		"name": "Damage I",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
 		"uniques": ["[+15]% Strength"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 67,
@@ -835,6 +853,8 @@
     },
     {
 		"name": "Damage II",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
                 "prerequisites": ["Damage I"],
 		"uniques": ["[+15]% Strength"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
