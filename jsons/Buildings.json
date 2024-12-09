@@ -631,7 +631,7 @@
                 "maintenance": 1,
 		"culture": 3,
 		"hurryCostModifier": 50,
-		"uniques": ["Must be next to [Coast]"],
+		"uniques": ["Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Fish Basquet"
                 "requiredBuilding": "Rockwell House"
 	},
