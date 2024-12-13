@@ -75,7 +75,9 @@
 	},
         {
 		"name": "Temple",
+                "greatPersonPoints": {"Great Prophet": 2},
 		"faith": 2,
+                "maintenance": 2,
 		"cost": 50,
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
@@ -1215,7 +1217,6 @@
                 "greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Waterskin",
-		"quote": "'It is the chaos of this land that is truly disturbing to me' - Nerva"
 	},
         {
 		"name": "The Great Library",
@@ -1223,28 +1224,24 @@
 		"isWonder": true,
 		"uniques": ["Free Technology"],
 		"requiredTech": "Stone Houses",
-		"quote": "'I am reminded of my first command in Dacia. Many men questioned my rank, wondering why they had to follow a Centurion so young.' - Nerva"
 	},
         {
 		"name": "Mausoleum of Halicarnassus",
 		"isWonder": true,
 		"uniques": ["[+5]% [Gold] [in capital]", "[+2 Gold] from [Stone] tiles [in this city]","[+2 Gold] from [Oil] tiles [in this city]","[+2 Gold] from [Metal] tiles [in this city]"],
 		"requiredTech": "Bow and Arrow",
-		"quote": "'I have asked these questions many times since I awoke on this foreign shore, but I must stop. They do not matter.' - Mei Yin"
 	},
         {
 		"name": "Statue of Zeus",
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Cementing Paste",
-		"quote": "'As the sun set, I happened upon a small village on a bluff. Unfortunately, it was besieged by a man who rode a lizard like a horse and wielded a stick that spat fire.' - Mei Yin"
 	},
         {
 		"name": "The Pyramids",
 		"isWonder": true,
 		"uniques": ["[-40]% construction time for [All] improvements"],
 		"requiredTech": "Wooden Houses",
-		"quote": "'Can’t say I’m happy about it. The cold and I are not the best of mates, I can tell you that, but I’ll just have to suck it up.' - Helena Walker"
 	},
         {
 		"name": "The Great Lighthouse",
@@ -1252,56 +1249,75 @@
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>"],
 		"requiredTech": "Spyglass",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Colosseum",
 		"isWonder": true,
                 "happiness": 5,
 		"culture": 1,
+                "uniques": ["[+15]% [Happiness] [in all cities]"],
 		"requiredTech": "Stone Houses",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Petra",
-                "greatPersonPoints": {"Great Engineer": 2},
-                "greatPersonPoints": {"Great Merchant": 4},
+                "greatPersonPoints": {"Great Engineer": 5},
+                "greatPersonPoints": {"Great Merchant": 5},
 		"isWonder": true,
                 "food": 2,
 		"gold": 2,
 		"requiredTech": "Preserving Bin",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Pisa Tower",
 		"isWonder": true,
                 "culture": 2,
-		"uniques": ["Must have an owned [Hill] within [2] tiles", "[+15]% [Gold] [in all cities]"],
+		"uniques": ["Must have an owned [Hill] within [2] tiles", "[+35]% [Gold] [in all cities]"],
 		"requiredTech": "Balista",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
+	},
+        {
+		"name": "Kaaba",
+		"isWonder": true,
+                "faith": 4,
+		"uniques": ["[+50]% Production when constructing [Faith] buildings [in all cities]","[+25]% [Faith] [in all cities]"],
+		"requiredTech": "Balista",
+	},
+        {
+		"name": "Great Wall",
+		"isWonder": true,
+                "faith": 1,
+                "food": 1,
+                "production": 1,
+		"uniques": ["[+20]% Production when constructing [Production] buildings [in all cities]","Enemy [Wounded] units must spend [1] extra movement points when inside your territory"],
+		"requiredTech": "Balista",
+	},
+        {
+		"name": "Nabawi Mosque",
+		"isWonder": true,
+                "faith": 6,
+                "food": 3,
+                "production": 6,
+		"uniques": ["[+15]% [Production] [in all cities]"],
+		"requiredTech": "Fabricator",
 	},
         {
 		"name": "Puente de la Mujer",
 		"isWonder": true,
-                "culture": 2,
+                "culture": 4,
 		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+15]% [Happiness] [in all cities]"],
 		"requiredTech": "Flak Armor",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Statue of Liberty",
 		"isWonder": true,
-		"uniques": ["Must have an owned [Coast] within [3] tiles", "[+10]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["Must have an owned [Coast] within [3] tiles", "[+20]% Strength <for [All] units>"],
 		"requiredTech": "Flak Armor",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Sidney Opera House",
 		"isWonder": true,
                 "culture": 2,
-		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+15]% [Culture] [in all cities]"],
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+25]% [Culture] [in all cities]"],
 		"requiredTech": "Flak Armor",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Big Ben",
@@ -1309,7 +1325,6 @@
                 "production": 2,
 		"uniques": ["Must have an owned [Tundra] within [2] tiles", "[+5]% [Science] [in all cities]"],
 		"requiredTech": "Balista",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Petronas Tower",
@@ -1317,14 +1332,12 @@
                 "production": 2,
 		"uniques": ["Must have an owned [Forest] within [2] tiles", "[+5]% [Production] [in all cities]"],
 		"requiredTech": "Crossbow",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Taj Mahal",
 		"isWonder": true,
 		"uniques": ["Must have an owned [Plains] within [2] tiles", "[+25]% [Faith] [in all cities]"],
 		"requiredTech": "Crossbow",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Eiffel Tower",
@@ -1332,14 +1345,12 @@
                 "gold": 2,
 		"uniques": ["Must have an owned [Grassland] within [2] tiles", "[+25]% [Culture] [in all cities]"],
 		"requiredTech": "Flak Armor",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Christ the Redeemer",
 		"isWonder": true,
 		"uniques": ["Must have an owned [Jungle] within [2] tiles", "[+15]% [Faith] [in all cities]"],
 		"requiredTech": "Assault Riffle",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "Moai Statue",
@@ -1347,15 +1358,22 @@
                 "gold": 2,
 		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+10]% [Food] [in capital]", "[+10]% [Culture] [in capital]"],
 		"requiredTech": "Fish Basquet",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
         {
 		"name": "The Oracle",
 		"isWonder": true,
 		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+5]% [Production] [in all cities]"],
 		"requiredTech": "Mortar",
-		"quote": "'So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm no scientist.' - Helena Walker"
 	},
+
+
+
+
+
+
+////////
+
+
         {
 		"name": "Garden",
                 "uniqueTo": "The Center",
@@ -1454,7 +1472,7 @@
                 "maintenance": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+2 Faith] from [Camp] tiles [in this city]",
+		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+2 Faith] from [Camp] tiles [in this city]",
 			"[+2 Faith] from [Forest] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1464,7 +1482,7 @@
                 "maintenance": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+1 Science] from [Mountain] tiles [in this city]",
+		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+1 Science] from [Mountain] tiles [in this city]",
 			"[+1 Science] from [Luxury resource] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1473,7 +1491,7 @@
 		"cost": 0,
                 "maintenance": 1,
 		"culture": 1,
-		"uniques": ["[+3 Faith] from [Mountain] tiles [in this city]",
+		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+3 Faith] from [Mountain] tiles [in this city]",
 			"[+2 Faith] from [Volcano] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1482,7 +1500,7 @@
 		"cost": 0,
                 "maintenance": 2,
 		"faith": 3,
-		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
+		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
@@ -1490,7 +1508,7 @@
 		"cost": 0,
                 "maintenance": 1,
 		"faith": 2,
-		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]",
+		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+1 Faith] from [Coast] tiles [in this city]",
 			"[+1 Faith] from [Ocean] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},

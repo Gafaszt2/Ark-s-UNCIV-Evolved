@@ -58,19 +58,19 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
-            "Can instantly construct a [Castle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+             "Can instantly construct a [Castle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
-			"Removes other religions when spreading religion", "Limited to [2] per Civilization",
-            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
-		"religiousStrength": 1000
+		"religiousStrength": 1400
 	},
         {
-		"name": "Missionary",
+		"name": "Great Chief",
 		"unitType": "Civilian",
 		"uniques": [
             "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
@@ -81,7 +81,7 @@
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Inquisitor",
+		"name": "Minor Chief",
 		"unitType": "Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",

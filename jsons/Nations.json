@@ -2,6 +2,7 @@
 	//Spectator
 	{
 		"name": "Spectator",
+                "uniqueText": "Pick this nation to spectate the game",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
