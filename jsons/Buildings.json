@@ -1232,6 +1232,36 @@
 		"requiredTech": "Bow and Arrow",
 	},
         {
+		"name": "Buddhas of Bamiyan",
+		"isWonder": true,
+		"uniques": ["[+15]% [Happiness] [in all cities]","[+35]% [Faith] [in all cities]","[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Bow and Arrow",
+	},
+        {
+		"name": "Ur Ziggurat",
+		"isWonder": true,
+		"uniques": ["[+5]% [Science] [in capital]", "[+2 Culture, +2 Science] from every specialist [in all cities]"],
+		"requiredTech": "Bow and Arrow",
+	},
+        {
+		"name": "Old Summer Palace",
+		"isWonder": true,
+		"uniques": ["[+50]% [Culture] [in all cities]"],
+		"requiredTech": "Stone Irrigation Pipe",
+	},
+        {
+		"name": "Sagrada Familia",
+		"isWonder": true,
+		"uniques": ["[+5]% [Gold] [in capital]","[+2 Gold, +2 Faith] from all [Gold] buildings"],
+		"requiredTech": "Stone Irrigation Pipe",
+	},
+        {
+		"name": "Tower Bridge",
+		"isWonder": true,
+		"uniques": ["[+3 Production] from [Coast] tiles [in all cities]","[+2 Gold] from [Ocean] tiles [in all cities]"],
+		"requiredTech": "Greenhouse",
+	},
+        {
 		"name": "Statue of Zeus",
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
@@ -1240,7 +1270,7 @@
         {
 		"name": "The Pyramids",
 		"isWonder": true,
-		"uniques": ["[-40]% construction time for [All] improvements"],
+		"uniques": ["[-80]% construction time for [All] improvements"],
 		"requiredTech": "Wooden Houses",
 	},
         {
@@ -1362,10 +1392,15 @@
         {
 		"name": "The Oracle",
 		"isWonder": true,
-		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+5]% [Production] [in all cities]"],
+		"uniques": ["Must have an owned [Coast] within [2] tiles", "[+15]% [Production] [in all cities]"],
 		"requiredTech": "Mortar",
 	},
-
+        {
+		"name": "Ryugyong Hotel",
+		"isWonder": true,
+		"uniques": ["[+3 Gold] from all [Gold] buildings","[+2 Gold, +2 Production] from all [Happiness] buildings"],
+		"requiredTech": "Island Bosses",
+	},
 
 
 
