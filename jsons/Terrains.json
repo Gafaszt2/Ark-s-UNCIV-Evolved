@@ -1137,6 +1137,17 @@
 		"weight": 10
 	},
         {
+		"name": "Desert Temple",
+		"type": "NaturalWonder",
+                "culture": 4,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+        {
 		"name": "Viking Ruin",
 		"type": "NaturalWonder",
 		"culture": 3,
