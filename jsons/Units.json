@@ -142,7 +142,7 @@
 		"uniques": ["May create improvements on water resources","Uncapturable",
             "Automation is a primary action"]
 	},
-	{
+	    {    
 		"name": "Bob",
                 "requiredResource": "Fiber",
 		"unitType": "Sword",
@@ -150,6 +150,20 @@
 		"strength": 10,
 		"cost": 45,
 		"attackSound": "nonmetalhit"
+                "upgradesTo": "Survivor",
+		"obsoleteTech": "Bow and Arrow",
+                "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
+        },
+		{    
+		"name": "Bolas Survivor",
+        "requiredResource": "Fiber",
+		"unitType": "Bolas",
+		"movement": 2,
+		"strength": 13,
+        "rangedStrength": 15,
+		"cost": 55,
+		"attackSound": "nonmetalhit"
+		"requiredTech": "Bolas",
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
                 "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
@@ -375,7 +389,7 @@
 		"movement": 2,
                 "requiredResource": "Chitin",
 		"strength": 24,
-                "rangedStrength": 25,
+        "rangedStrength": 25,
 		"cost": 85,
 		"attackSound": "arrow"
                 "requiredTech": "Spike Wall",

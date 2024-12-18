@@ -236,6 +236,32 @@
                 "techRequired": "Stone Irrigation Pipe",
 	},
 
+
+
+
+
+	{
+		"name": "Remove Redwoods",
+		"turnsToBuild": 6,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+                "techRequired": "Island Bosses",
+	},
+	{
+		"name": "Remove Hill",
+		"turnsToBuild": 6,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+                "techRequired": "Island Bosses",
+	},
+	{
+		"name": "Remove Oasis",
+		"turnsToBuild": 6,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+                "techRequired": "Island Bosses",
+	},
+
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
