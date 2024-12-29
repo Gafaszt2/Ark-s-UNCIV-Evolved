@@ -7,6 +7,25 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Fame",
+        "victoryScreenHeader": "Fame can be obtained in a lot of ways.\ndeclaring frienship.\nentering a golden age.\nconquering a city.\nfounding a city.\nconstructing a wonder.\nfounding a religion.\nentering a new era",
+        "milestones": ["Anyone should build [Hall of Fame]"],
+        "victoryString": "You became the most famous person of all world!",
+        "defeatString": "You have been defeated."
+    },
+    {
+        "name": "Steampunk Project",
+        "milestones": ["Anyone should build [Steampunk Ship]"],
+        "victoryString": "We are ready to sail!",
+        "defeatString": "You have been defeated."
+    },
+    {
+        "name": "Richness",
+        "milestones": ["Anyone should build [Golden Palace]"],
+        "victoryString": "We are the most rich people in the planet!",
+        "defeatString": "You have been defeated."
+    },
+    {
         "name": "Ascension",
         "victoryScreenHeader": "Complete 6 policy branches to win!",
         "milestones": ["Complete [6] Policy branches"],

@@ -14,6 +14,27 @@
 		"uniques": ["Indicates the capital city", "Provides [2] [Fiber]"]
 	},
 	{
+		"name": "Hall of Fame",
+		"cost": 1000,
+		"isNationalWonder": true,
+		"uniques": ["Consumes [250] [Fame]","Triggers a global alert upon build start",
+			"Hidden when [Fame] Victory is disabled", "Cannot be hurried"]
+	},
+	{
+		"name": "Golden Palace",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Unbuildable","Can be purchased for [20000] [Gold] [in all cities]",
+			"Hidden when [Richness] Victory is disabled", "Cannot be hurried"]
+	},
+	{
+		"name": "Steampunk Ship",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Consumes [30] [Steel]","Consumes [5] [Metal]","Triggers a global alert upon build start",
+			"Hidden when [Steampunk Project] Victory is disabled", "Cannot be hurried"]
+	},
+	{
 		"name": "Ark Monument",
 		"culture": 2,
 		"cost": 40,
@@ -1507,7 +1528,7 @@
                 "maintenance": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+2 Faith] from [Camp] tiles [in this city]",
+		"uniques": ["Unsellable","Cannot be purchased","[+2 Faith] from [Camp] tiles [in this city]",
 			"[+2 Faith] from [Forest] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1517,7 +1538,7 @@
                 "maintenance": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+1 Science] from [Mountain] tiles [in this city]",
+		"uniques": ["Unsellable","Cannot be purchased","[+1 Science] from [Mountain] tiles [in this city]",
 			"[+1 Science] from [Luxury resource] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1526,7 +1547,7 @@
 		"cost": 0,
                 "maintenance": 1,
 		"culture": 1,
-		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+3 Faith] from [Mountain] tiles [in this city]",
+		"uniques": ["Unsellable","Cannot be purchased","[+3 Faith] from [Mountain] tiles [in this city]",
 			"[+2 Faith] from [Volcano] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1535,7 +1556,7 @@
 		"cost": 0,
                 "maintenance": 2,
 		"faith": 3,
-		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
+		"uniques": ["Unsellable","Cannot be purchased","All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
@@ -1543,7 +1564,7 @@
 		"cost": 0,
                 "maintenance": 1,
 		"faith": 2,
-		"uniques": ["Religious Wonder","Can only be built","Unsellable","Cannot be purchased","[+1 Faith] from [Coast] tiles [in this city]",
+		"uniques": ["Unsellable","Cannot be purchased","[+1 Faith] from [Coast] tiles [in this city]",
 			"[+1 Faith] from [Ocean] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},

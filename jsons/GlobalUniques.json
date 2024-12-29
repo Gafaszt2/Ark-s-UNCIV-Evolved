@@ -1,6 +1,15 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "May buy [Great Composer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+                "Provides [2] [Fame] <upon declaring war with a major Civilization> <for [100000] turns>",
+                "Provides [1] [Fame] <upon declaring friendship> <for [100000] turns>",
+                "Provides [3] [Fame] <upon entering a Golden Age> <for [100000] turns>",
+                "Provides [3] [Fame] <upon conquering a city> <for [100000] turns>",
+                "Provides [2] [Fame] <upon founding a city> <for [100000] turns>",
+                "Provides [4] [Fame] <upon constructing [Wonder] [in all cities]> <for [100000] turns>",
+                "Provides [2] [Fame] <upon founding a Religion> <for [100000] turns>",
+                "Provides [3] [Fame] <upon entering a new era> <for [100000] turns>",
 "Gain a free [Slavery] [in capital] <starting from the [Smithy era]>",
                 "Gain a free [Trash event] [in capital] <starting from the [Tek era]>",
         "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",

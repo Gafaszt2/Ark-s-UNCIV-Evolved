@@ -1208,6 +1208,17 @@
 		"name": "Uranium",
                 "resourceType": "Strategic",
                	},
+				   {
+					"name": "Wild Dreadnoughtus",
+							"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+					"science": 1,
+					"improvement": "Camp",
+					"resourceType": "Strategic",
+				},
+				{
+					"name": "Fame",
+					"resourceType": "Strategic",
+				},
 
 
         {
