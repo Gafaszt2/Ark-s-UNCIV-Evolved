@@ -7,7 +7,7 @@
 		"name": "Great Artist",
                 "strength": 25,
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Great Camp] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable"],
@@ -16,7 +16,7 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can hurry technology research",
             "Can instantly construct a [Potion Station] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
@@ -31,17 +31,25 @@
 		"movement": 2
 	},
 	{
+		"name": "Elf Magic Engineer",
+		"unitType": "Civilian",
+		"uniques": ["[+20]% Strength bonus for [Fantasy] units within [2] tiles","Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [440] [Faith] [in all cities]",
+            "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Merchant",
                 "strength": 15,
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence"
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence"
 			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
         {
 		"name": "Great Naturalist",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Great Reserve] improvement <by consuming this unit>",
 			"Great Person - [Naturalist]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -49,7 +57,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
             "Can instantly construct a [Steampunk Station] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -123,6 +131,15 @@
             "Empire enters a [2]-turn Golden Age <by consuming this unit>",
             "[+10]% Strength bonus for [Military] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Servant",
+		"strength": 25,
+		"unitType": "Sword",
+		"uniques": ["[+100]% Strength <starting from the [Smithy era]>","[+50]% Strength <starting from the [Electric era]>","[+60]% Strength <starting from the [Tek era]>","Limited to [5] per Civilization","Can be purchased with [Culture] [in all cities]","Can be purchased for [100] [Culture] [in all cities]",
+            "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{

@@ -5,6 +5,66 @@
         "uniques": ["[+1 Faith] from every [Ranch] <starting from the [Smithy era]>"]
     },
     {
+        "name": "Orange Tree",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] from every [Fruit]","[+3 Gold] from every [Fruit]"]
+    },
+    {
+        "name": "Hunting Dogs",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Camp] <starting from the [Leather era]>"]
+    },
+    {
+        "name": "Council",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] from every [Mountain Temple]"]
+    },
+    {
+        "name": "Jungle Tribes",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Mural]"]
+    },
+    {
+        "name": "Female Elf Doctor",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] from every [Potion Station]"]
+    },
+    {
+        "name": "Male Druid Doctor",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] from every [Great Reserve]"]
+    },
+    {
+        "name": "Dwarf Race Legacy",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Mine]","[+1 Faith] from every [Quarry]"]
+    },
+    {
+        "name": "The Schollar",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Montano]","[+1 Gold] from every [Montano]","[+1 Faith] from every [Pines]"]
+    },
+    {
+        "name": "The General",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] from every [Citadel]"]
+    },
+    {
+        "name": "Tropical Legacy",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Bog]","[+1 Gold] from every [Bog]","[+1 Faith] from every [Lakes]"]
+    },
+    {
+        "name": "Civilized Peoples",
+        "type": "Pantheon",
+        "uniques": ["[+1 Gold] from every [River]","[+1 Faith] from every [Lakes]","[+1 Faith] from every [Marsh]"]
+    },
+    {
+        "name": "Religious Debt",
+        "type": "Pantheon",
+        "uniques": ["[+10]% [Gold] from every follower, up to [+30]%"]
+    },
+    {
         "name": "Forestal People",
         "type": "Pantheon",
         "uniques": ["[+1 Gold, +2 Faith] from [Jungle] tiles [in this city]","[+1 Gold, +2 Faith] from [Forest] tiles [in this city]"]
@@ -17,7 +77,7 @@
     {
         "name": "Personal Reflection",
         "type": "Pantheon",
-        "uniques": ["[+5]% [Culture] from every follower, up to [+25]%"]
+        "uniques": ["[+5]% [Faith] from every follower, up to [+30]%"]
     },
     {
         "name": "Swamp Faith",
@@ -56,6 +116,16 @@
         "type": "Follower",
         "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
     }
+    {
+        "name": "Creation",
+        "type": "Follower",
+        "uniques": ["[+2 Food, +2 Culture] from every [Temple]"]
+    },
+    {
+        "name": "Saints",
+        "type": "Follower",
+        "uniques": ["[+3 Faith] from every [Castle]","[+1 Culture] from every [Castle]"]
+    },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
     {
@@ -82,5 +152,25 @@
         "name": "Marine God",
         "type": "Founder",
         "uniques": ["May buy [Deep Temple] buildings for [250] [Faith] [in cities following this religion]"]
-    }
+    },
+    {
+        "name": "Shadows God",
+        "type": "Founder",
+        "uniques": ["May buy [Shadows Temple] buildings for [250] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pack God",
+        "type": "Founder",
+        "uniques": ["May buy [Pack Temple] buildings for [250] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Void God",
+        "type": "Founder",
+        "uniques": ["May buy [Void Temple] buildings for [250] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Chaos God",
+        "type": "Founder",
+        "uniques": ["May buy [Chaos Temple] buildings for [250] [Faith] [in cities following this religion]"]
+    },
 ]

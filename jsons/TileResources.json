@@ -214,7 +214,7 @@
 		"terrainsCanBeFoundOn": ["Tundra","Snowy Beach"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [40] tiles <in [Snowy Beach] tiles>"]
+		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>","Generated on every [40] tiles <in [Snowy Beach] tiles>"]
 	},
         
         {
@@ -250,6 +250,33 @@
 		"culture": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>"]
+	},
+	{
+		"name": "Electrophorus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Volcanic Zone"],
+		"food": 2,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
+	},
+	{
+		"name": "Saurichtys",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"food": 1,
+		"faith": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Sphyrna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Hesperornis",
@@ -333,7 +360,7 @@
 		"culture": 1,
                 "food": 1,
 		"improvedBy": ["Ranch", "Teepee"],
-		"uniques": ["Generated on every [30] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
          {
 		"name": "Rare Flower",
@@ -748,7 +775,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Snow","Tundra"],
 		"food": 1,
-                "uniques": ["Generated on every [60] tiles <in [Snow] tiles>"]
+                "uniques": ["Generated on every [70] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 	},
@@ -759,7 +786,7 @@
 		"culture": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [35] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [65] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Cristal",
@@ -792,7 +819,7 @@
 		"gold": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [90] tiles <in [Tundra] tiles>"]
 	},
         {
 		"name": "Velona",

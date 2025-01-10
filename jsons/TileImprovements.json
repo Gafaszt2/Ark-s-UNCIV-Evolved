@@ -17,7 +17,7 @@
 		"food": 1,
                 "techRequired": "Torch",
 		"turnsToBuild": 5,
-		"uniques": ["[-1 Food] for each adjacent [Ranch]","[+1 Faith] for each adjacent [Plains]","Can also be built on tiles adjacent to fresh water"],
+		"uniques": ["[-1 Food] for each adjacent [Teepee]","[+1 Faith] for each adjacent [Plains]","Can also be built on tiles adjacent to fresh water"],
 		"shortcutKey": "F"
 	},
         {
