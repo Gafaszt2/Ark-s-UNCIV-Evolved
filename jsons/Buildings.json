@@ -28,6 +28,14 @@
 			"Only available <when [Richness] Victory is enabled>", "Cannot be hurried"]
 	},
 	{
+		"name": "Spaceship",
+		"cost": 900,
+		"requiredTech": "Save the Earth"
+		"isNationalWonder": true,
+		"uniques": ["Consumes [10] [Tek]","Triggers a global alert upon build start",
+			"Only available <when [Spaceship] Victory is enabled>", "Cannot be hurried"]
+	},
+	{
 		"name": "Steampunk Ship",
 		"cost": 1500,
 		"isNationalWonder": true,
@@ -219,8 +227,8 @@
 {
 		"name": "Coastal Village",
 		"maintenance": 1,
-                "requiredNearbyImprovedResources": ["Coelacanth", "Sabertooth Salmon"],
-                "uniques": ["[+2 Food] from [Coelacanth] tiles [in this city]","[+2 Food] from [Sabertooth Salmon] tiles [in this city]"],
+                "requiredNearbyImprovedResources": ["Coelacanth", "Sabertooth Salmon", "Electrophorus", "Carp"],
+                "uniques": ["[+2 Food] from [Coelacanth] tiles [in this city]","[+2 Food] from [Sabertooth Salmon] tiles [in this city]","[+1 Gold] from [Electrophorus] tiles [in this city]","[+2 Food] from [Carp] tiles [in this city]"],
 		"hurryCostModifier": 20,
 		"requiredTech": "Fish Basquet"
 	},
@@ -404,9 +412,9 @@
         {
 		"name": "Rare Studies",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Rare Mushroom", "Rare Flower"],
-		"uniques": ["[+1 Production] from [Rare Mushroom] tiles [in this city]",
-			"[+1 Production] from [Rare Flower] tiles [in this city]"],
+                "requiredNearbyImprovedResources": ["Rare Flower"],
+		"uniques": [
+			"[+1 Science] from [Rare Flower] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
@@ -437,8 +445,8 @@
         {
 		"name": "Evolution Museum",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Beelzebufo","Coelacanth","Giant Bee","Gigantopithecus","Hatzegopteryx","Meganeura"],
-		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Coelacanth] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
+                "requiredNearbyImprovedResources": ["Beelzebufo","Giant Bee","Gigantopithecus","Hatzegopteryx","Meganeura"],
+		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
                             "[+1 Faith] from [Hatztegopteryx] tiles [in this city]",
 			"[+1 Culture] from [Meganeura] tiles [in this city]"],
 		"requiredTech": "Bolas"
@@ -446,9 +454,9 @@
         {
 		"name": "Marine Mania",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Ichtyosaurus","Ichtyornis","Hesperornis","Kelp"],
+                "requiredNearbyImprovedResources": ["Ichtyosaurus","Tusoteuthis","Sphyrna","Saurichtys","Ichtyornis","Leedsichtys","Liopleurodon","Manta","Hesperornis","Plesiosaur","Kelp"],
 		"uniques": ["[+1 Food] from [Ichtyosaurus] tiles [in this city]",
-                            "[+1 Faith] from [Ichtyornis] tiles [in this city]","[+1 Food] from [Kelp] tiles [in this city]",
+                            "[+1 Faith] from [Ichtyornis] tiles [in this city]","[+1 Faith] from [Tusoteuthis] tiles [in this city]","[+1 Faith] from [Sphyrna] tiles [in this city]","[+1 Science] from [Saurichtys] tiles [in this city]","[+1 Food] from [Kelp] tiles [in this city]","[+1 Faith] from [Manta] tiles [in this city]","[+1 Faith] from [Plesiosaur] tiles [in this city]","[+1 Culture] from [Leedsichtys] tiles [in this city]","[+1 Culture] from [Liopleurodon] tiles [in this city]",
 			"[+1 Culture] from [Hesperornis] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
@@ -510,8 +518,8 @@
         {
 		"name": "Aberration DLC",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Roll Rat", "Fungic Wood", "Basilisk"],
-		"uniques": ["[+2 Production] from [Roll Rat] tiles [in this city]",
+                "requiredNearbyImprovedResources": ["Roll Rat", "Fungic Wood","Seeker", "Basilisk"],
+		"uniques": ["[+2 Production] from [Roll Rat] tiles [in this city]","[+1 Faith] from [Seeker] tiles [in this city]",
 			"[+2 Production] from [Fungic Wood] tiles [in this city]",
 			"[+2 Production] from [Basilisk] tiles [in this city]"],
 		"requiredTech": "Notes"
@@ -544,7 +552,6 @@
                 "greatPersonPoints": {"Great Prophet": 1},
                 "maintenance": 1,
 		"science": 2,
-                "requiredNearbyImprovedResources": ["Stone"],
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Place Mark"
 		"requiredTech": "Mortar"
@@ -594,7 +601,6 @@
                 "greatPersonPoints": {"Great Scientist": 1},
                 "maintenance": 2,
                 "production": 1,
-                "requiredNearbyImprovedResources": ["Stone"],
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Refining Forge"

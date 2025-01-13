@@ -7,7 +7,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
         {
@@ -17,7 +16,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Thylacoleo furtimorsus is a large, powerful marsupial that can often be found hunting around trees among the Island's redwoods. Its long claws and semi-opposable digits make it an apt climber, a quality that Thylacoleo uses to its advantage while hunting."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [3] tiles <in [Redwoods] tiles>"]
 	},
         {
@@ -27,7 +25,6 @@
 		"culture": 1,
                 "civilopediaText": [{"text": "Procoptodon vivencurrus. Standing nearly three meters tall, it is among the largest jumping creatures I've heard of. It is a fairly peaceful herbivore that will immediately flee when aggressed upon."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [300] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
         {
@@ -37,7 +34,6 @@
 		"happiness": 1,
                 "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
 		"improvement": "Camp",
-		"improvementStats": {"faith": 1},
 		"uniques": ["Generated on every [40] tiles <in [Montano] tiles>"]
 	},
         {
@@ -47,7 +43,6 @@
 		"gold": 1,
                 "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Montano] tiles>"]
 	},
         {
@@ -57,7 +52,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Oncorhynchus grexlamia is a generally passive fish. Its main form of protection is swimming in a large school. Oncorhynchus does not like conflict, and generally swims away from anything larger than itself at very high speeds. Once provoked, however, Oncorhynchus becomes quite aggressive, along with its nearby brethren. It locks onto its prey with its long saberteeth and begins draining that creature's blood."}]
 		"improvement": "Lake House",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [30] tiles <in [Lakes] tiles>"]
 	},
         {
@@ -67,7 +61,6 @@
 		"faith": 2,
                 "civilopediaText": [{"text": "Megapiranha magnadmorsus is carnivorous fish found fairly commonly in the rivers and ponds of the island. Its bite is incredibly powerful; I've even seen them break through the armored turtles of the island."}] 
 		"improvement": "Lake House",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
 	},
         {
@@ -77,7 +70,6 @@
 		"culture": 2,
                 "civilopediaText": [{"text": "Haementeria laetus, despite its rather terrible nature. The creature has practically no intelligence, and just attaches to any nearby living flesh in an attempt to drain that creature's blood. Removing Haementeria requires precision bladework, or access to an open flame. Both of these can be nearly as dangerous to the host as to the leech itself."}]
 		"improvement": "Lake House",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
 	},
         {
@@ -87,7 +79,6 @@
 		"production": 1,
                 "civilopediaText": [{"text": "Lutra Peloso have become exceptionally adept at hunting and foraging. This species of Otter has to be particularly cunning because of its diminutive size, and fierce competition for its preferred food source: fish."}]
 		"improvement": "Lake House",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
 	},
         {
@@ -97,7 +88,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Apis Drones can be seen swarming around the nest in groups, but to get a look at the Queen Apis, one would need to crack open the nest itself. Speaking from experience, this is not a pleasant task, as the untameable Apis Drones are quite territorial."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [80] tiles <in [Grassland] tiles>"]
 	},
         {
@@ -107,7 +97,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
 		"uniques": ["Generated on every [35] tiles <in [Desert] tiles>"]
 	},
         {
@@ -117,7 +106,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "The true tyrannical baron of the ark's skies, Hatzegopteryx is the undisputed king of flight. A massive shadow similar to a warplane, Hatzegopteryx is capable of speed and maneuvers unlike anything else its size. It is a tyrant that hunts anything that soars."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
+		
 		"uniques": ["Generated on every [240] tiles <in [Desert] tiles>"]
 	},
         {
@@ -127,7 +116,7 @@
 		"culture": 1,
                 "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
+		
 		"uniques": ["Generated on every [15] tiles <in [Jungle] tiles>"]
 	},
         {
@@ -137,7 +126,7 @@
 		"science": 1,
                 "civilopediaText": [{"text": "Gigantopithecus fibrarator is a strange creature. It is usually quite passive, but it has a very short temper when it comes to its own personal space. Once another creature gets close, this gentle giant quickly becomes a rampaging beast. Best to give them a wide berth. I have occasionally seen Gigantopithecus jumping to grab vines that it can traverse and swing on, but otherwise, it seems most happy to lay about, picking berries from plants lazily."}]
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [45] tiles <in [Redwoods] tiles>"]
 	},
         {
@@ -147,7 +136,7 @@
 		"science": 1,
                 "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [80] tiles <in [Marsh] tiles>"]
 	},
         {
@@ -157,7 +146,7 @@
 		"culture": 1,
                 "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
 		"improvement": "Camp",
-		"improvementStats": {"production": 2},
+		
 		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [70] tiles <in [Snow] tiles>"]
 	},
         {
@@ -167,7 +156,7 @@
 		"production": 1,
                 "civilopediaText": [{"text": "Smilodon brutalis is a solitary hunter, generally found in cold, lightly wooded areas. The Island's mountains are the perfect habitat, as the mammal's fur keeps it safe from the bitter temperature. While its huge fangs are excellent for delivering deathblows, the creature's claws can be just as deadly."}]
 		"improvement": "Camp",
-		"improvementStats": {"culture": 2},
+		
 		"uniques": ["Generated on every [65] tiles <in [Tundra] tiles>"]
 	},
         {
@@ -177,7 +166,7 @@
 		"production": 1,
                 "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
-		"improvementStats": {"science": 2},
+		
 		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [55] tiles <in [Snow] tiles>"]
 	},
 	{
@@ -187,7 +176,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [25] tiles <in [Montano] tiles>","Generated on every [70] tiles <in [Plains] tiles>"]
 	},
 	{
@@ -197,7 +186,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [66] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
 	},
 	        {
@@ -231,7 +220,7 @@
 		"terrainsCanBeFoundOn": ["Montano","Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
 		"production": 1,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Montano] tiles>"]
 	},
 	{
@@ -243,6 +232,14 @@
 		"improvedBy": ["Lake House", "Fishing Boats"],
 		"uniques": ["Generated on every [12] tiles <in [Coast] tiles>","Generated on every [12] tiles <in [Lakes] tiles>"]
 	},
+	{
+		"name": "Carp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvedBy": ["Lake House"],
+		"uniques": ["Generated on every [12] tiles <in [Lakes] tiles>"]
+	},
         {
 		"name": "Ichtyosaurus",
 		"resourceType": "Bonus",
@@ -252,13 +249,21 @@
 		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>"]
 	},
 	{
+		"name": "Desert Pearl",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Oasis"],
+		"gold": 2,
+		"improvement": "Desert Ranch",
+		"uniques": ["Generated on every [10] tiles <in [Oasis] tiles>"]
+	},
+	{
 		"name": "Electrophorus",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Zone"],
+		"terrainsCanBeFoundOn": ["Volcanic Zone","Lakes"],
 		"food": 2,
 		"gold": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
+		"improvedBy": ["Lake House", "Fishing Boats"],
+		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>","Generated on every [80] tiles <in [Lakes] tiles>"]
 	},
 	{
 		"name": "Saurichtys",
@@ -309,7 +314,6 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1}
                 "uniques": ["Generated on every [70] tiles <in [Desert] tiles>"]
 	},
         {
@@ -321,7 +325,7 @@
 
 "}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [35] tiles <in [Hill] tiles>"]
 	},
         {
@@ -330,7 +334,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
 		"food": 1,
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [24] tiles <in [Desert] tiles>"]
 	},
         {
@@ -340,7 +344,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Raphus replicare, more commonly known as the Dodo Bird, is quite possibly the dumbest creature I've ever seen in my life. It wanders around the beaches of the Island, pecking berries off bushes, and being eaten by all manner of carnivore."}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [20] tiles <in [Beach] tiles>"]
 	},
         {
@@ -350,7 +354,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [40] tiles <in [Beach] tiles>"]
 	},
          {
@@ -403,7 +407,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"food": 2,
-                "improvementStats": {"food": 1},
+                
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Ocean] tiles>"]
 	},
@@ -414,7 +418,7 @@
 		"culture": 1,
                 "science": 1,
                 "civilopediaText": [{"text": "Liopleurodon magicus is a mid-sized ocean creature, typically between 20 and 25 feet long. I've yet to directly encounter one myself, but from the tales other tribes have shared, it compares to no other on the Island. The rumors indicate that this beautiful creature has magical properties."}]
-                "improvementStats": {"food": 1},
+                
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [780] tiles <in [Ocean] tiles>"]
 	},
@@ -425,7 +429,7 @@
 		"culture": 1,
                 "production": 1,
                 "civilopediaText": [{"text": "Here is another example of a creature that seems to have evolved beyond its historical traits. Everything points to this being a saltwater ray, but Manta mobula has developed the ability to swim into the island's rivers and shallows, as well as through the open ocean. Perhaps there were originally two types of ray on the island before, but years of interbreeding combined their lineage. Normally docile, Manta mobula is a carnivore only in that it naturally consumes plankton."}]
-                "improvementStats": {"food": 1},
+                
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [300] tiles <in [Coast] tiles>"]
 	},
@@ -436,7 +440,7 @@
 		"food": 1,
                 "production": 1,
                 "civilopediaText": [{"text": "Elasmosaurus remuspissa is typically found in the deep oceans, and has a strange role in the oceanic food chain. It almost exclusively hunts the smaller creatures in the waters, leaving most even moderately large creatures alone. The sheer size of the Elasmosaurus means that the quantity of food it must eat to sustain itself is nothing short of enormous. Elasmosaurus is a formidable fighter."}]
-                "improvementStats": {"food": 1},
+                
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [300] tiles <in [Ocean] tiles>"]
 	},
@@ -446,7 +450,7 @@
 		"terrainsCanBeFoundOn": ["Ocean","Coast"],
 		"food": 3,
                 "civilopediaText": [{"text": "Leedsichthys conviviumbrosia is probably the largest fish in the waters around the island. Its meat is also extremely succulent, a surprise given its size."}]
-                "improvementStats": {"culture": 1},
+                
 		"improvement": "Fishing Boats",
             "uniques": ["Generated on every [700] tiles <in [Ocean] tiles>"]
 	},
@@ -456,7 +460,7 @@
 		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>"]
 	},
         {
@@ -466,7 +470,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Of all the creatures in the sauropod family, Amargasaurus titanicus is likely the most unique in appearance. It sports two parallel rows of dorsal spines down the length of its neck, back, and tail--though the neck spines are significantly longer than the back or tail spines. These spines are a remarkable adaptation, giving Amargasaurus unmatched control of its body temperature. Made even more marvelous by their time on this ARK, their spines store both extreme heat AND extreme cold, effectively allowing Amargasaurus to live comfortably in any environment."}]
 		"improvement": "Mine",
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>","Generated on every [500] tiles <in [Hill] tiles>"]
 	},
         {
@@ -476,7 +480,7 @@
 		"science": 1,
                 "civilopediaText": [{"text": "The Magmasaur is a fire-based Creature that gains strength and charges up attacks through heat. It has an affinity for lava to the point of even swimming in it, and dislikes water."}]
 		"improvement": "Mine",
-		"improvementStats": {"food": 1},
+		
 	},
         {
 		"name": "Defense Unit",
@@ -485,7 +489,7 @@
 		"production": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Gasbags",
@@ -494,7 +498,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"food": 2},
+		
 	},
         {
 		"name": "Corrupted Nodule",
@@ -503,7 +507,7 @@
 		"production": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Roll Rat",
@@ -512,7 +516,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Fungic Wood",
@@ -521,7 +525,7 @@
 		"production": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Mine",
-		"improvementStats": {"science": 1},
+		
 	},
         {
 		"name": "Basilisk",
@@ -529,7 +533,7 @@
 		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
+		
 	},
         {
 		"name": "Chupacabra",
@@ -537,7 +541,7 @@
 		"terrainsCanBeFoundOn": ["Aberrant Blue Zone"],
 		"science": 1,
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		
 	},
         {
 		"name": "Seeker",
@@ -545,7 +549,7 @@
 		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone","Snow"],
 		"faith": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 	},
         {
 		"name": "Stego",
@@ -554,7 +558,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [40] tiles <in [Plains] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Dimorphodon",
@@ -564,7 +568,7 @@
                 "uniques": ["Generated on every [550] tiles <in [Hill] tiles>","Generated on every [555] tiles <in [Desert] tiles>","Generated on every [555] tiles <in [Plains] tiles>"
                             ]
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		
 	},
         {
 		"name": "Astrodelphis",
@@ -573,7 +577,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"science": 1},
+		
 	},
         {
 		"name": "Astrocetus",
@@ -581,7 +585,7 @@
 		"terrainsCanBeFoundOn": ["Asteroid"],
 		"food": 2,
 		"improvement": "Camp",
-		"improvementStats": {"science": 1},
+		
 	},
         {
 		"name": "Stryder",
@@ -590,7 +594,7 @@
 		"science": 1,
                 "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Carniflora",
@@ -598,7 +602,7 @@
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
 		"culture": 1,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Carcharodontosaurus",
@@ -607,7 +611,7 @@
 		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill"],
 		"science": 1,
 		"improvement": "Camp",
-		"improvementStats": {"culture": 1},
+		
 	},
         {
 		"name": "Sauropod Vertebra",
@@ -616,7 +620,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 	},
         {
 		"name": "Desert Slaves",
@@ -626,7 +630,6 @@
                 "uniques": ["Doesn't generate naturally"]
 
 		"improvement": "Camp",
-		"improvementStats": {"gold": 3},
 	},
         {
 		"name": "Argentavis Talon",
@@ -635,7 +638,7 @@
 		"terrainsCanBeFoundOn": ["Hill"],
 		"gold": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 	},
         
 	// Strategic resources
@@ -645,7 +648,7 @@
 		"terrainsCanBeFoundOn": ["Beach","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvedBy": ["Ranch", "Teepee"],
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [60] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -666,7 +669,7 @@
 		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [60] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Montano] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
@@ -678,7 +681,6 @@
 		"terrainsCanBeFoundOn": ["Desert","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Mine"],
-		"improvementStats": {"production": 3},
 		"uniques": ["Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -690,7 +692,7 @@
 		"terrainsCanBeFoundOn": ["Montano","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [90] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
@@ -713,7 +715,7 @@
 		"terrainsCanBeFoundOn": ["Eldritch","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [60] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Jungle] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -725,7 +727,7 @@
 		"terrainsCanBeFoundOn": ["Eldritch","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>"]
 	},
         {
@@ -768,7 +770,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [60000] tiles <in [Grassland] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
                 {
 		"name": "Yutyrannus",
@@ -777,7 +779,7 @@
 		"food": 1,
                 "uniques": ["Generated on every [70] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Purlovia",
@@ -785,7 +787,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"culture": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"uniques": ["Generated on every [65] tiles <in [Tundra] tiles>"]
 	},
 	{
@@ -818,7 +820,7 @@
 		"terrainsCanBeFoundOn": ["Tundra","Snow","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"uniques": ["Generated on every [60] tiles <in [Snow] tiles>","Generated on every [90] tiles <in [Tundra] tiles>"]
 	},
         {
@@ -827,7 +829,7 @@
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
         {
 		"name": "Managarmr",
@@ -835,7 +837,7 @@
 		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
 		"food": 2,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		
 	},
 
 	{
@@ -861,7 +863,7 @@
 		"terrainsCanBeFoundOn": ["Marsh","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
-		"improvementStats": {"production": 1},
+		
 		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [140] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Marsh] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
 	},
         {
@@ -989,7 +991,7 @@
                 "revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Hill"],
                 "improvement": "Gas Collector",
-		"improvementStats": {"gold": 1},
+		
 		"gold": 1,
 	}
         {
@@ -1006,7 +1008,7 @@
 		"gold": 1,
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		
 		"uniques": ["Generated on every [600] tiles <in [Tundra] tiles>"]
 	},
 	{
@@ -1015,7 +1017,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle","Beach"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
 	}
         {
@@ -1266,7 +1268,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Sunday Desert"],
                 "improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"happiness": 1,
                 "faith": 2,
 	}
@@ -1275,7 +1277,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Preevening Savannah"],
                 "improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"happiness": 1,
                 "gold": 2,
 	}
@@ -1284,7 +1286,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Darklight Tundra"],
                 "improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		
 		"faith": 1,
                 "culture": 2,
 	}
@@ -1293,7 +1295,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Twilight Forest"],
                 "improvement": "Camp",
-		"improvementStats": {"science": 1},
+		
                 "science": 1,
 	}
 ]

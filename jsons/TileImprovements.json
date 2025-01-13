@@ -22,7 +22,7 @@
 	},
         {
 		"name": "Desert Ranch",
-		"terrainsCanBeBuiltOn": ["Desert"],
+		"terrainsCanBeBuiltOn": ["Desert","Oasis"],
 		"food": 1,
                 "techRequired": "Torch",
                 "gold": 2,
@@ -116,6 +116,7 @@
 	// Resource-specific
 	{
 		"name": "Camp",
+		"gold": 2,
 		"turnsToBuild": 4,
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]", "Can only be built to improve a resource"],
 		"shortcutKey": "C"
@@ -123,12 +124,14 @@
 	},
 	{
 		"name": "Oil well",
+		"production": 2,
 		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles"],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Offshore Platform",
+		"production": 2,
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles"],
 		"shortcutKey": "P"
 	},
@@ -165,6 +168,7 @@
 	},
 	{
 		"name": "Fort",
+		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],

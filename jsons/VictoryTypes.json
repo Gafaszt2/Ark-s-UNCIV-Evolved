@@ -14,6 +14,15 @@
         "defeatString": "You have been defeated."
     },
     {
+        "name": "Spaceship",
+        "victoryScreenHeader": "Build the Spaceship to travel to arnother Arks",
+        "milestones": ["Anyone should build [Spaceship]"],
+        "victoryString": "Your masterpiece is complete! You've successfully assembled all the critical parts and built an extraordinary spaceship. The stars are now your playground. With unwavering determination and brilliant ingenuity, you've forged a vessel ready to explore the cosmos.
+
+Prepare for launch and let the adventure begin!!",
+        "defeatString": "You have been defeated."
+    },
+    {
         "name": "Steampunk Project",
         "milestones": ["Anyone should build [Steampunk Ship]"],
         "victoryString": "We are ready to sail!",

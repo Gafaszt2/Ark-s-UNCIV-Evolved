@@ -1,4 +1,32 @@
 [
+        {
+                "name": "Frugivorous",
+                "innerColor": [20, 20, 20],
+		"outerColor": [92, 244, 255],
+                "uniques": ["[+40]% XP gained from combat"],
+        },
+        {
+                "name": "Small Head",
+                "innerColor": [20, 20, 20],
+		"outerColor": [92, 244, 255],
+                "unitTypes": ["Varanus"],
+                "uniques": ["[1] additional attacks per turn"],
+        },
+{
+                "name": "Strong Tail",
+                "innerColor": [20, 20, 20],
+		"outerColor": [92, 244, 255],
+                "unitTypes": ["Varanus"],
+                "uniques": ["[+1] Movement <in [Foreign Land] tiles>","[+1] Movement <in [Jungle] tiles>","[+1] Movement <in [River] tiles>"],
+        },
+{
+                "name": "Paralyzing Venom",
+                "innerColor": [20, 20, 20],
+		"outerColor": [92, 244, 255],
+                "unitTypes": ["Varanus"],
+                "uniques": ["[+40]% Strength"],
+        },
+
 {
                 "name": "Nourished",
                 "uniques": ["[+10] HP when healing <in [All] tiles>"],
@@ -773,7 +801,7 @@
 
 {
 		"name": "Gills",
-		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
+		"uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
 		"unitTypes": ["Fish"],
     }
     {
