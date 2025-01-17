@@ -1682,6 +1682,12 @@ What is very different from today’s tree anatomy is that the center of the woo
 		"hurryCostModifier": 50,
                 "requiredTech": "Island Bosses"
 	},
+	{
+		"name": "Economic Event",
+                "uniques": ["Triggers a [Economic Event] event <hidden from users>","Unbuildable <hidden from users>","Cannot be purchased <hidden from users>"],
+		"hurryCostModifier": 50,
+                "requiredTech": "Agriculture"
+	},
         {
 		"name": "Aqueduct",
 		"food": 2,

@@ -1,4 +1,20 @@
 [
+        {
+                "name": "Economic Event",
+                "text": "Congratulations on reaching new heights of economic power! Your dedication and vision have truly paid off. Here's to continued success and even greater achievements in the future!",
+                "choices": [
+            {
+                "text": "Giganotosaurus and Golden Age",
+                "uniques": [
+                "Free [Giga Rider] appears","Empire enters a [30]-turn Golden Age"]
+            },
+            {
+                "text": "3 Free Social Policies.",
+                "uniques": [
+                "[3] Free Social Policies"]
+            },
+                ]
+        },
 {
                 "name": "Trash",
                 "text": "We have encountered trash on multiple places, due to our expansion and industrialization and also contamination",
@@ -7,19 +23,19 @@
                                 "text": "We will burn the trash
 
 Why not?",
-                                "triggeredUniques": ["[-3 Happiness] from [Trash] tiles [in all cities] <for [100000] turns>","[+2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                                "uniques": ["[-3 Happiness] from [Trash] tiles [in all cities] <for [100000] turns>","[+2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
                         },
                         {
                                 "text": "We will make recycling centers
 
 It´s our responsability to take care of the Ark we live on",
-                                "triggeredUniques": ["[+2 Gold] from [Trash] tiles [in all cities] <for [100000] turns>","[-2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                                "uniques": ["[+2 Gold] from [Trash] tiles [in all cities] <for [100000] turns>","[-2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
                         },
                         {
                                 "text": "Not our Problem
 
 Let´s go the other way",
-                                "triggeredUniques": ["[-1 Happiness] from [Ranch] tiles [in all cities] <for [100000] turns>"]
+                                "uniques": ["[-1 Happiness] from [Ranch] tiles [in all cities] <for [100000] turns>"]
                         }
                 ]
         },
@@ -31,13 +47,13 @@ Let´s go the other way",
                                 "text": "Our Nation Will Adopt Slavery
 
 Our Enemies must become our Slaves",
-                                "triggeredUniques": ["Free [Slave] appears <upon defeating a [Gunpowder] unit> <with [40]% chance> <for [100000] turns>","Free [Slave] appears <upon defeating a [Sword] unit> <with [40]% chance> <for [100000] turns>"]
+                                "uniques": ["Free [Slave] appears <upon defeating a [Gunpowder] unit> <with [40]% chance> <for [100000] turns>","Free [Slave] appears <upon defeating a [Sword] unit> <with [40]% chance> <for [100000] turns>"]
                         },
                         {
                                 "text": "Our Nation Won´t Adopt Slavery
 
 Our own people need to work harder",
-                                "triggeredUniques": ["[+1 Production] [in all cities] <for [100000] turns>","[+2 Production] [in all cities] <when not at war> <for [100000] turns>"]
+                                "uniques": ["[+1 Production] [in all cities] <for [100000] turns>","[+2 Production] [in all cities] <when not at war> <for [100000] turns>"]
                         }
                 ]
         },
@@ -47,15 +63,15 @@ Our own people need to work harder",
                 "choices":[
                         {
                                 "text": "Conifers",
-                                "triggeredUniques": ["[+2 Food] from [Forest] tiles [in this city] <for [100000] turns>","[+2 Food] from [Tundra] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+2 Food] from [Forest] tiles [in this city] <for [100000] turns>","[+2 Food] from [Tundra] tiles [in this city] <for [100000] turns>"]
                         },
                         {
                                 "text": "Ginkgoes",
-                                "triggeredUniques": ["[+2 Food] from [Aberrant Green Zone] tiles [in this city] <for [100000] turns>","[+2 Food] from [Lakes] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+2 Food] from [Aberrant Green Zone] tiles [in this city] <for [100000] turns>","[+2 Food] from [Lakes] tiles [in this city] <for [100000] turns>"]
                         },
 			{
                                 "text": "Calamites",
-                                "triggeredUniques": ["[+2 Food] from [Marsh] tiles [in this city] <for [100000] turns>","[+2 Food] from [Natural Lake] tiles [in this city] <for [100000] turns>","[+2 Food] from [Swamp Zone] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+2 Food] from [Marsh] tiles [in this city] <for [100000] turns>","[+2 Food] from [Natural Lake] tiles [in this city] <for [100000] turns>","[+2 Food] from [Swamp Zone] tiles [in this city] <for [100000] turns>"]
                         }
                 ]
         },
@@ -65,15 +81,15 @@ Our own people need to work harder",
                 "choices":[
                         {
                                 "text": "Low's pitcher plant",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Fearsome] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Fearsome] promotion <for [100000] turns>"]
                         },
                         {
                                 "text": "Dionaea muscipula",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Patience] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Patience] promotion <for [100000] turns>"]
                         },
 			{
                                 "text": "Roridula gorgonias",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion <for [100000] turns>"]
                         }
                 ]
         },
@@ -83,15 +99,15 @@ Our own people need to work harder",
                 "choices":[
                         {
                                 "text": "Aristolochia gigantea",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Immunity] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Immunity] promotion <for [100000] turns>"]
                         },
                         {
                                 "text": "King protea",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion","All newly-trained [All] units [in all cities] receive the [Damage II] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Damage I] promotion <for [100000] turns>","All newly-trained [All] units [in all cities] receive the [Damage II] promotion <for [100000] turns>"]
                         },
 			{
                                 "text": "Allspice",
-                                "triggeredUniques": ["All newly-trained [Land] units [in all cities] receive the [Rage] promotion","All newly-trained [All] units [in all cities] receive the [Intimidation] promotion"]
+                                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Rage] promotion <for [100000] turns>","All newly-trained [All] units [in all cities] receive the [Intimidation] promotion <for [100000] turns>"]
                         }
                 ]
         },
@@ -101,23 +117,23 @@ Our own people need to work harder",
                 "choices":[
                         {
                                 "text": "Korsaröd Fern",
-                                "triggeredUniques": ["[+2 Food] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+2 Food] from [Plantation] tiles [in this city] <for [100000] turns>"]
                         },
                         {
                                 "text": "Cinnamon Fern",
-                                "triggeredUniques": ["[+1 Culture] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+1 Culture] from [Plantation] tiles [in this city] <for [100000] turns>"]
                         },
                         {
                                 "text": "Autumn Fern",
-                                "triggeredUniques": ["[+2 Happiness] from [Plantation] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+2 Happiness] from [Plantation] tiles [in this city] <for [100000] turns>"]
                         },
                         {
                                 "text": "Fern Leaves",
-                                "triggeredUniques": ["[+3 Food] from [Jungle] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+3 Food] from [Jungle] tiles [in this city] <for [100000] turns>"]
                         },
 			{
                                 "text": "Maidenhair ferns",
-                                "triggeredUniques": ["[+3 Food] from [Flood plains] tiles [in this city] <for [100000] turns>"]
+                                "uniques": ["[+3 Food] from [Flood plains] tiles [in this city] <for [100000] turns>"]
                       }
                 ]
         }

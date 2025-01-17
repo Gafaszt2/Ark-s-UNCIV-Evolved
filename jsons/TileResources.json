@@ -1238,6 +1238,10 @@
                 "resourceType": "Strategic",
                	},
 				   {
+					"name": "Relic",
+							"resourceType": "Strategic",
+							   },
+				   {
 					"name": "Wild Dreadnoughtus",
 							"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
 					"science": 1,

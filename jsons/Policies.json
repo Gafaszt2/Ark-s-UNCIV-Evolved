@@ -169,6 +169,96 @@
             }
         ]
     },
+    {
+        "name": "Sacred Heritage",
+        "era": "Smithy era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[-10]% Culture cost of natural border growth [in all cities]","Provides [6] [Relic]",
+        ],
+        "policies": [
+            {
+                "name": "Crusaders",
+                "uniques": [
+                    "[Faith] cost of purchasing [High Commander] units [-60]%",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Martyrdom",
+                "uniques": [
+                    "[+3 Gold] from every [Castle]","[+3 Production] from every [Castle]","[+1 Culture] from every [Castle]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Spiritual Reformation",
+                "uniques": [
+                    "[+2 Culture] from every [Ragnarok Temple]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Sacred Heritage Complete",
+                "uniques": [
+                    "[Faith] cost of purchasing [Great Prophet] units [-40]%"]
+            }
+        ]
+    },
+    {
+        "name": "Economic Prosperity",
+        "era": "Electric era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+20]% of excess happiness converted to [Gold]","[+1 Gold] from every [Ranch]",
+        ],
+        "policies": [
+            {
+                "name": "Industrialization",
+                "uniques": [
+                    "[+3 Production] [in all cities]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Financial Regulation",
+                "uniques": [
+                    "[+1 Gold, +1 Production] from every specialist [in all cities]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "United Nations",
+                "uniques": [
+                    "[+2 Science, +2 Culture] from every specialist [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Economic Prosperity Complete",
+                "uniques": [
+                    "Gain a free [Economic Event] [in capital]"]
+            }
+        ]
+    },
         {
         "name": "Animism",
         "era": "Leather era",
