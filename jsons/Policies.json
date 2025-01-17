@@ -10,14 +10,14 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+2 Culture] [in capital]","[+1 Gold] [in capital]"
+            "[+2 Culture] [in capital]",
             "[-10]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
             {
                 "name": "Natural Life",
                 "uniques": [
-                    "[+1 Food] per [7] population [in capital]","[+1 Food] per [3] population [in capital]",
+                    "[+1 Food] per [7] population [in capital]","[+1 Food] per [3] population [in capital]"
                 ],
                 "row": 1,
                 "column": 1
@@ -25,7 +25,7 @@
             {
                 "name": "Coast Lovers",
                 "uniques": [
-                    "[+1 Food] from every [Coast]","[+1 Food] from every [Genesis Lake]","[+1 Food] from every [Element Lake]",
+                    "[+1 Food] from every [Coast]","[+1 Food] from every [Genesis Lake]","[+1 Food] from every [Element Lake]"
                 ],
                 "row": 1,
                 "column": 3
@@ -33,7 +33,7 @@
             {
                 "name": "Exploration",
                 "uniques": [
-                    "[+2 Food] from every [Jungle]","[+2 Food] from every [Pines]","[+2 Food] from every [Forest]",
+                    "[+2 Food] from every [Jungle]","[+2 Food] from every [Pines]","[+2 Food] from every [Forest]"
                 ],
                 "row": 1,
                 "column": 5
@@ -41,7 +41,7 @@
             {
                 "name": "Monarchs of Ark",
                 "uniques": [
-                    "[+1 Food] from every [Camp]",
+                    "[+1 Food] from every [Camp]"
                 ],
                 "row": 2,
                 "column": 5
@@ -49,7 +49,7 @@
             {
                 "name": "Snow Inhabitants",
                 "uniques": [
-                    "[+2 Food] from every [Tundra]","[+2 Food] from every [Snow]",
+                    "[+2 Food] from every [Tundra]","[+2 Food] from every [Snow]"
                 ],
                 "row": 2,
                 "column": 1
@@ -57,7 +57,98 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Camp]","[+1 Culture] from every [Camp]","[+15]% Production when constructing [All] buildings [in all cities]", ]
+                    "[+1 Gold] from every [Camp]","[+1 Culture] from every [Camp]","[+15]% Production when constructing [All] buildings [in all cities]"]
+            }
+        ]
+    },
+    {
+        "name": "Monotheism",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+2 Faith] [in capital]","[+1 Culture] [in capital]",
+            "[+1 Faith] from [Mine] tiles [in all cities] <during the [Ancient era]>"
+        ],
+        "policies": [
+            {
+                "name": "Omnipotence",
+                "uniques": [
+                    "[+1 Faith] per [3] population [in capital] <during the [Leather era]>"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Creator",
+                "uniques": [
+                    "[+100]% [Faith] from City-States"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Personal Relationship",
+                "uniques": [
+                    "[+1 Culture] per [3] population [in capital] <during the [Leather era]>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Monotheism Complete",
+                "uniques": [
+                    "[+100]% [Faith] from City-States","[+30]% Production when constructing [Faith] buildings [in all cities]"]
+            }
+        ]
+    },
+    {
+        "name": "Polytheism",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+1 Culture, +1 Faith] from all [Faith] buildings <during the [Ancient era]>"
+        ],
+        "policies": [
+            {
+                "name": "Rituals and Worship",
+                "uniques": [
+                    "[+1 Culture] from [Luxury resource] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Interactions",
+                "uniques": [
+                    "[+1 Faith] from each Trade Route"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Ancient Narrative",
+                "uniques": [
+                    "[+10]% [Culture] [in all cities]","[+10]% [Faith] [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Polytheism Complete",
+                "uniques": [
+                    "[+15]% [Faith] [in all cities]","Provides [2] [Metal]","Provides [2] [Leather]"]
             }
         ]
     },
@@ -72,7 +163,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Production] [in capital]","[+1 Happiness] [in capital]"
+            "[+2 Production] [in capital]","[+2 Gold] [in capital]"
         ],
         "policies": [
             {
@@ -225,7 +316,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+20]% of excess happiness converted to [Gold]","[+1 Gold] from every [Ranch]",
+            "[+30]% of excess happiness converted to [Gold]","[+1 Gold] from every [Trading post]"
         ],
         "policies": [
             {
@@ -270,13 +361,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Faith] per [4] social policies adopted",
+            "[+1 Faith] from every specialist [in all cities]","[+1 Culture] from every specialist [in all cities]"
         ],
         "policies": [
             {
                 "name": "Animal Spirits",
                 "uniques": [
-                    "[+1 Culture] from every [Camp]",
+                    "[+1 Culture] from every [Camp]"
                 ],
                 "row": 1,
                 "column": 2
@@ -284,7 +375,7 @@
             {
                 "name": "Spiritualism",
                 "uniques": [
-                    "[+1 Faith] from every [Camp]",
+                    "[+1 Faith] from every [Camp]"
                 ],
                 "row": 1,
                 "column": 4
@@ -300,7 +391,7 @@
             {
                 "name": "Animism Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Camp]","[+1 Gold] from every [Forest]","[+1 Culture] from every [Forest]" ]
+                    "[+1 Faith] from every [Forest]","[+1 Culture] from every [Forest]","[+1 Faith] from every [Jungle]","[+1 Culture] from every [Jungle]","[+1 Faith] from every [Pines]","[+1 Culture] from every [Pines]","[+1 Faith] from every [Redwoods]","[+1 Culture] from every [Redwoods]"]
             }
         ]
     },
@@ -315,13 +406,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Happiness] [in capital]","[+1 Gold] [in capital]","[+1 Production] [in capital]",
+            "[+1 Production] from every [Luxury resource]"
         ],
         "policies": [
             {
                 "name": "Repression",
                 "uniques": [
-                    "[+1 Gold] per [3] social policies adopted",
+                    "[+1 Gold] per [3] social policies adopted"
                 ],
                 "row": 1,
                 "column": 2
@@ -329,7 +420,7 @@
             {
                 "name": "Hate",
                 "uniques": [
-                    "[+20]% Strength <while the empire is happy>",
+                    "[+20]% Strength <while the empire is happy>"
                 ],
                 "row": 1,
                 "column": 4
@@ -361,13 +452,13 @@
         },
         "uniques": [
             "[+1 Science] per [5] social policies adopted",
-            "[+3 Science] [in capital]",
+            "[+3 Science] [in capital]"
         ],
         "policies": [
             {
                 "name": "Future Science",
                 "uniques": [
-                    "[+1 Gold] from every [Mine]",
+                    "[+1 Gold] from every [Luxury resource]"
                 ],
                 "row": 1,
                 "column": 2
@@ -375,7 +466,7 @@
             {
                 "name": "Cultural Aceptation",
                 "uniques": [
-                    "[+2 Gold] from every [Camp]",
+                    "[+1 Production] from every [Bonus resource]"
                 ],
                 "row": 1,
                 "column": 4
@@ -383,7 +474,7 @@
             {
                 "name": "Learn from Eras",
                 "uniques": [
-                    "[-60]% Gold cost of upgrading",
+                    "[-60]% Gold cost of upgrading"
                 ],
                 "row": 2,
                 "column": 3
