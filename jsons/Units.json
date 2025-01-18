@@ -502,7 +502,7 @@
 "[+15]% Strength <when fighting in [Forest] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Hill] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [220] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [220] [Gold] [in all cities]","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -520,7 +520,7 @@
 "[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Snow] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [320] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [320] [Gold] [in all cities]","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -532,7 +532,7 @@
 		"cost": 1,
 		"requiredTech": "Gunpowder",
                 "obsoleteTech": "Dock",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]","Can move after attacking"],
                 "promotions": ["Adapted","Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -545,7 +545,7 @@
 		"cost": 1,
 		"requiredTech": "Industrial Grill",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking",
                 "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
@@ -558,7 +558,7 @@
 		"cost": 1,
 		"requiredTech": "Canteen",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking"],
                 "promotions": ["Jurassic"],
 		"hurryCostModifier": 20,
 		"attackSound": "spino"
@@ -1525,7 +1525,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -1538,7 +1538,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [3] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]","Can move after attacking","Only available <if [House of Mercenaries] is constructed>"],
+		"uniques": ["Consumes [3] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]","Can move after attacking"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"

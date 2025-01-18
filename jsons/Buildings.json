@@ -52,7 +52,7 @@
         {
 		"name": "House of Mercenaries",
                 "maintenance": 3,
-		"faith": 1,
+		"gold": 2,
                 "requiredTech": "Stone Houses"
 		"cost": 40,
 		"hurryCostModifier": 20,
