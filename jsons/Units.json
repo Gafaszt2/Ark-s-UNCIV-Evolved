@@ -467,7 +467,7 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 95,
-		"attackSound": "nonmetalhit"
+		"attackSound": "metalhit"
                 "requiredTech": "Bow and Arrow",
                 "upgradesTo": "Crossbow Survivor",
                 "obsoleteTech": "Crossbow",
