@@ -545,8 +545,8 @@
 		"cost": 1,
 		"requiredTech": "Industrial Grill",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking",
-                "promotions": ["Cretaceous"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking"],
+        "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
