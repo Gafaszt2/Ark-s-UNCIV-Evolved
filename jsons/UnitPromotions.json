@@ -847,7 +847,7 @@
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
                 "prerequisites": ["Stamina I"],
-		"uniques": ["[+2] Movement"],
+		"uniques": ["[+2] Movement","Can move after attacking"],
 		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 62,
         "row": 45
@@ -912,4 +912,42 @@
         "column": 68,
         "row": 51
     },
+    {
+        "name": "Accuracy I",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "uniques": ["[1] Range","[+5]% Strength"],
+        "unitTypes": ["Archery","Bolas"],
+"column": 69,
+"row": 52
+},
+{
+        "name": "Accuracy II",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Accuracy I"],
+        "uniques": ["[1] Range","[+10]% Strength","Ranged attacks may be performed over obstacles"],
+        "unitTypes": ["Archery","Bolas"],
+"column": 70,
+"row": 53
+},
+{
+        "name": "Ammunition I",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "uniques": ["[+50]% XP gained from combat","[-45]% maintenance costs"],
+        "unitTypes": ["Gunpowder","Ranged Gunpowder"],
+"column": 71,
+"row": 54
+},
+{
+        "name": "Ammunition II",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Ammunition I"],
+        "uniques": ["[+50]% XP gained from combat","[-45]% maintenance costs"],
+        "unitTypes": ["Gunpowder","Ranged Gunpowder"],
+"column": 72,
+"row": 55
+}
 ]

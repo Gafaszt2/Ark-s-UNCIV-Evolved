@@ -141,8 +141,8 @@ Despite his harsh methods, Nerva was a complex character. He was driven by a dee
 
 		"outerColor": [199, 116, 26],
 		"innerColor": [239, 250, 205],
-                "uniqueName": "The Center of the Isle",
-		"uniques": ["Double quantity of [Fiber] produced","Double quantity of [Wood] produced", "[+1 Culture] from every [Natural Wonder]"],
+        "uniqueName": "The Center of the Isle",
+		"uniques": ["Double quantity of [Fiber] produced","Double quantity of [Wood] produced", "[+1 Production] from [Fiber] tiles [in all cities]", "[+1 Production] from [Wood] tiles [in all cities]"],
 		"cities": ["New Rome","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
@@ -915,7 +915,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"name": "Barbarians",
 		"outerColor": [202, 164, 113],
         "innerColor": [0,0,0],
-		"uniques": ["Can only heal by pillaging","No defensive terrain penalty","No damage penalty for wounded units","[+5]% to Flank Attack bonuses"]
+		"uniques": ["Unable to pillage tiles","No defensive terrain penalty","No damage penalty for wounded units","[+5]% to Flank Attack bonuses"]
 	}
 
 ]

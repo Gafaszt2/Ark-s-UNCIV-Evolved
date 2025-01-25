@@ -132,7 +132,7 @@
         {
 		"name": "Insect Swarm",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Marsh"],
+		"terrainsCanBeFoundOn": ["Bog","Marsh","Swamp"],
 		"science": 1,
                 "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
@@ -209,7 +209,7 @@
         {
 		"name": "Wild Berries",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach","Snowy Beach"],
+		"terrainsCanBeFoundOn": ["Beach","Snowy Beach","Swamp"],
 		"food": 1,
 		"improvement": "Plantation",
 		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [50] tiles <in [Snowy Beach] tiles>"]
@@ -272,7 +272,7 @@
 		"food": 1,
 		"faith": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"]
+		"uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
 	{
 		"name": "Sphyrna",
@@ -281,7 +281,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [50] tiles <in [Ocean] tiles>"]
+		"uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Hesperornis",
@@ -310,7 +310,7 @@
 	{
 		"name": "Paraceratherium",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
+		"terrainsCanBeFoundOn": ["Desert","Sandstone","Swamp"],
 		"food": 1,
                 "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
 		"improvement": "Camp",
@@ -378,7 +378,7 @@
         {
 		"name": "Beelzebufo",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
+		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile","Swamp"],
 		"production": 1,
                 "food": 1,
                 "civilopediaText": [{"text": "Beelzebufo palucocus is the largest frog I've ever seen. Almost impossibly large, it can actually fit a fully-grown human adult on its back, though just barely. This is a dangerous prospect, though, as secretions from Beelzebufo's skin and saliva have a narcotic effect on most creatures."}]
@@ -388,7 +388,7 @@
         {
 		"name": "Meganeura",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile"],
+		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile","Swamp"],
                 "food": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [10] tiles <in [Swamp Zone] tiles>"]
@@ -400,7 +400,7 @@
 		"food": 2,
                 "civilopediaText": [{"text": "Tusoteuthis vampyrus is a very aggressive water predator. Approximately 30 feet long, Tusoteuthis is a terror of the deep. Once it grabs its prey, it slowly crushes it into submission while using the talons on its tentacles to siphon and drink the victim's blood."}]
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [31] tiles <in [Ocean] tiles>"]
+            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Kelp",
@@ -409,7 +409,7 @@
 		"food": 2,
                 
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [30] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Ocean] tiles>"]
+            "uniques": ["Generated on every [80] tiles <in [Coast] tiles>","Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Liopleurodon",
@@ -442,7 +442,7 @@
                 "civilopediaText": [{"text": "Elasmosaurus remuspissa is typically found in the deep oceans, and has a strange role in the oceanic food chain. It almost exclusively hunts the smaller creatures in the waters, leaving most even moderately large creatures alone. The sheer size of the Elasmosaurus means that the quantity of food it must eat to sustain itself is nothing short of enormous. Elasmosaurus is a formidable fighter."}]
                 
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [300] tiles <in [Ocean] tiles>"]
+            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Leedsichtys",
@@ -697,6 +697,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
+	
         {
 		"name": "Steel",
                 "revealedBy": "Fabricator",
@@ -744,7 +745,7 @@
                 "terrainsCanBeFoundOn": ["Eldritch","Genesis Soil","Tek Soil","Surface"],
 		"resourceType": "Strategic",
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Mine"
 	},
 	// Luxury resources
 	{
@@ -925,16 +926,6 @@
 		"improvement": "Camp",
 		"uniques": ["Generated on every [400] tiles <in [Beach] tiles>"]
 	},
-	/* 
-	{
-		"name": "Sap",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation"
-	},
-	*/
 	{
 		"name": "Megalodon",
 		"resourceType": "Strategic",
@@ -998,7 +989,7 @@
 		"name": "Trash",
 		"resourceType": "Bonus",
                 "revealedBy": "Island Bosses",
-                "uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [30] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Grassland] tiles>","[-1 Happiness, -1 Production] [in all cities]"]
+                "uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [30] tiles <in [Beach] tiles>","Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Grassland] tiles>","[-1 Happiness, -1 Production] [in all cities]"]
 		"terrainsCanBeFoundOn": ["Coast","Beach","Lakes","Grassland"],
 	}
 	{
@@ -1231,27 +1222,41 @@
                 "revealedBy": "Aberration Boss",
 		"resourceType": "Strategic",
                 "uniques": ["Generated on every [400] tiles <in [Montano] tiles>","Generated on every [400] tiles <in [Snowy Beach] tiles>","Generated on every [400] tiles <in [Beach] tiles>","Generated on every [900] tiles <in [Hill] tiles>"]
-	},
-
+},
+{
+	"name": "Alpha Points",
+	"uniques": ["Stockpiled"],
+    "resourceType": "Strategic"
+},
+{
+	"name": "Gamma Points",
+	"uniques": ["Stockpiled"],
+	"resourceType": "Strategic"
+},
+{
+	"name": "Beta Points",
+	"uniques": ["Stockpiled"],
+	"resourceType": "Strategic"
+},
 {
 		"name": "Uranium",
-                "resourceType": "Strategic",
-               	},
-				   {
-					"name": "Relic",
-							"resourceType": "Strategic",
-							   },
-				   {
-					"name": "Wild Dreadnoughtus",
-							"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
-					"science": 1,
-					"improvement": "Camp",
-					"resourceType": "Strategic",
-				},
-				{
-					"name": "Fame",
-					"resourceType": "Strategic",
-				},
+		"resourceType": "Strategic"
+},
+{
+		"name": "Relic",
+		"resourceType": "Strategic"
+},
+{
+		"name": "Wild Dreadnoughtus",
+		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+		"science": 1,
+		"improvement": "Camp",
+		"resourceType": "Strategic",
+},
+{
+		"name": "Fame",
+		"resourceType": "Strategic",
+},
 
 
         {

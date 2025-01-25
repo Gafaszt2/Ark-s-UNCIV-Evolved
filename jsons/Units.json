@@ -298,10 +298,49 @@
                 "upgradesTo": "Kapro Rider",
                 "promotions": ["Cretaceous"],
                 "obsoleteTech": "Professional Domestication",
-		"uniques": ["Can move after attacking"],
+		"uniques": [],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
+	{
+		"name": "Alpha Raptor",
+		"uniqueTo": "Barbarians",
+		"unitType": "Alpha Creature",
+		"movement": 3,
+		"strength": 25,
+		"cost": 75,
+		"requiredTech": "Slingshot",
+        "obsoleteTech": "Professional Domestication",
+		"uniques": ["Limited to [1] per Civilization"],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Alpha Carno",
+		"uniqueTo": "Barbarians",
+		"unitType": "Alpha Creature",
+		"movement": 3,
+		"strength": 45,
+		"cost": 78,
+		"requiredTech": "Smithy",
+		"uniques": ["Limited to [1] per Civilization"],
+		"hurryCostModifier": 20,
+        "obsoleteTech": "Sword",
+		"attackSound": "medcarno"
+	},
+    {
+		"name": "Alpha Rex",
+		"uniqueTo": "Barbarians",
+		"unitType": "Alpha Creature",
+		"movement": 3,
+		"strength": 95,
+		"cost": 80,
+		"requiredTech": "Chain Bola",
+		"uniques": ["Limited to [1] per Civilization"],
+		"hurryCostModifier": 20,
+		"attackSound": "rex"
+	},
+	
         {
 		"name": "Moschops",
         "requiredResource": "Thatch",
@@ -313,7 +352,7 @@
                 "upgradesTo": "Kapro Rider",
                 "promotions": ["Permian"],
                 "obsoleteTech": "Professional Domestication",
-		"uniques": ["Can move after attacking"],
+		"uniques": [],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -340,7 +379,7 @@
 		"requiredTech": "Slingshot",
                 "upgradesTo": "Kapro Rider",
                 "obsoleteTech": "Professional Domestication",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -356,7 +395,7 @@
                 "upgradesTo": "Kapro Rider",
                 "obsoleteTech": "Tranq Arrow",
                 "promotions": ["Oligocene"],
-		"uniques": ["Can move after attacking", "[+16]% Strength <vs [Wounded] units>"],
+		"uniques": [ "[+16]% Strength <vs [Wounded] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -373,7 +412,7 @@
                 "upgradesTo": "Stego Rider",
                 "promotions": ["Oligocene"],
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking","Requires at least [3] population"],
+		"uniques": ["Requires at least [3] population"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -387,7 +426,7 @@
 		"upgradesTo": "Stego Rider",
                 "requiredResource": "Chitin",
                 "promotions": ["Devonian"],
-		"uniques": ["Can move after attacking","Requires at least [3] population"],
+		"uniques": ["Requires at least [3] population"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "insec"
@@ -502,7 +541,7 @@
 "[+15]% Strength <when fighting in [Forest] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Hill] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [220] [Gold] [in all cities]","Can move after attacking"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [220] [Gold] [in all cities]"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -520,7 +559,7 @@
 "[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Snow] tiles>",
-"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [320] [Gold] [in all cities]","Can move after attacking"],
+"Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [320] [Gold] [in all cities]"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -532,7 +571,7 @@
 		"cost": 1,
 		"requiredTech": "Gunpowder",
                 "obsoleteTech": "Dock",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]","Can move after attacking"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]"],
                 "promotions": ["Adapted","Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -545,7 +584,7 @@
 		"cost": 1,
 		"requiredTech": "Industrial Grill",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]","Can move after attacking"],
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]"],
         "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
@@ -558,7 +597,7 @@
 		"cost": 1,
 		"requiredTech": "Canteen",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking"],
+		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
                 "promotions": ["Jurassic"],
 		"hurryCostModifier": 20,
 		"attackSound": "spino"
@@ -573,7 +612,7 @@
                 "upgradesTo": "Stego Rider",
                 "promotions": ["Cretaceous"],
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -588,7 +627,7 @@
                 "obsoleteTech": "Tranq Arrow",
                 "promotions": ["Cretaceous"],
                 "requiredResource": "Fiber",
-		"uniques": ["Can move after attacking","[+15]% Strength <vs [Amphibious] units>"],
+		"uniques": ["[+15]% Strength <vs [Amphibious] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -603,7 +642,7 @@
                 "requiredResource": "Wood",
                 "obsoleteTech": "Tranq Arrow",
                 "promotions": ["Holocene"],
-		"uniques": ["Can move after attacking","[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -617,7 +656,7 @@
                 "upgradesTo": "Stego Rider",
                 "promotions": ["Jurassic"],
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["[+225]% Strength <when defending>","Can move after attacking","[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[+225]% Strength <when defending>","[+15]% Strength <vs [Sword] units>","[+25]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -631,7 +670,7 @@
 				"upgradesTo": "Diplodocus",
 		"requiredTech": "Professional Domestication",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "insec"
 	},
@@ -647,7 +686,7 @@
 		"requiredTech": "Professional Domestication",
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking", "[+5]% Strength <vs [Land] units>"],
+		"uniques": [ "[+5]% Strength <vs [Land] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -660,7 +699,7 @@
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -688,7 +727,7 @@
 		"requiredTech": "Spike Wall",
 		"upgradesTo": "Stego Rider",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "raptor"
@@ -701,7 +740,7 @@
 		"cost": 80,
 		"requiredTech": "Fabricator",
                 "requiredResource": "Steel",
-		"uniques": ["Can move after attacking","[+25]% Strength <vs [Sword] units>","[+25]% Strength <vs [Theropoda] units>","[+25]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+25]% Strength <vs [Sword] units>","[+25]% Strength <vs [Theropoda] units>","[+25]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Chivalry","Cretaceous"],
                 "upgradesTo": "Cryodrakon Rider",
@@ -716,7 +755,7 @@
 		"cost": 130,
 		"requiredTech": "Canteen",
                 "requiredResource": "Steel",
-		"uniques": ["Can move after attacking","[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>","[+15]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>","[+15]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Chivalry","Cretaceous"],
                 "upgradesTo": "Tyrannotitan Rider",
@@ -732,7 +771,7 @@
 		"requiredTech": "Assault Riffle",
                 "requiredResource": "Steel",
                 "promotions": ["Strong Genetics","Chivalry","Cretaceous"],
-		"uniques": ["Can move after attacking","[+10]% Strength <vs [Wounted] units>","[+33]% Strength <vs [Fantasy] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+10]% Strength <vs [Wounted] units>","[+33]% Strength <vs [Fantasy] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
@@ -743,7 +782,7 @@
 		"strength": 30,
 		"cost": 78,
 		"requiredTech": "Smithy",
-		"uniques": ["Can move after attacking"],
+		
                 "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Allo Rider",
@@ -758,7 +797,7 @@
 		"cost": 88,
 		"requiredTech": "Smithy",
 		"requiredResource": "Relic",
-		"uniques": ["Can move after attacking"],
+		
                 "promotions": ["Eocene","Stamina I","Oxygen I"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Allo Rider",
@@ -818,7 +857,7 @@
 		"cost": 68,
                 "requiredResource": "Leather",
 		"requiredTech": "Smithy",
-		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+10]% Strength <vs [Ophidia] units>","Can move after attacking"],
+		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+10]% Strength <vs [Ophidia] units>"],
                 "promotions": ["Eocene","Loyal Companion"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Allo Rider",
@@ -835,7 +874,7 @@
 				"upgradesTo": "Portugalophis",
                 "promotions": ["Cretaceous"],
 		"cost": 110,
-                "uniques": ["May travel on Water tiles without embarking","Can move after attacking",
+                "uniques": ["May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+4] Movement <in [Ocean] tiles> <hidden from users>",
 "[+4] Movement <in [Coast] tiles> <hidden from users>",
@@ -852,7 +891,7 @@
 		"cost": 65,
 		"requiredTech": "Smithy",
                 "requiredResource": "Scales",
-		"uniques": ["No movement cost to pillage","Gain [40] [Culture] <upon defeating a [Wounded] unit>","Can move after attacking"],
+		"uniques": ["No movement cost to pillage","Gain [40] [Culture] <upon defeating a [Wounded] unit>"],
 		"hurryCostModifier": 20,
                 "promotions": ["Jurassic"],
                 "upgradesTo": "Stego Rider",
@@ -867,7 +906,7 @@
 		"cost": 70,
 		"requiredTech": "Fabricator",
                 "requiredResource": "Leather",
-		"uniques": ["Can move after attacking","[+75]% Strength <vs [Testudines] units>","[+75]% Strength <vs [Pinnipeds] units>","[+75]% Strength <vs [Amphibious] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <vs [Testudines] units>","[+75]% Strength <vs [Pinnipeds] units>","[+75]% Strength <vs [Amphibious] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
                 "upgradesTo": "Cryodrakon Rider",
@@ -883,7 +922,7 @@
                 "requiredResource": "Scales",
 		"cost": 70,
 		"requiredTech": "Slingshot",
-                "uniques": ["[+75]% Strength <vs [Fantasy] units>","[+355]% Strength <vs [Reaper] units>","Can move after attacking"],
+                "uniques": ["[+75]% Strength <vs [Fantasy] units>","[+355]% Strength <vs [Reaper] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -897,7 +936,7 @@
 		"strength": 29,
 		"cost": 65,
                 "promotions": ["Eocene"],
-                "uniques": ["[-100]% maintenance costs","[-90]% Gold cost of upgrading","Can move after attacking"],
+                "uniques": ["[-100]% maintenance costs","[-90]% Gold cost of upgrading"],
 		"requiredTech": "Raft",
 		"attackSound": "marine"
 	},
@@ -925,7 +964,7 @@
                 "promotions": ["Pliocene"],
 		"requiredTech": "Stone Irrigation Pipe",
 		"upgradesTo": "Portugalophis",
-		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>","Can move after attacking"],
+		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
 		"attackSound": "ravager"
@@ -939,7 +978,7 @@
 		"cost": 50,
                 "promotions": ["Paleocene"],
 		"requiredTech": "Stone Irrigation Pipe",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
 		"attackSound": "snake"
@@ -953,7 +992,7 @@
 		"cost": 70,
 		"requiredTech": "Crossbow",
                 "promotions": ["Jurassic"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Greenhouse",
 		"attackSound": "snake"
@@ -966,7 +1005,7 @@
 		"cost": 89,
 		"requiredTech": "Greenhouse",
                 "promotions": ["Strong Bite","Eocene"],
-		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+5]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
+		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+5]% Strength <when fighting in [Marsh] tiles>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "snake"
@@ -980,7 +1019,7 @@
 		"cost": 40,
 		"requiredTech": "Greenhouse",
                 "promotions": ["Triassic"],
-		"uniques": ["[+50]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Flood plains] tiles>","[+33]% Strength <when fighting in [Grassland] tiles>","[+33]% Strength <when fighting in [Montano] tiles>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Flood plains] tiles>","[+33]% Strength <when fighting in [Grassland] tiles>","[+33]% Strength <when fighting in [Montano] tiles>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "insec"
@@ -993,7 +1032,7 @@
 		"cost": 230,
                 "promotions": ["Carboniferous"],
 		"requiredTech": "Fabricator",
-		"uniques": ["Free [Permarachne] appears <upon defeating a [Wounded] unit> <with [40]% chance>","Can move after attacking","[+20]% Strength bonus for [Permarachne] units within [2] tiles","Never appears as a Barbarian unit"],
+		"uniques": ["Free [Permarachne] appears <upon defeating a [Wounded] unit> <with [40]% chance>","[+20]% Strength bonus for [Permarachne] units within [2] tiles","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Flamethrower",
 		"attackSound": "insec"
@@ -1006,7 +1045,7 @@
 		"cost": 130,
                 "promotions": ["Carboniferous"],
 		"requiredTech": "Fabricator",
-		"uniques": ["Free [Permarachne Egg] appears <upon defeating a [Wounded] unit> <with [40]% chance>","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Free [Permarachne Egg] appears <upon defeating a [Wounded] unit> <with [40]% chance>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Flamethrower",
 		"attackSound": "insec"
@@ -1018,7 +1057,7 @@
 		"strength": 5,
 		"cost": 0,
 		"requiredTech": "Fabricator",
-		"uniques": ["Can transform to [Permarachne]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Can transform to [Permarachne]","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Flamethrower",
 		"attackSound": "insec"
@@ -1030,7 +1069,7 @@
 		"strength": 5,
 		"cost": 0,
 		"requiredTech": "Fabricator",
-		"uniques": ["Can transform to [Permarachne Spiderlings]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Can transform to [Permarachne Spiderlings]","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Flamethrower",
 		"attackSound": "insec"
@@ -1053,7 +1092,7 @@
 		"upgradesTo": "Protostega Rider",
 		"requiredTech": "Metal Tap",
                 "promotions": ["Cretaceous"],
-		"uniques": ["[This Unit] gains the [Immunity] promotion <with [15]% chance>","[+40]% Strength <vs [Theropoda] units>","[-10]% Strength <vs [Crossbow Survivor] units>","[-5]% Strength <vs [Ophidia] units>","[+5]% Strength <when fighting in [Marsh] tiles>","May travel on Water tiles without embarking","Can move after attacking"],
+		"uniques": ["[This Unit] gains the [Immunity] promotion <with [15]% chance>","[+40]% Strength <vs [Theropoda] units>","[-10]% Strength <vs [Crossbow Survivor] units>","[-5]% Strength <vs [Ophidia] units>","[+5]% Strength <when fighting in [Marsh] tiles>","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Electronics",
 		"attackSound": "frog"
@@ -1066,7 +1105,7 @@
 		"cost": 60,
 		"requiredTech": "Smithy",
                 "requiredResource": "Wood",
-		"uniques": ["[+80]% Strength <when fighting in [Beach] tiles>","[+20]% Strength <when fighting in [Swamp Zone] tiles>","[+20]% Strength <when fighting in [Marsh] tiles>","Can move after attacking"],
+		"uniques": ["[+80]% Strength <when fighting in [Beach] tiles>","[+20]% Strength <when fighting in [Swamp Zone] tiles>","[+20]% Strength <when fighting in [Marsh] tiles>"],
 		"hurryCostModifier": 20,
                 "promotions": ["Swamp Creature","Cretaceous"],
                 "upgradesTo": "Stego Rider",
@@ -1083,7 +1122,7 @@
 		"upgradesTo": "Allo Rider",
                 "requiredResource": "Sarcosuchus",
                 "promotions": ["Swamp Creature","Cretaceous"],
-		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
+		"uniques": ["May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "croc"
@@ -1097,7 +1136,7 @@
 		"requiredTech": "Tranq Arrow",
 		"upgradesTo": "Allo Rider",
                 "promotions": ["Jurassic"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "dinoherb"
@@ -1111,7 +1150,7 @@
 		"cost": 70,
 		"requiredTech": "Tranq Arrow",
                 "promotions": ["Triassic"],
-		"uniques": ["[+1] Movement <in [Hill] tiles>","[+3] Movement <in [Desert] tiles>","[+1] Movement <in [Dead Land] tiles>","Consumes [1] [Bones]","Can move after attacking"],
+		"uniques": ["[+1] Movement <in [Hill] tiles>","[+3] Movement <in [Desert] tiles>","[+1] Movement <in [Dead Land] tiles>","Consumes [1] [Bones]"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "croc"
@@ -1124,7 +1163,7 @@
 		"cost": 80,
 		"upgradesTo": "Allo Rider",
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking","Consumes [1] [Aquatic Mushroom]","[This Unit] gains the [Damage I] promotion <with [5]% chance>","[This Unit] gains the [Damage II] promotion <with [5]% chance>","[This Unit] gains the [Health I] promotion <with [5]% chance>"],
+		"uniques": ["Consumes [1] [Aquatic Mushroom]","[This Unit] gains the [Damage I] promotion <with [5]% chance>","[This Unit] gains the [Damage II] promotion <with [5]% chance>","[This Unit] gains the [Health I] promotion <with [5]% chance>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "raptor"
@@ -1148,7 +1187,6 @@
 		"cost": 30,
                 "requiredResource": "Wood",
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "promotions": ["Intimidation","Jurassic"],
@@ -1163,7 +1201,6 @@
 		"cost": 40,
                 "requiredResource": "Fruit",
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "promotions": ["Eocene"],
@@ -1178,7 +1215,7 @@
 		"cost": 74,
 		"requiredTech": "Tranq Arrow",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Metal Hatchet",
 		"attackSound": "insec"
@@ -1191,22 +1228,57 @@
 		"cost": 110,
 		"requiredTech": "Tranq Arrow",
                 "promotions": ["Jurassic"],
-		"uniques": ["[+20]% Strength <vs [Ophidia] units>","[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["[+20]% Strength <vs [Ophidia] units>","[+50]% Strength <vs [Theropoda] units>","[+50]% Strength <vs [Mammal] units>","[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Fantasy] units>","[-25]% Strength <vs [Ceratopsia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Theri Rider",
                 "obsoleteTech": "Metal Hatchet",
 		"attackSound": "dinoherb"
 	},
-        {
+    {
+		"name": "Pterodaustro",
+		"unitType": "Flying",
+		"movement": 2,
+		"strength": 50,
+		"cost": 100,
+		"requiredTech": "Metal Hatchet",
+		"uniques": ["Costs [10] [Beta Points]","[+100]% Strength <during the [Tek era]>"],
+        "promotions": ["Cretaceous"],
+		"hurryCostModifier": 20,
+		"attackSound": "tropeo"
+	},
+	{
+		"name": "Minmi",
+		"unitType": "Thyreofora",
+		"movement": 2,
+		"strength": 60,
+		"cost": 120,
+		"requiredTech": "Metal Hatchet",
+		"uniques": ["Costs [5] [Gamma Points]","[+100]% Strength <during the [Tek era]>"],
+        "promotions": ["Cretaceous"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Qianzhousaurus",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 70,
+		"cost": 150,
+		"requiredTech": "Metal Hatchet",
+		"uniques": ["Costs [1] [Alpha Points]","[+100]% Strength <during the [Tek era]>"],
+        "promotions": ["Cretaceous"],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
 		"name": "Theri Rider",
 		"unitType": "Theropoda",
 		"movement": 2,
-		"strength": 39,
+		"strength": 42,
 		"cost": 90,
 		"requiredTech": "Metal Hatchet",
                 "obsoleteTech": "Sword",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "theri"
 	},
@@ -1219,7 +1291,7 @@
 		"requiredTech": "Metal Pick",
                 "obsoleteTech": "Sword",
                 "requiredResource": "Fenrir",
-		"uniques": ["Earn [70]% of killed [Wounded] unit's [Cost] as [Faith]","May capture killed [Wounded] units","[+30]% XP gained from combat","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Earn [70]% of killed [Wounded] unit's [Cost] as [Faith]","May capture killed [Wounded] units","[+30]% XP gained from combat","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1233,7 +1305,7 @@
                 "promotions": ["Miocene"],
                 "obsoleteTech": "Sword",
                 "requiredResource": "Silk",
-		"uniques": ["Earn [90]% of killed [Wounded] unit's [Cost] as [Gold]","[+25]% XP gained from combat","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Earn [90]% of killed [Wounded] unit's [Cost] as [Gold]","[+25]% XP gained from combat","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "camel"
 	},
@@ -1247,7 +1319,7 @@
                 "obsoleteTech": "Sword",
                 "requiredResource": "Fruit",
                 "promotions": ["Holocene"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1261,7 +1333,7 @@
                 "obsoleteTech": "Sword",
                 "promotions": ["Triassic"],
                 "requiredResource": "Metal",
-		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
+		"uniques": ["May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "frog"
 	},
@@ -1276,7 +1348,7 @@
                 "promotions": ["Jurassic"],
 		"requiredTech": "Metal Hatchet",
                 "obsoleteTech": "Sword",
-		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
+		"uniques": ["May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -1291,7 +1363,7 @@
                 "promotions": ["Miocene"],
 		"requiredTech": "Grenade",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+30]% Strength <vs [Theropoda] units>","Can move after attacking","May travel on Water tiles without embarking"],
+		"uniques": ["[+30]% Strength <vs [Theropoda] units>","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -1304,7 +1376,7 @@
                 "requiredResource": "Rock Drake Egg",
 		"cost": 200,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["[+50]% Strength <starting from the [Electric era]>","[+100]% Strength <starting from the [Tek era]>","[+1] Movement <starting from the [Tek era]>", "Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <starting from the [Electric era]>","[+100]% Strength <starting from the [Tek era]>","[+1] Movement <starting from the [Tek era]>", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "dragon"
 	},
@@ -1316,34 +1388,34 @@
 		"movement": 4,
 		"strength": 75,
 		"cost": 320,
-		"attackSound": "dragon"
-                "obsoleteTech": "Flak Armor",
-                "requiredTech": "Polymer",
-                "uniques": ["[+20]% Strength <vs [Theropoda] units>", "Can move after attacking"],
+		"attackSound": "dragon",
+        "obsoleteTech": "Flak Armor",
+        "requiredTech": "Polymer",
+        "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
         },
         {
 		"name": "Camuflage Survivor",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 30,
-                "rangedStrength": 25,
+        "rangedStrength": 25,
 		"cost": 150,
-		"attackSound": "nonmetalhit"
-                "obsoleteTech": "Flak Armor",
-                "requiredTech": "Polymer",
-                "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
+		"attackSound": "shot",
+        "obsoleteTech": "Flak Armor",
+        "requiredTech": "Polymer",
+        "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
         },
         {
 		"name": "Grenadier Survivor",
 		"unitType": "Gunpowder",
 		"movement": 1.5,
 		"strength": 20,
-                "rangedStrength": 35,
+        "rangedStrength": 35,
 		"cost": 150,
-		"attackSound": "nonmetalhit"
-                "obsoleteTech": "Flak Armor",
-                "requiredTech": "Grenade",
-                "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
+		"attackSound": "shot",
+        "obsoleteTech": "Flak Armor",
+        "requiredTech": "Grenade",
+        "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
         },
         {
 		"name": "Engineer",
@@ -1351,21 +1423,20 @@
 		"movement": 2.5,
 		"strength": 25,
 		"cost": 115,
-		"attackSound": "metalhit"
-                "requiredTech": "Pliers",
-                "uniques": ["Can build [Land] improvements on tiles"],
+		"attackSound": "shot",
+        "requiredTech": "Pliers",
+        "uniques": ["Can build [Land] improvements on tiles"],
         },
-        
         {
 		"name": "Danger Survivor",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 30,
 		"cost": 115,
-		"attackSound": "metalhit"
-                "requiredTech": "Pliers",
-                "promotions": ["Protected"],
-                "uniques": ["Consumes [1] [Gas]"],
+		"attackSound": "shot",
+        "requiredTech": "Pliers",
+        "promotions": ["Protected"],
+        "uniques": ["Consumes [1] [Gas]"],
         },
         {
 		"name": "Riojavenatryx",
@@ -1374,12 +1445,12 @@
 		"strength": 150,
 		"cost": 150,
 		"requiredTech": "Pliers",
-                "obsoleteTech": "Island Bosses",
-		"uniques": ["Consumes [1] [Steel]","[+20]% Strength <vs [Sword] units>","[-20]% Strength <vs [Mammal] units>","Can move after attacking","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
+        "obsoleteTech": "Island Bosses",
+		"uniques": ["Consumes [1] [Steel]","[+20]% Strength <vs [Sword] units>","[-20]% Strength <vs [Mammal] units>","Limited to [2] per Civilization","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
-                "promotions": ["Critical","Cretaceous"],
-		"attackSound": "spino"
-                "civilopediaText": [{"text": "His portrait is completed with other characteristics typical of theropods a head with a low and elongated skull, prominent jaws with sharp teeth and arms with powerful claws with three functional fingers, with which he could easily remove the heads of his prey."}]
+        "promotions": ["Critical","Cretaceous"],
+		"attackSound": "spino",
+        "civilopediaText": [{"text": "His portrait is completed with other characteristics typical of theropods a head with a low and elongated skull, prominent jaws with sharp teeth and arms with powerful claws with three functional fingers, with which he could easily remove the heads of his prey."}]
 	},
         {
 		"name": "Segnosaurus Rider",
@@ -1389,7 +1460,7 @@
 		"cost": 130,
 		"requiredTech": "Pliers",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Can move after attacking","Consumes [1] [Bones]","[+70]% Strength <vs [Theropoda] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Bones]","[+70]% Strength <vs [Theropoda] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "dinoherb"
@@ -1402,7 +1473,7 @@
 		"cost": 170,
 		"requiredTech": "Pliers",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Can move after attacking","Consumes [1] [Fruit]","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Fruit]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Miocene"],
 		"attackSound": "elephant"
@@ -1412,11 +1483,11 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 45,
-                "requiredResource": "Metal",
+        "requiredResource": "Metal",
 		"cost": 88,
-		"attackSound": "nonmetalhit"
-                "requiredTech": "Flak Armor",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+        "requiredTech": "Flak Armor",
+        "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Shotel Survivor",
@@ -1438,7 +1509,7 @@
 		"requiredTech": "Sword",
                 "promotions": ["Jurassic"],
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
@@ -1452,7 +1523,7 @@
 		"requiredTech": "Sword",
                 "promotions": ["Miocene"],
                 "obsoleteTech": "Fabricator",
-		"uniques": ["[+2] Movement <in [Plains] tiles>","[+2] Movement <in [Redwoods] tiles>","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["[+2] Movement <in [Plains] tiles>","[+2] Movement <in [Redwoods] tiles>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -1476,7 +1547,7 @@
                 "promotions": ["Triassic"],
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["[+2] Movement <in [Desert] tiles>","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["[+2] Movement <in [Desert] tiles>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "croc"
 	},
@@ -1490,7 +1561,7 @@
 		"requiredTech": "Sword",
                 "promotions": ["Cretaceous"],
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1525,7 +1596,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -1538,7 +1609,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [3] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]","Can move after attacking"],
+		"uniques": ["Consumes [3] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -1565,7 +1636,7 @@
                 "promotions": ["Permian"],
                 "requiredResource": "Purlovia",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1579,7 +1650,7 @@
                 "promotions": ["Holocene"],
                 "requiredResource": "Bones",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -1653,7 +1724,7 @@
 		"strength": 15,
 		"cost": 90,
                 "promotions": ["Paleocene"],
-                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking","Can move after attacking",
+                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
 "[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
@@ -1670,7 +1741,7 @@
 		"strength": 28,
                 "promotions": ["Cretaceous"],
 		"cost": 95,
-                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking","Can move after attacking",
+                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+3] Movement <in [Ocean] tiles> <hidden from users>",
 "[+3] Movement <in [Coast] tiles> <hidden from users>",
@@ -1687,7 +1758,7 @@
 		"strength": 35,
                 "promotions": ["Cretaceous"],
 		"cost": 110,
-                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking","Can move after attacking",
+                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
 "[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
@@ -1835,7 +1906,7 @@
 		"requiredTech": "Cryopod",
                 "obsoleteTech": "Chain Bola",
                 "requiredResource": "Woolly Rhino",
-		"uniques": ["Consumes [1] [Steel]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Steel]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics","Pliocene"],
 		"attackSound": "chalico"
@@ -1849,7 +1920,7 @@
 		"cost": 125,
 		"requiredTech": "Chainsaw",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1862,7 +1933,7 @@
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Chainsaw",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["All healing effects doubled","Earn [50]% of the damage done to [City] units as [Gold]","Can move after attacking"],
+		"uniques": ["All healing effects doubled","Earn [50]% of the damage done to [City] units as [Gold]"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -1877,7 +1948,7 @@
 		"requiredTech": "Grenade",
                 "requiredResource": "Steel",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["[+44]% Strength <vs [Sword] units>","Can move after attacking"],
+		"uniques": ["[+44]% Strength <vs [Sword] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -1891,7 +1962,7 @@
 		"requiredTech": "Grenade",
                 "requiredResource": "Metal",
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1903,7 +1974,7 @@
 		"cost": 109,
 		"requiredTech": "Cryopod",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Can move after attacking"],
+		
                 "requiredResource": "Metal",
 		"hurryCostModifier": 20,
                 "promotions": ["Medic","Oligocene"],
@@ -1917,7 +1988,7 @@
 		"cost": 85,
 		"requiredTech": "Cryopod",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Consumes [1] [Reeds]","Cannot be purchased","All tiles cost 1 movement","May travel on Water tiles without embarking","[-50]% maintenance costs","Can move after attacking"],
+		"uniques": ["Consumes [1] [Reeds]","Cannot be purchased","All tiles cost 1 movement","May travel on Water tiles without embarking","[-50]% maintenance costs"],
                 "requiredResource": "Chitin",
 		"hurryCostModifier": 20,
                 "promotions": ["Immunity","Swamp Creature","Devonian"],
@@ -1933,7 +2004,7 @@
                 "requiredResource": "Chitin",
                 "promotions": ["Predecessor","Devonian"],
                 "obsoleteTech": "Flak Armor",
-		"uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking","Can move after attacking"],
+		"uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "frog"
 	},
@@ -1970,13 +2041,13 @@
                 "upgradesTo": "Giga Rider",
 		"unitType": "Theropoda",
 		"movement": 2,
-		"strength": 75,
+		"strength": 77,
 		"cost": 190,
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Tyrannosaurus",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
-                "promotions": ["Strong Genetics","King of all Dinosaurs","Cretaceous"],
+                "promotions": ["Strong Genetics","Cretaceous"],
 		"attackSound": "rex"
 	},
         {
@@ -1987,7 +2058,7 @@
 		"cost": 150,
 		"requiredTech": "Flamethrower",
                 "requiredResource": "Steel",
-		"uniques": ["May travel on Water tiles without embarking","Ignores terrain cost","No movement cost to pillage","All adjacent units heal [+15] HP when healing","Can move after attacking"],
+		"uniques": ["May travel on Water tiles without embarking","Ignores terrain cost","No movement cost to pillage","All adjacent units heal [+15] HP when healing"],
 		"hurryCostModifier": 20,
                 "promotions": ["Swamp Creature","Amphibious","Adapted","Miocene"],
 		"attackSound": "croc"
@@ -1999,7 +2070,7 @@
 		"strength": 40,
 		"cost": 55,
 		"requiredTech": "Flamethrower",
-		"uniques": ["[+35]% Strength <when defending>","Can move after attacking"],
+		"uniques": ["[+35]% Strength <when defending>"],
 		"hurryCostModifier": 20,
                 "promotions": ["Holocene"],
 		"attackSound": "horse"
@@ -2027,7 +2098,7 @@
 		"cost": 150,
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Tyrannosaurus",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics","Cretaceous"],
 		"attackSound": "rex"
@@ -2043,7 +2114,7 @@
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Sword",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -2059,7 +2130,7 @@
                 "promotions": ["Miocene"],
 		"requiredTech": "Chain Bola",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -2073,7 +2144,7 @@
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Velona",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics"],
 		"attackSound": "croc"
@@ -2088,7 +2159,7 @@
 		"requiredTech": "Chain Bola",
                 "requiredResource": "Yutyrannus",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics","Cretaceous"],
 		"attackSound": "medcarno"
@@ -2101,7 +2172,7 @@
 		"strength": 65,
 		"cost": 200,
 		"requiredTech": "Chain Bola",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
                 "promotions": ["Amphibious","Swamp Creature","Cretaceous"],
@@ -2125,7 +2196,7 @@
 "[This Unit] takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
 "[+3] Movement <in [Ocean] tiles> <hidden from users>",
 "[+3] Movement <in [Lakes] tiles> <hidden from users>",
-"[+3] Movement <in [Coast] tiles> <hidden from users>","Can move after attacking"],
+"[+3] Movement <in [Coast] tiles> <hidden from users>"],
 		"hurryCostModifier": 20,
                 "requiredResource": "Steel",
                 "promotions": ["Strong Genetics","Miocene"],
@@ -2158,7 +2229,7 @@
 		"cost": 300,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Rage","Cretaceous"],
 		"attackSound": "medcarno"
@@ -2170,7 +2241,7 @@
 		"strength": 150,
 		"cost": 200,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Consumes [3] [Metal]","Consumes [3] [Thatch]","Consumes [1] [Wood]","Can move after attacking"],
+		"uniques": ["Consumes [3] [Metal]","Consumes [3] [Thatch]","Consumes [1] [Wood]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -2181,7 +2252,7 @@
 		"strength": 225,
 		"cost": 250,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Steel]","Consumes [2] [Fruit]","Can move after attacking"],
+		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Steel]","Consumes [2] [Fruit]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Musth","Pliocene"],
 		"attackSound": "elephant"
@@ -2193,7 +2264,7 @@
 		"strength": 200,
 		"cost": 350,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Consumes [4] [Steel]","Consumes [3] [Bones]","[+70]% Strength <vs [Giga Rider] units>","[5] additional attacks per turn","[+50]% Strength <when attacking>","[-220]% Strength <vs cities>","Can move after attacking"],
+		"uniques": ["Consumes [4] [Steel]","Consumes [3] [Bones]","[+70]% Strength <vs [Giga Rider] units>","[5] additional attacks per turn","[+50]% Strength <when attacking>","[-220]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "dinoherb"
@@ -2208,7 +2279,7 @@
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
                 "promotions": ["Strong Genetics","Cretaceous"],
-		"uniques": ["All adjacent units heal [+15] HP when healing","Can move after attacking"],
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
@@ -2240,12 +2311,13 @@
 	},
         {
 		"name": "Pyromane",
+		"uniqueTo": "The Center",
 		"unitType": "Fantasy",
 		"movement": 4,
 		"strength": 65,
 		"cost": 55,
 		"requiredTech": "Flamethrower",
-		"uniques": ["Consumes [1] [Oil]","Consumes [1] [Silk]","[+35]% Strength <when defending>","Can move after attacking"],
+		"uniques": ["[+35]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -2282,7 +2354,7 @@
 		"cost": 310,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Managarmr",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics"],
 		"attackSound": "dragon"
@@ -2297,7 +2369,7 @@
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Oil",
                 "promotions": ["Cretaceous"],
-		"uniques": ["[+50]% Strength <vs cities>", "Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
 	},
@@ -2313,7 +2385,7 @@
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Oil",
-		"uniques": ["[+75]% Strength <vs cities>","[+33]% Strength <vs [Theropoda] units>","Can move after attacking"],
+		"uniques": ["[+15]% Strength <vs cities>","[+13]% Strength <vs [Theropoda] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
 	},
@@ -2326,7 +2398,7 @@
 		"requiredTech": "Auto Torret",
                 "promotions": ["Pliocene"],
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Fantasy] units>","[+33]% Strength <vs [Flying] units>", "Can move after attacking"],
+		"uniques": ["[+33]% Strength <vs [Theropoda] units>","[+33]% Strength <vs [Fantasy] units>","[+33]% Strength <vs [Flying] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -2339,7 +2411,7 @@
 		"requiredTech": "Auto Torret",
                 "promotions": ["Pliocene"],
                 "obsoleteTech": "Tek Sword",
-		"uniques": ["[+50]% Strength <vs [Sword] units>","[+70]% Strength <vs [Gunpowder] units>","Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs [Sword] units>","[+70]% Strength <vs [Gunpowder] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -2403,7 +2475,7 @@
 		"requiredTech": "Smithy",
                 "requiredResource": "Wood",
                 "promotions": ["Strong Genetics","Miocene"],
-		"uniques": ["Can move after attacking", "[+1] Sight"],
+		"uniques": [ "[+1] Sight"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "tropeo"
@@ -2415,10 +2487,10 @@
 		"unitType": "Amphibious",
 		"movement": 3,
 		"strength": 50,
-		"cost": 160,
+		"cost": 90,
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking","May travel on Water tiles without embarking"],
+		"uniques": ["May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "croc"
@@ -2435,7 +2507,7 @@
                 "upgradesTo": "Kapro Rider",
                 "obsoleteTech": "Tranq Arrow",
                 "promotions": ["Cretaceous"],
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -2448,7 +2520,7 @@
 		"strength": 71,
 		"cost": 260,
 		"requiredTech": "Chain Bola",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "requiredResource": "Metal",
                 "promotions": ["Strong Genetics","Oligocene"],
@@ -2474,8 +2546,8 @@
 		"uniqueTo": "Rockwell Gardens",
 		"unitType": "Theropoda",
 		"movement": 2,
-		"strength": 75,
-		"cost": 310,
+		"strength": 78,
+		"cost": 190,
                 "promotions": ["Jurassic"],
 		"requiredTech": "Chain Bola",
 		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
@@ -2509,7 +2581,7 @@
 		"requiredTech": "Professional Domestication",
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -2519,11 +2591,10 @@
 		"uniqueTo": "Scorched Earth",
 		"unitType": "Fantasy",
 		"movement": 4,
-		"strength": 70,
+		"strength": 80,
 		"cost": 290,
 		"requiredTech": "Auto Torret",
-                "requiredResource": "Oil",
-		"uniques": ["[+50]% Strength <vs cities>", "[+10]% Strength <when fighting in [Desert] tiles>", "Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs cities>", "[+35]% Strength <when fighting in [Desert] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "dragon"
 	},
@@ -2533,10 +2604,9 @@
 		"uniqueTo": "Scorched Earth",
 		"unitType": "Fantasy",
 		"movement": 2,
-		"strength": 29,
-		"cost": 78,
+		"strength": 32,
+		"cost": 74,
 		"requiredTech": "Smithy",
-                "requiredResource": "Metal",
 		"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Stego Rider",
@@ -2553,7 +2623,7 @@
 		"cost": 80,
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
-		"uniques": ["Can move after attacking", "[+25]% Strength <when fighting in [Hill] tiles>","[+25]% Strength <when fighting in [Volcanic Soil] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>"],
+		"uniques": [ "[+25]% Strength <when fighting in [Hill] tiles>","[+25]% Strength <when fighting in [Volcanic Soil] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -2564,12 +2634,12 @@
                 "replaces": "Ptera Rider",
 		"uniqueTo": "Fjordur",
 		"unitType": "Fantasy",
-		"movement": 3,
-		"strength": 27,
-		"cost": 90,
+		"movement": 4,
+		"strength": 29,
+		"cost": 87,
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
-		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Tundra] tiles>"],
+		"uniques": [ "[+10]% Strength <when fighting in [Tundra] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -2582,11 +2652,11 @@
 		"unitType": "Mammal",
 		"movement": 3,
 		"strength": 74,
-		"cost": 310,
+		"cost": 230,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Oil",
                 "promotions": ["Holocene"],
-		"uniques": ["[+50]% Strength <vs cities>", "[+10]% Strength <when fighting in [Tundra] tiles>", "Can move after attacking"],
+		"uniques": ["[+50]% Strength <vs cities>", "[+10]% Strength <when fighting in [Tundra] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "theri"
 	},
@@ -2611,7 +2681,7 @@
 		"uniqueTo": "Lost Island",
 		"unitType": "Sauropodomorpha",
 		"movement": 2,
-		"strength": 75,
+		"strength": 79,
 		"cost": 190,
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Chain Bola",
@@ -2630,7 +2700,7 @@
 		"requiredTech": "Professional Domestication",
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Forest] tiles>"],
+		"uniques": [ "[+10]% Strength <when fighting in [Forest] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -2644,7 +2714,7 @@
 		"cost": 87,
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
-		"uniques": ["Can move after attacking", "[+10]% Strength <when fighting in [Coast] tiles>"],
+		"uniques": [ "[+10]% Strength <when fighting in [Coast] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -2670,7 +2740,7 @@
 		"strength": 78,
 		"cost": 120,
 		"requiredTech": "Cryopod",
-		"uniques": ["[+44]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Consumes [3] [Chitin]","Can move after attacking", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["[+44]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Consumes [3] [Chitin]", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Strong Genetics"],
 		"attackSound": "reaper"
@@ -2684,7 +2754,7 @@
 		"strength": 45,
 		"cost": 250,
 		"requiredTech": "Tranq Arrow",
-		"uniques": ["[+25]% Strength <when fighting in [Aberrant Green Zone] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>","Can move after attacking"],
+		"uniques": ["[+25]% Strength <when fighting in [Aberrant Green Zone] tiles>","[+25]% Strength <when fighting in [Aberrant Blue Zone] tiles>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Sword",
 		"attackSound": "chalico"
@@ -2695,10 +2765,10 @@
 		"uniqueTo": "Extinction",
 		"unitType": "Fantasy",
 		"movement": 4,
-		"strength": 20,
-		"cost": 150,
+		"strength": 30,
+		"cost": 130,
 		"requiredTech": "Smithy",
-		"uniques": ["Can move after attacking", "[+3] Sight"],
+		"uniques": [ "[+3] Sight"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "tropeo"
@@ -2712,7 +2782,7 @@
 		"strength": 37,
 		"cost": 90,
 		"requiredTech": "Spike Wall",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "promotions": ["Medic"],
                 "upgradesTo": "Carno Rider",
@@ -2726,7 +2796,7 @@
 		"strength": 300,
 		"cost": 500,
 		"requiredTech": "Tek Sword",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
                 "requiredResource": "Tek",
                 "promotions": ["Strong Genetics"],
@@ -2740,7 +2810,7 @@
 		"cost": 450,
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Tek Sword",
-		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Consumes [1] [Tek]","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Consumes [1] [Tek]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
 	},
@@ -2752,7 +2822,7 @@
 		"cost": 450,
                 "requiredResource": "Tek",
 		"requiredTech": "Desert Creatures",
-		"uniques": ["Can move after attacking"],
+		
 		"hurryCostModifier": 20,
 		"attackSound": "fire"
 	},
@@ -2764,7 +2834,7 @@
 		"cost": 700,
                 "requiredResource": "Tek",
 		"requiredTech": "Aberration Creatures",
-		"uniques": ["Free [Impregnated Survivor] appears <upon defeating a [Gunpowder] unit> <with [80]% chance>","Free [Impregnated Survivor] appears <upon defeating a [Sword] unit> <with [80]% chance>","Can move after attacking"],
+		"uniques": ["Free [Impregnated Survivor] appears <upon defeating a [Gunpowder] unit> <with [80]% chance>","Free [Impregnated Survivor] appears <upon defeating a [Sword] unit> <with [80]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "reaper"
 	},
@@ -2800,7 +2870,7 @@
         "requiredResource": "Electronics",
 		"requiredTech": "Sword",
         "obsoleteTech": "Fabricator",
-		"uniques": ["[+120]% Strength <when fighting in [Hill] tiles>","[This Unit] heals [40] HP <upon discovering a [Hill] tile>","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["[+120]% Strength <when fighting in [Hill] tiles>","[This Unit] heals [40] HP <upon discovering a [Hill] tile>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "gdrAttack"
 	},
@@ -2813,7 +2883,7 @@
         "requiredResource": "Electronics",
 		"requiredTech": "Sword",
         "obsoleteTech": "Fabricator",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "gdrAttack"
 	},
@@ -2824,7 +2894,7 @@
 		"strength": 5,
 		"cost": 0,
 		"requiredTech": "Aberration Creatures",
-		"uniques": ["Can transform to [Reaper]","Unbuildable","Cannot be purchased","Can move after attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Can transform to [Reaper]","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "insec"
 	},
@@ -2901,7 +2971,7 @@
 		"strength": 325,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Biotoxin]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Biotoxin]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "spino"
@@ -2913,7 +2983,7 @@
 		"strength": 350,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Biotoxin]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Biotoxin]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Eocene","Oligocene"],
 		"attackSound": "chalico"
@@ -2926,7 +2996,7 @@
 		"strength": 450,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Allosaurus]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Allosaurus]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Jurassic"],
 		"attackSound": "medcarno"
@@ -2938,7 +3008,7 @@
 		"strength": 500,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Woolly Rhino]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Woolly Rhino]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Holocene"],
 		"attackSound": "chalico"
@@ -2950,7 +3020,7 @@
 		"strength": 500,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Purlovia]","Can move after attacking"],
+		"uniques": ["Consumes [1] [Purlovia]"],
 		"hurryCostModifier": 20,
                 "promotions": ["Permian"],
 		"attackSound": "chalico"
@@ -2962,7 +3032,7 @@
 		"strength": 650,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [5] [Biotoxin]","Consumes [5] [Oil]","Consumes [5] [Organic Polymer]","Can move after attacking"],
+		"uniques": ["Consumes [5] [Biotoxin]","Consumes [5] [Oil]","Consumes [5] [Organic Polymer]"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -2973,7 +3043,7 @@
 		"strength": 450,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [3] [Biotoxin]","Consumes [3] [Oil]","Consumes [3] [Organic Polymer]","Can move after attacking"],
+		"uniques": ["Consumes [3] [Biotoxin]","Consumes [3] [Oil]","Consumes [3] [Organic Polymer]"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -2984,7 +3054,7 @@
 		"strength": 250,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [2] [Biotoxin]","Consumes [2] [Oil]","Consumes [2] [Organic Polymer]","Can move after attacking"],
+		"uniques": ["Consumes [2] [Biotoxin]","Consumes [2] [Oil]","Consumes [2] [Organic Polymer]"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -3050,7 +3120,7 @@
 		"strength": 450,
 		"cost": 360,
 		"requiredTech": "Aberration Boss",
-		"uniques": ["May travel on Water tiles without embarking","[-80]% Strength <vs [Tek Anti Tank] units>","Consumes [3] [Lithium]","Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["May travel on Water tiles without embarking","[-80]% Strength <vs [Tek Anti Tank] units>","Consumes [3] [Lithium]", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 {

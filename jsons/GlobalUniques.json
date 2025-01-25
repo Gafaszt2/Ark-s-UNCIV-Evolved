@@ -1,6 +1,10 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "Instantly gain [2] [Alpha Points] <upon entering a Golden Age>",
+        "Instantly gain [1] [Alpha Points] <upon defeating a [Alpha Creature] unit>",
+        "Instantly gain [5] [Gamma Points] <upon entering a Golden Age>",
+        "Instantly gain [10] [Beta Points] <upon entering a Golden Age>",
         "May buy [Great Composer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
                 "Provides [2] [Fame] <upon declaring war with a major Civilization> <for [100000] turns>",
                 "Provides [1] [Fame] <upon declaring friendship> <for [100000] turns>",
