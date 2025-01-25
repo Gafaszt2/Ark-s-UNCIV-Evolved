@@ -1,11 +1,8 @@
 [
-    // Source: the fandom, so take these with a grain of salt
-    // I also did some testing in the official version, but by far not all
-
     {
         "name": "Ancient era",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Bob",
@@ -25,13 +22,13 @@
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Survivor",
-        "startingGold": 10,
+        "startingGold": 100,
         "startingCulture": 100,
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
-        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp"],
+        "settlerBuildings": ["Temple","Flint Tools","Leader Statue","Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Sparkpowder Works","Wooden Fort","Tribal Mark","Local Government","Bazaar","Workshop","Rockwell Stories"],
         "citySound": "cityLeather",
         "iconRGB": [227, 127, 43]
         "uniques": ["May not generate great prophet equivalents naturally"
@@ -43,13 +40,13 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 4,
-        "startingMilitaryUnit": "Survivor",
-        "startingGold": 50,
+        "startingMilitaryUnit": "Composite Bow Survivor",
+        "startingGold": 350,
         "startingCulture": 200,
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
-        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort"],
+        "settlerBuildings": ["Temple","Flint Tools","Leader Statue","Water Recolection","Place Mark","Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Sparkpowder Works","Wooden Fort","Tribal Mark","Local Government","Bazaar","Workshop","Rockwell Stories","Preserving House","Market","Circus","Bookshelf","Spike Walls","House of Mercenaries","Stone Fort","Cement Works"],
         "startPercent": 25,
         "citySound": "citySmithy",
         "iconRGB": [247, 250, 195]
@@ -62,15 +59,15 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 6,
-        "startingMilitaryUnit": "Survivor",
-        "startingGold": 50,
+        "startingMilitaryUnit": "Crossbow Survivor",
+        "startingGold": 500,
         "startingCulture": 300,
         "settlerPopulation": 2,
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
         "citySound": "cityElectric",
-        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
+        "settlerBuildings": ["Temple","Flint Tools","Leader Statue","Water Recolection","Place Mark","Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Sparkpowder Works","Wooden Fort","Tribal Mark","Local Government","Bazaar","Workshop","Rockwell Stories","Preserving House","Market","Circus","Bookshelf","Spike Walls","House of Mercenaries","Stone Fort","Cement Works","Stone Irrigation Sistem","Sword Armory","Metal Fort","Dino Market","Zoo","Copper Mine","Refining Forges","Hippodrome","Fruit Market"],
         "iconRGB": [254, 255, 235]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
@@ -81,13 +78,13 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 6,
-        "startingMilitaryUnit": "Survivor",
-        "startingGold": 350,
-        "startingCulture": 490,
+        "startingMilitaryUnit": "Flak Survivor",
+        "startingGold": 750,
+        "startingCulture": 600,
         "settlerPopulation": 2,
         "baseUnitBuyCost": 320,
         "embarkDefense": 8,
-        "settlerBuildings": ["Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Wooden Fort","Market","Circus","Place Mark","Water Recolection","Rockwell Stories"],
+        "settlerBuildings": ["Temple","Flint Tools","Leader Statue","Water Recolection","Place Mark","Ark Monument","Farm","Flint Mine","Mining Camp","Hunter Camp","Sparkpowder Works","Wooden Fort","Tribal Mark","Local Government","Bazaar","Workshop","Rockwell Stories","Preserving House","Market","Circus","Bookshelf","Spike Walls","House of Mercenaries","Stone Fort","Cement Works","Stone Irrigation Sistem","Sword Armory","Metal Fort","Dino Market","Zoo","Copper Mine","Refining Forges","Hippodrome","Fruit Market","Fabricators","Bank","Grill","Plaza","God Awakes Monument","Polymer Studies","Location","Construction Labor","Water Tower","Fresh Water Industry","Definitive Market","Gambling","Riffle Factory","Disaster"],
         "startPercent": 37,
         "citySound": "cityTek",
         "iconRGB": [138, 251, 255]
