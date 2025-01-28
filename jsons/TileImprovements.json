@@ -7,7 +7,7 @@
                 "techRequired": "Torch",
 		"turnsToBuild": 5,
 		"uniques": ["[-1 Food] for each adjacent [Ranch]","Can also be built on tiles adjacent to fresh water"],
-		"shortcutKey": "F"
+		"shortcutKey": "A"
 	},
         {
 		"name": "Teepee",
@@ -18,16 +18,27 @@
                 "techRequired": "Torch",
 		"turnsToBuild": 5,
 		"uniques": ["[-1 Food] for each adjacent [Teepee]","[+1 Faith] for each adjacent [Plains]","Can also be built on tiles adjacent to fresh water"],
-		"shortcutKey": "F"
+		"shortcutKey": "A"
 	},
-        {
+    {
 		"name": "Desert Ranch",
 		"terrainsCanBeBuiltOn": ["Desert","Oasis"],
 		"food": 1,
                 "techRequired": "Torch",
                 "gold": 2,
 		"turnsToBuild": 7,
-		"shortcutKey": "F"
+		"shortcutKey": "B"
+	},
+	{
+		"name": "Orchard",
+		"terrainsCanBeBuiltOn": ["Desert","Oasis","Eldritch","Montano"],
+		"food": 2,
+        "techRequired": "Stone Irrigation Pipe",
+		"uniques": ["[+1 Gold] for each adjacent [River]","[+1 Gold] for each adjacent [Bonus resource]","[-2 Gold] for each adjacent [Orchard]"],
+        "production": 2,
+		"gold": 2,
+		"turnsToBuild": 4,
+		"shortcutKey": "C"
 	},
         {
 		"name": "Ragnarok Temple",
@@ -57,7 +68,7 @@
 		"turnsToBuild": 3,
                 "techRequired": "Campfire",
 		"uniques": ["[+1 Food] for each adjacent [Ranch]","[+1 Production] for each adjacent [Mine]"],
-		"shortcutKey": "F"
+		"shortcutKey": "D"
 	},
         {
 		"name": "Foundry",
@@ -66,7 +77,7 @@
 		"turnsToBuild": 11,
                 "techRequired": "Fabricator",
 		"uniques": ["Provides [1] [Steel]","[-1 Gold] for each adjacent [Foundry]"],
-		"shortcutKey": "J"
+		"shortcutKey": "E"
 	},
         {
 		"name": "Sap Collector",
@@ -87,15 +98,8 @@
 		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Montano","Asteroid"],
 		"production": 1,
 		"turnsToBuild": 4,
-		"shortcutKey": "M"
+		"shortcutKey": "F"
                 "techRequired": "Stone Pick",
-	},
-        {
-		"name": "Marble Statue",
-		"terrainsCanBeBuiltOn": ["Desert"],
-		"culture": 2,
-		"turnsToBuild": 7,
-                "techRequired": "Stone Houses",
 	},
         {
 		"name": "Carpentry Area",
@@ -109,7 +113,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"gold": 2,
 		"turnsToBuild": 4,
-		"shortcutKey": "T"
+		"shortcutKey": "G"
                 "techRequired": "Raft",
 	},
 
@@ -119,7 +123,7 @@
 		"gold": 2,
 		"turnsToBuild": 4,
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]", "Can only be built to improve a resource"],
-		"shortcutKey": "C"
+		"shortcutKey": "H"
                 "techRequired": "Spear",
 	},
 	{
@@ -127,13 +131,13 @@
 		"production": 2,
 		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles"],
-		"shortcutKey": "W"
+		"shortcutKey": "J"
 	},
 	{
 		"name": "Offshore Platform",
 		"production": 2,
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles"],
-		"shortcutKey": "P"
+		"shortcutKey": "K"
 	},
 	{
 		"name": "Plantation",
@@ -141,7 +145,7 @@
 		"gold": 1,
                 "food": 1,
 		"uniques": ["Can only be built to improve a resource"],
-		"shortcutKey": "P"
+		"shortcutKey": "L"
                 "techRequired": "Waterskin",
 	},
 	{
@@ -149,7 +153,7 @@
                 "gold": 1,
 		"turnsToBuild": 4,
 		"uniques": ["Can only be built to improve a resource"],
-		"shortcutKey": "Q"
+		"shortcutKey": "Ñ"
                 "techRequired": "Stone Houses",
 	},
 	{
@@ -157,7 +161,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"uniques": ["Can only be built to improve a resource"],
-		"shortcutKey": "F"
+		"shortcutKey": "Z"
 	},
         {
 		"name": "Gas Collector",
@@ -181,7 +185,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
-		"shortcutKey": "R"
+		"shortcutKey": "X"
                 "techRequired": "Stone Houses",
 	},
 	{
@@ -189,7 +193,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
-		"shortcutKey": "R",
+		"shortcutKey": "C",
                 "techRequired": "Auto Torret",
         "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
@@ -201,28 +205,28 @@
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X",
+		"shortcutKey": "V",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "B"
                 "techRequired": "Stone Hatchet",
 	},
         {
 		"name": "Remove Pines",
 		"turnsToBuild": 7,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "N"
                 "techRequired": "Stone Hatchet",
 	},
         {
 		"name": "Remove Autumn Trees",
 		"turnsToBuild": 7,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "M"
                 "techRequired": "Stone Hatchet",
 	},
 	{
@@ -230,13 +234,13 @@
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "U"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "I"
                 "techRequired": "Stone Irrigation Pipe",
 	},
 
@@ -248,21 +252,21 @@
 		"name": "Remove Redwoods",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "O"
                 "techRequired": "Island Bosses",
 	},
 	{
 		"name": "Remove Hill",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "P"
                 "techRequired": "Island Bosses",
 	},
 	{
 		"name": "Remove Oasis",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "C"
                 "techRequired": "Island Bosses",
 	},
 
@@ -287,7 +291,7 @@
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
-        "shortcutKey": "E",
+        "shortcutKey": "R",
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
