@@ -29,6 +29,8 @@
             "Becomes [Montano] when adjacent to [Mountain] <with [45]% chance>",
             "Becomes [Redwoods] when adjacent to [Desert] <with [45]% chance>",
             "Becomes [Jungle] when adjacent to [Beach] <with [45]% chance>",
+			"Becomes [Marsh] when adjacent to [Jungle] <with [25]% chance>",
+			"Becomes [Marsh] when adjacent to [Lakes] <with [45]% chance>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -213,6 +215,7 @@
 		"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 		"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 		"Becomes [Beach] when adjacent to [Coast]",
+		"Becomes [Swamp Zone] when adjacent to [Lakes] <with [45]% chance>",
 		"Becomes [Grassland] when adjacent to [Tundra]",
 		"Becomes [Grassland] when adjacent to [Snowy Beach]",
 		"Becomes [Dead Land] when adjacent to [Santiago Grave]",
@@ -727,8 +730,9 @@
 		"name": "Swamp Zone",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-                "food": 1,
-		"overrideStats": true,
+        "food": 1,
+		"gold": 1,
+		"overrideStats": false,
 		"occursOn": ["Plains", "Grassland","Dead Land","Fallout Land"],
 		"uniques": ["Rare feature"]
 	},
@@ -865,7 +869,7 @@
 					"Starts in regions of this type receive an extra [Ovis]",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
-                                        "Becomes [Dead Land] when adjacent to [Santiago Grave]",
+                                        
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
       
@@ -919,13 +923,14 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": -1,
-		"movementCost": 3,
+		"food": 1,
+		"gold": 1,
+		"movementCost": 2,
 		"unbuildable": true,
-		"defenceBonus": -0.15,
+		"defenceBonus": 1.20,
 		"occursOn": ["Grassland","Bog","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rare feature",
-					"[-2] to Fertility for Map Generation",
+					"[+2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -1004,8 +1009,7 @@
 		"name": "Natural Lake",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"food": 1,
-               "science": 1,
+		"food": 2,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature"]
 	},

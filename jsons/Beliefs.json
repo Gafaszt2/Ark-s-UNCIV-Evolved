@@ -77,7 +77,7 @@
     {
         "name": "Personal Reflection",
         "type": "Pantheon",
-        "uniques": ["[+5]% [Faith] from every follower, up to [+30]%"]
+        "uniques": ["[+1 Culture] from every [Castle]","[+1 Culture] from every [Fort]","[+1 Faith] from every [Coral Zone]"]
     },
     {
         "name": "Swamp Faith",
