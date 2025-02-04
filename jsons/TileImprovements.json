@@ -11,7 +11,7 @@
 	},
         {
 		"name": "Teepee",
-                "replaces": "Ranch",
+        "replaces": "Ranch",
 		"uniqueTo": "Plains Horn",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
@@ -40,19 +40,36 @@
 		"turnsToBuild": 4,
 		"shortcutKey": "C"
 	},
+	{
+		"name": "Garrison",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"shortcutKey": "G"
+		"uniques": ["[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+2 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
+        "techRequired": "Recipes",
+	},
+	{
+		"name": "Kraal",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"gold": 1,
+		"shortcutKey": "G"
+		"uniques": ["[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+2 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
+        "techRequired": "Recipes",
+	},
         {
 		"name": "Ragnarok Temple",
-		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach"],
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach","Eldritch","Aberrant Blue Zone","Montano"],
 		"turnsToBuild": 7,
-                "techRequired": "Campfire",
-		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]"],
+        "techRequired": "Campfire",
+		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","[+2 Faith] for each adjacent [Forest] <starting from the [Tek era]>"],
 	},
         {
 		"name": "Tumash Temple",
-		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
+		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle","Forest","Plains","Flood plains","Aberrant Blue Zone"],
 		"turnsToBuild": 6,
                 "techRequired": "Campfire",
-		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]"],
+		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]","[+2 Culture] for each adjacent [Luxury resource] <starting from the [Tek era]>"],
 	},
         {
 		"name": "Mural",
@@ -86,7 +103,7 @@
                 "techRequired": "Campfire",
 		"turnsToBuild": 4,
 	},
-        {
+    {
 		"name": "Lake House",
 		"terrainsCanBeBuiltOn": ["Lakes","Natural Lake"],
 		"production": 1,
@@ -114,7 +131,7 @@
 		"gold": 2,
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
-                "techRequired": "Raft",
+        "techRequired": "Recipes",
 	},
 
 	// Resource-specific
@@ -337,8 +354,6 @@
 		"faith": 3,
 		"uniques": ["Great Improvement", "Gives a defensive bonus of [35]%","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
-
-	// Unbuildable improvements
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -366,36 +381,6 @@
 		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
-         {
-		"name": "Great Fort",
-		"uniqueTo": "Shang Tianguo",
-                "food": 1,
-                "culture": 1,
-		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
-		"turnsToBuild": 4,
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [35]%"],
-                "techRequired": "Stone Houses",
-	},
-        {
-		"name": "Spa",
-		"uniqueTo": "Shang Tianguo",
-                "happiness": 1,
-                "culture": 1,
-		"terrainsCanBeBuiltOn": ["Lakes"],
-		"turnsToBuild": 2,
-                "techRequired": "Waterskin",
-	},
-         {
-		"name": "Dojo",
-		"uniqueTo": "Hiji zuru Teikoku",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": [
-			"Adjacent enemy units ending their turn take [10] damage",
-			"Can be built just outside your borders"],
-		"techRequired": "Stone Houses",
-	},
         {
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -407,18 +392,5 @@
         	"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 		]
-	},
-        {
-		"name": "Turret",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"Cannot be built on [Mountain] tiles",
-"Cannot be built on [Cliff] tiles",
-"Removes removable features when built",
-"Gives a defensive bonus of [110]%",
-"Adjacent enemy units ending their turn take [50] damage"
-]
-	},
+	}
 ]

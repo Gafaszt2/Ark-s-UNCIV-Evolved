@@ -1,7 +1,4 @@
 [
-	// Ancient Era
-
-	// Always available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -1170,9 +1167,10 @@
                 "requiredTech": "Pliers"
 	},
         {
-		"name": "Tyrant Go Down",
+		"name": "Oil Refinery",
+		"production": 2,
+		"gold": 2,
 		"hurryCostModifier": 20,
-                "uniques": ["Provides [1] [Tyrannosaurus]"],
                 "requiredResource": "Oil"
                 "requiredTech": "Grenade"
 	},
