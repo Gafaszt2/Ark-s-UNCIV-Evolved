@@ -23,6 +23,15 @@ Prepare for launch and let the adventure begin!!",
         "defeatString": "You have been defeated."
     },
     {
+        "name": "Boss",
+        "victoryScreenHeader": "Defeat the Overseer on the Tek Era, and use his essence to build the Ascension",
+        "milestones": ["Anyone should build [Alpha Ascension]"],
+        "victoryString": "With the defeat of the Overseer, you have proven your strength, courage, and resilience. Your journey across the ARK has led you through countless challenges and perilous encounters, but you have emerged victorious. The Overseer has fallen, and with it, the mysteries of the ARK begin to unfold.
+
+You have unlocked the secrets of this artificial world, revealing the true purpose of your existence here. As you step forward into the unknown, you carry with you the knowledge and power to shape the future of this land.",
+        "defeatString": "You have been defeated."
+    },
+    {
         "name": "Steampunk Project",
         "milestones": ["Anyone should build [Steampunk Ship]"],
         "victoryString": "We are ready to sail!",

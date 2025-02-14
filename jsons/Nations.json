@@ -910,12 +910,88 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"innerColor": [0,0,0],
 		"cities": ["Felsblock Pass"]
 	},
+
+
+
+	{
+		"name": "Rava",
+		"adjective": ["Rava"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [126, 94, 242],
+		"innerColor": [0,0,0],
+		"cities": ["Rava"]
+	},
+{
+		"name": "Tankia",
+		"adjective": ["Tankia"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [136, 156, 3],
+		"innerColor": [0,0,0],
+		"cities": ["Tankia"]
+	},
+{
+		"name": "Suguba",
+		"adjective": ["Suguba"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [168, 121, 82],
+		"innerColor": [0,0,0],
+		"cities": ["Suguba"]
+	},
+{
+		"name": "Sulum",
+		"adjective": ["Sulum"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [71, 101, 166],
+		"innerColor": [0,0,0],
+		"cities": ["Sulum"]
+	},
+{
+		"name": "Bima",
+		"adjective": ["Bima"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [158, 82, 171],
+		"innerColor": [0,0,0],
+		"cities": ["Bima"]
+	},
+{
+		"name": "Sikelm",
+		"adjective": ["Sikelm"],
+		"cityStateType": "Aberrant",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [143, 89, 87],
+		"innerColor": [0,0,0],
+		"cities": ["Sikelm"]
+	},
+
 	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [202, 164, 113],
         "innerColor": [0,0,0],
-		"uniques": ["Unable to pillage tiles","No defensive terrain penalty","No damage penalty for wounded units","[+5]% to Flank Attack bonuses"]
+		"uniques": ["[-2100]% Production when constructing [The Overseer] units [in all cities]","Free [The Overseer] appears <upon entering the [Tek era]>","Unable to pillage tiles","No defensive terrain penalty","No damage penalty for wounded units","[+5]% to Flank Attack bonuses"]
 	}
 
 ]

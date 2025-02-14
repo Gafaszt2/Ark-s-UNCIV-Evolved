@@ -2,6 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         "Instantly gain [2] [Alpha Points] <upon entering a Golden Age>",
+        "Instantly gain [1] [Alpha Essence] <upon defeating a [Final Boss] unit>",
         "Instantly gain [1] [Alpha Points] <upon defeating a [Alpha Creature] unit>",
         "Instantly gain [5] [Gamma Points] <upon entering a Golden Age>",
         "Instantly gain [10] [Beta Points] <upon entering a Golden Age>",
@@ -49,8 +50,13 @@
         "[Gold] cost of purchasing [Culture] buildings [+20]%",
         "[Gold] cost of purchasing [Faith] buildings [+20]%",
         "[Gold] cost of purchasing [Gold] buildings [+40]%",
-        "[+40]% Gold cost of acquiring tiles [in all cities]",
-        "[+5]% Production towards any buildings that already exist in the Capital"
+        "[+60]% Gold cost of acquiring tiles [in all cities]",
+        "[+5]% Production towards any buildings that already exist in the Capital",
+        
+        // TEK Era Debuffs
+
+        "[-10]% [Gold] <starting from the [Tek era]>",
+        "[-30]% [Faith] <starting from the [Tek era]>",
         
 
         // TODO: Implement the uniques below

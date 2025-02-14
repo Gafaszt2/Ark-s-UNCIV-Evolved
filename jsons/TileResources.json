@@ -1159,6 +1159,11 @@
 		"improvement": "Camp",
 		"resourceType": "Strategic",
 	},
+	{
+		"name": "Alpha Essence",
+		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+	},
 {
 		"name": "Silk",
                 "terrainsCanBeFoundOn": ["Desert","Plains","Tundra"],

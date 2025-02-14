@@ -6,7 +6,7 @@
 		"food": 1,
                 "techRequired": "Torch",
 		"turnsToBuild": 5,
-		"uniques": ["[-1 Food] for each adjacent [Ranch]","Can also be built on tiles adjacent to fresh water"],
+		"uniques": ["[-1 Food] for each adjacent [Ranch]","Destroyed when pillaged"],
 		"shortcutKey": "A"
 	},
         {
@@ -17,7 +17,7 @@
 		"food": 1,
                 "techRequired": "Torch",
 		"turnsToBuild": 5,
-		"uniques": ["[-1 Food] for each adjacent [Teepee]","[+1 Faith] for each adjacent [Plains]","Can also be built on tiles adjacent to fresh water"],
+		"uniques": ["[-1 Food] for each adjacent [Teepee]","[+1 Faith] for each adjacent [Plains]","Destroyed when pillaged"],
 		"shortcutKey": "A"
 	},
     {
@@ -31,10 +31,10 @@
 	},
 	{
 		"name": "Orchard",
-		"terrainsCanBeBuiltOn": ["Desert","Oasis","Eldritch","Montano"],
+		"terrainsCanBeBuiltOn": ["Desert","Oasis","Eldritch","Montano","Aberrant Green Zone"],
 		"food": 2,
         "techRequired": "Stone Irrigation Pipe",
-		"uniques": ["[+1 Gold] for each adjacent [River]","[+1 Gold] for each adjacent [Bonus resource]","[-2 Gold] for each adjacent [Orchard]"],
+		"uniques": ["[+1 Gold] for each adjacent [River]","[+1 Gold] for each adjacent [Bonus resource]","[-2 Gold] for each adjacent [Orchard]","Destroyed when pillaged"],
         "production": 2,
 		"gold": 2,
 		"turnsToBuild": 4,
@@ -42,19 +42,18 @@
 	},
 	{
 		"name": "Garrison",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Aberrant Blue Zone"],
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
-		"uniques": ["[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+2 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
+		"uniques": ["Destroyed when pillaged","[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+2 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
         "techRequired": "Recipes",
 	},
 	{
 		"name": "Kraal",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Montano","Plains","Aberrant Green Zone"],
 		"turnsToBuild": 4,
-		"gold": 1,
 		"shortcutKey": "G"
-		"uniques": ["[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+2 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
+		"uniques": ["Destroyed when pillaged","[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+2 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
         "techRequired": "Recipes",
 	},
         {
@@ -62,21 +61,21 @@
 		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach","Eldritch","Aberrant Blue Zone","Montano"],
 		"turnsToBuild": 7,
         "techRequired": "Campfire",
-		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","[+2 Faith] for each adjacent [Forest] <starting from the [Tek era]>"],
+		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","[+2 Faith] for each adjacent [Forest] <starting from the [Tek era]>","Destroyed when pillaged"],
 	},
         {
 		"name": "Tumash Temple",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle","Forest","Plains","Flood plains","Aberrant Blue Zone"],
 		"turnsToBuild": 6,
                 "techRequired": "Campfire",
-		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]","[+2 Culture] for each adjacent [Luxury resource] <starting from the [Tek era]>"],
+		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]","[+2 Culture] for each adjacent [Luxury resource] <starting from the [Tek era]>","Destroyed when pillaged"],
 	},
         {
 		"name": "Mural",
 		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle"],
 		"turnsToBuild": 6,
                 "techRequired": "Campfire",
-		"uniques": ["[+1 Culture] for each adjacent [Bonus resource]"],
+		"uniques": ["[+1 Culture] for each adjacent [Bonus resource]","Destroyed when pillaged"],
 	},
         {
 		"name": "Moai",
@@ -84,7 +83,7 @@
 		"faith": 1,
 		"turnsToBuild": 3,
                 "techRequired": "Campfire",
-		"uniques": ["[+1 Food] for each adjacent [Ranch]","[+1 Production] for each adjacent [Mine]"],
+		"uniques": ["[+1 Food] for each adjacent [Ranch]","[+1 Production] for each adjacent [Mine]","Destroyed when pillaged"],
 		"shortcutKey": "D"
 	},
         {
@@ -93,7 +92,7 @@
 		"gold": 1,
 		"turnsToBuild": 11,
                 "techRequired": "Fabricator",
-		"uniques": ["Provides [1] [Steel]","[-1 Gold] for each adjacent [Foundry]"],
+		"uniques": ["Provides [1] [Steel]","[-1 Gold] for each adjacent [Foundry]","Destroyed when pillaged"],
 		"shortcutKey": "E"
 	},
         {
@@ -139,7 +138,7 @@
 		"name": "Camp",
 		"gold": 2,
 		"turnsToBuild": 4,
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]", "Can only be built to improve a resource"],
+		"uniques": ["Does not need removal of [Forest]","Cannot be built on [Water] tiles","Does not need removal of [Jungle]", "Can only be built to improve a resource","Destroyed when pillaged"],
 		"shortcutKey": "H"
                 "techRequired": "Spear",
 	},
@@ -147,13 +146,13 @@
 		"name": "Oil well",
 		"production": 2,
 		"turnsToBuild": 4,
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles"],
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles","Destroyed when pillaged"],
 		"shortcutKey": "J"
 	},
 	{
 		"name": "Offshore Platform",
 		"production": 2,
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles"],
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles","Destroyed when pillaged"],
 		"shortcutKey": "K"
 	},
 	{
@@ -161,7 +160,7 @@
 		"turnsToBuild": 5,
 		"gold": 1,
                 "food": 1,
-		"uniques": ["Can only be built to improve a resource"],
+		"uniques": ["Can only be built to improve a resource","Destroyed when pillaged"],
 		"shortcutKey": "L"
                 "techRequired": "Waterskin",
 	},
@@ -169,7 +168,7 @@
 		"name": "Quarry",
                 "gold": 1,
 		"turnsToBuild": 4,
-		"uniques": ["Can only be built to improve a resource"],
+		"uniques": ["Can only be built to improve a resource","Destroyed when pillaged"],
 		"shortcutKey": "Ñ"
                 "techRequired": "Stone Houses",
 	},
@@ -184,7 +183,7 @@
 		"name": "Gas Collector",
 		"turnsToBuild": 7,
                 "production": 4,
-		"uniques": ["Can only be built to improve a resource","Provides [2] [Gas]"],
+		"uniques": ["Can only be built to improve a resource","Provides [2] [Gas]","Destroyed when pillaged"],
                 "techRequired": "Electronics",
 	},
 	{
@@ -192,7 +191,7 @@
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 6,
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%","Destroyed when pillaged"],
                 "techRequired": "Stone Houses",
 	},
 
@@ -316,28 +315,28 @@
 		"name": "Steampunk Station",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 5,
-		"uniques": ["[+1 Production] for each adjacent [Mine]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Production] for each adjacent [Mine]","Great Improvement", "Removes removable features when built", "Destroyed when pillaged"]
 	},
         {
 		"name": "Great Reserve",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 5,
                 "culture": 1,
-		"uniques": ["[+1 Culture] for each adjacent [Forest]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Culture] for each adjacent [Forest]","Great Improvement", "Removes removable features when built", "Destroyed when pillaged"]
 	},
         {
 		"name": "Potion Station",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 5,
                 "gold": 1,
-		"uniques": ["[+1 Science] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Science] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Destroyed when pillaged"]
 	},
         {
 		"name": "Great Camp",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 5,
                 "food": 1,
-		"uniques": ["[+1 Food] for each adjacent [Coast]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Food] for each adjacent [Coast]","Great Improvement", "Removes removable features when built", "Destroyed when pillaged"]
 	},
         {
 		"name": "Mountain Temple",
@@ -346,13 +345,13 @@
                 "food": 1,
                 "production": 1,
                 "science": 2,
-		"uniques": ["[+1 Faith] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Faith] for each adjacent [Mountain]","Great Improvement", "Removes removable features when built", "Destroyed when pillaged"]
 	},
         {
 		"name": "Castle",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 3,
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [35]%","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [35]%","Removes removable features when built", "Destroyed when pillaged"]
 	},
 	{
 		"name": "Ancient ruins",
@@ -390,7 +389,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
         	"Gain control over [all] tiles in a [1]-tile radius",
-			"Removes removable features when built",
+			"Removes removable features when built","Irremovable",
 		]
 	}
 ]

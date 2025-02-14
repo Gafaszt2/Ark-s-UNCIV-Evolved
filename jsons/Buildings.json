@@ -18,6 +18,13 @@
 			"Only available <when [Fame] Victory is enabled>", "Cannot be hurried"]
 	},
 	{
+		"name": "Alpha Ascension",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": ["Consumes [1] [Alpha Essence]","Triggers a global alert upon build start",
+			"Only available <when [Boss] Victory is enabled>", "Cannot be hurried"]
+	},
+	{
 		"name": "Golden Palace",
 		"cost": 1,
 		"isNationalWonder": true,
@@ -89,6 +96,30 @@
 		"requiredTech": "Notes"
 	},
 	{
+		"name": "Ragnarok Monument",
+		"replaces": "Ark Monument",
+		"uniqueTo": "Ragnarok",
+		"culture": 2,
+		"production": 1,
+		"food": 1,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Dino Nest",
+		"replaces": "Temple",
+		"uniqueTo": "Valguero",
+                "greatPersonPoints": {"Great Prophet": 2},
+		"faith": 2,
+		"food": 2,
+		"happiness": 2,
+                "maintenance": 2,
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Floating Island",
 		"replaces": "Refining Forges",
 		"uniqueTo": "The Center",
@@ -99,17 +130,6 @@
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Refining Forge"
-	},
-        {
-		"name": "Dino Nest",
-                "replaces": "Taming Scout",
-		"uniqueTo": "Valguero",
-                "greatPersonPoints": {"Great Merchant": 1},
-                "happiness": 1,
-		"hurryCostModifier": 50,
-		"uniques": ["[+15]% Production when constructing [Theropoda] units [in this city]"],
-		"requiredBuilding": "Taming Den",
-                "requiredTech": "Tranq Arrow"
 	},
         {
 		"name": "Temple",
@@ -772,69 +792,70 @@
         {
 		"name": "Tek Replicator",
                 "maintenance": 2,
+				"production": 5,
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]"],
 		"requiredTech": "Tek Turret"
 	},
         {
 		"name": "Scorched Market",
-                "hurryCostModifier": 50,
-		"uniques": ["[+2 Gold] from [Ranch] tiles [in this city]","[+1 Happiness] from [Ranch] tiles [in this city]"],
+		"gold": 5,
+        "hurryCostModifier": 50,
+		"uniques": ["[+1 Food] from [Ranch] tiles [in this city]"],
 		"requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Aberration Tools",
-                "maintenance": 4,
+                "maintenance": 2,
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Production] from [Ranch] tiles [in this city]"],
+		"production": 5,
 		"requiredTech": "Hazard Suit"
 	},
         {
 		"name": "Mainland",
-                "maintenance": 4,
+                "maintenance": 1,
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Science] from [Mine] tiles [in this city]"],
+		"science": 4,
 		"requiredTech": "Hazard Suit"
 	},
         {
 		"name": "Fountain Economy",
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Gold] from [Ranch] tiles [in this city]"],
+		"gold": 4,
 		"requiredTech": "Aberration Creatures"
 	},
         {
 		"name": "Wasteland Pub",
                 "maintenance": 1,
                 "hurryCostModifier": 50,
-		"uniques": ["[+1 Happiness] from [Ranch] tiles [in this city]"],
+		"happiness": 4,
 		"requiredTech": "Wind Turbine"
 	},
         {
 		"name": "Taming Show",
                 "maintenance": 3,
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Culture] from [Camp] tiles [in this city]"],
+		"culture": 5,
 		"requiredTech": "Desert Creatures"
 	},
         {
 		"name": "Train Station",
                 "maintenance": 3,
                 "hurryCostModifier": 50,
-		"uniques": ["[+2 Culture] from [Ranch] tiles [in this city]"],
+		"culture": 5,
 		"requiredTech": "Wind Turbine"
 	},
         {
 		"name": "Tek Riffles",
                 "hurryCostModifier": 50,
                 "maintenance": 2,
-		"uniques": ["[+2 Science] from [Mine] tiles [in this city]"],
+		"science": 5,
 		"requiredTech": "Tek Armor"
 	},
         {
 		"name": "Hatchery",
                 "hurryCostModifier": 50,
-                "maintenance": 3,
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]","[+2 Production] from [Camp] tiles [in this city]","Cost increases by [30] per owned city"],
+                "maintenance": 1,
+		"uniques": ["[+20]% Production when constructing [Land] units [in this city]","Cost increases by [30] per owned city"],
 		"requiredTech": "Tek Sword"
 	},
         {
@@ -1066,8 +1087,12 @@
         {
 		"name": "Aberrant Fort",
                 "cityStrength": 12,
-		"cityHealth": 250,
-                "maintenance": 5,
+		"cityHealth": 350,
+                "gold": 1,
+				"food": 1,
+				"culture": 1,
+				"faith": 1,
+				"happiness": 2,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"
 		"requiredTech": "Aberration Boss"
@@ -1490,15 +1515,6 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Mint",
 		"requiredTech": "Fabricator"
-	},
-        {
-		"name": "Museum",
-                "uniqueTo": "Ragnarok",
-		"culture": 5,
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredTech": "Fabricator",
-		"uniques": ["Destroyed when the city is captured"]
 	},
         {
 		"name": "Stone Conversor",

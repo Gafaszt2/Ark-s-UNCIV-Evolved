@@ -36,6 +36,12 @@
         "color": [94, 58, 42]
     },
     {
+        "name": "Aberrant",
+        "friendBonusUniques": ["Provides [3] [Ravager]","Provides [3] [Aquatic Mushroom]"],
+        "allyBonusUniques": ["Provides [6] [Ravager]","Provides [6] [Aquatic Mushroom]","Provides [6] [Rock Drake Egg]"],
+        "color": [126, 94, 242]
+    },
+    {
         "name": "Secret Society",
         "friendBonusUniques": ["Provides [4] [Scales]","Provides [4] [Reeds]","Provides [4] [Leather]"],
         "allyBonusUniques": ["Provides [7] [Scales]","Provides [7] [Reeds]","Provides [7] [Leather]"],

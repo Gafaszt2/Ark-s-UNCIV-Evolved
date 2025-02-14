@@ -1,9 +1,5 @@
 [
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-
-	/* Ancient Era */
-        	{
+    {
 		"name": "Great Artist",
                 "strength": 25,
 		"unitType": "Civilian",
@@ -33,6 +29,7 @@
 	{
 		"name": "Elf Magic Engineer",
 		"unitType": "Civilian",
+		"requiredResource": "Relic",
 		"uniques": ["[+20]% Strength bonus for [Palaeophis] units within [2] tiles","[+20]% Strength bonus for [Olorotitan] units within [2] tiles","[+20]% Strength bonus for [Ailurarctos Rider] units within [2] tiles","Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [440] [Faith] [in all cities]",
             "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
@@ -231,6 +228,61 @@
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
         },
+		{
+			"name": "The Overseer",
+			"uniqueTo": "Barbarians",
+			"unitType": "Boss",
+			"movement": 2,
+			"strength": 700,
+			"cost": 15000000000000,
+			"requiredTech": "Island Bosses",
+			"uniques": ["Cannot enter ocean tiles","May travel on Water tiles without embarking","Uncapturable","Free [Broodmother Overseer] appears <upon being defeated>","Limited to [1] per Civilization","Only available <when [Boss] Victory is enabled>","[-100]% Strength <vs cities> <when attacking>"],
+			"attackSound": "tankshot"
+		},
+		{
+			"name": "Broodmother Overseer",
+			"uniqueTo": "Barbarians",
+			"unitType": "Boss",
+			"movement": 2,
+			"strength": 500,
+			"cost": 15,
+			"requiredTech": "Island Bosses",
+			"uniques": ["Cannot enter ocean tiles","[50] Movement point cost to embark","Uncapturable","Free [Megapithecus Overseer] appears <upon being defeated>","Unbuildable","Only available <when [Boss] Victory is enabled>","[-100]% Strength <vs cities> <when attacking>"],
+			"attackSound": "tankshot"
+		},
+		{
+			"name": "Megapithecus Overseer",
+			"uniqueTo": "Barbarians",
+			"unitType": "Boss",
+			"movement": 2,
+			"strength": 600,
+			"cost": 15,
+			"requiredTech": "Island Bosses",
+			"uniques": ["Cannot enter ocean tiles","May travel on Water tiles without embarking","Uncapturable","Free [Dragon Overseer] appears <upon being defeated>","Unbuildable","Only available <when [Boss] Victory is enabled>","[-100]% Strength <vs cities> <when attacking>"],
+			"attackSound": "tankshot"
+		},
+		{
+			"name": "Dragon Overseer",
+			"uniqueTo": "Barbarians",
+			"unitType": "Boss",
+			"movement": 2,
+			"strength": 800,
+			"cost": 15,
+			"requiredTech": "Island Bosses",
+			"uniques": ["Cannot enter ocean tiles","May travel on Water tiles without embarking","Uncapturable","Free [Damaged Overseer] appears <upon being defeated>","Unbuildable","Only available <when [Boss] Victory is enabled>","[-100]% Strength <vs cities> <when attacking>"],
+			"attackSound": "tankshot"
+		},
+		{
+			"name": "Damaged Overseer",
+			"uniqueTo": "Barbarians",
+			"unitType": "Final Boss",
+			"movement": 2,
+			"strength": 300,
+			"cost": 15,
+			"requiredTech": "Island Bosses",
+			"uniques": ["Cannot enter ocean tiles","May travel on Water tiles without embarking","Uncapturable","Unbuildable","Only available <when [Boss] Victory is enabled>","[-100]% Strength <vs cities> <when attacking>"],
+			"attackSound": "tankshot"
+		},
        {
 		"name": "Barbarian",
                 "replaces": "Bob",
@@ -2241,7 +2293,7 @@
 		"strength": 150,
 		"cost": 200,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Consumes [3] [Metal]","Consumes [3] [Thatch]","Consumes [1] [Wood]"],
+		"uniques": ["Consumes [3] [Metal]","Consumes [3] [Thatch]","Consumes [1] [Wood]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -2252,7 +2304,7 @@
 		"strength": 225,
 		"cost": 250,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Steel]","Consumes [2] [Fruit]"],
+		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Steel]","Consumes [2] [Fruit]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Musth","Pliocene"],
 		"attackSound": "elephant"
@@ -2264,7 +2316,7 @@
 		"strength": 200,
 		"cost": 350,
 		"requiredTech": "Auto Torret",
-		"uniques": ["Consumes [4] [Steel]","Consumes [3] [Bones]","[+70]% Strength <vs [Giga Rider] units>","[5] additional attacks per turn","[+50]% Strength <when attacking>","[-220]% Strength <vs cities>"],
+		"uniques": ["Consumes [4] [Steel]","Consumes [3] [Bones]","[+70]% Strength <vs [Giga Rider] units>","[5] additional attacks per turn","[+50]% Strength <when attacking>","[-220]% Strength <vs cities>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "dinoherb"
@@ -2292,7 +2344,7 @@
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
                 "promotions": ["Cretaceous"],
-		"uniques": ["[+10]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength <when defending>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -2341,7 +2393,7 @@
 		"cost": 380,
 		"requiredTech": "Auto Torret",
                 "requiredResource": "Biotoxin",
-		"uniques": ["Consumes [1] [Silk]","Consumes [4] [Leather]","Consumes [4] [Fruit]","Consumes [2] [Metal]"],
+		"uniques": ["Consumes [1] [Silk]","Consumes [4] [Leather]","Consumes [4] [Fruit]","Consumes [2] [Metal]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -2695,12 +2747,12 @@
 		"uniqueTo": "Pure Genesis",
 		"unitType": "Fantasy",
 		"movement": 2,
-		"strength": 22,
+		"strength": 23,
 		"cost": 82,
 		"requiredTech": "Professional Domestication",
                 "upgradesTo": "Stego Rider",
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": [ "[+10]% Strength <when fighting in [Forest] tiles>"],
+		"uniques": [ "[+10]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Beach] tiles>","[+30]% Strength <when fighting in [Lakes] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -2710,11 +2762,11 @@
 		"uniqueTo": "Pure Genesis",
 		"unitType": "Fantasy",
 		"movement": 4,
-		"strength": 27,
-		"cost": 87,
+		"strength": 29,
+		"cost": 75,
 		"requiredTech": "Spike Wall",
                 "requiredResource": "Chitin",
-		"uniques": [ "[+10]% Strength <when fighting in [Coast] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Beach] tiles>","[+30]% Strength <when fighting in [Lakes] tiles>","[+30]% Strength <when fighting in [Marsh] tiles>","[+30]% Strength <when fighting in [Swamp Zone] tiles>"],
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
@@ -2971,7 +3023,7 @@
 		"strength": 325,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Biotoxin]"],
+		"uniques": ["Consumes [1] [Biotoxin]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "spino"
@@ -2983,7 +3035,7 @@
 		"strength": 350,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Biotoxin]"],
+		"uniques": ["Consumes [1] [Biotoxin]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Eocene","Oligocene"],
 		"attackSound": "chalico"
@@ -2996,7 +3048,7 @@
 		"strength": 450,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Allosaurus]"],
+		"uniques": ["Consumes [1] [Allosaurus]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Jurassic"],
 		"attackSound": "medcarno"
@@ -3008,7 +3060,7 @@
 		"strength": 500,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Woolly Rhino]"],
+		"uniques": ["Consumes [1] [Woolly Rhino]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Holocene"],
 		"attackSound": "chalico"
@@ -3020,7 +3072,7 @@
 		"strength": 500,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [1] [Purlovia]"],
+		"uniques": ["Consumes [1] [Purlovia]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Permian"],
 		"attackSound": "chalico"
@@ -3032,7 +3084,7 @@
 		"strength": 650,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [5] [Biotoxin]","Consumes [5] [Oil]","Consumes [5] [Organic Polymer]"],
+		"uniques": ["Consumes [5] [Biotoxin]","Consumes [5] [Oil]","Consumes [5] [Organic Polymer]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -3043,7 +3095,7 @@
 		"strength": 450,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [3] [Biotoxin]","Consumes [3] [Oil]","Consumes [3] [Organic Polymer]"],
+		"uniques": ["Consumes [3] [Biotoxin]","Consumes [3] [Oil]","Consumes [3] [Organic Polymer]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -3054,7 +3106,7 @@
 		"strength": 250,
 		"cost": 300,
 		"requiredTech": "Scorched Earth Boss",
-		"uniques": ["Consumes [2] [Biotoxin]","Consumes [2] [Oil]","Consumes [2] [Organic Polymer]"],
+		"uniques": ["Consumes [2] [Biotoxin]","Consumes [2] [Oil]","Consumes [2] [Organic Polymer]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -3078,6 +3130,7 @@
 		"uniques": ["[-99]% Strength <vs cities> <when attacking>","[+500]% maintenance costs","Consumes [3] [Element Ore]","Consumes [3] [Lithium]","Consumes [5] [Metal]","Consumes [5] [Steel]","Consumes [4] [Oil]","Consumes [3] [Mutagel]","Consumes [3] [Absorbent Substrate]","Consumes [8] [Tek]","Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+
 {
 		"name": "Tek Anti Tank",
 		"unitType": "Gunpowder",
