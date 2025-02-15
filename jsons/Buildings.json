@@ -1482,6 +1482,31 @@
 		"requiredTech": "Mortar",
 	},
 
+	{
+		"name": "Serpent Mound",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Hill] within [2] tiles","[+1 Culture, +1 Gold] per [2] population [in all cities]"],
+		"requiredTech": "Stone Hatchet",
+	},
+	{
+		"name": "Gabarnmung",
+		"isWonder": true,
+		"uniques": ["Must have an owned [Plains] within [2] tiles","[+1 Production] from every [Plains]"],
+		"requiredTech": "Stone Hatchet",
+	},
+	{
+		"name": "Kilwa Kisiwani",
+		"isWonder": true,
+		"uniques": ["[+1 Gold] from all [Gold] buildings","[+2 Gold] from every [Trading post]","[+1 Culture] from every [Trading post]"],
+		"requiredTech": "Wooden Houses",
+	},
+	{
+		"name": "Burj Khalifa",
+		"isWonder": true,
+		"uniques": ["[+3 Gold] from all [Gold] buildings","[+2 Science] from all [Gold] buildings"],
+		"requiredTech": "Tek Armor",
+	},
+
 
 
 
