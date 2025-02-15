@@ -440,6 +440,59 @@
             }
         ]
     },
+    {
+        "name": "Global Powers",
+        "era": "Tek era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+3 Production] [in capital]","Gain a free [Global Event] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Domination",
+                "uniques": [
+                    "[+1 Gold] [in capital]","Gain a free [Dom Event] [in capital]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Advanced Economics",
+                "uniques": [
+                    "[+1 Gold] [in capital]","Gain a free [Advent Event] [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "The Coastal Cities",
+                "uniques": [
+                    "[+1 Gold] [in capital]","Gain a free [Coast Event] [in capital]",
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Bread and Circus",
+                "uniques": [
+                    "[+3 Gold] [in capital]","[+2 Culture] [in capital]","[+2 Food] [in capital]","Gain a free [Breadeun Event] [in capital]",
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Global Powers Complete",
+                "uniques": [
+                    "[+10 Happiness] [in capital]","All newly-trained [Land] units [in all cities] receive the [Immunity] promotion","All newly-trained [Water] units [in all cities] receive the [Immunity] promotion","[+35]% Strength for cities"]
+            }
+        ]
+    },
         {
         "name": "Cosmopolitanism",
         "era": "Electric era",

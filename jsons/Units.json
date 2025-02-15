@@ -2502,6 +2502,17 @@
 		"uniques": ["[+44]% Strength <vs [Theropoda] units>","[+11]% Strength <vs [Giga Rider] units>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Special Forces",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 125,
+		"cost": 290,
+		"requiredTech": "Assault Riffle",
+		"uniques": ["[3] Range","[4] Sight","[2] additional attacks per turn","Unbuildable","Cannot be purchased","May Paradrop up to [3] tiles from inside friendly territory","[+20]% Strength bonus for [Gunpowder] units within [3] tiles","[+30]% Strength <vs [Giga Rider] units>","[+50]% Strength <vs [Tek Rex Rider] units>"],
+		"attackSound": "shot"
+	},
         {
 		"name": "Shotgun Survivor",
                 "upgradesTo": "Tek HomoDeus",

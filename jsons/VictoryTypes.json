@@ -45,8 +45,8 @@ You have unlocked the secrets of this artificial world, revealing the true purpo
     },
     {
         "name": "Ascension",
-        "victoryScreenHeader": "Complete 6 policy branches to win!",
-        "milestones": ["Complete [6] Policy branches"],
+        "victoryScreenHeader": "Complete 7 policy branches to win!",
+        "milestones": ["Complete [7] Policy branches"],
         "victoryString": "You have Ascended.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },

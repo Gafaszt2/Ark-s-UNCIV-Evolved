@@ -146,7 +146,7 @@
 		"era": "Leather era",
 		"techCost": 320,
 		"buildingCost": 450,
-		"wonderCost": 185,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Cementing Paste",
@@ -180,7 +180,7 @@
 		"era": "Leather era",
 		"techCost": 420,
 		"buildingCost": 450,
-		"wonderCost": 185,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Stone Houses",
@@ -208,7 +208,7 @@
 		"era": "Leather era",
 		"techCost": 490,
 		"buildingCost": 450,
-		"wonderCost": 185,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Bookshelf",
@@ -244,7 +244,7 @@
 		"era": "Smithy era",
 		"techCost": 510,
 		"buildingCost": 550,
-		"wonderCost": 185,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Gunpowder",
@@ -279,7 +279,7 @@
 		"era": "Smithy era",
 		"techCost": 590,
 		"buildingCost": 550,
-		"wonderCost": 185,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Metal Hatchet",
@@ -314,7 +314,7 @@
 		"era": "Smithy era",
 		"techCost": 620,
 		"buildingCost": 550,
-		"wonderCost": 185,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Crossbow",
@@ -348,7 +348,7 @@
 		"era": "Smithy era",
 		"techCost": 700,
 		"buildingCost": 550,
-		"wonderCost": 185,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Greenhouse",
@@ -390,7 +390,7 @@
 		"era": "Electric era",
 		"techCost": 900,
 		"buildingCost": 850,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Fabricator",
@@ -405,7 +405,7 @@
 		"era": "Electric era",
 		"techCost": 800,
 		"buildingCost": 750,
-		"wonderCost": 750,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Polymer",
@@ -444,7 +444,7 @@
 		"era": "Electric era",
 		"techCost": 825,
 		"buildingCost": 750,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Chainsaw",
@@ -477,7 +477,7 @@
 		"era": "Electric era",
 		"techCost": 850,
 		"buildingCost": 750,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Flak Armor",
@@ -504,7 +504,7 @@
 		"era": "Electric era",
 		"techCost": 890,
 		"buildingCost": 750,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Assault Riffle",
@@ -531,7 +531,7 @@
 		"era": "Tek era",
 		"techCost": 1200,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Island Bosses",
@@ -546,7 +546,7 @@
 		"era": "Tek era",
 		"techCost": 1300,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
                          {
 				"name": "Tek Armor",
@@ -573,7 +573,7 @@
 		"era": "Tek era",
 		"techCost": 1400,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
                          {
 				"name": "Scorched Earth Boss",
@@ -588,7 +588,7 @@
 		"era": "Tek era",
 		"techCost": 1500,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
                          {
 				"name": "Desert Creatures",
@@ -615,7 +615,7 @@
 		"era": "Tek era",
 		"techCost": 1600,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
                          {
 				"name": "Aberration Boss",
@@ -630,7 +630,7 @@
 		"era": "Tek era",
 		"techCost": 1700,
 		"buildingCost": 510,
-		"wonderCost": 185,
+		"wonderCost": 900,
 		"techs": [
                          {
 				"name": "Aberration Creatures",

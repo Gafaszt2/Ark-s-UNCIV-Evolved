@@ -15,27 +15,108 @@
             },
                 ]
         },
-{
-                "name": "Trash",
-                "text": "We have encountered trash on multiple places, due to our expansion and industrialization and also contamination",
+        {
+                "name": "Global Event",
+                "text": "We are becoming a global power, what we should focus on?",
                 "choices":[
                         {
-                                "text": "We will burn the trash
-
-Why not?",
-                                "uniques": ["[-3 Happiness] from [Trash] tiles [in all cities] <for [100000] turns>","[+2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                                "text": "Gain Science",
+                                "uniques": ["Gain [250] [Science]"]
                         },
                         {
-                                "text": "We will make recycling centers
-
-It´s our responsability to take care of the Ark we live on",
-                                "uniques": ["[+2 Gold] from [Trash] tiles [in all cities] <for [100000] turns>","[-2 Production] from [Foundry] tiles [in all cities] <for [100000] turns>"]
+                                "text": "Gain Faith",
+                                "uniques": ["Gain [2000] [Faith]"]
                         },
                         {
-                                "text": "Not our Problem
-
-Let´s go the other way",
-                                "uniques": ["[-1 Happiness] from [Ranch] tiles [in all cities] <for [100000] turns>"]
+                                "text": "Gain Gold",
+                                "uniques": ["Gain [2000] [Gold]"]
+                        }
+                ]
+        },
+        {
+                "name": "Dom Event",
+                "text": "Our nation needs to expand its soldiers, what we should focus on?",
+                "choices":[
+                        {
+                                "text": "Recieve the Special Forces",
+                                "uniques": ["[4] free [Special Forces] units appear"]
+                        },
+                        {
+                                "text": "Recieve 5 Giga Riders",
+                                "uniques": ["[6] free [Giga Rider] units appear"]
+                        }
+                ]
+        },
+        {
+                "name": "Advent Event",
+                "text": "The Market is on our favor, what we should focus on?",
+                "choices":[
+                        {
+                                "text": "Importations",
+                                "uniques": ["Free Technology"]
+                        },
+                        {
+                                "text": "Inner Market",
+                                "uniques": ["Empire enters a [35]-turn Golden Age"]
+                        },
+                        {
+                                "text": "Exportations",
+                                "uniques": ["Gain [1000]-[2500] [Gold]"]
+                        }
+                ]
+        },
+        {
+                "name": "Coast Event",
+                "text": "We must improve our coastal activities, what we should focus on?",
+                "choices":[
+                        {
+                                "text": "Open Trade",
+                                "uniques": ["Reveals the entire map"]
+                        },
+                        {
+                                "text": "Protect Endangered Species",
+                                "uniques": ["Empire enters a [35]-turn Golden Age"]
+                        },
+                        {
+                                "text": "Declare Endangered Species as Religious animal",
+                                "uniques": ["Gain a free [Follower] belief"]
+                        },
+                        {
+                                "text": "Find Artifacts",
+                                "uniques": ["Free Technology"]
+                        },
+                        {
+                                "text": "Hunt Basilosaurus",
+                                "uniques": ["Gain [1000]-[2500] [Gold]"]
+                        }
+                ]
+        },
+        {
+                "name": "Breadeun Event",
+                "text": "Our empire is happy due to your policies, lets celebrate!",
+                "choices":[
+                        {
+                                "text": "Lets go!",
+                                "uniques": ["Free Great Person"]
+                        }
+                ]
+        },
+        
+{
+                "name": "Trash",
+                "text": "We saw a new opportunity on the Tek Era",
+                "choices":[
+                        {
+                                "text": "Sell Tek",
+                                "uniques": ["Gain [2000] [Gold]"]
+                        },
+                        {
+                                "text": "Worry about Nature and Wildlife",
+                                "uniques": ["[6] free [Great Naturalist] units appear"]
+                        },
+                        {
+                                "text": "Use Tek for War",
+                                "uniques": ["[4] free [Giga Rider] units appear"]
                         }
                 ]
         },
@@ -47,13 +128,13 @@ Let´s go the other way",
                                 "text": "Our Nation Will Adopt Slavery
 
 Our Enemies must become our Slaves",
-                                "uniques": ["Free [Slave] appears <upon defeating a [Gunpowder] unit> <with [40]% chance> <for [100000] turns>","Free [Slave] appears <upon defeating a [Sword] unit> <with [40]% chance> <for [100000] turns>"]
+                                "uniques": ["[3] free [Slave] units appear"]
                         },
                         {
                                 "text": "Our Nation Won´t Adopt Slavery
 
 Our own people need to work harder",
-                                "uniques": ["[+1 Production] [in all cities] <for [100000] turns>","[+2 Production] [in all cities] <when not at war> <for [100000] turns>"]
+                                "uniques": ["Empire enters a [10]-turn Golden Age","[1] Free Social Policies"]
                         }
                 ]
         },
