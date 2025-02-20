@@ -2445,7 +2445,7 @@
 		"name": "Megatherium",
 		"unitType": "Mammal",
 		"movement": 3.5,
-		"strength": 85,
+		"strength": 87,
 		"cost": 250,
 		"requiredTech": "Auto Torret",
                 "promotions": ["Pliocene"],

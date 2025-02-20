@@ -11,6 +11,55 @@
 		"uniques": ["Indicates the capital city","Provides [2] [Fiber]","Provides [6] [Thatch] <starting from the [Leather era]>"]
 	},
 	{
+		"name": "Potion Stations",
+		"hurryCostModifier": 50,
+        "science": 1,
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Immunity] promotion <with [2]% chance>"],
+		"requiredTech": "Spear"
+	},
+	{
+		"name": "Primitive Armory",
+		"hurryCostModifier": 50,
+        "production": 1,
+		"uniques": ["[-10]% maintenance cost for buildings [in this city]"],
+		"requiredTech": "Spear"
+	},
+	{
+		"name": "Forest Cabins",
+		"hurryCostModifier": 50,
+        "production": 1,
+		"uniques": ["Must be next to [Forest]"],
+		"requiredTech": "Stone Hatchet"
+	},
+	{
+		"name": "Jungle Huts",
+		"hurryCostModifier": 50,
+        "food": 1,
+		"uniques": ["Must be next to [Jungle]"],
+		"requiredTech": "Stone Hatchet"
+	},
+	{
+		"name": "Montano Temples",
+		"hurryCostModifier": 50,
+        "faith": 1,
+		"uniques": ["Must be next to [Montano]"],
+		"requiredTech": "Stone Hatchet"
+	},
+	{
+		"name": "Campfires",
+		"hurryCostModifier": 50,
+        "culture": 1,
+		"uniques": ["Must not be next to [Desert]"],
+		"requiredTech": "Campfire"
+	},
+	{
+		"name": "Salt Deposits",
+		"hurryCostModifier": 50,
+        "gold": 1,
+		"uniques": ["Must be next to [Desert]"],
+		"requiredTech": "Campfire"
+	},
+	{
 		"name": "Hall of Fame",
 		"cost": 1000,
 		"isNationalWonder": true,
@@ -288,7 +337,7 @@
 	},
 {
 		"name": "Berry Stew",
-                "maintenance": 1,
+                "maintenance": 2,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Berries"],
                 "requiredBuilding": "Narcoberries",
@@ -300,7 +349,7 @@
                 "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["[+2 Food] from [Wild Crops] tiles [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","[+2 Food] from [Wild Crops] tiles [in this city]"],
                 "requiredBuilding": "Crops Domestication",
 		"requiredTech": "Recipes"
 	},
@@ -309,7 +358,7 @@
                 "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["[+30]% Production when constructing [Sword] units [in this city]","[+10]% Production when constructing [Civilian] units [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","[+30]% Production when constructing [Sword] units [in this city]","[+10]% Production when constructing [Civilian] units [in this city]"],
                 "requiredBuilding": "Salads",
 		"requiredTech": "Recipes"
 	},
@@ -318,7 +367,7 @@
                 "maintenance": 2,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["[+20]% [Happiness] [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","[+20]% [Happiness] [in this city]"],
                 "requiredBuilding": "Roasted Vegetables",
 		"requiredTech": "Recipes"
 	},
@@ -327,7 +376,7 @@
                 "maintenance": 1,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["Provides [1] [Tomato]","[+20]% [Food] [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","Provides [1] [Tomato]","[+20]% [Food] [in this city]"],
                 "requiredBuilding": "Roasted Vegetables",
 		"requiredTech": "Recipes"
 	},
@@ -336,7 +385,7 @@
                 "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["Provides [1] [Dough]","[+30]% [Food] [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","Provides [1] [Dough]","[+30]% [Food] [in this city]"],
                 "requiredBuilding": "Flour",
 		"requiredTech": "Recipes"
 	},
@@ -345,7 +394,7 @@
                 "maintenance": 8,
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wild Crops"],
-		"uniques": ["Consumes [1] [Dough]","Consumes [1] [Tomato]","[+30]% [Food] [in this city]","[+30]% [Gold] [in this city]","[+20]% [Culture] [in this city]"],
+		"uniques": ["Only available <when [Pizza] Victory is enabled>","Consumes [1] [Dough]","Consumes [1] [Tomato]","[+30]% [Food] [in this city]","[+30]% [Gold] [in this city]","[+20]% [Culture] [in this city]"],
 		"requiredTech": "Recipes"
 	},
 {
@@ -353,7 +402,7 @@
                 "maintenance": 3,
                 "food": 2,
 		"hurryCostModifier": 50,
-                "uniques": ["Provides [1] [Vegetal Oil]"],
+                "uniques": ["Only available <when [Pizza] Victory is enabled>","Provides [1] [Vegetal Oil]"],
                 "requiredNearbyImprovedResources": ["Wild Crops"],
                 "requiredBuilding": "Roasted Vegetables",
 		"requiredTech": "Recipes"
@@ -363,7 +412,7 @@
                 "maintenance": 3,
                 "food": 2,
 		"hurryCostModifier": 50,
-                "uniques": ["Provides [1] [Vegetal Oil]"],
+                "uniques": ["Only available <when [Pizza] Victory is enabled>","Provides [1] [Vegetal Oil]"],
                 "requiredNearbyImprovedResources": ["Wild Crops"],
                 "requiredBuilding": "Roasted Vegetables",
 		"requiredTech": "Recipes"
@@ -372,7 +421,7 @@
 		"name": "Fried Dodo Production",
                 "gold": 6,
 		"hurryCostModifier": 50,
-                "uniques": ["Consumes [1] [Dodo]","Consumes [1] [Vegetal Oil]"],
+                "uniques": ["Only available <when [Pizza] Victory is enabled>","Consumes [1] [Dodo]","Consumes [1] [Vegetal Oil]"],
                 "requiredNearbyImprovedResources": ["Dodo"],
 		"requiredTech": "Recipes"
 	},
@@ -886,7 +935,7 @@
                 "greatPersonPoints": {"Great Artist": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","[+15]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]","[+15]% Production when constructing [Land] units [in this city]"],
                 "requiredTech": "Narcotics"
 	},
         {
@@ -894,7 +943,7 @@
                 "greatPersonPoints": {"Great Merchant": 1},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredBuilding": "Taming Scout",
                 "requiredTech": "Balista"
 	},
@@ -903,7 +952,7 @@
                 "greatPersonPoints": {"Great Artist": 2},
                 "maintenance": 1,
 		"hurryCostModifier": 50,
-                "uniques": ["New [Military] units start with [15] Experience [in this city]","Cost increases by [25] per owned city"],
+                "uniques": ["New [Military] units start with [15] XP [in this city]","Cost increases by [25] per owned city"],
 		"requiredBuilding": "Taming Den",
                 "requiredTech": "Tranq Arrow"
 	},

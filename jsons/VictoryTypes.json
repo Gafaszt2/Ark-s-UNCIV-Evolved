@@ -38,6 +38,12 @@ You have unlocked the secrets of this artificial world, revealing the true purpo
         "defeatString": "You have been defeated."
     },
     {
+        "name": "Pizza",
+        "milestones": ["Anyone should build [Pizza Production]"],
+        "victoryString": "We are ready to sail!",
+        "defeatString": "You have been defeated."
+    },
+    {
         "name": "Richness",
         "milestones": ["Anyone should build [Golden Palace]"],
         "victoryString": "We are the most rich people in the planet!",
