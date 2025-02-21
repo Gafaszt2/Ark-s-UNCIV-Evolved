@@ -363,7 +363,7 @@
 		"cost": 75,
 		"requiredTech": "Slingshot",
         "obsoleteTech": "Professional Domestication",
-		"uniques": ["Limited to [1] per Civilization"],
+		"uniques": ["Limited to [1] per Civilization","Only available <when [Boss] Victory is enabled>"],
 		"hurryCostModifier": 20,
 		"attackSound": "raptor"
 	},
@@ -375,7 +375,7 @@
 		"strength": 45,
 		"cost": 78,
 		"requiredTech": "Smithy",
-		"uniques": ["Limited to [1] per Civilization"],
+		"uniques": ["Limited to [1] per Civilization","Only available <when [Boss] Victory is enabled>"],
 		"hurryCostModifier": 20,
         "obsoleteTech": "Sword",
 		"attackSound": "medcarno"
@@ -388,7 +388,7 @@
 		"strength": 95,
 		"cost": 80,
 		"requiredTech": "Chain Bola",
-		"uniques": ["Limited to [1] per Civilization"],
+		"uniques": ["Limited to [1] per Civilization","Only available <when [Boss] Victory is enabled>"],
 		"hurryCostModifier": 20,
 		"attackSound": "rex"
 	},
@@ -1293,7 +1293,7 @@
 		"strength": 50,
 		"cost": 100,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["Costs [10] [Beta Points]","[+100]% Strength <during the [Tek era]>"],
+		"uniques": ["Costs [10] [Beta Points]","[+100]% Strength <during the [Tek era]>","Only available <when [Boss] Victory is enabled>"],
         "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "tropeo"
@@ -1305,7 +1305,7 @@
 		"strength": 60,
 		"cost": 120,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["Costs [5] [Gamma Points]","[+100]% Strength <during the [Tek era]>"],
+		"uniques": ["Costs [5] [Gamma Points]","[+100]% Strength <during the [Tek era]>","Only available <when [Boss] Victory is enabled>"],
         "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
@@ -1317,7 +1317,7 @@
 		"strength": 70,
 		"cost": 150,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["Costs [1] [Alpha Points]","[+100]% Strength <during the [Tek era]>"],
+		"uniques": ["Costs [1] [Alpha Points]","[+100]% Strength <during the [Tek era]>","Only available <when [Boss] Victory is enabled>"],
         "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
