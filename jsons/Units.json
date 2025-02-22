@@ -2858,11 +2858,10 @@
 		"movement": 2,
 		"strength": 300,
 		"cost": 500,
-		"requiredTech": "Tek Sword",
-		
+		"requiredTech": "Island Bosses",
 		"hurryCostModifier": 20,
-                "requiredResource": "Tek",
-                "promotions": ["Strong Genetics"],
+		"uniques": ["Consumes [1] [Tek]","Consumes [1] [Tyrannosaurus]","Never appears as a Barbarian unit"],
+        "promotions": ["Strong Genetics"],
 		"attackSound": "rex"
 	},
         {
@@ -2872,7 +2871,7 @@
 		"strength": 320,
 		"cost": 450,
                 "promotions": ["Cretaceous"],
-		"requiredTech": "Tek Sword",
+		"requiredTech": "Island Bosses",
 		"uniques": ["Consumes [2] [Fiber]","Consumes [1] [Thatch]","Consumes [1] [Wood]","Consumes [1] [Metal]","Consumes [1] [Tek]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -2884,7 +2883,7 @@
 		"strength": 250,
 		"cost": 450,
                 "requiredResource": "Tek",
-		"requiredTech": "Desert Creatures",
+		"requiredTech": "Scorched Earth Boss",
 		
 		"hurryCostModifier": 20,
 		"attackSound": "fire"
@@ -2896,7 +2895,7 @@
 		"strength": 570,
 		"cost": 700,
                 "requiredResource": "Tek",
-		"requiredTech": "Aberration Creatures",
+		"requiredTech": "Aberration Boss",
 		"uniques": ["Free [Impregnated Survivor] appears <upon defeating a [Gunpowder] unit> <with [80]% chance>","Free [Impregnated Survivor] appears <upon defeating a [Sword] unit> <with [80]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "reaper"
@@ -2907,7 +2906,7 @@
 		"movement": 6,
 		"strength": 600,
 		"cost": 800,
-		"requiredTech": "Aberration Creatures",
+		"requiredTech": "Aberration Boss",
 		"uniques": ["Consumes [2] [Bones]","Consumes [1] [Electronics]","[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
 			"Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
@@ -2919,7 +2918,7 @@
 		"movement": 3,
 		"strength": 700,
 		"cost": 800,
-		"requiredTech": "Aberration Creatures",
+		"requiredTech": "Aberration Boss",
 		"uniques": ["Consumes [2] [Electronics]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "gdrAttack"
@@ -2956,7 +2955,7 @@
 		"movement": 0,
 		"strength": 5,
 		"cost": 0,
-		"requiredTech": "Aberration Creatures",
+		"requiredTech": "Aberration Boss",
 		"uniques": ["Can transform to [Reaper]","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "insec"
@@ -2967,9 +2966,8 @@
 		"movement": 3,
 		"strength": 395,
 		"cost": 550,
-                "requiredResource": "Tek",
-		"requiredTech": "Glider Suit",
-		"attackSound": "nonmetalhit"
+		"requiredTech": "Aberration Boss",
+		"attackSound": "shot"
 	},
         {
 		"name": "Hazard Survivor",
@@ -2978,20 +2976,87 @@
 		"strength": 290,
 		"cost": 550,
                 "requiredResource": "Tek",
-		"requiredTech": "Hazard Suit",
+		"requiredTech": "Aberration Boss",
 		"uniques": ["[+120]% Strength <vs [Fantasy] units>"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "shot"
 	},
                 {
 		"name": "Tek HomoDeus",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 170,
-                "requiredResource": "Tek",
+		"movement": 4,
+		"strength": 185,
+        "requiredResource": "Tek",
 		"cost": 300,
-		"requiredTech": "Tek Armor",
-		"attackSound": "nonmetalhit"
+		"requiredTech": "Island Bosses",
+		"attackSound": "shot"
 	},
+	{
+		"name": "Tek Land Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 210,
+        "requiredResource": "Tek",
+		"uniques": ["[+30]% Strength <vs [Tek Mounted Infantry] units>","[+30]% Strength <vs [Armored Vehicle] units>"],
+		"cost": 200,
+		"requiredTech": "Oil Pump",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tek Mounted Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 210,
+        "requiredResource": "Tek",
+		"uniques": ["[+10]% Strength <vs [Armored Vehicle] units>","[+50]% Strength <vs [Engineer] units>","[+50]% Strength <vs [Giga Rider] units>"],
+		"cost": 200,
+		"requiredTech": "Oil Pump",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tek Assault Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 210,
+        "requiredResource": "Tek",
+		"uniques": ["[+50]% Strength <vs [Tek Land Infantry] units>","[-25]% Strength <vs [Tek Mounted Infantry] units>"],
+		"cost": 200,
+		"requiredTech": "Desert Creatures",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tek Siege Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 210,
+        "requiredResource": "Tek",
+		"uniques": ["[+70]% Strength <vs cities>","[+30]% Strength <vs [Armored Vehicle] units>"],
+		"cost": 170,
+		"requiredTech": "Desert Creatures",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tek Juggernaut",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 400,
+        "requiredResource": "Tek",
+		"uniques": ["[+100]% Strength decreasing with distance from the capital","[+33]% Strength <vs [All] units>","[+70]% Strength <vs [Armored Vehicle] units>","Limited to [1] per Civilization"],
+		"cost": 300,
+		"requiredTech": "Wind Turbine",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tek Heavy Mounted Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 240,
+        "requiredResource": "Tek",
+		"uniques": ["[+30]% Strength <vs [Tek Assault Infantry] units>","[+70]% Strength <vs [Armored Vehicle] units>","[+100]% Strength decreasing with distance from the capital","Limited to [1] per Civilization"],
+		"cost": 300,
+		"requiredTech": "Wind Turbine",
+		"attackSound": "shot"
+	},
+
 
 /// Tek Species
 

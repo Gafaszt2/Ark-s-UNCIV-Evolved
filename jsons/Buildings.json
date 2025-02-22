@@ -836,14 +836,14 @@
                 "hurryCostModifier": 50,
                 "maintenance": 2,
 		"uniques": ["Must be next to [Desert]","[+2 Production] from [Desert] tiles [in this city]"],
-		"requiredTech": "Oil Pump"
+		"requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Tek Replicator",
                 "maintenance": 2,
 				"production": 5,
                 "hurryCostModifier": 50,
-		"requiredTech": "Tek Turret"
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Scorched Market",
@@ -857,55 +857,55 @@
                 "maintenance": 2,
                 "hurryCostModifier": 50,
 		"production": 5,
-		"requiredTech": "Hazard Suit"
+		"requiredTech": "Aberration Boss"
 	},
         {
 		"name": "Mainland",
                 "maintenance": 1,
                 "hurryCostModifier": 50,
 		"science": 4,
-		"requiredTech": "Hazard Suit"
+		"requiredTech": "Aberration Boss"
 	},
         {
 		"name": "Fountain Economy",
                 "hurryCostModifier": 50,
 		"gold": 4,
-		"requiredTech": "Aberration Creatures"
+		"requiredTech": "Aberration Boss"
 	},
         {
 		"name": "Wasteland Pub",
                 "maintenance": 1,
                 "hurryCostModifier": 50,
 		"happiness": 4,
-		"requiredTech": "Wind Turbine"
+		"requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Taming Show",
                 "maintenance": 3,
                 "hurryCostModifier": 50,
 		"culture": 5,
-		"requiredTech": "Desert Creatures"
+		"requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Train Station",
                 "maintenance": 3,
                 "hurryCostModifier": 50,
 		"culture": 5,
-		"requiredTech": "Wind Turbine"
+		"requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Tek Riffles",
                 "hurryCostModifier": 50,
                 "maintenance": 2,
 		"science": 5,
-		"requiredTech": "Tek Armor"
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Hatchery",
                 "hurryCostModifier": 50,
                 "maintenance": 1,
 		"uniques": ["[+20]% Production when constructing [Land] units [in this city]","Cost increases by [30] per owned city"],
-		"requiredTech": "Tek Sword"
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Tek Generator",
@@ -1037,7 +1037,7 @@
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Oil"],
 		"uniques": ["[+2 Production] from [Oil] tiles [in this city]"],
-                "requiredTech": "Oil Pump"
+                "requiredTech": "Scorched Earth Boss"
 	},
         {
 		"name": "Radio Connection",
@@ -1126,12 +1126,12 @@
 	},
         {
 		"name": "Tek Fort",
-                "cityStrength": 9,
+                "cityStrength": 10,
 		"cityHealth": 150,
-                "maintenance": 5,
+                "maintenance": 3,
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Metal Fort"
-		"requiredTech": "Tek Turret"
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Aberrant Fort",
@@ -1553,7 +1553,7 @@
 		"name": "Burj Khalifa",
 		"isWonder": true,
 		"uniques": ["[+3 Gold] from all [Gold] buildings","[+2 Science] from all [Gold] buildings"],
-		"requiredTech": "Tek Armor",
+		"requiredTech": "Island Bosses",
 	},
 
 
@@ -1848,5 +1848,33 @@ What is very different from today’s tree anatomy is that the center of the woo
 		"hurryCostModifier": 20,
 		"requiredTech": "Thatch Houses"
 	},
+/// TEK ALLIANCES
+{
+	"name": "The Arcane Union",
+	"isNationalWonder": true,
+	"hurryCostModifier": 50,
+	"happiness": 10,
+	"uniques": ["Only available <in cities without a [The Tek Federation]>","Only available <in cities without a [The Cloaked Alliance]>",
+	"Provides [3] [Metal]","Provides [5] [Tek]","Provides [5] [Steel]","Provides [5] [Oil]","Provides [3] [Sushi]"],
+	"requiredTech": "Tek Sword"
+},	
+{
+	"name": "The Tek Federation",
+	"isNationalWonder": true,
+	"hurryCostModifier": 50,
+	"happiness": 10,
+	"uniques": ["Only available <in cities without a [The Arcane Union]>","Only available <in cities without a [The Cloaked Alliance]>",
+"Provides [15] [Tek]"],
+	"requiredTech": "Tek Armor"
+},	
+{
+	"name": "The Cloaked Alliance",
+	"isNationalWonder": true,
+	"hurryCostModifier": 50,
+	"science": 5,
+	"uniques": ["Only available <in cities without a [The Tek Federation]>","Only available <in cities without a [The Arcane Union]>",
+	"Provides [1] [Metal]","Provides [5] [Tek]","Provides [15] [Oil]"],
+	"requiredTech": "Tek Turret"
+},	
         
 ]

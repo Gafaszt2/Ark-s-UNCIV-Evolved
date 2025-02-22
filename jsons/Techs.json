@@ -552,17 +552,20 @@
 				"name": "Tek Armor",
 				"row": 1,
 				"prerequisites": ["Island Bosses"],
+				"uniques": ["Free Great Person","[Land] units gain the [Health I] promotion"],
 				"quote": "It's incredible, really. They simply place an implant harvested from the animal inside an advanced structure called a Revival Platform, then add a what they call ancient amber. The result is a perfect clone of the original creature, right down to its personality. In other words, if it's been tamed then it will remain obedient, and vice versa if it was wild."
 			},
                         {
 				"name": "Tek Sword",
 				"row": 5,
+				"uniques": ["[Land] units gain the [Stamina I] promotion","[Land] units gain the [Stamina II] promotion"],
 				"prerequisites": ["Island Bosses"],
 				"quote": "It's been a while since my last entry, hasn't it? Between all that happened with Rockwell back on the station and the shock of arriving planetside, I've been in a bit of a rut. Even cataloguing the new species I've found has done little to ease my mind."
 			},
                         {
 				"name": "Tek Turret",
 				"row": 8,
+				"uniques": ["[Land] units gain the [Fortitude I] promotion","[Land] units gain the [Fortitude II] promotion"],
 				"prerequisites": ["Island Bosses"],
 				"quote": "It's hard to believe that this is actually Earth, but the proof Santiago provided is undeniable. The lack of night is disconcerting though, unless you really enjoy apocalyptic events. Could the Earth's rotation have slowed down, or worse, stopped entirely?."
 			}
@@ -593,18 +596,21 @@
                          {
 				"name": "Desert Creatures",
 				"row": 1,
+				"uniques": ["Gain [1000] [Gold]"],
 				"prerequisites": ["Scorched Earth Boss"],
 				"quote": "It's incredible, really. They simply place an implant harvested from the animal inside an advanced structure called a Revival Platform, then add a what they call ancient amber. The result is a perfect clone of the original creature, right down to its personality. In other words, if it's been tamed then it will remain obedient, and vice versa if it was wild."
 			},
                         {
 				"name": "Oil Pump",
 				"row": 5,
+				"uniques": ["Gain [1000] [Gold]"],
 				"prerequisites": ["Scorched Earth Boss"],
 				"quote": "It's been a while since my last entry, hasn't it? Between all that happened with Rockwell back on the station and the shock of arriving planetside, I've been in a bit of a rut. Even cataloguing the new species I've found has done little to ease my mind."
 			},
                         {
 				"name": "Wind Turbine",
 				"row": 8,
+				"uniques": ["Gain [1000] [Gold]"],
 				"prerequisites": ["Scorched Earth Boss"],
 				"quote": "It's hard to believe that this is actually Earth, but the proof Santiago provided is undeniable. The lack of night is disconcerting though, unless you really enjoy apocalyptic events. Could the Earth's rotation have slowed down, or worse, stopped entirely?."
 			}
@@ -635,18 +641,21 @@
                          {
 				"name": "Aberration Creatures",
 				"row": 1,
+				"uniques": ["Free Great Person","[6] free [Tek Land Infantry] units appear"],
 				"prerequisites": ["Aberration Boss"],
 				"quote": "It's incredible, really. They simply place an implant harvested from the animal inside an advanced structure called a Revival Platform, then add a what they call ancient amber. The result is a perfect clone of the original creature, right down to its personality. In other words, if it's been tamed then it will remain obedient, and vice versa if it was wild."
 			},
                         {
 				"name": "Hazard Suit",
 				"row": 5,
+				"uniques": ["Free Great Person","[4] free [Tek Assault Infantry] units appear","[1] free [Tek Mounted Infantry] units appear"],
 				"prerequisites": ["Aberration Boss"],
 				"quote": "It's been a while since my last entry, hasn't it? Between all that happened with Rockwell back on the station and the shock of arriving planetside, I've been in a bit of a rut. Even cataloguing the new species I've found has done little to ease my mind."
 			},
                         {
 				"name": "Glider Suit",
 				"row": 8,
+				"uniques": ["Free Great Person","[4] free [High Commander] units appear"],
 				"prerequisites": ["Aberration Boss"],
 				"quote": "It's hard to believe that this is actually Earth, but the proof Santiago provided is undeniable. The lack of night is disconcerting though, unless you really enjoy apocalyptic events. Could the Earth's rotation have slowed down, or worse, stopped entirely?."
 			}
