@@ -7,7 +7,6 @@
 //		"innerColor": [255,255,255]
 	},
 	{
-		//nations
 		"name": "Aberration",
 		"leaderName": "Sir Edmund Rockwell",
 		"adjective": ["Aberrant"],
@@ -208,7 +207,7 @@ Helena’s story is one of growth and transformation, as she evolves from a scie
 		"outerColor": [55, 219, 197],
 		"innerColor": [37, 42, 99],
 		"uniqueName": "The Chosen Survivor to Ascend",
-		"uniques": ["[+1 Production] from every [Ranch]", "[Great Scientist] is earned [+35]% faster"],
+		"uniques": ["[+1 Science] from all [Science] buildings","[Great Scientist] is earned [+35]% faster"],
 		"cities": ["The Highlands","Arat","Prime",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
