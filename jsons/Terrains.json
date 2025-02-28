@@ -716,7 +716,6 @@
             "impassable": true,
 		"overrideStats": false,
 		"turnsInto": "Mountain", 
-		"impassable": true, 
 		"unbuildable": true,
 		"occursOn": ["Plains", "Desert", "Tundra"],
 		"uniques": ["Rare feature"]
@@ -730,15 +729,12 @@
         "impassable": false,
 		"overrideStats": false,
 		"turnsInto": "Plains", 
-		"impassable": true, 
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": ["Rare feature"]
 	},
 {
 		"name": "GrasslandMountain",
 		"type": "TerrainFeature",
-            "impassable": true,
 		"overrideStats": false,
 		"turnsInto": "Mountain", 
 		"impassable": true, 
@@ -749,7 +745,6 @@
 {
 		"name": "PlainsMountain",
 		"type": "TerrainFeature",
-            "impassable": true,
 		"overrideStats": false,
 		"turnsInto": "Mountain", 
 		"impassable": true, 
@@ -761,7 +756,6 @@
 {
 		"name": "DesertMountain",
 		"type": "TerrainFeature",
-            "impassable": true,
 		"overrideStats": false,
 		"turnsInto": "Mountain", 
 		"impassable": true, 
@@ -772,7 +766,6 @@
 {
 		"name": "TundraMountain",
 		"type": "TerrainFeature",
-            "impassable": true,
 		"overrideStats": false,
 		"turnsInto": "Mountain", 
 		"impassable": true, 

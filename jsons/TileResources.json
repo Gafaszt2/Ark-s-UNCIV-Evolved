@@ -22,7 +22,7 @@
 		"name": "Procoptodon",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
-		"culture": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Procoptodon vivencurrus. Standing nearly three meters tall, it is among the largest jumping creatures I've heard of. It is a fairly peaceful herbivore that will immediately flee when aggressed upon."}]
 		"improvement": "Camp",
 		"uniques": ["Generated on every [300] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
@@ -31,7 +31,7 @@
 		"name": "Araneo",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Marsh","Montano"],
-		"happiness": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
 		"improvement": "Camp",
 		"uniques": ["Generated on every [40] tiles <in [Montano] tiles>"]
@@ -40,7 +40,7 @@
 		"name": "Pulminoscorpius",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Montano","Hill"],
-		"gold": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
 		"improvement": "Camp",
 		"uniques": ["Generated on every [30] tiles <in [Montano] tiles>"]
@@ -58,7 +58,7 @@
 		"name": "Giant Piranha",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"faith": 2,
+		"food": 1,
                 "civilopediaText": [{"text": "Megapiranha magnadmorsus is carnivorous fish found fairly commonly in the rivers and ponds of the island. Its bite is incredibly powerful; I've even seen them break through the armored turtles of the island."}] 
 		"improvement": "Lake House",
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
@@ -67,7 +67,7 @@
 		"name": "Giant Leech",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"culture": 2,
+		"science": 1,
                 "civilopediaText": [{"text": "Haementeria laetus, despite its rather terrible nature. The creature has practically no intelligence, and just attaches to any nearby living flesh in an attempt to drain that creature's blood. Removing Haementeria requires precision bladework, or access to an open flame. Both of these can be nearly as dangerous to the host as to the leech itself."}]
 		"improvement": "Lake House",
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
@@ -76,7 +76,7 @@
 		"name": "Giant Otter",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"production": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Lutra Peloso have become exceptionally adept at hunting and foraging. This species of Otter has to be particularly cunning because of its diminutive size, and fierce competition for its preferred food source: fish."}]
 		"improvement": "Lake House",
 		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
@@ -113,7 +113,7 @@
 		"name": "Carnotaurus",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Eldritch","Plains","Grassland","Jungle","Sandstone"],
-		"culture": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
 		"improvement": "Camp",
 		
@@ -133,7 +133,7 @@
 		"name": "Insect Swarm",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Bog","Marsh","Swamp"],
-		"science": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
 		"improvement": "Camp",
 		
@@ -143,7 +143,7 @@
 		"name": "Direbear",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
-		"culture": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
 		"improvement": "Camp",
 		
@@ -153,7 +153,7 @@
 		"name": "Sabertooth",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
-		"production": 1,
+		"food": 1,
                 "civilopediaText": [{"text": "Smilodon brutalis is a solitary hunter, generally found in cold, lightly wooded areas. The Island's mountains are the perfect habitat, as the mammal's fur keeps it safe from the bitter temperature. While its huge fangs are excellent for delivering deathblows, the creature's claws can be just as deadly."}]
 		"improvement": "Camp",
 		
@@ -163,7 +163,7 @@
 		"name": "Mammoth",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
-		"production": 1,
+		"food": 2,
                 "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
 		
