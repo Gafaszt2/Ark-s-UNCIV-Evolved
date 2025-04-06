@@ -54,6 +54,17 @@
         
     },
 	{
+		"name": "Soda Lake",
+		"type": "TerrainFeature",
+		"overrideStats": false,
+		"occursOn": ["Plains","Lakes"],
+		"movementCost": 1,
+		"science": 1,
+		"turnsInto": "Lakes", 
+		"uniques":["Rare feature","[+1] to Fertility for Map Generation"]
+        
+    },
+	{
 		"name": "Tundra",
 		"type": "Land",
 		"food": 1,
@@ -119,6 +130,7 @@
 		"gold": 1,
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
+		            "Becomes [Soda Lake] when adjacent to [River] <with [2]% chance>",
 					"Considered [Food] when determining start locations",
                     "Becomes [Dead Land] when adjacent to [Santiago Grave]",
 					"Considered [Desirable] when determining start locations"]
