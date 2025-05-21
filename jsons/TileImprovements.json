@@ -34,7 +34,7 @@
 		"terrainsCanBeBuiltOn": ["Desert","Oasis","Eldritch","Montano","Aberrant Green Zone"],
 		"food": 2,
         "techRequired": "Stone Irrigation Pipe",
-		"uniques": ["[+1 Gold] for each adjacent [River]","[+1 Gold] for each adjacent [Bonus resource]","[-2 Gold] for each adjacent [Orchard]","Destroyed when pillaged"],
+		"uniques": ["Costs [1] [Gold] per turn","[+1 Gold] for each adjacent [River]","[+1 Gold] for each adjacent [Bonus resource]","[-2 Gold] for each adjacent [Orchard]","Destroyed when pillaged"],
         "production": 2,
 		"gold": 2,
 		"turnsToBuild": 4,
@@ -45,7 +45,7 @@
 		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Aberrant Blue Zone"],
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
-		"uniques": ["Destroyed when pillaged","[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+2 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
+		"uniques": ["Costs [3] [Gold] per turn","Destroyed when pillaged","[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+1 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
         "techRequired": "Recipes",
 	},
 	{
@@ -53,7 +53,7 @@
 		"terrainsCanBeBuiltOn": ["Montano","Plains","Aberrant Green Zone"],
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
-		"uniques": ["Destroyed when pillaged","[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+2 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
+		"uniques": ["Costs [3] [Gold] per turn","Destroyed when pillaged","[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+1 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
         "techRequired": "Recipes",
 	},
         {

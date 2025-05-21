@@ -10,14 +10,14 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+2 Culture] [in capital]",
+            "[+4 Culture] [in capital]",
             "[-10]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
             {
                 "name": "Natural Life",
                 "uniques": [
-                    "[+1 Culture] from all [Food] buildings"
+                    "[+15]% Production when constructing [Food] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -33,7 +33,7 @@
             {
                 "name": "Exploration",
                 "uniques": [
-                    "[+2 Food] from every [Jungle]","[+2 Food] from every [Pines]","[+2 Food] from every [Forest]"
+                    "[+1 Food] from every [Jungle]","[+1 Food] from every [Pines]","[+1 Food] from every [Forest]"
                 ],
                 "row": 1,
                 "column": 5
@@ -57,7 +57,7 @@
             {
                 "name": "Primitivism Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Camp]","[+1 Culture] from every [Camp]","[+15]% Production when constructing [All] buildings [in all cities]"]
+                    "[+1 Production] from every [Camp]","[+15]% Production when constructing [All] buildings [in all cities]"]
             }
         ]
     },
@@ -71,7 +71,7 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Polytheism]>",
             "[+2 Faith] [in capital]","[+1 Culture] [in capital]",
             "[+1 Faith] from [Mine] tiles [in all cities] <during the [Ancient era]>"
         ],
@@ -117,7 +117,7 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Monotheism]>",
             "[+1 Culture, +1 Faith] from all [Faith] buildings <during the [Ancient era]>"
         ],
         "policies": [
@@ -169,7 +169,7 @@
             {
                 "name": "Big Families",
                 "uniques": [
-                    "[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+                    "[+20]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
                 "column": 1
@@ -178,7 +178,7 @@
                 "name": "Desert Caravans",
                 "uniques": [
                     "[+1 Production] from every [Desert]","[+1 Food] from every [Genesis Soil]","[+1 Food] from every [Eldritch]","[+1 Food] from every [Dead Land]",
-"[+1 Food] from every [Montano]","[+1 Food] from every [Wonderland]","[+1 Food] from every [Fungi]","[+1 Food] from every [Faughen]",
+"[+1 Food] from every [Montano]","[+1 Food] from every [Wonderland]","[+1 Food] from every [Fungi]","[+1 Food] from every [Faughen]"
 
                 ],
                 "row": 1,
@@ -187,7 +187,7 @@
             {
                 "name": "Exchange",
                 "uniques": [
-                    "[+2 Food] from every [Redwoods]","[+1 Food] from every [Redwoods Plains]","[+1 Food] from every [Pines]",
+                    "[+1 Food] from every [Redwoods]","[+1 Food] from every [Redwoods Plains]","[+1 Food] from every [Pines]"
                 ],
                 "row": 1,
                 "column": 5
@@ -195,7 +195,7 @@
             {
                 "name": "Mountain Faith",
                 "uniques": [
-                    "[+1 Culture] from every [Mountain]","[+2 Faith] from every [Volcano]"
+                    "[+1 Culture] from every [Mountain]","[+1 Faith] from every [Volcano]"
                 ],
                 "row": 2,
                 "column": 5
@@ -203,7 +203,7 @@
             {
                 "name": "Tribes",
                 "uniques": [
-                    "[+2 Culture] from every [Tumash Temple]",
+                    "[+1 Culture] from every [Tumash Temple]"
                 ],
                 "row": 2,
                 "column": 1
@@ -211,7 +211,7 @@
             {
                 "name": "Communalism Complete",
                 "uniques": [
-                    "[+1 Production] from every [Camp]","[+1 Production] from every [Moai]","[+1 Production] from every [Carpentry Area]"]
+                    "Free [Settler] appears","[+1 Production] from every [Moai]","[+1 Production] from every [Carpentry Area]"]
             }
         ]
     },
@@ -226,13 +226,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Food] from every [Mountain]","[+1 Faith] from every [Mountain]",
+            "[+1 Food] from every [Mountain]","[+1 Faith] from every [Mountain]"
         ],
         "policies": [
             {
                 "name": "Mythology",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-60]%",
+                    "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
                 "row": 1,
                 "column": 2
@@ -240,7 +240,7 @@
             {
                 "name": "Recipes",
                 "uniques": [
-                    "[+2 Faith] from every [Ragnarok Temple]","[+1 Science] from every [Ragnarok Temple]",
+                    "[+1 Science] from every [Ragnarok Temple]"
                 ],
                 "row": 1,
                 "column": 4
@@ -248,7 +248,7 @@
             {
                 "name": "Adoration",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] units [-40]%"
+                    "[Gold] cost of purchasing [All] units [-50]%"
                 ],
                 "row": 2,
                 "column": 3
@@ -256,7 +256,7 @@
             {
                 "name": "Mysticism Complete",
                 "uniques": [
-                    "[+1 Faith] per [3] social policies adopted" ]
+                    "[+1 Happiness] per [4] social policies adopted"]
             }
         ]
     },
@@ -270,14 +270,14 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
-            "[-10]% Culture cost of natural border growth [in all cities]","Provides [6] [Relic]",
+        "uniques": ["Only available <after adopting [Mysticism]>",
+            "[-10]% Culture cost of natural border growth [in all cities]","Provides [6] [Relic]"
         ],
         "policies": [
             {
                 "name": "Crusaders",
                 "uniques": [
-                    "[Faith] cost of purchasing [High Commander] units [-60]%",
+                    "[Faith] cost of purchasing [High Commander] units [-35]%"
                 ],
                 "row": 1,
                 "column": 2
@@ -322,7 +322,7 @@
             {
                 "name": "Industrialization",
                 "uniques": [
-                    "[+3 Production] [in all cities]",
+                    "[+3 Production] [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -330,7 +330,7 @@
             {
                 "name": "Financial Regulation",
                 "uniques": [
-                    "[+1 Gold, +1 Production] from every specialist [in all cities]",
+                    "[+1 Gold, +1 Production] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -338,7 +338,7 @@
             {
                 "name": "United Nations",
                 "uniques": [
-                    "[+2 Science, +2 Culture] from every specialist [in all cities]"
+                    "[+1 Science, +1 Culture] from every specialist [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -383,7 +383,7 @@
             {
                 "name": "Ways of Spiritual Learning",
                 "uniques": [
-                    "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>",
+                    "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>"
                 ],
                 "row": 2,
                 "column": 3
@@ -428,7 +428,7 @@
             {
                 "name": "War Culture",
                 "uniques": [
-                    "[+60]% XP gained from combat",
+                    "[+60]% XP gained from combat"
                 ],
                 "row": 2,
                 "column": 3
@@ -473,7 +473,7 @@
             {
                 "name": "The Coastal Cities",
                 "uniques": [
-                    "[+1 Gold] [in capital]","Gain a free [Coast Event] [in capital]",
+                    "[+1 Gold] [in capital]","Gain a free [Coast Event] [in capital]"
                 ],
                 "row": 2,
                 "column": 2
@@ -481,7 +481,7 @@
             {
                 "name": "Bread and Circus",
                 "uniques": [
-                    "[+3 Gold] [in capital]","[+2 Culture] [in capital]","[+2 Food] [in capital]","Gain a free [Breadeun Event] [in capital]",
+                    "[+3 Gold] [in capital]","[+2 Culture] [in capital]","[+2 Food] [in capital]","Gain a free [Breadeun Event] [in capital]"
                 ],
                 "row": 2,
                 "column": 4

@@ -974,7 +974,7 @@
                 "requiredResource": "Scales",
 		"cost": 70,
 		"requiredTech": "Slingshot",
-                "uniques": ["[+75]% Strength <vs [Fantasy] units>","[+355]% Strength <vs [Reaper] units>"],
+                "uniques": ["[+75]% Strength <vs [Fantasy] units>","[+355]% Strength <vs [Reaper] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1016,7 +1016,7 @@
                 "promotions": ["Pliocene"],
 		"requiredTech": "Stone Irrigation Pipe",
 		"upgradesTo": "Portugalophis",
-		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>"],
+		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
 		"attackSound": "ravager"

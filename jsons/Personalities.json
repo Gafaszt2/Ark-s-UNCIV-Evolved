@@ -2,14 +2,51 @@
 	{
 		"name": "Helena Walker",
 		"preferredVictoryType": "Ascension",
-		"culture": 5,
-		"faith": 3,
-		"food": 7,
-		"gold": 3,
-		"happiness": 5,
 		"production": 3,
-		"science": 8,
-		"military": 3,
+		"food": 10,
+		"gold": 3,
+		"science": 10,
+		"culture": 10,
+		"happiness": 10,
+		"faith": 1,
+		"military": 1,
+		"aggressive": 1,
+		"declareWar": 1,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 1,
+		"priorities": {
+			"Primitivism": 30,
+			"Communalism": 10,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Helena Walker, the survivor chosen to ascend."}
+		]
+	},
+	{
+		"name": "Rockwell",
+		"preferredVictoryType": "Domination",
+		"production": 10,
+		"food": 1,
+		"gold": 10,
+		"science": 1,
+		"culture": 1,
+		"happiness": 1,
+		"faith": 10,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 10,
 		"priorities": {
 			"Primitivism": 10,
 			"Communalism": 30,
@@ -21,7 +58,255 @@
 		},
 		"warMongering": 3,
 		"civilopediaText": [
-			{"text": "Helena Walker, the survivor chosen to ascend."}
+			{"text": "The Monster."}
+		]
+	},
+	{
+		"name": "Raia",
+		"preferredVictoryType": "Ascension",
+		"production": 1,
+		"food": 1,
+		"gold": 10,
+		"science": 7,
+		"culture": 10,
+		"happiness": 1,
+		"faith": 10,
+		"military": 1,
+		"aggressive": 1,
+		"declareWar": 1,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "The Woman of the Desert."}
+		]
+	},
+	{
+		"name": "Nerva",
+		"preferredVictoryType": "Domination",
+		"production": 5,
+		"food": 5,
+		"gold": 7,
+		"science": 7,
+		"culture": 3,
+		"happiness": 3,
+		"faith": 3,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 3,
+		"diplomacy": 3,
+		"loyal": 3,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "The General."}
+		]
+	},
+	{
+		"name": "Ingalo",
+		"preferredVictoryType": "Domination",
+		"production": 10,
+		"food": 10,
+		"gold": 10,
+		"science": 2,
+		"culture": 2,
+		"happiness": 2,
+		"faith": 2,
+		"military": 10,
+		"aggressive": 1,
+		"declareWar": 1,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 7,
+		"expansion": 5,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "The Tribal Man."}
+		]
+	},
+	{
+		"name": "Aleksander",
+		"preferredVictoryType": "Domination",
+		"production": 10,
+		"food": 2,
+		"gold": 2,
+		"science": 10,
+		"culture": 10,
+		"happiness": 10,
+		"faith": 2,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 6,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "man of the north."}
+		]
+	},
+	{
+		"name": "Erika",
+		"preferredVictoryType": "Domination",
+		"production": 10,
+		"food": 10,
+		"gold": 1,
+		"science": 10,
+		"culture": 1,
+		"happiness": 1,
+		"faith": 1,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "woman of the north."}
+		]
+	},
+	{
+		"name": "Santiago",
+		"preferredVictoryType": "Ascension",
+		"production": 5,
+		"food": 5,
+		"gold": 5,
+		"science": 5,
+		"culture": 10,
+		"happiness": 5,
+		"faith": 5,
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 5,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Vin Diesel."}
+		]
+	},
+	{
+		"name": "Amanda",
+		"preferredVictoryType": "Ascension",
+		"production": 1,
+		"food": 10,
+		"gold": 10,
+		"science": 10,
+		"culture": 10,
+		"happiness": 1,
+		"faith": 1,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 10,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Wife Material."}
+		]
+	},
+	{
+		"name": "Joana",
+		"preferredVictoryType": "Ascension",
+		"production": 1,
+		"food": 1,
+		"gold": 1,
+		"science": 10,
+		"culture": 1,
+		"happiness": 1,
+		"faith": 1,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 1,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 10,
+			"Communalism": 30,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Wife Material 2."}
 		]
 	}
 ]

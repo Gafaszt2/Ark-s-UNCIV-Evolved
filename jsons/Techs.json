@@ -325,6 +325,7 @@
                         {
 				"name": "Reservoir",
 				"row": 5,
+				"uniques":["Enables conversion of city production to [Science]","Enables conversion of city production to [Faith]","Enables conversion of city production to [Gold]"],
 				"prerequisites": ["Tranq Arrow"],
 				"quote": "Ark Civilizations did develop Reservoirs to maintain their resources on average conditions."
 			},
@@ -395,6 +396,7 @@
 			{
 				"name": "Fabricator",
 				"row": 6,
+				"uniques":["Enables conversion of city production to [Culture]"],
 				"prerequisites": ["Greenhouse", "Metal House", "Sword", "Metal Tap"],
 				"quote": "A huge machine powered by gasoil"
 			}

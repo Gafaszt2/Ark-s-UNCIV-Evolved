@@ -2,7 +2,7 @@
     {
         "name": "Corrupted Faith",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Ranch] <starting from the [Smithy era]>"]
+        "uniques": ["[+1 Culture] from every [Ark Monument]"]
     },
     {
         "name": "Orange Tree",
@@ -115,7 +115,22 @@
         "name": "Zealot",
         "type": "Follower",
         "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
-    }
+    },
+    {
+        "name": "Marine Zealot",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
+    },
+    {
+        "name": "Customs",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Farm]"]
+    },
+    {
+        "name": "Family Values",
+        "type": "Follower",
+        "uniques": ["[+2 Food] from every [Farm]"]
+    },
     {
         "name": "Creation",
         "type": "Follower",

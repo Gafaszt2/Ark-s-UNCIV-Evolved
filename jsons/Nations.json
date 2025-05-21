@@ -9,6 +9,7 @@
 	{
 		"name": "Aberration",
 		"leaderName": "Sir Edmund Rockwell",
+		"personality": "Rockwell",
 		"adjective": ["Aberrant"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Ascension",
@@ -43,6 +44,7 @@ Now, Rockwell reigns as a twisted overlord in the depths of the Aberration ARK, 
         {
 		"name": "Rockwell Gardens",
 		"leaderName": "Corrupted Abomination",
+		"personality": "Rockwell",
 		"adjective": ["Aberrants"],
 		"startBias": ["Forest"],
 		"preferredVictoryType":"Domination",
@@ -79,6 +81,7 @@ Enhanced with Element, these once-mighty predators now possess unparalleled stre
         {
 		"name": "Scorched Earth",
 		"leaderName": "Raia",
+		"personality": "Raia",
 		"adjective": ["Scorched Earth"],
 		"startBias": ["Desert"],
 		"preferredVictoryType":"Domination",
@@ -114,6 +117,7 @@ Raia’s journey is one of resilience, faith, and unwavering commitment to her p
         },
         {
 		"name": "The Center",
+		"personality": "Nerva",
 		"leaderName": "Galius Nerva",
 		"adjective": ["The Center"],
 		"startBias": ["Beach"],
@@ -150,6 +154,7 @@ Despite his harsh methods, Nerva was a complex character. He was driven by a dee
 	},
         {
 		"name": "Lost Island",
+		"personality": "Ingalo",
 		"leaderName": "Ingalo Enkulu",
 		"adjective": ["Lost Islanders"],
 		"startBias": ["Coast"],
@@ -183,6 +188,7 @@ Despite his harsh methods, Nerva was a complex character. He was driven by a dee
 		"leaderName": "Helena Walker",
 		"adjective": ["The Island"],
 		"startBias": ["Beach"],
+		"personality": "Helena Walker",
 		"preferredVictoryType":"Ascension",
 
 		"startIntroPart1": "Helena Walker is an Australian biologist and paleontologist who finds herself mysteriously transported to the ARK, a strange and dangerous world filled with prehistoric creatures and other survivors. Initially, she is bewildered and struggles to understand her new environment. However, her scientific curiosity and determination drive her to explore and document the various creatures she encounters.
@@ -217,6 +223,7 @@ Helena’s story is one of growth and transformation, as she evolves from a scie
     {
 		"name": "Ragnarok",
 		"leaderName": "Aleksander",
+		"personality": "Aleksander",
 		"adjective": ["Ragnarok People"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Domination",
@@ -248,6 +255,7 @@ Helena’s story is one of growth and transformation, as she evolves from a scie
     {
 		"name": "Fjordur",
 		"leaderName": "Erika",
+		"personality": "Erika",
 		"adjective": ["Fjords"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType":"Ascension",
@@ -277,6 +285,7 @@ Helena’s story is one of growth and transformation, as she evolves from a scie
     },
      {
 		"name": "Extinction",
+        "personality": "Santiago",
 		"leaderName": "Santiago",
 		"adjective": ["Extinction"],
 		"startBias": ["Grassland"],
@@ -311,6 +320,7 @@ Throughout his journey, Santiago faces numerous challenges and battles, both aga
     },
     {
 		"name": "Valguero",
+		"personality": "Amanda",
 		"leaderName": "Amanda",
 		"adjective": ["Valguero"],
 		"startBias": ["Hill"],
@@ -342,6 +352,7 @@ Throughout his journey, Santiago faces numerous challenges and battles, both aga
     {
 		"name": "Crystal Isles",
 		"leaderName": "Joana",
+		"personality": "Joana",
 		"adjective": ["Crystal Isles"],
 		"startBias": ["Beach"],
 		"preferredVictoryType":"Domination",
@@ -372,6 +383,7 @@ Throughout his journey, Santiago faces numerous challenges and battles, both aga
     {
 		"name": "Pure Genesis",
 		"leaderName": "HLNA",
+		"personality": "Helena Walker",
 		"adjective": ["Genesis"],
 		"startBias": ["Plains"],
 		"preferredVictoryType":"Domination",

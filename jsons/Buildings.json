@@ -59,6 +59,38 @@
 		"uniques": ["Must be next to [Desert]"],
 		"requiredTech": "Campfire"
 	},
+	///// CUSTOM MAP BUILDINGS
+    {
+		"name": "Ceramics Market",
+		"gold": 2,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Must be next to [Sandstone]","Only available <after discovering [Torch]>"]
+	},
+	{
+		"name": "Karkinos Trap",
+		"food": 2,
+		"production": 2,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Must be next to [Aberrant Blue Zone]","Only available <after discovering [Torch]>"]
+	},
+	{
+		"name": "Ravager Trap",
+		"food": 3,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Provides [1] [Ravager]","Must be next to [Aberrant Green Zone]","Only available <after discovering [Torch]>"]
+	},
+	{
+		"name": "Reaper Queen Hall",
+		"science": 2,
+		"food": 2,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Must be next to [Aberrant Pink Zone]","Only available <after discovering [Torch]>"]
+	},
+	/////
 	{
 		"name": "Hall of Fame",
 		"cost": 1000,
@@ -124,6 +156,7 @@
         {
 		"name": "Courthouse",
 		"maintenance": 8,
+		"happiness":1,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
@@ -137,10 +170,10 @@
 		"uniques": ["[+1 Food] from [Megaloceros] tiles [in this city]",
 			"[+1 Food] from [Phiomia] tiles [in this city]",
 			"[+1 Food] from [Ovis] tiles [in this city]",
-                        "[+1 Culture] from [Paraceratherium] tiles [in this city]"
-                        "[+1 Culture] from [Morellatops] tiles [in this city]"
+                        "[+1 Culture] from [Paraceratherium] tiles [in this city]",
+                        "[+1 Culture] from [Morellatops] tiles [in this city]",
                         "[+1 Science] from [Dodo] tiles [in this city]",
-                        "[+1 Faith] from [Stego] tiles [in this city]"
+                        "[+1 Faith] from [Stego] tiles [in this city]",
                         "[+1 Production] from [Dimorphodon] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
@@ -1622,6 +1655,18 @@
 		"uniques": ["Provides [1] [Oil]"],
                 "requiredResource": "Oily Rock"
 		"requiredTech": "Smithy"
+	},
+	{
+		"name": "Theatre",
+		"happiness":3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Balista"
+	},
+	{
+		"name": "Mega Theatre",
+		"happiness":7,
+		"hurryCostModifier": 25,
+		"requiredTech": "Island Bosses"
 	},
         {
 		"name": "Corrupted Nodule Conversor",
