@@ -814,6 +814,22 @@
                 "obsoleteTech": "Assault Riffle",
 		"attackSound": "theri"
 	},
+	{
+		"name": "Maiasaura Rider",
+                "replaces": "Bronto Rider",
+		"uniqueTo": "Wisdomenland",
+		"unitType": "Ornithopoda",
+		"movement": 2,
+		"strength": 60,
+		"cost": 110,
+		"requiredTech": "Tranq Arrow",
+		
+		"hurryCostModifier": 20,
+                "upgradesTo": "Theri Rider",
+                "promotions": ["Good Mother","Cretaceous"],
+                "obsoleteTech": "Metal Hatchet",
+		"attackSound": "dinoherb"
+	},
         {
 		"name": "Tyrannotitan Rider",
 		"unitType": "Theropoda",
@@ -823,7 +839,7 @@
 		"requiredTech": "Assault Riffle",
                 "requiredResource": "Steel",
                 "promotions": ["Strong Genetics","Chivalry","Cretaceous"],
-		"uniques": ["[+10]% Strength <vs [Wounted] units>","[+33]% Strength <vs [Fantasy] units>","Never appears as a Barbarian unit"],
+		"uniques": ["[+10]% Strength <vs [Wounded] units>","[+33]% Strength <vs [Fantasy] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
@@ -1150,7 +1166,7 @@
 		"attackSound": "frog"
 	},
         {
-		"name": "Baryonix Rider",
+		"name": "Baryonyx Rider",
 		"unitType": "Spinosauridae",
 		"movement": 2,
 		"strength": 26,
@@ -1447,15 +1463,15 @@
         },
         {
 		"name": "Camuflage Survivor",
-		"unitType": "Sword",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 30,
-        "rangedStrength": 25,
+        "rangedStrength": 35,
 		"cost": 150,
 		"attackSound": "shot",
         "obsoleteTech": "Flak Armor",
         "requiredTech": "Polymer",
-        "uniques": ["[+20]% Strength <vs [Theropoda] units>"],
+        "uniques": ["[+20]% Strength <vs [Theropoda] units>"]
         },
         {
 		"name": "Grenadier Survivor",

@@ -329,8 +329,8 @@
 {
 		"name": "Eggs Corral",
 		"maintenance": 1,
-                "requiredNearbyImprovedResources": ["Dodo", "Itchyornis"],
-                "uniques": ["[+1 Food] from [Dodo] tiles [in this city]","[+1 Food] from [Itchyornis] tiles [in this city]"],
+                "requiredNearbyImprovedResources": ["Dodo", "Ichtyornis"],
+                "uniques": ["[+1 Food] from [Dodo] tiles [in this city]","[+1 Food] from [Ichtyornis] tiles [in this city]"],
 		"hurryCostModifier": 20,
                 "requiredBuilding": "Farm",
 		"requiredTech": "Cementing Paste"
@@ -558,7 +558,7 @@
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Beelzebufo","Giant Bee","Gigantopithecus","Hatzegopteryx","Meganeura"],
 		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
-                            "[+1 Faith] from [Hatztegopteryx] tiles [in this city]",
+                            "[+1 Faith] from [Hatzegopteryx] tiles [in this city]",
 			"[+1 Culture] from [Meganeura] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
@@ -592,7 +592,7 @@
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Giant Leech", "Giant Otter", "Giant Piranha"],
 		"uniques": ["[+1 Food] from [Giant Leech] tiles [in this city]",
-			"[+1 Food] from [Giant Otther] tiles [in this city]",
+			"[+1 Food] from [Giant Otter] tiles [in this city]",
                         "[+1 Food] from [Giant Piranha] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
@@ -1290,11 +1290,10 @@
 	},
         {
 		"name": "Fruit Market",
-                "gold": 3
-                "food": 1
-                "uniques": ["[+1 Food] from [Lemon] tiles [in this city]", "[+1 Food] from [Amarberry] tiles [in this city]"],
+        "gold": 3,
+        "food": 2,
 		"hurryCostModifier": 70,
-                "requiredBuilding": "Market"
+                "requiredBuilding": "Market",
                 "requiredTech": "Refining Forge"
 	},
         {

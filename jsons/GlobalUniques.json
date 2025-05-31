@@ -18,7 +18,6 @@
         "Instantly gain [1] [Alpha Points] <upon defeating a [Alpha Creature] unit>",
         "Instantly gain [5] [Gamma Points] <upon entering a Golden Age>",
         "Instantly gain [10] [Beta Points] <upon entering a Golden Age>",
-        "May buy [Great Composer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
                 "Provides [2] [Fame] <upon declaring war with a major Civilization> <for [100000] turns>",
                 "Provides [1] [Fame] <upon declaring friendship> <for [100000] turns>",
                 "Provides [3] [Fame] <upon entering a Golden Age> <for [100000] turns>",
@@ -41,8 +40,6 @@
         "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Leather era]>",
         "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Leather era]>",
         "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([20]) <starting from the [Leather era]>",
-        "May buy [Inquisitor] units for [250] [Faith] [in all cities] at an increasing price ([10]) <starting from the [Leather era]>",
-        "May buy [Missionary] units for [150] [Faith] [in all cities] at an increasing price ([10]) <starting from the [Leather era]>",
         "May buy [Servant] units for [100] [Culture] [in all cities] at an increasing price ([100]) <starting from the [Smithy era]>",
         "[-50]% Unhappiness from [Population] [in all cities]",
         "[-35]% Strength for cities <in cities without a [Wooden Fort]> <when attacking>",
@@ -114,9 +111,13 @@
 
     
            
-        "[-25]% [Science] [in pupetted cities]",
-        "[-25]% [Culture] [in pupetted cities]",
-        "[+20]% [Production] [in cities connected via railroad]",
+        "[-25]% [Science] [in puppeted cities]",
+        "[-25]% [Culture] [in puppeted cities]",
+        "[+5]% [Food] [in all cities connected to capital]",
+        "[+5]% [Gold] [in all cities connected to capital]",
+        "[+5]% [Gold] [in foreign cities]",
+        "[+5]% [Culture] [in all cities with a world wonder]",
+        "[+5]% [Food] [in all coastal cities]",
 
 "[-1 Gold] from every [River]"
     ]

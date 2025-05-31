@@ -769,7 +769,7 @@
 		"terrainsCanBeFoundOn": ["Montano","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
-		"uniques": ["Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Motano] tiles>"]
+		"uniques": ["Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Montano] tiles>"]
 	},
                 {
 		"name": "Ravager",

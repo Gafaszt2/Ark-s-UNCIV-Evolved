@@ -6,77 +6,77 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Aberrant Fort
   rotate: false
-  xy: 1852, 1712
+  xy: 1852, 1526
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aberration DLC
   rotate: false
-  xy: 1852, 1172
+  xy: 1852, 986
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aberration Tools
   rotate: false
-  xy: 1852, 1064
+  xy: 1852, 878
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Angkor Wat
   rotate: false
-  xy: 1841, 416
+  xy: 112, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ark Monument
   rotate: false
-  xy: 1084, 364
+  xy: 1624, 356
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Arkadia
   rotate: false
-  xy: 1516, 364
+  xy: 1732, 338
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Assault Teaching
   rotate: false
-  xy: 112, 256
+  xy: 328, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Balista Trap
   rotate: false
-  xy: 868, 256
+  xy: 1084, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Berry Orchid
   rotate: false
-  xy: 652, 148
+  xy: 868, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Berry Stew
   rotate: false
-  xy: 760, 148
+  xy: 976, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Big Ben
   rotate: false
-  xy: 976, 148
+  xy: 1516, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -90,21 +90,21 @@ BuildingIcons/Blacksmith
   index: -1
 BuildingIcons/Bookshelf
   rotate: false
-  xy: 652, 40
+  xy: 868, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Broodmother Fight
   rotate: false
-  xy: 1516, 40
+  xy: 1732, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Buddhas of Bamiyan
   rotate: false
-  xy: 1624, 32
+  xy: 1840, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -116,9 +116,51 @@ BuildingIcons/Burj Khalifa
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+TechIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Circle
+  rotate: false
+  xy: 1852, 1850
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
 CityStateIcons/Aberrant
   rotate: false
-  xy: 1852, 1820
+  xy: 1852, 1634
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -132,56 +174,56 @@ ImprovementIcons/Ancient ruins
   index: -1
 ImprovementIcons/Barbarian encampment
   rotate: false
-  xy: 1516, 256
+  xy: 1732, 230
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Aleksander
   rotate: false
-  xy: 1725, 680
+  xy: 1941, 662
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Alessandra
   rotate: false
-  xy: 1833, 632
+  xy: 1725, 572
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Alhemin
   rotate: false
-  xy: 1941, 632
+  xy: 1833, 554
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Amalia
   rotate: false
-  xy: 652, 472
+  xy: 868, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Amanda
   rotate: false
-  xy: 760, 472
+  xy: 976, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Amelia
   rotate: false
-  xy: 1084, 472
+  xy: 1625, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Amina
   rotate: false
-  xy: 1517, 472
+  xy: 1733, 446
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -195,7 +237,7 @@ LeaderIcons/Anesthesia
   index: -1
 LeaderIcons/Anezka
   rotate: false
-  xy: 1733, 416
+  xy: 4, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -216,7 +258,7 @@ LeaderIcons/Buglord
   index: -1
 NationIcons/Aberration
   rotate: false
-  xy: 1852, 1496
+  xy: 1852, 1310
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -230,119 +272,119 @@ NationIcons/Spectator
   index: -1
 ReligionIcons/Arkhism
   rotate: false
-  xy: 1624, 356
+  xy: 1840, 338
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Absorbent Substrate
   rotate: false
-  xy: 1852, 956
+  xy: 1852, 770
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Allosaurus
   rotate: false
-  xy: 1941, 524
+  xy: 112, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Alpha Essence
   rotate: false
-  xy: 220, 472
+  xy: 436, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Alpha Points
   rotate: false
-  xy: 328, 472
+  xy: 544, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Amargasaur
   rotate: false
-  xy: 868, 472
+  xy: 1084, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Aquatic Mushroom
   rotate: false
-  xy: 328, 364
+  xy: 544, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Araneo
   rotate: false
-  xy: 436, 364
+  xy: 652, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Argentavis Talon
   rotate: false
-  xy: 976, 364
+  xy: 1516, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Astrocetus
   rotate: false
-  xy: 220, 256
+  xy: 436, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Astrodelphis
   rotate: false
-  xy: 328, 256
+  xy: 544, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Basilisk
   rotate: false
-  xy: 1732, 200
+  xy: 4, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Basilosaurus
   rotate: false
-  xy: 112, 148
+  xy: 328, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Beelzebufo
   rotate: false
-  xy: 328, 148
+  xy: 544, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Beer
   rotate: false
-  xy: 544, 148
+  xy: 760, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Beta Points
   rotate: false
-  xy: 868, 148
+  xy: 1084, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Biotoxin
   rotate: false
-  xy: 1516, 148
+  xy: 1732, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -356,77 +398,77 @@ ResourceIcons/Black Pearl
   index: -1
 ResourceIcons/Blue Gem
   rotate: false
-  xy: 1840, 92
+  xy: 112, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Bones
   rotate: false
-  xy: 544, 40
+  xy: 760, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Aberration Boss
   rotate: false
-  xy: 1852, 1388
+  xy: 1852, 1202
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Aberration Creatures
   rotate: false
-  xy: 1852, 1280
+  xy: 1852, 1094
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Agriculture
   rotate: false
-  xy: 1852, 848
+  xy: 1725, 680
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Assault Riffle
   rotate: false
-  xy: 4, 256
+  xy: 220, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Auto Torret
   rotate: false
-  xy: 544, 256
+  xy: 760, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Balista
   rotate: false
-  xy: 760, 256
+  xy: 976, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bolas
   rotate: false
-  xy: 112, 40
+  xy: 328, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bookshelf
   rotate: false
-  xy: 760, 40
+  xy: 976, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bow and Arrow
   rotate: false
-  xy: 976, 40
+  xy: 1516, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -440,154 +482,154 @@ TileSets/FantasyHex/CrosshatchHexagon
   index: -1
 UnitIcons/4RK MHJ
   rotate: false
-  xy: 1852, 1928
+  xy: 1852, 1742
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Armored Vehicle
   rotate: false
-  xy: 1852, 1928
+  xy: 1852, 1742
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Aberrant Spino
   rotate: false
-  xy: 1852, 1604
+  xy: 1852, 1418
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ailurarctos Rider
   rotate: false
-  xy: 1852, 740
+  xy: 1833, 662
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Allo Rider
   rotate: false
-  xy: 1725, 572
+  xy: 1941, 554
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Theropoda
   rotate: false
-  xy: 1725, 572
+  xy: 1941, 554
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alloraptor
   rotate: false
-  xy: 1833, 524
+  xy: 4, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alpha Carno
   rotate: false
-  xy: 4, 472
+  xy: 220, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Carno Rider
   rotate: false
-  xy: 4, 472
+  xy: 220, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alpha Raptor
   rotate: false
-  xy: 436, 472
+  xy: 652, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Raptor
   rotate: false
-  xy: 436, 472
+  xy: 652, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Raptor Rider
   rotate: false
-  xy: 436, 472
+  xy: 652, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alpha Rex
   rotate: false
-  xy: 544, 472
+  xy: 760, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Rex Rider
   rotate: false
-  xy: 544, 472
+  xy: 760, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Amargasaurus
   rotate: false
-  xy: 976, 472
+  xy: 1517, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ammonite
   rotate: false
-  xy: 1625, 464
+  xy: 1841, 446
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Anglerfish
   rotate: false
-  xy: 4, 364
+  xy: 220, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ankylosaurus Rider
   rotate: false
-  xy: 112, 364
+  xy: 328, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Anomalocaris Rider
   rotate: false
-  xy: 220, 364
+  xy: 436, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archaeoindris
   rotate: false
-  xy: 544, 364
+  xy: 760, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archelon Rider
   rotate: false
-  xy: 652, 364
+  xy: 868, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Argentavis Rider
   rotate: false
-  xy: 868, 364
+  xy: 1084, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -608,49 +650,49 @@ UnitIcons/Arsinoitherium
   index: -1
 UnitIcons/Ascended Gunner
   rotate: false
-  xy: 1732, 308
+  xy: 4, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ascended HomoDeus
   rotate: false
-  xy: 1840, 308
+  xy: 112, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Australopithecus
   rotate: false
-  xy: 436, 256
+  xy: 652, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bajadasaurus Rider
   rotate: false
-  xy: 652, 256
+  xy: 868, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bamboo Warrior
   rotate: false
-  xy: 976, 256
+  xy: 1516, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian
   rotate: false
-  xy: 1084, 256
+  xy: 1624, 248
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Barbaridactylus
   rotate: false
-  xy: 1624, 248
+  xy: 1840, 230
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -671,42 +713,42 @@ UnitIcons/Basil
   index: -1
 UnitIcons/Basilo Rider
   rotate: false
-  xy: 1840, 200
+  xy: 112, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Cetaceous
   rotate: false
-  xy: 1840, 200
+  xy: 112, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Basiloceras Rider
   rotate: false
-  xy: 4, 148
+  xy: 220, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bazooka
   rotate: false
-  xy: 220, 148
+  xy: 436, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Beelzebufo Rider
   rotate: false
-  xy: 436, 148
+  xy: 652, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bison Latifrons
   rotate: false
-  xy: 1624, 140
+  xy: 1840, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -720,42 +762,42 @@ UnitIcons/Blood Mistress
   index: -1
 UnitIcons/Blood Wyvern
   rotate: false
-  xy: 1732, 92
+  xy: 4, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bob
   rotate: false
-  xy: 4, 40
+  xy: 220, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Civilian
   rotate: false
-  xy: 4, 40
+  xy: 220, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bone Car
   rotate: false
-  xy: 436, 40
+  xy: 652, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bronto Rider
   rotate: false
-  xy: 1084, 40
+  xy: 1624, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Sauropodomorpha
   rotate: false
-  xy: 1084, 40
+  xy: 1624, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -769,14 +811,14 @@ UnitIcons/Bulbdog
   index: -1
 UnitTypeIcons/Alpha Creature
   rotate: false
-  xy: 112, 472
+  xy: 328, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Barbarians
   rotate: false
-  xy: 112, 472
+  xy: 328, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -797,14 +839,14 @@ UnitIcons/Arizonasaurus
   index: -1
 UnitTypeIcons/Archery
   rotate: false
-  xy: 760, 364
+  xy: 976, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Composite Bow Survivor
   rotate: false
-  xy: 760, 364
+  xy: 976, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -818,42 +860,42 @@ UnitTypeIcons/Armored
   index: -1
 UnitTypeIcons/Biological Weapon
   rotate: false
-  xy: 1084, 148
+  xy: 1624, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Bolas
   rotate: false
-  xy: 220, 40
+  xy: 436, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bolas Survivor
   rotate: false
-  xy: 220, 40
+  xy: 436, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Bomber
   rotate: false
-  xy: 328, 40
+  xy: 544, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Boss
   rotate: false
-  xy: 868, 40
+  xy: 1084, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Broodmother Overseer
   rotate: false
-  xy: 868, 40
+  xy: 1084, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

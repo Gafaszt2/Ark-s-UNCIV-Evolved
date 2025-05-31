@@ -593,6 +593,7 @@
 		"name": "Autumn Trees",
 		"type": "TerrainFeature",
 		"movementCost": 1,
+		"uniques":["Provides a one-time bonus of [+1 Gold, +1 Production] to the closest city when cut down"],
                 "occursOn": ["Grassland","Tundra","Snow","Fjord Land"],
 		"RGB": [240, 7, 182]
 	},
@@ -637,6 +638,7 @@
                 "food": 1,
 		"movementCost": 1,
                 "occursOn": ["Grassland","Tundra","Snow","Fjord Land","Fjordlush"],
+				"uniques":["Provides a one-time bonus of [+1 Food, +1 Production] to the closest city when cut down"],
 		"RGB": [240, 7, 182]
 	},
         {
@@ -944,7 +946,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fungi","Wonderland"],
 		"uniques": ["Rough terrain", "Vegetation",
-					"Provides a one-time Production bonus to the closest city when cut down",
+					"Provides a one-time bonus of [+1 Gold, +1 Production] to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes",
 					"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
@@ -969,6 +971,7 @@
 		"occursOn": ["Swamp","Plains","Grassland","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
+			"Provides a one-time bonus of [+1 Gold, +1 Food] to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
@@ -990,6 +993,7 @@
 		"defenceBonus": 1.20,
 		"occursOn": ["Grassland","Bog","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": ["Rare feature",
+		"Provides a one-time bonus of [+2 Food] to the closest city when cut down",
 					"[+2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
