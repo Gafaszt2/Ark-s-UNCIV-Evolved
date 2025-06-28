@@ -368,7 +368,7 @@
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": ["Defeat Broodmother","Defeat the Dragon","Defeat Megapithecus"],
+		"aiFreeTechs": ["Island Bosses"],
 		"aiMajorCivBonusStartingUnits": ["Settler", "Pistol Handler","Pistol Handler","Pistol Handler"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.6,
