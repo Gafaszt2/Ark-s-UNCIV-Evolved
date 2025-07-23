@@ -141,6 +141,86 @@
         "type": "Follower",
         "uniques": ["[+3 Faith] from every [Castle]","[+1 Culture] from every [Castle]"]
     },
+
+
+
+
+    {
+        "name": "Sufi Brotherhood",
+        "type": "Follower",
+        "uniques": ["[+3 Science] from every [Citadel]"]
+    },
+    {
+        "name": "Light of Tawhid",
+        "type": "Follower",
+        "uniques": ["[+1 Science] from every [Ark Monument]"]
+    },
+    {
+        "name": "Path of Barakah",
+        "type": "Follower",
+        "uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]"]
+    },
+    {
+        "name": "Inner Jihad",
+        "type": "Follower",
+        "uniques": ["[+1 Production] from every [Camp]"]
+    },
+    {
+        "name": "Voice of the Muezzin",
+        "type": "Follower",
+        "uniques": ["[-20]% Culture cost of natural border growth [in all cities]"]
+    },
+
+
+
+    {
+        "name": "Circle of Ijtihad",
+        "type": "Founder",
+        "uniques": ["[+2 Science] per [3] social policies adopted"]
+    },
+    {
+        "name": "Zakat Redistribution",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] per [3] social policies adopted"]
+    },
+    {
+        "name": "Waqf Institutions",
+        "type": "Founder",
+        "uniques": ["[Gold] cost of purchasing [Science] buildings [-70]%"]
+    },
+    {
+        "name": "Minbar Authority",
+        "type": "Founder",
+        "uniques": ["[Gold] cost of purchasing [Culture] buildings [-70]%"]
+    },
+    {
+        "name": "Cycle of Samsara",
+        "type": "Founder",
+        "uniques": ["[Gold] cost of purchasing [Proboscidea] units [-50]%","[Gold] cost of purchasing [Pinnipeds] units [-70]%"]
+    },
+
+
+    {
+        "name": "Karma’s Balance",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [Atlatis Biome]","[+1 Gold] from every [Tan Biome]","[+1 Gold] from every [Bay Biome]",
+    "[+1 Science] from every [Forest]"]
+    },
+    {
+        "name": "Temple of Kanchipuram",
+        "type": "Founder",
+        "uniques": ["[Gold] cost of purchasing [All] units [-50]% <for [15] turns>"]
+    },
+    {
+        "name": "Ratha Procession",
+        "type": "Founder",
+        "uniques": ["[Gold] cost of purchasing [Science] buildings [-70]%"]
+    },
+    {
+        "name": "Festival of Navaratri",
+        "type": "Founder",
+        "uniques": ["[+3 Faith] per [2] social policies adopted <for [15] turns>"]
+    },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
     {

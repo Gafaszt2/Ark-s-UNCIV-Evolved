@@ -1583,6 +1583,19 @@
 		"hurryCostModifier": 20,
 		"attackSound": "medcarno"
 	},
+	{
+		"name": "Megaraptor Rider",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 50,
+		"cost": 60,
+		"requiredTech": "Sword",
+        "promotions": ["Cretaceous","Shadow Skirmisher"],
+        "obsoleteTech": "Fabricator",
+		"uniques": ["Never appears as a Barbarian unit","Heals [25] damage if it kills a unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "altmedcarno"
+	},
         {
 		"name": "Stegodon Rider",
 		"unitType": "Proboscidea",
@@ -1639,9 +1652,9 @@
 		"name": "Shield Survivor",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 90,
+		"strength": 70,
 		"cost": 260,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
                 "requiredTech": "Pike",
                 "uniques": ["Consumes [2] [Metal]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor",
@@ -1650,13 +1663,25 @@
 		"name": "Australopithecus",
 		"unitType": "Mammal",
 		"movement": 2,
-		"strength": 95,
+		"strength": 85,
 		"cost": 260,
-		"attackSound": "chalico"
+		"attackSound": "chalico",
                 "promotions": ["Pliocene","Strong Genetics"],
                 "requiredTech": "Pike",
-                "uniques": ["Consumes [2] [Fruit]","Limited to [6] per Civilization","Never appears as a Barbarian unit"],
-                "obsoleteTech": "Flak Armor",
+                "uniques": ["Consumes [2] [Fruit]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "obsoleteTech": "Flak Armor"
+        },
+		{
+		"name": "Saltwater Crocodile",
+		"unitType": "Amphibious",
+		"movement": 2,
+		"strength": 85,
+		"cost": 230,
+		"attackSound": "croc",
+        "promotions": ["Pliocene","Oxygen I","Oxygen II"],
+        "requiredTech": "Pike",
+        "uniques": ["Consumes [1] [Saltwater Crocodile]","[+100]% XP gained from combat","Never appears as a Barbarian unit"],
+        "obsoleteTech": "Flak Armor"
         },
         {
 		"name": "Bison Latifrons",
@@ -1861,6 +1886,77 @@
 		"requiredTech": "Dock",
 		"attackSound": "marine"
 	},
+	{
+		"name": "Ocepechelon Rider",
+        "obsoleteTech": "GPS",
+		"unitType": "Marine Reptile",
+		"movement": 3,
+        "promotions": ["Cretaceous"],
+		"strength": 55,
+		"cost": 110,
+		"uniques":["Aquaria","Testudines","Consumes [1] [Hard Shell]","Can move immediately once bought","[Great Engineer] is earned [+5]% faster"],
+		"requiredTech": "Dock",
+		"attackSound": "marine"
+	},
+	{
+		"name": "Onchopristis Rider",
+        "obsoleteTech": "GPS",
+		"unitType": "Fish",
+		"movement": 3,
+        "promotions": ["Cretaceous"],
+		"strength": 55,
+		"cost": 110,
+		"uniques":["Aquaria","Consumes [1] [Titanium]","Invisible to non-adjacent units"],
+		"requiredTech": "Dock",
+		"attackSound": "marine"
+	},
+	{
+		"name": "Vallecillosaurus Rider",
+        "obsoleteTech": "Radio",
+		"unitType": "Marine Reptile",
+		"movement": 2,
+		"strength": 65,
+        "promotions": ["Cretaceous"],
+		"uniques":["Aquaria","Consumes [1] [Bloom]","Can enter ice tiles","[+70]% XP gained from combat"],
+		"cost": 210,
+		"requiredTech": "GPS",
+		"attackSound": "marine"
+	},
+	{
+		"name": "Myliobatoidei Rider",
+        "obsoleteTech": "Radio",
+		"unitType": "Fish",
+		"movement": 2,
+		"strength": 65,
+        "promotions": ["Jurassic"],
+		"uniques":["Aquaria","Consumes [2] [Bloom]","Earn [15]% of killed [Wounded] unit's [Cost] as [Science]"],
+		"cost": 210,
+		"requiredTech": "GPS",
+		"attackSound": "marine"
+	},
+	{
+		"name": "Homarus Rider",
+		"unitType": "Fish",
+		"movement": 2,
+		"strength": 150,
+		"cost": 380,
+        "promotions": ["Cretaceous","Critical"],
+		"uniques":["Aquaria","Consumes [2] [Titanium]","All healing effects doubled"],
+		"requiredTech": "Radio",
+		"attackSound": "marine"
+	},
+	{
+		"name": "Monodon Rider",
+		"unitType": "Cetaceous",
+		"movement": 4,
+		"strength": 175,
+        "promotions": ["Holocene","Death Ray"],
+        "uniques": ["Aquaria","[This Unit] gains the [Charged Death Ray] status for [7] turn(s) <(modified by game speed)> <upon ending a turn in a [City center] tile>","Consumes [2] [Angler Gel]","Consumes [2] [Bloom]","[+50]% Strength <during the [Tek era]>"],
+		"cost": 650,
+		"requiredTech": "Radio",
+		"attackSound": "marine"
+	},
+
         {
 		"name": "Hyneria Rider",
                 "obsoleteTech": "GPS",
@@ -2247,6 +2343,18 @@
                 "requiredResource": "Metal",
                 "promotions": ["Amphibious","Swamp Creature","Cretaceous"],
 		"attackSound": "spino"
+	},
+	{
+		"name": "Dzungariotherium Rider",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 80,
+		"cost": 200,
+		"requiredTech": "Chain Bola",
+		"hurryCostModifier": 20,
+		"uniques":["Consumes [1] [Dzungariotherium]","[+30]% Strength <vs [Gunpowder] units>","[+30]% Strength <vs [Theropoda] units>","[+10]% Strength <vs cities>"],
+        "promotions": ["Oligocene","Berserk","Fortitude I"],
+		"attackSound": "chalico"
 	},
         {
 		"name": "Walrus Rider",

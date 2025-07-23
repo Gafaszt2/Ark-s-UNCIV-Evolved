@@ -614,10 +614,10 @@
         {
 		"name": "Carcharodontosaurus",
 		"resourceType": "Bonus",
-                "uniques": ["Generated on every [999] tiles <in [Hill] tiles>"]
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill"],
-		"science": 1,
-		"improvement": "Camp",
+        "uniques": ["Generated on every [999] tiles <in [Hill] tiles>"],
+		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill","Atlantis Biome"],
+		"production": 1,
+		"improvement": "Camp"
 		
 	},
         {
@@ -652,7 +652,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Beach","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Beach","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvedBy": ["Ranch", "Teepee"],
 		
@@ -663,7 +663,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
@@ -673,7 +673,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -685,7 +685,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Mine"],
 		"uniques": ["Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
@@ -696,7 +696,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -720,7 +720,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -732,7 +732,7 @@
 		"name": "Organic Polymer",
                 "revealedBy": "Polymer",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
 		
@@ -766,7 +766,7 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
+		"terrainsCanBeFoundOn": ["Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"gold": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Montano] tiles>"]
@@ -774,7 +774,7 @@
                 {
 		"name": "Ravager",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Green Zone","Aberrant Blue Zone"],
+		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Aberrant Green Zone","Aberrant Blue Zone"],
 		"food": 1,
                 "uniques": ["Generated on every [60000] tiles <in [Grassland] tiles>"]
 		"improvement": "Camp",
@@ -783,7 +783,7 @@
                 {
 		"name": "Yutyrannus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Snow","Tundra"],
+		"terrainsCanBeFoundOn": ["Snow","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra"],
 		"food": 1,
                 "uniques": ["Generated on every [70] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
@@ -792,7 +792,7 @@
         {
 		"name": "Purlovia",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Forest","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"culture": 1,
 		"improvement": "Camp",
 		
@@ -817,7 +817,7 @@
 	{
 		"name": "Tyrannosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hill","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hill","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Genesis Soil","Tek Soil"],
 		"gold": 1,
 		"improvement": "Camp",
 		"uniques": ["Generated on every [70] tiles <in [Hill] tiles>"]
@@ -842,7 +842,7 @@
         {
 		"name": "Managarmr",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Tundra"],
+		"terrainsCanBeFoundOn": ["Dead Land","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Fallout Land","Tundra"],
 		"food": 2,
 		"improvement": "Camp",
 		
@@ -860,7 +860,6 @@
 		"name": "Sand",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert","Beach","Montano"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"prdocution": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Beach] tiles>","Generated on every [100] tiles <in [Desert] tiles>"]
@@ -868,7 +867,7 @@
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
+		"terrainsCanBeFoundOn": ["Marsh","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
 		
@@ -942,6 +941,38 @@
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [20] tiles <in [Coast] tiles>"]
 	},
+	{
+		"name": "Titanium",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [40] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Bloom",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [40] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Angler Gel",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [40] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Hard Shell",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [40] tiles <in [Coast] tiles>"]
+	},
         {
 		"name": "Rock Drake Egg",
 		"resourceType": "Strategic",
@@ -950,6 +981,83 @@
 		"faith": 1,
 		"improvement": "Camp",
 		"uniques": ["Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
+	},
+	{
+		"name": "Crab",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Bay Biome"],
+		"food": 1,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Starfish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats"
+	},
+	{
+		"name": "Tullimonstrum",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvement": "Lake House"
+	},
+	{
+		"name": "Hippopotamus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Atlantis Biome"],
+		"food": 1,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Seahorses",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats"
+	},
+	{
+		"name": "Abelisaurus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Starlight Biome"],
+		"food": 1,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Sheepshead Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats"
+	},
+	{
+		"name": "Galeaspida",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats"
+	},
+	{
+		"name": "Edmontonia",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tan Biome"],
+		"food": 1,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Saltwater Crocodile",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Bay Biome"],
+		"gold": 2,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Dzungariotherium",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Tan Biome"],
+		"production": 1,
+		"improvement": "Camp"
 	},
         {
 		"name": "Fertilizer",

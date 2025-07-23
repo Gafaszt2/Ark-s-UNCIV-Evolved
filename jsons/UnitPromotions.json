@@ -87,7 +87,7 @@
                 "innerColor": [252, 186, 3],
 		"outerColor": [50, 94, 0],
                 "unitTypes": ["Spinosauridae"],
-                "uniques": ["[+25]% to Flank Attack bonuses <in [All] tiles>"],
+                "uniques": ["[+35]% to Flank Attack bonuses <in [All] tiles>"],
         },
 {
                 "name": "Fishing",
@@ -116,7 +116,7 @@
                 "innerColor": [81, 117, 60],
 		"outerColor": [255, 220, 150],
                 "unitTypes": ["Proboscidea"],
-                "uniques": ["[+15]% XP gained from combat","[+15]% Strength bonus for [Proboscidea] units within [2] tiles","[+15]% to Flank Attack bonuses <in [All] tiles>"],
+                "uniques": ["[+15]% XP gained from combat","[+15]% Strength bonus for [Proboscidea] units within [2] tiles","[+35]% to Flank Attack bonuses <in [All] tiles>"],
         },
 {
                 "name": "Trunks",
@@ -217,7 +217,7 @@
                 "name": "Pliocene",
                 "innerColor": [28, 36, 21],
 		"outerColor": [185, 224, 148],
-                "uniques": ["[+5]% to Flank Attack bonuses"],
+                "uniques": ["[+35]% to Flank Attack bonuses"],
         },
 {
                 "name": "Miocene",
@@ -235,13 +235,13 @@
                 "name": "Eocene",
                 "innerColor": [28, 36, 21],
 		"outerColor": [185, 224, 148],
-                "uniques": ["[-5]% Strength <in [Foreign Land] tiles>","[+15]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
+                "uniques": ["[-5]% Strength <in [Foreign Land] tiles>","[+35]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
         },
 {
                 "name": "Paleocene",
                 "innerColor": [28, 36, 21],
 		"outerColor": [185, 224, 148],
-                "uniques": ["[+10]% Strength bonus for [Amphibious] units within [3] tiles","[+15]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
+                "uniques": ["[+10]% Strength bonus for [Amphibious] units within [3] tiles","[+35]% to Flank Attack bonuses <in [Foreign Land] tiles>"],
         },
 {
                 "name": "Holocene",
@@ -433,7 +433,7 @@
 {
                 "name": "Parietal eye",
                 "unitTypes": ["Therapsida"],
-                "uniques": ["[+10]% to Flank Attack bonuses"],
+                "uniques": ["[+30]% to Flank Attack bonuses"],
         },
 {
                 "name": "Endothermic",
@@ -461,17 +461,28 @@
     },
 {
 		"name": "Advanced Training",
-		"uniques": ["[+5]% to Flank Attack bonuses"],
+		"uniques": ["[+35]% to Flank Attack bonuses"],
     },
 {
 		"name": "Elite Training",
-		"uniques": ["[+15]% to Flank Attack bonuses"],
+		"uniques": ["[+35]% to Flank Attack bonuses"],
     },
 
         {
 		"name": "Intimidation",
 		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
+        {
+                "name": "Shadow Skirmisher",
+                "uniques": ["[+70]% Strength <when fighting in [Jungle] tiles> <with [10]% chance> <when above [5] HP> <when attacking>",
+                            "[+70]% Strength <when fighting in [Forest] tiles> <with [10]% chance> <when above [5] HP> <when attacking>",
+                            "[+70]% Strength <when fighting in [Marsh] tiles> <with [10]% chance> <when above [5] HP> <when attacking>",
+                            "[+70]% Strength <when fighting in [Swamp Zone] tiles> <with [10]% chance> <when above [5] HP> <when attacking>",
+                "[-20]% Strength for enemy [Military] units in adjacent [Jungle] tiles",
+                "[-20]% Strength for enemy [Military] units in adjacent [Forest] tiles",
+                "[-20]% Strength for enemy [Military] units in adjacent [Marsh] tiles",
+                "[-20]% Strength for enemy [Military] units in adjacent [Swamp Zone] tiles"]
+        },
        {
 		"name": "Mountain Climber",
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [Hill] tiles","[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"]
@@ -487,31 +498,43 @@
         {
                 "name": "Critical",
                 "uniques": ["[+50]% Strength <with [15]% chance> <when above [5] HP> <when attacking>",
-    "[+50]% Strength <with [25]% chance> <when below [5] HP> <when attacking>"],
+    "[+50]% Strength <with [25]% chance> <when below [5] HP> <when attacking>"]
         },
         {
                 "name": "Rage",
-                "uniques": ["[+150]% Strength <when below [30] HP> <when attacking>"],
+                "uniques": ["[+150]% Strength <when below [30] HP> <when attacking>"]
+        },
+        {
+                "name": "Charged Death Ray",
+                "innerColor": [118, 46, 232],
+		"outerColor": [225, 215, 250],
+                "uniques": ["[+70]% Strength <when below [100] HP> <when attacking>"]
+        },
+        {
+                "name": "Death Ray",
+                "innerColor": [118, 46, 232],
+		"outerColor": [225, 215, 250],
+                "uniques": ["[+40]% Strength <when below [40] HP> <when attacking>"]
         },
         {
                 "name": "Chivalry",
-                "uniques": ["[+15]% Strength <when below [45] HP> <when attacking>"],
+                "uniques": ["[+15]% Strength <when below [45] HP> <when attacking>"]
         },
         {
                 "name": "Toxic Plant",
-                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"]
         },
         {
                 "name": "Rabies",
-                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"]
         },
         {
                 "name": "Sedentary Lifestyle",
-                "uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Friendly Land] tile>"],
+                "uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Friendly Land] tile>"]
         },
         {
 		"name": "Sea Predator",
-		"uniques": ["[+15]% Strength <when fighting in [Ocean] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Ocean] tiles> <when attacking>"]
         },
         {
 		"name": "Coral Predator",
