@@ -589,7 +589,7 @@
                 "obsoleteTech": "Preserving Bin",
                 "upgradesTo": "Direbear Rider",
                 "promotions": ["Eocene"],
-		"uniques": [
+		"uniques": ["Consumes [3] [Fiber]",
 "[+15]% Strength <when fighting in [Forest] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Hill] tiles>",
@@ -607,7 +607,7 @@
                 "obsoleteTech": "Gunpowder",
                 "promotions": ["Holocene"],
                 "upgradesTo": "Gigantopithecus Rider",
-		"uniques": [
+		"uniques": ["Consumes [1] [Thatch]",
 "[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Tundra] tiles>",
 "[+15]% Strength <when fighting in [Snow] tiles>",
@@ -623,7 +623,7 @@
 		"cost": 1,
 		"requiredTech": "Gunpowder",
                 "obsoleteTech": "Dock",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]"],
+		"uniques": ["Consumes [2] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [340] [Gold] [in all cities]"],
                 "promotions": ["Adapted","Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -636,7 +636,7 @@
 		"cost": 1,
 		"requiredTech": "Industrial Grill",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]"],
+		"uniques": ["Consumes [2] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [270] [Gold] [in all cities]"],
         "promotions": ["Cretaceous"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
@@ -649,7 +649,7 @@
 		"cost": 1,
 		"requiredTech": "Canteen",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
+		"uniques": ["Consumes [2] [Thatch]","[+20]% Strength bonus for [Cryodrakon Rider] units within [3] tiles","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
                 "promotions": ["Jurassic"],
 		"hurryCostModifier": 20,
 		"attackSound": "spino"
@@ -716,7 +716,7 @@
 		"name": "Pulminoscorpius",
 		"unitType": "Insect",
 		"movement": 3,
-		"strength": 10,
+		"strength": 11,
 		"cost": 68,
                 "promotions": ["Carboniferous"],
 				"upgradesTo": "Diplodocus",
@@ -768,7 +768,7 @@
 				"upgradesTo": "Rhino Rider",
                 "promotions": ["Cretaceous"],
                 "attackSound": "raptor"
-                "uniques": ["[+33]% Strength <vs [Ophidia] units>","[+33]% Strength <vs [Gunpowder] units>"],
+                "uniques": ["Consumes [1] [Chitin]","[+33]% Strength <vs [Ophidia] units>","[+33]% Strength <vs [Gunpowder] units>"],
         },
         {
 		"name": "Microraptor",
@@ -792,7 +792,7 @@
 		"cost": 80,
 		"requiredTech": "Fabricator",
                 "requiredResource": "Steel",
-		"uniques": ["[+25]% Strength <vs [Sword] units>","[+25]% Strength <vs [Theropoda] units>","[+25]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Chitin]","[+25]% Strength <vs [Sword] units>","[+25]% Strength <vs [Theropoda] units>","[+25]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Chivalry","Cretaceous"],
                 "upgradesTo": "Cryodrakon Rider",
@@ -1027,12 +1027,12 @@
 		"name": "Dinopithecus Rider",
 		"unitType": "Mammal",
 		"movement": 3,
-		"strength": 31,
-		"cost": 70,
+		"strength": 33,
+		"cost": 67,
                 "promotions": ["Pliocene"],
 		"requiredTech": "Stone Irrigation Pipe",
 		"upgradesTo": "Portugalophis",
-		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Chitin]","[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Redwoods] tiles>","[+15]% Strength <vs [Ophidia] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Crossbow",
 		"attackSound": "ravager"
@@ -1069,11 +1069,11 @@
 		"name": "Gigantophis",
 		"unitType": "Ophidia",
 		"movement": 2,
-		"strength": 35, 
+		"strength": 38, 
 		"cost": 89,
 		"requiredTech": "Greenhouse",
                 "promotions": ["Strong Bite","Eocene"],
-		"uniques": ["[+10]% Strength <vs [Theropoda] units>","[+5]% Strength <when fighting in [Marsh] tiles>"],
+		"uniques": ["Consumes [1] [Chitin]","[+10]% Strength <vs [Theropoda] units>","[+5]% Strength <when fighting in [Marsh] tiles>"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Grenade",
 		"attackSound": "snake"
@@ -1656,7 +1656,7 @@
 		"cost": 260,
 		"attackSound": "metalhit",
                 "requiredTech": "Pike",
-                "uniques": ["Consumes [2] [Metal]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "uniques": ["Consumes [2] [Metal]","Consumes [1] [Thatch]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor",
         },
         {
@@ -1668,7 +1668,7 @@
 		"attackSound": "chalico",
                 "promotions": ["Pliocene","Strong Genetics"],
                 "requiredTech": "Pike",
-                "uniques": ["Consumes [2] [Fruit]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "uniques": ["Consumes [2] [Fruit]","Consumes [1] [Chitin]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
                 "obsoleteTech": "Flak Armor"
         },
 		{
@@ -1691,7 +1691,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [1] [Silk]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
+		"uniques": ["Consumes [1] [Silk]","Consumes [1] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"

@@ -1194,14 +1194,6 @@
                 "requiredTech": "Canteen"
 	},
         {
-		"name": "Scrap Metal Works",
-                "production": 1
-		"hurryCostModifier": 20,
-                "uniques": ["Free [Engineer] appears"],
-                "requiredResource": "Metal"
-                "requiredTech": "Pliers"
-	},
-        {
 		"name": "Situations Vacant",
 		"hurryCostModifier": 50,
                 "maintenance": 4,
@@ -1263,15 +1255,6 @@
                 "requiredResource": "Worker"
 		"uniques": ["Must not be on [Tundra]","Must not be on [Snow]","Must be next to [Desert]","[+1 Faith] from [Desert] tiles [in this city]","[+1 Faith] from [Cactus Sap] tiles [in this city]","[+1 Faith] from [Velona] tiles [in this city]"],
 		"requiredTech": "Reservoir"
-	},
-        {
-		"name": "Cristalized Works",
-                "production": 1
-		"hurryCostModifier": 20,
-                "requiredBuilding": "Scrap Metal Works"
-                "uniques": ["Free [Engineer] appears"],
-                "requiredResource": "Oil"
-                "requiredTech": "Pliers"
 	},
         {
 		"name": "Oil Refinery",
