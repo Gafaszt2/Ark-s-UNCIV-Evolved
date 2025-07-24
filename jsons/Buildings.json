@@ -1759,9 +1759,9 @@
 	},
         {
 		"name": "Danger Suits",
-                "maintenance": 5,
+        "maintenance": 5,
 		"hurryCostModifier": 25,
-		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Protected] promotion"],
+		"uniques": ["Must be next to [Aberrant Pink Zone]","All newly-trained [Land] units [in all cities] receive the [Protected] promotion"],
 		"requiredTech": "Electronics"
 	},
         {

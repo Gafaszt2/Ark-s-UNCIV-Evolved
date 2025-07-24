@@ -93,7 +93,7 @@
         {
 		"name": "Thorny Dragon",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
+		"terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Sandstone"],
 		"food": 1,
                 "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
 		"improvement": "Camp",
@@ -217,7 +217,7 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Montano","Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
+		"terrainsCanBeFoundOn": ["Montano","Dry Desert Biome","Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
 		"production": 1,
 		"improvement": "Quarry",
 		
@@ -473,7 +473,7 @@
         {
 		"name": "Amargasaur",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
+		"terrainsCanBeFoundOn": ["Volcanic Soil","Dry Desert Biome","Hill"],
 		"food": 1,
                 "civilopediaText": [{"text": "Of all the creatures in the sauropod family, Amargasaurus titanicus is likely the most unique in appearance. It sports two parallel rows of dorsal spines down the length of its neck, back, and tail--though the neck spines are significantly longer than the back or tail spines. These spines are a remarkable adaptation, giving Amargasaurus unmatched control of its body temperature. Made even more marvelous by their time on this ARK, their spines store both extreme heat AND extreme cold, effectively allowing Amargasaurus to live comfortably in any environment."}]
 		"improvement": "Mine",
@@ -652,7 +652,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Beach","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Beach","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvedBy": ["Ranch", "Teepee"],
 		
@@ -663,7 +663,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Redwoods","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
@@ -673,21 +673,26 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lakes","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvedBy": ["Ranch","Lake House"],
 		
 		"uniques": ["Generated on every [60] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Montano] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
 	},
 	{
+		"name": "Flint",
+        "revealedBy": "Stone Pick",
+		"resourceType": "Strategic"
+	},
+	{
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
-		"improvedBy": ["Mine"],
+		"improvedBy": ["Camp"],
 		"uniques": ["Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -696,7 +701,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -720,7 +725,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -859,7 +864,7 @@
 	{
 		"name": "Sand",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Beach","Montano"],
+		"terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Beach","Montano"],
 		"prdocution": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Beach] tiles>","Generated on every [100] tiles <in [Desert] tiles>"]
@@ -867,7 +872,7 @@
 	{
 		"name": "Sarcosuchus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
+		"terrainsCanBeFoundOn": ["Marsh","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
 		"gold": 2,
 		"improvedBy": ["Camp", "Fishing Boats"],
 		
@@ -1277,7 +1282,7 @@
 	},
 {
 		"name": "Silk",
-                "terrainsCanBeFoundOn": ["Desert","Plains","Tundra"],
+                "terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Plains","Tundra"],
 		"culture": 2,
 		"improvement": "Plantation",
 		"resourceType": "Strategic",
@@ -1295,7 +1300,7 @@
 	},
 {
 		"name": "Bones",
-                "terrainsCanBeFoundOn": ["Desert","Montano","Dead Land"],
+                "terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Montano","Dead Land"],
 		"culture": 2,
 		"improvement": "Mine",
 		"resourceType": "Strategic",

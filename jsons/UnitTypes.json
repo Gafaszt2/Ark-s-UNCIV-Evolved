@@ -11,7 +11,7 @@
     },
     {
         "name": "Bomber",
-        "movementType": "Air",
+        "movementType": "Air"
     },
     {
         "name": "Submarine",

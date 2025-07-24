@@ -99,8 +99,8 @@
 		"name": "Sap Collector",
 		"terrainsCanBeBuiltOn": ["Redwoods"],
 		"food": 2,
-                "techRequired": "Campfire",
-		"turnsToBuild": 4,
+        "techRequired": "Campfire",
+		"turnsToBuild": 4
 	},
     {
 		"name": "Lake House",
@@ -114,15 +114,17 @@
 		"terrainsCanBeBuiltOn": ["Hill","Redwoods","Montano","Asteroid"],
 		"production": 1,
 		"turnsToBuild": 4,
-		"shortcutKey": "F"
-                "techRequired": "Stone Pick",
+		"shortcutKey": "F",
+		"uniques":["Provides [1] [Flint]"],
+        "techRequired": "Stone Pick"
 	},
         {
 		"name": "Carpentry Area",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle","Autumn Trees","Pines","Natural Lake","Marsh"],
 		"production": 1,
 		"turnsToBuild": 4,
-                "techRequired": "Stone Hatchet",
+		"uniques":["Provides [1] [Wood]","Provides [1] [Thatch]"],
+        "techRequired": "Stone Hatchet"
 	},
 	{
 		"name": "Trading post",

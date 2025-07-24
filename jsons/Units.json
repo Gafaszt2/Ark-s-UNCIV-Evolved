@@ -21,7 +21,7 @@
         {
 		"name": "Great Scholar",
 		"unitType": "Civilian",
-		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
+		"uniques": ["Consumes [2] [Flint]","Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
             "Can instantly construct a [Mountain Temple] improvement <by consuming this unit>",
             "Great Person - [Faith]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -54,7 +54,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
+		"uniques": ["Consumes [2] [Flint]","Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
             "Can instantly construct a [Steampunk Station] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -62,7 +62,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
+		"uniques": ["Consumes [2] [Flint]","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
              "Can instantly construct a [Castle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -134,7 +134,7 @@
 		"name": "Servant",
 		"strength": 25,
 		"unitType": "Sword",
-		"uniques": ["[+100]% Strength <starting from the [Smithy era]>","[+50]% Strength <starting from the [Electric era]>","[+60]% Strength <starting from the [Tek era]>","Limited to [5] per Civilization","Can be purchased with [Culture] [in all cities]","Can be purchased for [100] [Culture] [in all cities]",
+		"uniques": ["Consumes [5] [Flint]","[+100]% Strength <starting from the [Smithy era]>","[+50]% Strength <starting from the [Electric era]>","[+60]% Strength <starting from the [Tek era]>","Limited to [5] per Civilization","Can be purchased with [Culture] [in all cities]","Can be purchased for [100] [Culture] [in all cities]",
             "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -170,7 +170,6 @@
         },
 		{    
 		"name": "Bolas Survivor",
-        "requiredResource": "Fiber",
 		"unitType": "Bolas",
 		"movement": 2,
 		"strength": 13,
@@ -180,11 +179,10 @@
 		"requiredTech": "Bolas",
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
-                "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
+                "uniques": ["Consumes [1] [Flint]","Can build [Land] improvements on tiles","Requires at least [1] population"],
         },
         {
 		"name": "Cub Survivor",
-                "requiredResource": "Fiber",
 		"unitType": "Sword",
 		"movement": 1,
 		"strength": 20,
@@ -192,7 +190,7 @@
 		"attackSound": "nonmetalhit"
                 "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
-                "uniques": ["Requires at least [1] population","Never appears as a Barbarian unit"],
+                "uniques": ["Consumes [1] [Flint]","Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Dodo",
@@ -456,7 +454,6 @@
         {
 		"name": "Thylacoleo Rider",
 		"unitType": "Mammal",
-                "requiredResource": "Thatch",
 		"movement": 2,
 		"strength": 35,
 		"cost": 90,
@@ -464,7 +461,7 @@
                 "upgradesTo": "Stego Rider",
                 "promotions": ["Oligocene"],
                 "obsoleteTech": "Tranq Arrow",
-		"uniques": ["Requires at least [3] population"],
+		"uniques": ["Consumes [4] [Flint]","Consumes [3] [Fiber]"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -478,7 +475,7 @@
 		"upgradesTo": "Stego Rider",
                 "requiredResource": "Chitin",
                 "promotions": ["Devonian"],
-		"uniques": ["Requires at least [3] population"],
+		"uniques": ["Consumes [6] [Flint]"],
 		"hurryCostModifier": 20,
                 "obsoleteTech": "Tranq Arrow",
 		"attackSound": "insec"
@@ -509,7 +506,7 @@
                 "requiredTech": "Spike Wall",
                 "upgradesTo": "Recurve Bow Survivor",
                 "obsoleteTech": "Refining Forge",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"],
+                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"]
         },
 {
 		"name": "Recurve Bow Survivor",
@@ -523,7 +520,7 @@
                 "requiredTech": "Refining Forge",
                 "upgradesTo": "Longbow Survivor",
                 "obsoleteTech": "Tranq Arrow",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"],
+                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"]
         },
 {
 		"name": "Longbow Survivor",
@@ -537,7 +534,7 @@
                 "requiredTech": "Tranq Arrow",
                 "upgradesTo": "Crossbow Survivor",
                 "obsoleteTech": "Crossbow",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"],
+                "uniques": ["Can build [Land] improvements on tiles","Consumes [1] [Flint]", "Requires at least [2] population"]
         },
 {
 		"name": "Compound Bow Survivor",
@@ -547,10 +544,10 @@
 		"strength": 40,
                 "rangedStrength": 45,
 		"cost": 120,
-		"attackSound": "arrow"
+		"attackSound": "arrow",
                 "requiredTech": "Fabricator",
                 "obsoleteTech": "Tek Sword",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [2] population"],
+                "uniques": ["Can build [Land] improvements on tiles","Consumes [5] [Flint]", "Requires at least [2] population"]
         },
         {
 		"name": "Spear Survivor",
@@ -558,12 +555,12 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 95,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
                 "requiredTech": "Bow and Arrow",
                 "upgradesTo": "Crossbow Survivor",
                 "obsoleteTech": "Crossbow",
                 "requiredResource": "Thatch",
-                "uniques": ["Requires at least [1] population"],
+                "uniques": ["Consumes [4] [Flint]"]
         },
         {
 		"name": "Crossbow Survivor",
@@ -573,11 +570,11 @@
 		"strength": 21,
                 "rangedStrength": 26,
 		"cost": 75,
-		"attackSound": "arrow"
+		"attackSound": "arrow",
                 "requiredTech": "Crossbow",
                 "upgradesTo": "Flak Survivor",
                 "obsoleteTech": "Flak Armor",
-                "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population"],
+                "uniques": ["Can build [Land] improvements on tiles", "Consumes [4] [Flint]"]
         },
         {
 		"name": "Chalicotherium Rider",
@@ -1359,7 +1356,7 @@
 		"requiredTech": "Metal Pick",
                 "obsoleteTech": "Sword",
                 "requiredResource": "Fenrir",
-		"uniques": ["Earn [70]% of killed [Wounded] unit's [Cost] as [Faith]","May capture killed [Wounded] units","[+30]% XP gained from combat","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Flint]","Earn [70]% of killed [Wounded] unit's [Cost] as [Faith]","May capture killed [Wounded] units","[+30]% XP gained from combat","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "ravager"
 	},
@@ -1373,7 +1370,7 @@
                 "promotions": ["Miocene"],
                 "obsoleteTech": "Sword",
                 "requiredResource": "Silk",
-		"uniques": ["Earn [90]% of killed [Wounded] unit's [Cost] as [Gold]","[+25]% XP gained from combat","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Flint]","Earn [90]% of killed [Wounded] unit's [Cost] as [Gold]","[+25]% XP gained from combat","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "camel"
 	},
@@ -1384,6 +1381,7 @@
 		"strength": 41,
 		"cost": 94,
 		"requiredTech": "Metal Pick",
+		"uniques":["Consumes [1] [Flint]"],
                 "obsoleteTech": "Sword",
                 "requiredResource": "Fruit",
                 "promotions": ["Holocene"],
@@ -1401,7 +1399,7 @@
                 "obsoleteTech": "Sword",
                 "promotions": ["Triassic"],
                 "requiredResource": "Metal",
-		"uniques": ["May travel on Water tiles without embarking"],
+		"uniques": ["Consumes [1] [Flint]","May travel on Water tiles without embarking"],
 		"hurryCostModifier": 20,
 		"attackSound": "frog"
 	},
@@ -1444,7 +1442,7 @@
                 "requiredResource": "Rock Drake Egg",
 		"cost": 200,
 		"requiredTech": "Metal Hatchet",
-		"uniques": ["[+50]% Strength <starting from the [Electric era]>","[+100]% Strength <starting from the [Tek era]>","[+1] Movement <starting from the [Tek era]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Flint]","[+50]% Strength <starting from the [Electric era]>","[+100]% Strength <starting from the [Tek era]>","[+1] Movement <starting from the [Tek era]>", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "dragon"
 	},
@@ -1471,7 +1469,7 @@
 		"attackSound": "shot",
         "obsoleteTech": "Flak Armor",
         "requiredTech": "Polymer",
-        "uniques": ["[+20]% Strength <vs [Theropoda] units>"]
+        "uniques": ["Consumes [1] [Flint]","[+20]% Strength <vs [Theropoda] units>"]
         },
         {
 		"name": "Grenadier Survivor",
@@ -1528,7 +1526,7 @@
 		"cost": 130,
 		"requiredTech": "Pliers",
                 "obsoleteTech": "Island Bosses",
-		"uniques": ["Consumes [1] [Bones]","[+70]% Strength <vs [Theropoda] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [3] [Flint]","Consumes [1] [Bones]","[+70]% Strength <vs [Theropoda] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Cretaceous"],
 		"attackSound": "dinoherb"
@@ -1541,7 +1539,7 @@
 		"cost": 170,
 		"requiredTech": "Pliers",
         "obsoleteTech": "Island Bosses",
-		"uniques": ["Consumes [1] [Fruit]","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [3] [Flint]","Consumes [1] [Fruit]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
                 "promotions": ["Miocene"],
 		"attackSound": "elephant"
@@ -1567,7 +1565,7 @@
 		"cost": 100,
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Flak Armor",
-                "uniques": ["Consumes [1] [Steel]","Consumes [1] [Silk]","Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
+                "uniques": ["Consumes [3] [Flint]","Consumes [1] [Steel]","Consumes [1] [Silk]","Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Allo Rider",
@@ -1592,7 +1590,7 @@
 		"requiredTech": "Sword",
         "promotions": ["Cretaceous","Shadow Skirmisher"],
         "obsoleteTech": "Fabricator",
-		"uniques": ["Never appears as a Barbarian unit","Heals [25] damage if it kills a unit"],
+		"uniques": ["Consumes [1] [Flint]","Never appears as a Barbarian unit","Heals [25] damage if it kills a unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "altmedcarno"
 	},
@@ -1606,7 +1604,7 @@
 		"requiredTech": "Sword",
                 "promotions": ["Miocene"],
                 "obsoleteTech": "Fabricator",
-		"uniques": ["[+2] Movement <in [Plains] tiles>","[+2] Movement <in [Redwoods] tiles>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [3] [Flint]","[+2] Movement <in [Plains] tiles>","[+2] Movement <in [Redwoods] tiles>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -1619,7 +1617,7 @@
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Raft",
                 "obsoleteTech": "Stone Irrigation Pipe",
-                "uniques": ["Consumes [1] [Reeds]","Consumes [1] [Thatch]","[+30]% Strength <vs [Ophidia] units>","[+22]% Strength <vs [Mammal] units>","[+2] Movement <in [Jungle] tiles>","[+2] Movement <in [Forest] tiles>","[+2] Movement <in [Marsh] tiles>","Requires at least [1] population"],
+                "uniques": ["Consumes [3] [Flint]","Consumes [1] [Reeds]","Consumes [1] [Thatch]","[+30]% Strength <vs [Ophidia] units>","[+22]% Strength <vs [Mammal] units>","[+2] Movement <in [Jungle] tiles>","[+2] Movement <in [Forest] tiles>","[+2] Movement <in [Marsh] tiles>","Requires at least [1] population"],
         },
         {
 		"name": "Fasolasuchus Rider",
@@ -1656,8 +1654,8 @@
 		"cost": 260,
 		"attackSound": "metalhit",
                 "requiredTech": "Pike",
-                "uniques": ["Consumes [2] [Metal]","Consumes [1] [Thatch]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
-                "obsoleteTech": "Flak Armor",
+                "uniques": ["Consumes [3] [Flint]","Consumes [2] [Metal]","Consumes [1] [Thatch]","Limited to [3] per Civilization","Never appears as a Barbarian unit"],
+                "obsoleteTech": "Flak Armor"
         },
         {
 		"name": "Australopithecus",
@@ -1691,7 +1689,7 @@
 		"cost": 1,
 		"requiredTech": "Pike",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Consumes [1] [Silk]","Consumes [1] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
+		"uniques": ["Consumes [3] [Flint]","Consumes [1] [Silk]","Consumes [1] [Thatch]","Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [300] [Gold] [in all cities]"],
                 "promotions": ["Holocene"],
 		"hurryCostModifier": 20,
 		"attackSound": "chalico"
@@ -1745,7 +1743,7 @@
                 "promotions": ["Holocene"],
                 "requiredResource": "Bones",
                 "obsoleteTech": "Fabricator",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [3] [Flint]","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "feline"
 	},
@@ -1836,7 +1834,7 @@
 		"strength": 28,
                 "promotions": ["Cretaceous"],
 		"cost": 95,
-                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking",
+                "uniques": ["Consumes [3] [Flint]","Consumes [1] [Reeds]","May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+3] Movement <in [Ocean] tiles> <hidden from users>",
 "[+3] Movement <in [Coast] tiles> <hidden from users>",
@@ -1853,7 +1851,7 @@
 		"strength": 35,
                 "promotions": ["Cretaceous"],
 		"cost": 110,
-                "uniques": ["Consumes [1] [Reeds]","May travel on Water tiles without embarking",
+                "uniques": ["Consumes [3] [Flint]","Consumes [1] [Reeds]","May travel on Water tiles without embarking",
 "[-1] Movement <in [Hill] tiles> <hidden from users>",
 "[+44]% Strength <when fighting in [Coast] tiles> <when attacking>",
 "[+44]% Strength <when fighting in [Ocean] tiles> <when attacking>",
@@ -1966,7 +1964,7 @@
 		"strength": 55,
 		"cost": 170,
                 "promotions": ["River Monster","Devonian"],
-                "uniques": ["[-30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Amphibious] units>"],
+                "uniques": ["Consumes [3] [Flint]","[-30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Amphibious] units>"],
 		"requiredTech": "Dock",
 		"attackSound": "marine"
 	},
@@ -1979,7 +1977,7 @@
 		"strength": 50,
 		"cost": 195,
                 "promotions": ["Miocene"],
-                "uniques": ["[+30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Fish] units>","[1] additional attacks per turn","[15] HP when healing","Heals [15] damage if it kills a unit"],
+                "uniques": ["Consumes [3] [Flint]","[+30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Fish] units>","[1] additional attacks per turn","[15] HP when healing","Heals [15] damage if it kills a unit"],
 		"requiredTech": "Crossbow",
 		"attackSound": "marine"
 	},
@@ -2034,7 +2032,7 @@
 		"unitType": "Fish",
 		"movement": 5,
 		"strength": 50,
-                "uniques": ["[This Unit] gains [15] XP <upon damaging a [Wounded] unit>"],
+                "uniques": ["Consumes [3] [Flint]","[This Unit] gains [15] XP <upon damaging a [Wounded] unit>"],
 		"cost": 350,
                 "promotions": ["Hidden","Devonian"],
 		"requiredTech": "Island Bosses",
@@ -2046,7 +2044,7 @@
 		"movement": 3,
 		"strength": 220,
                 "promotions": ["Cambrian"],
-                "uniques": ["Earn [100]% of killed [Wounded] unit's [Cost] as [Culture]","May capture killed [Wounded] units","[+55]% XP gained from combat"],
+                "uniques": ["Consumes [7] [Flint]","Earn [100]% of killed [Wounded] unit's [Cost] as [Culture]","May capture killed [Wounded] units","[+55]% XP gained from combat"],
 		"cost": 670,
 		"requiredTech": "Island Bosses",
 		"attackSound": "marine"
@@ -2060,7 +2058,7 @@
                 "promotions": ["Cretaceous"],
 		"requiredTech": "GPS",
                 "obsoleteTech": "Flamethrower",
-		"uniques": ["[+70]% Strength <vs [Sword] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Flint]","[+70]% Strength <vs [Sword] units>","Never appears as a Barbarian unit"],
 		"attackSound": "dinoherb"
 	},
                 {
@@ -2099,7 +2097,7 @@
                 "promotions": ["Cretaceous"],
 		"requiredTech": "Chainsaw",
                 "obsoleteTech": "Chain Bola",
-		"uniques": ["All healing effects doubled","Earn [50]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["Consumes [1] [Flint]","All healing effects doubled","Earn [80]% of the damage done to [City] units as [Gold]"],
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
@@ -2236,7 +2234,7 @@
 		"strength": 40,
 		"cost": 55,
 		"requiredTech": "Flamethrower",
-		"uniques": ["[+35]% Strength <when defending>"],
+		"uniques": ["Consumes [1] [Flint]","[+35]% Strength <when defending>"],
 		"hurryCostModifier": 20,
                 "promotions": ["Holocene"],
 		"attackSound": "horse"
@@ -2352,7 +2350,7 @@
 		"cost": 200,
 		"requiredTech": "Chain Bola",
 		"hurryCostModifier": 20,
-		"uniques":["Consumes [1] [Dzungariotherium]","[+30]% Strength <vs [Gunpowder] units>","[+30]% Strength <vs [Theropoda] units>","[+10]% Strength <vs cities>"],
+		"uniques":["Consumes [3] [Flint]","Consumes [1] [Dzungariotherium]","[+30]% Strength <vs [Gunpowder] units>","[+30]% Strength <vs [Theropoda] units>","[+10]% Strength <vs cities>"],
         "promotions": ["Oligocene","Berserk","Fortitude I"],
 		"attackSound": "chalico"
 	},

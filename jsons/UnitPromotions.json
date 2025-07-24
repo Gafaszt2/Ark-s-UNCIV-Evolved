@@ -467,11 +467,6 @@
 		"name": "Elite Training",
 		"uniques": ["[+35]% to Flank Attack bonuses"],
     },
-
-        {
-		"name": "Intimidation",
-		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
-	},
         {
                 "name": "Shadow Skirmisher",
                 "uniques": ["[+70]% Strength <when fighting in [Jungle] tiles> <with [10]% chance> <when above [5] HP> <when attacking>",
@@ -792,7 +787,7 @@
 {
 		"name": "Flippers",
 		"uniques": ["[+1] Movement <in [Coral Zone] tiles>","[+35]% Strength <vs cities>"],
-		"unitTypes": ["Marine Reptile"],
+		"unitTypes": ["Marine Reptile"]
     }
     {
         "name": "Enaliosauria",
@@ -803,45 +798,43 @@
 {
 		"name": "Strong Bite",
 		"uniques": ["Heals [25] damage if it kills a unit"],
-		"unitTypes": ["Marine Amphibious"],
+		"unitTypes": ["Marine Amphibious"]
     }
     {
         "name": "Urea",
         "uniques": ["[+15] HP when healing <in [All] tiles>"],
-        "unitTypes": ["Marine Amphibious"],
+        "unitTypes": ["Marine Amphibious"]
 }
 
 {
 		"name": "Lungs",
 		"uniques": ["[+1] Movement <in [Ocean] tiles>","Earn [45]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Cetaceous"],
+		"unitTypes": ["Cetaceous"]
     }
     {
         "name": "Streamlined Body Shape",
         "uniques": ["[+1] Movement <in [Ocean] tiles>","[+20]% Strength"],
-        "unitTypes": ["Cetaceous"],
+        "unitTypes": ["Cetaceous"]
 }
 
 {
 		"name": "Gills",
 		"uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
-		"unitTypes": ["Fish"],
-    }
+		"unitTypes": ["Fish"]
+    },
     {
         "name": "Anamniote",
         "uniques": ["[+1] Movement <in [Coast] tiles>"],
-        "unitTypes": ["Fish"],
-}
-
-
+        "unitTypes": ["Fish"]
+},
 
 
 {
 		"name": "Health I",
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
-		"uniques": ["[+5] HP when healing <in [All] tiles>"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"uniques": ["[+6] HP when healing <in [All] tiles>"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 59,
         "row": 42
     },
@@ -850,10 +843,18 @@
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
                 "prerequisites": ["Health I"],
-		"uniques": ["[+5] HP when healing <in [All] tiles>"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"uniques": ["[+6] HP when healing <in [All] tiles>"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 60,
         "row": 43
+    },
+    {
+		"name": "Health III",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "prerequisites": ["Health II"],
+		"uniques": ["[+12] HP when healing <in [All] tiles>"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
     },
 
 {
@@ -861,7 +862,7 @@
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 61,
         "row": 44
     },
@@ -871,9 +872,17 @@
 		"outerColor": [38, 149, 209],
                 "prerequisites": ["Stamina I"],
 		"uniques": ["[+2] Movement","Can move after attacking"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 62,
         "row": 45
+    },
+    {
+		"name": "Stamina III",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "prerequisites": ["Stamina II"],
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
     },
 
 {
@@ -900,7 +909,7 @@
 		"name": "Oxygen I",
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
-		"uniques": ["[+10]% Strength <when fighting in [Coast] tiles>","[+10]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
+		"uniques": ["Eliminates combat penalty for attacking over a river","[+10]% Strength <when fighting in [Coast] tiles>","[+10]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
 		"unitTypes": ["Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 65,
         "row": 48
@@ -910,10 +919,19 @@
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
                 "prerequisites": ["Oxygen I"],
-		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
+		"uniques": ["[+70]% Strength <when [Embarked]>","Can enter ice tiles","[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Ocean] tiles>","[+10]% Strength <when fighting in [Lakes] tiles>"],
 		"unitTypes": ["Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 66,
         "row": 49
+    },
+    {
+		"name": "Oxygen III",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "prerequisites": ["Oxygen II"],
+		"uniques": ["[+150]% Strength <when [Embarked]>","May capture killed [Water] units",
+                "[+50]% Strength <when fighting in [Coast] tiles>","[+50]% Strength <when fighting in [Ocean] tiles>","[+50]% Strength <when fighting in [Lakes] tiles>"],
+		"unitTypes": ["Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
     },
 
 {
@@ -921,7 +939,7 @@
                 "innerColor": [255, 255, 255],
 		"outerColor": [38, 149, 209],
 		"uniques": ["[+15]% Strength"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 67,
         "row": 50
     },
@@ -931,10 +949,146 @@
 		"outerColor": [38, 149, 209],
                 "prerequisites": ["Damage I"],
 		"uniques": ["[+15]% Strength"],
-		"unitTypes": ["Land Avian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"],
         "column": 68,
         "row": 51
     },
+    {
+		"name": "Damage III",
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "prerequisites": ["Damage II"],
+		"uniques": ["[+5]% Strength","[+200]% to Flank Attack bonuses"],
+		"unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+    },
+    {
+		"name": "Intimidation",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Experience II"],
+		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"],
+                "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Ambush I",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Rejuvenation"],
+		"uniques": ["[+100]% Strength <when fighting in [Reef] tiles>","[+50]% Strength <when fighting in [River] tiles>","[+50]% Strength <when fighting in [Forest] tiles>","[+50]% Strength <when fighting in [Jungle] tiles>"],
+                "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Cover I",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Health III"],
+		"uniques": ["[+75]% Strength <when defending>"],
+                "unitTypes": ["Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Cover II",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Cover I"],
+		"uniques": ["[+75]% Strength <when defending>"],
+                "unitTypes": ["Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Cover III",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Cover II"],
+		"uniques": ["[+75]% Strength <when defending>"],
+                "unitTypes": ["Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Supply",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Stamina III"],
+		"uniques": ["Heals [100] damage if it kills a unit","[+60] HP when healing","[+10]% Strength <vs [All] units>"],
+                "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Morale",
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+                "prerequisites": ["Fortitude II"],
+		"uniques": ["[+3] Movement <in [Snow] tiles>","[+3] Movement <in [Tundra] tiles>","[+3] Movement <in [Desert] tiles>","[+3] Movement <in [Hill] tiles>",
+                "[+50]% Strength <in [Snow] tiles>","[+50]% Strength <in [Tundra] tiles>","[+50]% Strength <in [Desert] tiles>"],
+                "unitTypes": ["Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+        {
+		"name": "Ambush II",
+                "prerequisites": ["Ambush I"],
+                "innerColor": [255, 255, 255],
+                "outerColor": [48, 10, 10],
+		"uniques": ["Invisible to others"],
+                "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+	},
+{
+        "name": "Rejuvenation",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Experience II"],
+        "uniques": ["All healing effects doubled","Withdraws before melee combat <with [30]% chance>"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Courage I",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Damage I"],
+        "uniques": ["No movement cost to pillage", "[+10]% Strength <when fighting in [Foreign Land] tiles>"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Courage II",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Courage I"],
+        "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>","[-25]% Strength <when fighting in [Friendly Land] tiles>"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Vision I",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Experience I"],
+        "uniques": ["[+1] Sight"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Vision II",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Vision I"],
+        "uniques": ["Can see over obstacles","[+1] Sight"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Vision III",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Vision II"],
+        "uniques": ["[+2] Sight"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Experience I",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "uniques": ["[+30]% XP gained from combat"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
+{
+        "name": "Experience II",
+        "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
+        "prerequisites": ["Experience I"],
+        "uniques": ["[+30]% XP gained from combat"],
+        "unitTypes": ["Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
+},
     {
         "name": "Accuracy I",
         "innerColor": [255, 255, 255],
