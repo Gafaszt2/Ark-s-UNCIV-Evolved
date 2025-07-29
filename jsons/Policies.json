@@ -82,14 +82,14 @@
                     "[+1 Faith] per [3] population [in capital] <during the [Leather era]>"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Creator",
                 "uniques": [
                     "[+100]% [Faith] from City-States"
                 ],
-                "row": 1,
+                "row": 2,
                 "column": 3
             },
             {
@@ -98,7 +98,7 @@
                     "[+1 Culture] per [3] population [in capital] <during the [Leather era]>"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Monotheism Complete",
@@ -127,14 +127,14 @@
                     "[+1 Culture] from [Luxury resource] tiles [in all cities]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Interactions",
                 "uniques": [
                     "[+1 Faith] from each Trade Route"
                 ],
-                "row": 1,
+                "row": 2,
                 "column": 3
             },
             {
@@ -143,7 +143,7 @@
                     "[+10]% [Culture] [in all cities]","[+10]% [Faith] [in all cities]"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Polytheism Complete",
@@ -261,6 +261,51 @@
         ]
     },
     {
+        "name": "Breastplate of Death",
+        "era": "Smithy era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+3 Culture] per [10] population [in capital]","[+15]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Land}] unit>"
+        ],
+        "policies": [
+            {
+                "name": "Buckler",
+                "uniques": [
+                    "[+15]% Strength <for [Sword] units>","[+2 Culture] per [10] population [in capital]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Drains Blood",
+                "uniques": [
+                    "Triggers a [Slavery] event","[+2 Gold] per [10] population [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Fortifications",
+                "uniques": [
+                    "[+1 Production] from every [Fort]","[+1 Food] from every [Fort]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Breastplate of Death Complete",
+                "uniques": [
+                    "[+2 Production] from every [Fort]","[+1 Food] from every [Fort]","[+1 Food] from every [Camp]"]
+            }
+        ]
+    },
+    {
         "name": "Sacred Heritage",
         "era": "Smithy era",
         "priorities": {
@@ -346,7 +391,7 @@
             {
                 "name": "Economic Prosperity Complete",
                 "uniques": [
-                    "Gain a free [Economic Event] [in capital]"]
+                    "Triggers a [Economic Event] event"]
             }
         ]
     },
@@ -451,13 +496,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+3 Production] [in capital]","Gain a free [Global Event] [in capital]"
+            "[+3 Production] [in capital]","Triggers a [Global Event] event","Triggers a [Trash] event"
         ],
         "policies": [
             {
                 "name": "Domination",
                 "uniques": [
-                    "[+1 Gold] [in capital]","Gain a free [Dom Event] [in capital]"
+                    "[+1 Gold] [in capital]","Triggers a [Dom Event] event"
                 ],
                 "row": 1,
                 "column": 2
@@ -465,7 +510,7 @@
             {
                 "name": "Advanced Economics",
                 "uniques": [
-                    "[+1 Gold] [in capital]","Gain a free [Advent Event] [in capital]"
+                    "[+1 Gold] [in capital]","Triggers a [Advent Event] event"
                 ],
                 "row": 1,
                 "column": 4
@@ -473,7 +518,7 @@
             {
                 "name": "The Coastal Cities",
                 "uniques": [
-                    "[+1 Gold] [in capital]","Gain a free [Coast Event] [in capital]"
+                    "[+1 Gold] [in capital]","Triggers a [Coast Event] event"
                 ],
                 "row": 2,
                 "column": 2
@@ -481,7 +526,7 @@
             {
                 "name": "Bread and Circus",
                 "uniques": [
-                    "[+3 Gold] [in capital]","[+2 Culture] [in capital]","[+2 Food] [in capital]","Gain a free [Breadeun Event] [in capital]"
+                    "[+3 Gold] [in capital]","[+2 Culture] [in capital]","[+2 Food] [in capital]","Triggers a [Breadeun Event] event"
                 ],
                 "row": 2,
                 "column": 4

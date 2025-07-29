@@ -26,8 +26,6 @@
                 "Provides [4] [Fame] <upon constructing [Wonder] [in all cities]> <for [100000] turns>",
                 "Provides [2] [Fame] <upon founding a Religion> <for [100000] turns>",
                 "Provides [3] [Fame] <upon entering a new era> <for [100000] turns>",
-        "Gain a free [Slavery] [in capital] <starting from the [Smithy era]>",
-        "Gain a free [Trash event] [in capital] <starting from the [Tek era]>",
         // GREAT PERSONS
         "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Leather era]>",
         "May buy [Great Scholar] units for [300] [Faith] [in all cities] at an increasing price ([250]) <starting from the [Smithy era]>",
