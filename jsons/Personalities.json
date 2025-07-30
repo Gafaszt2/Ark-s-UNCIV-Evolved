@@ -31,6 +31,37 @@
 		]
 	},
 	{
+		"name": "Mei-Yin Li",
+		"preferredVictoryType": "Domination",
+		"production": 10,
+		"food": 1,
+		"gold": 1,
+		"science": 1,
+		"culture": 1,
+		"happiness": 1,
+		"faith": 1,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 10,
+		"priorities": {
+			"Primitivism": 30,
+			"Communalism": 10,
+			"Mysticism": 10,
+			"Animism": 30,
+			"Colonialism": 10,
+			"Rationalism": 10,
+			"Cosmopolitanism": 30
+		},
+		"warMongering": 3,
+		"civilopediaText": [
+			{"text": "Vampire."}
+		]
+	},
+	{
 		"name": "Rockwell",
 		"preferredVictoryType": "Domination",
 		"production": 10,

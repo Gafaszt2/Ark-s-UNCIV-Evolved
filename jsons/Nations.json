@@ -7,6 +7,42 @@
 //		"innerColor": [255,255,255]
 	},
 	{
+		"name": "Lost Colony",
+		"leaderName": "Mei-Yin Li",
+		"personality": "Mei-Yin Li",
+		"adjective": ["Lost Colony"],
+		"startBias": ["Snow","Tundra","Hill"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Mei-Yin Li walks where gods would fear to tread—her name etched in the bones of the ARK like a scar that nature refuses to forget. Born in an age of iron and warring kingdoms, she was forged in the fire of battle, tempered by solitude, and crowned not by royalty but by raptors and beasts that bowed to her spirit.
+
+Time cast her into alien worlds where technology pulses like blood and ancient earth groans beneath steel skies. She spoke little, for her roars tore louder than words ever could. Every beast she tamed became an echo of her will. The ARKs bent, twisted, evolved—but Mei-Yin remained the storm that would not pass.
+
+In the Lost Colony, corruption spills like venom from the veins of the earth. The shadows devour memory, and hope clings to fragile fragments of truth. But even here, beneath the shattered stars, the warrior stirs. With eyes that burn like twin moons and scars that sing of forgotten wars, she rises not for power—but for what was lost: honor, kinship, and the wild soul of a world dying to be reborn.",
+		"startIntroPart2": "",
+
+		"declaringWar": "You tasted fear the moment I arrived. Now you’ll feast on regret. The hunt begins. Your blood calls to me—and I answer with teeth and wrath. Let the beasts of dusk rise. Your peace ends here.",
+		"attacked": "Strike me again—and I’ll carve your soul into offerings for my pack Fool. I’ve torn titans apart for less You bring pain? I bring extinction.",
+		"defeated": "Even shadows fall… but they rise darker than before You’ve broken my body—not my spirit. I will return… hunger sharper than ever Enjoy this moment. It's your last lull before the storm I become.",
+		"introduction": "I am Mei-Yin of fang and flame. Every heartbeat you waste… is a tribute to my reign Speak swiftly. I thirst, and your neck sings You stand before a queen reborn in blood. Tread carefully.",
+
+		"neutralHello": "Do not mistake silence for weakness. I’m merely judging your worth You live... for now. We’ll see if that continues Your scent carries no threat. Keep it that way.",
+		"hateHello": "You stink of cowardice and wasted lineage. I'd rather speak to vermin The only gift I offer you… is a swift, merciless end I've seen leeches with more honor.",
+
+		"tradeRequest": "You offer wares? I trade only in power, blood, and obedience What can you provide that I couldn’t steal in silence Fine. But know this—if you cheat me, your entrails become currency.",
+                "uniqueName": "Lost Enforcer",
+                "uniques": ["[+1 Culture] from every [Ark Monument]","May buy [Great Person] units with [Culture] [in all cities]","When declaring friendship, both parties gain a [+4]% boost to great person generation","[+5]% Strength for cities","[-5]% XP required for promotions","[-2]% Great Person generation [in all cities]","[-35]% maintenance cost for [Culture] buildings [in all cities]","[+3 Culture] for every known Natural Wonder",
+			"No Maintenance costs for improvements in [Snow] tiles","No Maintenance costs for improvements in [Tundra] tiles","No Maintenance costs for improvements in [Hill] tiles"],
+
+		"outerColor": [20, 20, 20],
+		"innerColor": [255, 23, 23],
+		"cities": ["Lost Colony","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Gloria", "Lyra", "Zara", "Kaia", "Raven", "Luna", "Selene", "Nova", "Aurora", "Ivy","Shadow", "Dusk"]
+	},
+	{
 		"name": "Aberration",
 		"leaderName": "Sir Edmund Rockwell",
 		"personality": "Rockwell",
