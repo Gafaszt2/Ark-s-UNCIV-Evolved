@@ -661,7 +661,7 @@
     },
     {
 		"name": "Prey I",
-		"uniques": ["[+5]% to Flank Attack bonuses"],
+		"uniques": ["[+45]% to Flank Attack bonuses"],
 		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 43,
         "row": 26
@@ -669,7 +669,7 @@
 	{
 		"name": "Prey II",
 		"prerequisites": ["Prey I"],
-		"uniques": ["[+5]% to Flank Attack bonuses"],
+		"uniques": ["[+55]% to Flank Attack bonuses"],
 		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 44,
         "row": 27
@@ -677,7 +677,7 @@
     {
 		"name": "Prey III",
 		"prerequisites": ["Prey II"],
-		"uniques": ["[+10]% to Flank Attack bonuses"],
+		"uniques": ["[+60]% to Flank Attack bonuses"],
 		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
         "column": 45,
         "row": 28

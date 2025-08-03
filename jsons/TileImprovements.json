@@ -106,7 +106,8 @@
 		"name": "Lake House",
 		"terrainsCanBeBuiltOn": ["Lakes","Natural Lake"],
 		"production": 1,
-                "techRequired": "Fish Basquet",
+		"uniques":["Cannot be built on [Coast] tiles","Cannot be built on [Ocean] tiles"],
+        "techRequired": "Fish Basquet",
 		"turnsToBuild": 4,
 	},
 	{

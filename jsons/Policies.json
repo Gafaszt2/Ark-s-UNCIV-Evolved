@@ -293,7 +293,7 @@
             {
                 "name": "Fortifications",
                 "uniques": [
-                    "[+1 Production] from every [Fort]","[+1 Food] from every [Fort]"
+                    "[+1 Production] from every [Strategic resource]","[+1 Gold] from every [Luxury resource]"
                 ],
                 "row": 2,
                 "column": 3
@@ -301,7 +301,7 @@
             {
                 "name": "Breastplate of Death Complete",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]","[+2 Production] from every [Fort]","[+1 Food] from every [Fort]","[+1 Food] from every [Camp]"]
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]","[+2 Food] from every [Orchard]","[+2 Food] from every [Sap Collector]"]
             }
         ]
     },
@@ -556,7 +556,7 @@
             {
                 "name": "Future Science",
                 "uniques": [
-                    "[+1 Gold] from every [Luxury resource]"
+                    "[+1 Gold] from every [Luxury resource]","[+3 Science] from every [Swamp Zone]","[+3 Science] from every [Marsh]"
                 ],
                 "row": 1,
                 "column": 2
@@ -564,7 +564,7 @@
             {
                 "name": "Cultural Aceptation",
                 "uniques": [
-                    "[+1 Production] from every [Bonus resource]"
+                    "[+1 Production] from every [Bonus resource]","[+3 Science] from every [Volcano]"
                 ],
                 "row": 1,
                 "column": 4
@@ -580,7 +580,7 @@
             {
                 "name": "Cosmopolitanism Complete",
                 "uniques": [
-                    "Provides [1] [Uranium]","Enables Open Borders agreements","Enables Research agreements","Science gained from research agreements [+40]%","Enables Defensive Pacts","[+50]% Golden Age length" ]
+                    "[+3 Science] from every [Moai]","[+2 Food] from every [Lake House]","Provides [1] [Uranium]","Enables Open Borders agreements","Enables Research agreements","Science gained from research agreements [+40]%","Enables Defensive Pacts","[+50]% Golden Age length" ]
             }
         ]
     }
