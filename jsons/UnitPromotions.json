@@ -56,6 +56,22 @@
                 "unitTypes": ["Land Hybrid"],
                 "uniques": ["[+50]% Strength"],
         },
+        {
+                "name": "Armor I",
+                "uniques": ["[+15]% Strength"]
+        },
+        {
+                "name": "Armor II",
+                "uniques": ["[+15]% Strength"]
+        },
+        {
+                "name": "Armor III",
+                "uniques": ["[+25]% Strength"]
+        },
+        {
+                "name": "GPS Location",
+                "uniques": ["[+1] Sight","[+15]% Strength bonus for [Gunpowder] units within [2] tiles","[+15]% Strength bonus for [Sword] units within [2] tiles"]
+        },
 
 
 

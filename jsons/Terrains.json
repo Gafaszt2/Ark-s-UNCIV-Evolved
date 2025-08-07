@@ -1159,6 +1159,16 @@
                 "occursOn": ["Ocean"],
 		"uniques": ["Rare feature"]
 	},
+	{
+		"name": "Deep Ocean",
+        "food": 1,
+		"gold": 1,
+		"production": 1,
+		"type": "TerrainFeature",
+		"defenceBonus": 0.10,
+        "occursOn": ["Ocean"],
+		"uniques": ["Rare feature","Must be adjacent to [6] to [6] [Ocean] tiles"]
+	},
         {
 		"name": "Natural Lake",
 		"type": "TerrainFeature",

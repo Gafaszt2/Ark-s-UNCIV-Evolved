@@ -12,6 +12,7 @@
 	},
 	{
 		"name": "Potion Stations",
+		"requiredBuilding":"Ark Monument",
 		"hurryCostModifier": 50,
         "science": 1,
 		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Immunity] promotion <with [2]% chance>"],
@@ -168,13 +169,13 @@
 		"hurryCostModifier": 20,
                 "requiredNearbyImprovedResources": ["Megaloceros", "Phiomia", "Ovis", "Paraceratherium", "Morellatops", "Dodo", "Stego", "Dimorphodon"],
 		"uniques": ["[+1 Food] from [Megaloceros] tiles [in this city]",
-			"[+1 Food] from [Phiomia] tiles [in this city]",
-			"[+1 Food] from [Ovis] tiles [in this city]",
-                        "[+1 Culture] from [Paraceratherium] tiles [in this city]",
-                        "[+1 Culture] from [Morellatops] tiles [in this city]",
-                        "[+1 Science] from [Dodo] tiles [in this city]",
-                        "[+1 Faith] from [Stego] tiles [in this city]",
-                        "[+1 Production] from [Dimorphodon] tiles [in this city]"],
+			        "[+1 Food] from [Phiomia] tiles [in this city]",
+			        "[+1 Food] from [Ovis] tiles [in this city]",
+                    "[+1 Food] from [Paraceratherium] tiles [in this city]",
+                    "[+1 Food] from [Morellatops] tiles [in this city]",
+                    "[+1 Food] from [Dodo] tiles [in this city]",
+                    "[+1 Food] from [Stego] tiles [in this city]",
+                    "[+1 Food] from [Dimorphodon] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
 	{
@@ -205,19 +206,19 @@
 		"name": "Floating Island",
 		"replaces": "Refining Forges",
 		"uniqueTo": "The Center",
-                "greatPersonPoints": {"Great Scientist": 1},
-                "food": 3,
-                "production": 3,
-				"uniques": ["[+1 Gold] from [Camp] tiles [in this city]"],
+        "greatPersonPoints": {"Great Scientist": 1},
+        "food": 3,
+        "production": 3,
+		"uniques": ["[+1 Gold] from [Camp] tiles [in this city]"],
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Refining Forge"
 	},
         {
 		"name": "Temple",
-                "greatPersonPoints": {"Great Prophet": 2},
+        "greatPersonPoints": {"Great Prophet": 2},
 		"faith": 2,
-                "maintenance": 2,
+        "maintenance": 2,
 		"cost": 50,
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
@@ -232,15 +233,15 @@
 		"name": "Flint Tools",
 		"production": 1,
 		"hurryCostModifier": 20,
-                "requiredBuilding": "Flint Mine",
+        "requiredBuilding": "Flint Mine",
 		"requiredTech": "Agriculture"
 	},
         {
 		"name": "Flint Spears",
 		"maintenance": 1,
 		"hurryCostModifier": 20,
-                "uniques": ["[+1 Gold] from every specialist [in this city]"],
-                "requiredBuilding": "Flint Tools",
+        "uniques": ["[+1 Gold] from every specialist [in this city]"],
+        "requiredBuilding": "Flint Tools",
 		"requiredTech": "Spear"
 	},
         {
@@ -251,7 +252,7 @@
 	},
         {
 		"name": "Local Government",
-                "uniques": ["[+1 Gold] from every specialist [in this city] <during We Love The King Day>","[+1 Food] from every specialist [in this city] <during We Love The King Day>"],
+        "uniques": ["[+2 Gold] from every specialist [in this city] <during We Love The King Day>","[+2 Food] from every specialist [in this city] <during We Love The King Day>"],
 		"hurryCostModifier": 20,
 		"requiredTech": "Narcotics"
 	},
@@ -265,7 +266,7 @@
 		"name": "Water Channels",
 		"food": 1,
 		"hurryCostModifier": 20,
-                "requiredBuilding": "Farm",
+        "requiredBuilding": "Farm",
 		"requiredTech": "Agriculture"
 	},
         
@@ -273,8 +274,8 @@
 		"name": "Terraces",
 		"maintenance": 2,
 		"hurryCostModifier": 20,
-                "uniques": ["[+1 Food] from [Plantation] tiles [in this city]"],
-                "requiredBuilding": "Water Channels",
+        "uniques": ["[+1 Food] from [Plantation] tiles [in this city]"],
+        "requiredBuilding": "Water Channels",
 		"requiredTech": "Waterskin"
 	},
 
@@ -505,7 +506,7 @@
 
         {
 		"name": "Water Recolection",
-                "greatPersonPoints": {"Great Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
 		"food": 1,
 		"hurryCostModifier": 20,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
@@ -515,60 +516,75 @@
 		"name": "Deadly Lands",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Carnotaurus", "Cactus Sap", "Chupacabra"],
-		"uniques": ["[+1 Food] from [Carnotaurus] tiles [in this city]",
+		"uniques": [
+			"[+1 Food] from [Carnotaurus] tiles [in this city]",
 			"[+1 Food] from [Cactus Sap] tiles [in this city]",
-                        "[+1 Food] from [Chupacabra] tiles [in this city]"],
+            "[+1 Food] from [Chupacabra] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Rare Studies",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Rare Flower"],
+        "requiredNearbyImprovedResources": ["Rare Flower"],
 		"uniques": [
-			"[+1 Science] from [Rare Flower] tiles [in this city]"],
+			"[+1 Food] from [Rare Flower] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Redwood Predator",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Thylacoleo"],
-		"uniques": ["[-1 Food] from [Thylacoleo] tiles [in this city]",
-			"[+2 Production] from [Thylacoleo] tiles [in this city]"],
+		"uniques": [
+			"[+1 Production] from [Thylacoleo] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
         {
 		"name": "Desert Landmark",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Sand","Thorny Dragon"],
-		"uniques": ["[+1 Production] from [Sand] tiles [in this city]",
-			"[+2 Faith] from [Thorny Dragon] tiles [in this city]"],
+		"uniques": [
+			"[+1 Production] from [Sand] tiles [in this city]",
+			"[+1 Production] from [Thorny Dragon] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
         {
 		"name": "Ice Age",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Mammoth","Sabertooth","Direbear"],
-		"uniques": ["[+1 Food] from [Mammoth] tiles [in this city]",
-                            "[+1 Faith] from [Direbear] tiles [in this city]",
-			"[+1 Culture] from [Sabertooth] tiles [in this city]"],
+		"uniques": [
+			"[+1 Gold] from [Mammoth] tiles [in this city]",
+            "[+1 Gold] from [Direbear] tiles [in this city]",
+			"[+1 Gold] from [Sabertooth] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
         {
 		"name": "Evolution Museum",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Beelzebufo","Giant Bee","Gigantopithecus","Hatzegopteryx","Meganeura"],
-		"uniques": ["[+1 Food] from [Beelzebufo] tiles [in this city]","[+1 Food] from [Giant Bee] tiles [in this city]","[+1 Food] from [Gigantopithecus] tiles [in this city]",
-                            "[+1 Faith] from [Hatzegopteryx] tiles [in this city]",
-			"[+1 Culture] from [Meganeura] tiles [in this city]"],
+		"uniques": [
+			"[+1 Food] from [Beelzebufo] tiles [in this city]",
+			"[+1 Food] from [Giant Bee] tiles [in this city]",
+			"[+1 Food] from [Gigantopithecus] tiles [in this city]",
+            "[+1 Food] from [Hatzegopteryx] tiles [in this city]",
+			"[+1 Food] from [Meganeura] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
         {
 		"name": "Marine Mania",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Ichtyosaurus","Tusoteuthis","Sphyrna","Saurichtys","Ichtyornis","Leedsichtys","Liopleurodon","Manta","Hesperornis","Plesiosaur","Kelp"],
-		"uniques": ["[+1 Food] from [Ichtyosaurus] tiles [in this city]",
-                            "[+1 Faith] from [Ichtyornis] tiles [in this city]","[+1 Faith] from [Tusoteuthis] tiles [in this city]","[+1 Faith] from [Sphyrna] tiles [in this city]","[+1 Science] from [Saurichtys] tiles [in this city]","[+1 Food] from [Kelp] tiles [in this city]","[+1 Faith] from [Manta] tiles [in this city]","[+1 Faith] from [Plesiosaur] tiles [in this city]","[+1 Culture] from [Leedsichtys] tiles [in this city]","[+1 Culture] from [Liopleurodon] tiles [in this city]",
-			"[+1 Culture] from [Hesperornis] tiles [in this city]"],
+		"uniques": [
+			"[+1 Food] from [Ichtyosaurus] tiles [in this city]",
+            "[+1 Food] from [Ichtyornis] tiles [in this city]",
+			"[+1 Food] from [Tusoteuthis] tiles [in this city]",
+			"[+1 Food] from [Sphyrna] tiles [in this city]",
+			"[+1 Food] from [Saurichtys] tiles [in this city]",
+			"[+1 Food] from [Kelp] tiles [in this city]",
+			"[+1 Food] from [Manta] tiles [in this city]",
+			"[+1 Food] from [Plesiosaur] tiles [in this city]",
+			"[+1 Food] from [Leedsichtys] tiles [in this city]",
+			"[+1 Food] from [Liopleurodon] tiles [in this city]",
+			"[+1 Food] from [Hesperornis] tiles [in this city]"],
 		"requiredTech": "Bolas"
 	},
         {
@@ -582,8 +598,9 @@
         {
 		"name": "Outback Desert",
 		"hurryCostModifier": 50,
-                "requiredNearbyImprovedResources": ["Procoptodon"],
-		"uniques": ["[+1 Faith] from [Procoptodon] tiles [in this city]",
+        "requiredNearbyImprovedResources": ["Procoptodon"],
+		"uniques": [
+			"[+1 Food] from [Desert] tiles [in this city]",
 			"[+1 Food] from [Procoptodon] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
@@ -591,48 +608,57 @@
 		"name": "Fishing Parade",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Giant Leech", "Giant Otter", "Giant Piranha"],
-		"uniques": ["[+1 Food] from [Giant Leech] tiles [in this city]",
+		"uniques": [
+			"[+1 Food] from [Giant Leech] tiles [in this city]",
 			"[+1 Food] from [Giant Otter] tiles [in this city]",
-                        "[+1 Food] from [Giant Piranha] tiles [in this city]"],
+            "[+1 Food] from [Giant Piranha] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Extinction DLC",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Gasbags", "Defense Unit", "Velona", "Managarmr"],
-		"uniques": ["[+1 Food] from [Gasbags] tiles [in this city]",
-			"[+1 Food] from [Defense Unit] tiles [in this city]",
-                        "[+1 Food] from [Velona] tiles [in this city]",
-			"[+1 Food] from [Managarmr] tiles [in this city]"],
+		"uniques": [
+			"[+1 Gold] from [Gasbags] tiles [in this city]",
+			"[+1 Gold] from [Defense Unit] tiles [in this city]",
+            "[+1 Gold] from [Velona] tiles [in this city]",
+			"[+1 Gold] from [Electronics] tiles [in this city]",
+			"[+1 Gold] from [Bones] tiles [in this city]",
+			"[+1 Gold] from [Wild Dreadnoughtus] tiles [in this city]",
+			"[+1 Gold] from [Managarmr] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Genesis DLC",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Charcoal", "Amargasaur", "Magmasaur"],
-		"uniques": ["[+1 Food] from [Amargasaur] tiles [in this city]",
-			"[+1 Food] from [Magmasaur] tiles [in this city]",
-                        "[+1 Culture] from [Magmasaur] tiles [in this city]",
-			"[+1 Production] from [Charcoal] tiles [in this city]"],
+		"uniques": [
+			"[+1 Gold] from [Amargasaur] tiles [in this city]",
+			"[+1 Gold] from [Magmasaur] tiles [in this city]",
+            "[+1 Food] from [Astrocetus] tiles [in this city]",
+			"[+1 Gold] from [Charcoal] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Genesis Two DLC",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Stryder", "Astrodelphis", "Carniflora", "Carcharodontosaurus"],
-		"uniques": ["[+1 Gold] from [Stryder] tiles [in this city]",
-			"[+1 Food] from [Astrodelphis] tiles [in this city]",
-                        "[+1 Gold] from [Carniflora] tiles [in this city]",
-			"[+1 Food] from [Carcharodontosaurus] tiles [in this city]"],
+		"uniques": [
+			"[+1 Gold] from [Stryder] tiles [in this city]",
+			"[+1 Gold] from [Astrodelphis] tiles [in this city]",
+            "[+1 Gold] from [Carniflora] tiles [in this city]",
+			"[+1 Gold] from [Carcharodontosaurus] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
 		"name": "Aberration DLC",
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Roll Rat", "Fungic Wood","Seeker", "Basilisk"],
-		"uniques": ["[+2 Production] from [Roll Rat] tiles [in this city]","[+1 Faith] from [Seeker] tiles [in this city]",
-			"[+2 Production] from [Fungic Wood] tiles [in this city]",
-			"[+2 Production] from [Basilisk] tiles [in this city]"],
+		"uniques": [
+			"[+1 Production] from [Roll Rat] tiles [in this city]",
+			"[+1 Production] from [Seeker] tiles [in this city]",
+			"[+1 Production] from [Fungic Wood] tiles [in this city]",
+			"[+1 Production] from [Basilisk] tiles [in this city]"],
 		"requiredTech": "Notes"
 	},
         {
@@ -1039,7 +1065,6 @@
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Wood"],
 		"uniques": ["[+1 Production] from [Carpentry Area] tiles [in this city]"],
-		"requiredBuilding": "Fabricators",
                 "requiredTech": "Chainsaw"
 	},
         {
@@ -1049,8 +1074,51 @@
 		"hurryCostModifier": 50,
                 "requiredNearbyImprovedResources": ["Metal"],
 		"uniques": ["[+1 Science] from [Metal] tiles [in this city]"],
-		"requiredBuilding": "Fabricators",
                 "requiredTech": "Electronics"
+	},
+	{
+		"name": "Fabricator Workshop",
+        "greatPersonPoints": {"Great Engineer": 1},
+        "production": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Consumes [1] [Silica Pearls]"],
+        "requiredTech": "Fabricator"
+	},
+	{
+		"name": "GPS Supply",
+        "greatPersonPoints": {"Great Engineer": 1},
+        "gold": 1,
+		"science": 1,
+		"maintenance":2,
+		"hurryCostModifier": 50,
+		"uniques": ["Consumes [1] [Silica Pearls]","All newly-trained [Gunpowder] units [in this city] receive the [GPS Location] promotion","All newly-trained [Sword] units [in this city] receive the [GPS Location] promotion"],
+        "requiredTech": "GPS"
+	},
+	{
+		"name": "Advanced Forge I",
+        "greatPersonPoints": {"Great Engineer": 1},
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Production] from [Metal] tiles [in this city]","All newly-trained [Melee] units [in this city] receive the [Armor I] promotion",
+		"Consumes [1] [Silica Pearls]"],
+        "requiredTech": "Fabricator"
+	},
+	{
+		"name": "Advanced Forge II",
+        "greatPersonPoints": {"Great Engineer": 1},
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Production] from [Metal] tiles [in this city]","All newly-trained [Melee] units [in this city] receive the [Armor II] promotion",
+		"Consumes [1] [Silica Pearls]"],
+		"requiredBuilding": "Advanced Forge I",
+        "requiredTech": "Fabricator"
+	},
+	{
+		"name": "Advanced Forge III",
+        "greatPersonPoints": {"Great Engineer": 1},
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Production] from [Metal] tiles [in this city]","All newly-trained [Melee] units [in this city] receive the [Armor III] promotion",
+		"Consumes [1] [Silica Pearls]"],
+		"requiredBuilding": "Advanced Forge II",
+        "requiredTech": "Fabricator"
 	},
         {
 		"name": "Location",
@@ -1624,18 +1692,10 @@
 		"requiredTech": "Fabricator"
 	},
         {
-		"name": "Stone Conversor",
-		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Oily Rock]"],
-                "requiredResource": "Stone"
-		"requiredTech": "Stone Houses"
-	},
-        {
 		"name": "Oily Rock Conversor",
-                "requiredBuilding": "Stone Conversor"
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [1] [Oil]"],
-                "requiredResource": "Oily Rock"
+        "requiredResource": "Oil Vein",
 		"requiredTech": "Smithy"
 	},
 	{

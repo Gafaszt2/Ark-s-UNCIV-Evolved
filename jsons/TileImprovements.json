@@ -127,6 +127,7 @@
 		"uniques":["Provides [1] [Wood]","Provides [1] [Thatch]"],
         "techRequired": "Stone Hatchet"
 	},
+
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
@@ -177,9 +178,16 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"food": 1,
 		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "Z"
+	},
+	{
+		"name": "Diver",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"production": 1,
+		"uniques": ["Can only be built to improve a resource","[+1 Food] <starting from the [Smithy era]>","[+1 Gold] <starting from the [Electric era]>","[+1 Gold] <starting from the [Tek era]>"],
 		"shortcutKey": "Z"
 	},
         {
