@@ -72,6 +72,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Polytheism]>",
+        "Get the leader title of [Firestarter [leaderName]]",
             "[+2 Faith] [in capital]","[+1 Culture] [in capital]",
             "[+1 Faith] from [Mine] tiles [in all cities] <during the [Ancient era]>"
         ],
@@ -118,6 +119,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Monotheism]>",
+        "Get the leader title of [Beast Tamer [leaderName]]",
             "[+1 Culture, +1 Faith] from all [Faith] buildings <during the [Ancient era]>"
         ],
         "policies": [
@@ -271,7 +273,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+3 Culture] per [10] population [in capital]","[+15]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Land}] unit>"
+            "[+3 Culture] per [10] population [in capital]","Get the leader title of [Commander [leaderName]]","[+15]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Land}] unit>"
         ],
         "policies": [
             {
@@ -360,7 +362,7 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Get the leader title of [President [leaderName]]",
             "[+30]% of excess happiness converted to [Gold]","[+1 Gold] from every [Trading post]"
         ],
         "policies": [
@@ -450,7 +452,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Get the leader title of [Master [leaderName]]",
             "[+1 Production] from every [Luxury resource]"
         ],
         "policies": [
@@ -495,7 +497,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Get the leader title of [Homo Deus [leaderName]]",
             "[+3 Production] [in capital]","Triggers a [Global Event] event","Triggers a [Trash] event"
         ],
         "policies": [

@@ -1,4 +1,16 @@
 [
+{
+        "name": "Volcanic Fury",
+        "innerColor": [255, 255, 255],
+	"outerColor": [38, 149, 209],
+        "uniques": ["[+75]% Strength <when defending> <in [Rough terrain] tiles>","[+1] Movement <in [Rough terrain] tiles>"]
+},
+{
+        "name": "Dearc Bleed",
+        "innerColor": [255, 255, 255],
+	"outerColor": [38, 149, 209],
+        "uniques": ["[+30]% Strength <vs [Wounded] units> <with [25]% chance>","[+30]% Strength <vs [Fantasy] units> <with [15]% chance>","[+20]% Strength <vs [Sword] units> <with [65]% chance>"]
+},
         {
                 "name": "Frugivorous",
                 "innerColor": [20, 20, 20],
@@ -29,11 +41,15 @@
 
 {
                 "name": "Nourished",
-                "uniques": ["[+10] HP when healing <in [All] tiles>"],
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "uniques": ["[+10] HP when healing <in [All] tiles>"]
         },
 {
                 "name": "Berserk",
-                "uniques": ["[+20]% Strength","[+1] Movement"],
+                "innerColor": [255, 255, 255],
+		"outerColor": [38, 149, 209],
+                "uniques": ["[+20]% Strength","[+1] Movement"]
         },
 {
                 "name": "Desirable Looks",

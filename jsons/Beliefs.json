@@ -203,8 +203,13 @@
     {
         "name": "Karma’s Balance",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [Atlatis Biome]","[+1 Gold] from every [Tan Biome]","[+1 Gold] from every [Bay Biome]",
+        "uniques": ["[+1 Gold] from every [Atlantis Biome]","[+1 Gold] from every [Tan Biome]","[+1 Gold] from every [Bay Biome]",
     "[+1 Science] from every [Forest]"]
+    },
+    {
+        "name": "Ankh Piramid",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [Clay]","[+1 Gold] from every [Ragnarok Temple]","[+1 Faith] from every [Wastes]","[+1 Faith] from every [Cradle]"]
     },
     {
         "name": "Temple of Kanchipuram",

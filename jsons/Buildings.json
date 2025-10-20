@@ -19,10 +19,37 @@
 		"requiredTech": "Spear"
 	},
 	{
+		"name": "Tharat Monument",
+		"hurryCostModifier": 50,
+		"uniques": ["Consumes [1] [Clay]","[+10]% [Culture] [in this city]","[+10]% [Production] [in this city]"],
+		"requiredTech": "Mortar"
+	},
+	{
+		"name": "Tharat Granary",
+		"hurryCostModifier": 50,
+		"requiredBuilding": "Tharat Monument",
+		"uniques": ["Consumes [1] [Clay]","[+20]% [Food] [in this city]"],
+		"requiredTech": "Mortar"
+	},
+	{
+		"name": "Tharat Barracks",
+		"hurryCostModifier": 50,
+		"requiredBuilding": "Tharat Monument",
+		"uniques": ["Consumes [1] [Clay]","All newly-trained [Shotel Survivor] units [in all cities] receive the [Damage II] promotion","[+20]% [Production] [in this city]"],
+		"requiredTech": "Mortar"
+	},
+	{
+		"name": "Tharat Temple",
+		"hurryCostModifier": 50,
+		"requiredBuilding": "Tharat Monument",
+		"uniques": ["Consumes [1] [Clay]","All newly-trained [Shotel Survivor] units [in all cities] receive the [Zealot Warrior] promotion","[+20]% [Faith] [in this city]"],
+		"requiredTech": "Mortar"
+	},
+	{
 		"name": "Primitive Armory",
 		"hurryCostModifier": 50,
         "production": 1,
-		"uniques": ["[-10]% maintenance cost for buildings [in this city]"],
+		"uniques": ["[-10]% maintenance cost for [all] buildings [in this city]"],
 		"requiredTech": "Spear"
 	},
 	{
@@ -159,7 +186,7 @@
 		"maintenance": 8,
 		"happiness":1,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Bookshelf"
 	},

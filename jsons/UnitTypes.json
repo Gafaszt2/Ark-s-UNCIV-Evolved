@@ -504,7 +504,7 @@
     },
     {
         "name": "Marine Amphibious",
-        "uniques": ["[+15]% Strength when stacked with [Marine Amphibious]","[This Unit] gains the [Sedentary Lifestyle] status for [4] turn(s) <(modified by game speed)> <upon ending a turn in a [Friendly Land] tile> <with [45]% chance>","[This Unit] gains the [Coral Predator] promotion <upon ending a turn in a [Coast] tile> <with [10]% chance>","[This Unit] gains the [Sea Predator] promotion <upon ending a turn in a [Ocean] tile> <with [10]% chance>"],
+        "uniques": ["[+15]% Strength <when stacked with a [Marine Amphibious] unit>","[This Unit] gains the [Sedentary Lifestyle] status for [4] turn(s) <(modified by game speed)> <upon ending a turn in a [Friendly Land] tile> <with [45]% chance>","[This Unit] gains the [Coral Predator] promotion <upon ending a turn in a [Coast] tile> <with [10]% chance>","[This Unit] gains the [Sea Predator] promotion <upon ending a turn in a [Ocean] tile> <with [10]% chance>"],
         "movementType": "Water"
     },
     {

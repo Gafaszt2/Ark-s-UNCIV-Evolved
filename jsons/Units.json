@@ -752,7 +752,7 @@
 		"hurryCostModifier": 20,
                 "upgradesTo": "Carno Rider",
                 "obsoleteTech": "Smithy",
-		"attackSound": "troepo"
+		"attackSound": "tropeo"
 	},
         {
 		"name": "Troodon",
@@ -1242,7 +1242,7 @@
 		"upgradesTo": "Sniper",
 		"attackSound": "nonmetalhit"
                 "requiredTech": "Flak Armor",
-                "uniques": ["May Paradrop up to [4] tiles from inside friendly territory","Can build [Land] improvements on tiles", "Consumes [1] [Aquatic Mushroom]", "Requires at least [1] population","Never appears as a Barbarian unit"],
+                "uniques": ["May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>","Can build [Land] improvements on tiles", "Consumes [1] [Aquatic Mushroom]", "Requires at least [1] population","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Kentrosaurus",
@@ -1964,7 +1964,7 @@
 		"strength": 55,
 		"cost": 170,
                 "promotions": ["River Monster","Devonian"],
-                "uniques": ["Consumes [3] [Flint]","[-30]% Strength <vs [Marine Reptile] units>","[+30]% Strength <vs [Amphibious] units>"],
+                "uniques": ["Consumes [3] [Flint]","[-30]% Strength <vs [Marine Reptile] units>","[+10]% Strength <vs [Aquaria] units>","[+30]% Strength <vs [Amphibious] units>"],
 		"requiredTech": "Dock",
 		"attackSound": "marine"
 	},
@@ -2634,7 +2634,7 @@
 		"rangedStrength": 125,
 		"cost": 290,
 		"requiredTech": "Assault Riffle",
-		"uniques": ["[3] Range","[4] Sight","[2] additional attacks per turn","Unbuildable","Cannot be purchased","May Paradrop up to [3] tiles from inside friendly territory","[+20]% Strength bonus for [Gunpowder] units within [3] tiles","[+30]% Strength <vs [Giga Rider] units>","[+50]% Strength <vs [Tek Rex Rider] units>"],
+		"uniques": ["[3] Range","[4] Sight","[2] additional attacks per turn","Unbuildable","Cannot be purchased","May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>","[+20]% Strength bonus for [Gunpowder] units within [3] tiles","[+30]% Strength <vs [Giga Rider] units>","[+50]% Strength <vs [Tek Rex Rider] units>"],
 		"attackSound": "shot"
 	},
         {
@@ -2649,6 +2649,50 @@
                 "obsoleteTech": "Tek Armor",
 		"uniques": ["[+31]% Strength <vs [Siege] units>","[+15]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "shot"
+	},
+	// ADDITIONAL MAPS CREATURES
+	{
+		"name": "Dearc",
+		"unitType": "Flying",
+		"movement": 3,
+		"strength": 20,
+		"cost": 60,
+		"upgradesTo": "Argentavis Rider",
+        "requiredResource": "Feathers",
+		"attackSound": "tropeo",
+        "requiredTech": "Mortar",
+		"promotions": ["Jurassic","Dearc Bleed"],
+		"obsoleteTech": "Smithy",
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+	{
+		"name": "Anubite",
+		"unitType": "Fantasy",
+		"strength": 39,
+		"requiredTech": "Smithy",
+		"promotions":["Critical"],
+		"uniques": ["Only available <with [Clay]>",
+			"Consumes [2] [Clay]","Can be purchased with [Gold] [in all cities]","Can be purchased for [200] [Gold] [in all cities]",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 3,
+		"religiousStrength": 1900
+	},
+	{
+		"name": "Torosaurus Rider",
+		"unitType": "Ceratopsia",
+		"movement": 2,
+		"strength": 40,
+		"cost": 110,
+		"requiredTech": "Professional Domestication",
+        "upgradesTo": "Stego Rider",
+        "promotions": ["Cretaceous","Volcanic Fury"],
+        "obsoleteTech": "Tranq Arrow",
+		"uniques": ["Consumes [1] [Flint]","Consumes [1] [Diorite]"],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
 	},
         
 // Uniques
@@ -2678,7 +2722,7 @@
 		"cost": 88,
 		"attackSound": "theri",
         "requiredTech": "Flak Armor",
-        "uniques": ["[+20]% XP gained from combat","May Paradrop up to [2] tiles from inside friendly territory","[+1] Movement <starting from the [Tek era]>","[+10]% Strength bonus for [Fantasy] units within [2] tiles","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>",
+        "uniques": ["[+20]% XP gained from combat","May Paradrop to [Land] tiles up to [2] tiles away <in [{Friendly} {Land}] tiles>","[+1] Movement <starting from the [Tek era]>","[+10]% Strength bonus for [Fantasy] units within [2] tiles","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>",
 			"Can be purchased with [Culture] [in all cities]","Can be purchased with [Faith] [in all cities]","Heals [35] damage if it kills a unit <with [30]% chance>","Can build [Land] improvements on tiles","Never appears as a Barbarian unit"]
         },
 		{
@@ -2895,7 +2939,7 @@
                 "upgradesTo": "Flak Survivor",
                 "promotions": ["Jurassic"],
                 "obsoleteTech": "Flak Armor",
-                "uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Can build [Land] improvements on tiles", "Requires at least [1] population"],
+                "uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>","Can build [Land] improvements on tiles", "Requires at least [1] population"],
         },
         {
 		"name": "Amargasaurus",
