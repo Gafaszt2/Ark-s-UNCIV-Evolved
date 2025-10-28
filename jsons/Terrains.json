@@ -376,6 +376,43 @@
 		"uniques": ["Doesn't generate naturally"]
 	},
 	{
+		"name": "Lush",
+		"type": "Land",
+		"food": 2,
+		"production": 1,
+		"uniques":["Grassland"],
+		"movementCost": 1,
+		"RGB": [22, 46, 22]
+	},
+	{
+		"name": "Hot Desert",
+		"type": "Land",
+		"production": 1,
+		"uniques":["Desert"],
+		"movementCost": 1,
+		"RGB": [255, 156, 51]
+	},
+	{
+		"name": "Hot Desert Mount",
+		"type": "Land",
+		"faith": 1,
+		"impassable": false, 
+		"unbuildable": false,
+		"uniques":["Mountain","Montano"],
+		"movementCost": 1,
+		"RGB": [15, 15, 14]
+	},
+	{
+		"name": "Lush Mount",
+		"type": "Land",
+		"faith": 1,
+		"impassable": false, 
+		"unbuildable": false,
+		"uniques":["Mountain","Montano"],
+		"movementCost": 1,
+		"RGB": [15, 15, 14]
+	},
+	{
 		"name": "Wastes",
 		"type": "Land",
 		"production": 1,
@@ -1199,7 +1236,7 @@
 		"overrideStats": false,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Cradle","Wastes","Grassland","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Sandstone","Eldritch","Bog","Tundra","Plains","Desert","Snow","Aberrant Blue Zone","Swamp","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fjordlush","Wonderland","Fungi","Faughen"],
+		"occursOn": ["Cradle","Lush","Wastes","Grassland","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Sandstone","Eldritch","Bog","Tundra","Plains","Desert","Snow","Aberrant Blue Zone","Swamp","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Beach","Snowy Beach","Montano","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fjordlush","Wonderland","Fungi","Faughen"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -1223,7 +1260,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Cradle","Tundra","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fungi","Wonderland"],
+		"occursOn": ["Cradle","Lakes","Lush","Tundra","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Sandstone","Eldritch","Bog","Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Darklight Tundra","Preevening Savannah","Twilight Forest","White Death","Sunday Desert","Fungi","Wonderland"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+1 Gold, +1 Production] to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -1247,7 +1284,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Swamp","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Plains","Grassland","Dead Land","Fallout Land","Genesis Soil"],
+		"occursOn": ["Swamp","Lakes","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Plains","Grassland","Dead Land","Fallout Land","Genesis Soil"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Provides a one-time bonus of [+1 Gold, +1 Food] to the closest city when cut down",
@@ -1283,7 +1320,7 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": 1.20,
-		"occursOn": ["Atlantis Biome","Coast"],
+		"occursOn": ["Atlantis Biome","Lakes","Coast"],
 		"uniques": ["Rare feature",
 					"[+2] to Fertility for Map Generation"]
 	},

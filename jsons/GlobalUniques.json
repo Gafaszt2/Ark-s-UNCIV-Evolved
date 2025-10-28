@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "May buy [Faith] buildings with [Faith] [in all cities]"
          ///// Gold 
         
         "[Gold] cost of purchasing [Land] units [-20]% <during a Golden Age>",

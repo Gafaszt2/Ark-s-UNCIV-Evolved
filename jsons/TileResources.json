@@ -3,7 +3,7 @@
 	{
 		"name": "Phiomia",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland"],
 		"food": 1,
                 "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
 		"improvedBy": ["Ranch", "Teepee"],
@@ -52,7 +52,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Oncorhynchus grexlamia is a generally passive fish. Its main form of protection is swimming in a large school. Oncorhynchus does not like conflict, and generally swims away from anything larger than itself at very high speeds. Once provoked, however, Oncorhynchus becomes quite aggressive, along with its nearby brethren. It locks onto its prey with its long saberteeth and begins draining that creature's blood."}]
 		"improvement": "Lake House",
-		"uniques": ["Generated on every [30] tiles <in [Lakes] tiles>"]
+		"uniques": ["Water Resource","Generated on every [30] tiles <in [Lakes] tiles>"]
 	},
         {
 		"name": "Giant Piranha",
@@ -61,7 +61,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Megapiranha magnadmorsus is carnivorous fish found fairly commonly in the rivers and ponds of the island. Its bite is incredibly powerful; I've even seen them break through the armored turtles of the island."}] 
 		"improvement": "Lake House",
-		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
+		"uniques": ["Water Resource","Generated on every [15] tiles <in [Natural Lake] tiles>"]
 	},
         {
 		"name": "Giant Leech",
@@ -93,7 +93,7 @@
         {
 		"name": "Thorny Dragon",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Sandstone"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Sandstone"],
 		"food": 1,
                 "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
 		"improvement": "Camp",
@@ -230,7 +230,7 @@
 		"food": 1,
                 "civilopediaText": [{"text": "Coelacanth nutritia is one of the few creatures on the Island with a relative which can be found back home. The Coelacanth thrive in the waters around the Island, as well as within rivers and lakes. Unlike most Coelacanths, Coelacanth nutritia meat contains less oil and urea. In fact, it is one of the healthier sources of meat I've yet found. Most Coelacanths are opportunistic feeders that eat anything smaller than itself, likely including baby water snakes, insect and plant life."}]
 		"improvedBy": ["Lake House", "Fishing Boats"],
-		"uniques": ["Generated on every [12] tiles <in [Coast] tiles>","Generated on every [12] tiles <in [Lakes] tiles>"]
+		"uniques": ["Water Resource","Generated on every [12] tiles <in [Coast] tiles>","Generated on every [12] tiles <in [Lakes] tiles>"]
 	},
 	{
 		"name": "Carp",
@@ -246,7 +246,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Coral Zone] tiles>"]
+		"uniques": ["Water Resource","Generated on every [10] tiles <in [Coral Zone] tiles>"]
 	},
 	{
 		"name": "Desert Pearl",
@@ -269,7 +269,7 @@
 		"terrainsCanBeFoundOn": ["Volcanic Zone","Lakes"],
 		"food": 1,
 		"improvedBy": ["Lake House", "Fishing Boats"],
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>","Generated on every [80] tiles <in [Lakes] tiles>"]
+		"uniques": ["Water Resource","Generated on every [10] tiles <in [Volcanic Zone] tiles>","Generated on every [80] tiles <in [Lakes] tiles>"]
 	},
 	{
 		"name": "Saurichtys",
@@ -277,7 +277,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
+		"uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
 	{
 		"name": "Sphyrna",
@@ -285,7 +285,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
+		"uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Hesperornis",
@@ -293,7 +293,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [20] tiles <in [Coral Zone] tiles>"]
+		"uniques": ["Water Resource","Generated on every [20] tiles <in [Coral Zone] tiles>"]
 	},
         {
 		"name": "Sauropterygia",
@@ -301,7 +301,7 @@
 		"terrainsCanBeFoundOn": ["Coral Zone"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [30] tiles <in [Coral Zone] tiles>"]
+		"uniques": ["Water Resource","Generated on every [30] tiles <in [Coral Zone] tiles>"]
 	},
         {
 		"name": "Volcanic Edestus",
@@ -309,7 +309,7 @@
 		"terrainsCanBeFoundOn": ["Volcanic Zone"],
 		"gold": 3,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
+		"uniques": ["Water Resource","Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
 	},
 	{
 		"name": "Paraceratherium",
@@ -402,7 +402,7 @@
 		"food": 1,
         "civilopediaText": [{"text": "Tusoteuthis vampyrus is a very aggressive water predator. Approximately 30 feet long, Tusoteuthis is a terror of the deep. Once it grabs its prey, it slowly crushes it into submission while using the talons on its tentacles to siphon and drink the victim's blood."}],
 		"improvement": "Fishing Boats",
-        "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>"]
+        "uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Kelp",
@@ -411,7 +411,7 @@
 		"food": 1,
                 
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [80] tiles <in [Coast] tiles>","Generated on every [400] tiles <in [Ocean] tiles>"]
+            "uniques": ["Water Resource","Generated on every [80] tiles <in [Coast] tiles>","Generated on every [400] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Liopleurodon",
@@ -421,7 +421,7 @@
         "science": 1,
         "civilopediaText": [{"text": "Liopleurodon magicus is a mid-sized ocean creature, typically between 20 and 25 feet long. I've yet to directly encounter one myself, but from the tales other tribes have shared, it compares to no other on the Island. The rumors indicate that this beautiful creature has magical properties."}],
 		"improvement": "Fishing Boats",
-        "uniques": ["Generated on every [9999999] tiles <in [Deep Ocean] tiles>"]
+        "uniques": ["Water Resource","Generated on every [9999999] tiles <in [Deep Ocean] tiles>"]
 	},
         {
 		"name": "Manta",
@@ -431,7 +431,7 @@
                 "civilopediaText": [{"text": "Here is another example of a creature that seems to have evolved beyond its historical traits. Everything points to this being a saltwater ray, but Manta mobula has developed the ability to swim into the island's rivers and shallows, as well as through the open ocean. Perhaps there were originally two types of ray on the island before, but years of interbreeding combined their lineage. Normally docile, Manta mobula is a carnivore only in that it naturally consumes plankton."}]
                 
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [300] tiles <in [Coast] tiles>"]
+            "uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [300] tiles <in [Coast] tiles>"]
 	},
         {
 		"name": "Plesiosaur",
@@ -441,7 +441,7 @@
                 "civilopediaText": [{"text": "Elasmosaurus remuspissa is typically found in the deep oceans, and has a strange role in the oceanic food chain. It almost exclusively hunts the smaller creatures in the waters, leaving most even moderately large creatures alone. The sheer size of the Elasmosaurus means that the quantity of food it must eat to sustain itself is nothing short of enormous. Elasmosaurus is a formidable fighter."}]
                 
 		"improvement": "Fishing Boats",
-            "uniques": ["Generated on every [400] tiles <in [Reef] tiles>"]
+            "uniques": ["Water Resource","Generated on every [400] tiles <in [Reef] tiles>"]
 	},
         {
 		"name": "Leedsichtys",
@@ -643,7 +643,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Beach","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Beach","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvedBy": ["Ranch", "Teepee"],
 		
@@ -654,7 +654,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Redwoods","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Redwoods","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Not shown on world screen <without [Thatch]>","Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
@@ -664,7 +664,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lakes","Mirage","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Lakes","Mirage","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Ranch","Lake House"],
 		
@@ -682,7 +682,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Camp"],
 		"uniques": ["Not shown on world screen <without [Chitin]>","Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
@@ -693,7 +693,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -728,7 +728,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Cradle","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Eldritch","Cradle","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -753,7 +753,7 @@
 		"terrainsCanBeFoundOn": ["Ocean","Coast","Genesis Lake"],
 		"science": 2,
 		"improvement": "Fishing Boats",
-            "uniques": ["Not shown on world screen <without [Biotoxin]>","Generated on every [120] tiles <in [Coast] tiles>","Generated on every [150] tiles <in [Ocean] tiles>"]
+            "uniques": ["Water Resource","Not shown on world screen <without [Biotoxin]>","Generated on every [120] tiles <in [Coast] tiles>","Generated on every [150] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Tek",
@@ -767,7 +767,7 @@
 	{
 		"name": "Cotton",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland","Flood plains"],
 		"gold": 1,
 		"improvement": "Plantation",
 		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
@@ -775,7 +775,7 @@
 	{
 		"name": "Allosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
 		"food": 1,
 		"improvement": "Camp",
 		"uniques": ["Not shown on world screen <without [Allosaurus]>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Montano] tiles>"]
@@ -783,7 +783,7 @@
                 {
 		"name": "Ravager",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Aberrant Green Zone","Aberrant Blue Zone"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Aberrant Green Zone","Aberrant Blue Zone"],
 		"food": 1,
                 "uniques": ["Not shown on world screen <without [Ravager]>","Generated on every [60000] tiles <in [Grassland] tiles>"]
 		"improvement": "Camp",
@@ -792,7 +792,7 @@
                 {
 		"name": "Yutyrannus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Snow","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Snow","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra"],
 		"food": 1,
                 "uniques": ["Not shown on world screen <without [Yutyrannus]>","Generated on every [70] tiles <in [Snow] tiles>"]
 		"improvement": "Camp",
@@ -801,7 +801,7 @@
         {
 		"name": "Purlovia",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Forest","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Forest","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"food": 1,
 		"improvement": "Camp",
 		
@@ -810,7 +810,7 @@
 	{
 		"name": "Cristal",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
@@ -818,7 +818,7 @@
 	{
 		"name": "Sulphur",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Hill","Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
@@ -826,7 +826,7 @@
 	{
 		"name": "Tyrannosaurus",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hill","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Hill","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Genesis Soil","Tek Soil"],
 		"gold": 2,
 		"improvement": "Camp",
 		"uniques": ["Not shown on world screen <without [Tyrannosaurus]>","Generated on every [70] tiles <in [Hill] tiles>"]
@@ -834,7 +834,7 @@
 	{
 		"name": "Woolly Rhino",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Tundra","Snow","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Tundra","Snow","Genesis Soil","Tek Soil"],
 		"gold": 2,
 		"improvement": "Camp",
 		
@@ -843,7 +843,7 @@
         {
 		"name": "Velona",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
 		"food": 2,
 		"uniques":["Not shown on world screen <without [Velona]>"],
 		"improvement": "Camp"
@@ -852,7 +852,7 @@
         {
 		"name": "Managarmr",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Dead Land","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Fallout Land","Tundra"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Fallout Land","Tundra"],
 		"food": 2,
 		"uniques":["Not shown on world screen <without [Managarmr]>"],
 		"improvement": "Camp"
@@ -862,7 +862,7 @@
 	{
 		"name": "Obsidian",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland","Plains","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
@@ -870,7 +870,7 @@
 	{
 		"name": "Sand",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Montano"],
+		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Montano"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
@@ -898,7 +898,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Basilosaurus]>","Generated on every [60] tiles <in [Coast] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Basilosaurus]>","Generated on every [60] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Black Pearl",
@@ -906,7 +906,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [600] tiles <in [Coast] tiles>"]
+		"uniques": ["Water Resource","Generated on every [600] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Blue Gem",
@@ -947,7 +947,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Megalodon]>","Generated on every [20] tiles <in [Coast] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Megalodon]>","Generated on every [20] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Titanium",
@@ -955,7 +955,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Titanium]>","Generated on every [40] tiles <in [Ocean] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Titanium]>","Generated on every [40] tiles <in [Ocean] tiles>"]
 	},
 	{
 		"name": "Bloom",
@@ -963,7 +963,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Bloom]>","Generated on every [40] tiles <in [Ocean] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Bloom]>","Generated on every [40] tiles <in [Ocean] tiles>"]
 	},
 	{
 		"name": "Angler Gel",
@@ -971,7 +971,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Angler Gel]>","Generated on every [40] tiles <in [Ocean] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Angler Gel]>","Generated on every [40] tiles <in [Ocean] tiles>"]
 	},
 	{
 		"name": "Hard Shell",
@@ -979,7 +979,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Not shown on world screen <without [Hard Shell]>","Generated on every [40] tiles <in [Coast] tiles>"]
+		"uniques": ["Water Resource","Not shown on world screen <without [Hard Shell]>","Generated on every [40] tiles <in [Coast] tiles>"]
 	},
         {
 		"name": "Rock Drake Egg",
@@ -1002,7 +1002,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"uniques":["Doesn't generate naturally"],
+		"uniques":["Water Resource","Doesn't generate naturally"],
 		"improvement": "Fishing Boats"
 	},
 	{
@@ -1024,7 +1024,7 @@
 		"name": "Seahorses",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"uniques":["Doesn't generate naturally"],
+		"uniques":["Water Resource","Doesn't generate naturally"],
 		"food": 1,
 		"improvement": "Fishing Boats"
 	},
@@ -1039,7 +1039,7 @@
 		"name": "Sheepshead Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"uniques":["Doesn't generate naturally"],
+		"uniques":["Water Resource","Doesn't generate naturally"],
 		"food": 1,
 		"improvement": "Fishing Boats"
 	},
@@ -1129,7 +1129,7 @@
 	{
 		"name": "Megalania",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
+		"terrainsCanBeFoundOn": ["Desert","Hot Desert","Tundra","Plains","Forest"],
 		"gold": 2,
 		"improvement": "Camp",
 		
@@ -1138,7 +1138,7 @@
 	{
 		"name": "Lystrosaurus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle","Beach"],
+		"terrainsCanBeFoundOn": ["Forest","Lush","Marsh","Jungle","Beach"],
 		"gold": 2,
 		"improvement": "Camp",
 		
@@ -1323,7 +1323,11 @@
                 "uniques": ["Not shown on world screen <without [Bones]>","Doesn't generate naturally"]
 	},
 
-
+{
+		"name": "Rat Cheese",
+		"resourceType": "Strategic",
+        "uniques": ["Not shown on world screen <without [Rat Cheese]>","Cannot be traded"]
+	},
 {
 		"name": "Mutagel",
                 "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Hill","Montano"],
@@ -1415,7 +1419,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Wastes","Desert"],
 		"production": 1,
-		"improvedBy": ["Ranch", "Teepee"],
+		"improvedBy": ["Camp"],
 		"uniques": ["Not shown on world screen <without [Clay]>","Doesn't generate naturally"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -1425,10 +1429,30 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Montano","Cradle"],
 		"production": 1,
-		"improvedBy": ["Ranch", "Teepee"],
+		"improvedBy": ["Mine"],
 		"uniques": ["Not shown on world screen <without [Clay]>","Doesn't generate naturally"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "Lungs",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Lush","Grassland"],
+		"food": 1,
+		"improvedBy": ["Camp"],
+		"uniques": ["Not shown on world screen <without [Clay]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Desert Crystal",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Hot Desert","Wastes","Desert"],
+		"gold": 1,
+		"improvedBy": ["Mine"],
+		"uniques": ["Not shown on world screen <without [Clay]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
 	},
 
 

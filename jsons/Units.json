@@ -842,7 +842,7 @@
 	},
         {
 		"name": "Carno Rider",
-		"unitType": "Theropoda",
+		"unitType": "Abelisauridae",
 		"movement": 2,
 		"strength": 30,
 		"cost": 78,
@@ -1493,6 +1493,29 @@
         "requiredTech": "Pliers",
         "uniques": ["Can build [Land] improvements on tiles"],
         },
+		{
+		"name": "Rat Engineer",
+		"unitType": "Rat",
+		"movement": 3,
+		"strength": 45,
+		"cost": 190,
+		"attackSound": "shot",
+        "requiredTech": "Pliers",
+        "uniques": ["Consumes [1] [Rat Cheese]"]
+        },
+		{
+		"name": "Rat Queen",
+		"unitType": "Rat",
+		"movement": 3,
+		"strength": 100,
+		"cost": 300,
+		"attackSound": "shot",
+        "requiredTech": "Pliers",
+        "uniques": [
+		"Limited to [2] per Civilization",
+		"[+100]% XP gained from combat",
+		"Consumes [4] [Rat Cheese]"]
+        },
         {
 		"name": "Danger Survivor",
 		"unitType": "Gunpowder",
@@ -1556,6 +1579,18 @@
 		"upgradesTo": "Tek HomoDeus",
         "requiredTech": "Flak Armor",
         "uniques": ["Can build [Land] improvements on tiles", "Requires at least [1] population","Never appears as a Barbarian unit"],
+        },
+		{
+		"name": "Rat Brute",
+		"unitType": "Rat",
+		"movement": 2,
+		"strength": 50,
+		"cost": 90,
+		"obsoleteTech": "Island Bosses",
+		"attackSound": "metalhit",
+		"upgradesTo": "Tek HomoDeus",
+        "requiredTech": "Flak Armor",
+        "uniques": ["Consumes [1] [Rat Cheese]","Never appears as a Barbarian unit"],
         },
         {
 		"name": "Shotel Survivor",
@@ -2694,6 +2729,49 @@
 		"hurryCostModifier": 20,
 		"attackSound": "dinoherb"
 	},
+	{
+		"name": "Rugops Rider",
+		"unitType": "Abelisauridae",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"requiredTech": "Professional Domestication",
+        "upgradesTo": "Stego Rider",
+        "promotions": ["Cretaceous"],
+		"uniques":["Consumes [1] [Lungs]","[+15]% Strength <vs [Mammal] units> <when below [19] HP>","[+15]% Strength <vs [Sword] units> <when below [19] HP>",
+	    "[+25]% Strength <vs [Fantasy] units> <when below [10] HP>","[+25]% Strength <vs [Sauropodomorpha] units> <when below [10] HP>"],
+        "obsoleteTech": "Tranq Arrow",
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Ekrixinatosaurus Rider",
+		"unitType": "Abelisauridae",
+		"movement": 2,
+		"strength": 25,
+		"cost": 50,
+		"requiredTech": "Tranq Arrow",
+		"hurryCostModifier": 20,
+        "upgradesTo": "Theri Rider",
+		"uniques":["Consumes [1] [Desert Crystal]"],
+        "promotions": ["Cretaceous","Ambush Predator","Bone-Shaker"],
+        "obsoleteTech": "Metal Hatchet",
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Majungasaurus Rider",
+		"unitType": "Abelisauridae",
+		"movement": 4,
+		"strength": 80,
+		"cost": 200,
+		"requiredTech": "Chain Bola",
+		"hurryCostModifier": 20,
+		"uniques":["Consumes [1] [Desert Crystal]","Consumes [1] [Lungs]","[+20]% Strength <vs cities>"],
+        "promotions": ["Cretaceous","Stare","Savage Momentum","Health I"],
+		"attackSound": "altmedcarno"
+	},
+	// Beastialis: Monolophosaurus, Vallibonavenatrix, Siamosaurus,
+	// Appalachian: Rugops, Ekrixinatosaurus, Majungasaurus Appalchian Variants: Mammoth, Sabertooth, Megaloceros
         
 // Uniques
 

@@ -1033,6 +1033,56 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"cities": ["Sikelm"]
 	},
 
+
+
+	{
+		"name": "Vermin",
+		"adjective": ["Vermin"],
+		"cityStateType": "Rats",
+
+		"declaringWar": "You've made a grave mistake. We may be tiny, but we bite ankles like legends!",
+		"attacked": "Fork over the cheese or we gnaw your roads. Your choice, bigfoot..",
+		"defeated": "...",
+		"outerColor": [59, 255, 59],
+		"innerColor": [0,0,0],
+		"cities": ["Vermin"]
+	},
+	{
+		"name": "Cheddarspire",
+		"adjective": ["Cheddarspire"],
+		"cityStateType": "Rats",
+
+		"declaringWar": "You've made a grave mistake. We may be tiny, but we bite ankles like legends!",
+		"attacked": "Fork over the cheese or we gnaw your roads. Your choice, bigfoot..",
+		"defeated": "...",
+		"outerColor": [255, 239, 59],
+		"innerColor": [0,0,0],
+		"cities": ["Cheddarspire"]
+	},
+	{
+		"name": "Syndicate",
+		"adjective": ["Syndicate"],
+		"cityStateType": "Rats",
+
+		"declaringWar": "You've made a grave mistake. We may be tiny, but we bite ankles like legends!",
+		"attacked": "Fork over the cheese or we gnaw your roads. Your choice, bigfoot..",
+		"defeated": "...",
+		"outerColor": [69, 127, 245],
+		"innerColor": [0,0,0],
+		"cities": ["Syndicate"]
+	},
+	{
+		"name": "Jane Cult",
+		"adjective": ["Jane Cult"],
+		"cityStateType": "Rats",
+
+		"declaringWar": "You've made a grave mistake. We may be tiny, but we bite ankles like legends!",
+		"attacked": "Fork over the cheese or we gnaw your roads. Your choice, bigfoot..",
+		"defeated": "...",
+		"outerColor": [245, 54, 143],
+		"innerColor": [0,0,0],
+		"cities": ["Jane Cult"]
+	},
 	//Barbarian
 	{
 		"name": "Barbarians",

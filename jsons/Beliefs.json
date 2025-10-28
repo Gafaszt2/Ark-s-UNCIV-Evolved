@@ -219,12 +219,90 @@
     {
         "name": "Ratha Procession",
         "type": "Founder",
-        "uniques": ["[Gold] cost of purchasing [Science] buildings [-70]%"]
+        "uniques": ["[Gold] cost of purchasing [Faith] buildings [-100]% <for [7] turns>"]
     },
     {
         "name": "Festival of Navaratri",
         "type": "Founder",
         "uniques": ["[+3 Faith] per [2] social policies adopted <for [15] turns>"]
+    },
+    {
+        "name": "Pachamama",
+        "type": "Founder",
+        "uniques": ["[+30]% [Culture] from every [Temple]","[+30]% [Food] from every [Temple]"]
+    },
+    {
+        "name": "Mazdayasna",
+        "type": "Founder",
+        "uniques": ["[+1 Faith, +1 Happiness] per [3] population [in all cities]"]
+    },
+    {
+        "name": "Frashokereti",
+        "type": "Founder",
+        "uniques": ["[+4 Science, +4 Faith] from every [Garden]"]
+    },
+    {
+        "name": "Atar",
+        "type": "Founder",
+        "uniques": ["[+2 Science, +2 Culture] from every [Shrine]"]
+    },
+    {
+        "name": "Gathas",
+        "type": "Founder",
+        "uniques": ["[+3 Faith, +1 Culture] from every [Tribal Mark]"]
+    },
+    {
+        "name": "Kejawen Dharma",
+        "type": "Founder",
+        "uniques": ["[+1 Faith, +1 Culture] from every [Water Resource]"]
+    },
+    {
+        "name": "Đạo Mẫu Blessing",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] from every [Lakes]"]
+    },
+    {
+        "name": "Nats of the Forest",
+        "type": "Founder",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Forest]","[+10]% [Culture] from every [Forest]"]
+    },
+    {
+        "name": "Phi Protection",
+        "type": "Founder",
+        "uniques": ["All newly-trained [Melee] units [in this city] receive the [Armor I] promotion","[+25]% [Faith] from every [Jungle]"]
+    },
+    {
+        "name": "Olodumare’s Will",
+        "type": "Founder",
+        "uniques": ["[+25]% [Faith] from every [Camp]","[+3]% [Faith] from every [Ranch]"]
+    },
+    {
+        "name": "Cornbread Communion",
+        "type": "Follower",
+        "uniques": ["[+25]% [Faith] from every [Mountain]","[+33]% Production when constructing [Food] wonders [in all cities]","[+33]% Production when constructing [Faith] wonders [in all cities]"]
+    },
+    {
+        "name": "Shamanic Trance",
+        "type": "Follower",
+        "uniques": ["[+25]% [Faith] from every [Diver]","[+25]% [Faith] from every [Lakes]"]
+    },
+    {
+        "name": "Tupã",
+        "type": "Follower",
+        "uniques": ["[+25]% [Culture] from every [Diver]","[+25]% [Gold] from every [River]"]
+    },
+    {
+        "name": "Breath of the Deep",
+        "type": "Follower",
+        "uniques": ["[+25]% [Food] from every [Diver]","[+1 Culture, +1 Faith] from every [Diver]"]
+    },
+    {
+        "name": "Saltwater Blessing",
+        "type": "Follower",
+        "uniques": ["[+50]% [Faith] from every [Diver] <during the [Smithy era]>",
+    "[+60]% [Faith] from every [Diver] <during the [Electric era]>","[+70]% [Faith] from every [Diver] <during the [Tek era]>",
+    "[+20]% [Gold] from every [Diver] <during the [Smithy era]>",
+    "[+30]% [Gold] from every [Diver] <during the [Electric era]>","[+40]% [Gold] from every [Diver] <during the [Tek era]>"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 

@@ -1,5 +1,11 @@
 [
     {
+        "name": "Rats",
+        "friendBonusUniques": ["Provides [1] [Fiber]","Provides [2] [Rat Cheese]","[+2 Culture] [in capital]"],
+        "allyBonusUniques": ["Provides [3] [Fiber]","Provides [6] [Rat Cheese]","[+6 Culture] [in capital]","Provides [3] [Lungs]","Provides [3] [Desert Crystal]"],
+        "color": [102, 245, 54]
+    },
+    {
         "name": "Cultured",
         "friendBonusUniques": ["[+1 Culture] [in capital] <during the [Ancient era]>","[+2 Culture] [in capital] <during the [Leather era]>","[+3 Culture] [in capital] <during the [Smithy era]>","[+4 Culture] [in capital] <during the [Electric era]>","[+5 Culture] [in capital] <during the [Tek era]>"],
         "allyBonusUniques": ["[+1 Culture] [in all cities] <during the [Ancient era]>","[+2 Culture] [in all cities] <during the [Leather era]>","[+3 Culture] [in all cities] <during the [Smithy era]>","[+4 Culture] [in all cities] <during the [Electric era]>","[+5 Culture] [in all cities] <during the [Tek era]>"],
