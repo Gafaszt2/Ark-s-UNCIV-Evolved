@@ -2770,6 +2770,57 @@
         "promotions": ["Cretaceous","Stare","Savage Momentum","Health I"],
 		"attackSound": "altmedcarno"
 	},
+	{
+		"name": "Giant Death Worm",
+		"unitType": "Fantasy",
+		"movement": 1,
+		"strength": 70,
+		"cost": 110,
+		"requiredTech": "Sword",
+        "obsoleteTech": "Fabricator",
+		"uniques": ["[+2] Movement <in [Desert] tiles>","Consumes [1] [Cementing Paste]","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "insec"
+	},
+	{
+		"name": "Elderclaw",
+        "upgradesTo": "Tek Rex Rider",
+		"unitType": "Fantasy",
+		"movement": 2,
+		"strength": 190,
+		"cost": 200,
+		"requiredTech": "Auto Torret",
+        "uniques":["Consumes [1] [Cementing Paste]","Consumes [1] [Chitin]","Consumes [5] [Flint]",
+		"[+35]% Strength <when fighting in [Montano] tiles>","[+35]% Strength <when fighting in [Forest] tiles>","[+35]% Strength <when fighting in [Jungle] tiles>"],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Ossidon",
+        "upgradesTo": "Giga Rider",
+		"unitType": "Fantasy",
+		"movement": 2,
+		"strength": 90,
+		"cost": 200,
+		"requiredTech": "Chain Bola",
+        "obsoleteTech": "Island Bosses",
+	    "uniques":["Consumes [1] [Cementing Paste]","Consumes [1] [Chitin]","Consumes [1] [Silk]"],
+		"hurryCostModifier": 20,
+		"attackSound": "dragon"
+	},
+	{
+		"name": "Vulture",
+		"unitType": "Flying",
+		"movement": 3,
+		"strength": 3,
+        "rangedStrength": 15,
+		"cost": 45,
+		"attackSound": "tropeo",
+        "requiredTech": "Bow and Arrow",
+        "obsoleteTech": "Refining Forge",
+		"promotions":["Eocene"],
+        "uniques": ["Consumes [1] [Cementing Paste]"]
+    },
 	// Beastialis: Monolophosaurus, Vallibonavenatrix, Siamosaurus,
 	// Appalachian: Rugops, Ekrixinatosaurus, Majungasaurus Appalchian Variants: Mammoth, Sabertooth, Megaloceros
         

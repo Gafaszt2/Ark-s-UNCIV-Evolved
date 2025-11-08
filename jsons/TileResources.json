@@ -824,6 +824,14 @@
 		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
 	},
 	{
+		"name": "Cementing Paste",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Montano"],
+		"gold": 2,
+		"improvement": "Camp",
+		"uniques": ["Not shown on world screen <without [Cementing Paste]>","Generated on every [10] tiles <in [Montano] tiles>"]
+	},
+	{
 		"name": "Tyrannosaurus",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Hill","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Genesis Soil","Tek Soil"],

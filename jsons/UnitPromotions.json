@@ -1,5 +1,93 @@
 [
         {
+                "name": "Aerial Supremacy",
+                "innerColor": [199, 156, 255],
+	        "outerColor": [42, 27, 61],
+                "unitTypes":["Flying"],
+                "uniques": ["[+20]% Strength <vs [All] units>","[+1] Movement"]
+        },
+        {
+                "name": "Thermal Glide",
+                "innerColor": [199, 156, 255],
+	        "outerColor": [42, 27, 61],
+                "unitTypes":["Flying"],
+                "uniques": ["No movement cost to pillage","[+1] Movement","[+10]% Strength <vs [Water] units>"]
+        },
+        {
+                "name": "Keen Vision",
+                "innerColor": [199, 156, 255],
+	        "outerColor": [42, 27, 61],
+                "unitTypes":["Flying"],
+                "uniques": ["[+2] Sight"]
+        },
+        {
+                "name": "Call",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
+                "unitTypes":["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+                "uniques": ["[+35]% Strength <vs [Thyreofora] units> <when defending>","[+35]% Strength <vs [Ceratopsia] units> <when defending>",
+                "[-25]% Strength <vs [Ornithischia] units>","[-25]% Strength <vs [Pachycephalosauridae] units>"]
+        },
+        {
+                "name": "Defense",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
+                "unitTypes":["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+                "uniques": ["[+35]% Strength <vs [Theropoda] units> <when defending>","[+35]% Strength <vs [Fantasy] units> <when defending>","[-15]% Strength <vs [Pachycephalosauridae] units>"]
+        },
+        {
+                "name": "Stampede",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
+                "unitTypes":["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
+                "uniques": ["[+1] Movement","[+15]% Strength <vs [Theropoda] units>"]
+        },
+        {
+                "name": "Reflexes",
+                "innerColor": [43, 16, 14],
+	        "outerColor": [207, 36, 27],
+                "unitTypes":["Theropoda"],
+                "uniques": ["Can move after attacking","[+1] Movement"]
+        },
+        {
+                "name": "Roar",
+                "innerColor": [43, 16, 14],
+	        "outerColor": [207, 36, 27],
+                "unitTypes":["Theropoda"],
+                "uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
+        },
+        {
+                "name": "Instinct",
+                "innerColor": [43, 16, 14],
+	        "outerColor": [207, 36, 27],
+                "unitTypes":["Theropoda"],
+                "uniques": ["[+35]% Strength <vs [Sauropodomorpha] units>","[+35]% Strength <vs [Ceratopsia] units>"]
+        },
+{
+                "name": "Partial Health",
+                "innerColor": [66, 69, 255],
+	        "outerColor": [5, 5, 10],
+                "unitTypes":["Fantasy"],
+                "uniques": ["Unit will heal every turn, even if it performs an action","[+10]% Strength <vs [Theropoda] units>"]
+        },
+        {
+                "name": "Undead",
+                "innerColor": [66, 69, 255],
+	        "outerColor": [5, 5, 10],
+                "unitTypes":["Fantasy"],
+                "uniques": ["[+35]% Strength <vs [Sword] units>","[+35]% Strength <vs [Gunpowder] units>","[+15]% Strength <vs [Fantasy] units>","[+15]% Strength <vs [Rats] units>"]
+        },
+        {
+                "name": "Arcane",
+                "innerColor": [66, 69, 255],
+	        "outerColor": [5, 5, 10],
+                "unitTypes":["Fantasy"],
+                "uniques": ["[+35]% Strength <vs [Fantasy] units>","[+25]% Strength"]
+        },
+
+
+
+        {
                 "name": "Veil I",
                 "innerColor": [140, 151, 250],
 	        "outerColor": [11, 12, 23],
@@ -531,33 +619,43 @@
     },
 {
                 "name": "Thagomizer",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
                 "unitTypes": ["Thyreofora"],
-                "uniques": ["[+25]% Strength <when defending>","[-1] Movement"],
+                "uniques": ["[+25]% Strength <when defending>","[-1] Movement"]
         },
 {
                 "name": "Horn Charge",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
                 "unitTypes": ["Ceratopsia"],
-                "uniques": ["[+10]% Strength","[+1] Movement"],
+                "uniques": ["[+10]% Strength","[+1] Movement"]
         },
 {
 		"name": "Strong Heads",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
                 "unitTypes": ["Pachycephalosauridae"],
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+1] Movement"],
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+1] Movement"]
     },
 {
                 "name": "Herds",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
                 "unitTypes": ["Ornithopoda"],
-                "uniques": ["[+15]% Strength bonus for [Ornithopoda] units within [2] tiles"],
+                "uniques": ["[+15]% Strength bonus for [Ornithopoda] units within [2] tiles"]
         },
 {
                 "name": "Titan",
+                "innerColor": [140, 209, 90],
+	        "outerColor": [54, 84, 32],
                 "unitTypes": ["Sauropodomorpha"],
-                "uniques": ["[+15]% Strength <when defending>"],
+                "uniques": ["[+15]% Strength <when defending>"]
         },
 {
                 "name": "Quadripedal Posture",
                 "unitTypes": ["Therapsida"],
-                "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+                "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"]
         },
 {
                 "name": "Parietal eye",
@@ -736,85 +834,9 @@
         "row": 3
 	},
     {
-		"name": "Tyrant I",
-		"uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","[+15]% Strength <when fighting in [Aberrant Green Zone] tiles> <when attacking>"],
-		"unitTypes": ["Theropoda","Fantasy"],
-        "column": 36,
-        "row": 19
-    },
-	{
-		"name": "Tyrant II",
-		"prerequisites": ["Tyrant I"],
-		"uniques": ["[+15]% Strength <when fighting in [Plains] tiles> <when attacking>","[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Dead Land] tiles> <when attacking>"],
-		"unitTypes": ["Theropoda"],
-        "column": 37,
-        "row": 20
-    },
-    {
-		"name": "Carnivore I",
-		"uniques": ["Heals [5] damage if it kills a unit","[+1] HP when healing"],
-		"unitTypes": ["Theropoda","Flying","Fantasy"],
-        "column": 38,
-        "row": 21
-    },
-	{
-		"name": "Carnivore II",
-		"prerequisites": ["Carnivore I"],
-		"uniques": ["[+3] HP when healing"],
-		"unitTypes": ["Theropoda","Flying"],
-        "column": 39,
-        "row": 22
-    },
-    {
-		"name": "Carnivore III",
-		"prerequisites": ["Carnivore II"],
-		"uniques": ["Heals [1] damage if it kills a unit","[+4] HP when healing"],
-		"unitTypes": ["Theropoda","Flying"],
-        "column": 40,
-        "row": 23
-    },
-{
-		"name": "Eyes by the side I",
-		"uniques": ["[+1] Movement <in [Hill] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
-        "column": 41,
-        "row": 24
-    },
-{
-		"name": "Eyes by the side II",
-		"prerequisites": ["Eyes by the side I"],
-		"uniques": ["[+1] Movement <in [Grassland] tiles>","[+1] Movement <in [Aberrant Green Zone] tiles>"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae","Flying"],
-        "column": 42,
-        "row": 25
-    },
-    {
-		"name": "Prey I",
-		"uniques": ["[+45]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
-        "column": 43,
-        "row": 26
-    },
-	{
-		"name": "Prey II",
-		"prerequisites": ["Prey I"],
-		"uniques": ["[+55]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
-        "column": 44,
-        "row": 27
-    },
-    {
-		"name": "Prey III",
-		"prerequisites": ["Prey II"],
-		"uniques": ["[+60]% to Flank Attack bonuses"],
-		"unitTypes": ["Sauropodomorpha","Thyreofora","Ornithischia","Ornithopoda","Ceratopsia","Pachycephalosauridae"],
-        "column": 45,
-        "row": 28
-    },
-    {
 		"name": "Warm Blood I",
 		"uniques": ["[+1] Movement <in [Tundra] tiles>","[+25]% Strength <in [Tundra] tiles>"],
-		"unitTypes": ["Mammal","Fantasy"],
+		"unitTypes": ["Mammal"],
         "column": 46,
         "row": 29
     },
@@ -845,7 +867,7 @@
 		"name": "Womb",
 		"prerequisites": ["Warm Blood I","Fur I"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
-		"unitTypes": ["Mammal","Fantasy"],
+		"unitTypes": ["Mammal"],
         "column": 50,
         "row": 33
     },
@@ -883,7 +905,7 @@
 		"name": "Swamp Creature",
 		"prerequisites": ["Scales I","Amniote I"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Amphibious","Fantasy"],
+		"unitTypes": ["Amphibious"],
         "column": 55,
         "row": 38
     },
@@ -1207,7 +1229,7 @@
         "name": "Experience I",
         "innerColor": [255, 255, 255],
         "outerColor": [38, 149, 209],
-        "uniques": ["[+30]% XP gained from combat"],
+        "uniques": ["[+20]% XP gained from combat","[This Unit] gains [2] XP <upon turn end>"],
         "unitTypes": ["Rat","Fish","Cetaceous","Marine Amphibious","Marine Reptile","Land Avian","Varanus","Civilian","Land Hybrid","Proboscidea","Abelisauridae","Spinosauridae","Testudines","Pinnipeds","Theropoda","Insect","Fantasy","Flying","Ornithischia","Sauropodomorpha","Pachycephalosauridae","Thyreofora","Ornithopoda","Ceratopsia","Mammal","Amphibious","Ophidia","Therapsida","Bolas","Sword","Gunpowder","Mounted","Armored","Archery","Ranged Gunpowder","Siege"]
 },
 {

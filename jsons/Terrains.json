@@ -26,7 +26,8 @@
             "Becomes [Volcanic Soil] when adjacent to [Volcano]",
             "Becomes [Dead Land] when adjacent to [Santiago Grave]",
             "Becomes [Beach] when adjacent to [Coast]",
-            "Becomes [Montano] when adjacent to [Mountain] <with [55]% chance>",
+			"Becomes [Montano] when adjacent to [Hill] <with [10]% chance>",
+            "Becomes [Montano] when adjacent to [Mountain] <with [85]% chance>",
             "Becomes [Redwoods] when adjacent to [Desert] <with [45]% chance>",
             "Becomes [Jungle] when adjacent to [Beach] <with [45]% chance>",
 			"Becomes [Marsh] when adjacent to [Jungle] <with [25]% chance>",
@@ -232,7 +233,7 @@
 		"Becomes [Beach] when adjacent to [Coast]",
 		"Becomes [Swamp Zone] when adjacent to [Lakes] <with [45]% chance>",
 		"Becomes [Grassland] when adjacent to [Tundra]",
-		"Becomes [Montano] when adjacent to [Mountain] <with [55]% chance>",
+		"Becomes [Montano] when adjacent to [Mountain] <with [95]% chance>",
 		"Becomes [Grassland] when adjacent to [Snowy Beach]",
 		"Becomes [Dead Land] when adjacent to [Santiago Grave]",
 		"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
@@ -1415,7 +1416,7 @@
 		"type": "TerrainFeature",
 		"defenceBonus": 0.10,
         "occursOn": ["Ocean"],
-		"uniques": ["Rare feature","Must be adjacent to [6] to [6] [Ocean] tiles"]
+		"uniques": ["Ocean","Rare feature","Must be adjacent to [6] to [6] [Ocean] tiles"]
 	},
         {
 		"name": "Natural Lake",

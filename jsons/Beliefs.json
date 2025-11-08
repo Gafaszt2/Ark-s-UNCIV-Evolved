@@ -114,12 +114,12 @@
     {
         "name": "Zealot",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
+        "uniques": ["May buy [Theropoda] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
     },
     {
         "name": "Marine Zealot",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
+        "uniques": ["May buy [Fish] units with [Faith] for [2] times their normal Production cost <before the [Tek era]>"]
     },
     {
         "name": "Customs",

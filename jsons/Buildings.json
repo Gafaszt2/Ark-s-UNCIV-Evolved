@@ -734,6 +734,7 @@
                 "greatPersonPoints": {"Great Scientist": 1},
                 "production": 1,
                 "food": 1,
+				"maintenance": 2,
                 "requiredNearbyImprovedResources": ["Strategic resource"],
 		"hurryCostModifier": 50,
                 "requiredBuilding": "Hunt Place"
@@ -759,6 +760,35 @@
 		"uniques": ["[+1 Production] from [Chitin] tiles [in this city]", "[+1 Production] from [Metal] tiles [in this city]"],
 		"requiredBuilding": "Heavy Stone Working",
                 "requiredTech": "Smithy"
+	},
+	{
+		"name": "Sum",
+        "maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Faith] from [Montano] tiles [in this city]","Must be next to [Montano]"],
+        "requiredTech": "Smithy"
+	},
+	{
+		"name": "Datsan",
+        "maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Science] from [Montano] tiles [in this city]","Must be next to [Montano]"],
+        "requiredTech": "Smithy"
+	},
+	{
+		"name": "Agiary",
+        "maintenance": 6,
+		"hurryCostModifier": 50,
+		"uniques": ["Provides [2] [Fruit]","Provides [2] [Metal]","Must be next to [Montano]"],
+        "requiredTech": "Smithy"
+	},
+	{
+		"name": "Stelae",
+        "maintenance": 4,
+		"greatPersonPoints":{"Great Scientist": 2},
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Science] from [Potion Station] tiles [in this city]","Must be next to [Montano]"],
+        "requiredTech": "Smithy"
 	},
         {
 		"name": "Refining Forges",
@@ -910,12 +940,13 @@
 	},
         {
 		"name": "Spike Walls",
-                "greatPersonPoints": {"Great Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
 		"production": 1,
 		"hurryCostModifier": 50,
-                "requiredBuilding": "Wooden Fort"
-		"requiredTech": "Spike Wall"
-                "uniques": ["[+5]% Production when constructing [Land] units [in this city]"]
+        "requiredBuilding": "Wooden Fort",
+		"requiredTech": "Spike Wall",
+		"requiredNearbyImprovedResources": ["Strategic resource"],
+        "uniques": ["[+9]% Production when constructing [Land] units [in this city]"]
 	},
         {
 		"name": "Scorched Production Camp",
@@ -1789,9 +1820,6 @@
         {
 		"name": "Hunter Temple",
 		"cost": 0,
-                "maintenance": 1,
-		"culture": 1,
-		"faith": 1,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+2 Faith] from [Camp] tiles [in this city]",
 			"[+2 Faith] from [Forest] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1799,9 +1827,6 @@
         {
 		"name": "Clever Temple",
 		"cost": 0,
-                "maintenance": 1,
-		"culture": 1,
-		"faith": 1,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+1 Science] from [Mountain] tiles [in this city]",
 			"[+1 Science] from [Luxury resource] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1809,8 +1834,6 @@
         {
 		"name": "Skylord Temple",
 		"cost": 0,
-                "maintenance": 1,
-		"culture": 1,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+3 Faith] from [Mountain] tiles [in this city]",
 			"[+2 Faith] from [Volcano] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1818,47 +1841,37 @@
         {
 		"name": "Strong Temple",
 		"cost": 0,
-                "maintenance": 2,
-		"faith": 3,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","All newly-trained [Land] units [in all cities] receive the [Zealot Warrior] promotion",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
         {
 		"name": "Deep Temple",
 		"cost": 0,
-                "maintenance": 1,
-		"faith": 2,
-		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+1 Faith] from [Coast] tiles [in this city]",
+		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+1 Faith] from [Water] tiles [in this city]",
 			"[+1 Faith] from [Ocean] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Shadows Temple",
 		"cost": 0,
-		"culture": 3,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+2 Gold, +2 Production] from every [Camp]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Pack Temple",
 		"cost": 0,
-                "food": 3,
-		"production": 2,
-		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","Provides [5] [Steel]",
+		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","Provides [5] [Steel]","Provides [2] [Metal]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Void Temple",
 		"cost": 0,
-                "culture": 1,
-		"faith": 2,
-		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+1 Faith, +2 Production] per [3] population [in this city]",
+		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[+2 Faith, +2 Production] per [3] population [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Chaos Temple",
 		"cost": 0,
-		"gold": 4,
 		"uniques": ["Limited to [1] per Civilization","Unsellable","Cannot be purchased","[-90]% Gold cost of acquiring tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -1938,6 +1951,7 @@ What is very different from today’s tree anatomy is that the center of the woo
         {
 		"name": "Garden",
 		"culture": 2,
+		"requiredNearbyImprovedResources": ["Luxury resource"],
                 "maintenance": 2,
 		"hurryCostModifier": 20,
 		"requiredTech": "Sleeping Bag"
@@ -1953,6 +1967,7 @@ What is very different from today’s tree anatomy is that the center of the woo
         {
 		"name": "Workshop",
 		"production": 2,
+		"requiredNearbyImprovedResources": ["Strategic resource"],
                 "maintenance": 2,
 		"hurryCostModifier": 20,
 		"requiredTech": "Thatch Houses"

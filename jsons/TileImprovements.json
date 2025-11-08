@@ -42,7 +42,7 @@
 	},
 	{
 		"name": "Garrison",
-		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Aberrant Blue Zone"],
+		"terrainsCanBeBuiltOn": ["Tundra","Redwoods","Montano","Aberrant Blue Zone"],
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
 		"uniques": ["Costs [3] [Gold] per turn","Destroyed when pillaged","[+1 Production] for each adjacent [Mine]","[+1 Production] for each adjacent [Quarry]","[+1 Production] for each adjacent [Fort]","[+1 Production] for each adjacent [Castle]","[+1 Production] for each adjacent [Mine] <starting from the [Tek era]>"],
@@ -50,7 +50,7 @@
 	},
 	{
 		"name": "Kraal",
-		"terrainsCanBeBuiltOn": ["Montano","Plains","Aberrant Green Zone"],
+		"terrainsCanBeBuiltOn": ["Tundra","Redwoods","Montano","Aberrant Green Zone"],
 		"turnsToBuild": 4,
 		"shortcutKey": "G"
 		"uniques": ["Costs [3] [Gold] per turn","Destroyed when pillaged","[+1 Food] for each adjacent [Bonus resource]","[+1 Production] for each adjacent [Strategic resource]","[+1 Faith] for each adjacent [Bonus resource] <starting from the [Tek era]>"],
@@ -58,14 +58,14 @@
 	},
         {
 		"name": "Ragnarok Temple",
-		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach","Eldritch","Aberrant Blue Zone","Montano"],
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Redwoods","Grassland","Snowy Beach","Eldritch","Aberrant Blue Zone","Montano"],
 		"turnsToBuild": 7,
         "techRequired": "Campfire",
 		"uniques": ["[+2 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Luxury resource]","[+2 Faith] for each adjacent [Forest] <starting from the [Tek era]>","Destroyed when pillaged"],
 	},
         {
 		"name": "Tumash Temple",
-		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Jungle","Forest","Plains","Flood plains","Aberrant Blue Zone"],
+		"terrainsCanBeBuiltOn": ["Marsh","Swamp Zone","Redwoods","Jungle","Forest","Plains","Flood plains","Aberrant Blue Zone"],
 		"turnsToBuild": 6,
                 "techRequired": "Campfire",
 		"uniques": ["[+1 Culture] for each adjacent [Luxury resource]","[+2 Culture] for each adjacent [Luxury resource] <starting from the [Tek era]>","Destroyed when pillaged"],
@@ -142,7 +142,7 @@
 		"name": "Camp",
 		"gold": 2,
 		"turnsToBuild": 4,
-		"uniques": ["Does not need removal of [Forest]","Cannot be built on [Water] tiles","Does not need removal of [Jungle]", "Can only be built to improve a resource","Destroyed when pillaged"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Redwoods]","Cannot be built on [Water] tiles","Does not need removal of [Jungle]", "Can only be built to improve a resource","Destroyed when pillaged"],
 		"shortcutKey": "H"
                 "techRequired": "Spear",
 	},

@@ -31,7 +31,7 @@ In the Lost Colony, corruption spills like venom from the veins of the earth. Th
 
 		"tradeRequest": "You offer wares? I trade only in power, blood, and obedience What can you provide that I couldn’t steal in silence Fine. But know this—if you cheat me, your entrails become currency.",
                 "uniqueName": "Lost Enforcer",
-                "uniques": ["[+1 Culture] from every [Ark Monument]","May buy [Great Person] units with [Culture] [in all cities]","When declaring friendship, both parties gain a [+4]% boost to great person generation","[+5]% Strength for cities","[-5]% XP required for promotions","[-2]% Great Person generation [in all cities]","[-35]% maintenance cost for [Culture] buildings [in all cities]","[+3 Culture] for every known Natural Wonder",
+                "uniques": ["[+1 Culture] from every [Ark Monument]","May buy [Great Person] units with [Culture] [in all cities]","When declaring friendship, both parties gain a [+10]% boost to great person generation","[+5]% Strength for cities","[-5]% XP required for promotions","[+10]% Great Person generation [in all cities]","[-35]% maintenance cost for [Culture] buildings [in all cities]","[+3 Culture] for every known Natural Wonder",
 			"No Maintenance costs for improvements in [Snow] tiles","No Maintenance costs for improvements in [Tundra] tiles","No Maintenance costs for improvements in [Hill] tiles"],
 
 		"outerColor": [20, 20, 20],
