@@ -5,6 +5,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[This Unit] gets a name from the [Male] group",
             "Can instantly construct a [Great Camp] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
@@ -14,6 +15,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
             "Can hurry technology research",
+			"[This Unit] gets a name from the [Male] group",
             "Can instantly construct a [Potion Station] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -23,6 +25,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Consumes [2] [Flint]","Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [300] [Faith] [in all cities]",
             "Can instantly construct a [Mountain Temple] improvement <by consuming this unit>",
+			"[This Unit] gets a name from the [Female] group",
             "Great Person - [Faith]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -32,21 +35,21 @@
 		"requiredResource": "Relic",
 		"uniques": ["[+20]% Strength bonus for [Palaeophis] units within [2] tiles","[+20]% Strength bonus for [Olorotitan] units within [2] tiles","[+20]% Strength bonus for [Ailurarctos Rider] units within [2] tiles","Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [440] [Faith] [in all cities]",
             "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
-            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+            "[This Unit] gets a name from the [Elfemale] group","Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
                 "strength": 15,
 		"unitType": "Civilian",
-		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence"
+		"uniques": ["Limited to [4] per Civilization","[This Unit] gets a name from the [Female] group","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence"
 			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
         {
 		"name": "Great Naturalist",
 		"unitType": "Civilian",
-		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","[This Unit] gets a name from the [Female] group","Can be purchased for [1000] [Faith] [in all cities]","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Great Reserve] improvement <by consuming this unit>",
 			"Great Person - [Naturalist]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -54,7 +57,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Consumes [2] [Flint]","Limited to [4] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
+		"uniques": ["Consumes [2] [Flint]","Limited to [4] per Civilization","[This Unit] gets a name from the [Female] group","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]","Can speed up construction of a building",
             "Can instantly construct a [Steampunk Station] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -62,7 +65,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Consumes [2] [Flint]","Can be purchased with [Faith] [in all cities]","Can be purchased for [1000] [Faith] [in all cities]",
+		"uniques": ["Consumes [2] [Flint]","Can be purchased with [Faith] [in all cities]","[This Unit] gets a name from the [Male] group","Can be purchased for [1000] [Faith] [in all cities]",
              "Can instantly construct a [Castle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -78,7 +81,7 @@
 		"name": "Great Chief",
 		"unitType": "Civilian",
 		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>","[This Unit] gets a name from the [Male] group",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
@@ -88,7 +91,7 @@
 	{
 		"name": "Minor Chief",
 		"unitType": "Civilian",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
+		"uniques": ["Prevents spreading of religion to the city it is next to","[This Unit] gets a name from the [Male] group",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
@@ -101,7 +104,7 @@
 		"unitType": "Civilian",
                 "strength": 35,
 		"uniques": ["Limited to [3] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [1300] [Faith] [in all cities]",
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>","[This Unit] gets a name from the [Male] group",
             "[+30]% Strength bonus for [Military] units within [3] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable"],
@@ -113,7 +116,7 @@
 		"unitType": "Civilian",
                 "strength": 25,
 		"uniques": ["Limited to [3] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [800] [Faith] [in all cities]",
-            "Empire enters a [4]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [4]-turn Golden Age <by consuming this unit>","[This Unit] gets a name from the [Male] group",
             "[+20]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable"],
@@ -125,7 +128,7 @@
 		"unitType": "Civilian",
                 "strength": 20,
 		"uniques": ["Limited to [3] per Civilization","Can be purchased with [Faith] [in all cities]","Can be purchased for [500] [Faith] [in all cities]",
-            "Empire enters a [2]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [2]-turn Golden Age <by consuming this unit>","[This Unit] gets a name from the [Male] group",
             "[+10]% Strength bonus for [Military] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
@@ -135,7 +138,7 @@
 		"strength": 25,
 		"unitType": "Sword",
 		"uniques": ["Consumes [5] [Flint]","[+100]% Strength <starting from the [Smithy era]>","[+50]% Strength <starting from the [Electric era]>","[+60]% Strength <starting from the [Tek era]>","Limited to [5] per Civilization","Can be purchased with [Culture] [in all cities]","Can be purchased for [100] [Culture] [in all cities]",
-            "Double movement in [Forest]","Double movement in [Pines]","Double movement in [Redwoods]","Double movement in [Jungle]",
+            "Double movement in [Forest]","Double movement in [Pines]","[This Unit] gets a name from the [Female] group","Double movement in [Redwoods]","Double movement in [Jungle]",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -144,7 +147,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 150,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Founds a new city <by consuming this unit>","[This Unit] gets a name from the [Settler] group", "Excess Food converted to Production when under construction",
 			"Requires at least [3] population"],
 		"hurryCostModifier": 20
 	},
@@ -158,15 +161,27 @@
 	},
 	    {    
 		"name": "Bob",
-                "requiredResource": "Fiber",
+        "requiredResource": "Fiber",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
 		"cost": 45,
-		"attackSound": "nonmetalhit"
-                "upgradesTo": "Survivor",
+		"attackSound": "nonmetalhit",
+        "upgradesTo": "Survivor",
 		"obsoleteTech": "Bow and Arrow",
-                "uniques": ["Can build [Land] improvements on tiles","Requires at least [1] population"],
+        "uniques": ["[This Unit] gets a name from the [Bob] group","Can build [Land] improvements on tiles","Requires at least [1] population"]
+        },
+		{    
+		"name": "Jane",
+        "requiredResource": "Fiber",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 45,
+		"attackSound": "nonmetalhit",
+        "upgradesTo": "Survivor",
+		"obsoleteTech": "Bow and Arrow",
+        "uniques": ["[This Unit] gets a name from the [Jane] group","Can build [Land] improvements on tiles","Requires at least [1] population"]
         },
 		{    
 		"name": "Bolas Survivor",

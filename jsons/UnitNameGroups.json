@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Male",
+        "unitNames": ["Rockwell", "Nerva", "Santiago", "John", "Henry", "Karl", "Darnell", "Gabriel", "Akio","Mateo","Omar","Liam","Raj","Tariq","Hiroshi","Kwame","Dmitri","Youssef","Anders","Thiago","Jabari","Sven","Ravi","Elias","Nguyen","Hamza","Ibrahim","Tenzin","Alejandro","Joon","Mikhail","Zubair","Noah","Farid","Kenji","Amadou","Lucien","Bao","Zaid","Takumi","Carlos","Abdul","Nikos","Joaquín","Haruto","Musa","Eoghan","Santiago","Babatunde","Rashid","Takeshi","Enzo","Hassan","Arjun","Levente","Ousmane","Yunus","Teodoro","Bakari","Iskander","Manuel","Daichi","Oleg","Mustafa","Jin","Fernando","Habib","Tigran"]
+    },
+    {
+        "name": "Female",
+        "unitNames": ["Helena", "Mei-Yin", "Raia", "Diana", "Sigrid", "Zofia", "Alasie", "Arabella", "Linda","Amina","Yuki","Sofia","Zanele","Inés","Mei","Fatima","Ananya","Chiara","Leila","Nadia","Aroha","Freya","Tamar","Ayaka","Zahra","Mireille","Sinead","Linh","Chinara","Elsa","Nokuthula","Hana","Soraya","Kavita","Noura","Yara","Aisling","Marisol","Thandiwe","Zainab","Keiko","Amara","Liliana","Chimamanda","Roxana","Aaliyah","Noor","Sakura","Imani","Tatiana","Mina","Eshe","Giulia","Natsuki","Samira","Elif","Carmen","Ayesha","Moana","Renée","Behati","Anastasia","Laleh","Indira","Siti","Marwa","Kaori","Zuleika","Agnieszka"]
+    },
+    {
+        "name": "Elfemale",
+        "unitNames": ["Celine","Aranel","Lúthien","Elaria","Seraphiel","Thalindra","Nymeria","Aeris","Faelivrin","Isilme","Yavanna","Sylwen","Maerwen","Eleniel","Caladriel","Nimriel","Vaelora","Althaea","Miriel","Tauriel","Elenwe"]
+    },
+    {
+        "name": "Bob",
+        "unitNames": ["Chad","Brad","Todd","Kyle","Doug","Randy","Greg","Troy","Chet","Steve","Larry","Derek","Jerry","Bob","Rick","Ron","Gary","Mitch","Phil","Barry"]
+    },
+    {
+        "name": "Jane",
+        "unitNames": ["Karen","Debbie","Tiffany","Brenda","Stacy","Linda","Becky","Nancy","Pam","Sharon","Barb","Janet","Tracy","Cathy","Donna","Cheryl","Rhonda","Vicky","Susan","Heather","Jane"]
+    },
+    {
+        "name": "Settler",
+        "unitNames": ["The Smiths","The Yamamotos","The Alvarezes","The Dubois","The Kowalskis","The Patels","The Haddads","The Kimuras","The Müllers","The O’Connors","The Ivanovs","The Da Silvas","The Changs","The Okafors","The Karls","The Rahmans","The Anderssons","The Van der Merwes","The Nguyens","The MacLeods","The Tanakas","The Abebes","The Carvalhos","The Roussos","The Choudhurys","The Morenos","The Petrovics","The Al-Mansours","The Zhangs","The Kuznetsovs","The Mbathas","The Lefkowitzes","The Yamazakis","The Dlaminis","The Haddadis","The Bouchards","The Ramaswamys","The Kowloons","The Björklunds","The Al-Husseinis"]
+    }
+]
