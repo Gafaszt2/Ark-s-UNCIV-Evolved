@@ -7,36 +7,126 @@
 //		"innerColor": [255,255,255]
 	},
 	{
+		"name": "The Revenants",
+		"leaderName": "Alpha Revenant",
+		"personality": "The Revenants",
+		"adjective": ["Terran Federation"],
+		"startBias": ["Corrupted Snow"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The night never ends in Lost Colony. The stars above are cold and indifferent, and the ruins of Arat Prime whisper of a civilization that tried to master death itself. It is here, in the frozen silence, that the Revenants walk.They are not beasts born of nature, nor survivors clinging to hope. They are Thralls, once human, once alive, reshaped by necro-tech into grotesque husks. Their flesh is swollen with corruption, their bones twisted into weapons, their minds erased and replaced with a single command: serve the whispers of the Mad King.",
+		"startIntroPart2": "The Revenants are more than enemies, they are symbols of humanity's downfall. In their creation lies the story of desperation: scientists of Arat Prime sought to weaponize life against extinction, but instead birthed a plague of undeath. Every encounter with them is a confrontation with the past. Their hollow eyes reflect the arrogance of those who believed they could cheat death. Their presence makes the colony itself feel haunted, as if the land remembers the sins committed upon it.",
+
+		"declaringWar": "The night is ours. Your warmth, your breath, your beating hearts... All will be stitched into us. We come, we come, we come!",
+		"attacked": "Pain... yes... pain makes us alive again. Strike harder, little spark, feed the hollow!",
+		"defeated": "No... No... We were promised... Promised to rise again... The King whispers... we... will...",
+		"introduction": "We... remember you. We were men once... bones, blood, breath. Now we are colony. Now we are hunger. Do you... remember us?",
+
+		"neutralHello": "Hello... friend? That is the word, yes? We... smile now. See? Teeth. We... want to walk beside you... not behind you... never behind you.",
+		"hateHello": "You stink of light. Of warmth. Of hope. We hate it. We hate you. We will peel it from your skin and wear it.",
+
+		"tradeRequest": "Help us... please... we are cold, so cold. We need food, shelter, fire. We are human, yes? We are like you. Take our gifts... take them... and in return, give us your breath, your warmth, your flesh. Rescue us... rescue us...",
+                
+		
+		"uniqueName": "Mockery of Humanity",
+        
+"uniques": ["Earn [10]% of killed [All] unit's [Cost] as [Science]","Earn [20]% of killed [All] unit's [Cost] as [Gold]","[+5]% [Science] <while the empire is happy>","Cannot build [Sword] units","Cannot build [Gunpowder] units"],
+
+		"outerColor": [184, 144, 240],
+		"innerColor": [29, 25, 33],
+		"cities": ["Necrospire","Gravehold","Ebonreach","Whispering Bastion","Ghoulhaven"],
+        "spyNames": ["Gloria", "Lyra", "Zara", "Kaia", "Raven", "Luna", "Selene", "Nova", "Aurora", "Ivy","Shadow", "Dusk"]
+	},
+	{
+		"name": "Terran Federation",
+		"leaderName": "Alfred Kurch",
+		"personality": "Terran Federation",
+		"adjective": ["Terran Federation"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "You pledge allegiance to the Terran Federation — a coalition of rebels, free states, and visionaries who refused to bow to URE dominance. Fierce independence and adaptability define your path. You fight not for control, but for freedom, carving a future from the ruins of war. Resourceful, defiant, and unyielding, the Federation thrives where others falter.",
+		"startIntroPart2": "",
+
+		"declaringWar": "Peace makes us weaker.",
+		"attacked": "I will bring the death to all worlds.",
+		"defeated": "This will be the last time you will see light.",
+		"introduction": "Hail, you better not be an problem for our plans.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "You are a monster.",
+
+		"tradeRequest": "The nation requires this.",
+                
+		
+		"uniqueName": "Decentralized coalition",
+        
+"uniques": ["[+35]% Great Person generation [in all cities]","No movement cost to pillage <for [All] units>","[-25]% XP required for promotions","[+35]% Strength <vs [Bomber] units>", "[+35]% Strength <vs [Helicopter] units>"],
+
+		"outerColor": [51, 56, 94],
+		"innerColor": [250, 250, 255],
+		"cities": ["China","Vietnam","Laos","North Korea","Cuba","Russia","Belarus","Kazakhstan","Uzbekistan","Turkmenistan","Tajikistan","Kyrgyzstan","Armenia","Azerbaijan","Mongolia","Cambodia","Myanmar","Bangladesh","Nepal","Sri Lanka"],
+        "spyNames": ["Gloria", "Lyra", "Zara", "Kaia", "Raven", "Luna", "Selene", "Nova", "Aurora", "Ivy","Shadow", "Dusk"]
+	},
+	{
+		"name": "The URE",
+		"leaderName": "Amelie Waldmann",
+		"personality": "The URE",
+		"adjective": ["The URE"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "You stand with the United Republics of Earth — the last great world government, forged in unity and driven by ambition. The URE commands vast fleets, advanced technology, and the legacy of humanity’s golden age. Order, discipline, and centralized power are your weapons. But beware: with great control comes great responsibility, and the burden of keeping civilization alive rests on your shoulders.",
+		"startIntroPart2": "",
+
+		"declaringWar": "Peace makes us weaker.",
+		"attacked": "I will bring the death to all worlds.",
+		"defeated": "This will be the last time you will see light.",
+		"introduction": "Hail, you better not be an problem for our plans.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "You are a monster.",
+
+		"tradeRequest": "The nation requires this.",
+                
+		
+		"uniqueName": "Element Depency",
+        "uniques": ["[+25]% [Production] <during a Golden Age>","Unable to pillage tiles","[5]% [Science] <during a Golden Age>","[+2 Production] from every [Ark Monument]","[-20]% Science cost of researching new Technologies","[Gold] cost of purchasing [Military] units [-40]%"],
+
+		"outerColor": [253, 255, 252],
+		"innerColor": [73, 125, 60],
+		"cities": ["United States","Canada","United Kingdom","France","Germany","Italy","Spain","Portugal","Netherlands","Belgium","Switzerland","Austria","Sweden","Norway","Denmark","Finland","Ireland","Australia","New Zealand","Japan"],
+        "spyNames": ["Gloria", "Lyra", "Zara", "Kaia", "Raven", "Luna", "Selene", "Nova", "Aurora", "Ivy","Shadow", "Dusk"]
+	},
+	{
 		"name": "Lost Colony",
-		"leaderName": "Mei-Yin Li",
-		"personality": "Mei-Yin Li",
+		"leaderName": "Darius Anthom",
+		"personality": "Lost King",
 		"adjective": ["Lost Colony"],
 		"startBias": ["Snow","Tundra","Hill"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "Mei-Yin Li walks where gods would fear to tread—her name etched in the bones of the ARK like a scar that nature refuses to forget. Born in an age of iron and warring kingdoms, she was forged in the fire of battle, tempered by solitude, and crowned not by royalty but by raptors and beasts that bowed to her spirit.
-
-Time cast her into alien worlds where technology pulses like blood and ancient earth groans beneath steel skies. She spoke little, for her roars tore louder than words ever could. Every beast she tamed became an echo of her will. The ARKs bent, twisted, evolved—but Mei-Yin remained the storm that would not pass.
-
-In the Lost Colony, corruption spills like venom from the veins of the earth. The shadows devour memory, and hope clings to fragile fragments of truth. But even here, beneath the shattered stars, the warrior stirs. With eyes that burn like twin moons and scars that sing of forgotten wars, she rises not for power—but for what was lost: honor, kinship, and the wild soul of a world dying to be reborn.",
+		"startIntroPart1": "Long ago, when the ARKs drifted silently above a broken Earth, one figure remained shrouded in myth. the Lost King. Neither ruler nor tyrant, he was the last guardian of forgotten knowledge, cast into exile as the Element War consumed humanity. His crown was not forged of gold, but of memory, carrying the burden of civilizations that crumbled into dust. Now, whispers echo through the ruins of Arat Prime: the King has returned. His presence stirs the shadows, awakening beasts long thought extinct and unlocking relics buried deep within the ARKs. To follow him is to embrace destiny — a path of power, sacrifice, and revelation.",
 		"startIntroPart2": "",
 
-		"declaringWar": "You tasted fear the moment I arrived. Now you’ll feast on regret. The hunt begins. Your blood calls to me—and I answer with teeth and wrath. Let the beasts of dusk rise. Your peace ends here.",
-		"attacked": "Strike me again—and I’ll carve your soul into offerings for my pack Fool. I’ve torn titans apart for less You bring pain? I bring extinction.",
-		"defeated": "Even shadows fall… but they rise darker than before You’ve broken my body—not my spirit. I will return… hunger sharper than ever Enjoy this moment. It's your last lull before the storm I become.",
-		"introduction": "I am Mei-Yin of fang and flame. Every heartbeat you waste… is a tribute to my reign Speak swiftly. I thirst, and your neck sings You stand before a queen reborn in blood. Tread carefully.",
+		"declaringWar": "Gigadesmodus, your master beckons! The time for battle has arrived!",
+		"attacked": "Gigadesmodus, your master beckons! The time for battle has arrived!",
+		"defeated": "If i cannot stop you, there is still someone left... Who can... My queen! Hear me... The kingdom is yours, protect the childreen, protect the lost... You will not... Survive her.",
+		"introduction": "I have seen your memories within the codex, you are a broken soul, you left behind those dearest to you, one murdered, and watched another vanish into nothingness.",
 
-		"neutralHello": "Do not mistake silence for weakness. I’m merely judging your worth You live... for now. We’ll see if that continues Your scent carries no threat. Keep it that way.",
-		"hateHello": "You stink of cowardice and wasted lineage. I'd rather speak to vermin The only gift I offer you… is a swift, merciless end I've seen leeches with more honor.",
+		"neutralHello": "Do not mistake silence for weakness. I'm merely judging your worth You live... for now. We’ll see if that continues Your scent carries no threat. Keep it that way.",
+		"hateHello": "Your insolence stains the crown. Do not mistake my patience for mercy.",
 
-		"tradeRequest": "You offer wares? I trade only in power, blood, and obedience What can you provide that I couldn’t steal in silence Fine. But know this—if you cheat me, your entrails become currency.",
-                "uniqueName": "Lost Enforcer",
-                "uniques": ["[+1 Culture] from every [Ark Monument]","May buy [Great Person] units with [Culture] [in all cities]","When declaring friendship, both parties gain a [+10]% boost to great person generation","[+5]% Strength for cities","[-5]% XP required for promotions","[+10]% Great Person generation [in all cities]","[-35]% maintenance cost for [Culture] buildings [in all cities]","[+3 Culture] for every known Natural Wonder",
-			"No Maintenance costs for improvements in [Snow] tiles","No Maintenance costs for improvements in [Tundra] tiles","No Maintenance costs for improvements in [Hill] tiles"],
+		"tradeRequest": "My people offers you wealth and relics. Accept, and share in my dominion.",
+                
+		
+		"uniqueName": "Power of the Codex",
+                
+		"uniques": ["[+1 Food, +1 Science] from every [Snow]","[+1 Science] per [3] population [in all cities]","[15]% [Science]","[15]% [Culture]","[+50]% Golden Age length"],
 
 		"outerColor": [20, 20, 20],
 		"innerColor": [255, 23, 23],
-		"cities": ["Lost Colony","Arat","Prime",
+		"cities": ["Arat Prime","Northern Plains","Fertile Forests",
 			"Federal",
 			"United","Arkistia","Obeliskia","Techtia",
 			"Generations","Dogmatic"],

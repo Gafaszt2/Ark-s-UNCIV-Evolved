@@ -152,7 +152,7 @@
         {
 		"name": "Sabertooth",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
 		"food": 1,
                 "civilopediaText": [{"text": "Smilodon brutalis is a solitary hunter, generally found in cold, lightly wooded areas. The Island's mountains are the perfect habitat, as the mammal's fur keeps it safe from the bitter temperature. While its huge fangs are excellent for delivering deathblows, the creature's claws can be just as deadly."}]
 		"improvement": "Camp",
@@ -162,7 +162,7 @@
         {
 		"name": "Mammoth",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
 		"food": 2,
                 "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
 		"improvement": "Camp",
@@ -182,7 +182,7 @@
 	{
 		"name": "Megaloceros",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snow","Snowy Beach"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow","Snowy Beach"], // Tundra only if lowland
 		"food": 1,
                 "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
 		"improvedBy": ["Ranch", "Teepee"],
@@ -643,7 +643,7 @@
 	{
 		"name": "Fiber",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Beach","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Beach","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
 		"production": 1,
 		"improvedBy": ["Ranch", "Teepee"],
 		
@@ -654,7 +654,7 @@
 	{
 		"name": "Thatch",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Redwoods","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Redwoods","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Not shown on world screen <without [Thatch]>","Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
@@ -664,7 +664,7 @@
 	{
 		"name": "Wood",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Lakes","Mirage","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Lakes","Mirage","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Ranch","Lake House"],
 		
@@ -682,7 +682,7 @@
 		"name": "Chitin",
                 "revealedBy": "Spike Wall",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Desert","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvedBy": ["Camp"],
 		"uniques": ["Not shown on world screen <without [Chitin]>","Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
@@ -693,7 +693,7 @@
 		"name": "Metal",
                 "revealedBy": "Smithy",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -728,7 +728,7 @@
 		"name": "Oil",
                 "revealedBy": "Fabricator",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Eldritch","Cradle","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Eldritch","Cradle","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
 		"production": 1,
 		"improvement": "Mine",
 		
@@ -740,7 +740,7 @@
 		"name": "Organic Polymer",
                 "revealedBy": "Polymer",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
 		"science": 1,
 		"improvement": "Camp",
 		
@@ -767,7 +767,7 @@
 	{
 		"name": "Cotton",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Grassland","Flood plains"],
 		"gold": 1,
 		"improvement": "Plantation",
 		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
@@ -1459,6 +1459,67 @@
 		"gold": 1,
 		"improvedBy": ["Mine"],
 		"uniques": ["Not shown on world screen <without [Clay]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	/// LC
+	{
+		"name": "Drakelings",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Forest","Lost Snow"],
+		"gold": 1,
+		"improvedBy": ["Camp"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Gloons",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Corrupted Snow"],
+		"gold": 1,
+		"improvedBy": ["Camp"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Red Tek",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Lost Snow"],
+		"gold": 1,
+		"improvedBy": ["Mine"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Vulpite",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Lost Snow"],
+		"gold": 1,
+		"improvedBy": ["Camp"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Dark Metal",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Lost Snow"],
+		"gold": 1,
+		"improvedBy": ["Mine"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
+		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
+	},
+	{
+		"name": "Purified Tek",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Lost Snow"],
+		"gold": 1,
+		"improvedBy": ["Mine"],
+		"uniques": ["Not shown on world screen <without [Drakelings]>","Doesn't generate naturally"],
 		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 4, "default": 7, "abundant": 9}
 	},

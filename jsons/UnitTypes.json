@@ -52,6 +52,25 @@
         "movementType": "Land"
     },
     {
+        "name": "Lost Creature",
+         "uniques": [
+"Can enter ice tiles",
+"[This Unit] gains the [Immunity] promotion <upon ending a turn in a [City center] tile> <with [10]% chance>",
+"[This Unit] gains the [Radiated] promotion <upon ending a turn in a [Aberrant Pink Zone] tile> <with [100]% chance> <for units without [Protected]>",
+"[This Unit] gains the [Prion] status for [8] turn(s) <(modified by game speed)> <upon ending a turn in a [Camp] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Swamp Fever] status for [7] turn(s) <(modified by game speed)> <upon ending a turn in a [Jungle] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Common Flu] status for [7] turn(s) <(modified by game speed)> <upon ending a turn in a [Forest] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Cancer] status for [8] turn(s) <(modified by game speed)> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Bone Fracture] status for [4] turn(s) <(modified by game speed)> <upon ending a turn in a [Hill] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Sedentarism] status for [3] turn(s) <(modified by game speed)> <upon ending a turn in a [City center] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Pneumonia] status for [4] turn(s) <(modified by game speed)> <upon entering the [Electric era]> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Asthma] status for [8] turn(s) <(modified by game speed)> <upon ending a turn in a [Camp] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Thermal Stress] status for [4] turn(s) <(modified by game speed)> <upon ending a turn in a [Desert] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Escherichia coli] status for [8] turn(s) <(modified by game speed)> <upon ending a turn in a [Camp] tile> <with [1]% chance> <for units without [Immunity]>",
+"[This Unit] gains the [Salmonella] status for [8] turn(s) <(modified by game speed)> <upon ending a turn in a [Camp] tile> <with [1]% chance> <for units without [Immunity]>"],
+        "movementType": "Land"
+    },
+    {
         "name": "Land Avian",
          "uniques": ["[This Unit] gains the [Radiated] promotion <upon ending a turn in a [Aberrant Pink Zone] tile> <with [100]% chance> <for units without [Protected]>","[This Unit] gains the [Prion] status for [8] turn(s) <(modified by game speed)> <upon ending a turn in a [Camp] tile> <with [1]% chance> <for units without [Immunity]>",
 "[This Unit] gains the [Swamp Fever] status for [7] turn(s) <(modified by game speed)> <upon ending a turn in a [Jungle] tile> <with [1]% chance> <for units without [Immunity]>",

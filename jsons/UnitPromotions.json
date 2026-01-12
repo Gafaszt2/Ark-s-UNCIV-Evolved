@@ -1,4 +1,288 @@
 [
+        // LC
+        {
+                "name": "Lost Healing",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+15] HP when healing <in [Friendly Land] tiles>"]
+        },
+        // Aureliax
+        {
+                "name": "Warp Gate",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["Unit will heal every turn, even if it performs an action","All adjacent units heal [+5] HP when healing"]
+        },
+        // Gloon
+        {
+                "name": "Laser Beam",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+50]% Strength <vs [Barbarian] units>"]
+        },
+        // Malwyn
+        {
+                "name": "Lost Bioengineering",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+25]% Strength <vs [Thrall] units>"]
+        },
+        {
+                "name": "Sanguine Fatigue",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["All healing effects doubled"]
+        },
+        // Solwyn
+        {
+                "name": "Frosting",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+25]% Strength <vs [Sword] units>","[+25]% Strength <vs [Gunpowder] units>"]
+        },
+        {
+                "name": "Glacial Serenity",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+1] Movement <when below [37] HP>","[+15]% Strength <in [Forest] tiles>","[+15]% Strength <in [Tundra] tiles> <when below [37] HP>"]
+        },
+        // Veilwym
+        {
+                "name": "Antarctic Might",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+25]% Strength <in [Snow] tiles>"]
+        },
+        {
+                "name": "Localized Wormholes",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "uniques": ["[+1] Movement <when below [15] HP>", "[+25]% Strength <when below [15] HP>"]
+        },
+        //
+        {
+                "name": "Electrical Shock",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["Only available <starting from the [Electric era]>",
+                        "[+200]% to Flank Attack bonuses","[+35]% Strength <vs [Wounded] units>","Heals [30] damage if it kills a unit"]
+        },
+        {
+                "name": "Lost Companion",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+200]% to Flank Attack bonuses","All adjacent units heal [+10] HP when healing"]
+        },
+        {
+                "name": "Cursed Bond I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+15]% Strength bonus for [All] units within [2] tiles"]
+        },
+        {
+                "name": "Cursed Bond II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Cursed Bond I"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+1] Movement","[+15]% Strength bonus for [All] units within [2] tiles"]
+        },
+        {
+                "name": "Cursed Bond III",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Cursed Bond II"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+25]% Strength bonus for [All] units within [2] tiles","[+25]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Cursed Fortitude I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","Heals [30] damage if it kills a unit"]
+        },
+        {
+                "name": "Cursed Fortitude II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Cursed Fortitude I"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","Heals [30] damage if it kills a unit","[+20]% Strength <vs [Lost Creature] units>"]
+        },
+        {
+                "name": "Cursed Fortitude III",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Cursed Fortitude II"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","Heals [70] damage if it kills a unit","[+40]% Strength <vs [Lost Creature] units>"]
+        },
+        {
+                "name": "Strong Back I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+10] HP when healing <in [All] tiles>"]
+        },
+        {
+                "name": "Strong Back II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Strong Back I"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+15] HP when healing <in [All] tiles>"]
+        },
+        {
+                "name": "Strong Back III",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Strong Back II"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+20] HP when healing <in [All] tiles>"]
+        },
+        {
+                "name": "Cold Blooded",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+1] Movement <in [Snow] tiles>","[+1] Movement <in [Tundra] tiles>"]
+        },
+        {
+                "name": "Hydrated I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+40]% Strength <when [Embarked]>","Double movement in [Beach]"]
+        },
+        {
+                "name": "Hydrated II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Hydrated I"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+40]% Strength <when [Embarked]>"]
+        },
+        {
+                "name": "Block Mastery",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+35]% Strength <when defending>"]
+        },
+        {
+                "name": "Ranged Mastery I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+35]% Strength <vs [Ranged] units>"]
+        },
+        {
+                "name": "Ranged Mastery II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "prerequisites":["Ranged Mastery I"],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+35]% Strength <vs [Ranged] units>"]
+        },
+        {
+                "name": "Hot Blooded I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+20]% Strength <vs [Sword] units>","[+20]% Strength <vs [Gunpowder] units>"]
+        },
+        {
+                "name": "Hot Blooded II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Hot Blooded I"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+20]% Strength <vs [Sword] units>","[+20]% Strength <vs [Gunpowder] units>"]
+        },
+        {
+                "name": "Barbed Blades I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Hot Blooded II"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+25]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Barbed Blades II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Barbed Blades I"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+25]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Lost Escape",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Barbed Blades II"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","Can move after attacking","[+1] Movement","[+15]% Strength"]
+        },
+        {
+                "name": "Experienced Killer I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+15]% XP gained from combat"]
+        },
+        {
+                "name": "Experienced Killer II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Experienced Killer I"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+35]% XP gained from combat"]
+        },
+        {
+                "name": "Experienced Killer III",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Experienced Killer II"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+35]% XP gained from combat"]
+        },
+        {
+                "name": "Ambushing Strike I",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Experienced Killer III"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+1] Movement","[+35]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Ambushing Strike II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Ambushing Strike I"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+1] Movement","[+35]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Ambushing Strike II",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Ambushing Strike I"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","[+1] Movement","[+35]% Strength <vs [Wounded] units>"]
+        },
+        {
+                "name": "Spirit Beast",
+                "innerColor": [255, 28, 28],
+	        "outerColor": [15, 15, 15],
+                "unitTypes":["Lost Creature"],
+                "prerequisites":["Ambushing Strike II"],
+                "uniques": ["[This Unit] gains [1] XP <upon turn end>","Can pass through impassable tiles","Ignores terrain cost"]
+        },
+        //
         {
                 "name": "Aerial Supremacy",
                 "innerColor": [199, 156, 255],
@@ -75,7 +359,7 @@
                 "innerColor": [66, 69, 255],
 	        "outerColor": [5, 5, 10],
                 "unitTypes":["Fantasy"],
-                "uniques": ["[+35]% Strength <vs [Sword] units>","[+35]% Strength <vs [Gunpowder] units>","[+15]% Strength <vs [Fantasy] units>","[+15]% Strength <vs [Rats] units>"]
+                "uniques": ["[+35]% Strength <vs [Sword] units>","[+35]% Strength <vs [Gunpowder] units>","[+15]% Strength <vs [Fantasy] units>","[+15]% Strength <vs [Rat] units>"]
         },
         {
                 "name": "Arcane",
@@ -259,18 +543,26 @@
         },
         {
                 "name": "Armor I",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+15]% Strength"]
         },
         {
                 "name": "Armor II",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+15]% Strength"]
         },
         {
                 "name": "Armor III",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+25]% Strength"]
         },
         {
                 "name": "GPS Location",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+1] Sight","[+15]% Strength bonus for [Gunpowder] units within [2] tiles","[+15]% Strength bonus for [Sword] units within [2] tiles"]
         },
 
@@ -322,6 +614,8 @@
         },
 {
                 "name": "Loyal Companion",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+5]% Strength bonus for [Sword] units within [2] tiles","[+5]% Strength bonus for [Gunpowder] units within [2] tiles"],
         },
 {
@@ -501,20 +795,28 @@
 
 {
                 "name": "Hidden",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["Invisible to others","Can see invisible [Cladoselache] units"],
         },
 {
                 "name": "River Monster",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[2] additional attacks per turn"],
         },
 
 {
                 "name": "Predecessor",
+                "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
                 "uniques": ["[+1] Movement <in [Coast] tiles>","[+1] Movement <in [Ocean] tiles>","[+2] Movement <in [Marsh] tiles>","[+1] Movement <in [Beach] tiles>","[-1] Movement <in [Plains] tiles>","[-1] Movement <in [Desert] tiles>","[-1] Movement <in [Grassland] tiles>","[-1] Movement <in [Montano] tiles>","[-1] Movement <in [Tundra] tiles>","[-1] Movement <in [Snow] tiles>",
 "[+30]% Strength <when fighting in [Beach] tiles>","[+30]% Strength <when fighting in [Marsh] tiles>","[+30]% Strength <when fighting in [Coast] tiles>","[+30]% Strength <when fighting in [Bog] tiles>","[+30]% Strength <when fighting in [Snowy Beach] tiles>"],
         },
 {
                 "name": "Adapted",
+                "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
                 "uniques": ["[+15]% Strength <when fighting in [Aberrant Green Zone] tiles>",
 "[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles>",
 "[+15]% Strength <when fighting in [Aberrant Pink Zone] tiles>",
@@ -527,6 +829,8 @@
         },
 {
 		"name": "Protected",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
     },
 {
                 "name": "Radiated", 
@@ -536,18 +840,26 @@
         },
 {
 		"name": "Zealot Warrior",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+25]% Strength <when defending>"],
     },
 {
 		"name": "Fearsome",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[-25]% Strength <when defending>","[+1] Movement"],
     },
 {
 		"name": "Patience",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+25]% Strength <when defending>","[-1] Movement"],
     },
     {
 		"name": "Immunity",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
  "civilopediaText": [
 			{"text": "This promotion makes the unit to not develop any disease."}
 		]
@@ -555,6 +867,8 @@
     },
         {
 		"name": "King of all Dinosaurs",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+30]% Strength <for [Wounded] units>"],
     },
         {
@@ -603,18 +917,26 @@
         },
 {
 		"name": "Greyhound Body",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+1] Movement <in [Marsh] tiles>","[+1] Movement <in [Plains] tiles>","[+1] Movement <in [Aberrant Green Zone] tiles>"],
     },
 {
 		"name": "Marine Adaptation",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+30]% Strength <vs [Water] units>"],
     },
 {
 		"name": "Ambush Predator",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+15]% Strength <vs [Pachycephalosauridae] units>","[+15]% Strength <vs [Sauropodomorpha] units>"],
     },
 {
 		"name": "Crocodile Appearance",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+25]% Strength <vs [Amphibious] units>","[+2] Movement <in [Lakes] tiles>"],
     },
 {
@@ -684,14 +1006,20 @@
         },
 {
 		"name": "Basic Training",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
     },
 {
 		"name": "Advanced Training",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+35]% to Flank Attack bonuses"],
     },
 {
 		"name": "Elite Training",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+35]% to Flank Attack bonuses"],
     },
         {
@@ -707,23 +1035,33 @@
         },
        {
 		"name": "Mountain Climber",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [Hill] tiles","[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"]
 	},
         {
 		"name": "Good Mother",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+5]% Strength bonus for [Maiasaura Rider] units within [2] tiles"]
 	},
         {
 		"name": "Strong Genetics",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+5]% Strength bonus for [Civilian] units within [2] tiles","[+5]% Strength bonus for [Theropoda] units within [2] tiles"],
     },
         {
                 "name": "Critical",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+50]% Strength <with [15]% chance> <when above [5] HP> <when attacking>",
     "[+50]% Strength <with [25]% chance> <when below [5] HP> <when attacking>"]
         },
         {
                 "name": "Rage",
+                "innerColor": [255, 69, 56],
+        "outerColor": [23, 6, 5],
                 "uniques": ["[+150]% Strength <when below [30] HP> <when attacking>"]
         },
         {
@@ -740,6 +1078,8 @@
         },
         {
                 "name": "Chivalry",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
                 "uniques": ["[+15]% Strength <when below [45] HP> <when attacking>"]
         },
         {
@@ -756,10 +1096,14 @@
         },
         {
 		"name": "Sea Predator",
+                "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
 		"uniques": ["[+15]% Strength <when fighting in [Ocean] tiles> <when attacking>"]
         },
         {
 		"name": "Coral Predator",
+                "innerColor": [255, 255, 255],
+        "outerColor": [38, 149, 209],
 		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles> <when attacking>"],
         },
 
@@ -780,15 +1124,21 @@
         },
 	{
 		"name": "Amphibious",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 	},
 	{
 		"name": "Medic",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
 	},
 	// Scout
 	{
 		"name": "Scouting I",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"],
         "column": 8,
@@ -796,6 +1146,8 @@
 	},
 	{
 		"name": "Scouting II",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"prerequisites": ["Scouting I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"],
@@ -804,6 +1156,8 @@
 	},
 	{
 		"name": "Scouting III",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"prerequisites": ["Scouting II"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Scout"],
@@ -812,6 +1166,8 @@
 	},
 	{
 		"name": "Survivalism I",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"],
         "column": 9,
@@ -819,6 +1175,8 @@
 	},
 	{
 		"name": "Survivalism II",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"prerequisites": ["Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"],
@@ -827,6 +1185,8 @@
 	},
 	{
 		"name": "Survivalism III",
+                "innerColor": [11, 18, 9],
+	        "outerColor": [137, 222, 106],
 		"prerequisites": ["Survivalism II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action", "[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
@@ -835,6 +1195,8 @@
 	},
     {
 		"name": "Warm Blood I",
+                "innerColor": [23, 21, 10],
+	        "outerColor": [255, 225, 77],
 		"uniques": ["[+1] Movement <in [Tundra] tiles>","[+25]% Strength <in [Tundra] tiles>"],
 		"unitTypes": ["Mammal"],
         "column": 46,
@@ -842,6 +1204,8 @@
     },
 {
 		"name": "Warm Blood II",
+                "innerColor": [23, 21, 10],
+	        "outerColor": [255, 225, 77],
 		"prerequisites": ["Warm Blood I"],
 		"uniques": ["[+1] Movement <in [Snow] tiles>","[+35]% Strength <in [Snow] tiles>"],
 		"unitTypes": ["Mammal"],
@@ -850,6 +1214,8 @@
     },
     {
 		"name": "Fur I",
+                "innerColor": [23, 21, 10],
+	        "outerColor": [255, 225, 77],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Mammal"],
         "column": 48,
@@ -857,6 +1223,8 @@
     },
 	{
 		"name": "Fur II",
+                "innerColor": [23, 21, 10],
+	        "outerColor": [255, 225, 77],
 		"prerequisites": ["Fur I"],
 		"uniques": ["[+25]% Strength <for [Wounded] units>"],
 		"unitTypes": ["Mammal"],
@@ -865,6 +1233,8 @@
     },
     {
 		"name": "Womb",
+                "innerColor": [23, 21, 10],
+	        "outerColor": [255, 225, 77],
 		"prerequisites": ["Warm Blood I","Fur I"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"unitTypes": ["Mammal"],
@@ -873,6 +1243,8 @@
     },
     {
 		"name": "Amniote I",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+1] Movement <in [Water] tiles>","[+1] Movement <in [Lakes] tiles>","[+1] Movement <in [Flood plains] tiles>"],
 		"unitTypes": ["Amphibious"],
         "column": 51,
@@ -880,6 +1252,8 @@
     },
 {
 		"name": "Amniote II",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"prerequisites": ["Amniote I"],
 		"uniques": ["[+1] Movement <in [Swamp Zone] tiles>","[+1] Movement <in [Marsh] tiles>","[+1] Movement <in [Natural Lake] tiles>","[+1] Movement <in [Oasis] tiles>"],
 		"unitTypes": ["Amphibious"],
@@ -888,6 +1262,8 @@
     },
     {
 		"name": "Scales I",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"uniques": ["[+15]% Strength <when fighting in [River] tiles> <when attacking>","[+15]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+15]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
 		"unitTypes": ["Amphibious"],
         "column": 53,
@@ -895,6 +1271,8 @@
     },
 	{
 		"name": "Scales II",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"prerequisites": ["Scales I"],
 		"uniques": ["[+25]% Strength <when fighting in [River] tiles> <when attacking>","[+25]% Strength <when fighting in [Swamp Zone] tiles> <when attacking>","[+25]% Strength <when fighting in [Marsh] tiles> <when attacking>","[+25]% Strength <when fighting in [Natural Lake] tiles> <when attacking>"],
 		"unitTypes": ["Amphibious"],
@@ -903,6 +1281,8 @@
     },
     {
 		"name": "Swamp Creature",
+                "innerColor": [12, 28, 54],
+	        "outerColor": [79, 146, 255],
 		"prerequisites": ["Scales I","Amniote I"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Amphibious"],
@@ -913,6 +1293,8 @@
 
  {
 		"name": "Tooths I",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["[+5]% Strength <for [Wounded] units>"],
 		"unitTypes": ["Marine Reptile","Marine Amphibious","Cetaceous","Fish"],
         "column": 56,
@@ -920,6 +1302,8 @@
     },
     {
 		"name": "Tooths II",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
                 "prerequisites": ["Tooths I"],
 		"uniques": ["[+15]% Strength <for [Wounded] units>"],
 		"unitTypes": ["Marine Reptile","Marine Amphibious","Cetaceous","Fish"],
@@ -928,6 +1312,8 @@
     },
     {
 		"name": "Hydrodynamic Body",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["[+1] Movement <in [Ocean] tiles>","[+1] Movement <in [Coast] tiles>","All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Marine Reptile","Marine Amphibious","Cetaceous","Fish"],
         "column": 58,
@@ -937,44 +1323,60 @@
 
 {
 		"name": "Flippers",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["[+1] Movement <in [Coral Zone] tiles>","[+35]% Strength <vs cities>"],
 		"unitTypes": ["Marine Reptile"]
     }
     {
         "name": "Enaliosauria",
+        "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
         "uniques": ["[+15]% Strength <for [Wounded] units>"],
         "unitTypes": ["Marine Reptile"],
 }
 
 {
 		"name": "Strong Bite",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["Heals [25] damage if it kills a unit"],
 		"unitTypes": ["Marine Amphibious"]
     }
     {
         "name": "Urea",
+        "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
         "uniques": ["[+15] HP when healing <in [All] tiles>"],
         "unitTypes": ["Marine Amphibious"]
 }
 
 {
 		"name": "Lungs",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["[+1] Movement <in [Ocean] tiles>","Earn [45]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Cetaceous"]
     }
     {
         "name": "Streamlined Body Shape",
+        "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
         "uniques": ["[+1] Movement <in [Ocean] tiles>","[+20]% Strength"],
         "unitTypes": ["Cetaceous"]
 }
 
 {
 		"name": "Gills",
+                "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
 		"uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
 		"unitTypes": ["Fish"]
     },
     {
         "name": "Anamniote",
+        "innerColor": [11, 10, 23],
+	        "outerColor": [106, 89, 255],
         "uniques": ["[+1] Movement <in [Coast] tiles>"],
         "unitTypes": ["Fish"]
 },

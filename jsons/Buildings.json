@@ -1972,6 +1972,48 @@ What is very different from today’s tree anatomy is that the center of the woo
 		"hurryCostModifier": 20,
 		"requiredTech": "Thatch Houses"
 	},
+// LC
+{
+		"name": "Challenge the Outposts",
+		"isNationalWonder": true,
+		"uniques":["[+25]% [Science] [in all cities] <for [20] turns>",
+		"Must have an owned [Lost Outpost] within [3] tiles","Only available <in cities without a [Protect the Outposts]>"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Smithy"
+},
+{
+		"name": "Protect the Outposts",
+		"isNationalWonder": true,
+		"uniques":["All newly-trained [Thrall] units [in this city] receive the [Barbed Blades I] promotion <for [50] turns>",
+		"Must have an owned [Lost Outpost] within [3] tiles","Only available <in cities without a [Challenge the Outposts]>"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Smithy"
+},
+{
+		"name": "Bloodforge",
+		"isNationalWonder": true,
+		"uniques":["All newly-trained [Lost Creature] units [in this city] receive the [Damage I] promotion",
+		"All newly-trained [Lost Creature] units [in this city] receive the [Damage II] promotion",
+		"Consumes [2] [Red Tek]"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Chain Bola"
+},
+{
+		"name": "Cryohospital",
+		"isNationalWonder": true,
+		"uniques":["All newly-trained [Lost Creature] units [in this city] receive the [Lost Healing] promotion",
+		"Consumes [2] [Purified Tek]"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Chain Bola"
+},
+{
+		"name": "Pet Display",
+		"isNationalWonder": true,
+		"uniques":["All newly-trained [Veilwyn] units [in this city] receive the [Cursed Bond I] promotion",
+		"Consumes [1] [Dark Metal]"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Smithy"
+},
 /// TEK ALLIANCES
 {
 	"name": "The Arcane Union",
