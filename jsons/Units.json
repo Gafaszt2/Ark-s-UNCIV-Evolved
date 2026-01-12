@@ -3644,8 +3644,8 @@
 		"requiredTech": "Smithy",
 		"promotions":["Localized Wormholes","Antarctic Might"],
 		"uniques": [
-		"Can transform to [Solwyn] <with [Vulpite]>",
-		"Can transform to [Malwyn] <with [Red Tek]>",
+		"Can transform to [Solwyn] <with [Vulpite]> <after discovering [Sword]>",
+		"Can transform to [Malwyn] <with [Red Tek]> <after discovering [Sword]>",
 		"[+20]% Strength <vs [Gloon] units>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "veilwyn"
