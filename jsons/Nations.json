@@ -7,6 +7,2338 @@
 //		"innerColor": [255,255,255]
 	},
 	{
+		//nations
+		"name": "Nerva Slave Mining Camp",
+		"leaderName": "Gladiatrix",
+		"adjective": ["Campers"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "This is going to be so funny! i will bear your skin!",
+		"attacked": "How brave you are, to dare to fight me, i hope you understand your actions, little one.",
+		"defeated": "This won´t help you at anything! You will perish! Just as her!.",
+		"introduction": "It is me, the Gladiatryx, in this world the only law is to live to fight!",
+
+		"neutralHello": "I hope you won´t dare to try to face my army after this trade.",
+		"hateHello": "I will turn you into Dinosaur Food if you dont request anything good...",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Live to Fight",
+                "uniques": ["[+44]% Production when constructing [Theropoda] units [in all cities]",
+		"[-25]% Culture cost of natural border growth [in all cities]"],
+
+		"outerColor": [36, 28, 27],
+		"innerColor": [252, 80, 71],
+		"cities": ["Mining Camp","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		//nations
+		"name": "The Redwoods",
+		"leaderName": "John",
+		"adjective": ["Redwoods"],
+		"startBias": ["Redwoods"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "I really didn´t want this to go like this, i really hope you can offer more than what you did...",
+		"attacked": "This is an attack we won´t forget, prepare to face the concequences!",
+		"defeated": "I can´t die like this... Alaise... My daughter...",
+		"introduction": "We are the people of the redwoods, don´t attack us and you won´t get attacked.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "You better change your way of thinking...",
+
+		"tradeRequest": "What you think of this trade?.",
+                "uniqueName": "Spiritual Power",
+                "uniques": ["[+33]% Strength <for [Sword] units>","[+50]% Yield from every [Redwoods]"],
+
+		"outerColor": [159, 209, 157],
+		"innerColor": [40, 48, 39],
+		"cities": ["Home","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		//nations
+		"name": "The Sky Domains",
+		"leaderName": "The Prophet",
+		"adjective": ["Skies"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "...now comes a crucial moment, to take this civilization to the stars",
+
+		"declaringWar": "Hahaha!",
+		"attacked": "We won´t forget this!",
+		"defeated": "This can´t be my end, not like this!",
+		"introduction": "Can you feel it? the balance of nature is altered, soon the very few pillars of the earth will align and everything that we know, will be destroyed.",
+
+		"neutralHello": "Hello traveler.",
+		"hateHello": "Ugh. it is you...",
+
+		"tradeRequest": "Let´s negotiate.",
+                "uniqueName": "Skylord",
+                "uniques": ["[+33]% Strength <for [Flying] units>","[+22]% Strength <for [Argentavis Rider] units>","[+50]% Yield from every [Mountain]"],
+
+		"outerColor": [177, 224, 214],
+		"innerColor": [41, 47, 125],
+		"cities": ["Prophecy Land","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+	//LH
+	{
+		"name": "Ashira",
+		"leaderName": "Mai",
+		"adjective": ["Ashira"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "The world was silent when I awoke, save for the distant cries of beasts I could not yet name. My hands trembled as I touched the strange implant embedded in my arm, its glow pulsing like a heartbeat not my own. I am Mai, once a wanderer, now a survivor cast into a land both beautiful and merciless.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Permian Empress",
+"uniques": ["[+2 Gold, +2 Food] in cities on [Desert] tiles","[+1 Gold, +1 Production] from every [Luxury resource]"],
+		"outerColor": [255, 148, 66],
+		"innerColor": [36, 20, 7],
+		"cities": ["Khalani","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+	{
+		"name": "Cryogenic Empire",
+		"leaderName": "Juliana",
+                "personality": "Juliana",
+		"adjective": ["Cryogenic"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "The cryolophosaurus, beasts of yore, Ruled the island with a mighty roar. But Juliana, with her will of steel, Tamed the creatures, made them kneel.
+
+She rode her mount, a sight to behold, Her banner aloft, her armor gold. The dinosaurs bent to her command, And peace settled over the icy land.
+
+With the beasts as her guard, her loyal throng, She built her empire, both vast and strong. The Cryogenic Empire, it came to be known, A kingdom of ice, by a queen alone.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Arctic Flower",
+"uniques": ["[+2 Science, +2 Production] in cities on [Tundra] tiles","[+2 Science, +2 Food] in cities on [Snow] tiles", "[+5]% [Science]"],
+		"outerColor": [218, 230, 237],
+		"innerColor": [66, 72, 122],
+		"cities": ["Cryogenesis","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+    {
+		"name": "African Royalty",
+		"leaderName": "King Umbi",
+		"adjective": ["African"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "King Umbi’s reign brought a new era to the savannahs. He established a kingdom where humans and creatures coexisted, each respecting the other’s role in the delicate balance of the ARK. The savannahs thrived, becoming a beacon of hope and a testament to Umbi’s dream.
+
+Under his rule, the new Africa was a land of opportunity, where every survivor could find their place and purpose. It was a kingdom that mirrored the beauty and diversity of the Africa of old, yet it was unique, shaped by the will of a king who saw beyond the horizon.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Humanity's Cradle",
+"uniques": ["[+30]% Production when constructing [Melee] units [in all cities]","[+20]% Production when constructing [Melee] units [in all cities] <during a Golden Age>"],
+
+		"outerColor": [77, 94, 70],
+		"innerColor": [233, 160, 12],
+		"cities": ["Golden Paradise","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Zare",
+		"leaderName": "Anezka",
+		"adjective": ["Zare"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+
+		"startIntroPart1": "Zare was built to be a fortress, with high walls and watchtowers. But within its walls, it was a thriving community. Anezka encouraged trade and commerce, establishing Zare as a major trading hub in ARK.
+
+Anezka was a fair and just ruler. She established a council of advisors, ensuring that the decisions made were in the best interest of all the citizens of Zare. Under her rule, Zare grew in size and power, attracting more survivors who were drawn to its prosperity and security.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Purity",
+"uniques": ["[+1 Science] from all [Culture] buildings","[+1 Culture] from all [Science] buildings"],
+
+		"outerColor": [156, 255, 230],
+		"innerColor": [10, 50, 250],
+		"cities": ["Floating Rock","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+    {
+		"name": "Smierc",
+		"leaderName": "Karina",
+		"adjective": ["Smierc"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Karina welcomed other survivors into Europa. She shared with them her knowledge of European culture, from its rich history and art to its diverse cuisines. The people of Europa lived together like a big family, helping each other survive in the harsh world of ARK.
+
+Despite the dangers of ARK, Karina insisted on maintaining peace. She believed in negotiation over conflict, and often managed to resolve disputes with other tribes without resorting to violence. Her wisdom and kindness earned her the respect of her people and other tribes.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Forests of Europe",
+"uniques": ["[+1 Gold, +2 Production] from [Forest] tiles [in all cities]","[+1 Gold, +2 Production] from [Redwoods] tiles [in all cities]","[+1 Gold, +2 Production] from [Pines] tiles [in all cities]"],
+
+		"outerColor": [230, 209, 156],
+		"innerColor": [66, 48, 35],
+		"cities": ["Smierken","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+    {
+		"name": "Spiras",
+		"leaderName": "Mila",
+		"adjective": ["Spiras"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Mila was a genius. She quickly figured out how to use the technologies of ARK to her advantage. She built powerful weapons, impenetrable fortresses, and even tamed the most ferocious creatures. With these, she began her conquest.
+
+One by one, the tribes of ARK fell before Mila's might. Her empire, Spiras, spread across the land. Those who resisted were crushed, and those who surrendered were forced to serve her. Mila sat on her throne, reveling in her power.
+
+But as Spiras grew, so did its problems. Managing an empire was not as easy as conquering it. There were rebellions, power struggles, and external threats. The bigger Spiras got, the more unstable it became.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Hopes of a New World",
+"uniques": ["[+1 Science, +1 Happiness] from [Forest] tiles [in all cities]","[+1 Science, +1 Happiness] from [Forest] tiles [in capital]","[+1 Science] from [Flood plains] tiles [in capital]"],
+
+		"outerColor": [247, 135, 54],
+		"innerColor": [59, 35, 30],
+		"cities": ["Esperanto","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Great Roman Empire",
+		"leaderName": "Mars",
+		"adjective": ["Roman"],
+		"startBias": ["Beach"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "As Mars explored the ARK, he discovered its vast landscapes filled with prehistoric creatures and advanced technologies beyond comprehension. He learned to survive, to build, and to fight. But as he did, a vision began to form in his mind. A vision of a grand empire, much like the Roman Empire of ancient Earth.
+
+Mars began to gather followers, survivors like him who were lost and looking for purpose. He shared his vision with them, of a new Roman Empire in the world of ARK. They were inspired by his leadership and the promise of a civilized society amidst the chaos.
+
+With his followers, Mars built the first city, naming it Nova Roma. They established laws, built roads, arenas, and grand buildings reminiscent of ancient Rome. Mars, taking the title of Caesar, led his people with wisdom and courage.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "All Roads lead to Rome",
+"uniques": ["[+1 Production, +1 Gold] from [Beach] tiles [in all cities]","[+1 Science] from [Stone] tiles [in all cities]","[+1 Food] from [Eldritch] tiles [in all cities]","[+1 Food] from [Forest] tiles [in all cities]"],
+
+		"outerColor": [225, 48, 36],
+		"innerColor": [252, 215, 128],
+		"cities": ["Mars Throne","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Norsemen Corps",
+		"leaderName": "Elianna",
+		"adjective": ["Norsemen"],
+		"startBias": ["Forest","Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Elianna, despite her humble background, felt a calling. She approached the Norsemen and expressed her desire to lead them. The Norsemen, skeptical at first, decided to give her a chance. They set forth a series of trials, each more challenging than the last.
+
+The first trial was a test of strength. Elianna was to wrestle a wild Megalodon, a creature known for its ferocity. With determination in her eyes, Elianna dove into the ocean. After a fierce struggle, she emerged victorious, earning the respect of the Norsemen.
+
+The second trial was a test of wisdom. Elianna was to solve the riddle of the ancient Obelisk, a task that had baffled the wisest of scholars. With patience and perseverance, Elianna deciphered the riddle, revealing the secrets of the Obelisk.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Men of the North",
+"uniques": ["[+1 Production] from [Coast] tiles [in all cities]","[+35]% Production when constructing [Fish] units [in all cities]","All newly-trained [Sword] units [in all cities] receive the [Health I] promotion"],
+
+		"outerColor": [73, 115, 128],
+		"innerColor": [225, 245, 244],
+		"cities": ["Eliheilm","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Kansallisvaltio",
+		"leaderName": "Micaela",
+		"adjective": ["Kansa"],
+		"startBias": ["Forest","Tundra"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Life in the kingdom was peaceful and prosperous under their rule. However, this peace was short-lived. One fateful night, the king was murdered in cold blood. The kingdom was thrown into chaos, and Micaela was left to pick up the pieces.
+
+Despite her grief, Micaela rose to the occasion. She took charge of the kingdom, leading with the same wisdom and justice as her late husband. She implemented new laws, ensured the safety of her people, and brought the murderers to justice.
+
+Under Micaela's rule, Kansallisvaltio flourished. She proved to be a strong and capable leader, earning the respect and admiration of her people. Micaela's story is a testament to her strength and resilience, proving that even in the face of adversity, one can rise to greatness.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Conquest Queen",
+"uniques": ["[+2 Faith, +1 Culture] from [Tundra] tiles without [Ranch] [in all cities]","[+1 Faith] from every [Camp]"],
+		"outerColor": [135, 161, 160],
+		"innerColor": [20, 48, 47],
+		"cities": ["Deer Skull","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Imperial New Order of America",
+		"leaderName": "Evolet",
+		"adjective": ["America"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Yet, challenges arose. The Broodmother Lysrix, a colossal arachnid, threatened their borders. The Megapithecus guarded ancient temples. And whispers spoke of an impending cataclysm, the Ascension, a test that would determine humanity’s fate.
+
+Evolet stood atop the highest peak, gazing at the three Obelisks. She felt their hum, their cosmic resonance. The Overseer’s final trial awaited. Would she ascend, transcending mortal limitations? Or would she fail, dooming her empire?.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Nationalism",
+"uniques": ["[+50]% Production when constructing [Science] buildings [in all cities]","[+10]% Production when constructing [Gunpowder] units [in all cities]"],
+
+		"outerColor": [183, 159, 245],
+		"innerColor": [35, 0, 48],
+		"cities": ["First Federation","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Europa",
+		"leaderName": "Camila",
+		"adjective": ["Europe"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Dark forces stirred the Corrupted Ones. Camila dispatched her elite guard the Silver Stags to protect New Europa. Their silver armor glinted in moonlight, their loyalty unwavering.
+The Ascension Trials, Whispers spoke of an Overseer’s final test, the Ascension. Camila trained, seeking enlightenment. She climbed the Obelisks, their light bathing her. Would she transcend, becoming more than mortal?.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Romanticism",
+"uniques": ["Enables Open Borders agreements","Enables Research agreements","[+1 Science] from every [Ocean]","Enables Defensive Pacts","When declaring friendship, both parties gain a [+35]% boost to great person generation"],
+
+		"outerColor": [245, 240, 247],
+		"innerColor": [242, 14, 2],
+		"cities": ["Sailand","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Indomitable South",
+		"leaderName": "Pilamayquen",
+		"adjective": ["South"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "In the heart of the untamed jungle, Pilamayquen ruled over the Republic of Indomitable South. Her iron will matched the unyielding cliffs that surrounded her domain. Pilamayquen believed that strength was the key to survival. Her people, chiseled by hardship, toiled in the quarries, extracting precious minerals to fuel her war machine. Iron-clad soldiers enforced strict discipline, and dissent was met with swift punishment.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Codes of Moral",
+"uniques": ["[+20]% Strength for cities","[+3 Gold, +3 Culture] for every known Natural Wonder"],
+
+		"outerColor": [212, 237, 154],
+		"innerColor": [40, 46, 26],
+		"cities": ["Hacienda","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Selva Empire",
+		"leaderName": "Sophia",
+		"adjective": ["Sur"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Pilamayquen’s hunger for power knew no bounds. She coveted Sofia’s territory—the jungle’s resources, its ancient secrets, and the magic that flowed through its veins. Sofia resisted, seeing Pilamayquen’s republic as a blight upon the land, stripping it bare and leaving scars in its wake.
+
+Their enmity escalated. Pilamayquen’s armies encroached upon the jungle, felling trees and disrupting the delicate balance. Sofia retaliated by summoning storms, entangling soldiers in vines, and whispering curses that drove them mad. The clash of ideologies echoed through the canopy, shaking the very roots of the world.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Big Amazonia",
+"uniques": ["[+1 Gold, +1 Culture] from every specialist [in all cities]","[+2 Production] from every [Jungle]","[+2 Production] from every [Tumash Temple]"],
+
+		"outerColor": [245, 37, 113],
+		"innerColor": [66, 6, 28],
+		"cities": ["Tropicalis","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "The Skyscraper",
+		"leaderName": "Alessandra",
+		"adjective": ["Skyscraper"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "But her greatest achievement was unity. The skyscrapers, once divided by rivalries, now stood as a harmonious whole. Alessandra’s rule was marked by collaboration, not conquest. She held council meetings atop the highest towers, where architects debated the future of their realm.
+
+And so, Alessandra ruled, the woman who had ascended from the streets to the stars. Her legacy echoed through the ages, inspiring future builders, dreamers, and adventurers. The skyscrapers whispered her name in the wind, and even the wyverns circled above in reverence.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Survival of the Fittest",
+"uniques": ["[+100]% [Metal] resource production","[+2 Production] from every [Metal]","[+1 Gold] from every [Metal]"],
+
+		"outerColor": [31, 56, 46],
+		"innerColor": [138, 255, 208],
+		"cities": ["Skylord City","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Photogenia",
+		"leaderName": "Theodora",
+		"adjective": ["Photogenia"],
+		"startBias": ["Beach"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Once an adventurer and dreamer, stumbled upon an uncharted island. Its cliffs kissed the clouds, and its shores shimmered with iridescent sands. She claimed it as her own—a canvas for her vision. Photogenia was born.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "For God and the Queen",
+"uniques": ["[+100]% [Biotoxin] resource production","[+2 Culture] from every [Moai]","[+1 Faith] from every [Moai]"],
+
+		"outerColor": [245, 230, 66],
+		"innerColor": [28, 28, 25],
+		"cities": ["Conztantias","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Tenochtitlan",
+		"leaderName": "Quetzal",
+		"adjective": ["Tenochtitlan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "But power attracts darkness. A rival faction sought to exploit the city’s secrets, threatening to plunge ARK into chaos. Quetzal faced trials of courage, wisdom, and sacrifice. He battled corrupted creatures, deciphered celestial maps, and ultimately confronted the shadowy High Priest of Chaos.
+
+In the final showdown, Quetzal ascended the tallest ziggurat, wings ablaze with ancient fire. The High Priest mocked him, but Quetzal knew the truth: he was the bridge between worlds, the embodiment of balance. With a single stroke of his wing, he banished the High Priest, sealing the city’s secrets once more.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Feathered Snake",
+"uniques": ["[+2 Culture] from every [Tumash Temple] <during a Golden Age>","[+2 Science] from every [Tumash Temple] <during a Golden Age>"],
+
+		"outerColor": [90, 245, 66],
+		"innerColor": [24, 51, 14],
+		"cities": ["Serpent","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Radical North",
+		"leaderName": "Irma",
+		"adjective": ["Radical North"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Irma’s vision was simple: survival at any cost. She built massive fortifications, turning her base into an impregnable fortress. Her followers admired her strength and cunning, but secretly feared her wrath. Irma’s motto? Obey or be devoured.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "The New Nation",
+"uniques": ["Gain [20] [Science] <upon building a [Ranch] improvement>"],
+
+		"outerColor": [15, 15, 15],
+		"innerColor": [255, 41, 41],
+		"cities": ["Destorias","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Helius",
+		"leaderName": "Carlz Albert",
+		"adjective": ["Helius"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Carlz Albert was an enigma—an eccentric survivor with a penchant for psychological warfare. His tribe, the Helius, specialized in manipulating their enemies’ minds. They used hallucinogenic mushrooms, hypnotic dances, and cryptic symbols to sow chaos.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "The Cave Empire",
+"uniques": ["Gain [25] [Faith] <upon building a [Camp] improvement>","Gain [5] [Faith] <upon building a [Moai] improvement>","Gain [10] [Faith] <upon building a [Tumash Temple] improvement>"],
+		"outerColor": [215, 230, 60],
+		"innerColor": [22, 48, 30],
+		"cities": ["Yellow Cloud","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Mana",
+		"leaderName": "Happa Venata",
+		"adjective": ["Mana"],
+		"startBias": ["Coast","Ocean","Avoid [Tundra]","Avoid [Beach]","Avoid [Desert]","Avoid [Plains]","Avoid [Grassland]","Avoid [Hill]","Avoid [Montano]"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Happa Venata hailed from a distant island chain, where warriors were born in the salt spray and raised on legends of sea monsters. His tribe, the Mana, revered the ocean and its primal power.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Shores of Faith and Wisdom",
+"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            "[+2] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>"],
+		"outerColor": [19, 63, 94],
+		"innerColor": [71, 177, 252],
+		"cities": ["Manaism Voyage","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Wisdomenland",
+		"leaderName": "Margaret",
+		"adjective": ["Wisdom"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Margaret’s icy gaze hid a warmth that melted hearts. She believed in unity, even as rival factions clashed. Her dream? A united ARK, where every survivor had a voice. She wore a cloak of polar bear fur, symbolizing her commitment to balance.
+As whispers spread of a hidden ARK sanctuary—a place untouched by the chaos—Margaret vowed to lead her people there. She’d negotiate with the fiercest allosaurs and soothe the angriest rexes. Her legacy? Not power, but peace.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Trivial Concerns",
+"uniques": ["[+1 Gold] [in all cities]","[+2 Gold, +2 Culture] from every [Trading post]"],
+		"outerColor": [29, 30, 59],
+		"innerColor": [255, 212, 249],
+		"cities": ["Greenland","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        
+        {
+		"name": "Drevnost",
+		"leaderName": "Ivar",
+		"adjective": ["Drevnost"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "The heart of Drevnost was the Great Hall, a cavernous chamber adorned with crude paintings depicting battles against the titanic titanosaur and the elusive broodmother. Here, the tribe gathered to feast on roasted dodo legs, share stories of their exploits, and plan their next daring raid on a rival tribe.
+
+Ivar’s closest companion was Nadia, a fierce warrior with a scar across her left eye. She had saved him from a pack of sabertooths during his early days in Drevnost, and their bond grew stronger with each shared hunt. Nadia’s laughter echoed through the camp, a rare sound in a world where danger lurked around every corner.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Ancient People´s Cold Hearts",
+"uniques": ["[+1 Food] [in all cities]","[+1 Gold, +1 Food] from every [Farm]","[+1 Gold, +1 Food] from every [Terraces]"],
+		"outerColor": [72, 66, 245],
+		"innerColor": [214, 212, 250],
+		"cities": ["Big Hammer","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Lost Homes",
+		"leaderName": "Smith",
+		"adjective": ["Lost Homes"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Smith’s quest began. He sought out the elders, listened to their stories, and learned their grievances. The Stoneclaw chieftain spoke of ancestral grudges, the Sandstriders of nomadic wanderlust, the Forest Whisperers of ancient spirits, and the Coralborn of lost seafaring routes.
+But not all welcomed unity. The fanatical Firebrand Cult, worshipers of the fiery wyverns, plotted chaos. Their leader, High Inquisitor Voss, saw Smith as a threat to their dominion. Battles erupted—sword against flame, claw against scale.
+At the volcanic peak, Smith faced Voss. Flames danced around them, and the island trembled. Voss sneered, Unity is weakness. We thrive on discord!
+
+Smith raised his sword, its blade shimmering with the combined essence of the tribes. Unity is strength, he declared. The Ark chose me to mend its fractured soul.
+
+Their duel shook the heavens. Smith’s armor absorbed Voss’s flames, and Talon swooped down, distracting the wyverns. Elara chanted ancient incantations, and Kael’s cannons roared.
+
+In the end, Smith stood victorious. The Firebrand Cult disbanded, and the Council of Nations ratified the Treaty of Lost Homes. The tribes shared knowledge, trade routes, and laughter. The Ark pulsed with newfound harmony..",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Honor or Death",
+"uniques": ["[+1 Science] from every [Camp]","[+1 Science] per [3] population [in all cities]","[+10]% [Science]","[+10]% [Production]"],
+		"outerColor": [255, 44, 20],
+		"innerColor": [18, 9, 8],
+		"cities": ["Union Sword","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "The Steampunkers",
+		"leaderName": "Daria",
+		"adjective": ["Steampunk"],
+		"startBias": ["Montano"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "She knew what had to be done. With a determined look, she ordered her crew to stabilize the zeppelin. The mystics chanted ancient incantations, and Daria stepped into the portal. The world shifted around her, and she emerged on the other side a place of fractured reality, where gravity played tricks and time flowed like molten metal.
+
+Daria’s mechanical arm hummed, resonating with the energy of the portal. She felt the presence of the trapped souls—the survivors who had become one with this fractured realm. They whispered their gratitude, urging her forward.
+
+And so, Daria pressed on. She explored crystalline forests, battled against corrupted creatures, and deciphered inscriptions etched into the very fabric of reality. She discovered artifacts—keys to unlocking the secrets of Aberration—and sent them back to her zeppelin.
+
+As the months passed, the Steampunkers awaited her return. They patched up the zeppelin, upgraded its engines, and kept the fires burning. Daria’s legend grew—the fearless captain who sailed through the skies and delved into the abyss.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Machinery",
+"uniques": ["Provides [1] [Tek]","[+33]% [Production]","All newly-trained [Gunpowder] units [in all cities] receive the [Steampunker] promotion"],
+		"outerColor": [46, 21, 4],
+		"innerColor": [247, 178, 67],
+		"cities": ["Cogsworth","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Mighty Caliphate",
+		"leaderName": "Hafsa",
+        "personality": "Amelia",
+		"adjective": ["Caliphate"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Hafsa of the Mighty Caliphate Veiled in resilience and wisdom, Hafsa commands the sands and jungles of the Ark with unwavering grace. As the Caliph of the Mighty Caliphate, she leads a civilization forged in faith, fire, and survival. Her hijab is not just a symbol of devotion—it’s a banner of strength in a world ruled by tooth and claw. By her side roams the Postosuchus, the Caliphate’s sacred beast—swift, ruthless, and revered. Together, they carve order from chaos, taming the wild with strategy, spirit, and steel.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Holy Site",
+"uniques": ["[+1 Faith, +1 Culture] from all [Faith] buildings","[+1 Faith] from every [Castle]"],
+		"outerColor": [63, 89, 63],
+		"innerColor": [153, 224, 153],
+		"cities": ["Qawium","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Titanforge",
+		"leaderName": "General E",
+		"adjective": ["Titans"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "They saw a united Titanforge—an empire where tradition and innovation coexisted, where the Obsidian Throne and the Steam Council ruled together.
+
+And so, they made a pact. The Monarchy would embrace change, and the Anarchy would honor tradition. The Titan’s Heart pulsed as one, binding their destinies.
+
+From that day forth, the Titanforge Empire forged a new path—a delicate balance between order and chaos, guided by the whispers of Titans and the clanging of steam hammers.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Balance or Death",
+"uniques": ["[+1 Science] in cities on [Jungle] tiles","[+2 Gold, +2 Production] in cities on [Plains] tiles"],
+		"outerColor": [149, 217, 230],
+		"innerColor": [27, 33, 56],
+		"cities": ["Forewell","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Golden Mountain",
+		"leaderName": "Spipaku Mama",
+		"adjective": ["Golden Mountain"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "One of Spipaku Mama’s greatest achievements was her ability to tame the wild creatures of Scorched Earth. She formed a bond with a mighty Wyvern, a dragon-like beast that ruled the skies. Together, they soared above the dunes, scouting for resources and protecting the fortress from threats. Her other tamed creatures, including Thorny Dragons and Morellatops, became essential allies in her quest for dominance.
+Despite her growing power, Spipaku Mama faced constant threats. Rival tribes sought to claim her fortress, and the land itself seemed to conspire against her with sandstorms and extreme temperatures. But Spipaku Mama’s leadership and strategic mind kept his people safe. She led daring raids on enemy camps, securing vital resources and expanding hheris territory.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Argentavis´s Nest",
+"uniques": ["[+3 Food, +3 Production] in cities on [Hill] tiles","[+2 Food, +1 Production] in cities on [Montano] tiles","[+1 Food] in cities on [Plains] tiles"],
+		"outerColor": [92, 89, 66],
+		"innerColor": [237, 223, 116],
+		"cities": ["Quechua","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "The Falls",
+		"leaderName": "Amalia",
+		"adjective": ["Falls"],
+		"startBias": ["Swamp Zone"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "The inevitable confrontation came when both Amalia and Joana sought control over a region rich in rare resources. Their armies met on the battlefield, and the clash was fierce. Amalia, riding her majestic Crystal Wyvern, led her forces with unmatched bravery. Joana, on her Bloodstalker, used her agility and tactical prowess to counter Amalia’s advances.
+
+As the battle raged on, both leaders realized that their forces were evenly matched. The conflict threatened to destroy the very land they sought to control. In a moment of clarity, Amalia and Joana called for a truce. They met in the heart of the battlefield, surrounded by their warriors, and negotiated a peace.
+
+Recognizing the futility of their conflict and the potential for mutual benefit, Amalia and Joana agreed to a pact of neutrality. They divided the contested region and established trade routes between their territories. This alliance allowed both domains to prosper, and the land of Crystal Isles entered a period of unprecedented peace and growth.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Bull´s Plaza",
+"uniques": ["[+2 Gold, +3 Production] per [3] social policies adopted <before the [Electric era]>","[+1 Gold, +1 Production] per [3] social policies adopted <starting from the [Electric era]>"],
+		"outerColor": [130, 62, 47],
+		"innerColor": [255, 186, 117],
+		"cities": ["Plaza Primera","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Plains Horn",
+		"leaderName": "Northen",
+		"adjective": ["Plains Horn"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Fjordur was not without its challenges. Northen encountered rival tribes and dangerous predators, each vying for control of the land’s precious resources. One of his greatest adversaries was a fierce chieftain named Bjorn, who ruled the icy realm of Jotunheim. Their clashes were intense, with each battle testing Northen’s leadership and strategic skills.
+
+Realizing that constant conflict would only lead to mutual destruction, Northen sought a different path. He approached Bjorn with an offer of peace, proposing an alliance that would benefit both tribes. After much negotiation, they agreed to a truce, dividing the territories and establishing trade routes. This alliance allowed both tribes to prosper and focus on the greater threats that loomed over Fjordur.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Spiritual Plain´s Horsemen",
+"uniques": ["[+40]% Great Person generation [in all cities]"],
+		"outerColor": [56, 36, 0],
+		"innerColor": [237, 211, 164],
+		"cities": ["Horse Head","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Old Railway Cave",
+		"leaderName": "Alhemin",
+		"adjective": ["Legendary"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Alhemin awoke with a start, his body aching from the cold, hard ground beneath him. As he opened his eyes, he found himself in a strange, bioluminescent world. The air was thick with the scent of mushrooms and the distant sounds of unknown creatures. He had no memory of how he got there, but he knew one thing for certain: he had to survive.
+
+The Green Zone, also known as the Fertile Region, was the safest area in this new world, but it was still fraught with dangers. Alhemin quickly learned to avoid the Raptors and Basilisks that roamed the area. He scavenged for resources, gathering fungal wood, mushrooms, and crystals to build his first shelter.
+
+Days turned into weeks as Alhemin honed his survival skills. He crafted weapons and tools, tamed creatures to aid him, and built a formidable base. His knowledge of the land grew, and he discovered the Mushroom Forest and the Fallen Nexus, rich with resources but guarded by the fearsome Karkinos, a giant prehistoric crab.
+
+Alhemin’s journey was far from over, but he had carved out a place for himself in this strange new world. With determination and courage, he faced the unknown, ready to conquer whatever challenges lay ahead.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "The Fruits of our Forests",
+"uniques": ["[+1 Gold, +2 Production] from [Carpentry Area] tiles [in all cities]","[+1 Gold, +2 Production] from [Lake House] tiles [in all cities]","[+1 Gold, +2 Culture] from [Forest] tiles [in all cities]","[+1 Gold, +2 Production] from [Aberrant Green Zone] tiles [in all cities]"],
+		"outerColor": [42, 54, 44],
+		"innerColor": [211, 245, 229],
+		"cities": ["Fungic Trees","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Funxolotl Nation",
+		"leaderName": "Basil", 
+                "personality": "Basil",
+		"adjective": ["Basil"],
+		"startBias": ["Twilight Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Basil awoke in a world bathed in eerie blue light, the Bio-Luminescent Region of Ark Aberration. The air was thick with humidity, and the ground was covered in glowing mushrooms and strange plants. He had no recollection of how he arrived, but he knew he had to Flamaliapt quickly to survive.
+
+The Blue Zone, known for its beauty and danger, was home to some of the most fearsome creatures in Aberration. Basil quickly learned to navigate the treacherous terrain, avoiding the Reapers and Nameless that lurked in the shadows. He scavenged for resources, gathering blue gems, metal, and fungal wood to build his first shelter.
+
+Basil’s journey was fraught with peril. He crafted a Hazard Suit to protect himself from the radiation and tamed a Ravager to help him traverse the rugged landscape. With his new companion, he explored the Luminous Marshlands, a region teeming with deadly creatures like the Aberrant Megalosaurus and the elusive Basilisk.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Vicotry isn´t measured by War",
+"uniques": ["[+2 Culture, +2 Science] from [Jungle] tiles [in all cities]"],
+		"outerColor": [136, 201, 99],
+		"innerColor": [18, 15, 12],
+		"cities": ["Bambolord Polonia","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Zarodnik",
+		"leaderName": "Siezna",
+		"adjective": ["Zarodnik"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "With careful planning and a bit of luck, Siezna managed to locate a herd of Pachyrhinosaurus. She observed them from a distance, learning their patterns and behaviors. After days of preparation, she finally made her move. Using a combination of tranquilizer darts and soothing herbs, she successfully tamed a strong and majestic Pachyrhinosaurus, whom she named Luna.
+
+With Luna by her side, Siezna felt a surge of confidence. The bond between them grew stronger with each passing day. Luna’s unique abilities proved invaluable, allowing Siezna to navigate through dangerous territories and avoid unnecessary conflicts.
+
+Together, they explored the vast landscapes of Valguero, from the dense forests to the sprawling plains. Siezna and Luna faced numerous challenges, from packs of hungry raptors to the treacherous cliffs of the White Cliffs region. But with Luna’s strength and Siezna’s cunning, they overcame every obstacle.
+
+Siezna’s journey eventually led her to cross paths with Qaisar and Brutus. Recognizing their shared goals, they decided to join forces. The two teams complemented each other perfectly, with Brutus’s brute strength and Luna’s calming presence creating a balanced and formidable alliance.
+
+Their combined efforts brought them closer to their ultimate goal: defeating the Ark’s Masters. Siezna’s strategic mind and Luna’s unique abilities played a crucial role in their battles. Together, they faced the Masters in a final, epic showdown.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Design",
+"uniques": ["[+1 Gold, +2 Culture] from all [Production] buildings"],
+		"outerColor": [74, 6, 1],
+		"innerColor": [255, 226, 224],
+		"cities": ["Cathedral","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Sol Suus",
+		"leaderName": "Qaisar",
+		"adjective": ["Qaisar"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Naked and vulnerable, Qaisar knew he had to act quickly. He gathered his courage and began to explore his surroundings. The lush forests and rolling hills were teeming with life, both friendly and hostile. He needed a companion, something strong and reliable to help him survive.
+
+After days of careful observation and planning, Qaisar set his sights on an Auroch, a massive, ancient bovine creature known for its strength and resilience. With a combination of stealth, patience, and a few well-placed tranquilizer arrows, he managed to tame the beast. He named it Brutus.
+
+With Brutus by his side, Qaisar felt a newfound sense of confidence. Together, they traversed the diverse landscapes of Valguero, from the dense jungles to the icy peaks. They encountered many challenges, from packs of raptors to the elusive and dangerous Giganotosaurus. But with Brutus’s strength and Qaisar’s cunning, they overcame each obstacle.
+
+Their ultimate goal was to defeat the Ark’s Masters, the powerful beings who controlled this world. Qaisar knew that to do so, he would need to gather allies and resources. He built a small base, crafted weapons and armor, and formed alliances with other survivors.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Achaemenid Legacy",
+"uniques": ["[+3 Culture, +3 Faith] from all [Wonder] buildings"],
+		"outerColor": [47, 82, 117],
+		"innerColor": [255, 214, 153],
+		"cities": ["Mighty Power","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Makaya",
+		"leaderName": "Nlangu",
+		"adjective": ["Makaya"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Venturing inland, Nlangu entered the dense and dangerous jungles. The thick canopy and constant threat of predators required a more centralized and disciplined approach. Nlangu established the Jungle Dominion, ruled by a single monarch with absolute authority. The monarch, chosen through a series of trials and challenges, was responsible for maintaining order and protecting the inhabitants from the dangers lurking in the shadows.
+As Nlangu climbed higher into the rugged mountains, he encountered harsh conditions and scarce resources. The Mountain Clans were formed, each clan fiercely independent and self-reliant. The government here was a council of chieftains, each leading their own clan but coming together to make decisions that affected the entire region. The Mountain Clans valued strength and resilience, and their leaders were chosen based on their ability to survive and thrive in the harsh environment.
+Crossing the mountains, Nlangu arrived at the arid deserts of the island. The extreme heat and lack of water made survival a constant struggle. In this unforgiving land, Nlangu established the Desert Empire, ruled by an emperor with a strict and hierarchical government. The emperor’s word was law, and the people were organized into a rigid caste system to ensure efficiency and order. The Desert Empire thrived on trade and innovation, using their ingenuity to overcome the harsh conditions..",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Governments",
+"uniques": ["[+1 Culture, +2 Production] from all [Ark Monument] buildings","[+2 Gold] from all [Farm] buildings","[+3 Culture] from all [Great Amphitheater] buildings"],
+		"outerColor": [125, 255, 173],
+		"innerColor": [46, 48, 43],
+		"cities": ["River Craddle","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Pampa",
+		"leaderName": "Colorado",
+		"adjective": ["Colorado"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "One evening, as the sun dipped below the horizon, casting long shadows across the desert, Colorado spotted a majestic creature in the distance. It was an Equus, a wild horse with a sleek coat and a powerful build. The Equus moved gracefully, its mane flowing in the wind.
+
+Colorado knew that taming such a creature would greatly increase his chances of survival. He approached cautiously, offering the Equus some Rockarrots he had found earlier. The Equus eyed him warily but eventually accepted the offering. Over the next few days, Colorado continued to gain the Equus’s trust, feeding it and speaking to it in soothing tones.
+
+As Colorado and Storm ventured deeper into the desert, they encountered new challenges and forged new alliances. They met other survivors, each with their own stories of awakening and survival. Together, they built a thriving community, sharing knowledge and resources to withstand the harsh environment of Scorched Earth.
+
+Colorado’s journey was far from over, but with Storm by his side, he felt ready to face whatever challenges lay ahead. The bond between man and beast had become unbreakable, a testament to the power of trust and perseverance in the face of adversity.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Rich Soil",
+"uniques": ["[+2 Gold, +2 Production] from each Trade Route","[+1 Culture, +1 Faith] from each Trade Route <during a Golden Age>"],
+		"outerColor": [213, 237, 247],
+		"innerColor": [21, 26, 28],
+		"cities": ["Faith Ranch","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Blue Rave",
+		"leaderName": "Disco Woman",
+		"adjective": ["Blue da da bae"],
+		"startBias": ["Natural Lake"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "With a twirl and a spin, she hatched a bold plan,
+To live life on the edge, as a crime’s biggest fan.
+She’d steal the spotlight, and maybe some jewels,
+Outsmarting the law, breaking all the rules.
+
+Her first heist was grand, at the disco’s own vault,
+She danced through the lasers, without a single fault.
+With a wink and a smile, she grabbed all the gold,
+Leaving behind a trail, of stories to be told.
+
+The city was buzzing, with tales of her spree,
+Disco Woman, the legend, wild and free.
+She’d rob with a rhythm, and flee with a beat,
+Her crimes were a dance, no one could defeat.
+
+But deep in her heart, she knew it couldn’t last,
+The thrill of the chase, was fading fast.
+So she danced one last time, under the moon’s glow,
+And vanished in the night, like a star’s final show.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Mind Control",
+				"uniques": ["Free [Great Scientist] appears <upon discovering [Bow and Arrow] technology>", "[Great Scientist] is earned [30]% faster"],
+		"outerColor": [15, 30, 64],
+		"innerColor": [153, 240, 255],
+		"cities": ["Disco!","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+		"name": "Hill Horde",
+		"leaderName": "Khuchi",
+		"adjective": ["Horde"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Khuchi, a proud Mongolian lord, awakens in a dense, prehistoric forest. His warrior instincts immediately take over as he crafts a spear from nearby materials. Memories of his homeland and the battles he fought flood his mind, but he knows he must focus on survival. As he explores the forest, he encounters fierce predators and learns to hunt and gather resources. Khuchi’s leadership skills shine as he builds a fortified camp and tames a pack of raptors to aid in his quest for dominance over this new land. His journey is one of strength, honor, and the relentless pursuit of survival.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Honour Parade",
+                "uniques": ["[Great Merchant] is earned [30]% faster","[Great Engineer] is earned [30]% faster"],
+		"outerColor": [67, 77, 94],
+		"innerColor": [92, 152, 255],
+		"cities": ["Discordia","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Jupiter",
+		"leaderName": "Anesthesia",
+		"adjective": ["Jupiter"],
+		"startBias": ["Aberrant Blue Zone"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Anesthesia, once a glamorous Italian influencer, finds herself on a serene beach, far from the comforts of her previous life. Using her resourcefulness, she fashions a shelter from palm leaves and starts documenting her experiences in a makeshift journal. Her creativity and Flamaliaptability help her navigate the challenges of the island. She learns to fish, gather edible plants, and even befriends a gentle triceratops. Anesthesia’s journey is one of transformation, as she discovers inner strength and resilience she never knew she had. Her story is a testament to the power of Flamaliaptability and the human spirit.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Galactica",
+                "uniques": ["[+23]% Production when constructing [All] wonders [in all cities]"],
+		"outerColor": [255, 120, 199],
+		"innerColor": [43, 31, 61],
+		"cities": ["Onion Rings","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Zero",
+		"leaderName": "Julius",
+		"adjective": ["Zero"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Julius, a teenager obsessed with ancient Rome, wakes up near a rocky cliff. His knowledge of ancient engineering comes in handy as he constructs a rudimentary aqueduct to collect fresh water. Inspired by the grandeur of Rome, he dreams of building a new civilization on the island. Julius’s journey is filled with challenges as he faces dangerous creatures and harsh environments. However, his determination and ingenuity lead him to create a thriving settlement, complete with Roman-inspired architecture and infrastructure. His story is one of ambition, innovation, and the pursuit of greatness.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Prophecy over all Men´s Beasts",
+                "uniques": ["[+100]% Yield from every [Luxury resource]"],
+		"outerColor": [182, 51, 58],
+		"innerColor": [34, 0, 27],
+		"cities": ["Capitalia Order","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Akbar",
+		"leaderName": "Gaby",
+		"adjective": ["Akbar"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Gaby, a young girl from Iran with a passion for learning, wakes up in a lush valley. Her curiosity drives her to explore the island’s flora and fauna, quickly identifying edible plants and studying the behavior of the island’s creatures. Gaby’s knowledge of nature becomes invaluable as she discovers medicinal herbs and learns to tame gentle herbivores for transportation. Her journey is one of discovery and knowledge, as she uncovers the secrets of the island and its ancient civilization. Gaby’s story is a celebration of curiosity, intelligence, and the quest for understanding.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "History Repeates Itself",
+                "uniques": ["[+1 Production] from every [Strategic resource]","[+1 Production] from every [Fiber]","[+100]% [Fiber] resource production"],
+		"outerColor": [34, 38, 36],
+		"innerColor": [52, 235, 149],
+		"cities": ["Ghutawium","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Thalassophobia",
+		"leaderName": "Candela",
+		"adjective": ["Thalassophobia"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "As Candela delves deeper into the city’s secrets, she encounters a massive sea creature that guards the city’s heart. Using her knowledge and the tools she has gathered, she manages to communicate with the guardian, earning its trust. The guardian reveals that the city holds the key to controlling the island’s waters and protecting its inhabitants from the dangers of the deep.
+
+With the guardian’s blessing, Candela takes on the role of the ocean’s protector. She uses the city’s technology to create safe havens along the coast and underwater, ensuring that other survivors can find refuge. Her bond with the sea creatures grows stronger, and she becomes a legend among the island’s inhabitants, known as the Ocean Nomad.
+
+Years pass, and Candela’s efforts transform the coastal regions of Ragnarok into thriving communities. Her legacy lives on as the protector of the seas, and her story inspires future generations to respect and cherish the ocean. The once perilous waters become a symbol of hope and resilience, thanks to Candela’s unwavering spirit and connection to the sea.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Sea City",
+                "uniques": ["[+1 Gold, +2 Production] from [Coast] tiles [in all cities]","[+3 Culture] from [Coral Zone] tiles [in all cities]"],
+		"outerColor": [126, 134, 207],
+		"innerColor": [11, 11, 18],
+		"cities": ["Record Reef","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Chaniora",
+		"leaderName": "Clara",
+		"adjective": ["Chaniora"],
+		"startBias": ["Snowy Beach"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "The golden rays of dawn pierced through the dense canopy, casting an ethereal glow on the awakening Midgard. Clara, once an ordinary woman, found herself standing at the edge of an unknown world, the remnants of her old life flickering like a distant dream. The air was thick with the scent of moss and blooming flowers, mingling with the distant roars of creatures yet unseen.
+
+With every step she took, Clara felt the island’s pulse, a heartbeat that resonated with her own. She was no longer bound by the mundane; she was a pioneer in a land untamed. Days turned into weeks as she harnessed her survival skills, transforming raw materials into shelter and forging alliances with other survivors who had awoken in this primal realm.
+
+One fateful twilight, Clara stumbled upon the lions of Midgard. Their golden eyes reflected her determination, their roars echoed her courage. She approached them not as a conqueror, but as a kindred spirit. Through patience and respect, she forged an unbreakable bond with these majestic beasts. Soon, her fledgling nation was known across Midgard for its fierce lion riders, warriors who commanded respect with every stride.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Land of Felines",
+                "uniques": ["[+1 Culture] per [5] population [in all cities]","[+1 Culture] from every [Camp]"],
+		"outerColor": [211, 57, 46],
+		"innerColor": [227, 209, 191],
+		"cities": ["Charnia","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Geuzen",
+		"leaderName": "Dominica",
+		"adjective": ["Geuzen"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Dominica's rise to power was swift and ruthless. She harnessed the chaos of the ARKs, bending the will of the creatures and survivors alike to her twisted ideals. Her followers, clad in punk attire, were a fearsome sight, their loyalty unwavering. They rode into battle on monstrous beasts, their war cries echoing through the valleys.
+
+Geuzen was a kingdom built on fear and control. Dominica's fascist regime left no room for dissent. Her spies were everywhere, and those who dared to oppose her were swiftly dealt with. The once peaceful lands of the ARKs trembled under her rule, as she sought to expand her dominion across the islands.
+
+But even in the darkest times, hope flickered. Clara and her lion riders stood as a beacon of resistance, their courage and unity a stark contrast to Dominica's tyranny. The clash between these two powerful women would shape the fate of the ARKs, a battle of ideals and wills that would be remembered for generations.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "The Real Deal",
+                "uniques": ["[-50]% construction time for [All] improvements","[+1 Production] from every [Camp]","[+1 Production] from every [Mine]"],
+		"outerColor": [255, 64, 64],
+		"innerColor": [40, 30, 74],
+		"cities": ["Cool Rock","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Saint Order",
+		"leaderName": "Flameria",
+		"adjective": ["Saint Order"],
+		"startBias": ["Montano"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Flameria's golden hair and piercing eyes masked a heart of iron and a will to dominate. She carved her empire into the Ark with fire and fury, ruling with an iron fist and a desire for absolute power. Her tyranny was feared by many, but her cunning and ruthlessness ensured that she stayed atop the food chain. In the brutal world of the Ark, she was a queen whose rule was absolute, her every command obeyed without question.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Parties",
+                "uniques": ["[+3 Gold, +1 Faith] from [Ragnarok Temple] tiles [in all cities]"],
+		"outerColor": [245, 219, 239],
+		"innerColor": [234, 69, 9],
+		"cities": ["Montano´s Hut","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Gondwana",
+		"leaderName": "Sol",
+		"adjective": ["Gondwana"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Sol emerged from the dense forests of the Ark, her skin kissed by the sun and her spirit as fierce as the land she hailed from. As a custodian of ancient wisdom and the natural world, she navigated the wilderness with unmatched skill. Using the stars as her guide and the flora as her medicine, she forged a deep connection with the land. Her survival was more than a struggle—it was a symbiotic dance with nature, where every leaf whispered secrets of resilience.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Coconut Survivors",
+                "uniques": ["[+2 Food, +1 Faith] from [Coast] tiles [in all cities]","[+1 Food] from [Beach] tiles [in all cities]"],
+		"outerColor": [145, 194, 130],
+		"innerColor": [54, 30, 0],
+		"cities": ["Land of Koalas","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Teikoku",
+		"leaderName": "Rin",
+		"adjective": ["Teikoku"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Rin’s journey in the Ark was one of quiet strength and gentle wisdom. With a serene demeanor and an unwavering belief in peace, she sought harmony even in the chaotic world around her. She tamed creatures with kindness, built serene gardens in the heart of danger, and inspired those around her to seek tranquility over conflict. Her beauty wasn’t just in her appearance but in her soul, radiating a peaceful aura that brought solace to the harshest corners of the Ark.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Order and Education",
+                "uniques": ["[-40]% [Science] [in all cities]","[2] free random researchable Tech(s) from the [Ancient era]","[3] free random researchable Tech(s) from the [Leather era]","[3] free random researchable Tech(s) from the [Smithy era]","[2] free random researchable Tech(s) from the [Electric era]","[1] free random researchable Tech(s) from the [Tek era]"],
+		"outerColor": [233, 174, 156],
+		"innerColor": [198, 2, 0],
+		"cities": ["Minami","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Isi Sunday",
+		"leaderName": "Amina",
+		"adjective": ["Isi Sunday"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Amina stood tall and proud, her presence commanding the respect of both humans and creatures alike. As a war chief from a lineage of warriors, she wore her heritage as proudly as her battle scars. The Ark became her battlefield, where she used her strategic mind and combat prowess to protect her tribe and conquer new territories. Her leadership was unyielding, her heart as fierce as the Savannah sun, and her loyalty to her people, unwavering.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Order and Education",
+                "uniques": ["[+1 Culture, +2 Production] per [3] social policies adopted"],
+		"outerColor": [123, 133, 181],
+		"innerColor": [26, 31, 56],
+		"cities": ["Lion Rock","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Poison",
+		"leaderName": "Hazel",
+		"adjective": ["Poison"],
+		"startBias": ["Fallout Land"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Hazel, with her sharp mind and an even sharper fascination for the deadly, roamed the Ark with a scientist’s curiosity. Her love for toxins and poisons turned her into a master of chemical warfare, crafting potions that could incapacitate or cure with a single drop. She navigated her survival through intellect, often using her poisons to fend off predators and adversaries, ensuring her place in the hierarchy of the Ark with a mix of fear and respect.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Poison Mistress",
+                "uniques": ["[+1 Food, +1 Science] from [Marsh] tiles [in all cities]","[+1 Food, +1 Science] from [Swamp Zone] tiles [in all cities]","[-100]% maintenance costs <for [Ophidia] units>","[-100]% maintenance costs <for [Spinosauridae] units>","[-30]% maintenance costs <for [Amphibious] units>"],
+		"outerColor": [197, 235, 174],
+		"innerColor": [36, 43, 32],
+		"cities": ["Hazelia","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+{
+		"name": "Really Basic",
+		"leaderName": "Buglord",
+                "personality": "Buglord",
+		"adjective": ["Really Basic"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Buglord was a very particular survivor that liked to take naps, eat fruits and make weapons, but one day he got elected for his tribe, so he rode on his albertosaurus and charged against the Island.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "I´m Friend",
+                "uniques": ["[+1 Food] from [Hill] tiles [in all cities]","[-45]% unhappiness from the number of cities"],
+		"outerColor": [179, 214, 255],
+		"innerColor": [41, 41, 41],
+		"cities": ["Yanks","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+        {
+		"name": "Argentum",
+		"leaderName": "Panchita",
+		"adjective": ["Argentum"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "I'm like the old man, look, and it's like we were in the house and everything went crazy, look, the old woman looked at me fiercely and now everything is a mess, you see, and now fat Gregory turned like a simp, and he's walking behind You saw that alien girl called Panchita, now they are conquering planets like that, you saw, so take care of yourself, you saw.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Alien Invader",
+"uniques": ["Gain [25]-[35] [Science] <upon entering a new era>","Gain [20]-[25] [Science] <upon entering a Golden Age>","Gain [10]-[15] [Science] <upon conquering a city>"],
+		"outerColor": [212, 235, 255],
+		"innerColor": [0, 119, 222],
+		"cities": ["Geos","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+	{
+		"name": "Hot Trot",
+		"leaderName": "Anisa",
+		"adjective": ["Hot Trot"],
+		"startBias": ["Montano"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Anisa always felt a deep connection to the shadows, a solace in the night's embrace. Growing up in the outskirts of a bustling city, she was an enigma, dressed in black with a penchant for the macabre. She found her escape in music, art, and the written word, crafting worlds where darkness thrived, and the misunderstood found their place. Her gothic lifestyle was more than an aesthetic; it was a statement of resilience and self-discovery.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Wathever",
+                "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]"],
+		"outerColor": [20, 20, 20],
+		"innerColor": [245, 147, 66],
+		"cities": ["Dark Tower","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+	{
+		"name": "Aurorean Order",
+		"leaderName": "Whizan",
+		"adjective": ["Aurorean Order"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Ascension",
+
+		"startIntroPart1": "Whizan hailed from the mist-laden mountains of China, where ancient traditions and modern life wove together seamlessly. A martial artist and scholar, Whizan was always intrigued by the mysteries of her homeland. She spent her days training in the art of Wushu, and her nights poring over ancient texts, searching for forgotten wisdom. Her name, meaning wisdom and elegance, was a testament to her balanced spirit and fierce determination.",
+		"startIntroPart2": "",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"introduction": "Greetings",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+                "uniqueName": "Varanus Dreams",
+                "uniques": ["Enemy [Wounded] units must spend [1] extra movement points when inside your territory","[+1 Food] from [Forest] tiles [in all cities]","[+100]% [Biotoxin] resource production"],
+		"outerColor": [222, 52, 235],
+		"innerColor": [43, 16, 31],
+		"cities": ["Aurora","Arat","Prime",
+			"Federal",
+			"United","Arkistia","Obeliskia","Techtia",
+			"Generations","Dogmatic"],
+        "spyNames": ["Sir Charles"]
+	},
+
+// Frostpunk Nations
+
+{
+	"name": "Avaloria",
+	"leaderName": "Julian",
+	"adjective": ["Avaloria"],
+	"startBias": ["Snow","Snowy Beach"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "King Julian was a man of great wisdom and unmatched bravery, with a heart as cold as the ice he commanded and eyes that gleamed with the intensity of a thousand winters. His kingdom, known as Frosthaven, was a formidable fortress built from the very bones of the land—ice, rock, and snow—and guarded by the fierce creatures that roamed the frozen wilderness.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Überlaufen",
+			"uniques": ["[+1 Science] per [3] population [in all cities]","[+1 Science] in cities on [Snow] tiles","[+4 Food] in cities on [Snow] tiles"],
+	"outerColor": [66, 135, 245],
+	"innerColor": [39, 42, 46],
+	"cities": ["Eishaufen","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Adlernation",
+	"leaderName": "Marissa",
+	"adjective": ["Adlernation"],
+	"startBias": ["Snow","Snowy Beach"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "As time passed, both Julian and Marissa realized that their talents and leadership were needed beyond the confines of Frosthaven. Julian continued to rule the Northern Continent, while Marissa ventured into the southern lands, where she established her own kingdom, Sunfire, a land of volcanic activity and lush forests.
+
+Juliana, now a grown and formidable warrior in her own right, yearned to create her own legacy. With her parents' blessings, she set out to the uncharted western territories. There, she founded the kingdom of Stormwatch, a land marked by towering cliffs, tempestuous seas, and untamed wilderness.
+
+Though the three kingdoms flourished under their individual rulers, the bonds of family and love were tested as their ambitions and visions for the future clashed. Rivalries emerged, and soon, the once unified family found themselves on opposing sides of a great conflict.
+
+King Julian, a master tactician, sought to expand his territory further south, encroaching upon Marissa's lands. Queen Marissa, fiercely protective of her people, retaliated by pushing her forces northward. Juliana, caught between her parents, tried to mediate but soon found her kingdom drawn into the conflict as well.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Vulkanischer Boden",
+			"uniques": ["[+2 Science, +3 Culture] from [Volcano] tiles [in all cities]","[+1 Culture] from [Mountain] tiles [in all cities]","[+1 Food] in cities on [Snow] tiles"],
+	"outerColor": [255, 90, 31],
+	"innerColor": [125, 16, 1],
+	"cities": ["Rückständiges Rhine","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Glacia",
+	"leaderName": "Maru",
+	"adjective": ["Glacia"],
+	"startBias": ["Snow","Snowy Beach"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "As time passed, both Julian and Marissa realized that their talents and leadership were needed beyond the confines of Frosthaven. Julian continued to rule the Northern Continent, while Marissa ventured into the southern lands, where she established her own kingdom, Sunfire, a land of volcanic activity and lush forests.
+
+Juliana, now a grown and formidable warrior in her own right, yearned to create her own legacy. With her parents' blessings, she set out to the uncharted western territories. There, she founded the kingdom of Stormwatch, a land marked by towering cliffs, tempestuous seas, and untamed wilderness.
+
+Though the three kingdoms flourished under their individual rulers, the bonds of family and love were tested as their ambitions and visions for the future clashed. Rivalries emerged, and soon, the once unified family found themselves on opposing sides of a great conflict.
+
+King Julian, a master tactician, sought to expand his territory further south, encroaching upon Marissa's lands. Queen Marissa, fiercely protective of her people, retaliated by pushing her forces northward. Juliana, caught between her parents, tried to mediate but soon found her kingdom drawn into the conflict as well.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Prähistorische Demut",
+			"uniques": ["[+2 Science] from [Ice] tiles [in all cities]","[+1 Science] from [Strategic resource] tiles [in all cities]"],
+	"outerColor": [163, 215, 255],
+	"innerColor": [49, 41, 64],
+	"cities": ["Trockenes Land","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+
+/// Latin Americas
+
+{
+	"name": "Nazocari",
+	"leaderName": "Merlina",
+	"adjective": ["Nazocari"],
+	"startBias": ["Jungle","Plains"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "In the swampy, bamboo-filled depths of Aberration, Merlina thrived. Her ancestors, influenced by ancient Asian civilizations, had recreated a prehistoric society deep within the thickets. Skilled in martial arts and proficient with primitive tools, Merlina was the community's warrior and protector. She was adept at navigating the perilous swamps, taming wild creatures, and ensuring her people’s survival. Despite the constant threats from both natural predators and rival tribes, Merlina remained a beacon of hope and resilience for her people. Her heart was as fierce as the dragons of legend, and her spirit as unyielding as the bamboo forests she called home.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Apozanolotl",
+			"uniques": ["[Gold] cost of purchasing [Gigantopithecus Rider] units [-45]%","[+1 Gold] from [Strategic resource] tiles [in all cities]","[+1 Gold] from [Strategic resource] tiles [in capital]"],
+	"outerColor": [4, 5, 56],
+	"innerColor": [190, 216, 237],
+	"cities": ["La Soyopa","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Condesa",
+	"leaderName": "Gomez",
+	"adjective": ["Condesa"],
+	"startBias": ["Coast","Montano"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Gomez, a Latin American Aryan, sought power and dominance over the vast plains of Aberration. Ambitious and charismatic, he united various tribes under his command, employing both cunning diplomacy and ruthless force. Gomez believed in creating a unified nation where strength and skill determined one’s place in society. His prowess in battle and strategic mind made him a formidable leader. Yet, beneath the exterior of a hardened warlord, Gomez harbored dreams of creating a civilization that would stand the test of time, where his people could thrive in peace and prosperity. The plains trembled beneath his mighty army, yet his vision remained one of unity and progress.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Bandana Criolla",
+			"uniques": ["[+1 Production] from every [Camp]","[+1 Production] from every [Camp] <starting from the [Electric era]>"],
+	"outerColor": [237, 224, 128],
+	"innerColor": [61, 24, 24],
+	"cities": ["Rio Nuevo","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+
+/// ???
+
+{
+	"name": "Niemandsland",
+	"leaderName": "Von Kaiser",
+	"adjective": ["Niemandsland"],
+	"startBias": ["Tundra","Forest"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "In the hidden caverns and forgotten ruins of Aberration, Von Kaiser, an old expert in machinery, pursued his lifelong passion. Once a renowned engineer, he had grown obsessed with rebuilding ancient technologies. His crowning achievement was the construction of an old model tank, a feat that combined the primitive resources of Aberration with his advanced knowledge. Von Kaiser was a solitary figure, more comfortable with machines than with people, yet his inventions were pivotal to the survival of many tribes. His mechanical creations offered protection, facilitated transport, and even provided essential resources. Although viewed as eccentric by most, Von Kaiser's brilliance and dedication made him an invaluable asset in the harsh and unforgiving world of Aberration.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Verdächtige Ideologie",
+			"uniques": ["[+1 Production] from every specialist [in all cities]", "[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]"],
+	"outerColor": [255, 38, 23],
+	"innerColor": [8, 3, 2],
+	"cities": ["Thron der Könige","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+
+/// Any Topic~ 
+
+{
+	"name": "Resu",
+	"leaderName": "Flamalia",
+	"adjective": ["Resu"],
+	"startBias": ["Forest"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Days turned into weeks, and Flamalia's resourcefulness grew. She discovered a serene clearing by a bubbling brook that would serve as the perfect location for her settlement. With patience and hard work, she built a tiny but sturdy cabin from the timber of fallen trees. She called her new home Resu, a name that symbolized her journey of survival and rebirth.
+
+Resu became Flamalia's sanctuary. She cultivated a small garden, providing herself with fresh vegetables and herbs. She crafted furniture from salvaged wood and decorated her cabin with handmade trinkets, turning it into a cozy and inviting space. As the seasons changed, Resu flourished, and so did Flamalia.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Vertigo and Phenomena",
+			"uniques": ["[+1 Gold] from every specialist [in all cities]","[2] free [Bob] units appear <upon founding a city> <during the [Ancient era]>","[2] free [Survivor] units appear <upon founding a city> <during the [Leather era]>","[2] free [Survivor] units appear <upon founding a city> <during the [Smithy era]>","[2] free [Engineer] units appear <upon founding a city> <during the [Electric era]>","[1] free [Giga Rider] units appear <upon founding a city> <during the [Electric era]>"],
+	"outerColor": [52, 235, 134],
+	"innerColor": [33, 56, 43],
+	"cities": ["Patamanlama","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+
+
+
+
+
+
+
+
+{
+	"name": "Ngura",
+	"leaderName": "Walami",
+	"adjective": ["Ngura"],
+	"startBias": ["Forest"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Walami opened her eyes to the dazzling light reflecting off crystal formations. She felt a surge of determination. Although the island was unfamiliar, her survival instincts kicked in. She explored cautiously, using her knowledge to find food and water sources, and to build a temporary shelter.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Home of the Natural Wonders",
+			"uniques": ["[+20]% Strength decreasing with distance from the capital","[Faith] cost of purchasing [Great Prophet] units [-50]%","[+2 Culture] from every [Natural Wonder]"],
+	"outerColor": [66, 245, 123],
+	"innerColor": [13, 38, 21],
+	"cities": ["Lake Athumn","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Akuna",
+	"leaderName": "Siria",
+	"adjective": ["Akuna"],
+	"startBias": ["Forest"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Siria awoke on Crystal Isles, her sharp eyes scanning the surroundings. She quickly assessed the situation and began crafting tools from stones and bones. Her resourcefulness ensured she was well-prepared for any challenges that lay ahead,
+	
+	Siria's journey led her to encounter other survivors. She formed alliances with those who shared her values and clashed with those who threatened her safety. Her strategic mind helped her navigate these relationships, ensuring she always stayed one step ahead.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "The Optic Hunters",
+			"uniques": ["[+1 Faith] from every specialist [in all cities]","[+2 Gold, +2 Faith] from every [Mountain]","[+2 Gold, +2 Faith] from every [Natural Wonder]"],
+	"outerColor": [255, 214, 133],
+	"innerColor": [79, 67, 43],
+	"cities": ["Akunasi Optima","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Tywerenge",
+	"leaderName": "Fezian",
+	"adjective": ["Tywerenge"],
+	"startBias": ["Forest"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Fezian awoke on Crystal Isles with a sense of wonder. His keen intuition guided him through the island's mysteries. He began mapping out the area, marking water sources and potential dangers, always trusting his instincts,
+
+Fezian was drawn to the island's crystal formations. He discovered that certain crystals had unique properties, such as healing or providing energy. His fascination with these crystals led him to uncover hidden caves and secret passages,
+
+While exploring a particularly deep cave, Fezian found an ancient artifact—a crystal amulet that resonated with his energy. He realized the amulet was connected to the island's guardian. With his deep connection to the crystals, Fezian knew he was destined to find and awaken the guardian.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "The Lakes of Wisdom",
+			"uniques": ["[+1 Gold, +1 Science] per [5] social policies adopted","[-35]% Culture cost of natural border growth [in all cities]"],
+	"outerColor": [255, 80, 41],
+	"innerColor": [94, 29, 14],
+	"cities": ["Wisdomen Lakas","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+
+
+
+{
+	"name": "Hammah",
+	"leaderName": "Anhaar",
+	"adjective": ["Hammah"],
+	"startBias": ["Desert"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "As the sun blazed relentlessly over the parched landscape of Scorched Earth, Anhaar awoke, feeling the heat seeping through her skin. Her eyes, accustomed to the shadows of dense forests, squinted against the harsh glare. The ground beneath her was cracked and dry, devoid of the moisture and life she once knew.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "The Only True Religion",
+			"uniques": ["[+1 Science] from all [Faith] buildings","[+1 Faith] from every [Orchard]","[+1 Gold] from every [Silk]"],
+	"outerColor": [10, 10, 10],
+	"innerColor": [255, 255, 255],
+	"cities": ["Jazair","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Zuwarah",
+	"leaderName": "Jamal",
+	"adjective": ["Zuwarah"],
+	"startBias": ["Desert"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Jamal awoke with a start, the blinding sun overhead making him wince. He was surrounded by an alien landscape, a vast desert stretching as far as the eye could see. The heat was oppressive, and his throat felt dry and parched. He struggled to his feet, his muscles aching from the strain of survival in such a hostile environment.
+
+Jamal was resourceful, and he quickly set about finding water. He remembered the lessons of survival he had learned over the years. He searched for signs of life, knowing that where there was life, there was water. His journey led him to a small oasis, a rare sight in this barren land. The water was cool and refreshing, and Jamal drank deeply, feeling his strength return.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "For our Land",
+			"uniques": ["[+5]% Production towards any buildings that already exist in the Capital","[+1 Faith, +1 Production] from every [Orchard]","[+1 Gold, +2 Production] from every [Oasis]"],
+	"outerColor": [23, 77, 39],
+	"innerColor": [242, 255, 246],
+	"cities": ["Al Macaba","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "The Black Sea",
+	"leaderName": "Mansur II",
+	"adjective": ["The Black Sea"],
+	"startBias": ["Coast"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Mansur II woke up to the scorching heat of the desert sun. The landscape was a stark contrast to the lush greenery he was used to. The air was dry, and the ground was covered in a fine layer of sand that seemed to get everywhere. He shielded his eyes from the blinding light and took in his surroundings. The world was desolate, with towering rock formations and scattered remnants of ancient civilizations.
+
+Mansur II was not one to be easily deterred. He knew that survival in this harsh environment would require every ounce of his cunning and strength. He set out to explore, his keen senses alert to every sound and movement. He found a small cave, a refuge from the unrelenting sun, and began to gather supplies.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Mighty Conquerors",
+			"uniques": ["[+1 Faith] from every [Coast]","[+1 Faith] from every [Ocean]","[+1 Faith] from every [Coral Zone]","[+10]% Production when constructing [Water] units [in all cities]","[+5]% Production when constructing [Land] units [in all cities]"],
+	"outerColor": [252, 186, 3],
+	"innerColor": [10, 10, 10],
+	"cities": ["Golden Coast","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "The Occults",
+	"leaderName": "Sabrina",
+	"adjective": ["The Occults"],
+	"startBias": ["Coast"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "The Cult of Sabrina, led by the enigmatic High Priestess Sabrina herself, believed that true power lay not in harmony with nature, but in its dominion and manipulation. They sought to harness the arcane energies of the Ark, to bend both beast and land to their will. Sabrina's followers, cloaked in dark robes and adorned with ancient runes, were masters of dark rituals that could summon and control creatures, twisting their forms to suit their nefarious purposes.
+
+As the cult's power grew, whispers of their dark deeds reached the royal court. Concerned for his people, King Thalor dispatched his most trusted knights to investigate the rumors. Among them was Sir Eamon, a valiant warrior known for his unwavering loyalty and unmatched combat skills. Alongside him was Lady Seraphina, a wise and powerful mage whose knowledge of ancient magic was unparalleled.
+
+Their journey led them to the heart of the cult's operations, a forsaken temple hidden deep within the forest of the Direwolves. Here, they discovered the true extent of the cult's malevolence. Sabrina had summoned a massive, corrupted dragon, its scales blackened and eyes glowing with an eerie crimson light. The beast, once a guardian of the Ark, was now a harbinger of destruction, enslaved to Sabrina's will.
+
+Determined to thwart the cult's plans, Sir Eamon and Lady Seraphina confronted Sabrina in a fierce battle. Magic clashed with steel, the air crackling with energy as the forces of light and darkness collided. Despite their bravery and skill, the cult's dark magic proved formidable. With a wave of her hand, Sabrina unleashed a torrent of dark energy, forcing the knights to retreat..",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "High Priestess",
+			"uniques": ["When defeating a [Wounded] unit, earn [100] Gold and recruit it <with [30]% chance>","[+15]% Strength for cities","[+2 Culture] from every [Mountain]"],
+	"outerColor": [170, 88, 237],
+	"innerColor": [24, 23, 26],
+	"cities": ["Siggilman","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "해",
+	"leaderName": "고복수",
+	"adjective": ["해"],
+	"startBias": ["Forest","Montano","Coast","Grassland","Avoid [Hill]","Avoid [Plains]"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Bok-Su attended medical school alongside Da-Jeong. As a diligent student, Bok-Su placed immense importance on her grades, often at the expense of forming friendships. Her singular focus on academic excellence left her isolated, until she met Da-Jeong. The two initially bonded over their shared experiences and aspirations, and a tentative friendship developed. Despite this growing connection, Bok-Su maintained her reserved nature, finding it difficult to fully open up and trust others.
+
+Their friendship was tested during a critical moment in their medical training. During an operation, Da-Jeong made a grievous mistake that led to the patient's death. In her panic, Da-Jeong called out for Bok-Su's help. Bok-Su, driven by her sense of duty and loyalty to her friend, stepped in to assist. However, when the officials arrived to investigate the incident, Da-Jeong immediately shifted the blame onto Bok-Su. In a cruel twist of fate, Bok-Su was wrongfully accused of negligence and was subsequently expelled from the medical program.
+
+The expulsion was a devastating blow to Bok-Su, who dedicated her entire life to her studies with the unjust removal from the program shattering her dreams. Feeling betrayed and abandoned, what compounded her anguish was Da-Jeong’s indifferent response to the situation. Rather than reaching out to apologize or offer support, she moved on with her life while Bok-Su was discarded. This betrayal marked the beginning of Bok-Su’s deep-seated hatred and desire for revenge, having hardened resolve to make Da-Jeong atone for her actions.",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Will marrying him bring the same guilt as betraying me?",
+			"uniques": ["[+1 Science] per [3] social policies adopted","[+70]% Health from pillaging tiles"],
+	"outerColor": [163, 163, 163],
+	"innerColor": [33, 33, 33],
+	"cities": ["복수","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Astraeos",
+	"leaderName": "Zeus",
+	"adjective": ["Astraeos"],
+	"startBias": ["Coast","Avoid [Desert]","Avoid [Tundra]"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Hail, Zeus, King of the Gods, Lord of Olympus, Wielder of the Thunderbolt!
+
+From your marble throne atop the celestial peaks, you command the skies and the fates of mortals below. Your dominion stretches across the sacred valleys and storm-swept cliffs of Astraeos, where temples echo with the chants of devotion and lightning dances across the heavens at your whim.
+
+The world trembles at your fury and flourishes under your favor. Will you forge a civilization worthy of divine legacy, guiding your people with wisdom and wrath? Or will you unleash the storm, casting down those who defy your rule?",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Hellas",
+			"uniques": ["[+33]% Strength <for [Bison Latifrons] units>","[+2 Culture] from every specialist [in all cities]","Allied City-States provide [Culture] equal to [+60]% of what they produce for themselves"],
+	"outerColor": [26, 26, 26],
+	"innerColor": [255, 198, 92],
+	"cities": ["Mount Olympus","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Aquatica",
+	"leaderName": "Poseidon",
+	"adjective": ["Aquatica"],
+	"startBias": ["Ocean","Coast","Beach","Snowy Beach","Avoid [Desert]","Avoid [Hill]","Avoid [Hill]"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Greetings, Poseidon, Earth-Shaker, Lord of the Deep, Master of Tides!
+
+Beneath the crushing weight of the ocean, in the bioluminescent halls of coral palaces and abyssal trenches, your reign is absolute. The creatures of the deep heed your call, and the currents bend to your will. Aquatica is your realm—mysterious, perilous, and teeming with ancient power.
+
+Will you raise a civilization from the depths, harnessing the secrets of pressure and the fury of the sea? Or will you drown the ambitions of surface dwellers beneath waves of vengeance and silence?",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "The Power of the Unoptimized DLC",
+			"uniques": ["[+25]% Strength <for [Aquaria] units>","[+1 Science] per [4] population [in all cities]","[+1 Food] from every [Ocean]",
+			"[+20]% Strength for cities","Enables [Water] units to enter ocean tiles","Units in cities cost no Maintenance","Enables embarkation for land units"],
+	"outerColor": [4, 15, 43],
+	"innerColor": [114, 149, 237],
+	"cities": ["Riftwalker’s Reach","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+{
+	"name": "Zima",
+	"leaderName": "Peter",
+	"adjective": ["Zima"],
+	"startBias": ["Montano","Volcano","Hill"],
+	"preferredVictoryType": "Ascension",
+
+	"startIntroPart1": "Greetings, Poseidon, Earth-Shaker, Lord of the Deep, Master of Tides!
+
+Beneath the crushing weight of the ocean, in the bioluminescent halls of coral palaces and abyssal trenches, your reign is absolute. The creatures of the deep heed your call, and the currents bend to your will. Aquatica is your realm—mysterious, perilous, and teeming with ancient power.
+
+Will you raise a civilization from the depths, harnessing the secrets of pressure and the fury of the sea? Or will you drown the ambitions of surface dwellers beneath waves of vengeance and silence?",
+	"startIntroPart2": "",
+
+	"declaringWar": "This is the end!",
+	"attacked": "Oh, so you are attacking us.",
+	"defeated": "You can continue your reign? im sure you won´t.",
+	"introduction": "Greetings",
+
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			"uniqueName": "Russian Winter",
+			"uniques": ["All newly-trained [Land] units [in all cities] receive the [Fortitude I] promotion","All newly-trained [Land] units [in all cities] receive the [Fortitude II] promotion","[+2 Food] from every [Snow]","[+2 Food] from every [Forest]"],
+	"outerColor": [230, 230, 230],
+	"innerColor": [194, 77, 4],
+	"cities": ["Little Peime","Arat","Prime",
+		"Federal",
+		"United","Arkistia","Obeliskia","Techtia",
+		"Generations","Dogmatic"],
+	"spyNames": ["Sir Charles"]
+},
+	//LH
+	{
 		"name": "The Revenants",
 		"leaderName": "Alpha Revenant",
 		"personality": "The Revenants",
@@ -1122,6 +3454,42 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"innerColor": [0,0,0],
 		"cities": ["Sikelm"]
 	},
+	{
+		"name": "Southern Farls",
+		"adjective": ["Southern Farls"],
+		"cityStateType": "Lost",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [232, 48, 23],
+		"innerColor": [0,0,0],
+		"cities": ["Southern Farls"]
+	},
+	{
+		"name": "Threl Lemn",
+		"adjective": ["Threl Lemn"],
+		"cityStateType": "Lost",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [232, 48, 23],
+		"innerColor": [0,0,0],
+		"cities": ["Threl Lemn"]
+	},
+	{
+		"name": "Thrall Craddle",
+		"adjective": ["Thrall Craddle"],
+		"cityStateType": "Lost",
+
+		"declaringWar": "This is the end!",
+		"attacked": "Oh, so you are attacking us.",
+		"defeated": "You can continue your reign? im sure you won´t.",
+		"outerColor": [232, 48, 23],
+		"innerColor": [0,0,0],
+		"cities": ["Thrall Craddle"]
+	},
 
 
 
@@ -1173,6 +3541,7 @@ HLN-A’s presence is a constant reminder of Helena Walker’s legacy and her ef
 		"innerColor": [0,0,0],
 		"cities": ["Jane Cult"]
 	},
+
 	//Barbarian
 	{
 		"name": "Barbarians",

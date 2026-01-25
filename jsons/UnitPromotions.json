@@ -1,4 +1,53 @@
 [
+        // LH
+        {
+		"name": "Argentinian Biomes",
+		"uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Tundra] tiles>","[+20]% Strength <when fighting in [Grassland] tiles>","[+20]% Strength <when fighting in [Plains] tiles>","[+20]% Strength <when fighting in [Desert] tiles>"]
+        },
+        {
+		"name": "Regeneration",
+		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>"]
+        },
+        {
+		"name": "Africa Predator",
+		"uniques": ["[+25]% Strength <when fighting in [Jungle] tiles>","Eliminates combat penalty for attacking over a river","Heals [20] damage if it kills a unit"]
+        },
+        {
+		"name": "Prey Eyes",
+		"uniques": ["[+1] Sight"]
+        },
+        {
+		"name": "Random Dice",
+		"uniques": ["[+35]% Strength <with [35]% chance> <when above [1] HP> <when attacking>","[-5]% Strength <with [35]% chance> <when above [1] HP> <when attacking>"]
+        },
+        {
+		"name": "Shadow Ambusher",
+		"uniques": ["[+20]% Strength <when fighting in [Aberrant Green Zone] tiles>","[+15]% Strength <when fighting in [Aberrant Blue Zone] tiles>","[+15]% Strength <when fighting in [Aberrant Pink Zone] tiles>"]
+        },
+        {
+		"name": "Cold Weather Lover",
+		"uniques": ["[+35]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Tundra] tiles>","[+35]% Strength <when fighting in [Snowy Beach] tiles>","[-15]% Strength <when fighting in [Desert] tiles>"]
+        },
+        {
+		"name": "Imperator",
+		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>", "Eliminates combat penalty for attacking across a coast"]
+        },
+        {
+		"name": "Teeth like Daggers",
+		"uniques": ["[1] additional attacks per turn"]
+        },
+        {
+		"name": "Flexible Bones",
+		"uniques": ["[+20]% XP gained from combat","[+45]% to Flank Attack bonuses"]
+        },
+        {
+		"name": "Steampunker",
+		"uniques": ["[+25]% XP gained from combat"]
+        },
+        {
+		"name": "Golden",
+		"uniques": ["Earn [35]% of killed [Military] unit's [Cost] as [Gold]"]
+        }
         // LC
         {
                 "name": "Lost Healing",

@@ -1,4 +1,419 @@
 [
+	//LH
+	// ELECTION UNIQUE BUILDINGS
+	{
+		"name": "Elections",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Provides [1] [Government]","Moves to new capital when capital changes"]
+	},
+
+	// GOVERNMENTS
+
+    {
+		"name": "Democracy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Happiness] [in capital]","[+1 Production] from all [Food] buildings","[+5]% Production when constructing [Sauropodomorpha] units [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Republic",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Culture] [in capital]","[+1 Culture] from all [Culture] buildings","[+5]% Production when constructing [Thyreofora] units [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Monarchy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+1 Gold, +1 Production] [in all cities]","[+1 Gold] from all [Gold] buildings","[+5]% Production when constructing [Ophidia] units [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "Communism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+25]% growth [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Culture] [in capital]","[+20]% [Culture] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Fascism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+25]% Production when constructing [Melee] units [in all cities]","[+20]% [Production] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "Theocracy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[Faith] cost of purchasing [Great Prophet] units [-35]%","[+25]% [Faith] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Oligarchy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[Gold] cost of purchasing [Melee] units [-50]%","[+20]% [Gold] [in all cities]","[-3]% [Happiness] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Anarchy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+30]% [Food] [in all cities]","[+30]% [Production] [in all cities]","[-15]% [Culture] [in all cities]","[-10]% [Science] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "Libertarianism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","Gifts of Gold to City-States generate [+100]% more Influence","Military Units gifted from City-States start with [10] XP",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Constitutional Monarchy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns","City-State territory always counts as friendly territory",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Democratic Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+1 Science] from all [Production] buildings",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "Libertarian Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+4 Science, +3 Production] from every [Steampunk Station]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "State Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Food] from all [Production] buildings","[+2 Production] from all [Ark Monument] buildings",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Falangism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Gold, +2 Production] per [3] social policies adopted","[+2 Faith] per [6] social policies adopted",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "Feudalism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","Enables conversion of city production to [Gold]","Production to [Gold] conversion in cities changed by [+50]%","[Gold] cost of purchasing [Melee] units [-40]%",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Social Democracy",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+20]% Production when constructing [Culture] buildings [in all cities]","[+30]% Production when constructing [Food] buildings [in all cities]","[+30]% Production when constructing [Production] buildings [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Welfare Capitalism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+2 Gold] from [Coast] tiles [in all cities]","[+2 Gold] from [Ocean] tiles [in all cities]","[+2 Gold] per [6] social policies adopted",
+
+			"Moves to new capital when capital changes"]
+	},
+
+	{
+		"name": "National Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","All newly-trained [Melee] units [in all cities] receive the [Health I] promotion","All newly-trained [Melee] units [in all cities] receive the [Stamina I] promotion",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Guild Socialism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","[+10]% [Production] [in all cities]","No Maintenance costs for improvements in [Hill] tiles","No Maintenance costs for improvements in [Tundra] tiles","No Maintenance costs for improvements in [Forest] tiles",
+
+			"Moves to new capital when capital changes"]
+	},
+	{
+		"name": "Anarcho Capitalism",
+		"isNationalWonder":true,
+		"hurryCostModifier": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Consumes [1] [Government]","Gifts of Gold to City-States generate [+30]% more Influence","[+100]% [Gold] from every [Trading post]","[+4]% [Gold] [in all cities]",
+
+			"Moves to new capital when capital changes"]
+	},
+//// New Unique Governments	
+
+{
+	"name": "Militant Theocracy",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","[+30]% Production when constructing [Sword] units [in all cities]","[+30]% Production when constructing [Gunpowder] units [in all cities]","[+50]% Production when constructing [Ophidia] units [in all cities]",
+
+		"Moves to new capital when capital changes"]
+},
+{
+	"name": "Eco Fascism",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","Free Great Person","[+100]% [Food] from every [Plantation]","[+4]% [Food] [in all cities]",
+
+		"Moves to new capital when capital changes"]
+},
+{
+	"name": "Hyper Capitalism",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","[+3 Gold, +1 Production] from [Trading post] tiles [in all cities]",
+
+		"Moves to new capital when capital changes"]
+},
+{
+	"name": "Anarcho Transhumanism",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","[-40]% unhappiness from the number of cities",
+
+		"Moves to new capital when capital changes"]
+},
+{
+	"name": "Genetic Aristocracy",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","[+75]% of excess happiness converted to [Culture]","[+15]% of excess happiness converted to [Gold]",
+
+		"Moves to new capital when capital changes"]
+},
+{
+	"name": "Radical Pacifism",
+	"isNationalWonder":true,
+	"hurryCostModifier": 0,
+	"requiredTech": "Agriculture",
+	"uniques": ["Consumes [1] [Government]","Allied City-States provide [Science] equal to [+60]% of what they produce for themselves",
+
+		"Moves to new capital when capital changes"]
+},
+
+
+
+
+
+
+
+
+	// UNIQUE BUILDINGS
+
+        {
+		"name": "Cryofridge",
+                "replaces": "Ark Monument",
+                "uniqueTo": "Cryogenic Empire",
+		"science": 1,
+                "production": 1,
+		"cost": 80,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Mosque",
+                "replaces": "Rockwell Stories",
+                "uniqueTo": "Mighty Caliphate",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"faith": 2,
+                "uniques": ["[1] population in a random city"]
+		"hurryCostModifier": 20,
+		"requiredTech": "Campfire"
+	},
+        {
+		"name": "Bread Factory",
+                "replaces": "Ark Monument",
+                "uniqueTo": "Funxolotl Nation",
+		"food": 2,
+		"cost": 33,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Landmark",
+                "replaces": "Courthouse",
+                "uniqueTo": "Zarodnik",
+		"maintenance": 2,
+                "science": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Bookshelf"
+	},
+        {
+		"name": "River Village",
+                "replaces": "Water Recolection",
+                "uniqueTo": "Makaya",
+                "greatPersonPoints": {"Great Engineer": 1},
+		"food": 1,
+		"hurryCostModifier": 20,
+		"uniques": ["[30]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Waterskin"
+	},
+        {
+		"name": "Farlands",
+                "replaces": "Regular Lands",
+                "uniqueTo": "Hill Horde",
+                "greatPersonPoints": {"Great Scientist": 1},
+                "maintenance": 1,
+                "faith": 3,
+                "requiredNearbyImprovedResources": ["Strategic resource"],
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Food] [in all cities]"],
+                "requiredBuilding": "Hunt Place"
+		"requiredTech": "Sleeping Bag"
+	},
+        {
+		"name": "Mediterranean Smithies",
+                "replaces": "Smithies",
+                "uniqueTo": "Jupiter",
+                "maintenance": 1,
+		"production": 2,
+                "requiredNearbyImprovedResources": ["Metal","Chitin"],
+		"hurryCostModifier": 50,
+		"uniques": ["[+2 Production] from [Chitin] tiles [in this city]", "[+2 Production] from [Metal] tiles [in this city]"],
+		"requiredBuilding": "Heavy Stone Working",
+                "requiredTech": "Smithy"
+	},
+        {
+		"name": "Captured Barracks",
+                "replaces": "Wooden Fort",
+                "uniqueTo": "Zero",
+                "cityStrength": 5,
+		"cityHealth": 110,
+		"gold": 2,
+                "production": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Wooden Houses"
+	},
+        {
+		"name": "Great Dock",
+                "replaces": "Great Amphitheater",
+                "uniqueTo": "Thalassophobia",
+                "isNationalWonder": true,
+		"hurryCostModifier": 50,
+                "food": 3,
+                "requiredResource": "Worker"
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+1 Gold] from [Ocean] tiles [in this city]","[+2 Culture] from [Lakes] tiles [in this city]","[+2 Culture] from [Marsh] tiles [in this city]"],
+		"requiredTech": "Reservoir"
+	},
+        {
+		"name": "Dojo",
+                "replaces": "Place Mark",
+                "uniqueTo": "Teikoku",
+                "faith": 1,
+		"science": 1,
+                "greatPersonPoints": {"Great Scientist": 2},
+		"hurryCostModifier": 20,
+		"uniques": ["[+20]% Great Person generation [in this city]", "Cost increases by [14] per owned city"],
+		"requiredTech": "Campfire"
+	},
+	{
+		"name": "Trainingslager",
+		"replaces": "Third Armory",
+                "uniqueTo": "Niemandsland",
+                "greatPersonPoints": {"Great Scientist": 2},
+                "culture": 2,
+				"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Elite Training] promotion","[+13]% Production when constructing [Land] units [in this city]","Cost increases by [20] per owned city"],
+		"requiredBuilding": "Second Armory",
+                "requiredTech": "Professional Domestication"
+	},
+	{
+		"name": "Forest Supply",
+		"replaces": "Ark Monument",
+        "uniqueTo": "Resu",
+		"maintenance": 1,
+		"culture": 3,
+		"food": 2,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Old God Monument",
+		"culture": 2,
+		"science": 1,
+		"replaces": "Ark Monument",
+        "uniqueTo": "The Occults",
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"uniques": ["[+5]% growth [in this city]","Destroyed when the city is captured"]
+	},
+	//LH
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -548,6 +963,36 @@
 			"[+1 Food] from [Cactus Sap] tiles [in this city]",
             "[+1 Food] from [Chupacabra] tiles [in this city]"],
 		"requiredTech": "Notes"
+	},
+	{
+		"name": "Slave Mine",
+                "replaces": "Flint Mine",
+		"uniqueTo": "Nerva Slave Mining Camp",
+		"gold": 2,
+                "production": 1,
+		"hurryCostModifier": 20,
+		"requiredTech": "Agriculture"
+	},
+{
+		"name": "Treehouse",
+                "replaces": "Rockwell Stories",
+		"uniqueTo": "The Redwoods",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"faith": 2,
+                "uniques": ["[+2 Faith] from [Redwoods] tiles [in this city]"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Campfire"
+	},
+{
+		"name": "Volcano Home",
+                "replaces": "Wooden Fort",
+		"uniqueTo": "The Sky Domains",
+                "cityStrength": 6,
+		"cityHealth": 135,
+		"gold": 1,
+                "faith": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Wooden Houses"
 	},
         {
 		"name": "Rare Studies",

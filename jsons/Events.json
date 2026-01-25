@@ -1,5 +1,179 @@
 [
         {
+                "name": "Government2",
+                "text": "Our nation wants a voice, wants an ideology, wants an identity.",
+                "choices": [
+                    {
+                        "text": "Democracy.",
+                        "uniques": [
+                        "Comment [Power is vested in the people]",
+                        "Gain a free [Democracy] [in capital]"]
+                    },
+                    {
+                        "text": "Republic.",
+                        "uniques": [
+                        "Comment [A state in which supreme power is held by the people and their elected representatives]",
+                        "Gain a free [Republic] [in capital]"]
+                    },
+                    {
+                        "text": "Monarchy.",
+                        "uniques": [
+                        "Comment [A form of government with a monarch at the head]",
+                        "Gain a free [Monarchy] [in capital]"]
+                    },
+                    {
+                        "text": "National Socialism.",
+                        "uniques": [
+                        "Comment [Often referred to as Nazism, a fascist ideology that emerged in Germany, promoting totalitarianism, Aryan racial superiority, anti-Semitism, and the unification of all ethnic Germans under one nation]",
+                        "Gain a free [National Socialism] [in capital]"]
+                    },
+                    {
+                        "text": "Guild Socialism.",
+                        "uniques": [
+                        "Comment [Proposes a decentralized form of socialism where industries are managed by workers' guilds, focusing on workers' self-management and control over production, distinct from state socialism]",
+                        "Gain a free [Guild Socialism] [in capital]"]
+                    },
+                    {
+                        "text": "Anarcho Capitalism.",
+                        "uniques": [
+                        "Comment [Combines anarchism and capitalism, advocating for the elimination of the state in favor of a free market where private property and voluntary transactions are the basis of economic organization]",
+                        "Gain a free [Anarcho Capitalism] [in capital]"]
+                    },
+                    {
+                        "text": "Welfare Capitalism.",
+                        "uniques": [
+                        "Comment [A capitalist system that includes social welfare policies, such as social security, healthcare, and labor rights]",
+                        "Gain a free [Welfare Capitalism] [in capital]"]
+                    },
+                    {
+                        "text": "Social Democracy.",
+                        "uniques": [
+                        "Comment [Advocates for a balance between market capitalism and extensive social welfare programs]",
+                        "Gain a free [Social Democracy] [in capital]"]
+                    },
+                    {
+                        "text": "Feudalism.",
+                        "uniques": [
+                        "Comment [A medieval social and economic system characterized by a hierarchy of lords and vassals]",
+                        "Gain a free [Feudalism] [in capital]"]
+                    },
+                    {
+                        "text": "Libertarian Socialism.",
+                        "uniques": [
+                        "Comment [Advocates for a decentralized, stateless society where communities manage themselves through direct democracy and collective ownership]",
+                        "Gain a free [Libertarian Socialism] [in capital]"]
+                    },
+                    {
+                        "text": "State Socialism.",
+                        "uniques": [
+                        "Comment [Supports state ownership and control of the means of production, with the government managing economic planning and distribution to ensure equality and welfare]",
+                        "Gain a free [State Socialism] [in capital]"]
+                    },
+                    {
+                        "text": "Falangism.",
+                        "uniques": [
+                        "Comment [A nationalist, authoritarian ideology originating in Spain, combining elements of fascism, conservatism, and syndicalism]",
+                        "Gain a free [Falangism] [in capital]"]
+                    },
+                    {
+                        "text": "Communism.",
+                        "uniques": [
+                        "Comment [A political theory advocating class war and leading to a society]",
+                        "Gain a free [Communism] [in capital]"]
+                    },
+                    {
+                        "text": "Socialism.",
+                        "uniques": [
+                        "Comment [A political and economic theory of social organization which advocates that the means of production, distribution, and exchange should be owned or regulated by the community as a whole]",
+                        "Gain a free [Socialism] [in capital]"]
+                    },
+                    {
+                        "text": "Fascism.",
+                        "uniques": [
+                        "Comment [A form of far right, authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition]",
+                        "Gain a free [Fascism] [in capital]"]
+                    },
+                    {
+                        "text": "Theocracy.",
+                        "uniques": [
+                        "Comment [A system of government in which priests rule in the name of God or a god]",
+                        "Gain a free [Theocracy] [in capital]"]
+                    },
+                    {
+                        "text": "Oligarchy.",
+                        "uniques": [
+                        "Comment [A small group of people having control of a country]",
+                        "Gain a free [Oligarchy] [in capital]"]
+                    },
+                    {
+                        "text": "Anarchy.",
+                        "uniques": [
+                        "Comment [A state of disorder due to absence or nonrecognition of authority]",
+                        "Gain a free [Anarchy] [in capital]"]
+                    },
+                    {
+                        "text": "Libertarianism.",
+                        "uniques": [
+                        "Comment [A political philosophy advocating only minimal state intervention in the lives of citizens]",
+                        "Gain a free [Libertarianism] [in capital]"]
+                    },
+                    {
+                        "text": "Constitutional Monarchy.",
+                        "uniques": [
+                        "Comment [A form of government in which a monarch acts as the head of state within the parameters of a written or unwritten constitution]",
+                        "Gain a free [Constitutional Monarchy] [in capital]"]
+                    },
+                    {
+                        "text": "Democratic Socialism.",
+                        "uniques": [
+                        "Comment [A political philosophy advocating political democracy alongside social ownership of the means of production]",
+                        "Gain a free [Democratic Socialism] [in capital]"]
+                    },
+//// New Ideologies                    
+                    {
+                        "text": "Militant Theocracy.",
+                        "uniques": [
+                        "Comment [Militant Theocracy is a form of government in which religious and military leadership are intertwined, creating a fusion of spiritual authority and military control.]",
+                        "Gain a free [Militant Theocracy] [in capital]"]
+                    },
+                    {
+                        "text": "Eco-Fascism.",
+                        "uniques": [
+                        "Comment [A radical environmental ideology that prioritizes the preservation of nature over individual freedoms. Eco-fascists believe in authoritarian control to enforce strict ecological policies, including population control, extreme conservation measures, and the elimination of industrial activities that harm the environment.]",
+                        "Gain a free [Eco Fascism] [in capital]"]
+                    },
+                    {
+                        "text": "Hyper-Capitalism.",
+                        "uniques": [
+                        "Comment [An extreme form of capitalism where every aspect of life is commodified, and the market dictates all human interactions. Individuals are constantly competing for resources, status, and success, leading to a cutthroat society where only the most efficient and ruthless thrive.]",
+                        "Gain a free [Hyper Capitalism] [in capital]"]
+                    },
+                    {
+                        "text": "Anarcho-Transhumanism.",
+                        "uniques": [
+                        "Comment [A blend of anarchism and transhumanism, advocating for the abolition of all forms of government and the embrace of radical human enhancement technologies. Anarcho-transhumanists believe in using technology to transcend human limitations and achieve individual autonomy and freedom.]",
+                        "Gain a free [Anarcho Transhumanism] [in capital]"]
+                    },
+                    {
+                        "text": "Genetic Aristocracy.",
+                        "uniques": [
+                        "Comment [A society where social status and leadership roles are determined by one's genetic heritage. Noble families are defined by their superior genetic traits, and genetic purity is highly valued.]",
+                        "Gain a free [Genetic Aristocracy] [in capital]"]
+                    },
+                    {
+                        "text": "Radical Pacifism.",
+                        "uniques": [
+                        "Comment [A militant commitment to peace, where all forms of violence and aggression are strictly prohibited. The society enforces pacifism through non-violent means, such as widespread social pressure and rehabilitation programs.]",
+                        "Gain a free [Radical Pacifism] [in capital]"]
+                    }
+
+/// Community suggestions
+
+
+/// Community governments 
+            ]
+    },
+        {
                 "name": "Economic Event",
                 "text": "Congratulations on reaching new heights of economic power! Your dedication and vision have truly paid off. Here's to continued success and even greater achievements in the future!",
                 "choices": [

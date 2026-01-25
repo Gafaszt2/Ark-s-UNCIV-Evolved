@@ -1,5 +1,127 @@
 [
-
+    //LH
+	{
+		"name": "Minaret",
+		"uniqueTo": "Hammah",
+		"culture": 1,
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Montano"],
+		"turnsToBuild": 5,
+		"uniques": ["[-1 Culture] for each adjacent [Minaret]","[-1 Science] for each adjacent [Minaret]","[+1 Science] for each adjacent [City center]"],
+        "techRequired": "Stone Pick"
+	},
+	{
+		"name": "Windcatcher",
+		"uniqueTo": "Zuwarah",
+		"faith": 2,
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Montano"],
+		"turnsToBuild": 5,
+		"uniques": ["[-1 Culture] for each adjacent [Windcatcher]","[-2 Faith] for each adjacent [Windcatcher]","[+1 Culture] for each adjacent [City center]"],
+        "techRequired": "Stone Pick"
+	},
+	{
+		"name": "Ceremonial Grounds",
+		"uniqueTo": "Tywerenge",
+		"culture": 2,
+		"faith": 2,
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 5,
+		"uniques": ["[-2 Faith] for each adjacent [Ceremonial Grounds]","[-2 Culture] for each adjacent [Ceremonial Grounds]"],
+        "techRequired": "Sleeping Bag"
+	},
+	{
+		"name": "Bush Tucker",
+		"uniqueTo": "Akuna",
+		"food": 1,
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Plains","Montano"],
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Faith] for each adjacent [Bonus resource]"],
+        "techRequired": "Sleeping Bag"
+	},
+	{
+		"name": "Songline",
+		"uniqueTo": "Ngura",
+		"culture": 2,
+		"terrainsCanBeBuiltOn": ["Plains","Hill"],
+		"turnsToBuild": 5,
+		"uniques": ["[-2 Culture] for each adjacent [Songline]","Provides [1] [Reeds]"],
+        "techRequired": "Sleeping Bag"
+	},
+	{
+		"name": "Bamboo Bar",
+		"uniqueTo": "Nazocari",
+		"food": 1,
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Marsh","Lakes","Natural Lake","Swamp Zone"],
+		"turnsToBuild": 3,
+		"uniques": ["Provides [2] [Reeds]"],
+        "techRequired": "Agriculture"
+	},
+	{
+		"name": "Anexo",
+		"uniqueTo": "Condesa",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"uniques": ["Costs [3] [Gold] per turn","Gives a defensive bonus of [5]%","Provides [2] [Scales]","Provides [2] [Leather]","Provides [2] [Reeds]"],
+        "techRequired": "Agriculture"
+	},
+        {
+		"name": "Teepee",
+                "replaces": "Ranch",
+		"uniqueTo": "Plains Horn",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+                "techRequired": "Torch",
+		"turnsToBuild": 5,
+		"uniques": ["[-1 Food] for each adjacent [Teepee]","[+1 Faith] for each adjacent [Plains]","Can also be built on tiles adjacent to fresh water"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Orbital Tower",
+		"uniqueTo": "Glacia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+        "techRequired": "Agriculture",
+		"uniques": ["Gives a defensive bonus of [20]%","[+1 Science] for each adjacent [Mountain]","[+1 Science] for each adjacent [Strategic resource]","[+1 Science] for each adjacent [Atoll]","[+1 Science] for each adjacent [Coral Zone]"]
+	},
+	{
+		"name": "Orbital Drop",
+		"uniqueTo": "Adlernation",
+                "production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+        "techRequired": "Agriculture",
+		"uniques": ["[+1 Production] for each adjacent [Orbital Shield]"]
+	},
+	{
+		"name": "Orbital Shield",
+		"uniqueTo": "Adlernation",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"uniques": ["Gives a defensive bonus of [20]%"],
+        "techRequired": "Agriculture"
+	},
+        {
+		"name": "Beer Bar",
+		"uniqueTo": "Argentum",
+                "happiness": 2,
+		"terrainsCanBeBuiltOn": ["Montano","Plains","Eldritch","Desert"],
+		"turnsToBuild": 7,
+                "techRequired": "Recipes",
+		"uniques": ["[+1 Happiness] for each adjacent [Forest]"]
+	},
+        {
+		"name": "Plaza",
+		"uniqueTo": "The Falls",
+                "gold": 1,
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Grassland","Snowy Beach"],
+		"turnsToBuild": 7,
+                "techRequired": "Campfire",
+		"uniques": ["[+1 Gold] for each adjacent [Camp]","[+1 Gold] for each adjacent [Ranch]","[+1 Gold] for each adjacent [Luxury resource]","[+2 Culture] <after discovering [Dock]>"]
+	},
+	//LH
 	{
 		"name": "Ranch",
 		"terrainsCanBeBuiltOn": ["Land"],

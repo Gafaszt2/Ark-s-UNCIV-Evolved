@@ -1,5 +1,13 @@
 [
     {
+        "name": "Lost",
+        "friendBonusUniques": ["[+4 Faith] [in capital]",
+            "Provides [1] [Drakelings]","Provides [1] [Dark Metal]","Provides [1] [Vulpite]","Provides [1] [Red Tek]","Provides [1] [Gloons]","Provides [1] [Purified Tek]"],
+        "allyBonusUniques": ["[+9 Faith] [in capital]",
+            "Provides [5] [Drakelings]","Provides [5] [Dark Metal]","Provides [5] [Vulpite]","Provides [5] [Red Tek]","Provides [5] [Gloons]","Provides [5] [Purified Tek]"],
+        "color": [232, 48, 23]
+    },
+    {
         "name": "Rats",
         "friendBonusUniques": ["Provides [1] [Fiber]","Provides [2] [Rat Cheese]","[+2 Culture] [in capital]"],
         "allyBonusUniques": ["Provides [3] [Fiber]","Provides [6] [Rat Cheese]","[+6 Culture] [in capital]","Provides [3] [Lungs]","Provides [3] [Desert Crystal]"],

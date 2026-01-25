@@ -1322,6 +1322,11 @@
 		"resourceType": "Strategic",
                 "uniques": ["Not shown on world screen <without [Electronics]>","Doesn't generate naturally"]
 	},
+	{
+		"name": "Government",
+		"uniques":["Not shown on world screen <without [Government]>"],
+		"resourceType": "Strategic"
+	},
 {
 		"name": "Bones",
                 "terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Montano","Dead Land"],
