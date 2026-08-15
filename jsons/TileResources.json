@@ -1,1180 +1,1115 @@
 [	
+	// Classic Rework
+    {
+      "name": "Phiomia",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland"],
+      "food": 1,
+      "civilopediaText": [{"text": "Phiomia ignavus is a docile herd animal, small enough to be prey but large enough to provide meat. Its instinct to flee keeps it alive."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [60] tiles <in [Grassland] tiles>"]
+    },
+    {
+      "name": "Thylacoleo",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Redwoods"],
+      "food": 1,
+      "civilopediaText": [{"text": "Thylacoleo furtimorsus is a powerful marsupial predator, climbing trees with sharp claws to ambush prey in the redwoods."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [80] tiles <in [Redwoods] tiles>"]
+    },
+    {
+      "name": "Procoptodon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Plains"],
+      "food": 1,
+      "civilopediaText": [{"text": "Procoptodon vivencurrus is a giant kangaroo-like herbivore, peaceful but quick to flee when threatened."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [120] tiles <in [Plains] tiles>"]
+    },
+    {
+      "name": "Araneo",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Marsh","Montano"],
+      "food": 1,
+      "civilopediaText": [{"text": "Araneomorphus amalgotantibus combines traits of venomous spiders, firing webs and sensing vibrations in darkness."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [80] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Pulminoscorpius",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Montano","Hill"],
+      "food": 1,
+      "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects tranquilizing venom before consuming prey alive, making it a feared predator."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [100] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Sabertooth Salmon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lakes"],
+      "food": 1,
+      "civilopediaText": [{"text": "Oncorhynchus grexlamia swims in schools, passive until provoked, then attacking with saber-like teeth."}],
+      "improvement": "Lake House",
+      "uniques": ["Generated on every [60] tiles <in [Lakes] tiles>"]
+    },
+    {
+      "name": "Giant Piranha",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Natural Lake"],
+      "food": 1,
+      "civilopediaText": [{"text": "Megapiranha magnadmorsus is a carnivorous fish with a bite strong enough to pierce even armored prey."}],
+      "improvement": "Lake House",
+      "uniques": ["Generated on every [80] tiles <in [Natural Lake] tiles>"]
+    },
+    {
+      "name": "Giant Leech",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Natural Lake"],
+      "food": 1,
+      "civilopediaText": [{"text": "Haementeria laetus attaches to hosts indiscriminately, draining blood until removed with fire or blades."}],
+      "improvement": "Lake House",
+      "uniques": ["Generated on every [100] tiles <in [Natural Lake] tiles>"]
+    },
+    {
+      "name": "Giant Otter",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Natural Lake"],
+      "food": 1,
+      "civilopediaText": [{"text": "Lutra peloso is a clever hunter, competing fiercely for fish in lake ecosystems."}],
+      "improvement": "Lake House",
+      "uniques": ["Generated on every [120] tiles <in [Natural Lake] tiles>"]
+    },
+    {
+      "name": "Thorny Dragon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Sandstone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Moloch sagittarius is covered in removable spines, a desert dweller whose thorny defenses make it formidable despite its size."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
+    },
+    {
+      "name": "Carnotaurus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Plains","Grassland","Jungle"],
+      "food": 1,
+      "civilopediaText": [{"text": "Carnotaurus pressor is a swift predator that thrives on open ground, preferring speed over brute force."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [80] tiles <in [Jungle] tiles>"]
+    },
+    {
+      "name": "Gigantopithecus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Redwoods"],
+      "food": 1,
+      "civilopediaText": [{"text": "Gigantopithecus fibrarator is a gentle giant until provoked, capable of rampaging with immense strength."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [100] tiles <in [Redwoods] tiles>"]
+    },
+    {
+      "name": "Direbear",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Tundra","Snow"],
+      "food": 1,
+      "civilopediaText": [{"text": "Arctodus dirus, the Direbear, is a massive omnivore. Territorial yet adaptable, it scavenges meat and plants across cold biomes."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [100] tiles <in [Tundra] tiles>","Generated on every [120] tiles <in [Snow] tiles>"]
+    },
+    {
+      "name": "Sabertooth",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
+      "food": 1,
+      "civilopediaText": [{"text": "Smilodon brutalis is a solitary predator, its fangs and claws making it deadly in cold, lightly wooded areas."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [120] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Mammoth",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
+      "food": 2,
+      "civilopediaText": [{"text": "Mammuthus steincaput towers over most creatures, feared only by Tyrannosaurus. Its trunk is both weapon and tool."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [100] tiles <in [Tundra] tiles>","Generated on every [120] tiles <in [Snow] tiles>"]
+    },
+    {
+      "name": "Ovis",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Plains","Montano"],
+      "food": 1,
+      "civilopediaText": [{"text": "Ovis arcam resembles wild sheep but with unique markings and horns. Fragile against predators yet valued for wool and meat."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [100] tiles <in [Plains] tiles>","Generated on every [80] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Megaloceros",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow","Snowy Beach"],
+      "food": 1,
+      "civilopediaText": [{"text": "Megaloceros latuscoronam is a skittish herbivore with massive antlers, fleeing predators rather than fighting."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [100] tiles <in [Tundra] tiles>","Generated on every [120] tiles <in [Snow] tiles>","Generated on every [40] tiles <in [Snowy Beach] tiles>"]
+    },
+    {
+      "name": "Stone",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Montano","Desert","Grassland","Tundra","Beach"],
+      "production": 1,
+      "civilopediaText": [{"text": "Stone is a basic but vital resource, quarried for construction and survival tools across all biomes."}],
+      "improvement": "Quarry",
+      "uniques": ["Generated on every [40] tiles <in [Montano] tiles>","Generated on every [40] tiles <in [Beach] tiles>"]
+    },
+    {
+      "name": "Coelacanth",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast","Lakes"],
+      "food": 1,
+      "civilopediaText": [{"text": "Coelacanth nutritia is a hardy fish, thriving in rivers and lakes, offering lean meat despite its ancient lineage."}],
+      "improvedBy": ["Lake House","Fishing Boats"],
+      "uniques": ["Generated on every [20] tiles <in [Coast] tiles>","Generated on every [20] tiles <in [Lakes] tiles>"]
+    },
+    {
+      "name": "Desert Pearl",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Oasis"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Desert pearls are rare treasures formed in oasis waters, prized for their beauty and trade value."}],
+      "improvement": "Desert Ranch",
+      "uniques": ["Generated on every [50] tiles <in [Oasis] tiles>"]
+    },
+    {
+      "name": "Coconut",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Beach"],
+      "food": 1,
+      "civilopediaText": [{"text": "Coconuts are a rare tropical delicacy, valued for both nutrition and trade."}],
+      "uniques": ["Generated on every [800] tiles <in [Beach] tiles>","Can only be created by Mercantile City-States"]
+    },
+    {
+      "name": "Electrophorus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Volcanic Zone","Lakes"],
+      "food": 1,
+      "civilopediaText": [{"text": "Electrophorus discharges powerful electric shocks, making it a dangerous aquatic predator."}],
+      "improvedBy": ["Lake House","Fishing Boats"],
+      "uniques": ["Generated on every [100] tiles <in [Lakes] tiles>","Generated on every [30] tiles <in [Volcanic Zone] tiles>"]
+    },
+	{
+      "name": "Ichtyosaurus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coral Zone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Ichthyosaurus is a swift marine reptile, thriving in coral waters. Its speed makes it elusive, but its meat is valued by survivors."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Generated on every [80] tiles <in [Coral Zone] tiles>"]
+    },
+    {
+      "name": "Wild Crops",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Grassland","Plains"],
+      "food": 1,
+      "civilopediaText": [{"text": "Wild crops are scattered plants that provide food for early settlers, a natural source of sustenance in fertile biomes."}],
+      "improvement": "Plantation",
+      "uniques": ["Generated on every [120] tiles <in [Grassland] tiles>","Generated on every [120] tiles <in [Plains] tiles>"]
+    },
+    {
+      "name": "Wild Herbs",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Tundra","Snowy Beach"],
+      "food": 1,
+      "civilopediaText": [{"text": "Wild herbs grow in cold soils, valued for their medicinal properties and unique flavors."}],
+      "improvement": "Plantation",
+      "uniques": ["Generated on every [80] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>"]
+    },
+    {
+      "name": "Wild Berries",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Swamp"],
+      "food": 1,
+      "civilopediaText": [{"text": "Wild berries are small but vital food sources, sustaining both wildlife and survivors in varied biomes."}],
+      "improvement": "Plantation",
+      "uniques": ["Generated on every [60] tiles <in [Beach] tiles>","Generated on every [80] tiles <in [Snowy Beach] tiles>","Generated on every [100] tiles <in [Swamp] tiles>"]
+    },
+    {
+      "name": "Paraceratherium",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Desert","Sandstone","Swamp"],
+      "food": 1,
+      "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive herbivore resembling a giant horse-rhino hybrid, peaceful yet towering over most mammals."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [120] tiles <in [Desert] tiles>"]
+    },
+    {
+      "name": "Morellatops",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Desert","Hill","Sandstone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Morellatops dromedarius stores water in its humps like a camel, making it vital prey in desert ecosystems."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [80] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Cactus Sap",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Desert","Sandstone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Cactus sap provides hydration in arid biomes, sustaining both wildlife and survivors."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [60] tiles <in [Desert] tiles>"]
+    },
+    {
+      "name": "Dodo",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Grassland","Beach"],
+      "food": 1,
+      "civilopediaText": [{"text": "Raphus replicare, the Dodo, is a dim-witted bird that survives only through sheer luck and rapid breeding."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [40] tiles <in [Beach] tiles>"]
+    },
+	{
+      "name": "Rare Mushroom",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Bog","Swamp Zone","Tundra"],
+      "food": 1,
+      "civilopediaText": [{"text": "Rare mushrooms are potent fungi, harvested for their unusual effects and medicinal uses."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [80] tiles <in [Swamp Zone] tiles>","Generated on every [100] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Rare Flower",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Eldritch","Flood plains","Swamp Zone","Redwoods"],
+      "food": 1,
+      "civilopediaText": [{"text": "Rare flowers bloom in mystical biomes, valued for their unique properties in crafting and rituals."}],
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Generated on every [80] tiles <in [Swamp Zone] tiles>","Generated on every [100] tiles <in [Redwoods] tiles>"]
+    },
+    {
+      "name": "Beelzebufo",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Swamp","Bog","Swamp Zone"],
+      "food": 1,
+      "production": 1,
+      "civilopediaText": [{"text": "Beelzebufo palucocus is a giant frog whose narcotic secretions make it both dangerous and strangely useful."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [60] tiles <in [Swamp Zone] tiles>"]
+    },
+    {
+      "name": "Meganeura",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Swamp","Bog","Swamp Zone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Meganeura is a giant dragonfly, buzzing through swamps with predatory precision. Its presence signals a thriving insect ecosystem."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [40] tiles <in [Swamp Zone] tiles>"]
+    },
+    {
+      "name": "Charcoal",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
+      "production": 1,
+      "civilopediaText": [{"text": "Charcoal is a simple but vital resource, born of fire and used for crafting and fuel."}],
+      "improvement": "Mine",
+      "uniques": ["Generated on every [40] tiles <in [Volcanic Soil] tiles>"]
+    },
+    {
+      "name": "Amargasaur",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Volcanic Soil","Dry Desert Biome","Hill"],
+      "food": 1,
+      "civilopediaText": [{"text": "Amargasaurus titanicus is a spined sauropod whose dorsal spikes regulate heat and cold, allowing survival in extreme climates."}],
+      "improvement": "Mine",
+      "uniques": ["Generated on every [600] tiles <in [Hill] tiles>","Generated on every [50] tiles <in [Volcanic Soil] tiles>"]
+    },
+    {
+      "name": "Sauropod Vertebra",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Grassland"],
+      "gold": 2,
+      "civilopediaText": [{"text": "The vertebra of a sauropod is a rare trophy, proof of victory over colossal beasts."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [1200] tiles <in [Grassland] tiles>"]
+    },
+    {
+      "name": "Argentavis Talon",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hill"],
+      "gold": 2,
+      "civilopediaText": [{"text": "The talon of Argentavis is a prized relic, symbolizing dominance over one of the island’s fiercest aerial predators."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [1200] tiles <in [Hill] tiles>"]
+    },
 	// Bonus resources
-	{
-		"name": "Phiomia",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland"],
-		"food": 1,
-                "civilopediaText": [{"text": "Phiomia ignavus is another of the Island's generally docile herd animals. They are small enough that almost any predator can bring them down but large enough to provide plenty of meat. Were it not for the protection of the herd and their instinct to run from any predator, these would almost certainly be hunted to extinction."}]
-		"improvedBy": ["Ranch", "Teepee"],
-		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
-	},
-        {
-		"name": "Thylacoleo",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Redwoods"],
-		"food": 1,
-                "civilopediaText": [{"text": "Thylacoleo furtimorsus is a large, powerful marsupial that can often be found hunting around trees among the Island's redwoods. Its long claws and semi-opposable digits make it an apt climber, a quality that Thylacoleo uses to its advantage while hunting."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [3] tiles <in [Redwoods] tiles>"]
-	},
-        {
-		"name": "Procoptodon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
-		"food": 1,
-                "civilopediaText": [{"text": "Procoptodon vivencurrus. Standing nearly three meters tall, it is among the largest jumping creatures I've heard of. It is a fairly peaceful herbivore that will immediately flee when aggressed upon."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [300] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
-	},
-        {
-		"name": "Araneo",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Marsh","Montano"],
-		"food": 1,
-                "civilopediaText": [{"text": "Araneomorphus amalgotantibus. It has so many of the nightmare inducing traits of spiders from among many family and genus. It fires webbing like a bola spider, it spits venom like a lynx spider. It has a poisonous bite like a myriad of spiders, and can see in the dark by sensing vibrations."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [40] tiles <in [Montano] tiles>"]
-	},
-        {
-		"name": "Pulminoscorpius",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Montano","Hill"],
-		"food": 1,
-                "civilopediaText": [{"text": "Pulmonoscorpius gigantus injects its victims with a tranquilizing poison, then eats its unconscious prey alive. This subspecies has a large pair of pincers that seem connected to the same toxin sacs as the tail."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [30] tiles <in [Montano] tiles>"]
-	},
-        {
-		"name": "Sabertooth Salmon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes"],
-		"food": 1,
-                "civilopediaText": [{"text": "Oncorhynchus grexlamia is a generally passive fish. Its main form of protection is swimming in a large school. Oncorhynchus does not like conflict, and generally swims away from anything larger than itself at very high speeds. Once provoked, however, Oncorhynchus becomes quite aggressive, along with its nearby brethren. It locks onto its prey with its long saberteeth and begins draining that creature's blood."}]
-		"improvement": "Lake House",
-		"uniques": ["Water Resource","Generated on every [30] tiles <in [Lakes] tiles>"]
-	},
-        {
-		"name": "Giant Piranha",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"food": 1,
-                "civilopediaText": [{"text": "Megapiranha magnadmorsus is carnivorous fish found fairly commonly in the rivers and ponds of the island. Its bite is incredibly powerful; I've even seen them break through the armored turtles of the island."}] 
-		"improvement": "Lake House",
-		"uniques": ["Water Resource","Generated on every [15] tiles <in [Natural Lake] tiles>"]
-	},
-        {
-		"name": "Giant Leech",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"food": 1,
-                "civilopediaText": [{"text": "Haementeria laetus, despite its rather terrible nature. The creature has practically no intelligence, and just attaches to any nearby living flesh in an attempt to drain that creature's blood. Removing Haementeria requires precision bladework, or access to an open flame. Both of these can be nearly as dangerous to the host as to the leech itself."}]
-		"improvement": "Lake House",
-		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
-	},
-        {
-		"name": "Giant Otter",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Natural Lake"],
-		"food": 1,
-                "civilopediaText": [{"text": "Lutra Peloso have become exceptionally adept at hunting and foraging. This species of Otter has to be particularly cunning because of its diminutive size, and fierce competition for its preferred food source: fish."}]
-		"improvement": "Lake House",
-		"uniques": ["Generated on every [15] tiles <in [Natural Lake] tiles>"]
-	},
-        {
-		"name": "Giant Bee",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"food": 1,
-                "civilopediaText": [{"text": "Apis Drones can be seen swarming around the nest in groups, but to get a look at the Queen Apis, one would need to crack open the nest itself. Speaking from experience, this is not a pleasant task, as the untameable Apis Drones are quite territorial."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [80] tiles <in [Grassland] tiles>"]
-	},
-        {
-		"name": "Thorny Dragon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Sandstone"],
-		"food": 1,
-                "civilopediaText": [{"text": "Besides the obvious gap in size, most of the differences between Moloch sagittarius and its smaller relative lie in its thorns. Instead of being permanent parts of its skin, Moloch sagittarius' thorns are more like spines or quills that can be removed and regrown."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [35] tiles <in [Desert] tiles>"]
-	},
-        {
-		"name": "Hatzegopteryx",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
-		"food": 1,
-                "civilopediaText": [{"text": "The true tyrannical baron of the ark's skies, Hatzegopteryx is the undisputed king of flight. A massive shadow similar to a warplane, Hatzegopteryx is capable of speed and maneuvers unlike anything else its size. It is a tyrant that hunts anything that soars."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [240] tiles <in [Desert] tiles>"]
-	},
-        {
-		"name": "Carnotaurus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Plains","Grassland","Jungle","Sandstone"],
-		"food": 1,
-                "civilopediaText": [{"text": "Carnotaurus pressor is a distinctive creature that falls between a medium and large predator. It lives primarily on flat, clear ground, where it can capitalize on its speed. Additionally, it seems to have no qualms about running away from larger predators instead of fighting."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [15] tiles <in [Jungle] tiles>"]
-	},
-        {
-		"name": "Gigantopithecus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Redwoods"],
-		"food": 1,
-                "civilopediaText": [{"text": "Gigantopithecus fibrarator is a strange creature. It is usually quite passive, but it has a very short temper when it comes to its own personal space. Once another creature gets close, this gentle giant quickly becomes a rampaging beast. Best to give them a wide berth. I have occasionally seen Gigantopithecus jumping to grab vines that it can traverse and swing on, but otherwise, it seems most happy to lay about, picking berries from plants lazily."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [45] tiles <in [Redwoods] tiles>"]
-	},
-        {
-		"name": "Insect Swarm",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Marsh","Swamp"],
-		"food": 1,
-                "civilopediaText": [{"text": "A survivor will be able to know when they are being targeted by an Insect Swarm, because they make a very distinct sound when they have found a target."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [80] tiles <in [Marsh] tiles>"]
-	},
-        {
-		"name": "Direbear",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snow"],
-		"food": 1,
-                "civilopediaText": [{"text": "Arctodus dirus is an imposing creature. Many on the island have started calling it a Direbear, a name which is appropriate, both due to its enormity and its territorial nature. The Direbear ignores most non-hostile creatures while going about its daily routine of scavenging for meat and edible plant life."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [50] tiles <in [Tundra] tiles>","Generated on every [70] tiles <in [Snow] tiles>"]
-	},
-        {
-		"name": "Sabertooth",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
-		"food": 1,
-                "civilopediaText": [{"text": "Smilodon brutalis is a solitary hunter, generally found in cold, lightly wooded areas. The Island's mountains are the perfect habitat, as the mammal's fur keeps it safe from the bitter temperature. While its huge fangs are excellent for delivering deathblows, the creature's claws can be just as deadly."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [65] tiles <in [Tundra] tiles>"]
-	},
-        {
-		"name": "Mammoth",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow"],
-		"food": 2,
-                "civilopediaText": [{"text": "Seeing the likes of Mammuthus steincaput alongside dinosaurs is still strange. This behemoth towers over many creatures on the Island, and doesnt seem to fear anything but the Tyrannosaurus. I've seen them stomp would-be predators out of their way. Mammoths can grab and throw things with their powerful trunks, and manage a fearsome trumpeting roar with them as well."}]
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [55] tiles <in [Tundra] tiles>","Generated on every [55] tiles <in [Snow] tiles>"]
-	},
-	{
-		"name": "Ovis",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Montano"],
-		"food": 1,
-                "civilopediaText": [{"text": "Ovis arcam is quite different from the modern domesticated sheep - and even from wild sheep species such as Ovis orientalis. The unique markings on its face give it a striking appearance, and the males' horns possess a unique shape that is unlike any other species in the Ovis genus. As one might expect, Ovis stands little chance against this Island's many predators. Like the Dodo, its continued survival in the face of these challenges is a mystery."}]
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [25] tiles <in [Montano] tiles>","Generated on every [70] tiles <in [Plains] tiles>"]
-	},
-	{
-		"name": "Megaloceros",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lost Snow","Tundra","Snow","Snowy Beach"], // Tundra only if lowland
-		"food": 1,
-                "civilopediaText": [{"text": "Megaloceros latuscoronam is a very skittish herbivore, found mostly in the forests and mountains of the Island. Because of its large size, its fraught demeanor would be strange in any other place. But Megaloceros knows how fierce the predators of the island are, and that it is safer to flee from them than to risk its life in a fight. The antlers of Megaloceros are very large, and make for an excellent source of keratin."}]
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [15] tiles <in [Snowy Beach] tiles>","Generated on every [66] tiles <in [Tundra] tiles>","Generated on every [90] tiles <in [Snow] tiles>"]
-	},
-	        {
-		"name": "Wild Crops",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [110] tiles <in [Grassland] tiles>","Generated on every [110] tiles <in [Plains] tiles>"]
-	},
-        {
-		"name": "Wild Herbs",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra","Snowy Beach"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>","Generated on every [40] tiles <in [Snowy Beach] tiles>"]
-	},
-        
-        {
-		"name": "Wild Berries",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Beach","Snowy Beach","Swamp"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [50] tiles <in [Snowy Beach] tiles>"]
-	},
-	{
-		"name": "Stone",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Montano","Dry Desert Biome","Grassland","Desert","Tundra","Dead Land","Beach","Fallout Land"],
-		"production": 1,
-		"improvement": "Quarry",
-		
-		"uniques": ["Generated on every [30] tiles <in [Beach] tiles>","Generated on every [30] tiles <in [Montano] tiles>"]
-	},
-	{
-		"name": "Coelacanth",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Lakes"],
-		"food": 1,
-                "civilopediaText": [{"text": "Coelacanth nutritia is one of the few creatures on the Island with a relative which can be found back home. The Coelacanth thrive in the waters around the Island, as well as within rivers and lakes. Unlike most Coelacanths, Coelacanth nutritia meat contains less oil and urea. In fact, it is one of the healthier sources of meat I've yet found. Most Coelacanths are opportunistic feeders that eat anything smaller than itself, likely including baby water snakes, insect and plant life."}]
-		"improvedBy": ["Lake House", "Fishing Boats"],
-		"uniques": ["Water Resource","Generated on every [12] tiles <in [Coast] tiles>","Generated on every [12] tiles <in [Lakes] tiles>"]
-	},
-	{
-		"name": "Carp",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes"],
-		"food": 1,
-		"improvedBy": ["Lake House"],
-		"uniques": ["Generated on every [12] tiles <in [Lakes] tiles>"]
-	},
-        {
-		"name": "Ichtyosaurus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coral Zone"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [10] tiles <in [Coral Zone] tiles>"]
-	},
-	{
-		"name": "Desert Pearl",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Oasis"],
-		"gold": 2,
-		"improvement": "Desert Ranch",
-		"uniques": ["Generated on every [10] tiles <in [Oasis] tiles>"]
-	},
-	{
-		"name": "Coconut",
-		"terrainsCanBeFoundOn": ["Beach"],
-		"resourceType": "Luxury",
-		"food": 1,
-		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>","Can only be created by Mercantile City-States"]
-	},
-	{
-		"name": "Electrophorus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Zone","Lakes"],
-		"food": 1,
-		"improvedBy": ["Lake House", "Fishing Boats"],
-		"uniques": ["Water Resource","Generated on every [10] tiles <in [Volcanic Zone] tiles>","Generated on every [80] tiles <in [Lakes] tiles>"]
-	},
-	{
-		"name": "Saurichtys",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Sphyrna",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
-	},
-        {
-		"name": "Hesperornis",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coral Zone"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [20] tiles <in [Coral Zone] tiles>"]
-	},
-        {
-		"name": "Sauropterygia",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coral Zone"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [30] tiles <in [Coral Zone] tiles>"]
-	},
-        {
-		"name": "Volcanic Edestus",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Volcanic Zone"],
-		"gold": 3,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [10] tiles <in [Volcanic Zone] tiles>"]
-	},
-	{
-		"name": "Paraceratherium",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Sandstone","Swamp"],
-		"food": 1,
-                "civilopediaText": [{"text": "Paraceratherium gigamicus is a massive, long-necked herbivore that inhabits some of the Island's grasslands. It resembles a gigantic horse/rhinoceros hybrid, but is over twice the size of either. Paraceratherium is a very peaceful and friendly creature. Barring some surprises yet in store for me, I can safely say that Paraceratherium is among the largest mammals on the Island."}]
-		"improvement": "Camp",
-                "uniques": ["Generated on every [70] tiles <in [Desert] tiles>"]
-	},
-        {
-		"name": "Morellatops",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Sandstone"],
-		"food": 1,
-                "civilopediaText": [{"text": "Morellatops dromedarius seems to be to a relative of both the Morelladon and Ceratops genuses, which in itself is rather strange. On top of that, it has developed to ability to store water in its humps like a camel. This makes it a critical part of the desert's food chain, as it provides predators with both food and hydration.
-
-"}]
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [35] tiles <in [Hill] tiles>"]
-	},
-        {
-		"name": "Cactus Sap",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
-		"food": 1,
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [24] tiles <in [Desert] tiles>"]
-	},
-        {
-		"name": "Dodo",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Beach"],
-		"food": 1,
-                "civilopediaText": [{"text": "Raphus replicare, more commonly known as the Dodo Bird, is quite possibly the dumbest creature I've ever seen in my life. It wanders around the beaches of the Island, pecking berries off bushes, and being eaten by all manner of carnivore."}]
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [20] tiles <in [Beach] tiles>"]
-	},
-        {
-		"name": "Ichtyornis",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Swamp Zone","Beach"],
-		"food": 1,
-                "civilopediaText": [{"text": "Among the most vocal creatures on the Island, Ichthyornis piscoquus actually appears to be a relatively normal seagull. It primarily eats fish, and its distinctive cries can be heard echoing over across the Island's many beaches. As you might expect from a seagull, Ichthyornis will flee at the slightest provocation."}]
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Generated on every [40] tiles <in [Beach] tiles>"]
-	},
-         {
-		"name": "Rare Mushroom",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Flood plains", "Swamp Zone", "Tundra","Dead Land","Fallout Land"],
-        "food": 1,
-		"improvedBy": ["Ranch", "Teepee"],
-		"uniques": ["Generated on every [40] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
-	},
-         {
-		"name": "Rare Flower",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Flood plains", "Swamp Zone", "Dead Land","Fallout Land","Redwoods","Sandstone"],
-        "food": 1,
-		"improvedBy": ["Ranch", "Teepee"],
-		"uniques": ["Generated on every [30] tiles <in [Flood plains] tiles>","Generated on every [30] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
-	},
-        {
-		"name": "Beelzebufo",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Mirage","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile","Swamp"],
-		"production": 1,
-        "food": 1,
-        "civilopediaText": [{"text": "Beelzebufo palucocus is the largest frog I've ever seen. Almost impossibly large, it can actually fit a fully-grown human adult on its back, though just barely. This is a dangerous prospect, though, as secretions from Beelzebufo's skin and saliva have a narcotic effect on most creatures."}]
-		"improvement": "Camp",
-		"uniques": ["Generated on every [20] tiles <in [Swamp Zone] tiles>"]
-	},
-        {
-		"name": "Meganeura",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Bog","Swamp Zone", "Dead Land","Fallout Land","City Tile","Swamp"],
-        "food": 1,
-		"improvement": "Camp",
-		"uniques": ["Generated on every [10] tiles <in [Swamp Zone] tiles>"]
-	},
-        {
-		"name": "Tusoteuthis",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"food": 1,
-        "civilopediaText": [{"text": "Tusoteuthis vampyrus is a very aggressive water predator. Approximately 30 feet long, Tusoteuthis is a terror of the deep. Once it grabs its prey, it slowly crushes it into submission while using the talons on its tentacles to siphon and drink the victim's blood."}],
-		"improvement": "Fishing Boats",
-        "uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>"]
-	},
-        {
-		"name": "Kelp",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Ocean","Coast"],
-		"food": 1,
-                
-		"improvement": "Fishing Boats",
-            "uniques": ["Water Resource","Generated on every [80] tiles <in [Coast] tiles>","Generated on every [400] tiles <in [Ocean] tiles>"]
-	},
-        {
-		"name": "Liopleurodon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Deep Ocean"],
-		"culture": 1,
-        "science": 1,
-        "civilopediaText": [{"text": "Liopleurodon magicus is a mid-sized ocean creature, typically between 20 and 25 feet long. I've yet to directly encounter one myself, but from the tales other tribes have shared, it compares to no other on the Island. The rumors indicate that this beautiful creature has magical properties."}],
-		"improvement": "Fishing Boats",
-        "uniques": ["Water Resource","Generated on every [9999999] tiles <in [Deep Ocean] tiles>"]
-	},
-        {
-		"name": "Manta",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Ocean","Coast"],
-		"food": 1,
-                "civilopediaText": [{"text": "Here is another example of a creature that seems to have evolved beyond its historical traits. Everything points to this being a saltwater ray, but Manta mobula has developed the ability to swim into the island's rivers and shallows, as well as through the open ocean. Perhaps there were originally two types of ray on the island before, but years of interbreeding combined their lineage. Normally docile, Manta mobula is a carnivore only in that it naturally consumes plankton."}]
-                
-		"improvement": "Fishing Boats",
-            "uniques": ["Water Resource","Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [300] tiles <in [Coast] tiles>"]
-	},
-        {
-		"name": "Plesiosaur",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Reef"],
-		"food": 1,
-                "civilopediaText": [{"text": "Elasmosaurus remuspissa is typically found in the deep oceans, and has a strange role in the oceanic food chain. It almost exclusively hunts the smaller creatures in the waters, leaving most even moderately large creatures alone. The sheer size of the Elasmosaurus means that the quantity of food it must eat to sustain itself is nothing short of enormous. Elasmosaurus is a formidable fighter."}]
-                
-		"improvement": "Fishing Boats",
-            "uniques": ["Water Resource","Generated on every [400] tiles <in [Reef] tiles>"]
-	},
-        {
-		"name": "Leedsichtys",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Deep Ocean"],
-		"food": 2,
-                "civilopediaText": [{"text": "Leedsichthys conviviumbrosia is probably the largest fish in the waters around the island. Its meat is also extremely succulent, a surprise given its size."}]
-                
-		"improvement": "Diver",
-            "uniques": ["Generated on every [700] tiles <in [Deep Ocean] tiles>"]
-	},
-        {
-		"name": "Charcoal",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
-		"production": 1,
-		"improvement": "Mine",
-		
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>"]
-	},
-        {
-		"name": "Amargasaur",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Soil","Dry Desert Biome","Hill"],
-		"food": 1,
-                "civilopediaText": [{"text": "Of all the creatures in the sauropod family, Amargasaurus titanicus is likely the most unique in appearance. It sports two parallel rows of dorsal spines down the length of its neck, back, and tail--though the neck spines are significantly longer than the back or tail spines. These spines are a remarkable adaptation, giving Amargasaurus unmatched control of its body temperature. Made even more marvelous by their time on this ARK, their spines store both extreme heat AND extreme cold, effectively allowing Amargasaurus to live comfortably in any environment."}]
-		"improvement": "Mine",
-		
-		"uniques": ["Generated on every [10] tiles <in [Volcanic Soil] tiles>","Generated on every [500] tiles <in [Hill] tiles>"]
-	},
-        {
-		"name": "Magmasaur",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
-		"production": 1,
-                "civilopediaText": [{"text": "The Magmasaur is a fire-based Creature that gains strength and charges up attacks through heat. It has an affinity for lava to the point of even swimming in it, and dislikes water."}]
-		"improvement": "Mine",
-		
-	},
-        {
-		"name": "Defense Unit",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land","City Tile"],
-		"production": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Gasbags",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
-		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Corrupted Nodule",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
-		"production": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Mine",
-		
-	},
-        {
-		"name": "Roll Rat",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone"],
-		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Fungic Wood",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bog","Aberrant Green Zone"],
-		"production": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Mine",
-		
-	},
-        {
-		"name": "Basilisk",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
-		"food": 1,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Chupacabra",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aberrant Blue Zone"],
-		"science": 1,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Seeker",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone","Snow"],
-		"faith": 1,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Stego",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-                "uniques": ["Generated on every [40] tiles <in [Plains] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Dimorphodon",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
-		"food": 1,
-                "uniques": ["Generated on every [550] tiles <in [Hill] tiles>","Generated on every [555] tiles <in [Desert] tiles>","Generated on every [555] tiles <in [Plains] tiles>"
-                            ]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Astrodelphis",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
-		"food": 1,
-                "uniques": ["Generated on every [10] tiles <in [Dead Land] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Astrocetus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Asteroid"],
-		"food": 2,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Stryder",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
-		"science": 1,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Carniflora",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
-		"culture": 1,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Carcharodontosaurus",
-		"resourceType": "Bonus",
-        "uniques": ["Generated on every [999] tiles <in [Hill] tiles>"],
-		"terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill","Atlantis Biome"],
-		"food": 1,
-		"improvement": "Camp"
-		
-	},
-        {
-		"name": "Sauropod Vertebra",
-		"resourceType": "Luxury",
-        "uniques": ["Generated on every [800] tiles <in [Grassland] tiles>"],
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"gold": 2,
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Desert Slaves",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Sandstone"],
-		"gold": 3,
-                "uniques": ["Doesn't generate naturally"]
-
-		"improvement": "Camp",
-	},
-        {
-		"name": "Argentavis Talon",
-		"resourceType": "Luxury",
-                "uniques": ["Generated on every [800] tiles <in [Hill] tiles>"]
-		"terrainsCanBeFoundOn": ["Hill"],
-		"gold": 2,
-		"improvement": "Camp",
-		
-	},
+    {
+      "name": "Astrocetus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Asteroid"],
+      "food": 2,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Astrodelphis",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Basilisk",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Aberrant Green Zone","Plains"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Carp",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lakes"],
+      "food": 1,
+      "improvedBy": ["Lake House"],
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Carcharodontosaurus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Hill","Atlantis Biome"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Carniflora",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil","Plains"],
+      "culture": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Chupacabra",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Aberrant Blue Zone"],
+      "science": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Corrupted Nodule",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+      "production": 1,
+      "improvement": "Mine",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Defense Unit",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Dead Land","Fallout Land","City Tile"],
+      "production": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Dimorphodon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Gasbags",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Giant Bee",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Grassland"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Hatzegopteryx",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Desert"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Hesperornis",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coral Zone"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Ichtyornis",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Swamp Zone","Beach"],
+      "food": 1,
+      "improvedBy": ["Ranch","Teepee"],
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Insect Swarm",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Bog","Marsh","Swamp"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Kelp",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Ocean","Coast"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Leedsichtys",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Deep Ocean"],
+      "food": 2,
+      "improvement": "Diver",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Liopleurodon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Deep Ocean"],
+      "culture": 1,
+      "science": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Magmasaur",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Volcanic Soil","Hill"],
+      "production": 1,
+      "improvement": "Mine",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Manta",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Ocean","Coast"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Plesiosaur",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Reef"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Roll Rat",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Aberrant Green Zone"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Sauropterygia",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Coral Zone"],
+      "gold": 2,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Seeker",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Eldritch","Aberrant Pink Zone","Snow"],
+      "faith": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Saurichtys",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Sphyrna",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Stego",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Plains","Grassland"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Stryder",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Genesis Soil","Tek Soil"],
+      "science": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Thorny Dragon",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Sandstone"],
+      "food": 1,
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Tusoteuthis",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "food": 1,
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
         
 	// Strategic resources
 	{
-		"name": "Fiber",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Beach","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Desert","Eldritch","Redwoods","Bog","City Tile", "Plains","Grassland","Hill","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"], // Hill only if plains or grassland
-		"production": 1,
-		"improvedBy": ["Ranch", "Teepee"],
-		
-		"uniques": ["Not shown on world screen <without [Fiber]>","Generated on every [60] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
+      "name": "Fiber",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Fiber is a basic survival material, gathered from plants across nearly all biomes. Essential for crafting clothing, tools, and shelters."}],
+      "uniques": ["Generated on every [80] tiles <in [Beach] tiles>","Generated on every [80] tiles <in [Snowy Beach] tiles>","Generated on every [80] tiles <in [Montano] tiles>","Generated on every [80] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Thatch",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Thatch is a lightweight building material harvested from trees and plants, used for primitive shelters and fuel."}],
+      "uniques": ["Generated on every [80] tiles <in [Redwoods] tiles>","Generated on every [80] tiles <in [Grassland] tiles>","Generated on every [80] tiles <in [Plains] tiles>","Generated on every [80] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Wood",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Wood is the cornerstone of survival, harvested from forests and hills. It fuels fires and forms the backbone of early structures."}],
+      "uniques": ["Generated on every [60] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [80] tiles <in [Snow] tiles>","Generated on every [80] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Flint",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Flint is a sharp stone resource, revealed with primitive tools. It is vital for crafting weapons, fire starters, and survival gear."}],
+      "uniques": ["Generated on every [100] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Chitin",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Chitin is harvested from insects and arthropods. Its tough shell material is used for armor, tools, and advanced crafting."}],
+      "uniques": ["Generated on every [60] tiles <in [Beach] tiles>","Generated on every [80] tiles <in [Flood plains] tiles>","Generated on every [80] tiles <in [Marsh] tiles>"]
+    },
+    {
+      "name": "Metal",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Metal is a rare but crucial resource, mined from mountains and deserts. It enables advanced weapons, tools, and structures."}],
+      "uniques": ["Generated on every [120] tiles <in [Hill] tiles>","Generated on every [100] tiles <in [Montano] tiles>","Generated on every [100] tiles <in [Snow] tiles>","Generated on every [100] tiles <in [Desert] tiles>"]
+    },
+    {
+      "name": "Steel",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Steel is refined metal, stronger and more durable. It represents technological progress, enabling advanced construction and weaponry."}],
+      "uniques": ["Generated on every [200] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Oil Vein",
+      "resourceType": "Bonus",
+      "civilopediaText": [{"text": "Oil veins are natural deposits beneath coasts and oceans. They provide fuel for machines and advanced crafting."}],
+      "uniques": ["Generated on every [500] tiles <in [Coast] tiles>","Generated on every [200] tiles <in [Ocean] tiles>"]
+    },
+    {
+      "name": "Silica Pearls",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Silica pearls are rare ocean treasures, harvested for advanced electronics and crafting."}],
+      "uniques": ["Generated on every [200] tiles <in [Coast] tiles>","Generated on every [200] tiles <in [Ocean] tiles>"]
+    },
+    {
+      "name": "Oil",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Oil is a vital energy resource, extracted from tundra and jungle biomes. It powers machines and fuels progress."}],
+      "uniques": ["Generated on every [100] tiles <in [Tundra] tiles>","Generated on every [100] tiles <in [Jungle] tiles>","Generated on every [100] tiles <in [Desert] tiles>"]
+    },
+    {
+      "name": "Organic Polymer",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Organic polymer is harvested from certain creatures and environments. It is a flexible material used in advanced crafting."}],
+      "uniques": ["Generated on every [120] tiles <in [Snow] tiles>","Generated on every [120] tiles <in [Snowy Beach] tiles>"]
+    },
+    {
+      "name": "Biotoxin",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Biotoxin is a potent chemical harvested from ocean creatures. It is used for tranquilizers and advanced narcotics."}],
+      "uniques": ["Generated on every [150] tiles <in [Coast] tiles>","Generated on every [200] tiles <in [Ocean] tiles>"]
+    },
+    {
+      "name": "Tek",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Tek is an advanced resource found in futuristic biomes. It represents the pinnacle of technology, enabling powerful structures and weapons."}],
+      "uniques": ["Generated on every [300] tiles <in [Tek Soil] tiles>"]
+    },
+	// Fixed
 	{
-		"name": "Thatch",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Redwoods","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Beach","City Tile", "Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
-		"production": 1,
-		"improvement": "Mine",
-		"uniques": ["Not shown on world screen <without [Thatch]>","Generated on every [60] tiles <in [Redwoods] tiles>","Generated on every [60] tiles <in [Grassland] tiles>","Generated on every [60] tiles <in [Plains] tiles>","Generated on every [60] tiles <in [Tundra] tiles>"],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Wood",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Lakes","Mirage","Eldritch","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods","City Tile","Bog", "Grassland","Plains","Hill","Jungle","Forest","Marsh","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
-		"production": 1,
-		"improvedBy": ["Ranch","Lake House"],
-		
-		"uniques": ["Not shown on world screen <without [Wood]>","Generated on every [60] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Montano] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Flint",
-        "revealedBy": "Stone Pick",
-		"resourceType": "Strategic",
-		"uniques":["Not shown on world screen <without [Flint]>"]
-	},
-	{
-		"name": "Chitin",
-                "revealedBy": "Spike Wall",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Desert","Mirage","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","City Tile","Beach","Montano","Plains","Tundra","Snow","Marsh","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
-		"production": 1,
-		"improvedBy": ["Camp"],
-		"uniques": ["Not shown on world screen <without [Chitin]>","Generated on every [25] tiles <in [Beach] tiles>","Generated on every [60] tiles <in [Flood plains] tiles>","Generated on every [60] tiles <in [Marsh] tiles>"],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Metal",
-                "revealedBy": "Smithy",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Montano","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Eldritch","Beach","Redwoods","Hill","City Tile","Asteroid","Bog", "Desert","Tundra","Hill","Snow","Jungle","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
-		"production": 1,
-		"improvement": "Mine",
-		
-		"uniques": ["Not shown on world screen <without [Metal]>","Generated on every [90] tiles <in [Hill] tiles>","Generated on every [60] tiles <in [Montano] tiles>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	},
-	
-        {
-		"name": "Steel",
-        "revealedBy": "Fabricator",
-		"uniques":["Not shown on world screen <without [Steel]>"],
-		"resourceType": "Strategic"
-	},
-        {
-		"name": "Oil Vein",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"resourceType": "Bonus",
-		"gold": 2,
-		"improvement": "Diver",
-		"uniques":["Generated on every [400] tiles <in [Coast] tiles>","Generated on every [100] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Silica Pearls",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"resourceType": "Strategic",
-		"gold": 1,
-		"improvement": "Diver",
-		"uniques":["Not shown on world screen <without [Silica Pearls]>","Generated on every [100] tiles <in [Coast] tiles>","Generated on every [100] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Oil",
-                "revealedBy": "Fabricator",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Eldritch","Cradle","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Redwoods", "Coast","Bog","Jungle","Forest","Tundra","Snow","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone","Dead Land","Fallout Land","Genesis Soil","Tek Soil"],
-		"production": 1,
-		"improvement": "Mine",
-		
-		"uniques": ["Not shown on world screen <without [Oil]>","Generated on every [60] tiles <in [Tundra] tiles>","Generated on every [60] tiles <in [Jungle] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-        {
-		"name": "Organic Polymer",
-                "revealedBy": "Polymer",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Lost Snow","Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Snow","Snowy Beach","Tundra","Genesis Soil","Tek Soil"],
-		"science": 1,
-		"improvement": "Camp",
-		
-		"uniques": ["Not shown on world screen <without [Organic Polymer]>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [60] tiles <in [Snowy Beach] tiles>"]
-	},
-        {
-		"name": "Biotoxin",
-                "revealedBy": "Cryopod",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Ocean","Coast","Genesis Lake"],
-		"science": 2,
-		"improvement": "Fishing Boats",
-            "uniques": ["Water Resource","Not shown on world screen <without [Biotoxin]>","Generated on every [120] tiles <in [Coast] tiles>","Generated on every [150] tiles <in [Ocean] tiles>"]
-	},
-        {
-		"name": "Tek",
-                "terrainsCanBeFoundOn": ["Eldritch","Genesis Soil","Tek Soil","Surface"],
-		"resourceType": "Strategic",
-		"production": 1,
-		"uniques":["Not shown on world screen <without [Tek]>"],
-		"improvement": "Mine"
-	},
+      "name": "Allosaurus",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Allosaurus is a pack‑hunting predator, smaller than a Rex but deadly in numbers. Survivors fear its coordinated attacks."}],
+      "uniques": ["Generated on every [120] tiles <in [Forest] tiles>","Generated on every [120] tiles <in [Jungle] tiles>","Generated on every [100] tiles <in [Montano] tiles>"]
+    },
+    {
+      "name": "Yutyrannus",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Yutyrannus is a feathered tyrant lizard, thriving in cold biomes. Its terrifying roar rallies allies and frightens foes."}],
+      "uniques": ["Generated on every [150] tiles <in [Snow] tiles>","Generated on every [120] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Purlovia",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Purlovia is a burrowing predator, ambushing prey from underground. Its stealth makes it a dangerous surprise in tundra and forests."}],
+      "uniques": ["Generated on every [120] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Tyrannosaurus",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Tyrannosaurus rex is the apex predator of the island. Its immense power and dominance make it a rare but feared encounter."}],
+      "uniques": ["Generated on every [200] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Woolly Rhino",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "The Woolly Rhino charges with devastating force, using its horn to trample foes. It thrives in snowy tundra biomes."}],
+      "uniques": ["Generated on every [120] tiles <in [Snow] tiles>","Generated on every [150] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Sarcosuchus",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Sarcosuchus is a massive crocodilian, lurking in swamps and coasts. Its ambush strikes make it a formidable aquatic predator."}],
+      "uniques": ["Generated on every [200] tiles <in [Coast] tiles>","Generated on every [120] tiles <in [Marsh] tiles>","Generated on every [120] tiles <in [Swamp Zone] tiles>"]
+    },
+    {
+      "name": "Basilosaurus",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Basilosaurus is a deep‑diving whale, resilient against ocean predators. Survivors prize it for its oil and blubber."}],
+      "uniques": ["Generated on every [150] tiles <in [Coast] tiles>"]
+    },
+    {
+      "name": "Megalodon",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Megalodon is the giant shark of legend, patrolling coastlines with unmatched ferocity. Its teeth are trophies of survival."}],
+      "uniques": ["Generated on every [120] tiles <in [Coast] tiles>"]
+    },
+    {
+      "name": "Mutagel",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Mutagel is a rare biochemical compound, harvested from strange biomes. It fuels genetic experiments and advanced evolution."}],
+      "uniques": ["Generated on every [300] tiles <in [Montano] tiles>","Generated on every [300] tiles <in [Snowy Beach] tiles>","Generated on every [300] tiles <in [Beach] tiles>","Generated on every [600] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Absorbent Substrate",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Absorbent substrate is a crafted resource, used to filter toxins and create advanced chemical compounds."}],
+      "uniques": ["Generated on every [300] tiles <in [Montano] tiles>","Generated on every [300] tiles <in [Snowy Beach] tiles>","Generated on every [300] tiles <in [Beach] tiles>","Generated on every [600] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Element Ore",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Element ore is a rare crystalline resource, harvested from deep biomes. It is the foundation of Tek technology."}],
+      "uniques": ["Generated on every [500] tiles <in [Montano] tiles>","Generated on every [500] tiles <in [Snowy Beach] tiles>","Generated on every [500] tiles <in [Beach] tiles>","Generated on every [900] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Lithium",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Lithium is a rare mineral, vital for energy storage and advanced crafting. It is found in deep biomes and rocky hills."}],
+      "uniques": ["Generated on every [500] tiles <in [Montano] tiles>","Generated on every [500] tiles <in [Snowy Beach] tiles>","Generated on every [500] tiles <in [Beach] tiles>","Generated on every [900] tiles <in [Hill] tiles>"]
+    },
 	// Luxury resources
-	{
-		"name": "Cotton",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Grassland","Flood plains"],
-		"gold": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
-	},
-	{
-		"name": "Allosaurus",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Montano","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Jungle","Grassland","Plains","Forest","Volcanic Soil","Genesis Soil","Tek Soil","Redwoods"],
-		"food": 1,
-		"improvement": "Camp",
-		"uniques": ["Not shown on world screen <without [Allosaurus]>","Generated on every [60] tiles <in [Forest] tiles>","Generated on every [60] tiles <in [Jungle] tiles>","Generated on every [60] tiles <in [Montano] tiles>"]
-	},
-                {
-		"name": "Ravager",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Aberrant Green Zone","Aberrant Blue Zone"],
-		"food": 1,
-                "uniques": ["Not shown on world screen <without [Ravager]>","Generated on every [60000] tiles <in [Grassland] tiles>"]
-		"improvement": "Camp",
-		
-	},
-                {
-		"name": "Yutyrannus",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Snow","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra"],
-		"food": 1,
-                "uniques": ["Not shown on world screen <without [Yutyrannus]>","Generated on every [70] tiles <in [Snow] tiles>"]
-		"improvement": "Camp",
-		
-	},
-        {
-		"name": "Purlovia",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Forest","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Tundra","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
-		"food": 1,
-		"improvement": "Camp",
-		
-		"uniques": ["Not shown on world screen <without [Purlovia]>","Generated on every [65] tiles <in [Tundra] tiles>"]
-	},
-	{
-		"name": "Cristal",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Sulphur",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Hill","Forest","Jungle"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Cementing Paste",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Montano"],
-		"gold": 2,
-		"improvement": "Camp",
-		"uniques": ["Not shown on world screen <without [Cementing Paste]>","Generated on every [10] tiles <in [Montano] tiles>"]
-	},
-	{
-		"name": "Tyrannosaurus",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Hill","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Genesis Soil","Tek Soil"],
-		"gold": 2,
-		"improvement": "Camp",
-		"uniques": ["Not shown on world screen <without [Tyrannosaurus]>","Generated on every [70] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Woolly Rhino",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Tundra","Snow","Genesis Soil","Tek Soil"],
-		"gold": 2,
-		"improvement": "Camp",
-		
-		"uniques": ["Not shown on world screen <without [Woolly Rhino]>","Generated on every [60] tiles <in [Snow] tiles>","Generated on every [90] tiles <in [Tundra] tiles>"]
-	},
-        {
-		"name": "Velona",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
-		"food": 2,
-		"uniques":["Not shown on world screen <without [Velona]>"],
-		"improvement": "Camp"
-		
-	},
-        {
-		"name": "Managarmr",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Fallout Land","Tundra"],
-		"food": 2,
-		"uniques":["Not shown on world screen <without [Managarmr]>"],
-		"improvement": "Camp"
-		
-	},
-
-	{
-		"name": "Obsidian",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland","Plains","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated on every [600] tiles <in [Grassland] tiles>"]
-	},
-	{
-		"name": "Sand",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Montano"],
-		"production": 1,
-		"improvement": "Mine",
-		"uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
-	},
-	{
-		"name": "Sarcosuchus",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Dry Desert Biome","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Coast","Swamp Zone","Aberrant Blue Zone","Aberrant Green Zone","Grassland","Bog"],
-		"gold": 2,
-		"improvedBy": ["Camp", "Fishing Boats"],
-		
-		"uniques": ["Not shown on world screen <without [Sarcosuchus]>","Generated on every [600] tiles <in [Grassland] tiles>","Generated on every [140] tiles <in [Coast] tiles>","Generated on every [60] tiles <in [Marsh] tiles>","Generated on every [60] tiles <in [Swamp Zone] tiles>"]
-	},
-        {
-		"name": "Fruit",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle","Bog"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Not shown on world screen <without [Fruit]>","Generated on every [60] tiles <in [Jungle] tiles>"]
-	},
-	{
-		"name": "Basilosaurus",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Basilosaurus]>","Generated on every [60] tiles <in [Coast] tiles>"]
-	},
-	{
-		"name": "Black Pearl",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Generated on every [600] tiles <in [Coast] tiles>"]
-	},
-	{
-		"name": "Blue Gem",
-                "terrainsCanBeFoundOn": ["Hill"],
-		"resourceType": "Luxury",
-                "improvement": "Mine",
-		"gold": 2,
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Red Gem",
-                "terrainsCanBeFoundOn": ["Hill"],
-                "improvement": "Mine",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Green Gem",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
-		"gold": 2,
-		"improvement": "Quarry",
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-	{
-		"name": "Keratin",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra","Beach"],
-		"gold": 2,
-		"improvement": "Camp",
-		"uniques": ["Generated on every [400] tiles <in [Beach] tiles>"]
-	},
-	{
-		"name": "Megalodon",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Megalodon]>","Generated on every [20] tiles <in [Coast] tiles>"]
-	},
-	{
-		"name": "Titanium",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Titanium]>","Generated on every [40] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Bloom",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Bloom]>","Generated on every [40] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Angler Gel",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Ocean"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Angler Gel]>","Generated on every [40] tiles <in [Ocean] tiles>"]
-	},
-	{
-		"name": "Hard Shell",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Water Resource","Not shown on world screen <without [Hard Shell]>","Generated on every [40] tiles <in [Coast] tiles>"]
-	},
-        {
-		"name": "Rock Drake Egg",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Aberrant Pink Zone"],
-		"culture": 1,
-		"faith": 1,
-		"improvement": "Camp",
-		"uniques": ["Not shown on world screen <without [Rock Drake Egg]>","Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources"]
-	},
-	{
-		"name": "Crab",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Bay Biome"],
-		"food": 1,
-		"improvement": "Camp"
-	},
-	{
-		"name": "Starfish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"uniques":["Water Resource","Doesn't generate naturally"],
-		"improvement": "Fishing Boats"
-	},
-	{
-		"name": "Tullimonstrum",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes"],
-		"food": 1,
-		"uniques":["Doesn't generate naturally"],
-		"improvement": "Lake House"
-	},
-	{
-		"name": "Hippopotamus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Atlantis Biome"],
-		"food": 1,
-		"improvement": "Camp"
-	},
-	{
-		"name": "Seahorses",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"uniques":["Water Resource","Doesn't generate naturally"],
-		"food": 1,
-		"improvement": "Fishing Boats"
-	},
-	{
-		"name": "Abelisaurus",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Starlight Biome"],
-		"food": 1,
-		"improvement": "Camp"
-	},
-	{
-		"name": "Sheepshead Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"uniques":["Water Resource","Doesn't generate naturally"],
-		"food": 1,
-		"improvement": "Fishing Boats"
-	},
-	{
-		"name": "Galeaspida",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"uniques":["Doesn't generate naturally"],
-		"food": 1,
-		"improvement": "Fishing Boats"
-	},
-	{
-		"name": "Edmontonia",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tan Biome","Cradle"],
-		"food": 1,
-		"improvement": "Camp"
-	},
-	{
-		"name": "Saltwater Crocodile",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Bay Biome"],
-		"gold": 2,
-		"uniques":["Not shown on world screen <without [Saltwater Crocodile]>"],
-		"improvement": "Camp"
-	},
-	{
-		"name": "Dzungariotherium",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Tan Biome"],
-		"production": 1,
-		"uniques":["Not shown on world screen <without [Dzungariotherium]>"],
-		"improvement": "Camp"
-	},
-        {
-		"name": "Fertilizer",
-                "resourceType": "Strategic",
-                "revealedBy": "Metal Tap",
-				"uniques":["Not shown on world screen <without [Fertilizer]>"],
-                "civilopediaText": [
-			{"text": "Serves the porpouse of improving the yield from prehistoric plants."}
-		]
-	},
-        {
-		"name": "Worker",
-                "resourceType": "Strategic",
-                "revealedBy": "Reservoir",
-				"uniques":["Not shown on world screen <without [Worker]>"],
-                "civilopediaText": [
-			{"text": "Hard Working Civilian."}
-		]
-	},
-        {
-		"name": "Gas",
-                "resourceType": "Strategic",
-                "revealedBy": "Electronics",
-				"uniques":["Not shown on world screen <without [Gas]>"],
-                "civilopediaText": [
-			{"text": "Used to make danger suits and related stuff."}
-		]
-	},
-        {
-		"name": "Aquatic Mushroom",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
-		"food": 1,
-		"improvement": "Plantation",
-		"uniques": ["Not shown on world screen <without [Aquatic Mushroom]>","Generated on every [300] tiles <in [Grassland] tiles>","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources"]
-	},
-        {
-		"name": "Gas Vein",
-		"resourceType": "Bonus",
-                "revealedBy": "Electronics",
-		"terrainsCanBeFoundOn": ["Hill"],
-		"uniques":["Doesn't generate naturally"],
-                "improvement": "Gas Collector",
-		
-		"gold": 1,
-	}
-        {
-		"name": "Trash",
-		"resourceType": "Bonus",
-                "revealedBy": "Island Bosses",
-                "uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [30] tiles <in [Beach] tiles>","Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Grassland] tiles>","[-1 Happiness, -1 Production] [in all cities]"]
-		"terrainsCanBeFoundOn": ["Coast","Beach","Lakes","Grassland"],
-	}
-	{
-		"name": "Megalania",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hot Desert","Tundra","Plains","Forest"],
-		"gold": 2,
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [600] tiles <in [Tundra] tiles>"]
-	},
-	{
-		"name": "Lystrosaurus",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Lush","Marsh","Jungle","Beach"],
-		"gold": 2,
-		"improvement": "Camp",
-		
-		"uniques": ["Generated on every [600] tiles <in [Beach] tiles>"]
-	}
+    {
+      "name": "Cotton",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Lost Snow","Hot Desert","Lush","Grassland","Flood plains"],
+      "gold": 1,
+      "improvement": "Plantation",
+      "civilopediaText": [{"text": "Cotton is a soft fiber crop, valued for textiles and trade."}],
+      "uniques": ["Generated on every [6000] tiles <in [Grassland] tiles>"]
+    },
+    {
+      "name": "Ravager",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Eldritch","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Aberrant Green Zone","Aberrant Blue Zone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Ravagers are pack predators, swift and brutal, thriving in harsh biomes."}],
+      "uniques": ["Not shown on world screen <without [Ravager]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Cristal",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Jungle","Asteroid","Forest","Hill","Volcanic Soil","Genesis Soil","Tek Soil"],
+      "gold": 2,
+      "improvement": "Mine",
+      "civilopediaText": [{"text": "Crystals are rare mineral formations, prized for their brilliance and crafting uses."}],
+      "uniques": ["Generated on every [6000] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Sulphur",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Hill","Forest","Jungle"],
+      "gold": 2,
+      "improvement": "Mine",
+      "civilopediaText": [{"text": "Sulphur is a pungent mineral, used in explosives and alchemy."}],
+      "uniques": ["Generated on every [6000] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Cementing Paste",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Montano"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Cementing paste is a crafted adhesive, vital for strong structures and advanced tools."}],
+      "uniques": ["Not shown on world screen <without [Cementing Paste]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Velona",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Fallout Land","Genesis Soil","Tek Soil","Desert"],
+      "food": 2,
+      "civilopediaText": [{"text": "Velonasaur is a spiny predator, firing quills in rapid bursts to defend itself."}],
+      "uniques": ["Not shown on world screen <without [Velona]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Managarmr",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Dead Land","Atlantis Biome","Starlight Biome","Bay Biome","Tan Biome","Fallout Land","Tundra"],
+      "food": 2,
+      "civilopediaText": [{"text": "Managarmr is a frost‑dwelling drake, leaping and gliding while unleashing icy breath."}],
+      "uniques": ["Not shown on world screen <without [Managarmr]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Obsidian",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Grassland","Plains","Aberrant Blue Zone","Aberrant Green Zone","Aberrant Pink Zone"],
+      "gold": 2,
+      "improvement": "Mine",
+      "civilopediaText": [{"text": "Obsidian is volcanic glass, sharp and durable, used for tools and ornaments."}],
+      "uniques": ["Generated on every [6000] tiles <in [Grassland] tiles>"]
+    },
+    {
+      "name": "Sand",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Hot Desert","Lush","Desert","Dry Desert Biome","Montano"],
+      "production": 1,
+      "civilopediaText": [{"text": "Sand is abundant in deserts, a basic resource for glass and construction."}],
+      "improvement": "Mine",
+      "uniques": ["Generated on every [100] tiles <in [Desert] tiles>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Fruit",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Jungle","Bog"],
+      "food": 1,
+      "civilopediaText": [{"text": "Wild fruits provide nourishment and variety, harvested from jungle and bog biomes."}],
+      "uniques": ["Not shown on world screen <without [Fruit]>","Doesn't generate naturally"],
+      "improvement": "Plantation"
+    },
+    {
+      "name": "Black Pearl",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Black pearls are rare ocean treasures, valued for trade and advanced crafting."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Generated on every [6000] tiles <in [Coast] tiles>"]
+    },
+    {
+      "name": "Blue Gem",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hill"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Blue gems are crystalline minerals, rare and luminous, used in advanced crafting."}],
+      "improvement": "Mine",
+      "uniques": ["Generated on every [6000] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Red Gem",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hill"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Red gems are rare minerals, glowing with fiery hues, prized for their rarity."}],
+      "improvement": "Mine",
+      "uniques": ["Generated on every [6000] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Green Gem",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Green gems are mystical stones, found in lush biomes, used for alchemy and trade."}],
+      "improvement": "Quarry",
+      "uniques": ["Generated on every [6000] tiles <in [Hill] tiles>"]
+    },
+    {
+      "name": "Keratin",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra","Beach"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Keratin is harvested from horns and shells, a tough material used for crafting."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [4000] tiles <in [Beach] tiles>"]
+    },
+    {
+      "name": "Titanium",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Titanium is a strong metal, rare in oceans, used for advanced structures."}],
+      "uniques": ["Water Resource","Not shown on world screen <without [Titanium]>","Doesn't generate naturally"],
+      "improvement": "Fishing Boats"
+    },
+    {
+      "name": "Bloom",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Bloom is a rare oceanic compound, glowing with bioluminescence, harvested for science."}],
+      "uniques": ["Water Resource","Not shown on world screen <without [Bloom]>","Doesn't generate naturally"],
+      "improvement": "Fishing Boats"
+    },
+    {
+      "name": "Angler Gel",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Ocean"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Angler gel is harvested from deep‑sea creatures, a potent fuel source prized by survivors."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Not shown on world screen <without [Angler Gel]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Hard Shell",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Hard shells are collected from marine creatures, used for crafting durable items."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Not shown on world screen <without [Hard Shell]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Rock Drake Egg",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Aberrant Pink Zone"],
+      "culture": 1,
+      "faith": 1,
+      "civilopediaText": [{"text": "Rock Drake eggs are rare and coveted, representing survival in the most hostile biomes."}],
+      "improvement": "Camp",
+      "uniques": ["Not shown on world screen <without [Rock Drake Egg]>","Cannot be traded","Deposits in [Aberrant Pink Zone] tiles always provide [3] resources","Doesn't generate naturally"]
+    },
+    {
+      "name": "Crab",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Bay Biome"],
+      "food": 1,
+      "civilopediaText": [{"text": "Crabs scuttle along bays, a simple food source for survivors."}],
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Starfish",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "food": 1,
+      "civilopediaText": [{"text": "Starfish are ocean dwellers, decorative and occasionally useful in trade."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Doesn't generate naturally"]
+    },
+    {
+      "name": "Tullimonstrum",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Lakes"],
+      "food": 1,
+      "civilopediaText": [{"text": "Tullimonstrum is a strange prehistoric lake creature, rare and mysterious."}],
+      "improvement": "Lake House",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Hippopotamus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Atlantis Biome"],
+      "food": 1,
+      "civilopediaText": [{"text": "Hippopotamus are semi‑aquatic giants, dangerous yet vital to river ecosystems."}],
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Seahorses",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "food": 1,
+      "civilopediaText": [{"text": "Seahorses are delicate marine creatures, valued for their rarity and beauty."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Doesn't generate naturally"]
+    },
+    {
+      "name": "Abelisaurus",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Starlight Biome"],
+      "food": 1,
+      "civilopediaText": [{"text": "Abelisaurus is a carnivorous dinosaur, roaming starlit biomes with predatory strength."}],
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Sheepshead Fish",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "food": 1,
+      "civilopediaText": [{"text": "Sheepshead fish are coastal dwellers, known for their distinctive teeth and diet."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Water Resource","Doesn't generate naturally"]
+    },
+    {
+      "name": "Galeaspida",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast"],
+      "food": 1,
+      "civilopediaText": [{"text": "Galeaspida are ancient armored fish, rare fossils of the ocean depths."}],
+      "improvement": "Fishing Boats",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Edmontonia",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Tan Biome","Cradle"],
+      "food": 1,
+      "civilopediaText": [{"text": "Edmontonia is a heavily armored herbivore, slow but resilient against predators."}],
+      "improvement": "Camp",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Saltwater Crocodile",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Bay Biome"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Saltwater crocodiles are apex predators of bays, feared for their ambush strikes."}],
+      "uniques": ["Not shown on world screen <without [Saltwater Crocodile]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Dzungariotherium",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Tan Biome"],
+      "production": 1,
+      "civilopediaText": [{"text": "Dzungariotherium is a massive prehistoric mammal, rare and formidable in tan biomes."}],
+      "uniques": ["Not shown on world screen <without [Dzungariotherium]>","Doesn't generate naturally"],
+      "improvement": "Camp"
+    },
+    {
+      "name": "Fertilizer",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Fertilizer improves the yield of prehistoric plants, vital for agriculture."}],
+      "uniques": ["Not shown on world screen <without [Fertilizer]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Worker",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Workers are hardy civilians, essential for building and maintaining settlements."}],
+      "uniques": ["Not shown on world screen <without [Worker]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Gas",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Gas is refined for use in crafting hazard suits and advanced equipment."}],
+      "uniques": ["Not shown on world screen <without [Gas]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Aquatic Mushroom",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Aberrant Green Zone","Aberrant Blue Zone"],
+      "food": 1,
+      "civilopediaText": [{"text": "Aquatic mushrooms grow in aberrant zones, consumed for sustenance and special effects."}],
+      "improvement": "Plantation",
+      "uniques": ["Not shown on world screen <without [Aquatic Mushroom]>","Cannot be traded","Deposits in [Aberrant Blue Zone] tiles always provide [3] resources","Deposits in [Aberrant Green Zone] tiles always provide [3] resources","Doesn't generate naturally"]
+    },
+    {
+      "name": "Gas Vein",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Hill"],
+      "gold": 1,
+      "civilopediaText": [{"text": "Gas veins are natural vents, tapped with collectors to harvest volatile resources."}],
+      "improvement": "Gas Collector",
+      "uniques": ["Doesn't generate naturally"]
+    },
+    {
+      "name": "Trash",
+      "resourceType": "Bonus",
+      "terrainsCanBeFoundOn": ["Coast","Beach","Lakes","Grassland"],
+      "civilopediaText": [{"text": "Trash is scattered debris, polluting environments and reducing productivity."}],
+      "uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [30] tiles <in [Beach] tiles>","Generated on every [400] tiles <in [Ocean] tiles>","Generated on every [30] tiles <in [Grassland] tiles>","[-1 Happiness, -1 Production] [in all cities]","Doesn't generate naturally"]
+    },
+    {
+      "name": "Megalania",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Desert","Hot Desert","Tundra","Plains","Forest"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Megalania is a giant lizard, rare and dangerous, valued as a trophy resource."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [6000] tiles <in [Tundra] tiles>"]
+    },
+    {
+      "name": "Lystrosaurus",
+      "resourceType": "Luxury",
+      "terrainsCanBeFoundOn": ["Forest","Lush","Marsh","Jungle","Beach"],
+      "gold": 2,
+      "civilopediaText": [{"text": "Lystrosaurus is a small herbivore, resilient and symbolic of survival, valued as a rare luxury."}],
+      "improvement": "Camp",
+      "uniques": ["Generated on every [6000] tiles <in [Beach] tiles>"]
+    },
         {
 		"name": "Phiomia Meat",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Ovis Milk",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Sushi",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Dough",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Tomato",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Vegetal Oil",
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
         {
 		"name": "Jewelry",
@@ -1279,142 +1214,116 @@
 {
 		"name": "Leather",
 		"uniques":["Not shown on world screen <without [Leather]>"],
-		"resourceType": "Strategic",
+		"resourceType": "Strategic"
 	},
 {
 		"name": "Reeds",
 		"uniques":["Not shown on world screen <without [Reeds]>"],
-		"resourceType": "Strategic",
+		"resourceType": "Strategic"
 	},
 {
 		"name": "Scales",
 		"uniques":["Not shown on world screen <without [Scales]>"],
-		"resourceType": "Strategic",
-	},
-{
-		"name": "Fenrir",
-                "terrainsCanBeFoundOn": ["Fjord Land","Fjordlush"],
-		"faith": 2,
-		"uniques":["Not shown on world screen <without [Fenrir]>"],
-		"improvement": "Camp",
-		"resourceType": "Strategic",
+		"resourceType": "Strategic"
 	},
 	{
 		"name": "Alpha Essence",
 		"uniques": ["Not shown on world screen <without [Alpha Essence]>","Stockpiled"],
-		"resourceType": "Strategic",
-	},
-{
-		"name": "Silk",
-                "terrainsCanBeFoundOn": ["Desert","Mirage","Dry Desert Biome","Plains","Tundra"],
-		"production": 1,
-		"improvement": "Plantation",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Silk]>","Generated on every [250] tiles <in [Desert] tiles>","Generated on every [350] tiles <in [Plains] tiles>","Generated on every [450] tiles <in [Tundra] tiles>"]
-	},
-
-
-{
-		"name": "Electronics",
-                "terrainsCanBeFoundOn": ["Montano","Dead Land"],
-		"culture": 2,
-		"improvement": "Mine",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Electronics]>","Doesn't generate naturally"]
-	},
-	{
-		"name": "Government",
-		"uniques":["Not shown on world screen <without [Government]>"],
 		"resourceType": "Strategic"
 	},
-{
-		"name": "Bones",
-                "terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Montano","Dead Land"],
-		"culture": 2,
-		"improvement": "Mine",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Bones]>","Doesn't generate naturally"]
-	},
-
-{
-		"name": "Rat Cheese",
-		"resourceType": "Strategic",
-        "uniques": ["Not shown on world screen <without [Rat Cheese]>","Cannot be traded"]
-	},
-{
-		"name": "Mutagel",
-                "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Hill","Montano"],
-		"science": 2,
-		"improvement": "Mine",
-                "revealedBy": "Scorched Earth Boss",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Mutagel]>","Generated on every [200] tiles <in [Montano] tiles>","Generated on every [200] tiles <in [Snowy Beach] tiles>","Generated on every [200] tiles <in [Beach] tiles>","Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-{
-		"name": "Absorbent Substrate",
-                "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Hill","Montano"],
-		"science": 2,
-		"improvement": "Mine",
-                "revealedBy": "Scorched Earth Boss",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Absorbent Substrate]>","Generated on every [200] tiles <in [Montano] tiles>","Generated on every [200] tiles <in [Snowy Beach] tiles>","Generated on every [200] tiles <in [Beach] tiles>","Generated on every [600] tiles <in [Hill] tiles>"]
-	},
-{
-		"name": "Element Ore",
-                "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Hill","Montano"],
-		"science": 2,
-		"improvement": "Mine",
-                "revealedBy": "Aberration Boss",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Element Ore]>","Generated on every [400] tiles <in [Montano] tiles>","Generated on every [400] tiles <in [Snowy Beach] tiles>","Generated on every [400] tiles <in [Beach] tiles>","Generated on every [900] tiles <in [Hill] tiles>"]
-	},
-{
-		"name": "Lithium",
-                "terrainsCanBeFoundOn": ["Beach","Snowy Beach","Hill","Montano"],
-		"science": 2,
-		"improvement": "Mine",
-                "revealedBy": "Aberration Boss",
-		"resourceType": "Strategic",
-                "uniques": ["Not shown on world screen <without [Lithium]>","Generated on every [400] tiles <in [Montano] tiles>","Generated on every [400] tiles <in [Snowy Beach] tiles>","Generated on every [400] tiles <in [Beach] tiles>","Generated on every [900] tiles <in [Hill] tiles>"]
-},
-{
-	"name": "Alpha Points",
-	"uniques": ["Not shown on world screen <without [Alpha Points]>","Stockpiled"],
-    "resourceType": "Strategic"
-},
-{
-	"name": "Gamma Points",
-	"uniques": ["Not shown on world screen <without [Gamma Points]>","Stockpiled"],
-	"resourceType": "Strategic"
-},
-{
-	"name": "Beta Points",
-	"uniques": ["Not shown on world screen <without [Beta Points]>","Stockpiled"],
-	"resourceType": "Strategic"
-},
-{
-		"name": "Uranium",
-		"uniques":["Not shown on world screen <without [Uranium]>"],
-		"resourceType": "Strategic"
-},
-{
-		"name": "Relic",
-		"uniques":["Not shown on world screen <without [Relic]>"],
-		"resourceType": "Strategic"
-},
-{
-		"name": "Wild Dreadnoughtus",
-		"terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
-		"science": 1,
-		"uniques":["Not shown on world screen <without [Wild Dreadnoughtus]>"],
-		"improvement": "Camp",
-		"resourceType": "Strategic",
-},
-{
-		"name": "Fame",
-		"uniques":["Not shown on world screen <without [Fame]>"],
-		"resourceType": "Strategic",
-},
+    {
+      "name": "Fenrir",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Fjord Land","Fjordlush"],
+      "faith": 2,
+      "civilopediaText": [{"text": "Fenrir is a mythical wolf, rare and powerful, symbolizing primal faith."}],
+      "improvement": "Camp",
+      "uniques": ["Not shown on world screen <without [Fenrir]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Silk",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Desert","Mirage","Dry Desert Biome","Plains","Tundra"],
+      "production": 1,
+      "civilopediaText": [{"text": "Silk is a delicate fiber, woven into fine garments and valued for trade."}],
+      "improvement": "Plantation",
+      "uniques": ["Not shown on world screen <without [Silk]>","Generated on every [250] tiles <in [Desert] tiles>","Generated on every [350] tiles <in [Plains] tiles>","Generated on every [450] tiles <in [Tundra] tiles>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Electronics",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Montano","Dead Land"],
+      "culture": 2,
+      "civilopediaText": [{"text": "Electronics are advanced components, powering modern technology and culture."}],
+      "improvement": "Mine",
+      "uniques": ["Not shown on world screen <without [Electronics]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Government",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Government represents organized authority, enabling structured societies."}],
+      "uniques": ["Not shown on world screen <without [Government]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Bones",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Desert","Dry Desert Biome","Montano","Dead Land"],
+      "culture": 2,
+      "civilopediaText": [{"text": "Bones are remnants of creatures, used for crafting and symbolic rituals."}],
+      "improvement": "Mine",
+      "uniques": ["Not shown on world screen <without [Bones]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Rat Cheese",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Rat cheese is a quirky resource, rare and untradeable, symbolizing survival oddities."}],
+      "uniques": ["Not shown on world screen <without [Rat Cheese]>","Cannot be traded","Doesn't generate naturally"]
+    },
+    {
+      "name": "Alpha Points",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Alpha points are rare achievements, stockpiled as proof of dominance."}],
+      "uniques": ["Not shown on world screen <without [Alpha Points]>","Stockpiled","Doesn't generate naturally"]
+    },
+    {
+      "name": "Gamma Points",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Gamma points are earned through trials, stored as marks of progress."}],
+      "uniques": ["Not shown on world screen <without [Gamma Points]>","Stockpiled","Doesn't generate naturally"]
+    },
+    {
+      "name": "Beta Points",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Beta points are milestones of survival, stockpiled as rare currency."}],
+      "uniques": ["Not shown on world screen <without [Beta Points]>","Stockpiled","Doesn't generate naturally"]
+    },
+    {
+      "name": "Uranium",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Uranium is a powerful radioactive resource, enabling advanced energy and weaponry."}],
+      "uniques": ["Not shown on world screen <without [Uranium]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Relic",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Relics are ancient artifacts, treasured for their cultural and mystical value."}],
+      "uniques": ["Not shown on world screen <without [Relic]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Wild Dreadnoughtus",
+      "resourceType": "Strategic",
+      "terrainsCanBeFoundOn": ["Dead Land","Fallout Land"],
+      "science": 1,
+      "civilopediaText": [{"text": "Wild Dreadnoughtus is a colossal sauropod, rare and awe‑inspiring in hostile lands."}],
+      "improvement": "Camp",
+      "uniques": ["Not shown on world screen <without [Wild Dreadnoughtus]>","Doesn't generate naturally"]
+    },
+    {
+      "name": "Fame",
+      "resourceType": "Strategic",
+      "civilopediaText": [{"text": "Fame is intangible recognition, a resource of prestige and influence."}],
+      "uniques": ["Not shown on world screen <without [Fame]>","Doesn't generate naturally"]
+    },
 
 /// NEW MAPS
 {
@@ -1534,15 +1443,15 @@
 		"name": "Pseudaquamorpha",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Habitable Water"],
-		"gold": 3,
-	}
+		"gold": 3
+	},
         {
 		"name": "Propatripota",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Habitable Water"],
 		"gold": 2,
-                "culture": 1,
-	}
+                "culture": 1
+	},
         {
 		"name": "Kraboida",
 		"resourceType": "Bonus",
@@ -1550,8 +1459,8 @@
                 "improvement": "Camp",
 		
 		"happiness": 1,
-                "faith": 2,
-	}
+                "faith": 2
+	},
         {
 		"name": "Mastodontias",
 		"resourceType": "Bonus",
@@ -1559,8 +1468,8 @@
                 "improvement": "Camp",
 		
 		"happiness": 1,
-                "gold": 2,
-	}
+                "gold": 2
+	},
         {
 		"name": "Sorias",
 		"resourceType": "Bonus",
@@ -1568,14 +1477,14 @@
                 "improvement": "Camp",
 		
 		"faith": 1,
-                "culture": 2,
-	}
+                "culture": 2
+	},
         {
 		"name": "Leptocla",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Twilight Forest"],
                 "improvement": "Camp",
 		
-                "science": 1,
+                "science": 1
 	}
 ]

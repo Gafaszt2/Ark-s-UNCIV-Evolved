@@ -842,7 +842,6 @@ As the months passed, the Steampunkers awaited her return. They patched up the z
 {
 		"name": "Mighty Caliphate",
 		"leaderName": "Hafsa",
-        "personality": "Amelia",
 		"adjective": ["Caliphate"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Ascension",
@@ -1631,7 +1630,6 @@ But even in the darkest times, hope flickered. Clara and her lion riders stood a
 {
 		"name": "Really Basic",
 		"leaderName": "Buglord",
-                "personality": "Buglord",
 		"adjective": ["Really Basic"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Ascension",
@@ -2341,7 +2339,6 @@ Will you raise a civilization from the depths, harnessing the secrets of pressur
 	{
 		"name": "The Revenants",
 		"leaderName": "Alpha Revenant",
-		"personality": "The Revenants",
 		"adjective": ["Terran Federation"],
 		"startBias": ["Corrupted Snow"],
 		"preferredVictoryType": "Domination",
@@ -2372,7 +2369,6 @@ Will you raise a civilization from the depths, harnessing the secrets of pressur
 	{
 		"name": "Terran Federation",
 		"leaderName": "Alfred Kurch",
-		"personality": "Terran Federation",
 		"adjective": ["Terran Federation"],
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination",
@@ -2403,7 +2399,6 @@ Will you raise a civilization from the depths, harnessing the secrets of pressur
 	{
 		"name": "The URE",
 		"leaderName": "Amelie Waldmann",
-		"personality": "The URE",
 		"adjective": ["The URE"],
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination",
@@ -2433,7 +2428,6 @@ Will you raise a civilization from the depths, harnessing the secrets of pressur
 	{
 		"name": "Lost Colony",
 		"leaderName": "Darius Anthom",
-		"personality": "Lost King",
 		"adjective": ["Lost Colony"],
 		"startBias": ["Snow","Tundra","Hill"],
 		"preferredVictoryType": "Domination",
